@@ -14,8 +14,9 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+# Anchored to the repo root so they don't hide source folders like src/web/src/lib/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
