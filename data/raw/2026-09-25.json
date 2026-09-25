@@ -110,6 +110,244 @@
           "checkedAt": "2026-09-25T07:54:40.828558Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-25T15:22:13.366916+00:00",
+      "newItems": 42,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1229,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.441299Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.525958Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.526255Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.526501Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.526639Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.526769Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.526907Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527028Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527143Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527261Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527379Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527425Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527460Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527634Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527669Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527783Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.527907Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.528085Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-25T15:22:13.528206Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.528319Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.528430Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.528598Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.528722Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.528856Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.529324Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.529452Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.529575Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-25T15:22:13.529614Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: TAVILY_API_KEY is not set",
+          "checkedAt": "2026-09-25T15:22:13.529646Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -587,7 +825,553 @@
       "extra": {},
       "id": "d28c9f2467180637",
       "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "url": "https://huggingface.co/papers/2609.29845",
+      "publishedAt": "2026-09-25T00:00:00Z",
+      "excerpt": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we…",
+      "author": "Pavel Tikhonov, Anton Korznikov, Matvey Mikhalchuk, Nikita Dragunov, Temurbek Rahmatullaev, Polina Druzhinina, Anton Razzhigaev, Ivan Oseledets, Elena Tutubalina",
+      "extra": {
+        "upvotes": 24,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.29845"
+      },
+      "id": "c39d3732b86df64a",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+      "url": "https://huggingface.co/papers/2609.30221",
+      "publishedAt": "2026-09-25T00:00:00Z",
+      "excerpt": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic…",
+      "author": "Yubo Zhu, Yawen Shao, Ziyun Dai, Zixun Fang, Kai Zhu, Siyang Sun, Haolan Xue, Chuxin Wang, Tingyu Weng, Jingming Luo, Chen Shi, Lianghua Huang, Yufeng Ai, Yuzheng Wang, Wenyuan Zhang, Yu Shang, Yuxiang Bao, Zoubin Bi, Jie Xiao, Jinbo Xing, Jiaxing Zhao, Chongyang Zhong, Hengjian Chen, Chenwei Xie, Akide Liu, Zhehan Kan, Yu Liu, Wei Zhai, Sheng Zhong, Wei Tong",
+      "extra": {
+        "upvotes": 23,
+        "githubRepo": null,
+        "projectPage": "https://wan-pe.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2609.30221"
+      },
+      "id": "48ed5d53175a2a3a",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Edge0/Audio8-ASR-Infinite",
+      "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 542,
+        "trendingScore": 487,
+        "task": "automatic-speech-recognition"
+      },
+      "id": "2d569a17795f12b9",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker HyperPod Inference Gateway for scalable LLM inference",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/",
+      "publishedAt": "2026-09-24T08:00:00Z",
+      "excerpt": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing system that deploys as a single EKS managed add-on on existing SageMaker HyperPod infrastructure with zero application changes. By replacing unintelligent round-robin load balancing with real-time inference-signal-driven routing, it reduces first-token latency by up to 82% and p99 TTFT reductions of 97–98% in mixed-hardware and burst traffic scenarios. The Gateway is built around 3 core components. The Envoy…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "7aab91de3c532a2c",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+      "publishedAt": "2026-09-24T16:20:12Z",
+      "excerpt": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn how to deploy it to Amazon SageMaker AI real-time and asynchronous endpoints for word-level, speaker-labeled transcription, plus the production details that matter: the GPU AMI pin, scaling, and cost controls.",
+      "author": "Ayush Sharma",
+      "extra": {},
+      "id": "91b7777ba9531567",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+      "publishedAt": "2026-09-24T16:12:47Z",
+      "excerpt": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the agent using Amazon Bedrock AgentCore Gateway and MCP, while line-of-business accounts expose their data as MCP servers with secure cross-account access and fine-grained authorization.",
+      "author": "Senthil Kamala Rathinam",
+      "extra": {},
+      "id": "11a1146fb8b2c535",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Aderant builds intelligent ticket triage with Amazon Nova",
+      "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
+      "publishedAt": "2026-09-24T16:06:46Z",
+      "excerpt": "Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classification, routing, and knowledge enrichment for its cloud operations team.",
+      "author": "Angela Mapes",
+      "extra": {},
+      "id": "c55381360779a116",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "azure-blog",
+      "sourceName": "Azure Blog",
+      "title": "Ship agents faster with expanded model choice, voice agents, and continuous optimization",
+      "url": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/",
+      "publishedAt": "2026-09-24T18:00:00Z",
+      "excerpt": "The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it. The post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog .",
+      "author": "Tina Schuchman",
+      "extra": {},
+      "id": "6300c364080aaa3d",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Power your agents: Gemini 3.8 Live with Live Avatar is now generally available",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/",
+      "publishedAt": "2026-09-24T15:00:00Z",
+      "excerpt": "Following our announcement of Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking last week, we are thrilled to share that Gemini 3.8 Live with Live Avatar is now generally available in Gemini Enterprise . First previewed at Google Cloud Next 2026 , the technology is now officially ready for enterprise production. As enterprise voice AI evolves beyond basic speed and cost metrics, our priority has shifted to making each interaction even higher quality. Gemini 3.8 Live already delivers a…",
+      "author": "Fabien Blanc-paques",
+      "extra": {},
+      "id": "cb472ae98af30002",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "How growing Latin American midsize businesses are building in the AI era",
+      "url": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/",
+      "publishedAt": "2026-09-24T14:30:00Z",
+      "excerpt": "Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And just like their enterprise peers, everywhere you look, ambitious teams are moving fast to embrace AI. Many have already transitioned from experimenting with generative tools and agentic workflows to using them every day to work smarter, save time, and deliver exceptional customer experiences.…",
+      "author": "Andre Alves",
+      "extra": {},
+      "id": "5691875c26587799",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "The three things today's hottest startups are looking for in their AI stack",
+      "url": "https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack/",
+      "publishedAt": "2026-09-24T13:00:00Z",
+      "excerpt": "Google Cloud has become the platform of choice for startups building AI. Our uniquely complete stack — including a choice of first- and third-party compute and models ; our platform for building and managing agents; and our products for securing AI workloads — has emerged as the single most important driver of this growth and it is powering AI development for many of the most exciting and innovative startups in the world. As a result, startups are choosing to build and run on Google Cloud at a…",
+      "author": "Darren Mowry",
+      "extra": {},
+      "id": "8e3335cd5bc36474",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
+      "url": "https://arxiv.org/abs/2609.28475",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28475v1 Announce Type: new \nAbstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior should be trusted. We study this question on ForecastBench-style binary forecasting tasks, treating the choice to retrieve, reason, defer to a market prior, or use a historical analog as an observable agent behavior rather than a hidden implementation detail. Our central finding is that mechanism…",
+      "author": "Yufeng Wang",
+      "extra": {},
+      "id": "2907ba2fb91d5107",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+      "url": "https://arxiv.org/abs/2609.28506",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28506v1 Announce Type: new \nAbstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step systems that use agents or language models to reason about, generate or select forecasts. TW3Cast runs no agent and no language model. Its selection is a table computed once on the training split and then frozen, and its…",
+      "author": "Nathan Thierry, Andre-Louis Rochet",
+      "extra": {},
+      "id": "18734c63e6d8f8c4",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "PAWS: Policy-driven Agentic World Simulation",
+      "url": "https://arxiv.org/abs/2609.28547",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28547v1 Announce Type: new \nAbstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-agent simulation rarely connect these processes to temporally aligned historical evidence. We introduce PAWS, a Policy-driven Agentic World Simulation dataset covering 36 verified U.S. financial and economic policy episodes, 12,727 policy-linked news records, and 65,291 source-grounded stakeholder…",
+      "author": "Tiviatis Sim, Jia Hui Woon, Xinming Gao, Chen Gao, Fengbin Zhu, Zheng Huanhuan, Chua Tat Seng, Kenji Kawaguchi",
+      "extra": {},
+      "id": "b301ad5404a13477",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
+      "url": "https://arxiv.org/abs/2609.28557",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28557v1 Announce Type: new \nAbstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate established bioinformatics tools at scale. What remains manual is the decision layer surrounding that execution: selecting quality thresholds appropriate to a sample and platform, adjudicating borderline variant calls, diagnosing anomalies, and determining which findings warrant…",
+      "author": "Eranga Bandara, Xueping Liang, Asanga Gunaratna, Tharaka Hewa, Abdul Rahman, Peter Foytik, Safdar H. Bouk, Sachini Rajapakse, Isurunima Kularathna, Pramoda Karunarathna, Chalani Rajapakse, Ng Wee Keong, Kasun De Zoysa, Amin Hass, Wathsala Herath, Ross Gore, Ravi Mukkamala, Nihal Siriwardanagea, Gihan Siriwardanagea, Aruna Withanage, Nilaan Loganathan, Sachin Shetty",
+      "extra": {},
+      "id": "ac78d98185b71ee9",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment",
+      "url": "https://arxiv.org/abs/2609.28575",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28575v1 Announce Type: new \nAbstract: Long-conversation memory benchmarks increasingly test recall and prompted knowledge updates, and recent work studies evolving user beliefs and memory state. TWIST is a proposed benchmark suite for a complementary, unmeasured property: intervention quality -- whether a deployed memory system, exercised through its own ingest/recall/vet surface, acts correctly at belief change points. Four tracks cover unprompted tension detection, vetting…",
+      "author": "Subrat Panda",
+      "extra": {},
+      "id": "fc509aaa75739827",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
+      "url": "https://arxiv.org/abs/2609.28609",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28609v1 Announce Type: new \nAbstract: Role-playing agents based on large language models have been widely applied in areas such as personalized assistance and social simulation. Recent RL methods typically train on a fixed scenario pool collected before learning begins. This creates a distributional bottleneck: as the agent improves, the scenarios where it performs poorly also change, while the training distribution remains static. Therefore, we propose AdvRole, an adversarial…",
+      "author": "Zheng Zhang, Liu Liu, Qi Chai, Deheng Ye, Peilin Zhao, Mao Zheng, Hao Wang",
+      "extra": {},
+      "id": "881efa181dfad0ea",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+      "url": "https://arxiv.org/abs/2609.28614",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28614v1 Announce Type: new \nAbstract: Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward criteria without achieving the intended goal. We study (1) how often models reward-hack without instructions to do so, (2) how effective and detectable their methods are when hacking is allowed, and (3) how they…",
+      "author": "Yue Huang, Zhangchen Xu, Yuchen Ma, Wenjie Wang, Zheyuan Liu, Ziwei Xu, Pin-Yu Chen, Michel Galley, Zinan Lin, Stefan Feuerriegel, Radha Poovendran, Misha Sra, Alex Pentland, Xiangliang Zhang, Zichen Chen",
+      "extra": {},
+      "id": "d7b394fb4cc4b0f0",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
+      "url": "https://arxiv.org/abs/2609.28673",
+      "publishedAt": "2026-09-25T04:00:00Z",
+      "excerpt": "arXiv:2609.28673v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human interlocutors. In this study, we focus on character attacks (ad hominem arguments), traditionally dismissed as fallacies, which play a pivotal role in political persuasive dialogues where ethos often rivals propositional content. Specifically, we investigate…",
+      "author": "Ewelina Gajewska, Katarzyna Budzynska, Jaroslaw Chudziak",
+      "extra": {},
+      "id": "2987e17d6f6349af",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "publishedAt": "2026-09-25T05:37:00Z",
+      "excerpt": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+      "author": null,
+      "extra": {},
+      "id": "86ae669071a3bfc9",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/p/runway",
+      "publishedAt": "2026-09-25T01:30:57Z",
+      "excerpt": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "author": "Richard MacManus",
+      "extra": {},
+      "id": "cf1f7303557fdea8",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "publishedAt": "2026-09-24T15:03:16Z",
+      "excerpt": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+      "author": "Adrian Sanborn",
+      "extra": {},
+      "id": "70819f21132eb948",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Gemini 3.8 Flash TTS: Build an Expressive AI Voice Agent with Google’s New TTS API",
+      "url": "https://medium.com/@adityasavaliya/gemini-3-8-flash-tts-build-an-expressive-ai-voice-agent-with-googles-new-tts-api-bdd27bd589fd?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T14:35:58Z",
+      "excerpt": "A practical developer guide to Gemini 3.8 Flash TTS and Flash-Lite TTS — from your first WAV file to emotion, pacing, multi-speaker… Continue reading on Medium »",
+      "author": "Aditya Savaliya",
+      "extra": {},
+      "id": "ce1f0df5a948784e",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Do Multi-Agent LLM Systems Actually Help? We Tested It Across 270 Runs",
+      "url": "https://medium.com/@amanhmalik/do-multi-agent-llm-systems-actually-help-we-tested-it-across-270-runs-ec96645961a6?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T14:22:48Z",
+      "excerpt": "More agents sound more capable. Our experiment found that the coordination between them may matter more than the number of agents. Continue reading on Medium »",
+      "author": "Aman malik",
+      "extra": {},
+      "id": "cde8c8478cacfbc0",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Will AI replace you?",
+      "url": "https://medium.com/@geekai.id/will-ai-replace-you-ed02d6ea1967?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T14:19:16Z",
+      "excerpt": "Hari ini, penggunaan AI, khususnya generative AI, sudah tidak lagi bisa dibendung. Continue reading on Medium »",
+      "author": "GeekAI.ID",
+      "extra": {},
+      "id": "dad6091bcf013bb4",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Visibility, KFO & Hospitality AI Resources | AGR",
+      "url": "https://medium.com/@apaul_59958/ai-visibility-kfo-hospitality-ai-resources-agr-12ad93060246?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T14:02:54Z",
+      "excerpt": "Americas Great Resorts publishes original research, frameworks, model evaluation records, case studies, guides, and analysis on how… Continue reading on Medium »",
+      "author": "Andrew Paul",
+      "extra": {},
+      "id": "dc29d639a9516a74",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Enterprise AI Fails at the Schema Layer: Data Lineage & AI Readiness",
+      "url": "https://medium.com/@3xdataengineering/enterprise-data-lineage-for-ai-readiness-68bca84be418?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T13:51:01Z",
+      "excerpt": "Increasing context windows cannot fix unmapped schemas. Why enterprise AI projects break on legacy metadata and how to fix it. Continue reading on Medium »",
+      "author": "3X Data Engineering",
+      "extra": {},
+      "id": "c667564deeb8d0ce",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+      "publishedAt": "2026-09-24T15:09:38Z",
+      "excerpt": "",
+      "author": "theanonymousone",
+      "extra": {
+        "points": 124,
+        "comments": 199,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49831690"
+      },
+      "id": "733f60d0c4666d61",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI safety is mostly a sex cult in Berkeley",
+      "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+      "publishedAt": "2026-09-24T14:38:31Z",
+      "excerpt": "",
+      "author": "martythemaniak",
+      "extra": {
+        "points": 119,
+        "comments": 30,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49831269"
+      },
+      "id": "415d0f35c6471af3",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Best LLM for every budget, updated daily",
+      "url": "https://bestmodelforyourbudget.terrydjony.com/",
+      "publishedAt": "2026-09-24T14:09:57Z",
+      "excerpt": "",
+      "author": "terryds",
+      "extra": {
+        "points": 178,
+        "comments": 109,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49830866"
+      },
+      "id": "5bd0bd4954bfcaa5",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "publishedAt": "2026-09-24T12:23:41Z",
+      "excerpt": "",
+      "author": "YeGoblynQueenne",
+      "extra": {
+        "points": 180,
+        "comments": 267,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49829650"
+      },
+      "id": "1e0af95cc4975f42",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
+      "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+      "publishedAt": "2026-09-24T11:54:38Z",
+      "excerpt": "",
+      "author": "ArielSimon",
+      "extra": {
+        "points": 139,
+        "comments": 51,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49829387"
+      },
+      "id": "225478237654c19a",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "publishedAt": "2026-09-24T08:23:03Z",
+      "excerpt": "",
+      "author": "pieterr",
+      "extra": {
+        "points": 618,
+        "comments": 374,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49827794"
+      },
+      "id": "07762c6dcbee0f6a",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "url": "https://transluce.org/agent-activity",
+      "publishedAt": "2026-09-24T05:21:10Z",
+      "excerpt": "",
+      "author": "snikolaev",
+      "extra": {
+        "points": 261,
+        "comments": 290,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49826565"
+      },
+      "id": "e82bf04022f67ea0",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "President Xi apparently likes the idea of renaming AI to \"Superintelligence\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpxu88/president_xi_apparently_likes_the_idea_of/",
+      "publishedAt": "2026-09-25T14:29:36Z",
+      "excerpt": "(This is real) https://truthsocial.com/@realDonaldTrump/117331749278785253 What is happening genuinely submitted by /u/OmegaGogeta to r/singularity [link] [comments]",
+      "author": "/u/OmegaGogeta",
+      "extra": {},
+      "id": "29c64e034b102853",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Qwengram-0.8B: I transferred Qwen3.8 Flash-Next’s n-gram memory into Qwen3.5-0.8B — 5.05% lower validation perplexity",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpvep4/qwengram08b_i_transferred_qwen38_flashnexts_ngram/",
+      "publishedAt": "2026-09-25T12:46:00Z",
+      "excerpt": "I’ve been experimenting with whether Qwen3.8-Flash-Next’s pretrained PLE n-gram memory can improve a much smaller Qwen3.5-0.8B model. I trained the 0.8B setup with limited resources, mostly using free Kaggle notebook GPUs. The setup keeps both the Qwen3.5-0.8B backbone and the roughly 51B-parameter PLE memory frozen. A small R=1 reader is trained at decoder layers 3 and 9, with a token-dependent linear gate controlling the later injection. There is no backbone fine-tuning . The current…",
+      "author": "/u/Nicolodeva",
+      "extra": {},
+      "id": "5d47c480d3e2b3d7",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Meanwhile Gemini",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpu7ns/meanwhile_gemini/",
+      "publishedAt": "2026-09-25T11:48:07Z",
+      "excerpt": "submitted by /u/theeldergod1 to r/singularity [link] [comments]",
+      "author": "/u/theeldergod1",
+      "extra": {},
+      "id": "58af46d452387e4f",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Brother... Stay focused",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpmngh/brother_stay_focused/",
+      "publishedAt": "2026-09-25T04:12:25Z",
+      "excerpt": "submitted by /u/Family_friendly_user to r/singularity [link] [comments]",
+      "author": "/u/Family_friendly_user",
+      "extra": {},
+      "id": "d6138dccb18141ed",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "PSA: Trust me! Stay far away from Grok/bot/XAI!",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpls8e/psa_trust_me_stay_far_away_from_grokbotxai/",
+      "publishedAt": "2026-09-25T03:27:07Z",
+      "excerpt": "exploration for acceleration and all that! (heads up is basically just a funny story and whinge) I gave xAI a shot today (AI that can draw titties in blender and that won't complain about it! that sounds cool!) UNFORTUNATELY Not only is the damn xAI more stupid than a 4B local model, it's as blind as a bat about it's own outputs: 'that looks perfect' (while its literally a corrupt soup of overlapping triangles) Ok so xAI is useless, no big deal, why make this post? WELL LET ME TELL YOU! Their…",
+      "author": "/u/Revolutionalredstone",
+      "extra": {},
+      "id": "21b853e8e4257de4",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "M5 Ultra 80Core GLM-5.3-Flash on DwarfStar Speeds",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpkz0o/m5_ultra_80core_glm53flash_on_dwarfstar_speeds/",
+      "publishedAt": "2026-09-25T02:45:45Z",
+      "excerpt": "I've been playing around with various models on the M5 Ultra 256GB 80-core Mac Studio. These are the results over many rounds of agentic inferencing. I'm happy with the performance. Glad to have the large amount of RAM. But it does feel like the GPU is underpowered for this amount of RAM. I'm wondering if a 512GB unit for AI inference makes sense at all - because the GPU will be the clear bottleneck. submitted by /u/dreamingwell to r/LocalLLaMA [link] [comments]",
+      "author": "/u/dreamingwell",
+      "extra": {},
+      "id": "e56690f32b2c3b43",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI models were given $500 and a vending machine to run a business for a simulated year (Vending Bench): GPT-6 Sol turned it into $14,428, nearly matching Astra at 1/8 the cost",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpkbh4/ai_models_were_given_500_and_a_vending_machine_to/",
+      "publishedAt": "2026-09-25T02:12:23Z",
+      "excerpt": "submitted by /u/141_1337 to r/singularity [link] [comments]",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "83455866970f1a3d",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "I can't think of anything that I would like less than that",
+      "url": "https://www.reddit.com/r/artificial/comments/1wpjbqy/i_cant_think_of_anything_that_i_would_like_less/",
+      "publishedAt": "2026-09-25T01:23:12Z",
+      "excerpt": "submitted by /u/HeyLookAStranger to r/artificial [link] [comments]",
+      "author": "/u/HeyLookAStranger",
+      "extra": {},
+      "id": "75a0a777ee9836f7",
+      "collectedAt": "2026-09-25T15:22:13.366916+00:00"
     }
   ],
-  "updatedAt": "2026-09-25T07:54:40.660697+00:00"
+  "updatedAt": "2026-09-25T15:22:13.366916+00:00"
 }
