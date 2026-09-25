@@ -91,13 +91,6 @@ sources:
     keywords: [AI, LLM, LLMs, GPT, Claude, Gemini, OpenAI, Anthropic, DeepMind, "language model",
                diffusion, transformer, "Hugging Face", Llama, Mistral, DeepSeek, Qwen, agent, agents]
 
-  - id: reddit
-    name: Reddit   # r/LocalLLaMA, r/MachineLearning, r/singularity
-    type: rss
-    group: community
-    icon: reddit
-    url: ${REDDIT_AI_FEED_URL}
-
   # --- YouTube (RSS first; falls back to the YouTube API if YOUTUBE_API_KEY is set) ---
   # Whole channels are followed: every run picks up their newest uploads.
   - id: ai-explained

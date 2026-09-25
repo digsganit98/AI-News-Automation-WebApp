@@ -16,7 +16,7 @@ It runs entirely on free services, on GitHub's servers, so it keeps running even
 
 | At a glance | |
 |---|---|
-| Sources | **15** (AI labs, research, Hacker News, Reddit, YouTube, newsletters) + X coming |
+| Sources | **14** (AI labs, research, Hacker News, YouTube, newsletters) + X coming |
 | Updates | **8 a day**, every 3 hours; daily edition at **10:00 IST** |
 | AI agents | **7** (4 scouts, analyst, writer, editor), built with LangGraph |
 | LLM calls | **~45–60 a day** (about 5 per update, 10–16 for the daily edition), hard cap **100** |
@@ -68,7 +68,7 @@ Update runs happen at 01:00, 04:00, 07:00, 13:00, 16:00, 19:00 and 22:00 IST; th
 
 ## Architecture
 
-![Architecture diagram: 15 sources feed Python collectors on GitHub Actions; after de-duplication, an MCP server gives 7 LangGraph agents (4 scouts on Qwen via Groq, an analyst and editor on gpt-oss-120b via Groq, a writer on Gemini Flash) read-only tools; results are saved to the repo, published to the website every 3 hours, and emailed once a day at 10:00 IST.](docs/images/architecture.svg)
+![Architecture diagram: 14 sources feed Python collectors on GitHub Actions; after de-duplication, an MCP server gives 7 LangGraph agents (4 scouts on Qwen via Groq, an analyst and editor on gpt-oss-120b via Groq, a writer on Gemini Flash) read-only tools; results are saved to the repo, published to the website every 3 hours, and emailed once a day at 10:00 IST.](docs/images/architecture.svg)
 
 *Green dot = working today; grey dot = coming in the next phases. Solid arrows run every 3 hours; dashed arrows only at 10:00 IST.*
 
@@ -87,7 +87,7 @@ There are **7 agents**, built with [LangGraph](https://www.langchain.com/langgra
 | Agent | Runs | LLM (free tier) | Job |
 |---|---|---|---|
 | **Scout: labs & research** | every 3 h | Qwen 3.8 27B on Groq | Checks OpenAI, DeepMind, Anthropic, Mistral, Microsoft Research and Hugging Face; opens the full article for important items |
-| **Scout: community** | every 3 h | Qwen 3.8 27B on Groq | Checks Hacker News and Reddit for launches and discussions worth covering |
+| **Scout: community** | every 3 h | Qwen 3.8 27B on Groq | Checks Hacker News for launches and discussions worth covering |
 | **Scout: video & newsletters** | every 3 h | Qwen 3.8 27B on Groq | Checks YouTube and pulls individual stories out of newsletter emails |
 | **Scout: X** | every 3 h | Qwen 3.8 27B on Groq | Checks posts from curated AI researchers and founders |
 | **Analyst** | every 3 h | gpt-oss-120b on Groq | Scores each story, sorts it into a category, merges the same news from different sources, and compares against the last 7 days of stories |
@@ -112,7 +112,7 @@ The agents can only **read**, through the MCP tools. Publishing and sending emai
 
 ## How duplicates are prevented
 
-The same news often turns up several times: in the lab's blog, on Hacker News, on Reddit, in two newsletters, and again the next day. Each layer below catches a different kind of repeat:
+The same news often turns up several times: in the lab's blog, on Hacker News, in two newsletters, and again the next day. Each layer below catches a different kind of repeat:
 
 | Layer | What it catches | Status |
 |---|---|---|
@@ -129,7 +129,7 @@ The same news often turns up several times: in the lab's blog, on Hacker News, o
 |---|---|
 | AI labs | OpenAI, Google DeepMind, Anthropic, Mistral AI, Microsoft Research |
 | Research and open models | Hugging Face blog, Hugging Face Daily Papers, Hugging Face trending models, BAIR blog |
-| Community | Hacker News (AI stories with 50+ points), Reddit (r/LocalLLaMA, r/MachineLearning, r/singularity) |
+| Community | Hacker News (AI stories with 50+ points) |
 | YouTube | AI Explained, Krish Naik (English and Hindi) |
 | Newsletters | TLDR AI, The Rundown AI, Superhuman AI, AlphaSignal *(optional, needs a Gmail inbox)* |
 | X / Twitter | Curated AI researchers and founders *(coming soon)* |
@@ -324,7 +324,7 @@ GitHub pauses schedules in repositories with no activity for 60 days. The daily 
 
 ## Roadmap
 
-- [x] **Phase 1: Collect.** 15 sources, duplicate removal, 3-hourly GitHub Actions run, MCP tools, tests
+- [x] **Phase 1: Collect.** 14 sources, duplicate removal, 3-hourly GitHub Actions run, MCP tools, tests
 - [ ] **Phase 1b: X / Twitter** collector with curated AI accounts
 - [ ] **Phase 2: AI agents** (LangGraph): 4 scouts, analyst, writer (digest + op-ed), editor, on free LLM tiers
 - [x] **Phase 3: Website:** Liquid Glass UI, Latest dashboard (every 3 h), archive, source health, search and filters, dark mode

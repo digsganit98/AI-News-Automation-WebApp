@@ -40,7 +40,6 @@ BRAND_SLUGS = [
     "huggingface",
     "arxiv",
     "ycombinator",
-    "reddit",
     "youtube",
     "gmail",
     "x",
@@ -192,7 +191,7 @@ class Edge:
 
 
 CONTAINERS = [
-    Container("sources", 24, 92, 272, 822, "Sources", "15 sources · every 3 h"),
+    Container("sources", 24, 92, 272, 822, "Sources", "14 sources · every 3 h"),
     Container(
         "actions",
         320,
@@ -229,7 +228,6 @@ SOURCES = [
     ("Hugging Face", "Blog · Papers · Trending", "huggingface", "built"),
     ("BAIR + arXiv", "Research + paper links", "arxiv", "built"),
     ("Hacker News", "AI stories, 50+ points", "ycombinator", "built"),
-    ("Reddit", "3 AI subreddits", "reddit", "built"),
     ("YouTube", "AI Explained · Krish Naik", "youtube", "built"),
     ("Newsletters", "4 AI newsletters via Gmail", "gmail", "built"),
     ("X / Twitter", "Curated AI accounts", "x", "planned"),

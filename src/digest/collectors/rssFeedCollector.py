@@ -1,4 +1,4 @@
-"""Generic RSS/Atom collector: lab blogs, Reddit, and anything else with a feed."""
+"""Generic RSS/Atom collector: lab blogs, and anything else with a feed."""
 
 from __future__ import annotations
 

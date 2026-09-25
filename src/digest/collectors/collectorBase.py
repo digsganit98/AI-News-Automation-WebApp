@@ -71,7 +71,7 @@ def _isRetryable(exc: BaseException) -> bool:
 
 
 # Per HTTP client: host -> (lock, time of last request). Sources on the same site
-# (e.g. two subreddits) take turns with a gap between requests, so the site doesn't
+# (e.g. two YouTube channels) take turns with a gap between requests, so the site doesn't
 # rate-limit us (HTTP 429).
 _hostGates: weakref.WeakKeyDictionary[httpx.AsyncClient, dict[str, list]] = (
     weakref.WeakKeyDictionary()

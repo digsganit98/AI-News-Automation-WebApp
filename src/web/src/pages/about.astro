@@ -9,7 +9,7 @@ const architectureSvg = fs.readFileSync(path.join(repoRoot, "docs", "images", "a
 
 const agents = [
   { name: "Scout · Labs & research", when: "every 3 h", llm: "Qwen 3.8 27B · Groq", job: "Checks the AI labs and Hugging Face; reads the full article for important items." },
-  { name: "Scout · Community", when: "every 3 h", llm: "Qwen 3.8 27B · Groq", job: "Checks Hacker News and Reddit for launches and discussions." },
+  { name: "Scout · Community", when: "every 3 h", llm: "Qwen 3.8 27B · Groq", job: "Checks Hacker News for launches and discussions." },
   { name: "Scout · Video & newsletters", when: "every 3 h", llm: "Qwen 3.8 27B · Groq", job: "Checks YouTube (news videos only, not tutorials) and newsletter emails." },
   { name: "Scout · X", when: "every 3 h", llm: "Qwen 3.8 27B · Groq", job: "Checks posts from curated AI researchers and founders." },
   { name: "Analyst", when: "every 3 h", llm: "gpt-oss-120b · Groq", job: "Scores, categorizes and groups stories; compares with the last 7 days." },
@@ -17,7 +17,7 @@ const agents = [
   { name: "Editor", when: "10:00 IST", llm: "gpt-oss-120b · Groq", job: "Fact-checks every claim against the sources; one revision round." },
 ];
 const stats = [
-  { value: "15", label: "sources" },
+  { value: "14", label: "sources" },
   { value: "7", label: "AI agents" },
   { value: "~45–60", label: "LLM calls a day" },
   { value: "100", label: "daily call cap" },
@@ -29,7 +29,7 @@ const stats = [
 <BaseLayout title="How it works" current="about" description="How GenAI Daily collects, filters and writes up the news.">
   <h1 class="headline text-4xl sm:text-6xl">How it works</h1>
   <p class="mt-3 max-w-3xl text-lg text-ink-muted dark:text-[#a1a1a6]">
-    Every 3 hours a GitHub Actions job collects new posts from 15 sources, removes anything seen before, and updates this site.
+    Every 3 hours a GitHub Actions job collects new posts from 14 sources, removes anything seen before, and updates this site.
     Once a day at 10:00 IST, AI agents write a digest and an op-ed and send one email.
   </p>
 

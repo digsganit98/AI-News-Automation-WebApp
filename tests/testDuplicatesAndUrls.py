@@ -89,17 +89,3 @@ def testTitlesWithDifferentNumbersAreDifferentStories():
     assert not isSameTitle(
         "Qwen 3.8 27B benchmarks", "Qwen 3.8 27B benchmarks: full report on coding"
     )
-
-
-def testRedditBoilerplateIsRemovedFromSummaries():
-    from digest.processing.cleanItems import cleanExcerpt
-
-    assert cleanExcerpt("submitted by /u/Profanion to r/singularity [link] [comments]") == ""
-    assert (
-        cleanExcerpt(
-            "Hey everyone, we trained a model. "
-            "submitted by /u/jovan to r/LocalLLaMA [link] [comments]"
-        )
-        == "Hey everyone, we trained a model."
-    )
-    assert cleanExcerpt("A normal summary.") == "A normal summary."
