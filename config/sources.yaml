@@ -1,0 +1,159 @@
+# Every place the digest collects news from.
+#
+# - To add a source: copy a block of the same `type`, give it a new `id`,
+#   and put its URL in config/app.env.
+# - To pause a source: set `enabled: false`.
+# - `group` and `icon` are used by the website (filters and logos).
+# - ${NAME} means "the value of NAME from config/app.env" (or .env / environment).
+
+settings:
+  windowHours: 36        # only keep items published in the last N hours
+  requestTimeout: 30     # seconds per HTTP request
+
+sources:
+  # --- AI labs and research blogs (RSS feeds) ---
+  - id: openai
+    name: OpenAI
+    type: rss
+    group: labs
+    icon: openai
+    url: ${OPENAI_FEED_URL}
+
+  - id: deepmind
+    name: Google DeepMind
+    type: rss
+    group: labs
+    icon: deepmind
+    url: ${DEEPMIND_FEED_URL}
+
+  - id: huggingface
+    name: Hugging Face
+    type: rss
+    group: research
+    icon: huggingface
+    url: ${HUGGINGFACE_FEED_URL}
+
+  - id: bair
+    name: BAIR Blog
+    type: rss
+    group: research
+    icon: arxiv
+    url: ${BAIR_FEED_URL}
+
+  - id: mistral
+    name: Mistral AI
+    type: rss
+    group: labs
+    icon: mistralai
+    url: ${MISTRAL_FEED_URL}
+
+  - id: microsoft-research
+    name: Microsoft Research
+    type: rss
+    group: labs
+    icon: microsoft
+    url: ${MICROSOFT_RESEARCH_FEED_URL}
+
+  # --- Hugging Face: where new open models and papers appear first ---
+  - id: hf-papers
+    name: Hugging Face Daily Papers
+    type: huggingFacePapers
+    group: research
+    icon: huggingface
+    minUpvotes: 10          # only papers the community has upvoted
+
+  - id: hf-trending
+    name: Hugging Face Trending Models
+    type: huggingFaceTrendingModels
+    group: research
+    icon: huggingface
+    limit: 10
+
+  # --- Anthropic has no RSS feed, so we read its news page ---
+  - id: anthropic
+    name: Anthropic
+    type: webPage
+    group: labs
+    icon: anthropic
+    url: ${ANTHROPIC_NEWS_URL}
+    selectors:
+      item: 'a[href^="/news/"]'       # each news card is a link to /news/<slug>
+      title: '[class*="__title"]'     # class names are auto-generated, so match on the stable part
+      date: time
+
+  # --- Community ---
+  - id: hackernews
+    name: Hacker News
+    type: hackerNews
+    group: community
+    icon: ycombinator
+    minPoints: 50
+    keywords: [AI, LLM, LLMs, GPT, Claude, Gemini, OpenAI, Anthropic, DeepMind, "language model",
+               diffusion, transformer, "Hugging Face", Llama, Mistral, DeepSeek, Qwen, agent, agents]
+
+  - id: reddit
+    name: Reddit   # r/LocalLLaMA, r/MachineLearning, r/singularity
+    type: rss
+    group: community
+    icon: reddit
+    url: ${REDDIT_AI_FEED_URL}
+
+  # --- YouTube (RSS first; falls back to the YouTube API if YOUTUBE_API_KEY is set) ---
+  # Whole channels are followed: every run picks up their newest uploads.
+  - id: ai-explained
+    name: AI Explained
+    type: youtube
+    group: video
+    icon: youtube
+    channelId: UCNJ1Ymd5yFuUPtn21xtRbbw     # every video is news analysis: no filter
+
+  # Krish Naik posts mostly tutorials, courses and bootcamps, with the occasional
+  # news/trend video. The filter keeps only titles that look like news and are not
+  # tutorials; the Phase 2 video scout agent double-checks what gets through.
+  - id: krish-naik
+    name: Krish Naik
+    type: youtube
+    group: video
+    icon: youtube
+    channelId: UCNU_lfiiWBdtULKOw6X0Dig
+    titleFilter: &newsVideosOnly
+      include:                              # keep a video only if its title matches one of these
+        - '\bwill\b.*\breplace'             # "Will BDH replace Transformers?"
+        - '\bexplained\b'
+        - '\bwhat is\b'
+        - '\bis changing\b'
+        - '\b(launch|launches|launched|released?|announc\w*|introducing|unveil\w*)\b'
+        - '\b(news|update|breakthrough|future of|state of)\b'
+        - '\b(gpt|claude|gemini|llama|qwen|deepseek|mistral|grok|sora)[- ]?\d'  # a model version
+        - '\bpost-transformer\b'
+      exclude:                              # ...and drop it if its title matches any of these
+        - 'crash course'
+        - '\b(course|bootcamp|tutorial|roadmap|certification|udemy|induction)\b'
+        - '\b(live|marathon|session|interview|podcast)\b'
+        - '\b(build|building|built|implement\w*|step by step|hands-on|end to end|project)\b'
+        - '\bcomplete\b'
+        - '\b(getting started|introduction to|learn|beginners?)\b'
+        - '(^|\s)#?\d+\s*-'                 # series episodes: "7-Introduction...", "#1-New Series"
+        - '\bpart \d+'
+
+  - id: krish-naik-hindi
+    name: Krish Naik Hindi
+    type: youtube
+    group: video
+    icon: youtube
+    channelId: UCjWY5hREA6FFYrthD0rZNIw
+    titleFilter: *newsVideosOnly
+
+  # --- Newsletters (read from a dedicated Gmail inbox; see README) ---
+  - id: newsletters
+    name: Newsletters
+    type: newsletterInbox
+    group: newsletters
+    icon: gmail
+    enabled: false          # turn on once GMAIL_ADDRESS and GMAIL_APP_PASSWORD are set
+    label: newsletters      # Gmail label the newsletters are filtered into
+    senders:                # part of the sender's address -> display name
+      tldr: TLDR AI
+      rundown: The Rundown AI
+      superhuman: Superhuman AI
+      alphasignal: AlphaSignal

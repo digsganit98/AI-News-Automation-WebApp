@@ -1,0 +1,40 @@
+---
+// Archive: one entry per day, newest first.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { formatDay, href, iconMap, loadDays, loadSources } from "../lib/siteData";
+
+const days = loadDays();
+const sources = loadSources();
+const icons = iconMap(sources);
+---
+
+<BaseLayout title="Archive" current="archive" description="Every day of collected GenAI news.">
+  <h1 class="headline text-4xl sm:text-6xl">Archive</h1>
+  <p class="mt-2 text-ink-muted dark:text-[#a1a1a6]">Every day of collected news. Pick a day to browse and filter it.</p>
+
+  <div class="mt-8 grid gap-3">
+    {days.length === 0 && <p class="card p-6 text-slate-500">Nothing collected yet.</p>}
+    {days.map((day) => {
+      const bySource = Object.entries(
+        day.items.reduce<Record<string, number>>((acc, i) => ({ ...acc, [i.source]: (acc[i.source] ?? 0) + 1 }), {}),
+      ).sort((a, b) => b[1] - a[1]);
+      return (
+        <a href={href(`day/${day.date}`)} class="card group flex flex-col gap-3 p-5 transition hover:border-brand-400/60 sm:flex-row sm:items-center">
+          <div class="sm:w-72">
+            <p class="font-semibold group-hover:text-brand-600 dark:group-hover:text-brand-400">{formatDay(day.date)}</p>
+            <p class="text-sm text-slate-500 dark:text-slate-400">{day.items.length} items · {day.runs.length} {day.runs.length === 1 ? "run" : "runs"}</p>
+          </div>
+          <div class="flex flex-1 flex-wrap gap-2">
+            {bySource.slice(0, 8).map(([id, n]) => (
+              <span class="pill border-slate-200 text-slate-600 dark:border-white/10 dark:text-slate-300">
+                <span class="text-slate-900 dark:text-white" set:html={icons[id] ?? ""}></span>
+                {n}
+              </span>
+            ))}
+          </div>
+          <span class="text-sm font-medium text-brand-600 dark:text-brand-400">Open →</span>
+        </a>
+      );
+    })}
+  </div>
+</BaseLayout>

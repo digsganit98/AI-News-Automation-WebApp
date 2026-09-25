@@ -1,0 +1,901 @@
+{
+  "date": "2026-09-25",
+  "runs": [
+    {
+      "runAt": "2026-09-25T07:54:40.660697+00:00",
+      "newItems": 55,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1229,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.717771Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.804096Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.807095Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.810096Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.811606Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.813606Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.817597Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.817597Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.817597Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.820557Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.823558Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.826558Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.828558Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-25T07:54:40.828558Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "deepmind",
+      "sourceName": "Google DeepMind",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "publishedAt": "2026-09-24T16:20:39Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "91625e27c986178e",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "publishedAt": "2026-09-24T14:08:57Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "c2a53f2332725b78",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+      "url": "https://huggingface.co/papers/2609.23407",
+      "publishedAt": "2026-09-25T00:00:00Z",
+      "excerpt": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet this remains challenging for embodied agents. In particular, it is still unclear how to effectively evaluate and model spatial audio understanding in embodied settings. To address this gap, we introduce OmniEchoBench, a unified benchmark for spatial audio-visual perception and audio-vision-language navigation. OmniEchoBench comprises six tasks over 197 real-world spatial…",
+      "author": null,
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/PKU-VaLuE-Lab/OmniEcho",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.23407"
+      },
+      "id": "409ed6e622c5fe69",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Training Object Permanence in World Models",
+      "url": "https://huggingface.co/papers/2609.28654",
+      "publishedAt": "2026-09-25T00:00:00Z",
+      "excerpt": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure…",
+      "author": null,
+      "extra": {
+        "upvotes": 57,
+        "githubRepo": "https://github.com/hokindeng/object-permanence",
+        "projectPage": "https://www.object-permanence.world/",
+        "arxivUrl": "https://arxiv.org/abs/2609.28654"
+      },
+      "id": "d862aca1901364c6",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "url": "https://huggingface.co/papers/2609.28416",
+      "publishedAt": "2026-09-25T00:00:00Z",
+      "excerpt": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort…",
+      "author": null,
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/RUCAIBox/Agent-Editing-World-Model",
+        "projectPage": "https://huggingface.co/RUC-AIBOX/collections",
+        "arxivUrl": "https://arxiv.org/abs/2609.28416"
+      },
+      "id": "07b58d37b3acc6ca",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+      "url": "https://huggingface.co/papers/2609.26637",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple custom tool through a standard API feature, we induce frontier models to externalize intermediate reasoning. Because these traces may reflect post-hoc rationalization rather than genuine reasoning, we first evaluate against native CoT on open-source models and extend to…",
+      "author": null,
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.26637"
+      },
+      "id": "2352af9e9764aed7",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "GeoPair: Geometry-Preserving Cross-Layer Factorization for Training-Free Transformer Compression",
+      "url": "https://huggingface.co/papers/2609.25963",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Transformer architectures exhibit cross-layer redundancies, yet post-training compression pipelines typically optimize layers in isolation or rely on heuristic grouping strategies that disregard layer-specific activation geometries. We introduce a principled, training-free framework that sequentially optimizes cross-layer weight pairings and shared-dictionary factorizations. Rather than forcing weights of adjacent layers to share a basis or heuristically merging activation statistics, our…",
+      "author": null,
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.25963"
+      },
+      "id": "f2fc2dab3ae3ca26",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PackLab: A Comprehensive Framework for Developing, Training, and Evaluating MLLMs in Robotic Bin Packing",
+      "url": "https://huggingface.co/papers/2609.23784",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Robotic bin packing requires long-horizon sequential decision-making, as each object placement affects the available space for subsequent packing. Existing methods primarily rely on hand-crafted geometric heuristics that optimize predefined objectives or reinforcement learning policies learned through trial and error over predefined training configurations. Despite recent advances in multimodal large language models (MLLMs) for this task, their potential for closed-loop sequential decisions…",
+      "author": null,
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/Correr-Zhou/PackLab",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.23784"
+      },
+      "id": "35af078e7b3a66d3",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+      "url": "https://huggingface.co/papers/2609.23038",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world. Reasoning in dynamic environments requires VLMs to perceive local state transitions caused by object motion and viewpoint changes and integrate them over long trajectories to maintain an updated spatial state, yet existing VLMs remain limited in both capabilities. Current spatial training primarily focuses on static questions about object attributes and spatial relations, providing…",
+      "author": null,
+      "extra": {
+        "upvotes": 45,
+        "githubRepo": "https://github.com/ZJU-OmniAI/Spatial-Interactor",
+        "projectPage": "https://zju-omniai.github.io/Spatial-Interactor/",
+        "arxivUrl": "https://arxiv.org/abs/2609.23038"
+      },
+      "id": "6fb67b6b8e291bb5",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "HappyWorld-Bench",
+      "url": "https://huggingface.co/papers/2609.24308",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Evaluating world models requires assessing both the quality of the worlds they generate and their consistency and responsiveness under exploration, interaction, and modification. We introduce HappyWorld-Bench, a comprehensive benchmark that evaluates whether generated worlds remain reliable as agents interact with them. Our design is built on a hierarchical capability framework of six world capabilities (W1-W6), from generative construction to unified world modeling, instantiated across three…",
+      "author": null,
+      "extra": {
+        "upvotes": 40,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.24308"
+      },
+      "id": "fa4018eec153851b",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents",
+      "url": "https://huggingface.co/papers/2609.27334",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Agentic memory systems reuse past experience to improve future performance, yet most existing designs curate memory at write time: once a task is completed, its trajectory is distilled into a fixed artifact, such as a reflection, workflow, skill, or reasoning strategy, that is later retrieved by similarity. This forces the system to decide what is worth remembering before the future query is known, irreversibly discarding information and producing a query-independent summary that must serve…",
+      "author": null,
+      "extra": {
+        "upvotes": 34,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.27334"
+      },
+      "id": "8f308b0e1d8ffeb1",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.28256",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of policies do not preserve and leverage episode-level information beyond the current observation. This limitation is consequential in history-dependent manipulation tasks that depend on information available only in past observations. Retaining past observations in context can aid in recovering this information, but at the significant cost of ever-growing, bloated context and…",
+      "author": null,
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/declare-lab/MemBodied",
+        "projectPage": "https://declare-lab.github.io/MemBodied/",
+        "arxivUrl": "https://arxiv.org/abs/2609.28256"
+      },
+      "id": "0eb66f53b87f05ae",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://huggingface.co/papers/2609.26780",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM memory systems tend to lose person and group relations or struggle to integrate clues distributed…",
+      "author": null,
+      "extra": {
+        "upvotes": 81,
+        "githubRepo": "https://github.com/2022hpsk/SpeakerMemR1",
+        "projectPage": "https://2022hpsk.github.io/SpeakerMemR1/",
+        "arxivUrl": "https://arxiv.org/abs/2609.26780"
+      },
+      "id": "1d00d76af2ce26d4",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling",
+      "url": "https://huggingface.co/papers/2609.22947",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as the cornerstone. However, existing video reward models often produce unstable scalar scores because they directly map complex, subjective video quality into a single score without explicit evaluation criteria. This leads to scalar drift, where the scoring scale collapses or shifts across different prompts, making the reward unreliable for RL. Drawing inspiration from…",
+      "author": null,
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": "https://github.com/2kxx/RewardVerse",
+        "projectPage": "https://2kxx.github.io/RewardVerse/",
+        "arxivUrl": "https://arxiv.org/abs/2609.22947"
+      },
+      "id": "860d76a3788f02fe",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PACT: From Credit Assignment to Critic Alignment",
+      "url": "https://huggingface.co/papers/2609.26355",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used training signals unclear. We formulate three regularity conditions, namely Completeness, Prefix Consistency, and Neutrality, and prove that they uniquely determine token-level credit. This characterization provides a unified basis for explaining phenomena across existing algorithms…",
+      "author": null,
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.26355"
+      },
+      "id": "11e69b866c879181",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2609.28466",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, and computational limits. Consequently, critical historical information, e.g., entity identities,…",
+      "author": null,
+      "extra": {
+        "upvotes": 36,
+        "githubRepo": "https://github.com/HaroldChen19/Awesome-AR-Video-Memory",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.28466"
+      },
+      "id": "56b35df7aa8226f1",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?",
+      "url": "https://huggingface.co/papers/2609.27891",
+      "publishedAt": "2026-09-24T00:00:00Z",
+      "excerpt": "Repository-level coding benchmarks have become the standard for evaluating coding agents, yet they inherently suffer from data leakage because they are built upon popular open-source repositories repeatedly used for training. Consequently, strong performance may reflect memorization of canonical repository cues rather than robust repository reasoning. We propose SchrodingerRepo (Schrödinger's Repository), an evaluation framework for testing coding agents under dynamically instantiated…",
+      "author": null,
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/cslsolow/Schrodinger-Repo",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.27891"
+      },
+      "id": "d7d551bcf3c89850",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: convaiinnovations/laya",
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 3472,
+        "trendingScore": 3304,
+        "task": "text-classification"
+      },
+      "id": "16776d9f0dec6c58",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Qwen/Qwen-Image-2.1",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 2237,
+        "trendingScore": 2087,
+        "task": "text-to-image"
+      },
+      "id": "0d35f176f626ce08",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 1673,
+        "trendingScore": 1468,
+        "task": "text-to-image"
+      },
+      "id": "ea2b8da28677d9e4",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 2051,
+        "trendingScore": 1453,
+        "task": "text-generation"
+      },
+      "id": "6d274f8f572bd9fb",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: XingChen-AGI/Xing4.0-29B-A4B",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 1649,
+        "trendingScore": 1288,
+        "task": "text-generation"
+      },
+      "id": "990358c02754ce88",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Comfy-Org/Qwen-Image-2.1",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 697,
+        "trendingScore": 660,
+        "task": null
+      },
+      "id": "a43824a34d23f8e7",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Altworld/Hemmingway-1",
+      "url": "https://huggingface.co/Altworld/Hemmingway-1",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 643,
+        "trendingScore": 628,
+        "task": "text-generation"
+      },
+      "id": "07ed8c67267f9be1",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 16233,
+        "trendingScore": 483,
+        "task": "image-text-to-text"
+      },
+      "id": "6c64301c09e02d7e",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: TaichuAI/ZDTaichu5.0-9B",
+      "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 1042,
+        "trendingScore": 477,
+        "task": "image-text-to-text"
+      },
+      "id": "f0a2af814f536f5f",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: XiaomiMiMo/MiMo-V2.6-Pro-RL",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 484,
+        "trendingScore": 474,
+        "task": "text-generation"
+      },
+      "id": "aeef5531cd01e60a",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publishedAt": "2026-09-23T23:59:59Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "8c50fe1c6153abc3",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "publishedAt": "2026-09-24T19:14:27Z",
+      "excerpt": "Comments",
+      "author": null,
+      "extra": {},
+      "id": "b28faeb337e665fe",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "GPT-6 Astra conquered KSP’s rocket simulator by landing on every surface world, and even mined fuel on Moho to make the trip home",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp2ldw/gpt6_astra_conquered_ksps_rocket_simulator_by/",
+      "publishedAt": "2026-09-24T14:06:24Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "293563a9cca4df44",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Opus 5.5 recreated an AI video output into a playable 90s fantasy walking simulator",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpgntb/opus_55_recreated_an_ai_video_output_into_a/",
+      "publishedAt": "2026-09-24T23:15:19Z",
+      "excerpt": "From: Denis Shiryaev 💙💛 on X Artifact: The Castle Road The reference was a popular AI video output from Twitter back in 2015, and Opus recreated it here using Three.js. I bet if you hooked it up to Blender, it'd look way better.",
+      "author": "/u/Successful-Earth678",
+      "extra": {},
+      "id": "d25dd5c5f519a3e5",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Claude Opus 5.5 tops SimpleBench with its 88.4% score.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp7jks/claude_opus_55_tops_simplebench_with_its_884_score/",
+      "publishedAt": "2026-09-24T17:13:56Z",
+      "excerpt": "",
+      "author": "/u/Profanion",
+      "extra": {},
+      "id": "5081b3ed1393e09c",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Person spent $2000 in tokens to recreate Adobe Photoshop and customer count just crossed 20k users with no bad reviews",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpi9b4/person_spent_2000_in_tokens_to_recreate_adobe/",
+      "publishedAt": "2026-09-25T00:30:50Z",
+      "excerpt": "",
+      "author": "/u/kernelangus420",
+      "extra": {},
+      "id": "c6e027725027d9ba",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "China ranks #1 for AI optimism in new poll while the US ranks amongst bottom 5 countries in pessimism",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp1itv/china_ranks_1_for_ai_optimism_in_new_poll_while/",
+      "publishedAt": "2026-09-24T13:22:49Z",
+      "excerpt": "",
+      "author": "/u/Cagnazzo82",
+      "extra": {},
+      "id": "4e140ea80937d3bb",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Qwen-3.8-27B is good enough that I stopped using API",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp0z3i/qwen3827b_is_good_enough_that_i_stopped_using_api/",
+      "publishedAt": "2026-09-24T12:59:28Z",
+      "excerpt": "Many a praise have been sung on Qwen-3.8, but here is mine. Qwen-3.8 and I had a rocky start, because it thinks so much. Watching it working is painful, so you have to stop doing that. You have to let it work unsupervised. And that's okay, because it really is able to complete complex refactors on its own, making good decisions along the way. Not perfect, but hey, neither is API. The model quant is Q4_K_S, context is quantized to Q8_0, which seems to be okay, quality wise. I use the official…",
+      "author": "/u/Training-Respect8066",
+      "extra": {},
+      "id": "d13f06ed74817481",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "I asked GPT-6 Astra for a video about \"time\". It made the whole thing in javascript, from the big bang to itself writing the code for this video",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpbrxa/i_asked_gpt6_astra_for_a_video_about_time_it_made/",
+      "publishedAt": "2026-09-24T19:53:15Z",
+      "excerpt": "Astra wrote p5.js code (with the p5.brush library for the painted look), and every frame was rendered in 4K from JavaScript. The arc goes big bang → Earth → first cells → dinosaurs → apes → fire → farming → industry → cities → screens → Astra writing this code → back to a single dot. Since it's code, everything stays editable: layers, keyframes, splines. Do you think code-first generation ends up beating diffusion for video you actually want to edit? More about the process here:…",
+      "author": "/u/dx8xb",
+      "extra": {},
+      "id": "54642235dee43490",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Fable 5.1 and Astra have both achieved perfect scores on Mensa Norway",
+      "url": "https://www.reddit.com/r/singularity/comments/1wox332/fable_51_and_astra_have_both_achieved_perfect/",
+      "publishedAt": "2026-09-24T09:33:13Z",
+      "excerpt": "",
+      "author": "/u/Chemical-Agency-3997",
+      "extra": {},
+      "id": "94ce54865ac29460",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Wanna escape the sandbox?",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpegth/wanna_escape_the_sandbox/",
+      "publishedAt": "2026-09-24T21:39:43Z",
+      "excerpt": "",
+      "author": "/u/Certain_Tea_",
+      "extra": {},
+      "id": "4bb5ec22b4684278",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Elon Musk: xAI Will Keep Accelerating And Will Surpass Anthropic And OpenAI Within 6 Months",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp9xji/elon_musk_xai_will_keep_accelerating_and_will/",
+      "publishedAt": "2026-09-24T18:42:10Z",
+      "excerpt": "We will keep accelerating. Our AI efforts are only 3 years old, vs 6 and 10 years old for Anthropic and OpenAI. If our second derivative remains strong, SpaceX will reach pole position in about 6 months. Once you far exceed the caliber of intelligence needed for a class of tasks, additional intelligence is pointless. You don’t need (and it would be cruel to put) Newton-level intelligence in your toaster! Hardware is hard. Bringing massive compute online rapidly is incredibly difficult. SpaceX…",
+      "author": "/u/Neurogence",
+      "extra": {},
+      "id": "da01f95b6d1deb3f",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Folks, have you purchased the Mac M5 Ultra with 256GB yet? We need serious benchmarks, because we only get YouTube clowns influencers results",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wovkw5/folks_have_you_purchased_the_mac_m5_ultra_with/",
+      "publishedAt": "2026-09-24T07:55:48Z",
+      "excerpt": "Ok, so the Mac M5 Ultra (256GB) hit the market, but the only publicly available benchmarks material are flashy YouTube \"clown influencers\" videos. We need serious numbers to evaluate whether Apple’s silicon can actually compete with Nvidia’s current GPU‑centric workflows or not. Every damn video I watched, it was from somebody who only know the bare basics and use 8b models, like wtf. I know it's seriously fucked up price, but following this sub I know some of you already owned it. submitted…",
+      "author": "/u/More-Curious816",
+      "extra": {},
+      "id": "a6f95ceb69e19c86",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Claude Opus 5.5 seems to have... fun ? When building things ?",
+      "url": "https://www.reddit.com/r/singularity/comments/1woxm0s/claude_opus_55_seems_to_have_fun_when_building/",
+      "publishedAt": "2026-09-24T10:05:16Z",
+      "excerpt": "It's giving me this weird impression, that when given enough room for creativity, the result is surprisingly well-aligned with human taste even when completely unprompted. I've been toying with it making a bunch of SVG animations, and it's giving me this feeling of \"someone had fun making this\", making actually good and creative arbitrary decisions that would not be needed to get the job done but it's adding them just for the sake of it and they feel personalized and not slop. Even humor, it…",
+      "author": "/u/Acclynn",
+      "extra": {},
+      "id": "3f3ae036a5185821",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "UkisAI Swift Series / 27B, Flash Next and Bonsai 2 + GSQ-RCO / -63.4% thinking, x1.95 speed with xhigh accuracy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp6gal/ukisai_swift_series_27b_flash_next_and_bonsai_2/",
+      "publishedAt": "2026-09-24T16:32:57Z",
+      "excerpt": "Hey everyone, Jovan from UkisAI here! Today, we are introducing Swift, a family of efficient reasoning LLMs based on Qwen, trained by penalizing tokens related to pathological overthinking patterns and restoring accuracy via RL (GSPO) and OPD . After amazing feedback and 350k+ downloads in 13 days on our Swift Qwen 3.8 27B we are releasing the entire model family as well as the highly requested GSQ-RCO quants for 27B and Flash-Next. This release includes: Swift1.5 27B , an improved version of…",
+      "author": "/u/Secure_Recording_472",
+      "extra": {},
+      "id": "c0ce572b927c0d0a",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Qwen 3.8 27b be like...",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpdho8/qwen_38_27b_be_like/",
+      "publishedAt": "2026-09-24T21:00:38Z",
+      "excerpt": "The user is frustrated — I rambled too much and didn't act. Let's just run the test suite and move on. No more forensics. One command, execute, then report. (Original memo is a casual internal monologue in English. Translating faithfully while preserving the informal, stream-of-consciousness register.) Got it. No more analysis. Running the suite now: <br> (Casual English internal memo, stream-of-thought style, with the informal tone of the original Japanese preserved.) (Ugh, I'm going in…",
+      "author": "/u/Graemer71",
+      "extra": {},
+      "id": "894ead3f90dd743d",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI is now being benchmarked on whether it can actually do laboratory science, not just answer questions: run experiments, handle equipment, read instruments, and recover from failures",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpaxw1/ai_is_now_being_benchmarked_on_whether_it_can/",
+      "publishedAt": "2026-09-24T19:20:57Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "e5dd239fac39fab5",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Good news: Google's AI exhibits self-control, stops unauthorised hack into three companies",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp8dor/good_news_googles_ai_exhibits_selfcontrol_stops/",
+      "publishedAt": "2026-09-24T17:44:55Z",
+      "excerpt": "",
+      "author": "/u/immodium4breakfast",
+      "extra": {},
+      "id": "1c5cc96843922630",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Australian school tutoring company shuts down, tells parents to save their money and ‘use AI instead’",
+      "url": "https://www.reddit.com/r/singularity/comments/1wowqn1/australian_school_tutoring_company_shuts_down/",
+      "publishedAt": "2026-09-24T09:10:47Z",
+      "excerpt": "",
+      "author": "/u/Old-Competition3596",
+      "extra": {},
+      "id": "b39547f63aabad95",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Opus 5.5 just surpassed the professional human baseline on a benchmark testing whether AI can write complete scripts with the right voice, substance, pacing, hooks and minimal AI slop",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp87yk/opus_55_just_surpassed_the_professional_human/",
+      "publishedAt": "2026-09-24T17:38:56Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "d79bf5f9fa507b86",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Google, OpenAI and Anthropic are reportedly forming their own frontier-AI safety authority, potentially testing models before release without government oversight",
+      "url": "https://www.reddit.com/r/singularity/comments/1wp7lhu/google_openai_and_anthropic_are_reportedly/",
+      "publishedAt": "2026-09-24T17:15:53Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "f5c5b807901a8494",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Qwen3.8-Flash-Next on 12GB VRAM - 65 tokens per second",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wp7zyb/qwen38flashnext_on_12gb_vram_65_tokens_per_second/",
+      "publishedAt": "2026-09-24T17:30:44Z",
+      "excerpt": "A while ago I posted 15 tok/s output and 100-120 tok/s prompt processing with the IQ3_XXS quant on a 12GB RTX 5070 using llama.cpp. Since then I built my own inference engine for this one model and this kind of PC. The same IQ3_XXS now runs at ~65 tok/s output and ~430 tok/s prompt processing , and the 2-bit quants run faster still using RCO-GSQ quantization. Using: 64GB DDR5 (5600) 12GB RTX 5070 SFF (Gigabyte) Ryzen 5 7600 CPU Windows Output (tokens/s) on 128K context: Q2_0 (equivalent to…",
+      "author": "/u/KnownAd4832",
+      "extra": {},
+      "id": "5cb60b231bb312a1",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Japanese Animator Breaks Down How He Made an Anime MV Using Seedance",
+      "url": "https://www.reddit.com/r/singularity/comments/1woz0fn/japanese_animator_breaks_down_how_he_made_an/",
+      "publishedAt": "2026-09-24T11:24:13Z",
+      "excerpt": "",
+      "author": "/u/PointmanW",
+      "extra": {},
+      "id": "d491d9d0d4ab77b4",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Meta Muse appears to be excited to give away its system data",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpbeb7/meta_muse_appears_to_be_excited_to_give_away_its/",
+      "publishedAt": "2026-09-24T19:38:33Z",
+      "excerpt": "",
+      "author": "/u/sn2006gy",
+      "extra": {},
+      "id": "a47d8fbfd6fee495",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "OpenAI appears to be working on a higher-end ChatGPT plan called “Pro Max” this new tier could cost between $500 and $1000 USD",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpfd43/openai_appears_to_be_working_on_a_higherend/",
+      "publishedAt": "2026-09-24T22:17:25Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "5c1bed1ace81fd07",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Google launching TPUs in space NEXT WEEK on SpaceX falcon 9 to test AI data centers orbit",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpo70u/google_launching_tpus_in_space_next_week_on/",
+      "publishedAt": "2026-09-25T05:40:15Z",
+      "excerpt": "",
+      "author": "/u/VariationLivid3193",
+      "extra": {},
+      "id": "1a71e89ce883e5db",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "NeurIPS Accepted Papers are now visible [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wp6oi3/neurips_accepted_papers_are_now_visible_r/",
+      "publishedAt": "2026-09-24T16:41:33Z",
+      "excerpt": "I haven't received a notification about this -- but my paper just became visible as \"accepted\". I expect an email to come some time soon! Scores were 5-4-4.",
+      "author": "/u/levydawg",
+      "extra": {},
+      "id": "8c3cf8ef4344a519",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    },
+    {
+      "source": "ai-explained",
+      "sourceName": "AI Explained",
+      "title": "Opus 5.5: How Close Are We to Automated AI Research?",
+      "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
+      "publishedAt": "2026-09-24T22:51:54Z",
+      "excerpt": "Not only is Opus 5.5 out, pushing the frontier of AI, it also tells us much about what is going on inside the labs, as they both warn about, and promise, Recursive Self Improvement, aka automated AI research. I cover the model (digging into its 230 page paper), labs’ mixed record on promises, why following what is happening in AI is getting almost impossible, and just so much more that even a summary in this description would get too long.\n\n\nAI Insiders ($9!):…",
+      "author": "AI Explained",
+      "extra": {},
+      "id": "d28c9f2467180637",
+      "collectedAt": "2026-09-25T07:54:40.660697+00:00"
+    }
+  ],
+  "updatedAt": "2026-09-25T07:54:40.660697+00:00"
+}

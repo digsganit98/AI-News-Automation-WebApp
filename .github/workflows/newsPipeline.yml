@@ -1,0 +1,94 @@
+# The news pipeline. Runs on GitHub's servers, so your computer can be off.
+#
+#   Every 3 hours  -> "update":       collect new items and refresh the website's Latest feed
+#   10:00 IST      -> "dailyEdition": the same, then (Phase 2+) the writer and editor agents
+#                                     produce the daily digest + op-ed, and (Phase 4) one email
+#
+# Phase 1 (now): collects news from every source and commits data/raw/<date>.json.
+name: News pipeline
+
+on:
+  schedule:
+    # Times are UTC. IST = UTC + 5:30, and India has no daylight saving, so these never shift.
+    - cron: "30 4 * * *" # 10:00 IST: daily edition
+    - cron: "30 1,7,10,13,16,19,22 * * *" # 07:00, 13:00, 16:00, 19:00, 22:00, 01:00, 04:00 IST
+  workflow_dispatch: # "Run workflow" button in the Actions tab
+    inputs:
+      mode:
+        description: "update = collect only; dailyEdition = also write the digest and email"
+        type: choice
+        options: [update, dailyEdition]
+        default: update
+      dryRun:
+        description: "Dry run: collect and print, but don't save anything"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # to commit the collected data
+
+concurrency:
+  group: news-pipeline # runs never overlap; a new one waits for the previous to finish
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      mode: ${{ steps.mode.outputs.mode }}
+    steps:
+      - name: Decide which run this is
+        id: mode
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 4 * * *" ] || [ "${{ inputs.mode }}" = "dailyEdition" ]; then
+            echo "mode=dailyEdition" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=update" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Collect news from all sources
+        env:
+          # Optional secrets; sources that need them are skipped when they're empty.
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: uv run digest collect ${{ inputs.dryRun && '--dry-run' || '' }}
+
+      - name: Save collected data to the repo
+        if: ${{ !inputs.dryRun }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data state
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "data: ${{ steps.mode.outputs.mode }} $(TZ=Asia/Kolkata date '+%F %H:%M IST')"
+            git pull --rebase
+            git push
+          fi
+
+  # Rebuild and publish the website with the data just collected.
+  # (Pushes made by this workflow don't trigger other workflows, so it's called directly.)
+  website:
+    needs: collect
+    if: ${{ !inputs.dryRun }}
+    uses: ./.github/workflows/deploySite.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+  # Phase 2+: `agents` (scouts + analyst) runs after every collect;
+  # `dailyEdition` (writer + editor -> digest + op-ed) and `email` run only when
+  # needs.collect.outputs.mode == 'dailyEdition'.

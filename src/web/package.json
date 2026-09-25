@@ -1,0 +1,20 @@
+{
+  "name": "genai-digest-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^6.0.5",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.5",
+    "dotenv": "^18.0.3",
+    "preact": "^10.29.8",
+    "tailwindcss": "^4.3.3",
+    "yaml": "^2.9.1"
+  }
+}

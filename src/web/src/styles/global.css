@@ -1,0 +1,207 @@
+@import "tailwindcss";
+
+/* Dark mode follows a `dark` class on <html>, set by the theme toggle (default: system). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Apple look: SF Pro on Apple devices, Inter (closest match) everywhere else. */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Apple system blue */
+  --color-brand-50: #eaf3ff;
+  --color-brand-100: #d4e7ff;
+  --color-brand-200: #a9cfff;
+  --color-brand-300: #6fb0ff;
+  --color-brand-400: #2997ff;
+  --color-brand-500: #0a84ff;
+  --color-brand-600: #0071e3;
+  --color-brand-700: #0058b0;
+  --color-violet-glow: #bf5af2;
+  --color-ink: #1d1d1f;
+  --color-ink-muted: #6e6e73;
+}
+
+/* ------------------------------------------------------------------ liquid glass tokens */
+
+:root {
+  --glass-fill: rgba(255, 255, 255, 0.5);
+  --glass-fill-strong: rgba(255, 255, 255, 0.72);
+  --glass-rim: rgba(255, 255, 255, 0.85);
+  --glass-rim-soft: rgba(255, 255, 255, 0.28);
+  --glass-edge: rgba(15, 23, 42, 0.06);
+  --glass-shadow: 0 18px 50px -20px rgba(40, 52, 120, 0.35), 0 2px 6px -2px rgba(40, 52, 120, 0.12);
+  --glass-sheen: rgba(255, 255, 255, 0.55);
+  --glass-blur: 22px;
+}
+
+.dark {
+  --glass-fill: rgba(255, 255, 255, 0.06);
+  --glass-fill-strong: rgba(255, 255, 255, 0.11);
+  --glass-rim: rgba(255, 255, 255, 0.3);
+  --glass-rim-soft: rgba(255, 255, 255, 0.06);
+  --glass-edge: rgba(0, 0, 0, 0.35);
+  --glass-shadow: 0 22px 60px -24px rgba(0, 0, 0, 0.85), 0 2px 8px -2px rgba(0, 0, 0, 0.5);
+  --glass-sheen: rgba(255, 255, 255, 0.16);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-[#f5f5f7] text-ink antialiased dark:bg-black dark:text-[#f5f5f7];
+    font-feature-settings: "cv11", "ss01";
+    letter-spacing: -0.011em;
+  }
+  h1, h2, h3 {
+    letter-spacing: -0.025em;
+  }
+  ::selection {
+    @apply bg-brand-500/25;
+  }
+}
+
+@layer components {
+  /* Colourful, softly blurred backdrop that the glass refracts. */
+  .glass-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: -10;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .glass-backdrop span {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(70px);
+    opacity: 0.75;
+  }
+  .dark .glass-backdrop span {
+    opacity: 0.5;
+  }
+
+  /* The glass material: translucent fill, background blur, bright rim, inner sheen, depth. */
+  .glass, .card, .chip, .field, .glass-nav {
+    position: relative;
+    isolation: isolate;
+    background:
+      linear-gradient(180deg, var(--glass-sheen) 0%, transparent 42%),
+      var(--glass-fill);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(185%);
+    backdrop-filter: blur(var(--glass-blur)) saturate(185%);
+    box-shadow:
+      inset 0 1px 0 0 var(--glass-rim),
+      inset 0 -1px 0 0 var(--glass-rim-soft),
+      inset 0 0 0 1px var(--glass-edge),
+      var(--glass-shadow);
+  }
+  /* Gradient rim: light catches the top-left and bottom-right edges. */
+  .glass::before, .card::before, .chip::before, .field::before, .glass-nav::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    pointer-events: none;
+    background: linear-gradient(135deg, var(--glass-rim) 0%, transparent 35%, transparent 65%, var(--glass-rim-soft) 100%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  }
+  /* Specular highlight that follows the pointer (--mx / --my set by a small script). */
+  .glass::after, .card::after, .chip::after, .field::after, .glass-nav::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 0%), rgba(255, 255, 255, 0.38), transparent 45%);
+    mix-blend-mode: soft-light;
+  }
+  .glass:hover::after, .card:hover::after, .chip:hover::after, .glass-nav:hover::after {
+    opacity: 1;
+  }
+  .dark :is(.glass, .card, .chip, .field, .glass-nav)::after {
+    background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 0%), rgba(255, 255, 255, 0.14), transparent 45%);
+    mix-blend-mode: normal;
+  }
+
+  .card {
+    @apply rounded-[26px];
+  }
+  .glass-tile {
+    @apply rounded-xl bg-white/70 text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_3px_rgba(15,23,42,0.12)]
+      dark:bg-white/10 dark:text-white dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.18)];
+  }
+  .pill {
+    @apply inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium backdrop-blur-md;
+  }
+  .chip {
+    @apply cursor-pointer rounded-full px-3.5 py-1.5 text-sm font-medium text-slate-700 transition
+      duration-200 hover:scale-[1.03] active:scale-[0.97] dark:text-slate-200;
+    --glass-blur: 14px;
+  }
+  .chip[aria-pressed="true"] {
+    @apply text-white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.32) 0%, transparent 55%), #0071e3;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.55),
+      inset 0 -2px 6px rgba(0, 40, 110, 0.3),
+      0 8px 22px -8px rgba(0, 113, 227, 0.65);
+  }
+  .field {
+    @apply rounded-2xl px-3.5 py-2.5 text-sm text-slate-900 outline-none transition
+      focus:ring-4 focus:ring-brand-500/20 dark:text-slate-100 [&>option]:text-slate-900;
+    --glass-blur: 16px;
+  }
+  .glass-button {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition
+      duration-200 hover:scale-[1.03] active:scale-[0.97];
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(255, 255, 255, 0) 52%), #0071e3;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.65),
+      inset 0 -3px 8px rgba(0, 40, 110, 0.3),
+      0 12px 28px -10px rgba(0, 113, 227, 0.7);
+  }
+
+  /* Floating capsule navigation, like the iOS 26 tab bar. */
+  .glass-nav {
+    @apply rounded-full;
+    --glass-fill: rgba(255, 255, 255, 0.42);
+    --glass-blur: 18px;
+  }
+  .dark .glass-nav {
+    --glass-fill: rgba(22, 24, 38, 0.45);
+  }
+  /* Real refraction where the browser supports SVG backdrop filters (Chromium). */
+  .refraction .glass-nav {
+    -webkit-backdrop-filter: url(#liquidGlass) blur(10px) saturate(190%);
+    backdrop-filter: url(#liquidGlass) blur(10px) saturate(190%);
+  }
+  .nav-link {
+    @apply relative rounded-full px-3.5 py-1.5 text-sm font-medium text-slate-600 transition duration-200
+      hover:text-slate-900 dark:text-slate-300 dark:hover:text-white;
+  }
+  .nav-link[aria-current="page"] {
+    @apply bg-white/85 text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,1),0_4px_14px_-4px_rgba(40,52,120,0.35)]
+      dark:bg-white/15 dark:text-white dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.25),0_4px_14px_-4px_rgba(0,0,0,0.6)];
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .glass, .card, .chip, .field, .glass-nav {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: var(--glass-fill-strong);
+  }
+}
+
+/* Apple-style headline: large, tight, with a subtle gradient. */
+.headline {
+  @apply bg-gradient-to-b from-ink to-[#434346] bg-clip-text font-semibold tracking-[-0.035em] text-transparent
+    dark:from-white dark:to-[#a1a1a6];
+}
+.eyebrow {
+  @apply text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6];
+}
