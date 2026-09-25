@@ -12,6 +12,8 @@ def normalize(items: list[RawItem]) -> list[RawItem]:
             update={
                 "url": cleanUrl(item.url),
                 "title": " ".join(item.title.split()),
+                # Hacker News' front-page feed has only a "Comments" link as its summary.
+                "excerpt": "" if item.excerpt.strip().lower() == "comments" else item.excerpt,
             }
         )
         for item in items

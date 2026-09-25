@@ -37,12 +37,16 @@ Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research 
 
 ## What you get
 
-- **Latest:** every story the agents picked, ranked by importance, with a plain-English summary, "why it matters", the sources, and "Go deeper" links to the paper, code or model. Below that, everything collected, with filters and search.
-- **Digest:** the daily digest and op-ed (from 10:00 IST).
-- **Research log:** one row per development, with the columns *Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*. It can be downloaded as a **CSV**.
-- **Sources:** which sources worked in the last run.
-- **Archive** (calendar icon, top right): the last 5 days.
-- Light and dark mode, and it works on phones.
+| Page | What it's for |
+|---|---|
+| **Latest** | The live dashboard, updated every 3 hours. It shows today's digest, the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links to paper, code or model), then **everything collected**, with filters and search. |
+| **Daily Digest** | The **10:00 IST edition**: a 5-minute read with a headline, a 3-point TL;DR, the day's top 5 stories and a short **op-ed** on the biggest theme, all fact-checked by the editor. It says when the next edition comes. Latest is the full stream; the Daily Digest is the curated summary (and what the daily email will send). |
+| **Research Radar** | Every new development from the last 3 days, one row each, from all sources, with the columns *Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*. Rows the AI agents reviewed are marked ✓; the rest are tagged automatically. It works even without API keys. **Download as CSV.** |
+| **Sources** | Which sources worked in the last run. |
+| **How it works** | The architecture, the agents and their LLMs. |
+| **Archive** (calendar icon, top right) | The last 5 days, each day browsable and filterable. |
+
+Light and dark mode, and it works on phones. A small bar pinned to the bottom of Latest and Archive credits the project.
 
 ## How it works
 
@@ -69,7 +73,7 @@ Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research 
 
 If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. A daily budget keeps calls within the free tiers and saves 25 calls for the 10:00 edition.
 
-**Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout, which also covers LinkedIn, X, YC and Coimbatore news through search results.
+**Source Type** (Research Radar): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout, which also covers LinkedIn, X, YC and Coimbatore news through search results.
 
 ## How we keep the AI honest
 

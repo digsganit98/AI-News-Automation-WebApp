@@ -262,7 +262,7 @@ export const CATEGORY_STYLE: Record<string, string> = {
   "Business & Funding": "text-[#a16207] dark:text-[#ffd60a]",
 };
 
-/** Date as DD-MM-YY in the digest's timezone (the research log format). */
+/** Date as DD-MM-YY in the digest's timezone (the Research Radar format). */
 export function logDate(iso: string): string {
   const parts = new Intl.DateTimeFormat("en-GB", {
     timeZone, day: "2-digit", month: "2-digit", year: "2-digit",
@@ -276,7 +276,7 @@ export const LOG_COLUMNS = [
   "Industry Vertical", "Source Type", "Link",
 ] as const;
 
-/** One research-log row per story: the exact columns of the research strategy. */
+/** One Research Radar row per story: the exact columns of the research strategy. */
 export function logRow(s: Story): string[] {
   return [
     logDate(s.createdAt), s.researcher || "", s.headline, s.summary, s.category,
@@ -288,4 +288,107 @@ export function logRow(s: Story): string[] {
 export function loadLogStories(days = 7): Story[] {
   const files = readDatedFiles<{ date: string; stories: Story[] }>("stories").slice(0, days);
   return files.flatMap((f) => [...f.stories].reverse());
+}
+
+// ------------------------------------------------------------------ Research Radar rows from the feeds
+// The Radar lists every GenAI item collected in the last few days, not only the stories the
+// AI agents wrote. Items the agents reviewed use the agents' fields; all other items are
+// classified here by simple keyword rules (no API keys, no LLM calls).
+
+const DIRECTED_GROUPS = new Set(["labs", "research", "cloud"]);
+
+export function sourceTypeOfGroup(group: string): string {
+  if (DIRECTED_GROUPS.has(group)) return "Directed";
+  return group === "webSearch" ? "AI-assisted" : "Emergent";
+}
+
+const DOMAIN_RULES: [RegExp, string][] = [
+  [/\b(agi|superintelligence|recursive self-improvement)\b/i, "AGI"],
+  [/\b(agents?|agentic|multi-agent|computer use)\b/i, "Agentic Systems"],
+  [/\b(inference|serving|gpu|latency|throughput|kubernetes|hyperpod|mlops|deploy(ment)?|accelerat\w*)\b/i, "Infrastructure/MLOps"],
+  [/\b(releases?|released|launch(es|ed)?|introduc(es|ing)|unveil\w*|now available|open-sources?)\b.*\b(model|llm|gpt|gemini|claude|llama|qwen|mistral|deepseek|vlm)\b|\b(model|llm|vlm)\b.*\b(released?|launch(es|ed)?)\b/i, "New Model Release"],
+  [/\b(framework|sdk|library|toolkit|mcp|open[- ]source|github|fine-tun\w*|rag|retrieval|api)\b/i, "Framework/Tooling"],
+  [/\b(prompt\w*|reasoning|rlhf|reinforcement learning|alignment|context engineering|evaluation|evals?|technique|method)\b/i, "Methodology"],
+  [/\b(policy|regulat\w*|safety|law|government|standards?|copyright)\b/i, "Policy & Safety"],
+  [/\b(funding|raises|series [a-e]|acqui\w*|valuation|ipo|investment)\b/i, "Business & Funding"],
+  [/\b(customer|case study|use cases?|healthcare|bank\w*|retail|manufactur\w*|enterprise)\b/i, "Industry Use Case"],
+];
+
+const PLATFORM_RULES: [RegExp, string][] = [
+  [/\b(aws|amazon|bedrock|sagemaker|agentcore)\b/i, "AWS"],
+  [/\b(azure|microsoft|copilot|foundry)\b/i, "Azure"],
+  [/\b(google|gemini|vertex|deepmind|gcp)\b/i, "GCP"],
+  [/\b(openai|gpt-?\d|chatgpt)\b/i, "OpenAI"],
+  [/\b(anthropic|claude)\b/i, "Anthropic"],
+  [/\b(nvidia)\b/i, "NVIDIA"],
+  [/\b(meta|llama)\b/i, "Meta"],
+  [/\b(mistral)\b/i, "Mistral"],
+  [/\b(qwen|alibaba)\b/i, "Alibaba"],
+  [/\b(deepseek)\b/i, "DeepSeek"],
+  [/\b(hugging ?face|open[- ]source|github|arxiv)\b/i, "Open-source"],
+];
+
+const VERTICAL_RULES: [RegExp, string][] = [
+  [/\b(health\w*|medical|clinic\w*|radiolog\w*|drug|biolog\w*|patients?|enzyme)\b/i, "Healthcare"],
+  [/\b(bank\w*|financ\w*|fraud|insur\w*|trading|payments?)\b/i, "BFSI"],
+  [/\b(retail|e-?commerce|shopping)\b/i, "Retail"],
+  [/\b(manufactur\w*|factory|industrial|robot\w*|supply chain)\b/i, "Manufacturing"],
+  [/\b(educat\w*|students?|schools?|learning platform)\b/i, "Education"],
+  [/\b(legal|law firm|lawyers?)\b/i, "Legal"],
+  [/\b(game|gaming|media|video generation|music)\b/i, "Media & Entertainment"],
+];
+
+function firstMatch(rules: [RegExp, string][], text: string): string | undefined {
+  return rules.find(([pattern]) => pattern.test(text))?.[1];
+}
+
+function classify(item: NewsItem, group: string) {
+  const text = `${item.title} ${item.excerpt}`;
+  const domain =
+    item.source === "hf-trending" ? "New Model Release"
+    : group === "research" && !/\b(agi|agents?|agentic)\b/i.test(text) ? "Research"
+    : firstMatch(DOMAIN_RULES, text) ?? (group === "cloud" ? "Framework/Tooling" : "Research");
+  const platform =
+    firstMatch(PLATFORM_RULES, text)
+    ?? (item.source.startsWith("hf-") || item.source === "arxiv" ? "Open-source" : "Cross-cloud");
+  return { domain, platform, vertical: firstMatch(VERTICAL_RULES, text) ?? "Cross-industry" };
+}
+
+export interface LogEntry {
+  row: string[];
+  reviewed: boolean; // written by the AI agents (vs classified by keyword rules)
+  time: string;
+}
+
+/** Research-log rows for the last `days` days: agent stories first-class, every other
+ * collected item classified by rules. Newest first. */
+export function loadLogEntries(days = 3): LogEntry[] {
+  const researcher = process.env.DEFAULT_RESEARCHER ?? "";
+  const cutoff = new Date(Date.now() - days * 24 * 3600 * 1000).toISOString();
+  const groupOf = Object.fromEntries(loadSources().map((s) => [s.id, s.group]));
+
+  const stories = loadLogStories(days).filter((s) => s.createdAt >= cutoff);
+  const covered = new Set(stories.flatMap((s) => s.sources.map((src) => src.url)));
+  const entries: LogEntry[] = stories.map((s) => ({ row: logRow(s), reviewed: true, time: s.createdAt }));
+
+  const seen = new Set<string>();
+  for (const day of loadDays().slice(0, days)) {
+    for (const item of day.items) {
+      // Undated items (e.g. trending models) sort after dated news from the same day.
+      const time = item.publishedAt ?? new Date(`${day.date}T00:00:00+05:30`).toISOString();
+      if (time < cutoff || covered.has(item.url) || seen.has(item.url)) continue;
+      seen.add(item.url);
+      const group = groupOf[item.source] ?? "";
+      const { domain, platform, vertical } = classify(item, group);
+      const likes = Number(item.extra?.likes ?? 0);
+      const text = item.excerpt || (likes ? `Trending on Hugging Face · ${likes.toLocaleString("en-US")} likes` : "");
+      const summary = text.length > 240 ? `${text.slice(0, 239)}…` : text;
+      entries.push({
+        row: [logDate(time), researcher, item.title, summary, domain, platform, vertical, sourceTypeOfGroup(group), item.url],
+        reviewed: false,
+        time,
+      });
+    }
+  }
+  return entries.sort((a, b) => b.time.localeCompare(a.time));
 }

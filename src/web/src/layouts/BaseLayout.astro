@@ -8,16 +8,17 @@ interface Props {
   title: string;
   description?: string;
   current: "home" | "digest" | "log" | "sources" | "about" | "archive";
+  showFooter?: boolean; // the "Collected automatically" bar: Latest and Archive only
 }
 
-const { title, description = "The latest Generative AI news from 30 sources, updated every 3 hours.", current } = Astro.props;
+const { title, description = "The latest Generative AI news from 30 sources, updated every 3 hours.", current, showFooter = false } = Astro.props;
 const author = process.env.SITE_AUTHOR;
 const fontCssUrl = process.env.WEB_FONT_CSS_URL;
 const fontOriginUrl = process.env.WEB_FONT_ORIGIN_URL;
 const nav = [
   { id: "home", label: "Latest", page: "" },
-  { id: "digest", label: "Digest", page: "digest" },
-  { id: "log", label: "Research log", page: "research-log" },
+  { id: "digest", label: "Daily Digest", page: "digest" },
+  { id: "log", label: "Research Radar", page: "research-radar" },
   { id: "sources", label: "Sources", page: "sources" },
   { id: "about", label: "How it works", page: "about" },
 ];
@@ -101,19 +102,21 @@ const nav = [
       </nav>
     </header>
 
-    <main class="mx-auto max-w-6xl px-4 pb-24 pt-12 sm:px-6">
+    <main class={`mx-auto max-w-6xl px-4 pt-12 sm:px-6 ${showFooter ? "pb-32" : "pb-24"}`}>
       <slot />
     </main>
 
-    <footer class="px-4 pb-10 sm:px-6">
-      <div class="card mx-auto flex max-w-6xl flex-col gap-2 px-6 py-5 text-sm text-ink-muted sm:flex-row sm:items-center sm:justify-between dark:text-[#a1a1a6]">
-        <div>
-          <p>Collected automatically every 3 hours on GitHub Actions. Summaries link back to the original sources.</p>
-          {author && <p class="mt-1 font-medium text-ink dark:text-white">Developed by {author}</p>}
+    {showFooter && (
+      <footer class="fixed inset-x-0 bottom-3 z-30 px-3 sm:px-6">
+        <div class="glass-nav mx-auto flex max-w-6xl flex-col items-center gap-1 px-4 py-2 text-[10.5px] text-ink-muted sm:flex-row sm:justify-between sm:gap-3 dark:text-[#a1a1a6]">
+          <p class="text-center sm:text-left">
+            Collected automatically every 3 hours on GitHub Actions. Summaries link back to the original sources.
+            {author && <span class="ml-1 font-medium text-ink dark:text-white">Developed by {author}</span>}
+          </p>
+          <a class="shrink-0 font-medium text-brand-600 hover:underline dark:text-brand-400" href={projectUrl} target="_blank" rel="noopener">Open source · MIT</a>
         </div>
-        <a class="shrink-0 font-medium text-brand-600 hover:underline dark:text-brand-400" href={projectUrl} target="_blank" rel="noopener">Open source · MIT</a>
-      </div>
-    </footer>
+      </footer>
+    )}
 
     <script is:inline>
       document.getElementById("themeToggle")?.addEventListener("click", () => {

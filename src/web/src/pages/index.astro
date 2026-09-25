@@ -19,7 +19,7 @@ const edition = loadDigests()[0];
 const topStories = loadTopStories(2).slice(0, 9);
 ---
 
-<BaseLayout title="Latest" current="home">
+<BaseLayout title="Latest" current="home" showFooter>
   <section class="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
    <div class="text-center sm:text-left">
     <p class="glass mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-ink dark:text-white">
@@ -33,54 +33,58 @@ const topStories = loadTopStories(2).slice(0, 9);
     {latest && <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
    </div>
 
-   <aside class="flex shrink-0 justify-center gap-2.5 lg:mt-2 lg:flex-col lg:items-stretch" aria-label="At a glance">
-    <div class="card min-w-[150px] px-4 py-3">
-      <p class="eyebrow !text-[10px]">Items today</p>
-      <p class="text-2xl font-semibold tracking-[-0.03em]">{latest?.items.length ?? 0}</p>
-      <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
+   <aside class="flex shrink-0 flex-col items-center gap-2 lg:mt-3 lg:items-end" aria-label="At a glance">
+    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+      <div>
+        <p class="eyebrow !text-[10px]">Items today</p>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
+      </div>
+      <p class="text-xl font-semibold tracking-[-0.03em]">{latest?.items.length ?? 0}</p>
     </div>
-    <div class="card min-w-[150px] px-4 py-3">
-      <p class="eyebrow !text-[10px]">Last update</p>
-      <p class="text-2xl font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
-      <p class="text-[11px] text-slate-500 dark:text-slate-400" data-local-time={latest?.updatedAt ?? ""}></p>
+    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+      <div>
+        <p class="eyebrow !text-[10px]">Last update</p>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400" data-local-time={latest?.updatedAt ?? ""}></p>
+      </div>
+      <p class="text-xl font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
     </div>
    </aside>
   </section>
 
-  <section class="card relative mb-12 overflow-hidden p-6 sm:p-8">
-    <div class="absolute -right-16 -top-16 size-64 rounded-full bg-gradient-to-br from-brand-400/30 to-violet-glow/30 blur-3xl"></div>
+  <section class="card relative mb-12 overflow-hidden p-5 sm:p-6">
+    <div class="absolute -right-16 -top-16 size-56 rounded-full bg-gradient-to-br from-brand-400/30 to-violet-glow/30 blur-3xl"></div>
     {edition ? (
-      <div class="relative grid gap-6 lg:grid-cols-[1.4fr_1fr]">
+      <div class="relative grid gap-5 lg:grid-cols-[1.4fr_1fr]">
         <div>
-          <p class="eyebrow mb-2">Daily digest · {formatDay(edition.date)}</p>
-          <h2 class="text-2xl font-semibold leading-tight tracking-[-0.03em] sm:text-4xl">{edition.digest.headline}</h2>
-          <p class="mt-3 text-lg text-ink-muted dark:text-[#a1a1a6]">{edition.digest.dek}</p>
-          <ul class="mt-5 space-y-2.5">
+          <p class="eyebrow mb-2 !text-[11px]">Daily digest · {formatDay(edition.date)}</p>
+          <h2 class="text-xl font-semibold leading-tight tracking-[-0.03em] sm:text-3xl">{edition.digest.headline}</h2>
+          <p class="mt-2 text-base text-ink-muted dark:text-[#a1a1a6]">{edition.digest.dek}</p>
+          <ul class="mt-4 space-y-2 text-sm">
             {edition.digest.tldr.map((line) => (
-              <li class="flex gap-3 leading-snug"><span class="mt-2 size-1.5 shrink-0 rounded-full bg-brand-500"></span>{line}</li>
+              <li class="flex gap-3 leading-snug"><span class="mt-1.5 size-1.5 shrink-0 rounded-full bg-brand-500"></span>{line}</li>
             ))}
           </ul>
-          <a href={href(`digest/${edition.date}`)} class="glass-button mt-6">Read the full digest</a>
-        </div>
-        <a href={href(`digest/${edition.date}#op-ed`)} class="glass group flex flex-col justify-between rounded-3xl p-6">
-          <div>
-            <p class="eyebrow mb-2 !text-[#bf5af2]">Today's op-ed</p>
-            <p class="text-xl font-semibold leading-snug tracking-[-0.02em] group-hover:text-brand-600 dark:group-hover:text-brand-400">{edition.opEd.title}</p>
-            <p class="mt-2 text-sm text-ink-muted dark:text-[#a1a1a6]">{edition.opEd.dek}</p>
+          <div class="mt-5 flex flex-wrap items-center gap-3">
+            <a href={href(`digest/${edition.date}`)} class="glass-button !px-4 !py-2 !text-[13px]">Read the full digest</a>
+            <p class="text-xs text-ink-muted dark:text-[#a1a1a6]" data-next-edition={edition.date}></p>
           </div>
-          <p class="mt-4 text-sm font-semibold text-brand-600 dark:text-brand-400">Read the op-ed →</p>
+        </div>
+        <a href={href(`digest/${edition.date}#op-ed`)} class="glass group flex flex-col justify-between rounded-3xl p-5">
+          <div>
+            <p class="eyebrow mb-2 !text-[11px] !text-[#bf5af2]">Op-ed</p>
+            <p class="text-base font-semibold leading-snug tracking-[-0.02em] group-hover:text-brand-600 dark:group-hover:text-brand-400">{edition.opEd.title}</p>
+            <p class="mt-2 text-xs text-ink-muted dark:text-[#a1a1a6]">{edition.opEd.dek}</p>
+          </div>
+          <p class="mt-4 text-xs font-semibold text-brand-600 dark:text-brand-400">Read the op-ed →</p>
         </a>
       </div>
     ) : (
-      <div class="relative flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <div>
-          <p class="eyebrow mb-2 !text-[#bf5af2]">Daily digest &amp; op-ed</p>
-          <h2 class="text-2xl font-semibold sm:text-3xl">The first edition arrives at 10:00 IST</h2>
-          <p class="mt-2 max-w-2xl text-ink-muted dark:text-[#a1a1a6]">
-            Every morning the Writer agent turns the day's top stories into a digest and a short op-ed, and the Editor agent checks every claim against the sources.
-          </p>
-        </div>
-        <a href={href("about")} class="glass-button shrink-0">How it works</a>
+      <div class="relative">
+        <p class="eyebrow mb-2 !text-[11px] !text-[#bf5af2]">Daily digest &amp; op-ed</p>
+        <h2 class="text-xl font-semibold sm:text-2xl">The first edition arrives at 10:00 IST</h2>
+        <p class="mt-2 max-w-2xl text-sm text-ink-muted dark:text-[#a1a1a6]">
+          Every morning the Writer agent turns the day's top stories into a digest and a short op-ed, and the Editor agent checks every claim against the sources.
+        </p>
       </div>
     )}
   </section>
@@ -121,5 +125,18 @@ const topStories = loadTopStories(2).slice(0, 9);
     });
     tick();
     setInterval(tick, 30000);
+
+    // "When is the next edition?" worked out in the reader's browser (India time), so it
+    // stays right between the 3-hourly rebuilds of this page.
+    document.querySelectorAll("[data-next-edition]").forEach((el) => {
+      const ist = new Date(Date.now() + 5.5 * 3600000); // IST = UTC + 5:30, no daylight saving
+      const today = ist.toISOString().slice(0, 10);
+      const hour = ist.getUTCHours();
+      el.textContent = el.dataset.nextEdition === today
+        ? "Next edition: tomorrow, 10:00 IST"
+        : hour < 10
+          ? "Today's edition arrives at 10:00 IST"
+          : "Today's edition is on its way";
+    });
   </script>
 </BaseLayout>

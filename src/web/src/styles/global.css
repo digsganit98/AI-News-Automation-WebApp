@@ -205,3 +205,18 @@
 .eyebrow {
   @apply text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6];
 }
+
+/* Stats on the home page: long, lean and faint, so they sit back in the background. */
+.kpi {
+  --glass-fill: rgba(255, 255, 255, 0.22);
+  --glass-sheen: rgba(255, 255, 255, 0.25);
+  --glass-shadow: 0 8px 28px -18px rgba(40, 52, 120, 0.3);
+  --glass-blur: 14px;
+  border-radius: 9999px;
+  opacity: 0.9;
+}
+.dark .kpi {
+  --glass-fill: rgba(255, 255, 255, 0.035);
+  --glass-sheen: rgba(255, 255, 255, 0.06);
+  --glass-shadow: 0 8px 28px -18px rgba(0, 0, 0, 0.7);
+}

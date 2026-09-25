@@ -23,6 +23,7 @@ You don't need any API keys to run the tests: they use saved sample data and a f
 - **New source?** Usually just config: see "Add a source" in the README.
 - **Prompt or model change?** Run `uv run digest eval` before and after, and put both scores in your pull request. Don't merge anything that lowers the score.
 - **Website change?** Check both light and dark mode, and a phone-sized window.
+- **Keep the README current.** If your change adds or renames a page, source, agent, model, setting or setup step, or changes a number the README quotes (sources, agents, calls a day), update `README.md` in the same pull request, in plain simple English.
 
 ## 3. Check it
 

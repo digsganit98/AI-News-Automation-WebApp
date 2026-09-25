@@ -8,7 +8,7 @@ const icons = iconMap(loadSources());
 const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
 ---
 
-<BaseLayout title="Archive" current="archive" description={`The last ${ARCHIVE_DAYS} days of collected GenAI news.`}>
+<BaseLayout title="Archive" current="archive" description={`The last ${ARCHIVE_DAYS} days of collected GenAI news.`} showFooter>
   <h1 class="headline text-4xl sm:text-6xl">Archive</h1>
   <p class="mt-3 text-ink-muted dark:text-[#a1a1a6]">The last {ARCHIVE_DAYS} days. Pick a day to browse and filter everything collected.</p>
 
