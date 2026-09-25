@@ -1,0 +1,583 @@
+{
+  "date": "2026-09-26",
+  "runs": [
+    {
+      "runAt": "2026-09-25T20:04:17.587753+00:00",
+      "newItems": 26,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.680566Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.804853Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.805276Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.805595Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.805758Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.805914Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806061Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806198Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806334Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806488Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806626Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806686Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806729Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806939Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.806981Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.807120Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.807257Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.807595Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-25T20:04:17.807852Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.808019Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.808168Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.808312Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.808540Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.808704Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.809293Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.809471Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.809631Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-25T20:04:17.809679Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: TAVILY_API_KEY is not set",
+          "checkedAt": "2026-09-25T20:04:17.809732Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "publishedAt": "2026-09-25T19:00:00Z",
+      "excerpt": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "author": null,
+      "extra": {},
+      "id": "d2d497e5eee41848",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+      "url": "https://huggingface.co/papers/2609.29362",
+      "publishedAt": "2026-09-25T00:00:00Z",
+      "excerpt": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by individual latents or by structured groups of features. We find that PoS distinctions are highly recoverable from SAE activations, but do not align with one-to-one latent / category mappings. This…",
+      "author": "Alessandro Bondielli, Lucia Passaro, Serena Auriemma, Alessandro Lenci",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/colinglab/pos-sae-latents",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.29362"
+      },
+      "id": "9c8dbe890382793f",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
+      "publishedAt": "2026-09-25T16:29:50Z",
+      "excerpt": "Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post presents an architecture that combines Amazon EKS, EFA, and Amazon S3 and increased aggregate reinforcement learning rollout throughput by 40% for large-scale RLHF and GRPO training.",
+      "author": "Ashvin Nihalani",
+      "extra": {},
+      "id": "f3a074486b06c633",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
+      "publishedAt": "2026-09-25T16:18:07Z",
+      "excerpt": "Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference.",
+      "author": "Nilesh PS",
+      "extra": {},
+      "id": "44df1f0ad2a57635",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+      "publishedAt": "2026-09-25T16:15:22Z",
+      "excerpt": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time.",
+      "author": "Felicia Yue Xiong",
+      "extra": {},
+      "id": "5c491d0848335434",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
+      "publishedAt": "2026-09-25T16:09:46Z",
+      "excerpt": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time endpoint, and clone a voice from a short reference clip. Cross-lingual cloning preserves the speaker's identity across languages.",
+      "author": "Suneesh T",
+      "extra": {},
+      "id": "fbfeb983c98c5a3f",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
+      "publishedAt": "2026-09-25T15:54:42Z",
+      "excerpt": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an automated cross-cloud data pipeline and multi-tenant row-level security.",
+      "author": "Deepthi Paruchuri",
+      "extra": {},
+      "id": "3d3961d3118fa249",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
+      "publishedAt": "2026-09-25T15:49:44Z",
+      "excerpt": "Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. This post shares the architecture and validation results from a cross-Region training run, where a remote cluster matched a co-located cluster's throughput after a brief NeuralCache warmup.",
+      "author": "Bryan Berezdivin",
+      "extra": {},
+      "id": "4ac4a69f34d49a3a",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Best practices guide for customizing Gemini models via Reinforcement Learning (RL)",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/",
+      "publishedAt": "2026-09-25T16:00:00Z",
+      "excerpt": "Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So here at Google Cloud, we packaged it into a managed RL fine-tuning service (RLFT service) — you bring prompts and a reward function; we handle the infrastructure and the proprietary model internals. Now, you can adapt Gemini with the service — teaching the model from a reward…",
+      "author": "Kunal Jha",
+      "extra": {},
+      "id": "287c4ef510fe5994",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Arama Motorlarının Geleceği ve SEO’nun Evrimi: Üretken Motor Optimizasyonu (GEO)",
+      "url": "https://medium.com/@muratmertkucuk/arama-motorlar%C4%B1n%C4%B1n-gelece%C4%9Fi-ve-seonun-evrimi-%C3%BCretken-motor-optimizasyonu-geo-2c0a449dd5fd?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T18:59:25Z",
+      "excerpt": "İnternet dünyasında bilgiye erişim biçimimiz köklü bir değişimden geçiyor. Yaklaşık otuz yıldır hayatımızın merkezinde olan geleneksel… Continue reading on Medium »",
+      "author": "Murat Mert Küçük",
+      "extra": {},
+      "id": "14e369d5718edcbf",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Claude, ChatGPT, or a Smaller Model? Use This 60-Second Decision Rule",
+      "url": "https://medium.com/@davuttam/claude-chatgpt-or-a-smaller-model-use-this-60-second-decision-rule-918e483d66dc?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T18:51:49Z",
+      "excerpt": "Choose the right AI model by task complexity, cost of failure, speed and data sensitivity — not brand loyalty. Continue reading on Medium »",
+      "author": "Uttam Panday",
+      "extra": {},
+      "id": "a95128b94df2c2f3",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Prompt Engineering for SDETs — Part 2: One-Shot Prompting",
+      "url": "https://medium.com/@sha.jamdar/prompt-engineering-for-sdets-part-2-one-shot-prompting-99500b9d1f32?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T18:51:15Z",
+      "excerpt": "After publishing Part 1 on Zero-Shot Prompting, I received an interesting comment: Continue reading on Medium »",
+      "author": "Shashavali J",
+      "extra": {},
+      "id": "518919b53c036708",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Module 3 — Prompt Engineering as Software Engineering",
+      "url": "https://faheemkhaskheli9.medium.com/module-3-prompt-engineering-as-software-engineering-b38071421896?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T17:38:40Z",
+      "excerpt": "Project: Customer Support LLM Build: Customer Support Assistant v0.3 Learning loop: Build → Break → Measure → Improve Continue reading on Medium »",
+      "author": "Faheem Khaskheli",
+      "extra": {},
+      "id": "2b7c7855bfc76de5",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Thought Building AI Meant Training Models. Then I Started Building AI Systems.",
+      "url": "https://medium.com/@ayushroy2408/i-thought-building-ai-meant-training-models-then-i-started-building-ai-systems-40e5d2205f67?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T16:58:50Z",
+      "excerpt": "What changed when my AI projects stopped being about models and started being about complete applications. Continue reading on Medium »",
+      "author": "Ayush Roy",
+      "extra": {},
+      "id": "94585e573c30146d",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Yes, Claude can do nine loops",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "publishedAt": "2026-09-25T18:11:48Z",
+      "excerpt": "",
+      "author": "tzury",
+      "extra": {
+        "points": 98,
+        "comments": 46,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49848033"
+      },
+      "id": "e8b59ccb041899a5",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
+      "url": "https://github.com/Avinash-jetwani/jevmem",
+      "publishedAt": "2026-09-25T16:04:04Z",
+      "excerpt": "",
+      "author": "avinashjetwani",
+      "extra": {
+        "points": 59,
+        "comments": 39,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49846391"
+      },
+      "id": "80053acc608c9f2b",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "publishedAt": "2026-09-25T15:29:25Z",
+      "excerpt": "",
+      "author": "cramer4next",
+      "extra": {
+        "points": 265,
+        "comments": 403,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49845977"
+      },
+      "id": "b005ba80ec50da9f",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Classified estimates show the NSA is paying billions to test AI models",
+      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "publishedAt": "2026-09-25T15:27:35Z",
+      "excerpt": "",
+      "author": "rdmuser",
+      "extra": {
+        "points": 161,
+        "comments": 90,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49845952"
+      },
+      "id": "dd48f8c31e9fe628",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "publishedAt": "2026-09-25T14:07:08Z",
+      "excerpt": "",
+      "author": "sbulaev",
+      "extra": {
+        "points": 66,
+        "comments": 54,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49844896"
+      },
+      "id": "cb028b10481edd72",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Amazon is blocking Meta's shopping AI agent, and plans to block Google and OpenAI's too",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpz9zy/amazon_is_blocking_metas_shopping_ai_agent_and/",
+      "publishedAt": "2026-09-25T15:26:10Z",
+      "excerpt": "submitted by /u/SnoozeDoggyDog to r/singularity [link] [comments]",
+      "author": "/u/SnoozeDoggyDog",
+      "extra": {},
+      "id": "1beab1d74565ff85",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "C5R built a research facility that is run entirely by GPT-6 Astra - the model designs, executes, and observes experiments end-to-end across biology, chemistry, and materials science - it controls people and instruments around",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpyuw6/c5r_built_a_research_facility_that_is_run/",
+      "publishedAt": "2026-09-25T15:09:28Z",
+      "excerpt": "https://x.com/c5rcorp/status/2103156979250417801 submitted by /u/Distinct-Question-16 to r/singularity [link] [comments]",
+      "author": "/u/Distinct-Question-16",
+      "extra": {},
+      "id": "2c8d41712f40f4fd",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AGI (/j) Gemini 4 pro's NEW checkpoint (reupload cause I messed up image last time)",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpx5f5/agi_j_gemini_4_pros_new_checkpoint_reupload_cause/",
+      "publishedAt": "2026-09-25T14:01:36Z",
+      "excerpt": "Gemini 4! (I reuploaded this because I messed up the images last time.) Gemini 4 pro is the last two images (Astra is the first two images). Gemini 4 pro did this in 6 minutes, and added a great amount of details: https://01a0d89c-0ccb-74c1-bc01-cad7e76e1bbc.arena.site/ Another try with it: https://01a0d8de-ad03-7331-8bf2-32f60dd44a6d.arena.site/ https://www.reddit.com/r/GeminiAI/comments/1woqy1b/gemini_4_pro_nears_its_preview_release_yes/ Need I even say more? This checkpoint is under gemini…",
+      "author": "/u/Last_Conclusion_8984",
+      "extra": {},
+      "id": "1291435572738fff",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "I'm upping my P(doom)",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpvdt2/im_upping_my_pdoom/",
+      "publishedAt": "2026-09-25T12:44:50Z",
+      "excerpt": "Source: https://x.com/pleometric/status/2103082510607610023 submitted by /u/Hubbardia to r/singularity [link] [comments]",
+      "author": "/u/Hubbardia",
+      "extra": {},
+      "id": "fde598cb4e91b034",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Gemma 4 Developer Agent Competition",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpqyaz/gemma_4_developer_agent_competition/",
+      "publishedAt": "2026-09-25T08:34:34Z",
+      "excerpt": "Just saw this pop up. This might be a fun one for the folks in here! submitted by /u/lakySK to r/LocalLLaMA [link] [comments]",
+      "author": "/u/lakySK",
+      "extra": {},
+      "id": "d3394481c7e6208d",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Former Intel CEO: \"HBM is lousy\". High Bandwidth Flash Is Coming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wpprlr/former_intel_ceo_hbm_is_lousy_high_bandwidth/",
+      "publishedAt": "2026-09-25T07:15:37Z",
+      "excerpt": "Irrational Analysis:\"HBM is a mistake\" Former Intel CEO: \"HBM is lousy\" SK Hynix VP:\"HBM is not the final answer to the memory wall problem\" \"If the stacks get high enough...each core die operates slower than plain old commodity memory\" Hot chips 2026 Q&A, Irrational Analysis asks: \"You talk about going to 20 levels thick at HBM4 so maybe you are at 4 terabytes per square cm in a stack of 20, so you are talking about having 20% of the bandwidth of one chip [for each] layer of 20. You've…",
+      "author": "/u/Glittering_Depth_722",
+      "extra": {},
+      "id": "2dd2044ce53e35db",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Claude 5.5 Opus creates a small 2D/3D video with code",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpkoce/claude_55_opus_creates_a_small_2d3d_video_with/",
+      "publishedAt": "2026-09-25T02:30:26Z",
+      "excerpt": "I keep seeing people make videos with Claude, but it's all in 2D, so i wanted to see if it could make one that not only does 3D, but does nice transitions between the 2 modes. This was the result. This was done entirely in Claude code. I gave it no assets. It used no MCP. Only used ffmpeg to make the MP4 at the end. This took around ~23% of my Claude max x20 sub. submitted by /u/Silver-Chipmunk7744 to r/singularity [link] [comments]",
+      "author": "/u/Silver-Chipmunk7744",
+      "extra": {},
+      "id": "965ecacfd0d267f0",
+      "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    }
+  ],
+  "updatedAt": "2026-09-25T20:04:17.587753+00:00"
+}
