@@ -1,0 +1,40 @@
+---
+// The latest daily edition (digest + op-ed), or a note that the first one is on its way.
+import DigestView from "../../components/DigestView.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { formatDay, href, loadDigests } from "../../lib/siteData";
+
+const editions = loadDigests();
+const latest = editions[0];
+---
+
+<BaseLayout title="Daily digest" current="digest" description="Today's AI-written digest and op-ed, fact-checked against the sources.">
+  {latest ? (
+    <>
+      <DigestView edition={latest} />
+      {editions.length > 1 && (
+        <section class="mt-14">
+          <h2 class="mb-4 text-2xl font-semibold">Earlier editions</h2>
+          <div class="grid gap-3 sm:grid-cols-2">
+            {editions.slice(1, 13).map((e) => (
+              <a href={href(`digest/${e.date}`)} class="card block p-5 transition hover:-translate-y-0.5">
+                <p class="eyebrow !text-[11px]">{formatDay(e.date)}</p>
+                <p class="mt-1 font-semibold">{e.digest.headline}</p>
+                <p class="mt-1 text-sm text-ink-muted dark:text-[#a1a1a6]">Op-ed: {e.opEd.title}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+    </>
+  ) : (
+    <section class="card mx-auto max-w-2xl px-8 py-16 text-center">
+      <p class="eyebrow mb-3">Daily edition</p>
+      <h1 class="headline text-4xl sm:text-5xl">The first digest is on its way.</h1>
+      <p class="mt-4 text-lg text-ink-muted dark:text-[#a1a1a6]">
+        Every day at 10:00 IST the Writer agent turns the day's stories into a digest and a short op-ed, and the Editor agent fact-checks both. It will appear here.
+      </p>
+      <a href={href("")} class="glass-button mt-8">See the latest news</a>
+    </section>
+  )}
+</BaseLayout>

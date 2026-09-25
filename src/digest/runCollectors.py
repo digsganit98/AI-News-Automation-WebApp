@@ -37,6 +37,12 @@ async def _runOne(
     try:
         fetched = await buildCollector(source).collect(client, since)
         items = applyTitleFilter(fetched, source.opt("titleFilter"))
+        if maxItems := source.opt("maxItems"):  # busy feeds: keep only the newest few
+            items = sorted(
+                items,
+                key=lambda i: i.publishedAt.isoformat() if i.publishedAt else "",
+                reverse=True,
+            )[:maxItems]
         log.info("%-24s fetched %4d items, kept %4d", source.id, len(fetched), len(items))
         health = SourceHealth(
             source=source.id, sourceName=source.name, ok=True, items=len(items), checkedAt=now

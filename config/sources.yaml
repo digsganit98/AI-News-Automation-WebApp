@@ -54,6 +54,38 @@ sources:
     icon: microsoft
     url: ${MICROSOFT_RESEARCH_FEED_URL}
 
+  - id: nvidia
+    name: NVIDIA (generative AI)
+    type: rss
+    group: labs
+    icon: nvidia
+    url: ${NVIDIA_GENAI_FEED_URL}
+    maxItems: 5
+
+  - id: nvidia-developer
+    name: NVIDIA Developer (generative AI)
+    type: rss
+    group: labs
+    icon: nvidia
+    url: ${NVIDIA_DEVELOPER_GENAI_FEED_URL}
+    maxItems: 5
+
+  - id: meta-engineering
+    name: Meta Engineering (ML)
+    type: rss
+    group: labs
+    icon: meta
+    url: ${META_ENGINEERING_ML_FEED_URL}
+    maxItems: 3
+
+  - id: qwen
+    name: Qwen
+    type: rss
+    group: labs
+    icon: qwen
+    url: ${QWEN_BLOG_FEED_URL}
+    maxItems: 3
+
   # --- Hugging Face: where new open models and papers appear first ---
   - id: hf-papers
     name: Hugging Face Daily Papers
@@ -68,6 +100,97 @@ sources:
     group: research
     icon: huggingface
     limit: 10
+
+  # --- Cloud platforms: new GenAI products and features ---
+  # These feeds cover everything the vendor ships, so only AI titles are kept.
+  - id: aws-whats-new
+    name: AWS What's New
+    type: rss
+    group: cloud
+    icon: amazonwebservices
+    url: ${AWS_WHATS_NEW_FEED_URL}
+    maxItems: 10
+    titleFilter: &cloudAiOnly
+      include:
+        - '\b(ai|genai|generative|llm|llms|agents?|agentic|bedrock|sagemaker|q developer|amazon q|nova|foundry|vertex|gemini|copilot|openai|model|models|inference|rag|prompt|mcp|embeddings?)\b'
+
+  - id: aws-ml-blog
+    name: AWS Machine Learning Blog
+    type: rss
+    group: cloud
+    icon: amazonwebservices
+    url: ${AWS_ML_BLOG_FEED_URL}
+    maxItems: 8
+
+  - id: azure-blog
+    name: Azure Blog
+    type: rss
+    group: cloud
+    icon: microsoft
+    url: ${AZURE_BLOG_FEED_URL}
+    maxItems: 6
+    titleFilter: *cloudAiOnly
+
+  - id: google-cloud-ai
+    name: Google Cloud AI Blog
+    type: rss
+    group: cloud
+    icon: googlecloud
+    url: ${GOOGLE_CLOUD_AI_FEED_URL}
+    maxItems: 8
+
+  # --- Research papers (arXiv publishes ~450 a day: keep a few on core GenAI topics) ---
+  - id: arxiv
+    name: arXiv (cs.AI, cs.CL)
+    type: rss
+    group: research
+    icon: arxiv
+    url: ${ARXIV_AI_CL_FEED_URL}
+    maxItems: 8
+    titleFilter:
+      include:
+        - '\b(llms?|language models?|agents?|agentic|reasoning|alignment|agi|reinforcement learning|rlhf|chain-of-thought|in-context|retrieval|rag|multimodal|transformers?|foundation models?|evaluation|benchmark)\b'
+
+  # --- GenAI newsletters and technical writing ---
+  - id: latent-space
+    name: Latent Space
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${LATENT_SPACE_FEED_URL}
+    maxItems: 3
+
+  - id: import-ai
+    name: Import AI
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${IMPORT_AI_FEED_URL}
+    maxItems: 3
+
+  - id: interconnects
+    name: Interconnects
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${INTERCONNECTS_FEED_URL}
+    maxItems: 3
+
+  - id: ahead-of-ai
+    name: Ahead of AI
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${AHEAD_OF_AI_FEED_URL}
+    maxItems: 3
+
+  - id: medium-genai
+    name: Medium (generative-ai)
+    type: rss
+    group: newsletters
+    icon: medium
+    url: ${MEDIUM_GENAI_FEED_URL}
+    maxItems: 5
 
   # --- Anthropic has no RSS feed, so we read its news page ---
   - id: anthropic
@@ -88,8 +211,16 @@ sources:
     group: community
     icon: ycombinator
     minPoints: 50
-    keywords: [AI, LLM, LLMs, GPT, Claude, Gemini, OpenAI, Anthropic, DeepMind, "language model",
+    keywords: [AI, LLM, LLMs, GPT, Claude, Gemini, OpenAI, Anthropic, DeepMind, "language model", AGI, MCP, RAG,
                diffusion, transformer, "Hugging Face", Llama, Mistral, DeepSeek, Qwen, agent, agents]
+
+  - id: reddit
+    name: Reddit   # r/MachineLearning, r/LocalLLaMA, r/singularity, r/artificial
+    type: rss
+    group: community
+    icon: reddit
+    url: ${REDDIT_AI_FEED_URL}
+    maxItems: 15
 
   # --- YouTube (RSS first; falls back to the YouTube API if YOUTUBE_API_KEY is set) ---
   # Whole channels are followed: every run picks up their newest uploads.
@@ -150,3 +281,27 @@ sources:
       rundown: The Rundown AI
       superhuman: Superhuman AI
       alphasignal: AlphaSignal
+
+  # --- Web search: fresh GenAI news the feeds don't cover (tagged "AI-assisted") ---
+  # Free tier: 1,000 searches/month, so 4 queries per run, rotating through this list.
+  - id: web-search
+    name: Web search
+    type: webSearch
+    group: webSearch
+    icon: search
+    queriesPerRun: 4
+    resultsPerQuery: 5
+    days: 2
+    queries:
+      - new LLM model release announced
+      - new AI agent framework or SDK released
+      - AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature
+      - site:linkedin.com generative AI launch announcement
+      - site:x.com AI lab announces new model
+      - Y Combinator AI agent startup launch
+      - Meta AI OR xAI OR Cohere OR DeepSeek new model
+      - agentic AI enterprise use case deployed
+      - AGI research statement from AI lab
+      - Coimbatore artificial intelligence startup news
+      - MCP server OR model context protocol new release
+      - new prompting OR reasoning technique for LLMs paper

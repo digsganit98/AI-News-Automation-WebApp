@@ -1,0 +1,69 @@
+# The AI agents: which model each one uses, fallbacks, and the daily budget.
+#
+# - Models are tried top to bottom. If one is out of quota, busy, or returns
+#   something unusable, the next one is used.
+# - A provider whose API key isn't set is skipped. With no keys at all, the
+#   agents step is skipped and the website shows the plain collected feed.
+# - Model IDs checked against Groq's and Google's docs on 2026-09-25. Free tiers
+#   change often; re-check them if calls start failing.
+
+providers:
+  groq:
+    baseUrl: ${GROQ_BASE_URL}
+    apiKeyEnv: GROQ_API_KEY        # free key: https://console.groq.com/keys
+    tokensPerMinute: 8000          # free-tier limit per model; calls are paced to stay under it
+    tokensPerDay: 190000           # free tier allows 200k per model; a model near it is skipped
+  gemini:
+    baseUrl: ${GEMINI_BASE_URL}
+    apiKeyEnv: GEMINI_API_KEY      # free key: https://aistudio.google.com/apikey
+
+budget:
+  dailyCallCap: 150                # hard limit on LLM calls per day (IST); Groq allows 1,000 per model
+  dailyEditionReserve: 25          # calls kept free for the 10:00 IST edition
+  maxItemsPerScout: 25             # newest items a scout looks at per run
+  maxArticlesPerScout: 3           # full articles a scout may read per run
+  maxStoriesForWriter: 20          # most important stories the writer sees
+
+# Longest answer each agent may write (tokens). Groq counts this against the
+# per-minute limit, so keep input + this under `tokensPerMinute`.
+maxOutputTokens:
+  scout: 2500
+  analyst: 4500
+  writer: 3500
+  editor: 2000
+
+models:
+  scout:                           # 4 scouts, every 3 hours
+    - { provider: groq, model: qwen/qwen3.8-27b, reasoningEffort: none }   # no "thinking": fewer tokens, clean JSON
+    - { provider: gemini, model: gemini-3.5-flash-lite }
+    - { provider: groq, model: openai/gpt-oss-20b, reasoningEffort: low }
+  analyst:                         # every 3 hours
+    - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
+    - { provider: gemini, model: gemini-3.5-flash-lite }
+  writer:                          # 10:00 IST: digest + op-ed (Gemini Flash allows ~20 calls/day free)
+    - { provider: gemini, model: gemini-3.8-flash }
+    - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
+  editor:                          # 10:00 IST: fact-check
+    - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
+    - { provider: gemini, model: gemini-3.5-flash-lite }
+
+# Which source groups (from sources.yaml `group:`) each scout covers.
+scouts:
+  labsResearch:
+    name: "Scout · Labs & research"
+    groups: [labs, research]
+  cloud:
+    name: "Scout · Cloud & platforms"
+    groups: [cloud]
+  community:
+    name: "Scout · Community"
+    groups: [community]
+  media:
+    name: "Scout · Video, newsletters & blogs"
+    groups: [video, newsletters]
+  x:
+    name: "Scout · X"
+    groups: [x]
+  webSearch:
+    name: "Scout · Web search"
+    groups: [webSearch]

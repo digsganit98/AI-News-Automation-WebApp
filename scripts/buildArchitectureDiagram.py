@@ -52,11 +52,18 @@ BRAND_SLUGS = [
     "github",
     "astro",
     "cloudflareworkers",
+    "amazonwebservices",
+    "substack",
+    "medium",
+    "googlecloud",
+    "nvidia",
+    "meta",
+    "reddit",
 ]
 # Logos without a colour in the Simple Icons data file.
-COLOUR_OVERRIDES = {"openai": "000000"}
-# Logos removed from Simple Icons v16; fetched from SIMPLE_ICONS_LEGACY_ICON_URL instead.
-LEGACY_SLUGS = {"openai"}
+COLOUR_OVERRIDES = {"openai": "000000", "amazonwebservices": "FF9900"}
+# Logos removed from recent Simple Icons versions: the last version that had them.
+LEGACY_SLUGS = {"openai": "15.14.0", "amazonwebservices": "13.21.0"}
 
 
 # --------------------------------------------------------------------------- icons
@@ -86,10 +93,11 @@ def downloadBrandIcons() -> None:
         return
     with httpx.Client(timeout=60, headers={"User-Agent": env("USER_AGENT")}) as client:
         for slug in missing:
-            urlName = (
-                "SIMPLE_ICONS_LEGACY_ICON_URL" if slug in LEGACY_SLUGS else "SIMPLE_ICONS_ICON_URL"
-            )
-            resp = client.get(envUrl(urlName, slug=slug))
+            if slug in LEGACY_SLUGS:
+                url = envUrl("SIMPLE_ICONS_LEGACY_ICON_URL", slug=slug, version=LEGACY_SLUGS[slug])
+            else:
+                url = envUrl("SIMPLE_ICONS_ICON_URL", slug=slug)
+            resp = client.get(url)
             resp.raise_for_status()
             (ICON_DIR / f"{slug}.svg").write_text(resp.text, encoding="utf-8")
         data = client.get(env("SIMPLE_ICONS_DATA_URL")).json()
@@ -125,6 +133,17 @@ def loadIcons() -> dict[str, Icon]:
         '<circle cx="12" cy="12" r="10" fill="none" stroke="#0969DA" stroke-width="2"/>'
         '<ellipse cx="12" cy="12" rx="4.2" ry="10" fill="none" stroke="#0969DA" stroke-width="1.6"/>'
         '<path d="M2.5 8.5h19M2.5 15.5h19" stroke="#0969DA" stroke-width="1.6"/>',
+    )
+    icons["search"] = Icon(
+        "0 0 24 24",
+        '<circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#0071E3" stroke-width="2.6"/>'
+        '<path d="M15.5 15.5 21 21" stroke="#0071E3" stroke-width="2.8" stroke-linecap="round"/>',
+    )
+    icons["langfuse"] = Icon(
+        "0 0 24 24",
+        '<rect x="2" y="4" width="14" height="3.2" rx="1.6" fill="#0A60FF"/>'
+        '<rect x="6" y="10.4" width="12" height="3.2" rx="1.6" fill="#E3572B"/>'
+        '<rect x="10" y="16.8" width="12" height="3.2" rx="1.6" fill="#1F2328"/>',
     )
     icons["funnel"] = Icon(
         "0 0 24 24",
@@ -191,7 +210,7 @@ class Edge:
 
 
 CONTAINERS = [
-    Container("sources", 24, 92, 272, 822, "Sources", "14 sources · every 3 h"),
+    Container("sources", 24, 92, 272, 822, "Sources", "30 sources · every 3 h"),
     Container(
         "actions",
         320,
@@ -211,12 +230,12 @@ CONTAINERS = [
         486,
         732,
         "AI agents · LangGraph",
-        "7 agents · run order fixed in code",
+        "9 agents · run order fixed in code",
         icon="langgraph",
         fill="#FFFFFF",
         stroke="#7FC8FF",
     ),
-    Container("outputs", 1106, 92, 510, 822, "Outputs", "website · email · subscribers"),
+    Container("outputs", 1106, 92, 510, 822, "Outputs", "website · monitoring · email"),
 ]
 
 SOURCES = [
@@ -224,12 +243,14 @@ SOURCES = [
     ("Google DeepMind", "Blog RSS", "deepmind", "built"),
     ("Anthropic", "News page", "anthropic", "built"),
     ("Mistral AI", "News RSS", "mistralai", "built"),
-    ("Microsoft Research", "Research RSS", "microsoft", "built"),
+    ("Microsoft · NVIDIA · Meta", "Research + dev blogs", "nvidia", "built"),
     ("Hugging Face", "Blog · Papers · Trending", "huggingface", "built"),
-    ("BAIR + arXiv", "Research + paper links", "arxiv", "built"),
-    ("Hacker News", "AI stories, 50+ points", "ycombinator", "built"),
+    ("arXiv + BAIR", "Papers on LLMs & agents", "arxiv", "built"),
+    ("Cloud platforms", "AWS · Azure · Google Cloud", "amazonwebservices", "built"),
+    ("Hacker News · Reddit", "HN 50+ points · 4 subreddits", "ycombinator", "built"),
     ("YouTube", "AI Explained · Krish Naik", "youtube", "built"),
-    ("Newsletters", "4 AI newsletters via Gmail", "gmail", "built"),
+    ("Newsletters & blogs", "Substack · Medium · Gmail", "substack", "built"),
+    ("Web search", "LinkedIn · X · YC · Coimbatore", "search", "built"),
     ("X / Twitter", "Curated AI accounts", "x", "planned"),
 ]
 
@@ -239,7 +260,7 @@ GEMINI = (["googlegemini"], "Gemini Flash")
 
 NODES = [
     *[
-        Node(f"src{i}", 40, 146 + i * 63, 240, 54, t, s, [ic], st)
+        Node(f"src{i}", 40, 146 + i * 59, 240, 51, t, s, [ic], st)
         for i, (t, s, ic, st) in enumerate(SOURCES)
     ],
     Node(
@@ -280,31 +301,45 @@ NODES = [
         600,
         228,
         200,
-        76,
+        70,
         "Scout · Labs & research",
         "",
         [],
-        "planned",
+        "built",
         QWEN,
         "#6950EF",
     ),
     Node(
-        "scoutCommunity", 600, 316, 200, 76, "Scout · Community", "", [], "planned", QWEN, "#6950EF"
+        "scoutCloud",
+        600,
+        304,
+        200,
+        70,
+        "Scout · Cloud & platforms",
+        "",
+        [],
+        "built",
+        QWEN,
+        "#6950EF",
+    ),
+    Node(
+        "scoutCommunity", 600, 380, 200, 70, "Scout · Community", "", [], "built", QWEN, "#6950EF"
     ),
     Node(
         "scoutMedia",
         600,
-        404,
+        456,
         200,
-        76,
-        "Scout · Video & newsletters",
+        70,
+        "Scout · Video & blogs",
         "",
         [],
-        "planned",
+        "built",
         QWEN,
         "#6950EF",
     ),
-    Node("scoutX", 600, 492, 200, 76, "Scout · X", "", [], "planned", QWEN, "#6950EF"),
+    Node("scoutX", 600, 532, 200, 70, "Scout · X", "", [], "planned", QWEN, "#6950EF"),
+    Node("scoutWeb", 600, 608, 200, 70, "Scout · Web search", "", [], "built", QWEN, "#6950EF"),
     Node(
         "analyst",
         846,
@@ -314,7 +349,7 @@ NODES = [
         "Analyst",
         "score · group · 7-day memory",
         [],
-        "planned",
+        "built",
         GPT_OSS,
         "#1F2328",
     ),
@@ -327,7 +362,7 @@ NODES = [
         "Writer",
         "digest + op-ed · 10:00 IST",
         [],
-        "planned",
+        "built",
         GEMINI,
         "#8E75B2",
     ),
@@ -340,11 +375,11 @@ NODES = [
         "Editor",
         "fact-checks vs sources",
         [],
-        "planned",
+        "built",
         GPT_OSS,
         "#1F2328",
     ),
-    Node("llms", 600, 600, 200, 212, "Free LLM providers", "", [], None),
+    Node("llms", 600, 684, 200, 206, "Free LLM providers", "", [], None),
     Node(
         "data",
         1126,
@@ -363,9 +398,9 @@ NODES = [
         220,
         110,
         "Website",
-        "Latest every 3 h · digest\n+ op-ed · archive",
+        "Latest every 3 h · digest\n+ op-ed · research log",
         ["globe", "astro"],
-        "planned",
+        "built",
     ),
     Node(
         "email", 1126, 690, 220, 96, "Daily email", "10:00 IST · once a day", ["gmail"], "planned"
@@ -382,6 +417,17 @@ NODES = [
         ["cloudflareworkers", "database"],
         "planned",
     ),
+    Node(
+        "langfuse",
+        1126,
+        814,
+        470,
+        76,
+        "Langfuse monitoring",
+        "every LLM call traced · run scores · eval scores",
+        ["langfuse"],
+        "built",
+    ),
 ]
 
 EDGES = [
@@ -389,14 +435,14 @@ EDGES = [
     Edge([(450, 346), (450, 420)], "collectors", "dedupe"),
     Edge([(450, 516), (450, 590)], "dedupe", "mcp"),
     Edge(
-        [(556, 638), (572, 638), (572, 360), (600, 360)],
+        [(556, 638), (572, 638), (572, 339), (600, 339)],
         "mcp",
-        "scoutCommunity",
+        "scoutCloud",
         "tool calls",
         both=True,
         labelPos=(572, 580),
     ),
-    Edge([(800, 360), (846, 360)], "scoutCommunity", "analyst"),
+    Edge([(800, 339), (846, 339)], "scoutCloud", "analyst"),
     Edge([(946, 408), (946, 540)], "analyst", "writer", "10:00 IST only", dashed=True),
     Edge([(946, 636), (946, 716)], "writer", "editor"),
     Edge(
@@ -425,6 +471,7 @@ EDGES = [
     ),
     Edge([(1493, 540), (1493, 690)], "readers", "worker", "subscribe"),
     Edge([(1390, 760), (1346, 760)], "worker", "email", "list"),
+    Edge([(1086, 852), (1126, 852)], "actions", "langfuse", "traces"),
 ]
 
 # --------------------------------------------------------------------------- SVG
@@ -493,8 +540,8 @@ def renderNode(n: Node, icons: dict[str, Icon]) -> str:
             f'<line x1="{n.x + 12}" y1="{n.y + 160}" x2="{n.x + n.w - 12}" '
             f'y2="{n.y + 160}" stroke="{BORDER}"/>'
         )
-        out.append(svgText(n.x + 14, n.y + 180, "~45–60 calls / day", 11.5, 600))
-        out.append(svgText(n.x + 14, n.y + 197, "hard cap 100 · free tiers", 10.5, 400, MUTED))
+        out.append(svgText(n.x + 14, n.y + 180, "~80–100 calls / day", 11.5, 600))
+        out.append(svgText(n.x + 14, n.y + 197, "hard cap 150 · free tiers", 10.5, 400, MUTED))
         return "".join(out)
 
     tx = n.x + 14 + (6 if n.accent else 0)
@@ -649,7 +696,7 @@ def buildDrawio(icons: dict[str, Icon]) -> str:
                 "<b>Free LLM providers</b>",
                 "Groq: gpt-oss-120b · Qwen 3.8 27B",
                 "Google Gemini: Flash · Flash-Lite",
-                "<b>~45–60 calls/day</b> · cap 100",
+                "<b>~80–100 calls/day</b> · cap 150",
             ]
         indent = 16 + 30 * len(n.icons) + (10 if n.accent else 0)
         style = (

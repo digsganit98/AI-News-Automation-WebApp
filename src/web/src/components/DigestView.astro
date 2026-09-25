@@ -1,0 +1,76 @@
+---
+// A full daily edition: the digest (headline, TL;DR, top stories, sections) and the op-ed.
+import StoryCard from "./StoryCard.astro";
+import { formatDay, type DigestFile } from "../lib/siteData";
+
+interface Props {
+  edition: DigestFile;
+}
+
+const { edition } = Astro.props;
+const { digest, opEd, stories } = edition;
+const top = digest.topStoryIds.map((id) => stories[id]).filter(Boolean);
+const sections = Object.entries(edition.sections)
+  .map(([category, ids]) => ({ category, list: ids.map((id) => stories[id]).filter(Boolean) }))
+  .filter((s) => s.list.length > 0);
+const checked = edition.editor.revised
+  ? `Fact-checked by the Editor agent (${edition.editor.issuesFound} fix${edition.editor.issuesFound === 1 ? "" : "es"} applied)`
+  : "Fact-checked by the Editor agent";
+---
+
+<header class="mb-10">
+  <p class="eyebrow mb-3">Daily edition · {formatDay(edition.date)}</p>
+  <h1 class="headline text-4xl leading-[1.08] sm:text-6xl">{digest.headline}</h1>
+  <p class="mt-4 max-w-3xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">{digest.dek}</p>
+  <p class="mt-3 flex items-center gap-2 text-sm text-ink-muted dark:text-[#a1a1a6]">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" class="text-emerald-500" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
+    {checked}
+  </p>
+</header>
+
+<section class="card mb-10 p-7">
+  <h2 class="eyebrow mb-4">TL;DR</h2>
+  <ul class="space-y-3">
+    {digest.tldr.map((line) => (
+      <li class="flex gap-3 text-lg leading-snug"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-brand-500"></span>{line}</li>
+    ))}
+  </ul>
+  <p class="mt-6 border-t border-white/60 pt-5 leading-relaxed text-ink-muted dark:border-white/10 dark:text-[#a1a1a6]">{digest.intro}</p>
+</section>
+
+{top.length > 0 && (
+  <section class="mb-12">
+    <h2 class="mb-5 text-3xl font-semibold">Top stories</h2>
+    <div class="grid gap-4 lg:grid-cols-2">
+      {top.map((story, i) => <StoryCard story={story} large={i === 0} />)}
+    </div>
+  </section>
+)}
+
+<section id="op-ed" class="card mb-12 overflow-hidden">
+  <div class="border-b border-white/60 bg-gradient-to-br from-violet-glow/10 to-brand-500/10 px-7 py-8 sm:px-12 dark:border-white/10">
+    <p class="eyebrow mb-3 !text-[#bf5af2]">Op-ed · AI-written opinion</p>
+    <h2 class="text-3xl font-semibold leading-tight tracking-[-0.03em] sm:text-4xl">{opEd.title}</h2>
+    <p class="mt-3 text-lg text-ink-muted dark:text-[#a1a1a6]">{opEd.dek}</p>
+  </div>
+  <div class="mx-auto max-w-3xl space-y-5 px-7 py-10 text-[17px] leading-[1.75] sm:px-12">
+    {opEd.paragraphs.map((p) => <p>{p}</p>)}
+  </div>
+  <p class="border-t border-white/60 px-7 py-4 text-xs text-ink-muted sm:px-12 dark:border-white/10 dark:text-[#a1a1a6]">
+    Written by the Writer agent and fact-checked by the Editor agent against today's stories. Opinions are the AI's, not a person's.
+  </p>
+</section>
+
+{sections.length > 0 && (
+  <section>
+    <h2 class="mb-5 text-3xl font-semibold">More from today</h2>
+    {sections.map((s) => (
+      <div class="mb-8">
+        <h3 class="eyebrow mb-3">{s.category}</h3>
+        <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {s.list.map((story) => <StoryCard story={story} />)}
+        </div>
+      </div>
+    ))}
+  </section>
+)}

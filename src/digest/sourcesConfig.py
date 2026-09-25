@@ -48,13 +48,13 @@ class Config(BaseModel):
         return [s for s in self.sources if s.enabled]
 
 
-def _expand(value: Any) -> Any:
+def expandSettings(value: Any) -> Any:
     if isinstance(value, str):
         return _VAR.sub(lambda m: env(m.group(1)), value)
     if isinstance(value, list):
-        return [_expand(v) for v in value]
+        return [expandSettings(v) for v in value]
     if isinstance(value, dict):
-        return {k: _expand(v) for k, v in value.items()}
+        return {k: expandSettings(v) for k, v in value.items()}
     return value
 
 
@@ -62,5 +62,7 @@ def loadConfig(path: Path | None = None) -> Config:
     with open(path or DEFAULT_SOURCES_FILE, encoding="utf-8") as f:
         raw = yaml.safe_load(f)
     # Only enabled sources need their settings to exist.
-    raw["sources"] = [_expand(s) if s.get("enabled", True) else s for s in raw.get("sources", [])]
+    raw["sources"] = [
+        expandSettings(s) if s.get("enabled", True) else s for s in raw.get("sources", [])
+    ]
     return Config.model_validate(raw)

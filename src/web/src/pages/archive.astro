@@ -1,39 +1,43 @@
 ---
-// Archive: one entry per day, newest first.
+// Archive: the last 5 days, reached from the calendar icon in the header.
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { formatDay, href, iconMap, loadDays, loadSources } from "../lib/siteData";
+import { ARCHIVE_DAYS, formatDay, href, iconMap, loadDays, loadDigests, loadSources } from "../lib/siteData";
 
-const days = loadDays();
-const sources = loadSources();
-const icons = iconMap(sources);
+const days = loadDays().slice(0, ARCHIVE_DAYS);
+const icons = iconMap(loadSources());
+const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
 ---
 
-<BaseLayout title="Archive" current="archive" description="Every day of collected GenAI news.">
+<BaseLayout title="Archive" current="archive" description={`The last ${ARCHIVE_DAYS} days of collected GenAI news.`}>
   <h1 class="headline text-4xl sm:text-6xl">Archive</h1>
-  <p class="mt-2 text-ink-muted dark:text-[#a1a1a6]">Every day of collected news. Pick a day to browse and filter it.</p>
+  <p class="mt-3 text-ink-muted dark:text-[#a1a1a6]">The last {ARCHIVE_DAYS} days. Pick a day to browse and filter everything collected.</p>
 
   <div class="mt-8 grid gap-3">
-    {days.length === 0 && <p class="card p-6 text-slate-500">Nothing collected yet.</p>}
+    {days.length === 0 && <p class="card p-6 text-ink-muted">Nothing collected yet.</p>}
     {days.map((day) => {
       const bySource = Object.entries(
         day.items.reduce<Record<string, number>>((acc, i) => ({ ...acc, [i.source]: (acc[i.source] ?? 0) + 1 }), {}),
       ).sort((a, b) => b[1] - a[1]);
+      const edition = digestByDate[day.date];
       return (
-        <a href={href(`day/${day.date}`)} class="card group flex flex-col gap-3 p-5 transition hover:border-brand-400/60 sm:flex-row sm:items-center">
-          <div class="sm:w-72">
+        <div class="card flex flex-col gap-3 p-5 sm:flex-row sm:items-center">
+          <a href={href(`day/${day.date}`)} class="group sm:w-72">
             <p class="font-semibold group-hover:text-brand-600 dark:group-hover:text-brand-400">{formatDay(day.date)}</p>
-            <p class="text-sm text-slate-500 dark:text-slate-400">{day.items.length} items · {day.runs.length} {day.runs.length === 1 ? "run" : "runs"}</p>
-          </div>
+            <p class="text-sm text-ink-muted dark:text-[#a1a1a6]">{day.items.length} items · {day.runs.length} {day.runs.length === 1 ? "run" : "runs"}</p>
+          </a>
           <div class="flex flex-1 flex-wrap gap-2">
             {bySource.slice(0, 8).map(([id, n]) => (
-              <span class="pill border-slate-200 text-slate-600 dark:border-white/10 dark:text-slate-300">
-                <span class="text-slate-900 dark:text-white" set:html={icons[id] ?? ""}></span>
+              <span class="pill border-slate-200 text-ink-muted dark:border-white/15 dark:text-[#a1a1a6]">
+                <span class="text-ink dark:text-white" set:html={icons[id] ?? ""}></span>
                 {n}
               </span>
             ))}
           </div>
-          <span class="text-sm font-medium text-brand-600 dark:text-brand-400">Open →</span>
-        </a>
+          <div class="flex gap-4 text-sm font-semibold">
+            {edition && <a href={href(`digest/${day.date}`)} class="text-[#bf5af2] hover:underline">Digest</a>}
+            <a href={href(`day/${day.date}`)} class="text-brand-600 hover:underline dark:text-brand-400">Open →</a>
+          </div>
+        </div>
       );
     })}
   </div>

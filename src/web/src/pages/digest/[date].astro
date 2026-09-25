@@ -1,0 +1,16 @@
+---
+// One day's edition: digest + op-ed.
+import DigestView from "../../components/DigestView.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { type DigestFile, formatDay, loadDigests } from "../../lib/siteData";
+
+export function getStaticPaths() {
+  return loadDigests().map((edition) => ({ params: { date: edition.date }, props: { edition } }));
+}
+
+const { edition } = Astro.props as { edition: DigestFile };
+---
+
+<BaseLayout title={`${edition.digest.headline} · ${formatDay(edition.date)}`} current="digest" description={edition.digest.dek}>
+  <DigestView edition={edition} />
+</BaseLayout>

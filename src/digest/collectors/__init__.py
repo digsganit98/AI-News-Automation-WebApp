@@ -6,6 +6,7 @@ from digest.collectors import (  # noqa: F401  (imported to register each collec
     newsletterInboxCollector,
     rssFeedCollector,
     webPageCollector,
+    webSearchCollector,
     youtubeCollector,
 )
 from digest.collectors.collectorBase import Collector, CollectorError, buildCollector

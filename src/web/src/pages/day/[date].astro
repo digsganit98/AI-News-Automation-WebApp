@@ -1,14 +1,16 @@
 ---
-// One archived day: the same interactive feed, for that day only.
+// One archived day (last 5 days only): the same interactive feed, for that day.
 import NewsFeed from "../../components/NewsFeed";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
-  GROUPS, type DayFile, formatDay, href, iconMap, loadDays, loadSources, sortNewestFirst, toFeedItem,
-  toFeedSources,
+  ARCHIVE_DAYS, GROUPS, type DayFile, formatDay, href, iconMap, loadDays, loadSources,
+  sortNewestFirst, toFeedItem, toFeedSources,
 } from "../../lib/siteData";
 
 export function getStaticPaths() {
-  return loadDays().map((day) => ({ params: { date: day.date }, props: { day } }));
+  return loadDays()
+    .slice(0, ARCHIVE_DAYS)
+    .map((day) => ({ params: { date: day.date }, props: { day } }));
 }
 
 const { day } = Astro.props as { day: DayFile };
@@ -18,7 +20,7 @@ const items = sortNewestFirst(day.items).map(toFeedItem);
 
 <BaseLayout title={formatDay(day.date)} current="archive">
   <a href={href("archive")} class="text-sm font-medium text-brand-600 hover:underline dark:text-brand-400">← Archive</a>
-  <h1 class="mt-3 headline text-4xl sm:text-6xl">{formatDay(day.date)}</h1>
+  <h1 class="headline mt-3 text-4xl sm:text-6xl">{formatDay(day.date)}</h1>
   <p class="mb-8 mt-2 text-ink-muted dark:text-[#a1a1a6]">{day.items.length} items from {day.runs.length} collection {day.runs.length === 1 ? "run" : "runs"}.</p>
   <NewsFeed client:load items={items} sources={toFeedSources(sources)} icons={iconMap(sources)} groups={GROUPS} buildTime={day.updatedAt} />
 </BaseLayout>

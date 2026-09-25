@@ -10,6 +10,8 @@ import type { FeedItem, FeedSource } from "../components/NewsFeed";
 export const repoRoot = path.resolve(process.env.DIGEST_ROOT ?? path.join(process.cwd(), "..", ".."));
 export const timeZone = process.env.DIGEST_TIMEZONE ?? "Asia/Kolkata";
 export const projectUrl = process.env.PROJECT_URL ?? "";
+/** How many days the Archive (calendar icon in the header) keeps. */
+export const ARCHIVE_DAYS = 5;
 
 export interface NewsItem {
   id: string;
@@ -58,10 +60,12 @@ export interface SourceInfo {
 export const GROUPS: Record<string, string> = {
   labs: "AI labs",
   research: "Research & open models",
+  cloud: "Cloud & platforms",
   community: "Community",
   video: "Video",
-  newsletters: "Newsletters",
+  newsletters: "Newsletters & blogs",
   x: "X",
+  webSearch: "Web search",
 };
 
 export function loadSources(): SourceInfo[] {
@@ -132,6 +136,9 @@ function isVeryDark(hex: string): boolean {
 /** Inline SVG markup for a brand logo. Near-black logos follow the text colour (dark mode). */
 export function iconSvg(slug: string, size = 20): string {
   const open = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="${size}" height="${size}" aria-hidden="true">`;
+  if (slug === "search") {
+    return `${open}<circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#0071e3" stroke-width="2.6"/><path d="M15.5 15.5 21 21" stroke="#0071e3" stroke-width="2.8" stroke-linecap="round"/></svg>`;
+  }
   if (slug === "microsoft") {
     return `${open}<rect x="1" y="1" width="10.5" height="10.5" fill="#F25022"/><rect x="12.5" y="1" width="10.5" height="10.5" fill="#7FBA00"/><rect x="1" y="12.5" width="10.5" height="10.5" fill="#00A4EF"/><rect x="12.5" y="12.5" width="10.5" height="10.5" fill="#FFB900"/></svg>`;
   }
@@ -178,4 +185,107 @@ export function toFeedItem(item: NewsItem): FeedItem {
 
 export function toFeedSources(sources: SourceInfo[]): FeedSource[] {
   return sources.map(({ id, name, group }) => ({ id, name, group }));
+}
+
+// ------------------------------------------------------------------ AI agent output
+
+export interface StorySource { name: string; url: string }
+export interface GoDeeper { paper?: string | null; code?: string | null; model?: string | null; demo?: string | null }
+
+export interface Story {
+  id: string;
+  headline: string;
+  summary: string;
+  whyItMatters: string;
+  category: string;
+  importance: number;
+  status: "new" | "followUp" | "alreadyCovered";
+  followUpOf: string | null;
+  cloudPlatform: string;
+  industryVertical: string;
+  researcher: string;
+  sourceType: "Directed" | "Emergent" | "AI-assisted";
+  sources: StorySource[];
+  goDeeper: GoDeeper;
+  createdAt: string;
+}
+
+export interface DigestFile {
+  date: string;
+  createdAt: string;
+  digest: { headline: string; dek: string; tldr: string[]; intro: string; topStoryIds: string[] };
+  opEd: { title: string; dek: string; paragraphs: string[]; basedOnStoryIds: string[] };
+  sections: Record<string, string[]>;
+  stories: Record<string, Story>;
+  editor: { approved: boolean; issuesFound: number; revised: boolean };
+  models: Record<string, number>;
+}
+
+function readDatedFiles<T>(folder: string): T[] {
+  const dir = path.join(repoRoot, "data", folder);
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort()
+    .reverse()
+    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as T);
+}
+
+/** Analyst stories from the newest `days` story files, most important first. */
+export function loadTopStories(days = 2): Story[] {
+  const files = readDatedFiles<{ date: string; stories: Story[] }>("stories").slice(0, days);
+  return files
+    .flatMap((f) => f.stories)
+    .sort((a, b) => b.importance - a.importance || b.createdAt.localeCompare(a.createdAt));
+}
+
+export function loadDigests(): DigestFile[] {
+  return readDatedFiles<DigestFile>("digests");
+}
+
+export const IMPORTANCE_LABEL: Record<number, string> = {
+  5: "Major", 4: "Significant", 3: "Worth knowing", 2: "Niche", 1: "Minor",
+};
+
+/** Colour per tech domain (the story's category). */
+export const CATEGORY_STYLE: Record<string, string> = {
+  "New Model Release": "text-[#0071e3] dark:text-[#2997ff]",
+  "Framework/Tooling": "text-[#1d8f4e] dark:text-[#30d158]",
+  "Agentic Systems": "text-[#6d28d9] dark:text-[#bf5af2]",
+  "Methodology": "text-[#0e7490] dark:text-[#64d2ff]",
+  "Industry Use Case": "text-[#c2410c] dark:text-[#ff9f0a]",
+  "Infrastructure/MLOps": "text-[#475569] dark:text-[#a1a1a6]",
+  "Research": "text-[#8e44ad] dark:text-[#bf5af2]",
+  "AGI": "text-[#be185d] dark:text-[#ff375f]",
+  "Policy & Safety": "text-[#b42318] dark:text-[#ff453a]",
+  "Business & Funding": "text-[#a16207] dark:text-[#ffd60a]",
+};
+
+/** Date as DD-MM-YY in the digest's timezone (the research log format). */
+export function logDate(iso: string): string {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone, day: "2-digit", month: "2-digit", year: "2-digit",
+  }).formatToParts(new Date(iso));
+  const get = (type: string) => parts.find((p) => p.type === type)?.value ?? "";
+  return `${get("day")}-${get("month")}-${get("year")}`;
+}
+
+export const LOG_COLUMNS = [
+  "Date", "Researcher", "Idea / Topic", "Summary", "Tech Domain", "Cloud / Platform",
+  "Industry Vertical", "Source Type", "Link",
+] as const;
+
+/** One research-log row per story: the exact columns of the research strategy. */
+export function logRow(s: Story): string[] {
+  return [
+    logDate(s.createdAt), s.researcher || "", s.headline, s.summary, s.category,
+    s.cloudPlatform ?? "", s.industryVertical ?? "", s.sourceType ?? "", s.sources[0]?.url ?? "",
+  ];
+}
+
+/** Stories from the newest `days` story files, newest first. */
+export function loadLogStories(days = 7): Story[] {
+  const files = readDatedFiles<{ date: string; stories: Story[] }>("stories").slice(0, days);
+  return files.flatMap((f) => [...f.stories].reverse());
 }

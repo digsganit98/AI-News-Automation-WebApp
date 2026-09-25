@@ -26,3 +26,15 @@ def makeCollector(type: str, **options):
 def isolatedSpacing(monkeypatch):
     # Tests should not wait between requests to the same host.
     monkeypatch.setenv("HOST_REQUEST_SPACING_SECONDS", "0")
+
+
+@pytest.fixture(autouse=True)
+def noRealServices(monkeypatch):
+    """Tests never talk to Langfuse, even when .env has real keys."""
+    from digest.monitoring import langfuseTracing
+
+    monkeypatch.setenv("LANGFUSE_PUBLIC_KEY", "")
+    monkeypatch.setenv("LANGFUSE_SECRET_KEY", "")
+    langfuseTracing.langfuseClient.cache_clear()
+    yield
+    langfuseTracing.langfuseClient.cache_clear()

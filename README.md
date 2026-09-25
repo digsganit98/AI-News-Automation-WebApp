@@ -1,350 +1,184 @@
-# GenAI Daily Digest
+# GenAI Daily
 
 [![CI](https://github.com/digsganit98/AI-News-Automation-WebApp/actions/workflows/ci.yml/badge.svg)](https://github.com/digsganit98/AI-News-Automation-WebApp/actions/workflows/ci.yml)
 [![News pipeline](https://github.com/digsganit98/AI-News-Automation-WebApp/actions/workflows/newsPipeline.yml/badge.svg)](https://github.com/digsganit98/AI-News-Automation-WebApp/actions/workflows/newsPipeline.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**All the important Generative AI news in one place: a live dashboard updated every 3 hours, and a daily digest plus op-ed in your inbox at 10:00 IST.**
-
-Keeping up with AI means checking a dozen blogs, newsletters, forums, YouTube channels and X accounts every day. This project does that for you:
-- **Every 3 hours**, it collects new posts from all those sources. AI agents pick out the stories that matter and add them to the website's **Latest** dashboard.
-- **Every morning at 10:00 IST**, a writer agent turns the day's news into a clean **digest** and a short **op-ed** on the biggest theme. An editor agent fact-checks both, and they go out in **one email**.
-
-It runs entirely on free services, on GitHub's servers, so it keeps running even when your computer is off.
+**All the new things in Generative AI, in one place, written up by AI agents that check their sources.**
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
+Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning at 10:00 IST they also write a **daily digest** and a short **op-ed**. It runs for free on GitHub, even when your computer is off.
+
 | At a glance | |
 |---|---|
-| Sources | **14** (AI labs, research, Hacker News, YouTube, newsletters) + X coming |
-| Updates | **8 a day**, every 3 hours; daily edition at **10:00 IST** |
-| AI agents | **7** (4 scouts, analyst, writer, editor), built with LangGraph |
-| LLM calls | **~45–60 a day** (about 5 per update, 10–16 for the daily edition), hard cap **100** |
-| LLMs | Qwen 3.8 27B and gpt-oss-120b on **Groq**, **Gemini** Flash for the writer (all free tiers) |
-| Emails | **1 a day** |
+| Sources | **30**: 11 labs and research blogs, 4 cloud platforms, arXiv, Hacker News, Reddit, YouTube, 6 newsletters, web search. X is coming next. |
+| Updates | Every **3 hours**; daily edition at **10:00 IST** |
+| AI agents | **9**: 6 scouts, an analyst, a writer and an editor (built with LangGraph) |
+| LLM calls | About **80–100 a day**, hard cap **150** (all free tiers: Groq and Google Gemini) |
+| Quality | Links are checked in code, the editor checks facts against the original articles, and the test set scores **100/100** |
+| Monitoring | Every LLM call and every run is traced and scored in **Langfuse** |
 | Cost | **$0** |
-
-> **Status:** 🚧 In progress. News collection and the live website work today; the AI agents (digest + op-ed) and email come next. See [Roadmap](#roadmap).
 
 ---
 
 ## Contents
 
+- [What you get](#what-you-get)
 - [How it works](#how-it-works)
-- [Architecture](#architecture)
-- [The AI agents](#the-ai-agents)
-- [How duplicates are prevented](#how-duplicates-are-prevented)
-- [Where the news comes from](#where-the-news-comes-from)
-- [Launch and play around](#launch-and-play-around)
-- [Set up your own copy (runs on GitHub)](#set-up-your-own-copy-runs-on-github)
+- [How we keep the AI honest](#how-we-keep-the-ai-honest)
+- [Use it](#use-it)
+- [Run your own copy](#run-your-own-copy)
 - [Configuration](#configuration)
-- [Use the news tools in Claude or VS Code (MCP)](#use-the-news-tools-in-claude-or-vs-code-mcp)
 - [Project structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
 - [Contributing](#contributing)
-- [License](#license)
+- [License and credits](#license-and-credits)
 
----
+## What you get
+
+- **Latest:** every story the agents picked, ranked by importance, with a plain-English summary, "why it matters", the sources, and "Go deeper" links to the paper, code or model. Below that, everything collected, with filters and search.
+- **Digest:** the daily digest and op-ed (from 10:00 IST).
+- **Research log:** one row per development, with the columns *Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*. It can be downloaded as a **CSV**.
+- **Sources:** which sources worked in the last run.
+- **Archive** (calendar icon, top right): the last 5 days.
+- Light and dark mode, and it works on phones.
 
 ## How it works
 
-There are two kinds of run, both on GitHub Actions:
+![Architecture: 30 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
 
-| | **Update**, every 3 hours | **Daily edition**, 10:00 IST |
+**Every 3 hours** a GitHub Actions job:
+
+1. **Collects** new posts from all sources and removes anything seen before. Tutorial videos, ads and non-AI cloud news are filtered out by title.
+2. **Scouts** (6 AI agents, one per source group) decide what's real news and read the full article for the most important items, using the MCP `fetchArticle` tool.
+3. **The analyst** merges the same news from different sources into one story, checks it against the last 7 days, and sorts and scores it.
+4. **The website** is rebuilt with the new stories.
+
+**At 10:00 IST** it also runs:
+
+5. **The writer**, which drafts the digest and a ~600-word op-ed.
+6. **The editor**, which re-reads the original articles and fact-checks both. The writer fixes anything flagged, once.
+
+| Agent | LLM (free tier) | Runs |
 |---|---|---|
-| Collect new posts from all sources | ✅ | ✅ |
-| Remove anything seen before | ✅ | ✅ |
-| Scout agents research the important ones | ✅ | ✅ |
-| Analyst agent scores and groups stories | ✅ | ✅ |
-| Website **Latest** dashboard refreshed | ✅ | ✅ |
-| Writer agent: **digest + op-ed** | | ✅ |
-| Editor agent fact-checks | | ✅ |
-| **Email** to subscribers | | ✅ (the only email of the day) |
+| 6 scouts: labs & research · cloud & platforms · community · video, newsletters & blogs · X · web search | Qwen 3.8 27B on Groq | every 3 h |
+| Analyst | gpt-oss-120b on Groq | every 3 h |
+| Writer | Gemini Flash | 10:00 IST |
+| Editor | gpt-oss-120b on Groq | 10:00 IST |
 
-Update runs happen at 01:00, 04:00, 07:00, 13:00, 16:00, 19:00 and 22:00 IST; the 10:00 run is the daily edition.
+If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. A daily budget keeps calls within the free tiers and saves 25 calls for the 10:00 edition.
 
-**Cost: $0.** GitHub Actions and GitHub Pages are free for public repositories, the AI models run on the free tiers of Groq and Google Gemini, and email is sent through a Gmail account.
+**Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout, which also covers LinkedIn, X, YC and Coimbatore news through search results.
 
-## Architecture
+## How we keep the AI honest
 
-![Architecture diagram: 14 sources feed Python collectors on GitHub Actions; after de-duplication, an MCP server gives 7 LangGraph agents (4 scouts on Qwen via Groq, an analyst and editor on gpt-oss-120b via Groq, a writer on Gemini Flash) read-only tools; results are saved to the repo, published to the website every 3 hours, and emailed once a day at 10:00 IST.](docs/images/architecture.svg)
+- **The AI can't invent links.** Agents refer to items by number (`i1`, `i2`…); the code attaches every URL. Any link that isn't in the collected data is removed and counted as a "hallucination catch".
+- **The editor checks the original,** not a summary: it re-fetches the source article for every story the digest and op-ed use.
+- **Scraped text is treated as data.** It's fenced off, so instructions hidden in a web page are ignored.
+- **A test set measures it.** `uv run digest eval` runs the real agents on 20 saved cases, including tutorials to drop, fake claims, two prompt-injection traps and a planted wrong number. It scores 6 checks (keep/drop accuracy, numbers found in the source, duplicates merged, traps ignored, no invented links, editor catches the error). The current score is **100/100**.
+- **Everything is visible in Langfuse:** each run, each agent and each LLM call, with tokens and errors, plus scores such as stories, failed calls, editor approval and hallucination catches.
 
-*Green dot = working today; grey dot = coming in the next phases. Solid arrows run every 3 hours; dashed arrows only at 10:00 IST.*
+## Use it
 
-**Edit the diagram:** open [`docs/architecture.drawio`](docs/architecture.drawio) in [draw.io](https://app.diagrams.net) (File → Open from → Device). Both the image and the draw.io file are generated by [`scripts/buildArchitectureDiagram.py`](scripts/buildArchitectureDiagram.py), so for lasting changes edit the layout lists in that script and run:
+**Read it:** open the [live site](https://digsganit98.github.io/AI-News-Automation-WebApp/).
+
+**Run it on your computer.** You need [Git](https://git-scm.com/downloads), [uv](https://docs.astral.sh/uv/getting-started/installation/) and [Node.js 20+](https://nodejs.org/en/download). No admin rights? Use Node's zip download and add its folder to your `PATH`.
 
 ```bash
-uv run python scripts/buildArchitectureDiagram.py
-```
-
-Logos come from [Simple Icons](https://simpleicons.org) (CC0) and belong to their owners; they're used here only to show which service does what.
-
-## The AI agents
-
-There are **7 agents**, built with [LangGraph](https://www.langchain.com/langgraph). The order they run in is fixed by ordinary code, not decided by an AI, so the number of LLM calls is predictable and stays within free limits.
-
-| Agent | Runs | LLM (free tier) | Job |
-|---|---|---|---|
-| **Scout: labs & research** | every 3 h | Qwen 3.8 27B on Groq | Checks OpenAI, DeepMind, Anthropic, Mistral, Microsoft Research and Hugging Face; opens the full article for important items |
-| **Scout: community** | every 3 h | Qwen 3.8 27B on Groq | Checks Hacker News for launches and discussions worth covering |
-| **Scout: video & newsletters** | every 3 h | Qwen 3.8 27B on Groq | Checks YouTube and pulls individual stories out of newsletter emails |
-| **Scout: X** | every 3 h | Qwen 3.8 27B on Groq | Checks posts from curated AI researchers and founders |
-| **Analyst** | every 3 h | gpt-oss-120b on Groq | Scores each story, sorts it into a category, merges the same news from different sources, and compares against the last 7 days of stories |
-| **Writer** | 10:00 IST | Gemini Flash | Writes the daily digest (top stories + sections) and a ~600-word op-ed, labeled as AI-written opinion |
-| **Editor** | 10:00 IST | gpt-oss-120b on Groq | Checks every claim against the collected sources; sends the draft back to the writer once if something doesn't hold up |
-
-If a model is busy or out of quota, the agent falls back to **Gemini Flash-Lite** (the writer falls back to gpt-oss-120b).
-
-**How many LLM calls?**
-
-| Run | Calls |
-|---|---|
-| Update (7 a day) | About 5 each: a scout with no new items is skipped; the others make 1–2 calls each, plus 1–2 for the analyst |
-| Daily edition (1 a day) | About 10–16: the update calls, plus writer (digest + op-ed), editor, and at most one revision |
-| **Total** | **About 45–60 a day**, with a hard cap of 100. About a quarter of the budget is kept for the 10:00 edition. |
-
-Free limits (September 2026): Groq allows 1,000 requests and 200k tokens per day **per model**, and Gemini Flash about 20 requests a day, so the writer uses it for just 2 calls. If the budget ever runs out, new items still appear on the Latest dashboard, just unranked. *GitHub Models, which was in the original plan, was [retired on 30 July 2026](https://github.blog/changelog/2026-07-30-github-models-is-now-retired/).*
-
-Every story keeps **"Go deeper" links** to its paper, code and model where they exist. This follows the routine Krish Naik describes in [How Do I Stay Updated In The AI Field](https://www.youtube.com/watch?v=ohyIc1cNyk0): read the announcement, then the paper, then the code, then the model card.
-
-The agents can only **read**, through the MCP tools. Publishing and sending email are done by ordinary code after the editor approves.
-
-## How duplicates are prevented
-
-The same news often turns up several times: in the lab's blog, on Hacker News, in two newsletters, and again the next day. Each layer below catches a different kind of repeat:
-
-| Layer | What it catches | Status |
-|---|---|---|
-| **Link cleanup** | The same page with different links (`?utm_source=…`, `www.`, trailing `/`) | ✅ Built |
-| **Within a run** | The same link twice, or near-identical titles from one source. Titles with different numbers (GPT-5 vs GPT-6) are never treated as the same. | ✅ Built |
-| **Seen-list** (`state/seen.json`) | Anything already saved in the last 30 days, so a 3-hourly run only adds genuinely new items | ✅ Built |
-| **Story grouping** (analyst) | The same news from several sources becomes **one** story listing all of them | Phase 2 |
-| **7-day story memory** (analyst) | The same news on a different day through a different link: marked as a follow-up, or dropped | Phase 2 |
-| **Email guard** | The daily email is never sent twice, even if a run is repeated | Phase 4 |
-
-## Where the news comes from
-
-| Type | Sources |
-|---|---|
-| AI labs | OpenAI, Google DeepMind, Anthropic, Mistral AI, Microsoft Research |
-| Research and open models | Hugging Face blog, Hugging Face Daily Papers, Hugging Face trending models, BAIR blog |
-| Community | Hacker News (AI stories with 50+ points) |
-| YouTube | AI Explained, Krish Naik (English and Hindi) |
-| Newsletters | TLDR AI, The Rundown AI, Superhuman AI, AlphaSignal *(optional, needs a Gmail inbox)* |
-| X / Twitter | Curated AI researchers and founders *(coming soon)* |
-
-Every source is followed continuously. Each run fetches its **latest** posts, and only items not seen before are kept. YouTube channels are followed as whole channels, so every new upload is picked up.
-
-**News only, no tutorials.** Educator channels like Krish Naik mostly post courses and tutorials. A per-source `titleFilter` in `sources.yaml` keeps only videos whose titles look like news (*"Will BDH replace Transformers?"*) and drops tutorials (*crash course, bootcamp, roadmap, build a…*). It's tested against his real upload titles, and in Phase 2 the video scout agent double-checks each video.
-
-All sources are listed in [`config/sources.yaml`](config/sources.yaml). You can add or pause one without touching code; see [Add a new source](#add-a-new-source).
-
-## Launch and play around
-
-### 1. Just look: the live website
-
-**👉 <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
-
-What to try:
-- **Latest:** filter by group (AI labs, Research, Community, Video), pick a single source, search, show only the last 3 hours, or sort by *Most discussed*.
-- **Theme:** the moon/sun button switches light and dark (it follows your system setting until you choose).
-- **Sources:** which sources worked in the last run, and every collection run today.
-- **Archive:** every past day, each with the same filters.
-- **How it works:** the architecture diagram, the 7 agents and their LLMs.
-
-The site uses Apple's "Liquid Glass" look: frosted panels over a soft wallpaper. On Chrome, Edge and other Chromium browsers the top bar also refracts what's behind it, like real glass.
-
-### 2. Run everything on your computer
-
-**You need:**
-- [Git](https://git-scm.com/downloads)
-- [uv](https://docs.astral.sh/uv/getting-started/installation/), a Python package manager that also installs Python for you
-- [Node.js 20+](https://nodejs.org/en/download), for the website. **No admin rights?** Download the *Windows Binary (.zip)* (or the macOS/Linux tarball), unzip it into a folder in your user directory, and add that folder to your `PATH`.
-
-```bash
-# 1. Get the code
 git clone https://github.com/digsganit98/AI-News-Automation-WebApp.git
 cd AI-News-Automation-WebApp
+uv sync                               # install the Python pipeline
+cp .env.example .env                  # then add your keys (see below)
 
-# 2. Install the Python pipeline (creates a local .venv folder)
-uv sync
+uv run digest collect --dry-run       # collect news and print it (saves nothing)
+uv run digest run --dry-run           # collect + AI agents (needs LLM keys)
+uv run digest eval                    # score the agents on the test set
 
-# 3. Collect today's news (saves to data/raw/<today>.json)
-uv run digest collect
-
-# 4. Start the website
-cd src/web
-npm install
-npm run dev
+cd src/web && npm install && npm run dev
+# open http://localhost:4321/AI-News-Automation-WebApp/
 ```
 
-Then open **<http://localhost:4321/AI-News-Automation-WebApp/>**. The page reloads by itself when you edit files in `src/web/src/`.
-
-Other handy commands:
-
-| Command | What it does |
-|---|---|
-| `uv run digest sources` | List all sources and whether they're on |
-| `uv run digest collect --dry-run` | Collect and print, without saving anything |
-| `uv run pytest` | Run the tests |
-| `npm run build && npm run preview` (in `src/web`) | Build the production site and serve it locally |
-
-### 3. Try the AI agents' news tools (MCP Inspector)
-
-The agents get their news through an [MCP](https://modelcontextprotocol.io) server. You can call the same tools yourself in a browser UI:
+**Try the agents' tools in a browser (MCP Inspector):**
 
 ```bash
 npx @modelcontextprotocol/inspector uv run digest mcp
 ```
 
-Open the link it prints, click **Connect**, then **Tools**. Try `listSources`, `collectFromSource` with `sourceId: anthropic`, or `searchHackerNews` with `query: LLM`.
+You can also add them to Claude Desktop or Claude Code: the server command is `uv --directory <repo folder> run digest mcp`.
 
-## Set up your own copy (runs on GitHub)
+## Run your own copy
 
-This takes about 10 minutes.
+It takes about 15 minutes, and everything is free.
 
-1. **Fork this repository** (the "Fork" button at the top right on GitHub). Keep it **public**; that's what makes GitHub Actions free and unlimited.
-2. **Turn on Actions.** Open the **Actions** tab of your fork and click **"I understand my workflows, go ahead and enable them"**.
-3. **Turn on the website.** **Settings → Pages → Build and deployment → Source: GitHub Actions.**
-4. **Point the site at your copy.** In [`config/app.env`](config/app.env), set `SITE_URL=https://<your-username>.github.io` and `SITE_BASE_PATH=/<your-repo-name>`, and `PROJECT_URL` to your repo.
-5. **Run it now instead of waiting.** Actions → **News pipeline** → **Run workflow**. When it finishes, the run summary shows the source table and your site is live at `https://<your-username>.github.io/<your-repo-name>/`.
-6. **Done.** From now on it runs every 3 hours, adds new items to that day's file in `data/raw/`, and republishes the site. The 10:00 IST run is the daily edition.
+1. **Fork** this repository and keep it **public** (that makes GitHub Actions free).
+2. **Actions tab:** enable workflows.
+3. **Settings → Pages → Source: GitHub Actions.**
+4. **Settings → Secrets and variables → Actions:** add these secrets.
 
-**Optional extras.** Add these in **Settings → Secrets and variables → Actions → New repository secret**:
+   | Secret | Needed for | Get it free at |
+   |---|---|---|
+   | `GROQ_API_KEY` | the AI agents | <https://console.groq.com/keys> |
+   | `GEMINI_API_KEY` | the writer, and fallback | <https://aistudio.google.com/apikey> |
+   | `TAVILY_API_KEY` | the web-search scout | <https://tavily.com> |
+   | `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` | monitoring (optional) | <https://cloud.langfuse.com> |
+   | `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD` | newsletters (optional) | [docs/gmailInboxSetup.md](docs/gmailInboxSetup.md) |
+   | `YOUTUBE_API_KEY` | backup when YouTube's feed is down (optional) | Google Cloud Console |
 
-| Secret | What it's for | How to get it |
-|---|---|---|
-| `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD` | Reading newsletters (and, later, sending the digest) | See [docs/gmailInboxSetup.md](docs/gmailInboxSetup.md) |
-| `YOUTUBE_API_KEY` | Backup for when YouTube's public feed is down | [Google Cloud Console](https://console.cloud.google.com/apis/library/youtube.googleapis.com) → enable *YouTube Data API v3* → Credentials → API key (free) |
+5. In [`config/app.env`](config/app.env), set `SITE_URL`, `SITE_BASE_PATH` and `PROJECT_URL` to your own GitHub account and repository.
+6. **Actions → News pipeline → Run workflow.** Your site goes live at `https://<you>.github.io/<repo>/`.
 
-> **About the times:** GitHub schedules use UTC. In [`.github/workflows/newsPipeline.yml`](.github/workflows/newsPipeline.yml), `30 4 * * *` means 04:30 UTC, which is 10:00 IST. GitHub sometimes starts scheduled jobs a few minutes late on busy days.
+Anything whose key is missing is simply skipped. Without any LLM keys, for example, the site still shows everything collected.
 
 ## Configuration
 
-Settings live in three files:
+| File | What's in it |
+|---|---|
+| [`config/app.env`](config/app.env) | Every URL and non-secret setting (committed to git) |
+| [`config/sources.yaml`](config/sources.yaml) | The sources: add or pause one without code; `titleFilter` and `maxItems` keep busy feeds small |
+| [`config/agents.yaml`](config/agents.yaml) | Which model each agent uses, the fallbacks, and the daily budget |
+| `.env` (copy of [`.env.example`](.env.example)) | Your secrets for local runs. Never commit it. |
 
-| File | What goes in it | In git? |
-|---|---|---|
-| [`config/app.env`](config/app.env) | **Every URL** and non-secret setting (feed URLs, API addresses, timezone) | ✅ Yes |
-| [`config/sources.yaml`](config/sources.yaml) | Which sources to use and their options; refers to URLs as `${NAME}` | ✅ Yes |
-| `.env` (copy from [`.env.example`](.env.example)) | Your **secrets** (passwords, API keys) for local runs | ❌ No, never commit it |
+Priority when the same setting is in several places: environment variable or GitHub secret, then `.env`, then `config/app.env`.
 
-When the same setting appears in more than one place, the order of priority is **real environment variable (e.g. GitHub secret) → `.env` → `config/app.env`**.
-
-### Add a new source
-
-Most sources have an RSS feed. For those:
-
-1. Add the URL to `config/app.env`:
-   ```env
-   NEWLAB_FEED_URL=https://newlab.ai/blog/rss.xml
-   ```
-2. Add a block to `config/sources.yaml`:
-   ```yaml
-   - id: newlab
-     name: New Lab
-     type: rss
-     url: ${NEWLAB_FEED_URL}
-   ```
-3. Check it works: `uv run digest collect --dry-run`
-
-Other source types: `webPage` (sites without RSS, read with CSS selectors), `hackerNews`, `youtube`, `huggingFacePapers`, `huggingFaceTrendingModels` and `newsletterInbox`. Copy an existing block of the same type as a starting point.
-
-To **pause** a source, set `enabled: false`.
-
-## Use the news tools in Claude or VS Code (MCP)
-
-The collectors are also available as an [MCP](https://modelcontextprotocol.io) server, which is how the project's AI agents use them. You can connect it to Claude Desktop, Claude Code or VS Code and ask things like *"What did Hugging Face release this week?"*
-
-Tools: `listSources`, `collectFromSource`, `collectFromAllSources`, `fetchArticle` and `searchHackerNews`. All of them only read; none can publish, send email or change files.
-
-**Claude Desktop:** add this to `claude_desktop_config.json`, using your own folder path:
-
-```json
-{
-  "mcpServers": {
-    "genai-news-tools": {
-      "command": "uv",
-      "args": ["--directory", "C:/path/to/AI-News-Automation-WebApp", "run", "digest", "mcp"]
-    }
-  }
-}
-```
-
-**Claude Code:** `claude mcp add genai-news-tools -- uv --directory /path/to/AI-News-Automation-WebApp run digest mcp`
+**Add a source:** put its feed URL in `config/app.env`, then copy a block in `config/sources.yaml` and give it a new `id`, `group` and `icon`. Check it with `uv run digest collect --dry-run`.
 
 ## Project structure
 
 ```
-.github/workflows/     newsPipeline.yml (every 3 h + 10:00 IST), deploySite.yml (website), ci.yml (tests)
-config/                app.env (all URLs) and sources.yaml (all sources)
-src/digest/            the Python pipeline
-  cli.py                 the `digest` command
-  collectors/            one file per source type (rssFeedCollector.py, youtubeCollector.py, ...)
-  processing/            cleanItems.py, removeDuplicates.py, titleFilter.py
-  tools/fetchArticle.py  safe "read this web page" tool for the agents
-  newsToolsServer.py     the MCP server
-  publish/               saving data files (email sending comes later)
-src/web/               the website (Astro + Tailwind + Preact, Liquid Glass UI)
-  src/pages/             Latest, Archive, Sources, How it works
-  src/components/        NewsFeed.tsx: the interactive feed (filters, search, sort)
-src/worker/            subscribe/unsubscribe service (coming soon)
-tests/                 automated tests + saved sample responses in fixtures/
-data/                  collected news and published digests (public)
-state/                 the pipeline's memory, e.g. which stories were already used
-docs/                  setup guides, architecture.drawio, images/architecture.svg
-scripts/               buildArchitectureDiagram.py (regenerates the diagram)
+config/            app.env · sources.yaml · agents.yaml
+src/digest/        Python pipeline (camelCase module names)
+  collectors/        one file per source type (RSS, web page, Hacker News, YouTube, Hugging Face, web search, Gmail)
+  agents/            LangGraph graph, scouts, analyst, writer/editor, prompts/, LLM router and budget
+  evaluation/        the grounding eval (`digest eval`)
+  monitoring/        Langfuse tracing
+  newsToolsServer.py MCP server with the read-only news tools
+src/web/           website (Astro + Tailwind + Preact, Apple "Liquid Glass" style)
+evals/             the eval test set
+tests/             automated tests (no network, no LLM calls)
+data/              collected news, stories and digests (public)
+state/             pipeline memory: seen items, daily LLM usage
+docs/              setup guides and the architecture diagram (+ editable .drawio)
+.github/workflows/ newsPipeline (every 3 h) · deploySite · ci · evaluateAgents
 ```
-
-All code uses **camelCase** names that describe what each piece does, e.g. `hackerNewsCollector.py` → `searchHackerNews()`.
 
 ## Troubleshooting
 
-**A source shows ❌ in the table.**
-The run still succeeds; that source is simply skipped today. The error text says why:
-- `429 Too Many Requests`: the site is rate-limiting. It usually clears by the next day.
-- `403` / `404`: the site moved or blocked the feed. Check the URL in `config/app.env`.
-- `No items matched ...`: the page layout changed (for `webPage` sources). Update the `selectors` in `config/sources.yaml`.
-
-**Hacker News or YouTube fail on my computer but work on GitHub.**
-Some office or school networks block these sites. Hacker News automatically falls back to its front-page feed. For YouTube, add a `YOUTUBE_API_KEY` (see above).
-
-**`Setting 'X' is not set`.**
-A URL or secret is missing. URLs belong in `config/app.env`; secrets go in `.env` locally or in GitHub secrets.
-
-**The website shows 404, or "Deploy website" fails at *configure-pages*.**
-GitHub Pages isn't turned on yet: **Settings → Pages → Source: GitHub Actions**, then re-run the workflow.
-
-**`npm` isn't recognised.**
-Node.js isn't installed or isn't on your `PATH`. See [Run everything on your computer](#2-run-everything-on-your-computer) (includes a no-admin option).
-
-**The scheduled run didn't happen.**
-GitHub pauses schedules in repositories with no activity for 60 days. The daily data commit normally prevents that. If it does happen, re-enable the workflow in the Actions tab.
-
-## Roadmap
-
-- [x] **Phase 1: Collect.** 14 sources, duplicate removal, 3-hourly GitHub Actions run, MCP tools, tests
-- [ ] **Phase 1b: X / Twitter** collector with curated AI accounts
-- [ ] **Phase 2: AI agents** (LangGraph): 4 scouts, analyst, writer (digest + op-ed), editor, on free LLM tiers
-- [x] **Phase 3: Website:** Liquid Glass UI, Latest dashboard (every 3 h), archive, source health, search and filters, dark mode
-- [ ] **Phase 3b:** digest + op-ed pages (once the Phase 2 agents write them)
-- [ ] **Phase 4: Email:** subscribe, confirm, daily email, one-click unsubscribe
-- [ ] **Phase 5: Hardening:** more reliable scheduling
+| Problem | Fix |
+|---|---|
+| A source shows ❌ | Other sources still run. `429` usually clears by the next run. `404` means the feed URL in `config/app.env` has changed. |
+| "Skipped: no LLM API keys" | Add `GROQ_API_KEY` and/or `GEMINI_API_KEY` (in `.env` locally, or as a GitHub secret). |
+| No digest today | The writer's models were busy or out of quota. The run summary and Langfuse show why, and tomorrow's run tries again. |
+| Website shows 404 | Turn on Pages: **Settings → Pages → Source: GitHub Actions**. |
+| `npm` not found | Install Node.js 20+ and add it to your `PATH`. |
+| Scheduled runs stopped | GitHub pauses schedules after 60 days without activity. Re-enable the workflow in the Actions tab. |
 
 ## Contributing
 
-Issues and pull requests are welcome. Before opening a PR:
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, code style and how to open a pull request.
 
-```bash
-uv run ruff check src tests      # style
-uv run ruff format src tests     # formatting
-uv run pytest                    # tests
-cd src/web && npm run build      # website builds
-```
+## License and credits
 
-The CI workflow runs the same checks on every pull request.
+[MIT](LICENSE). Developed by **Digvijay Yadav**.
 
-## License
-
-[MIT](LICENSE) © 2026 digsganit98
+Logos in the architecture diagram come from [Simple Icons](https://simpleicons.org) (CC0) and belong to their owners.

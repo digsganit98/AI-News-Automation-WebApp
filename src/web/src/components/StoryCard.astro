@@ -1,0 +1,53 @@
+---
+// One analyst story: headline, plain-language summary, why it matters, every source,
+// and "Go deeper" links (paper, code, model, demo) when the agents found them.
+import { CATEGORY_STYLE, IMPORTANCE_LABEL, type Story } from "../lib/siteData";
+
+interface Props {
+  story: Story;
+  large?: boolean;
+}
+
+const { story, large = false } = Astro.props;
+const deeper = Object.entries(story.goDeeper ?? {}).filter(([, url]) => url) as [string, string][];
+const deeperLabel: Record<string, string> = { paper: "Paper", code: "Code", model: "Model", demo: "Demo" };
+---
+
+<article class={`card flex flex-col ${large ? "p-7" : "p-5"}`}>
+  <div class="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold">
+    <span class={CATEGORY_STYLE[story.category] ?? "text-ink-muted"}>{story.category}</span>
+    <span class="flex items-center gap-1 text-ink-muted dark:text-[#a1a1a6]" title={`Importance ${story.importance} of 5`}>
+      <span aria-hidden="true" class="tracking-[0.15em]">{"●".repeat(story.importance)}<span class="opacity-30">{"●".repeat(5 - story.importance)}</span></span>
+      {IMPORTANCE_LABEL[story.importance]}
+    </span>
+    {story.sourceType && <span class="text-ink-muted dark:text-[#a1a1a6]">· {story.sourceType}</span>}
+    {story.status === "followUp" && <span class="pill border-amber-300/60 bg-amber-50 text-amber-700 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-300">Update</span>}
+  </div>
+  <h3 class={`font-semibold leading-snug tracking-[-0.02em] ${large ? "text-2xl" : "text-[17px]"}`}>
+    <a href={story.sources[0]?.url} target="_blank" rel="noopener" class="hover:text-brand-600 dark:hover:text-brand-400">{story.headline}</a>
+  </h3>
+  <p class={`mt-2 leading-relaxed text-ink-muted dark:text-[#a1a1a6] ${large ? "text-base" : "text-sm"}`}>{story.summary}</p>
+  {(story.cloudPlatform || story.industryVertical) && (
+    <p class="mt-2 flex flex-wrap gap-1.5 text-[11px] font-medium">
+      {story.cloudPlatform && <span class="pill border-slate-200 text-ink-muted dark:border-white/15 dark:text-[#a1a1a6]">{story.cloudPlatform}</span>}
+      {story.industryVertical && <span class="pill border-slate-200 text-ink-muted dark:border-white/15 dark:text-[#a1a1a6]">{story.industryVertical}</span>}
+    </p>
+  )}
+  {story.whyItMatters && (
+    <p class="mt-3 rounded-xl bg-white/50 px-3 py-2 text-sm dark:bg-white/5">
+      <span class="font-semibold">Why it matters:</span> {story.whyItMatters}
+    </p>
+  )}
+  <div class="mt-auto flex flex-wrap items-center gap-2 pt-4 text-xs">
+    {story.sources.map((s) => (
+      <a href={s.url} target="_blank" rel="noopener" class="pill border-slate-200 text-ink-muted hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-[#a1a1a6]">{s.name}</a>
+    ))}
+    {deeper.length > 0 && (
+      <span class="ml-auto flex gap-3 font-semibold">
+        {deeper.map(([kind, url]) => (
+          <a href={url} target="_blank" rel="noopener" class="text-brand-600 hover:underline dark:text-brand-400">{deeperLabel[kind] ?? kind} ↗</a>
+        ))}
+      </span>
+    )}
+  </div>
+</article>
