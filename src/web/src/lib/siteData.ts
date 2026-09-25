@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
 import type { FeedItem, FeedSource } from "../components/NewsFeed";
+import type { Paper } from "../components/PaperTrail";
 
 export const repoRoot = path.resolve(process.env.DIGEST_ROOT ?? path.join(process.cwd(), "..", ".."));
 export const timeZone = process.env.DIGEST_TIMEZONE ?? "Asia/Kolkata";
@@ -262,7 +263,7 @@ export const CATEGORY_STYLE: Record<string, string> = {
   "Business & Funding": "text-[#a16207] dark:text-[#ffd60a]",
 };
 
-/** Date as DD-MM-YY in the digest's timezone (the Research Radar format). */
+/** Date as DD-MM-YY in the digest's timezone (the research log format). */
 export function logDate(iso: string): string {
   const parts = new Intl.DateTimeFormat("en-GB", {
     timeZone, day: "2-digit", month: "2-digit", year: "2-digit",
@@ -271,29 +272,25 @@ export function logDate(iso: string): string {
   return `${get("day")}-${get("month")}-${get("year")}`;
 }
 
+/** The research strategy's log columns (Paper Trail's CSV download). */
 export const LOG_COLUMNS = [
   "Date", "Researcher", "Idea / Topic", "Summary", "Tech Domain", "Cloud / Platform",
   "Industry Vertical", "Source Type", "Link",
 ] as const;
 
-/** One Research Radar row per story: the exact columns of the research strategy. */
-export function logRow(s: Story): string[] {
-  return [
-    logDate(s.createdAt), s.researcher || "", s.headline, s.summary, s.category,
-    s.cloudPlatform ?? "", s.industryVertical ?? "", s.sourceType ?? "", s.sources[0]?.url ?? "",
-  ];
-}
-
 /** Stories from the newest `days` story files, newest first. */
-export function loadLogStories(days = 7): Story[] {
+export function loadRecentStories(days = 7): Story[] {
   const files = readDatedFiles<{ date: string; stories: Story[] }>("stories").slice(0, days);
   return files.flatMap((f) => [...f.stories].reverse());
 }
 
-// ------------------------------------------------------------------ Research Radar rows from the feeds
-// The Radar lists every GenAI item collected in the last few days, not only the stories the
-// AI agents wrote. Items the agents reviewed use the agents' fields; all other items are
-// classified here by simple keyword rules (no API keys, no LLM calls).
+// ------------------------------------------------------------------ Paper Trail
+// Every paper spotted in the collected data, wherever it turned up: Hugging Face Daily
+// Papers, arXiv, a Hacker News link, a web-search result or an agent story. Mentions of the
+// same paper are merged by arXiv ID. Themes come from simple keyword rules (no LLM calls).
+
+/** How many days of papers Paper Trail keeps. */
+export const PAPER_DAYS = 14;
 
 const DIRECTED_GROUPS = new Set(["labs", "research", "cloud"]);
 
@@ -302,16 +299,21 @@ export function sourceTypeOfGroup(group: string): string {
   return group === "webSearch" ? "AI-assisted" : "Emergent";
 }
 
-const DOMAIN_RULES: [RegExp, string][] = [
-  [/\b(agi|superintelligence|recursive self-improvement)\b/i, "AGI"],
-  [/\b(agents?|agentic|multi-agent|computer use)\b/i, "Agentic Systems"],
-  [/\b(inference|serving|gpu|latency|throughput|kubernetes|hyperpod|mlops|deploy(ment)?|accelerat\w*)\b/i, "Infrastructure/MLOps"],
-  [/\b(releases?|released|launch(es|ed)?|introduc(es|ing)|unveil\w*|now available|open-sources?)\b.*\b(model|llm|gpt|gemini|claude|llama|qwen|mistral|deepseek|vlm)\b|\b(model|llm|vlm)\b.*\b(released?|launch(es|ed)?)\b/i, "New Model Release"],
-  [/\b(framework|sdk|library|toolkit|mcp|open[- ]source|github|fine-tun\w*|rag|retrieval|api)\b/i, "Framework/Tooling"],
-  [/\b(prompt\w*|reasoning|rlhf|reinforcement learning|alignment|context engineering|evaluation|evals?|technique|method)\b/i, "Methodology"],
-  [/\b(policy|regulat\w*|safety|law|government|standards?|copyright)\b/i, "Policy & Safety"],
-  [/\b(funding|raises|series [a-e]|acqui\w*|valuation|ipo|investment)\b/i, "Business & Funding"],
-  [/\b(customer|case study|use cases?|healthcare|bank\w*|retail|manufactur\w*|enterprise)\b/i, "Industry Use Case"],
+/** Research themes, checked in this order; a paper gets up to three. */
+const THEME_RULES: [RegExp, string][] = [
+  [/\b(agents?|agentic|multi-agent|tool[- ]use|computer[- ]use|gui|web navigation)\b/i, "Agents"],
+  [/\b(reasoning|chain[- ]of[- ]thought|math\w*|theorem|planning|thinking)\b/i, "Reasoning"],
+  [/\b(code|coding|programs?|programming|software engineering|swe-bench|compiler)\b/i, "Code"],
+  [/\b(robot\w*|embodied|manipulation|vla|locomotion)\b/i, "Robotics & Embodied"],
+  [/\b(video|world models?|3d|4d|scenes?|physical)\b/i, "Video & World Models"],
+  [/\b(vision|visual|images?|multimodal|vlms?|vision-language|ocr|diffusion|pixels?)\b/i, "Multimodal & Vision"],
+  [/\b(audio|speech|voice|asr|tts|music|sounds?)\b/i, "Audio & Speech"],
+  [/\b(reinforcement learning|rlhf|rlvr|grpo|dpo|reward|pre-?training|post-?training|fine-tun\w*|scaling laws?)\b/i, "Training & RL"],
+  [/\b(efficien\w*|quantiz\w*|distill\w*|pruning|sparse|sparsity|mixture[- ]of[- ]experts|moe|kv[- ]cache|long[- ]context|compression|speculative)\b/i, "Efficiency"],
+  [/\b(safety|alignment|jailbreak\w*|red[- ]team\w*|hallucinat\w*|interpretab\w*|privacy|unlearning)\b/i, "Safety & Alignment"],
+  [/\b(retrieval|rag|memory|knowledge graphs?|search engines?)\b/i, "Retrieval & Memory"],
+  [/\b(medical|clinical|health\w*|biolog\w*|proteins?|chemi\w*|molecul\w*|scientific|materials|weather)\b/i, "Science & Health"],
+  [/\b(benchmarks?|evaluat\w*|leaderboards?|datasets?)\b/i, "Benchmarks & Evals"],
 ];
 
 const PLATFORM_RULES: [RegExp, string][] = [
@@ -325,7 +327,6 @@ const PLATFORM_RULES: [RegExp, string][] = [
   [/\b(mistral)\b/i, "Mistral"],
   [/\b(qwen|alibaba)\b/i, "Alibaba"],
   [/\b(deepseek)\b/i, "DeepSeek"],
-  [/\b(hugging ?face|open[- ]source|github|arxiv)\b/i, "Open-source"],
 ];
 
 const VERTICAL_RULES: [RegExp, string][] = [
@@ -342,53 +343,126 @@ function firstMatch(rules: [RegExp, string][], text: string): string | undefined
   return rules.find(([pattern]) => pattern.test(text))?.[1];
 }
 
-function classify(item: NewsItem, group: string) {
-  const text = `${item.title} ${item.excerpt}`;
-  const domain =
-    item.source === "hf-trending" ? "New Model Release"
-    : group === "research" && !/\b(agi|agents?|agentic)\b/i.test(text) ? "Research"
-    : firstMatch(DOMAIN_RULES, text) ?? (group === "cloud" ? "Framework/Tooling" : "Research");
-  const platform =
-    firstMatch(PLATFORM_RULES, text)
-    ?? (item.source.startsWith("hf-") || item.source === "arxiv" ? "Open-source" : "Cross-cloud");
-  return { domain, platform, vertical: firstMatch(VERTICAL_RULES, text) ?? "Cross-industry" };
+/** Up to three themes; words in the title count before words in the abstract. */
+function themesOf(title: string, abstract: string): string[] {
+  const hits = (text: string) => THEME_RULES.filter(([p]) => p.test(text)).map(([, t]) => t);
+  const themes = [...new Set([...hits(title), ...hits(abstract)])].slice(0, 3);
+  return themes.length ? themes : ["Language Models"];
 }
 
-export interface LogEntry {
-  row: string[];
-  reviewed: boolean; // written by the AI agents (vs classified by keyword rules)
-  time: string;
+const ARXIV_ID = /arxiv\.org\/(?:abs|pdf|html)\/(\d{4}\.\d{4,5})/i;
+const PAPER_SOURCES = new Set(["hf-papers", "arxiv"]);
+
+function fromTemplate(name: string, id: string): string | undefined {
+  const t = process.env[name];
+  return t ? t.replace("{id}", id) : undefined;
 }
 
-/** Research-log rows for the last `days` days: agent stories first-class, every other
- * collected item classified by rules. Newest first. */
-export function loadLogEntries(days = 3): LogEntry[] {
-  const researcher = process.env.DEFAULT_RESEARCHER ?? "";
-  const cutoff = new Date(Date.now() - days * 24 * 3600 * 1000).toISOString();
-  const groupOf = Object.fromEntries(loadSources().map((s) => [s.id, s.group]));
+/** The paper an item is about: its arXiv ID, or its own URL for other paper pages. */
+function paperKey(item: NewsItem): string | undefined {
+  const arxivUrl = typeof item.extra?.arxivUrl === "string" ? item.extra.arxivUrl : "";
+  const id = arxivUrl.match(ARXIV_ID)?.[1] ?? item.url.match(ARXIV_ID)?.[1];
+  if (id) return id;
+  const hfPrefix = (process.env.HF_PAPER_URL ?? "").split("{id}")[0];
+  if (hfPrefix && item.url.startsWith(hfPrefix)) return item.url.slice(hfPrefix.length).split(/[?#/]/)[0];
+  if (/openreview\.net\/(forum|pdf)\?id=/i.test(item.url) || PAPER_SOURCES.has(item.source)) return item.url;
+  return undefined;
+}
 
-  const stories = loadLogStories(days).filter((s) => s.createdAt >= cutoff);
-  const covered = new Set(stories.flatMap((s) => s.sources.map((src) => src.url)));
-  const entries: LogEntry[] = stories.map((s) => ({ row: logRow(s), reviewed: true, time: s.createdAt }));
+/** News, not papers: Latest and the Archive show news; papers have their own page. */
+export function isNews(item: NewsItem): boolean {
+  return paperKey(item) === undefined;
+}
 
-  const seen = new Set<string>();
+function cleanAbstract(text: string): string {
+  // arXiv's feed starts every summary with "arXiv:2609.12345v1 Announce Type: new Abstract:".
+  return text.replace(/^arXiv:\S+\s+Announce Type:\s*\S+\s*Abstract:\s*/i, "").trim();
+}
+
+export function loadPapers(days = PAPER_DAYS): Paper[] {
+  const sources = loadSources();
+  const groupOf = Object.fromEntries(sources.map((s) => [s.id, s.group]));
+  const papers = new Map<string, Paper>();
+  const groupsOf = new Map<string, Set<string>>();
+
   for (const day of loadDays().slice(0, days)) {
     for (const item of day.items) {
-      // Undated items (e.g. trending models) sort after dated news from the same day.
-      const time = item.publishedAt ?? new Date(`${day.date}T00:00:00+05:30`).toISOString();
-      if (time < cutoff || covered.has(item.url) || seen.has(item.url)) continue;
-      seen.add(item.url);
-      const group = groupOf[item.source] ?? "";
-      const { domain, platform, vertical } = classify(item, group);
-      const likes = Number(item.extra?.likes ?? 0);
-      const text = item.excerpt || (likes ? `Trending on Hugging Face · ${likes.toLocaleString("en-US")} likes` : "");
-      const summary = text.length > 240 ? `${text.slice(0, 239)}…` : text;
-      entries.push({
-        row: [logDate(time), researcher, item.title, summary, domain, platform, vertical, sourceTypeOfGroup(group), item.url],
-        reviewed: false,
-        time,
-      });
+      const key = paperKey(item);
+      if (!key) continue;
+      const e = item.extra ?? {};
+      const time = item.publishedAt ?? item.collectedAt ?? `${day.date}T00:00:00Z`;
+      const isPaperSource = PAPER_SOURCES.has(item.source);
+      const arxivId = /^\d{4}\.\d{4,5}$/.test(key) ? key : undefined;
+      let p = papers.get(key);
+      if (!p) {
+        p = {
+          id: key, arxivId, title: "", authors: [], abstract: "", time, upvotes: 0, points: 0,
+          themes: [], spottedOn: [], links: {}, buzz: 0,
+        };
+        papers.set(key, p);
+        groupsOf.set(key, new Set());
+      }
+      // The paper's own sources give the best title, authors and abstract.
+      const title = item.title.replace(/\s*\[pdf\]$/i, "");
+      if (!p.title || isPaperSource) p.title = title;
+      if (item.author && (!p.authors.length || isPaperSource)) {
+        p.authors = item.author.split(/,\s*|\s+and\s+/).map((a) => a.trim()).filter(Boolean);
+      }
+      const abstract = cleanAbstract(item.excerpt);
+      if (abstract.length > p.abstract.length) p.abstract = abstract;
+      if (time < p.time) p.time = time;
+      p.upvotes = Math.max(p.upvotes, Number(e.upvotes ?? 0));
+      p.points = Math.max(p.points, Number(e.points ?? 0) + Number(e.comments ?? 0));
+      if (!p.spottedOn.some((s) => s.source === item.source)) {
+        p.spottedOn.push({ source: item.source, name: item.sourceName, url: item.url });
+      }
+      groupsOf.get(key)!.add(groupOf[item.source] ?? "");
+      if (typeof e.githubRepo === "string" && e.githubRepo) p.links.code = e.githubRepo;
+      if (typeof e.projectPage === "string" && e.projectPage) p.links.project = e.projectPage;
+      if (item.source === "hf-papers") p.links.discussion = item.url;
+      else if (typeof e.discussionUrl === "string" && e.discussionUrl) p.links.discussion ??= e.discussionUrl;
     }
   }
-  return entries.sort((a, b) => b.time.localeCompare(a.time));
+
+  // The AI agents' plain-English take, when a story is about one of these papers.
+  for (const story of loadRecentStories(days)) {
+    const urls = [story.goDeeper?.paper, ...story.sources.map((s) => s.url)].filter(Boolean) as string[];
+    for (const url of urls) {
+      const key = url.match(ARXIV_ID)?.[1] ?? url;
+      const p = papers.get(key);
+      if (p && !p.agentNote) {
+        p.agentNote = { headline: story.headline, whyItMatters: story.whyItMatters };
+        if (story.goDeeper?.code) p.links.code ??= story.goDeeper.code;
+      }
+    }
+  }
+
+  for (const p of papers.values()) {
+    if (p.arxivId) {
+      p.links.abs = fromTemplate("ARXIV_ABS_URL", p.arxivId);
+      p.links.pdf = fromTemplate("ARXIV_PDF_URL", p.arxivId);
+    } else {
+      p.links.abs = p.spottedOn[0]?.url;
+    }
+    p.themes = themesOf(p.title, p.abstract);
+    const groups = [...groupsOf.get(p.id)!];
+    p.sourceType = groups.some((g) => DIRECTED_GROUPS.has(g)) ? "Directed" : sourceTypeOfGroup(groups[0] ?? "");
+    // Buzz: community upvotes, discussion, and how many places the paper turned up.
+    p.buzz = p.upvotes + p.points / 2 + 15 * (p.spottedOn.length - 1) + (p.agentNote ? 20 : 0);
+  }
+  return [...papers.values()].filter((p) => p.title).sort((a, b) => b.time.localeCompare(a.time));
+}
+
+/** One research-log row per paper, in the strategy's exact columns. */
+export function paperLogRow(p: Paper): string[] {
+  const researcher = p.authors.length
+    ? `${p.authors[0]}${p.authors.length > 1 ? " et al." : ""}`
+    : process.env.DEFAULT_RESEARCHER ?? "";
+  const text = `${p.title} ${p.abstract}`;
+  const summary = p.abstract.length > 240 ? `${p.abstract.slice(0, 239)}…` : p.abstract;
+  return [
+    logDate(p.time), researcher, p.title, summary, p.themes.join(" · "),
+    firstMatch(PLATFORM_RULES, text) ?? "Open-source", firstMatch(VERTICAL_RULES, text) ?? "Cross-industry",
+    p.sourceType ?? "Directed", p.links.abs ?? "",
+  ];
 }

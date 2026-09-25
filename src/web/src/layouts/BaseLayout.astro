@@ -1,14 +1,14 @@
 ---
 // Shared page frame, Apple "Liquid Glass" style: pastel wallpaper, floating glass
-// capsule navigation, theme toggle and footer.
+// capsule navigation, theme toggle and the sign-off footer (Latest and Archive).
 import "../styles/global.css";
 import { href, projectUrl } from "../lib/siteData";
 
 interface Props {
   title: string;
   description?: string;
-  current: "home" | "digest" | "log" | "sources" | "about" | "archive";
-  showFooter?: boolean; // the "Collected automatically" bar: Latest and Archive only
+  current: "home" | "digest" | "papers" | "sources" | "about" | "archive";
+  showFooter?: boolean; // the "Built with ♥" sign-off: Latest and Archive only
 }
 
 const { title, description = "The latest Generative AI news from 30 sources, updated every 3 hours.", current, showFooter = false } = Astro.props;
@@ -18,7 +18,7 @@ const fontOriginUrl = process.env.WEB_FONT_ORIGIN_URL;
 const nav = [
   { id: "home", label: "Latest", page: "" },
   { id: "digest", label: "Daily Digest", page: "digest" },
-  { id: "log", label: "Research Radar", page: "research-radar" },
+  { id: "papers", label: "Paper Trail", page: "papers" },
   { id: "sources", label: "Sources", page: "sources" },
   { id: "about", label: "How it works", page: "about" },
 ];
@@ -102,20 +102,22 @@ const nav = [
       </nav>
     </header>
 
-    <main class={`mx-auto max-w-6xl px-4 pt-12 sm:px-6 ${showFooter ? "pb-32" : "pb-24"}`}>
+    <main class="mx-auto max-w-6xl px-4 pt-12 pb-16 sm:px-6">
       <slot />
     </main>
 
     {showFooter && (
-      <footer class="fixed inset-x-0 bottom-3 z-30 px-3 sm:px-6">
-        <div class="glass-nav mx-auto flex max-w-6xl flex-col items-center gap-1 px-4 py-2 text-[10.5px] text-ink-muted sm:flex-row sm:justify-between sm:gap-3 dark:text-[#a1a1a6]">
-          <p class="text-center sm:text-left">
-            Collected automatically every 3 hours on GitHub Actions. Summaries link back to the original sources.
-            {author && <span class="ml-1 font-medium text-ink dark:text-white">Developed by {author}</span>}
-          </p>
-          <a class="shrink-0 font-medium text-brand-600 hover:underline dark:text-brand-400" href={projectUrl} target="_blank" rel="noopener">Open source · MIT</a>
-        </div>
-      </footer>
+    <footer class="mx-auto max-w-6xl px-4 pb-10 sm:px-6">
+      <div class="flex items-center justify-center gap-2 border-t border-black/[0.06] pt-6 text-[13px] text-ink-muted dark:border-white/10 dark:text-[#a1a1a6]">
+        <p>
+          Built with <span class="text-[#ff2d55] dark:text-[#ff375f]" aria-label="love">♥</span> and way too much <span aria-label="coffee">☕</span>
+          {author && <>by <span class="font-medium text-ink dark:text-white">{author}</span></>}
+        </p>
+        <a class="grid size-7 place-items-center rounded-full transition hover:bg-black/5 hover:text-ink dark:hover:bg-white/10 dark:hover:text-white" href={projectUrl} target="_blank" rel="noopener" aria-label="Source code on GitHub" title="Source code on GitHub">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.1 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"></path></svg>
+        </a>
+      </div>
+    </footer>
     )}
 
     <script is:inline>

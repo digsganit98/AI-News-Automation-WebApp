@@ -19,6 +19,7 @@ import sys
 from datetime import UTC, datetime
 from pathlib import Path
 
+from digest.collectors.feedCache import saveFeedCache
 from digest.dataModels import CollectionResult
 from digest.processing.removeDuplicates import SeenStore, dedupe
 from digest.publish.saveDataFiles import SEEN_FILE, writeCollection
@@ -70,6 +71,7 @@ def saveCollected(result: CollectionResult, seen: SeenStore, args: argparse.Name
         seen.add(result.items)
         seen.prune()
         seen.save()
+        saveFeedCache()  # and when slow feeds (arXiv) were last fetched
 
 
 def commandCollect(args: argparse.Namespace) -> int:

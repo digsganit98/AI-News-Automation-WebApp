@@ -146,6 +146,7 @@ sources:
     group: research
     icon: arxiv
     url: ${ARXIV_AI_CL_FEED_URL}
+    respectCacheControl: true  # the feed changes once a day: fetch it once a day, not every run
     maxItems: 8
     titleFilter:
       include:

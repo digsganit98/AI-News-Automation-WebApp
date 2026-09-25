@@ -39,14 +39,14 @@ Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research 
 
 | Page | What it's for |
 |---|---|
-| **Latest** | The live dashboard, updated every 3 hours. It shows today's digest, the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links to paper, code or model), then **everything collected**, with filters and search. |
+| **Latest** | The live **news** dashboard, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then every news item collected, with filters and search. |
 | **Daily Digest** | The **10:00 IST edition**: a 5-minute read with a headline, a 3-point TL;DR, the day's top 5 stories and a short **op-ed** on the biggest theme, all fact-checked by the editor. It says when the next edition comes. Latest is the full stream; the Daily Digest is the curated summary (and what the daily email will send). |
-| **Research Radar** | Every new development from the last 3 days, one row each, from all sources, with the columns *Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*. Rows the AI agents reviewed are marked ✓; the rest are tagged automatically. It works even without API keys. **Download as CSV.** |
+| **Paper Trail** | Every GenAI **research paper** from the last 14 days, from arXiv, Hugging Face Daily Papers, and anywhere else one turns up (Hacker News, web search, agent stories), merged into one card per paper. A **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), search, "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. Works without API keys. |
 | **Sources** | Which sources worked in the last run. |
 | **How it works** | The architecture, the agents and their LLMs. |
-| **Archive** (calendar icon, top right) | The last 5 days, each day browsable and filterable. |
+| **Archive** (calendar icon, top right) | The news from the last 5 days, each day browsable and filterable. |
 
-Light and dark mode, and it works on phones. A small bar pinned to the bottom of Latest and Archive credits the project.
+Each page has one job: news on Latest, papers on Paper Trail, the morning edition on Daily Digest, history in the Archive. Light and dark mode, and it works on phones.
 
 ## How it works
 
@@ -71,9 +71,11 @@ Light and dark mode, and it works on phones. A small bar pinned to the bottom of
 | Writer | Gemini Flash | 10:00 IST |
 | Editor | gpt-oss-120b on Groq | 10:00 IST |
 
+**Polite to the sites it reads.** Requests to the same site take turns with a gap (2 seconds; 4 seconds for arXiv, which asks for at least 3 and one connection at a time). arXiv's feed changes once a day, so it's re-checked at most every 6 hours with an "only if changed" request, and a site's `Retry-After` is honoured. Set per-site gaps with `HOST_SPACING_OVERRIDES` in `config/app.env`.
+
 If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. A daily budget keeps calls within the free tiers and saves 25 calls for the 10:00 edition.
 
-**Source Type** (Research Radar): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout, which also covers LinkedIn, X, YC and Coimbatore news through search results.
+**Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout, which also covers LinkedIn, X, YC and Coimbatore news through search results.
 
 ## How we keep the AI honest
 
@@ -161,7 +163,7 @@ src/web/           website (Astro + Tailwind + Preact, Apple "Liquid Glass" styl
 evals/             the eval test set
 tests/             automated tests (no network, no LLM calls)
 data/              collected news, stories and digests (public)
-state/             pipeline memory: seen items, daily LLM usage
+state/             pipeline memory: seen items, daily LLM usage, feed cache
 docs/              setup guides and the architecture diagram (+ editable .drawio)
 .github/workflows/ newsPipeline (every 3 h) · deploySite · ci · evaluateAgents
 ```

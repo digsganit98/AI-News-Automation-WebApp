@@ -14,6 +14,7 @@ from urllib.parse import urlsplit
 import httpx
 from bs4 import BeautifulSoup
 from tenacity import (
+    RetryCallState,
     retry,
     retry_if_exception,
     stop_after_attempt,
@@ -70,40 +71,72 @@ def _isRetryable(exc: BaseException) -> bool:
     return isinstance(exc, httpx.TransportError)
 
 
-# Per HTTP client: host -> (lock, time of last request). Sources on the same site
-# (e.g. two YouTube channels) take turns with a gap between requests, so the site doesn't
-# rate-limit us (HTTP 429).
-_hostGates: weakref.WeakKeyDictionary[httpx.AsyncClient, dict[str, list]] = (
+# Requests to the same site take turns, one at a time, with a gap between them, so the site
+# doesn't rate-limit us (HTTP 429). Shared by every HTTP client in the process, so the
+# collectors and the agents' fetchArticle tool pace each other too.
+_lastRequestAt: dict[str, float] = {}
+_gateLocks: weakref.WeakKeyDictionary[asyncio.AbstractEventLoop, dict[str, asyncio.Lock]] = (
     weakref.WeakKeyDictionary()
 )
+MAX_RETRY_AFTER_SECONDS = 120
 
 
-async def _waitForHost(client: httpx.AsyncClient, url: str) -> asyncio.Lock:
-    host = urlsplit(url).hostname or ""
-    gates = _hostGates.setdefault(client, {})
-    gate = gates.setdefault(host, [asyncio.Lock(), 0.0])
-    await gate[0].acquire()
-    wait = gate[1] + float(env("HOST_REQUEST_SPACING_SECONDS", "2")) - time.monotonic()
+def hostGate(url: str) -> tuple[str, float]:
+    """The pacing key and gap (seconds) for a URL.
+
+    Sites listed in HOST_SPACING_OVERRIDES (e.g. "arxiv.org=4") get their own gap, shared by
+    all their subdomains: arXiv's limit covers rss.arxiv.org, export.arxiv.org and arxiv.org.
+    """
+    host = (urlsplit(url).hostname or "").lower()
+    for rule in env("HOST_SPACING_OVERRIDES", "").split(","):
+        domain, _, seconds = rule.strip().partition("=")
+        if domain and seconds and (host == domain or host.endswith("." + domain)):
+            return domain, float(seconds)
+    return host, float(env("HOST_REQUEST_SPACING_SECONDS", "2"))
+
+
+async def waitForHost(url: str) -> asyncio.Lock:
+    """Wait for this site's turn. The caller releases the returned lock after its request."""
+    key, spacing = hostGate(url)
+    lock = _gateLocks.setdefault(asyncio.get_running_loop(), {}).setdefault(key, asyncio.Lock())
+    await lock.acquire()
+    wait = _lastRequestAt.get(key, 0.0) + spacing - time.monotonic()
     if wait > 0:
         await asyncio.sleep(wait)
-    gate[1] = time.monotonic()
-    return gate[0]
+    _lastRequestAt[key] = time.monotonic()
+    return lock
+
+
+_backoff = wait_exponential(multiplier=2, min=4, max=30)
+
+
+def _retryWait(state: RetryCallState) -> float:
+    """Exponential backoff, or longer when the site says so (Retry-After on 429/503)."""
+    wait = _backoff(state)
+    exc = state.outcome.exception() if state.outcome else None
+    if isinstance(exc, httpx.HTTPStatusError):
+        retryAfter = exc.response.headers.get("Retry-After", "")
+        if retryAfter.isdigit():
+            wait = max(wait, min(float(retryAfter), MAX_RETRY_AFTER_SECONDS))
+    return wait
 
 
 @retry(
     retry=retry_if_exception(_isRetryable),
     stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=2, min=4, max=30),
+    wait=_retryWait,
     reraise=True,
 )
 async def fetch(client: httpx.AsyncClient, url: str, **kwargs) -> httpx.Response:
-    """GET with retries on network errors, 429 and 5xx. Raises on any other non-2xx."""
-    lock = await _waitForHost(client, url)
+    """GET with retries on network errors, 429 and 5xx. Raises on any other non-2xx
+    (except 304 Not Modified, the answer to a conditional request)."""
+    lock = await waitForHost(url)
     try:
         resp = await client.get(url, **kwargs)
     finally:
         lock.release()
-    resp.raise_for_status()
+    if resp.status_code != 304:
+        resp.raise_for_status()
     return resp
 
 

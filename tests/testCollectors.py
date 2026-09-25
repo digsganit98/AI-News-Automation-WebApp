@@ -108,6 +108,7 @@ def testHuggingFacePapersRespectMinimumUpvotes():
                 "summary": "S",
                 "githubRepo": "https://github.com/a/b",
                 "submittedOnDailyAt": "2026-09-24T00:00:00Z",
+                "authors": [{"name": "Ada Lovelace"}, {"name": "Alan Turing"}, {"hidden": True}],
             }
         },
         {"paper": {"id": "2609.00002", "title": "Unnoticed paper", "upvotes": 2}},
@@ -115,6 +116,7 @@ def testHuggingFacePapersRespectMinimumUpvotes():
     [item] = parseDailyPapers(data, 10, makeCollector("huggingFacePapers"))
 
     assert item.url == "https://huggingface.co/papers/2609.00001"
+    assert item.author == "Ada Lovelace, Alan Turing"
     assert item.extra["arxivUrl"] == "https://arxiv.org/abs/2609.00001"
     assert item.extra["githubRepo"] == "https://github.com/a/b"
 

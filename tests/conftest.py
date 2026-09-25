@@ -23,9 +23,16 @@ def makeCollector(type: str, **options):
 
 
 @pytest.fixture(autouse=True)
-def isolatedSpacing(monkeypatch):
-    # Tests should not wait between requests to the same host.
+def isolatedSpacing(monkeypatch, tmp_path):
+    # Tests should not wait between requests to the same host, or touch the real feed cache.
+    from digest.collectors import feedCache
+
     monkeypatch.setenv("HOST_REQUEST_SPACING_SECONDS", "0")
+    monkeypatch.setenv("HOST_SPACING_OVERRIDES", "")
+    monkeypatch.setattr(feedCache, "FEED_CACHE_FILE", tmp_path / "feedCache.json")
+    feedCache.resetFeedCache()
+    yield
+    feedCache.resetFeedCache()
 
 
 @pytest.fixture(autouse=True)

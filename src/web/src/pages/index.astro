@@ -4,7 +4,7 @@ import NewsFeed from "../components/NewsFeed";
 import StoryCard from "../components/StoryCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
-  GROUPS, formatDay, href, iconMap, loadDays, loadDigests, loadSources, loadTopStories, sortNewestFirst,
+  GROUPS, formatDay, href, iconMap, isNews, loadDays, loadSources, loadTopStories, sortNewestFirst,
   toFeedItem, toFeedSources,
 } from "../lib/siteData";
 
@@ -12,9 +12,10 @@ const days = loadDays();
 const sources = loadSources();
 const latest = days[0];
 // Today and yesterday, so the feed always covers at least the last 24 hours.
-const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items)).map(toFeedItem);
+// News only: research papers have their own page, Paper Trail.
+const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items).filter(isNews)).map(toFeedItem);
+const newsToday = latest?.items.filter(isNews).length ?? 0;
 const buildTime = new Date().toISOString();
-const edition = loadDigests()[0];
 // The analyst's stories from today and yesterday, most important first.
 const topStories = loadTopStories(2).slice(0, 9);
 ---
@@ -28,7 +29,7 @@ const topStories = loadTopStories(2).slice(0, 9);
     </p>
     <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">Today in<br />Generative AI.</h1>
     <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
-      New models, tools, cloud features, research and real-world uses: from AI labs, cloud platforms, papers, Hacker News, YouTube and newsletters, every 3 hours.
+      New models, tools, cloud features and real-world uses: from AI labs, cloud platforms, Hacker News, Reddit, YouTube and newsletters, every 3 hours.
     </p>
     {latest && <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
    </div>
@@ -36,10 +37,10 @@ const topStories = loadTopStories(2).slice(0, 9);
    <aside class="flex shrink-0 flex-col items-center gap-2 lg:mt-3 lg:items-end" aria-label="At a glance">
     <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
       <div>
-        <p class="eyebrow !text-[10px]">Items today</p>
+        <p class="eyebrow !text-[10px]">News today</p>
         <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
       </div>
-      <p class="text-xl font-semibold tracking-[-0.03em]">{latest?.items.length ?? 0}</p>
+      <p class="text-xl font-semibold tracking-[-0.03em]">{newsToday}</p>
     </div>
     <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
       <div>
@@ -49,44 +50,6 @@ const topStories = loadTopStories(2).slice(0, 9);
       <p class="text-xl font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
     </div>
    </aside>
-  </section>
-
-  <section class="card relative mb-12 overflow-hidden p-5 sm:p-6">
-    <div class="absolute -right-16 -top-16 size-56 rounded-full bg-gradient-to-br from-brand-400/30 to-violet-glow/30 blur-3xl"></div>
-    {edition ? (
-      <div class="relative grid gap-5 lg:grid-cols-[1.4fr_1fr]">
-        <div>
-          <p class="eyebrow mb-2 !text-[11px]">Daily digest · {formatDay(edition.date)}</p>
-          <h2 class="text-xl font-semibold leading-tight tracking-[-0.03em] sm:text-3xl">{edition.digest.headline}</h2>
-          <p class="mt-2 text-base text-ink-muted dark:text-[#a1a1a6]">{edition.digest.dek}</p>
-          <ul class="mt-4 space-y-2 text-sm">
-            {edition.digest.tldr.map((line) => (
-              <li class="flex gap-3 leading-snug"><span class="mt-1.5 size-1.5 shrink-0 rounded-full bg-brand-500"></span>{line}</li>
-            ))}
-          </ul>
-          <div class="mt-5 flex flex-wrap items-center gap-3">
-            <a href={href(`digest/${edition.date}`)} class="glass-button !px-4 !py-2 !text-[13px]">Read the full digest</a>
-            <p class="text-xs text-ink-muted dark:text-[#a1a1a6]" data-next-edition={edition.date}></p>
-          </div>
-        </div>
-        <a href={href(`digest/${edition.date}#op-ed`)} class="glass group flex flex-col justify-between rounded-3xl p-5">
-          <div>
-            <p class="eyebrow mb-2 !text-[11px] !text-[#bf5af2]">Op-ed</p>
-            <p class="text-base font-semibold leading-snug tracking-[-0.02em] group-hover:text-brand-600 dark:group-hover:text-brand-400">{edition.opEd.title}</p>
-            <p class="mt-2 text-xs text-ink-muted dark:text-[#a1a1a6]">{edition.opEd.dek}</p>
-          </div>
-          <p class="mt-4 text-xs font-semibold text-brand-600 dark:text-brand-400">Read the op-ed →</p>
-        </a>
-      </div>
-    ) : (
-      <div class="relative">
-        <p class="eyebrow mb-2 !text-[11px] !text-[#bf5af2]">Daily digest &amp; op-ed</p>
-        <h2 class="text-xl font-semibold sm:text-2xl">The first edition arrives at 10:00 IST</h2>
-        <p class="mt-2 max-w-2xl text-sm text-ink-muted dark:text-[#a1a1a6]">
-          Every morning the Writer agent turns the day's top stories into a digest and a short op-ed, and the Editor agent checks every claim against the sources.
-        </p>
-      </div>
-    )}
   </section>
 
   {topStories.length > 0 && (
@@ -101,7 +64,10 @@ const topStories = loadTopStories(2).slice(0, 9);
     </section>
   )}
 
-  <h2 class="mb-5 text-3xl font-semibold">{topStories.length > 0 ? "Everything collected" : "Latest news"}</h2>
+  <div class="mb-5 flex flex-wrap items-end justify-between gap-2">
+    <h2 class="text-3xl font-semibold">{topStories.length > 0 ? "Everything collected" : "Latest news"}</h2>
+    <a href={href("papers")} class="text-sm font-medium text-brand-600 hover:underline dark:text-brand-400">Research papers are in Paper Trail →</a>
+  </div>
   {items.length > 0 ? (
     <NewsFeed client:load items={items} sources={toFeedSources(sources)} icons={iconMap(sources)} groups={GROUPS} buildTime={buildTime} live />
   ) : (
@@ -125,18 +91,5 @@ const topStories = loadTopStories(2).slice(0, 9);
     });
     tick();
     setInterval(tick, 30000);
-
-    // "When is the next edition?" worked out in the reader's browser (India time), so it
-    // stays right between the 3-hourly rebuilds of this page.
-    document.querySelectorAll("[data-next-edition]").forEach((el) => {
-      const ist = new Date(Date.now() + 5.5 * 3600000); // IST = UTC + 5:30, no daylight saving
-      const today = ist.toISOString().slice(0, 10);
-      const hour = ist.getUTCHours();
-      el.textContent = el.dataset.nextEdition === today
-        ? "Next edition: tomorrow, 10:00 IST"
-        : hour < 10
-          ? "Today's edition arrives at 10:00 IST"
-          : "Today's edition is on its way";
-    });
   </script>
 </BaseLayout>

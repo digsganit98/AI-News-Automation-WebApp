@@ -1,0 +1,44 @@
+---
+// Paper Trail: every GenAI paper spotted in the last two weeks, wherever it turned up.
+import PaperTrail from "../components/PaperTrail";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { PAPER_DAYS, href, iconMap, loadPapers, loadSources } from "../lib/siteData";
+
+const papers = loadPapers(PAPER_DAYS);
+const withCode = papers.filter((p) => p.links.code).length;
+const buildTime = new Date().toISOString();
+const newest = papers.reduce((t, p) => (p.time > t ? p.time : t), "");
+const today = newest ? papers.filter((p) => Date.parse(p.time) >= Date.parse(newest) - 36 * 3600_000).length : 0;
+---
+
+<BaseLayout title="Paper Trail" current="papers" description={`Every GenAI research paper from the last ${PAPER_DAYS} days: arXiv, Hugging Face Daily Papers and wherever people are talking about one.`}>
+  <section class="mb-10 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+    <div>
+      <p class="eyebrow mb-3">Research</p>
+      <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">Paper Trail.</h1>
+      <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
+        Every GenAI paper from the last {PAPER_DAYS} days, from arXiv, Hugging Face and wherever people are talking about one. Follow each one from paper to code.
+      </p>
+    </div>
+    <aside class="flex shrink-0 flex-col items-center gap-2 lg:items-end" aria-label="At a glance">
+      <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+        <p class="eyebrow !text-[10px]">New papers</p>
+        <p class="text-xl font-semibold tracking-[-0.03em]">{today}</p>
+      </div>
+      <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+        <p class="eyebrow !text-[10px]">With code</p>
+        <p class="text-xl font-semibold tracking-[-0.03em]">{withCode}<span class="text-sm font-medium text-ink-muted dark:text-[#a1a1a6]"> / {papers.length}</span></p>
+      </div>
+      <a href={href("papers.csv")} download class="mt-1 text-[13px] font-medium text-brand-600 hover:underline dark:text-brand-400">Download the research log (CSV)</a>
+    </aside>
+  </section>
+
+  {papers.length === 0 ? (
+    <div class="card px-8 py-16 text-center">
+      <p class="text-lg font-semibold">No papers yet</p>
+      <p class="mt-2 text-ink-muted dark:text-[#a1a1a6]">The next 3-hourly run will bring in the day's papers.</p>
+    </div>
+  ) : (
+    <PaperTrail client:load papers={papers} icons={iconMap(loadSources())} buildTime={buildTime} />
+  )}
+</BaseLayout>

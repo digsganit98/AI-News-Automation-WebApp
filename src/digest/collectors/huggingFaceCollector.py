@@ -24,12 +24,14 @@ def parseDailyPapers(data: list[dict], minUpvotes: int, collector: Collector) ->
         if not paper.get("id") or upvotes < minUpvotes:
             continue
         published = paper.get("submittedOnDailyAt") or entry.get("publishedAt")
+        authors = [a["name"] for a in paper.get("authors", []) if a.get("name")]
         items.append(
             collector.item(
                 title=paper.get("title", "").strip(),
                 url=envUrl("HF_PAPER_URL", id=paper["id"]),
                 publishedAt=utc(dateparser.isoparse(published)) if published else None,
                 excerpt=excerpt(paper.get("summary", "")),
+                author=", ".join(authors) or None,
                 extra={
                     "upvotes": upvotes,
                     "githubRepo": paper.get("githubRepo"),

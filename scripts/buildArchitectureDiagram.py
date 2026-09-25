@@ -398,7 +398,7 @@ NODES = [
         220,
         110,
         "Website",
-        "Latest every 3 h · digest\n+ op-ed · research radar",
+        "Latest every 3 h · digest\n+ op-ed · paper trail",
         ["globe", "astro"],
         "built",
     ),

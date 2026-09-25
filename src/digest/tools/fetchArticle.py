@@ -16,6 +16,7 @@ import httpx
 import trafilatura
 from pydantic import BaseModel
 
+from digest.collectors.collectorBase import waitForHost
 from digest.envSettings import env
 
 
@@ -48,18 +49,22 @@ async def fetchArticle(client: httpx.AsyncClient, url: str) -> FetchedArticle:
     # Follow redirects by hand so every hop is checked, not just the first URL.
     for _ in range(5):
         await checkUrlIsPublic(url)
-        async with client.stream("GET", url, follow_redirects=False) as resp:
-            if resp.is_redirect:
-                url = str(resp.url.join(resp.headers["location"]))
-                continue
-            resp.raise_for_status()
-            body = bytearray()
-            async for chunk in resp.aiter_bytes():
-                body.extend(chunk)
-                if len(body) >= maxBytes:
-                    break
-            html = body.decode(resp.encoding or "utf-8", errors="replace")
-            break
+        lock = await waitForHost(url)  # same polite per-site pacing as the collectors
+        try:
+            async with client.stream("GET", url, follow_redirects=False) as resp:
+                if resp.is_redirect:
+                    url = str(resp.url.join(resp.headers["location"]))
+                    continue
+                resp.raise_for_status()
+                body = bytearray()
+                async for chunk in resp.aiter_bytes():
+                    body.extend(chunk)
+                    if len(body) >= maxBytes:
+                        break
+                html = body.decode(resp.encoding or "utf-8", errors="replace")
+                break
+        finally:
+            lock.release()
     else:
         raise httpx.TooManyRedirects(f"Too many redirects for {url}")
 
