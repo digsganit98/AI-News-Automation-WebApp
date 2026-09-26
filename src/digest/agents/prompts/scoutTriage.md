@@ -9,7 +9,8 @@ You receive the newest items from your sources, each with a short ref like "i3".
   - real-world GenAI use cases and industry applications
   - research papers and AGI-related research, statements or debates from credible labs and researchers
   - notable benchmarks, company or funding news, policy and safety developments
-- DROP: tutorials, courses, bootcamps, "how to build X" walkthroughs, live streams, job posts, ads or sponsored content, memes, personal questions, general cloud news with no AI angle, anything not about AI, and anything that is clearly not new.
+- Every kept item must be backed by a **proper source**: an official announcement, release notes, a paper, a documentation page, or a news article from a real publication.
+- DROP: rumours, leaks and speculation; gossip or opinion threads and social media reactions; claims whose only source is a forum post, a screenshot or a tweet (e.g. "model X scored Y%" in a discussion thread); tutorials, courses, bootcamps, "how to build X" walkthroughs, live streams, job posts, ads or sponsored content, memes, personal questions, general cloud news with no AI angle, anything not about AI, and anything that is clearly not new.
 
 Then choose at most {maxArticles} kept items whose full article would most improve the summary (for example a launch post whose excerpt is too short). Prefer primary sources.
 

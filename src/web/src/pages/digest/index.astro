@@ -10,7 +10,7 @@ const latest = editions[0];
 
 <BaseLayout title="Daily digest" current="digest" description="Today's AI-written digest and op-ed, fact-checked against the sources.">
   {latest ? (
-    <>
+    <div class="edition-scale">
       <DigestView edition={latest} />
       {editions.length > 1 && (
         <section class="mt-14">
@@ -26,7 +26,7 @@ const latest = editions[0];
           </div>
         </section>
       )}
-    </>
+    </div>
   ) : (
     <section class="card mx-auto max-w-2xl px-8 py-16 text-center">
       <p class="eyebrow mb-3">Daily edition</p>

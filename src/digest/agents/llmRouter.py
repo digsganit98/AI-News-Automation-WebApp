@@ -33,6 +33,7 @@ SchemaT = TypeVar("SchemaT", bound=BaseModel)
 
 TEMPERATURE = {"writer": 0.7}  # everyone else: 0.2 (factual work)
 DEFAULT_MAX_OUTPUT = 3000
+PROMPT_WRAPPER_TOKENS = 100  # "Reply with only a JSON object..." + a safety margin
 MAX_WAIT_SECONDS = 45  # longer waits (e.g. a daily quota) mean: move on to the next model
 ATTEMPTS_PER_MODEL = 3
 _RETRY_AFTER = re.compile(r"(?:try again|retry) in ([\d.]+)\s*(ms|s)", re.IGNORECASE)
@@ -179,6 +180,22 @@ class LlmRouter:
 
     def maxOutput(self, agent: str) -> int:
         return self.config.maxOutputTokens.get(agent, DEFAULT_MAX_OUTPUT)
+
+    def inputBudget(
+        self, agent: str, system: str, schema: type[BaseModel], maxOutput: int | None = None
+    ) -> int | None:
+        """Tokens the user message may use so the request fits EVERY model of `agent`,
+        including those with a per-minute limit (Groq: 8k). None = no model has a limit.
+
+        Agents trim what they send to this size, so a busy Gemini can always hand over to Groq
+        instead of the request being "too large" for it.
+        """
+        limits = [self.config.providers[m.provider].tokensPerMinute for m in self.modelsFor(agent)]
+        limits = [limit for limit in limits if limit]
+        if not limits:
+            return None
+        overhead = estimateTokens(system, schemaSketch(schema)) + PROMPT_WRAPPER_TOKENS
+        return min(limits) - (maxOutput or self.maxOutput(agent)) - overhead
 
     def _chat(self, agent: str, choice: ModelChoice, maxOutput: int | None = None) -> ChatOpenAI:
         return ChatOpenAI(

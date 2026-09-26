@@ -130,8 +130,9 @@ const nav = [
         const el = e.target instanceof Element ? e.target.closest(".glass, .card, .chip, .field") : null;
         if (!el) return;
         const r = el.getBoundingClientRect();
-        el.style.setProperty("--mx", `${e.clientX - r.left}px`);
-        el.style.setProperty("--my", `${e.clientY - r.top}px`);
+        const k = r.width ? el.offsetWidth / r.width : 1; // 1, or 1/0.75 inside .edition-scale
+        el.style.setProperty("--mx", `${(e.clientX - r.left) * k}px`);
+        el.style.setProperty("--my", `${(e.clientY - r.top) * k}px`);
       }, { passive: true });
     </script>
   </body>

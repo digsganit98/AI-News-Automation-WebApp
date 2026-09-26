@@ -42,7 +42,7 @@ Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research 
 | **Latest** | The live **news** dashboard, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then every news item collected, with filters and search. |
 | **Daily Digest** | The morning edition, **live by 09:30 IST**: a 5-minute read with a headline, a 3-point TL;DR, the day's top 5 stories and a short **op-ed** on the biggest theme, all fact-checked by the editor. It says when the next edition comes. Latest is the full stream; the Daily Digest is the curated summary (and what the daily email will send). |
 | **Paper Trail** | Every GenAI **research paper** from the last 14 days, from arXiv, Hugging Face Daily Papers, and anywhere else one turns up (Hacker News, web search, agent stories), merged into one card per paper. A **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), search, "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. Works without API keys. |
-| **Sources** | Which sources worked in the last run. |
+| **Sources** | The sources that worked in the latest check (failing ones aren't listed). |
 | **How it works** | The architecture, the agents and their LLMs. |
 | **Archive** (calendar icon, top right) | The news from the last 5 days, each day browsable and filterable. |
 
@@ -68,12 +68,12 @@ Each page has one job: news on Latest, papers on Paper Trail, the morning editio
 |---|---|---|
 | 6 scouts: labs & research · cloud & platforms · community · video, newsletters & blogs · X · web search | Qwen 3.8 27B on Groq | every 3 h |
 | Analyst | gpt-oss-120b on Groq | every 3 h |
-| Writer | Gemini Flash | daily, by 09:30 IST |
+| Writer | Gemini Flash (backups: gpt-oss-120b, then Gemini Flash-Lite) | daily, by 09:30 IST |
 | Editor | gpt-oss-120b on Groq | daily, by 09:30 IST |
 
 **Polite to the sites it reads.** Requests to the same site take turns with a gap (2 seconds; 4 seconds for arXiv, which asks for at least 3 and one connection at a time). arXiv's feed changes once a day, so it's re-checked at most every 6 hours with an "only if changed" request, and a site's `Retry-After` is honoured. Set per-site gaps with `HOST_SPACING_OVERRIDES` in `config/app.env`.
 
-If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. A daily budget keeps calls within the free tiers and saves 25 calls for the morning edition.
+If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. Every request is sized to fit **every** model in its chain, including Groq's 8,000 tokens a minute: the writer drops its least important stories, and the editor shortens the original articles it checks until the request fits. So when Gemini is busy, Groq can always write and check the edition. A daily budget keeps calls within the free tiers and saves 25 calls for the morning edition.
 
 **Edition on time.** GitHub often starts scheduled runs 30 minutes to 2 hours late, or skips them. So the edition isn't tied to one slot: four attempts run between 07:40 and 09:05 IST. The first one GitHub actually starts writes the edition (about 10 minutes), and the rest see it's done and stop at once, with no LLM calls. Any other run after 07:30 IST that finds no edition writes it too.
 
@@ -89,10 +89,11 @@ For a start time that's exact to the minute, add a free outside timer:
 
 Manual starts like this aren't delayed the way schedules are, and `editionIfMissing` does nothing if the edition is already out.
 
-**Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout, which also covers LinkedIn, X, YC and Coimbatore news through search results.
+**Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout (news sites, lab blogs without feeds, YC and Coimbatore news).
 
 ## How we keep the AI honest
 
+- **Real articles only.** From Reddit, Hacker News and web search, only items that link to a proper article, announcement or paper get through: a Reddit post becomes the article it links to, and text-only threads, screenshots, tweets and social posts are dropped (the list of discussion sites is `notArticleHosts` in `config/sources.yaml`). The scouts also drop rumours and claims whose only source is a forum post.
 - **The AI can't invent links.** Agents refer to items by number (`i1`, `i2`…); the code attaches every URL. Any link that isn't in the collected data is removed and counted as a "hallucination catch".
 - **The editor checks the original,** not a summary: it re-fetches the source article for every story the digest and op-ed use.
 - **Scraped text is treated as data.** It's fenced off, so instructions hidden in a web page are ignored.

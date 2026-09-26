@@ -35,7 +35,8 @@ async def testRequestsToASlowSiteAreSpacedOut(monkeypatch):
         await fetch(client, "https://a.slow.test/1")
         await fetch(client, "https://b.slow.test/2")  # another subdomain, same site
         await fetch(client, "https://a.slow.test/3")
-    assert time.monotonic() - start >= 0.6
+    # Two 0.3 s gaps; a little slack for the clock's resolution (about 15 ms on Windows).
+    assert time.monotonic() - start >= 0.55
 
 
 @respx.mock

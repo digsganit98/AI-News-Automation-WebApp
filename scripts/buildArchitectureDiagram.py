@@ -250,7 +250,7 @@ SOURCES = [
     ("Hacker News · Reddit", "HN 50+ points · 4 subreddits", "ycombinator", "built"),
     ("YouTube", "AI Explained · Krish Naik", "youtube", "built"),
     ("Newsletters & blogs", "Substack · Medium · Gmail", "substack", "built"),
-    ("Web search", "LinkedIn · X · YC · Coimbatore", "search", "built"),
+    ("Web search", "news sites · YC · Coimbatore", "search", "built"),
     ("X / Twitter", "Curated AI accounts", "x", "planned"),
 ]
 

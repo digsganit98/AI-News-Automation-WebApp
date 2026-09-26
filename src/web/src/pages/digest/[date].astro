@@ -12,5 +12,7 @@ const { edition } = Astro.props as { edition: DigestFile };
 ---
 
 <BaseLayout title={`${edition.digest.headline} · ${formatDay(edition.date)}`} current="digest" description={edition.digest.dek}>
-  <DigestView edition={edition} />
+  <div class="edition-scale">
+    <DigestView edition={edition} />
+  </div>
 </BaseLayout>

@@ -9,6 +9,13 @@
 settings:
   windowHours: 36        # only keep items published in the last N hours
   requestTimeout: 30     # seconds per HTTP request
+  # Discussion and social sites. A link to one of these is a thread or a post, not an article
+  # (e.g. a Reddit thread about a benchmark screenshot). Sources with `articlesOnly: true` drop
+  # such items, so the agents only see news backed by a proper article.
+  notArticleHosts: &notArticleHosts
+    [reddit.com, redd.it, news.ycombinator.com, x.com, twitter.com, imgur.com, youtube.com,
+     youtu.be, instagram.com, facebook.com, tiktok.com, threads.net, quora.com, discord.com, t.me,
+     linkedin.com]
 
 sources:
   # --- AI labs and research blogs (RSS feeds) ---
@@ -212,6 +219,7 @@ sources:
     group: community
     icon: ycombinator
     minPoints: 50
+    articlesOnly: true       # skip "Ask HN" and other text-only posts
     keywords: [AI, LLM, LLMs, GPT, Claude, Gemini, OpenAI, Anthropic, DeepMind, "language model", AGI, MCP, RAG,
                diffusion, transformer, "Hugging Face", Llama, Mistral, DeepSeek, Qwen, agent, agents]
 
@@ -221,6 +229,8 @@ sources:
     group: community
     icon: reddit
     url: ${REDDIT_AI_FEED_URL}
+    useLinkedArticle: true   # a post becomes the article it links to; the thread is its discussion
+    articlesOnly: true       # text-only threads, screenshots and tweets are dropped
     maxItems: 15
 
   # --- YouTube (RSS first; falls back to the YouTube API if YOUTUBE_API_KEY is set) ---
@@ -293,12 +303,14 @@ sources:
     queriesPerRun: 4
     resultsPerQuery: 5
     days: 2
+    articlesOnly: true
+    excludeDomains: *notArticleHosts   # ask the search engine for articles only
     queries:
       - new LLM model release announced
       - new AI agent framework or SDK released
       - AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature
-      - site:linkedin.com generative AI launch announcement
-      - site:x.com AI lab announces new model
+      - generative AI product launch news
+      - AI lab official blog announces new model
       - Y Combinator AI agent startup launch
       - Meta AI OR xAI OR Cohere OR DeepSeek new model
       - agentic AI enterprise use case deployed

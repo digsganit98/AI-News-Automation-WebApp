@@ -49,6 +49,9 @@ class FakeRouter:
     def isAvailable(self) -> bool:
         return True
 
+    def inputBudget(self, agent, system, schema, maxOutput=None):
+        return None  # no per-minute limit: nothing is trimmed (see testFitsGroq)
+
     async def structured(self, agent, schema, system, user, maxOutput=None):
         self.asked.append((agent, schema.__name__, user))
         answer = self.answers[schema]

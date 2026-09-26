@@ -227,6 +227,12 @@
   @apply bg-gradient-to-b from-ink to-[#434346] bg-clip-text font-semibold tracking-[-0.035em] text-transparent
     dark:from-white dark:to-[#a1a1a6];
 }
+/* Daily Digest: the whole edition at 75% size (text, cards and spacing alike), for a calmer,
+   magazine-like page. */
+.edition-scale {
+  zoom: 0.75;
+}
+
 .eyebrow {
   @apply text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6];
 }

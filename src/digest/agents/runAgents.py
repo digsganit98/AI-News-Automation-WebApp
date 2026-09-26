@@ -25,6 +25,7 @@ from digest.agents.scoutAgent import FetchArticle
 from digest.agents.writerAgent import Edition
 from digest.dataModels import RawItem
 from digest.envSettings import env
+from digest.processing.articleFilter import isOnHost
 from digest.publish.saveStories import loadRecentStories, storiesForEdition
 from digest.sourcesConfig import loadConfig
 
@@ -88,10 +89,16 @@ def sourceTypeFor(story: Story, urlGroup: dict[str, str]) -> str:
 
 
 def mergeForEdition(runStories: list[Story]) -> list[Story]:
-    """Today's edition covers this run's stories plus those from the last ~30 hours."""
+    """Today's edition covers this run's stories plus those from the last ~30 hours.
+
+    A story whose only sources are discussion threads or social posts (a Reddit thread about a
+    screenshot, a tweet) is left out: the edition rests on proper articles.
+    """
+    hosts = loadConfig().settings.notArticleHosts
     byId = {s.id: s for s in storiesForEdition()}
     byId.update({s.id: s for s in runStories})
-    return sorted(byId.values(), key=lambda s: (-s.importance, s.createdAt))
+    backed = [s for s in byId.values() if not all(isOnHost(src.url, hosts) for src in s.sources)]
+    return sorted(backed, key=lambda s: (-s.importance, s.createdAt))
 
 
 async def runAgents(

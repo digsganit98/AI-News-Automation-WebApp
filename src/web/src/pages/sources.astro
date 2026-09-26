@@ -1,5 +1,5 @@
 ---
-// Source health: did each source work in the latest run, and what ran today.
+// The sources that worked in the latest check. Failing or unconfigured ones aren't listed.
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { GROUPS, iconSvg, loadDays, loadSources } from "../lib/siteData";
 
@@ -11,15 +11,16 @@ const healthById = Object.fromEntries((lastRun?.health ?? []).map((h) => [h.sour
 const itemsToday = (latest?.items ?? []).reduce<Record<string, number>>(
   (acc, i) => ({ ...acc, [i.source]: (acc[i.source] ?? 0) + 1 }), {},
 );
+const working = sources.filter((s) => s.enabled && healthById[s.id]?.ok);
 const grouped = Object.entries(GROUPS)
-  .map(([g, label]) => ({ label, list: sources.filter((s) => s.group === g) }))
+  .map(([g, label]) => ({ label, list: working.filter((s) => s.group === g) }))
   .filter((g) => g.list.length > 0);
 ---
 
 <BaseLayout title="Sources" current="sources" description="Where the news comes from, and whether each source is working.">
   <h1 class="headline text-4xl sm:text-6xl">Sources</h1>
   <p class="mt-2 max-w-2xl text-ink-muted dark:text-[#a1a1a6]">
-    Every source is checked every 3 hours. If one fails, the rest still run and it's retried next time.
+    {working.length} sources, checked every 3 hours.
     {lastRun && <span> Last check: <time data-local-time={lastRun.runAt}>{lastRun.runAt}</time>.</span>}
   </p>
 
@@ -28,15 +29,6 @@ const grouped = Object.entries(GROUPS)
       <h2 class="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">{g.label}</h2>
       <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {g.list.map((s) => {
-          const h = healthById[s.id];
-          const state = !s.enabled ? "off" : !h ? "pending" : h.ok ? "ok" : "failing";
-          const badge = {
-            ok: "border-emerald-300/60 bg-emerald-50 text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:text-emerald-300",
-            failing: "border-rose-300/60 bg-rose-50 text-rose-700 dark:border-rose-400/30 dark:bg-rose-400/10 dark:text-rose-300",
-            off: "border-slate-200 bg-slate-50 text-slate-500 dark:border-white/10 dark:bg-white/5 dark:text-slate-400",
-            pending: "border-slate-200 bg-slate-50 text-slate-500 dark:border-white/10 dark:bg-white/5 dark:text-slate-400",
-          }[state];
-          const label = { ok: "Working", failing: "Failing", off: "Not set up", pending: "Waiting" }[state];
           return (
             <div class="card flex flex-col gap-2 p-4">
               <div class="flex items-center gap-3">
@@ -45,36 +37,14 @@ const grouped = Object.entries(GROUPS)
                   <p class="truncate font-semibold">{s.name}</p>
                   <p class="text-xs text-slate-500 dark:text-slate-400">{itemsToday[s.id] ?? 0} {(itemsToday[s.id] ?? 0) === 1 ? "item" : "items"} today</p>
                 </div>
-                <span class={`pill ml-auto ${badge}`}>{label}</span>
+                <span class="pill ml-auto border-emerald-300/60 bg-emerald-50 text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:text-emerald-300">Working</span>
               </div>
-              {state === "failing" && <p class="rounded-lg bg-rose-50 p-2 text-xs text-rose-700 dark:bg-rose-400/10 dark:text-rose-300">{h?.error}</p>}
-              {state === "off" && <p class="text-xs text-slate-500 dark:text-slate-400">Turned off in config/sources.yaml. See the README to set it up.</p>}
             </div>
           );
         })}
       </div>
     </section>
   ))}
-
-  {latest && (
-    <section class="mt-12">
-      <h2 class="mb-4 text-2xl font-semibold">Today's collection runs</h2>
-      <div class="card divide-y divide-slate-200/70 dark:divide-white/10">
-        {[...latest.runs].reverse().map((run) => {
-          const failing = run.health.filter((h) => !h.ok);
-          return (
-            <div class="flex flex-wrap items-center gap-x-4 gap-y-1 px-5 py-3 text-sm">
-              <time class="w-40 font-medium" data-local-time={run.runAt}>{run.runAt}</time>
-              <span><b>{run.newItems}</b> new items</span>
-              <span class="text-slate-500 dark:text-slate-400">{run.health.length - failing.length}/{run.health.length} sources OK</span>
-              {failing.length > 0 && <span class="text-rose-600 dark:text-rose-400">Failed: {failing.map((h) => h.sourceName).join(", ")}</span>}
-            </div>
-          );
-        })}
-      </div>
-    </section>
-  )}
-
   <script is:inline>
     document.querySelectorAll("[data-local-time]").forEach((el) => {
       el.textContent = new Date(el.dataset.localTime).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });

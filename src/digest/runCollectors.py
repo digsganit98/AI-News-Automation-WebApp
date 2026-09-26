@@ -14,6 +14,7 @@ import httpx
 from digest.collectors import CollectorError, buildCollector
 from digest.dataModels import CollectionResult, RawItem, SourceHealth
 from digest.envSettings import env
+from digest.processing.articleFilter import keepArticlesOnly
 from digest.processing.cleanItems import normalize
 from digest.processing.removeDuplicates import inWindow
 from digest.processing.titleFilter import applyTitleFilter
@@ -31,12 +32,14 @@ def httpClient(config: Config) -> httpx.AsyncClient:
 
 
 async def _runOne(
-    source: SourceConfig, client: httpx.AsyncClient, since: datetime
+    source: SourceConfig, client: httpx.AsyncClient, since: datetime, notArticleHosts: list[str]
 ) -> tuple[list[RawItem], SourceHealth]:
     now = datetime.now(UTC)
     try:
         fetched = await buildCollector(source).collect(client, since)
         items = applyTitleFilter(fetched, source.opt("titleFilter"))
+        if source.opt("articlesOnly"):  # drop discussion threads and social posts
+            items = keepArticlesOnly(items, notArticleHosts)
         if maxItems := source.opt("maxItems"):  # busy feeds: keep only the newest few
             items = sorted(
                 items,
@@ -71,7 +74,8 @@ async def collectSources(
     since = runAt - timedelta(hours=hours or config.settings.windowHours)
 
     async with httpClient(config) as client:
-        results = await asyncio.gather(*(_runOne(s, client, since) for s in sources))
+        hosts = config.settings.notArticleHosts
+        results = await asyncio.gather(*(_runOne(s, client, since, hosts) for s in sources))
 
     items = [item for batch, _ in results for item in batch]
     items = inWindow(normalize(items), since)

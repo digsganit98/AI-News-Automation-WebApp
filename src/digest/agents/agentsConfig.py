@@ -31,7 +31,7 @@ class Budget(BaseModel):
     dailyEditionReserve: int = 25
     maxItemsPerScout: int = 25
     maxArticlesPerScout: int = 3
-    maxStoriesForWriter: int = 20
+    maxStoriesForWriter: int = 12
 
 
 class ScoutSpec(BaseModel):

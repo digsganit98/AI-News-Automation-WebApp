@@ -4,13 +4,22 @@ from __future__ import annotations
 
 import calendar
 import logging
+import re
 from datetime import UTC, datetime
 
 import feedparser
 import httpx
+from bs4 import BeautifulSoup
 
 from digest.collectors import feedCache
-from digest.collectors.collectorBase import Collector, CollectorError, excerpt, fetch, register
+from digest.collectors.collectorBase import (
+    Collector,
+    CollectorError,
+    excerpt,
+    fetch,
+    htmlToText,
+    register,
+)
 from digest.dataModels import RawItem
 
 log = logging.getLogger(__name__)
@@ -30,6 +39,14 @@ def parseFeed(content: bytes | str, collector: Collector) -> list[RawItem]:
         parsed = entry.get("published_parsed") or entry.get("updated_parsed")
         published = datetime.fromtimestamp(calendar.timegm(parsed), UTC) if parsed else None
         summary = entry.get("summary") or ""
+        extra = {}
+        if collector.source.opt("useLinkedArticle"):
+            # Link aggregators (Reddit): point the item at the article the post links to, and
+            # keep the thread as its discussion. A text-only post links to itself; the
+            # `articlesOnly` filter then drops it.
+            extra["discussionUrl"] = url
+            url = linkedArticle(summary) or url
+            summary = AGGREGATOR_FOOTER.sub("", htmlToText(summary))
         items.append(
             collector.item(
                 title=title,
@@ -37,9 +54,24 @@ def parseFeed(content: bytes | str, collector: Collector) -> list[RawItem]:
                 publishedAt=published,
                 excerpt=excerpt(summary) if summary else "",
                 author=entry.get("author"),
+                extra=extra,
             )
         )
     return items
+
+
+# Reddit's feed ends every post with "submitted by /u/name to r/sub [link] [comments]".
+AGGREGATOR_FOOTER = re.compile(
+    r"\s*submitted by\s+/u/\S+(\s+to\s+r/\S+)?\s*\[link\]\s*\[comments\]\s*$"
+)
+
+
+def linkedArticle(summaryHtml: str) -> str | None:
+    """The URL behind a post's "[link]" anchor (Reddit's feed format)."""
+    for anchor in BeautifulSoup(summaryHtml, "html.parser").find_all("a"):
+        if anchor.get_text(strip=True) == "[link]" and anchor.get("href"):
+            return str(anchor["href"])
+    return None
 
 
 @register

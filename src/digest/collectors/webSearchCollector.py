@@ -77,6 +77,8 @@ class WebSearchCollector(Collector):
                     "topic": "news",
                     "days": int(self.source.opt("days", 2)),
                     "max_results": int(self.source.opt("resultsPerQuery", 5)),
+                    # Articles only: no forum threads or social posts (saves search credits too).
+                    "exclude_domains": list(self.source.opt("excludeDomains", [])),
                 },
             )
             resp.raise_for_status()

@@ -37,6 +37,7 @@ class SourceConfig(BaseModel):
 class Settings(BaseModel):
     windowHours: int = 36
     requestTimeout: float = 30.0
+    notArticleHosts: list[str] = []  # discussion/social sites: a link there isn't an article
 
 
 class Config(BaseModel):
