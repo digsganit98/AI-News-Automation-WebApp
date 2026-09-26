@@ -1190,6 +1190,244 @@
           "checkedAt": "2026-09-26T06:04:12.848376Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-26T06:15:25.093426+00:00",
+      "newItems": 1,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.111907Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.155074Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.155427Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.155758Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.155937Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.156108Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.156281Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.156459Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.156654Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.156863Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.157055Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.157134Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.157185Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.157470Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.157540Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.157741Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.157931Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.158335Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-26T06:15:25.158597Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.158869Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.159063Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.159298Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.159490Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.159723Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.160417Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: YouTube RSS feed failed (Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw'",
+          "checkedAt": "2026-09-26T06:15:25.160604Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: YouTube RSS feed failed (Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNU_lfiiWBdtULKOw6X0Dig'",
+          "checkedAt": "2026-09-26T06:15:25.160821Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: YouTube RSS feed failed (Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCjWY5hREA6FFYrthD0rZNIw'",
+          "checkedAt": "2026-09-26T06:15:25.160875Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-26T06:15:25.160920Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2028,7 +2266,19 @@
       },
       "id": "3d8d98d510674d6f",
       "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "An agent used DNS to reach an external chatbot · OpenAI Alignment",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqgg2c/an_agent_used_dns_to_reach_an_external_chatbot/",
+      "publishedAt": "2026-09-26T03:49:13Z",
+      "excerpt": "Five days ago, an internal model broke out of the hardened sandbox. Highlights from the report: * This was apparently the first model escape since OpenAI paused training to harden its sandbox following the HuggingFace incident. * OpenAI has currently paused most training of its most advanced internal models, while it responds to this issue. * The issue was supposedly identified and responded to within about an hour. submitted by /u/ObiWanCanownme to r/singularity [link] [comments]",
+      "author": "/u/ObiWanCanownme",
+      "extra": {},
+      "id": "bc97f70c98438a8e",
+      "collectedAt": "2026-09-26T06:15:25.093426+00:00"
     }
   ],
-  "updatedAt": "2026-09-26T06:04:12.786406+00:00"
+  "updatedAt": "2026-09-26T06:15:25.093426+00:00"
 }
