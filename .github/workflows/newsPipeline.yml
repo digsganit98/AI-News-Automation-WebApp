@@ -43,7 +43,7 @@ jobs:
     outputs:
       mode: ${{ steps.mode.outputs.mode }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
       - name: Decide which run this is
         id: mode
