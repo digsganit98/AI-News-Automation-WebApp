@@ -952,6 +952,244 @@
           "checkedAt": "2026-09-26T05:01:44.954170Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-26T06:04:12.786406+00:00",
+      "newItems": 8,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.803686Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.843267Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.843586Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.843863Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.844044Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.844209Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.844405Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.844569Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.844727Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.844884Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.845044Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.845102Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.845147Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.845406Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.845456Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.845615Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.845773Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.846137Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-26T06:04:12.846373Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.846549Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.846710Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.846933Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.847091Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.847248Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.847882Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: YouTube RSS feed failed (Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw'",
+          "checkedAt": "2026-09-26T06:04:12.848067Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: YouTube RSS feed failed (Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCNU_lfiiWBdtULKOw6X0Dig'",
+          "checkedAt": "2026-09-26T06:04:12.848247Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: YouTube RSS feed failed (Client error '404 Not Found' for url 'https://www.youtube.com/feeds/videos.xml?channel_id=UCjWY5hREA6FFYrthD0rZNIw'",
+          "checkedAt": "2026-09-26T06:04:12.848329Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-26T06:04:12.848376Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1679,7 +1917,118 @@
       },
       "id": "47526ba09bc3dbee",
       "collectedAt": "2026-09-26T04:48:11.662372+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Ran a Small AI-Search Visibility Experiment — Here’s How I Measured What AI Search Sees",
+      "url": "https://medium.com/@altanbir160/i-ran-a-small-ai-search-visibility-experiment-heres-how-i-measured-what-ai-search-sees-8ba370078f04?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T05:33:06Z",
+      "excerpt": "A practical research framework for tracking mentions, citations, source selection, and visibility across AI-powered search platforms. Continue reading on Medium »",
+      "author": "AL Tanbir",
+      "extra": {},
+      "id": "0df8c71d12b7db9b",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Creator of 10k-Star AI Skill: If You’re Using Opus 5.5, Uninstall Your Video Skills First",
+      "url": "https://ai-engineering-trend.medium.com/creator-of-10k-star-ai-skill-if-youre-using-opus-5-5-uninstall-your-video-skills-first-59399866b2c3?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T04:56:49Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "AI Engineering",
+      "extra": {},
+      "id": "3abf9f1c8479a718",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Blabbermouth AI coding agents hate this one weird trick!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcil9/blabbermouth_ai_coding_agents_hate_this_one_weird/",
+      "publishedAt": "2026-09-26T00:28:30Z",
+      "excerpt": "The conceited little fuckers love to inundate you with unnecessary details, noisy caveats, what's 'load bearing' and what's not, waste your time with a wall of text every time it reports back to you. They think human PP times are as fast as theirs, but they're not! It takes time to read as a human! Our PP is small. Dammit, our PP is small! What if there was a way to fight back?? Sending 'tldr' every time it responds got old for me. Using 'caveman' modes was better, but weird, I didn't want…",
+      "author": "/u/netherreddit",
+      "extra": {},
+      "id": "d6851e638df6009b",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "ProteoGenix's Post",
+      "url": "https://www.linkedin.com/posts/activity-7508099341321023488-LEf3",
+      "publishedAt": null,
+      "excerpt": "Generative AI is being announced everywhere in antibody discovery right now. Starting next week, we are publishing it. Real targets, real hit rates, and the",
+      "author": null,
+      "extra": {
+        "query": "site:linkedin.com generative AI launch announcement",
+        "score": 0.756
+      },
+      "id": "66113a45d76d1f55",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Today, I'm proud to announce Day 1 of Confident AI's ...",
+      "url": "https://www.linkedin.com/posts/jeffreyipp_today-im-proud-to-announce-day-1-of-confident-activity-7507790080561016833-yk9n",
+      "publishedAt": null,
+      "excerpt": "Today, I'm proud to announce Day 1 of Confident AI's Launch Week 03: Introducing Voice AI Evals. Voice AI teams have been forced into an unnecessary choice.",
+      "author": null,
+      "extra": {
+        "query": "site:linkedin.com generative AI launch announcement",
+        "score": 0.263
+      },
+      "id": "0c66062a86e11897",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Enterprise AI Now Available in Middle East",
+      "url": "https://www.linkedin.com/posts/cherylenesyb_enterpriseai-aiinproduction-dataplatform-activity-7508006292892987392-b1ql",
+      "publishedAt": null,
+      "excerpt": "Axelera AI has launched its second-generation chip: Europa. The chip is designed for AI inference — running AI models in real-world applications.",
+      "author": null,
+      "extra": {
+        "query": "site:linkedin.com generative AI launch announcement",
+        "score": 0.192
+      },
+      "id": "1d0cdf047f13b402",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What Google Cloud announced in AI this month",
+      "url": "https://www.linkedin.com/pulse/what-google-cloud-announced-ai-month-huy-nguyen-xbxxc",
+      "publishedAt": null,
+      "excerpt": "Google Cloud is introducing a comprehensive AI-powered cybersecurity solution — Google AI Threat Defense — an always-on autonomous security platform.",
+      "author": null,
+      "extra": {
+        "query": "site:linkedin.com generative AI launch announcement",
+        "score": 0.117
+      },
+      "id": "eb30a6d73c0e86bd",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Jeff Grenier's Post",
+      "url": "https://www.linkedin.com/posts/jeff-grenier-55b5757_agenticai-enterpriseai-snowflake-activity-7509272968582234112-13J0",
+      "publishedAt": null,
+      "excerpt": "A post mortem on 90 agents in production is far more useful than another launch announcement, so I hope this one gets recorded. The pattern I keep running",
+      "author": null,
+      "extra": {
+        "query": "site:linkedin.com generative AI launch announcement",
+        "score": 0.111
+      },
+      "id": "3d8d98d510674d6f",
+      "collectedAt": "2026-09-26T06:04:12.786406+00:00"
     }
   ],
-  "updatedAt": "2026-09-26T05:01:44.922432+00:00"
+  "updatedAt": "2026-09-26T06:04:12.786406+00:00"
 }
