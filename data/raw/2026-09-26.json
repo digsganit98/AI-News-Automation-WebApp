@@ -238,6 +238,244 @@
           "checkedAt": "2026-09-25T20:04:17.809732Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-26T00:43:00.727001+00:00",
+      "newItems": 16,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.779104Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.875776Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876094Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876297Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876398Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876493Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876586Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876669Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876750Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876860Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876945Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.876983Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877011Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877150Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877176Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877259Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877409Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877606Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-26T00:43:00.877692Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877770Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877861Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.877987Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.878069Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.878151Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.878544Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.878641Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.878733Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T00:43:00.878761Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": false,
+          "items": 0,
+          "error": "CollectorError: TAVILY_API_KEY is not set",
+          "checkedAt": "2026-09-26T00:43:00.878783Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -577,7 +815,215 @@
       "extra": {},
       "id": "965ecacfd0d267f0",
       "collectedAt": "2026-09-25T20:04:17.587753+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "AWS End User Messaging and Amazon SES now offer AI agent skills for the AWS MCP Server",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/",
+      "publishedAt": "2026-09-25T07:00:00Z",
+      "excerpt": "AWS End User Messaging and Amazon SES now publish AI agent skills for the AWS MCP Server, enabling developers to build and send messages by asking their AI coding agent in plain language. Previously, developers had to navigate multiple documentation pages and management console screens to complete messaging tasks. Now, each skill provides your agent with step-by-step, validated guidance for tasks like verifying sending identities, building branded Rich Communication Services (RCS) agents, and…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "24a2949d38ec6688",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/p/openrouter",
+      "publishedAt": "2026-09-25T23:14:41Z",
+      "excerpt": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+      "author": null,
+      "extra": {},
+      "id": "c5617bc48a5c1d6f",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Jev, Laya, and the Rise of “System One” AI: Why This Matters More Than Most People Realize",
+      "url": "https://medium.com/@chetankerhalkar/jev-laya-and-the-rise-of-system-one-ai-why-this-matters-more-than-most-people-realize-0a1cd90929d1?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T00:11:15Z",
+      "excerpt": "For the last two years, most of us have been building AI systems in one main way: Continue reading on Medium »",
+      "author": "Chetankerhalkar",
+      "extra": {},
+      "id": "ceb54527d7f0f7cd",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Told Google’s AI Where to Read Before Answering a Buying Question.",
+      "url": "https://medium.com/@growgence/i-told-googles-ai-where-to-read-before-answering-a-buying-question-b7d31fbf715b?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-25T20:42:44Z",
+      "excerpt": "One scheduling question, one day, one laptop. One sentence about sources sent the engine to r/smallbusiness and back with the exact same… Continue reading on Medium »",
+      "author": "Growgence",
+      "extra": {},
+      "id": "d17cd4d4ff479179",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "publishedAt": "2026-09-25T21:09:27Z",
+      "excerpt": "",
+      "author": "specked-citrus",
+      "extra": {
+        "points": 155,
+        "comments": 104,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49849985"
+      },
+      "id": "893cb7d78a9cd55d",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Too AI; Didn't Read",
+      "url": "https://www.tai-dr.com/",
+      "publishedAt": "2026-09-25T20:37:56Z",
+      "excerpt": "",
+      "author": "rfonseca",
+      "extra": {
+        "points": 104,
+        "comments": 98,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49849625"
+      },
+      "id": "3a9d213a3cc280b0",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+      "url": "https://mouse.dev/blog/muse-special/",
+      "publishedAt": "2026-09-25T18:18:06Z",
+      "excerpt": "",
+      "author": "Aeroi",
+      "extra": {
+        "points": 109,
+        "comments": 46,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49848095"
+      },
+      "id": "5e83e0d22a04bb8c",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Doom or Bloom, map your AI worldview",
+      "url": "https://www.doom-or-bloom.com",
+      "publishedAt": "2026-09-25T16:51:28Z",
+      "excerpt": "",
+      "author": "transitivebs",
+      "extra": {
+        "points": 53,
+        "comments": 42,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49846953"
+      },
+      "id": "4bfe8fc05d07afba",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Claude Fable 5.1 completed a frontier nine-loop particle-physics calculation experts had worked toward for years, with researchers mostly just telling it “keep going” while it built, debugged and ran the entire workflow",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqa2u2/claude_fable_51_completed_a_frontier_nineloop/",
+      "publishedAt": "2026-09-25T22:37:31Z",
+      "excerpt": "submitted by /u/141_1337 to r/singularity [link] [comments]",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "c1f6449411503856",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Opus 5.5 cut out em dashes almost entirely",
+      "url": "https://www.reddit.com/r/singularity/comments/1wq9wtj/opus_55_cut_out_em_dashes_almost_entirely/",
+      "publishedAt": "2026-09-25T22:30:07Z",
+      "excerpt": "Source: ArenaAI / X submitted by /u/Outside-Iron-8242 to r/singularity [link] [comments]",
+      "author": "/u/Outside-Iron-8242",
+      "extra": {},
+      "id": "191dad6c7c300f43",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "I ran the actual break-even math on buying vs renting an H200 box, and it is not where I expected",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq672b/i_ran_the_actual_breakeven_math_on_buying_vs/",
+      "publishedAt": "2026-09-25T19:56:48Z",
+      "excerpt": "Every rent-vs-buy thread I read has confident people on both sides, but not many actually show the numbers. So I finally ran the numbers for our own decision. Posting the working here in case it is useful, or feel free to point it out in case someone thinks it's wrong. An 8-GPU HGX H200 server lands somewhere near $320k-$420k, with roughly $370k being a reasonable midpoint. On the rental side, the median on demand H200 price across 34 providers was about $4.40/GPU-hour as of September 18. The…",
+      "author": "/u/recentheartbroken",
+      "extra": {},
+      "id": "e258119a7f6f6324",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Swift1.5-Qwen3.8-Flash-Next is phenomenal vs. base 3.8-Flash!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/",
+      "publishedAt": "2026-09-25T19:16:34Z",
+      "excerpt": "TL;DR - Swift Flash is a killer model that massively reduces excess reasoning. Try it out! If you haven't seen from my previous comparison posts , I'm a huge fan of the Swift Qwen3.8 models. I've been using 27B since it dropped, and I'm really impressed with the performance and quality (v1.5 is even better). The reduction in overthinking is a huge win, and quality seems to be essentially equivalent in real-world use and benchmarking. The time savings are massive. When UkisAI told me they were…",
+      "author": "/u/returnity",
+      "extra": {},
+      "id": "62fd36ee47009acc",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "In just 100 days, AI crossed into real medical work. 37,000 agents searched 55,000 trials for new treatments, an AI-designed pulmonary fibrosis drug entered Phase III, and an autonomous medical agent beat doctors on ER diagnosis, 87.8% to 78.1%",
+      "url": "https://www.reddit.com/r/singularity/comments/1wq52am/in_just_100_days_ai_crossed_into_real_medical/",
+      "publishedAt": "2026-09-25T19:11:38Z",
+      "excerpt": "submitted by /u/141_1337 to r/singularity [link] [comments]",
+      "author": "/u/141_1337",
+      "extra": {},
+      "id": "cd6550303eb76936",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI is really just a continuation of centuries old trends",
+      "url": "https://www.reddit.com/r/singularity/comments/1wq1pd0/ai_is_really_just_a_continuation_of_centuries_old/",
+      "publishedAt": "2026-09-25T17:00:13Z",
+      "excerpt": "submitted by /u/PetersOdyssey to r/singularity [link] [comments]",
+      "author": "/u/PetersOdyssey",
+      "extra": {},
+      "id": "fce3d7d55e7ccf99",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "When are we getting this guy?",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpzvr5/when_are_we_getting_this_guy/",
+      "publishedAt": "2026-09-25T15:50:04Z",
+      "excerpt": "Ever since I saw AI, I have wanted teddy. I am a grown ass man and I still want teddy to hang out with. submitted by /u/JoseHernandezCA1984 to r/singularity [link] [comments]",
+      "author": "/u/JoseHernandezCA1984",
+      "extra": {},
+      "id": "f40dd965c60ececa",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI's always think another idea is better",
+      "url": "https://www.reddit.com/r/singularity/comments/1wpx1ce/ais_always_think_another_idea_is_better/",
+      "publishedAt": "2026-09-25T13:57:15Z",
+      "excerpt": "I’ve noticed this behavior since my early GPT-3.0 days. If I ask one AI chat thread to generate a plan, and then open a separate thread (using the same model or a different one) to generate a plan with the identical prompt, a strange pattern emerges: I paste Thread B's plan into Thread A and ask for a comparison. I paste Thread A's plan into Thread B and ask for a comparison. They ALWAYS claim the other thread's plan is better. Even today, with models like 6-Astra and Opus 5.5, this still…",
+      "author": "/u/DesignMike2020",
+      "extra": {},
+      "id": "f080beb8a7e8da5b",
+      "collectedAt": "2026-09-26T00:43:00.727001+00:00"
     }
   ],
-  "updatedAt": "2026-09-25T20:04:17.587753+00:00"
+  "updatedAt": "2026-09-26T00:43:00.727001+00:00"
 }
