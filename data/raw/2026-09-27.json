@@ -1,0 +1,453 @@
+{
+  "date": "2026-09-27",
+  "runs": [
+    {
+      "runAt": "2026-09-26T22:02:10.062209+00:00",
+      "newItems": 14,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.073399Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100117Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100375Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100570Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100668Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100758Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100841Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100919Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.100995Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101072Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101147Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101181Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101206Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101349Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101375Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101456Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101534Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.101805Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-26T22:02:10.101944Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.102057Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.102162Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.102289Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.102383Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.102464Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.102840Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.102931Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.103025Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.103053Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-26T22:02:10.103074Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Vibe Code Without the Plumbing",
+      "url": "https://medium.com/@prachitambay/vibe-code-without-the-plumbing-6bc3d70f9605?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T20:54:36Z",
+      "excerpt": "How to let business users vibe code their requirements on trusted enterprise data without worrying about orchestration, infrastructure… Continue reading on Medium »",
+      "author": "Prachitambe",
+      "extra": {},
+      "id": "c90a5b742c9f73c0",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Can AI Do — and What Can It Not Do?",
+      "url": "https://medium.com/@info.codeplu/what-can-ai-do-and-what-can-it-not-do-c41467fa24a0?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T20:36:02Z",
+      "excerpt": "Root Concept Continue reading on Medium »",
+      "author": "Code Plu",
+      "extra": {},
+      "id": "b40185dc5900d03a",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "publishedAt": "2026-09-26T18:22:41Z",
+      "excerpt": "",
+      "author": "shenli3514",
+      "extra": {
+        "points": 68,
+        "comments": 14,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49859112"
+      },
+      "id": "755e3dc914b20495",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "publishedAt": "2026-09-26T15:56:34Z",
+      "excerpt": "",
+      "author": "parasitid",
+      "extra": {
+        "points": 83,
+        "comments": 29,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49857729"
+      },
+      "id": "fc201052ac82a480",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: A Claude Code skill to analyze your chess games",
+      "url": "https://github.com/brumar/chess-postmortem-skills",
+      "publishedAt": "2026-09-26T15:34:53Z",
+      "excerpt": "",
+      "author": "brumar",
+      "extra": {
+        "points": 68,
+        "comments": 51,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49857528"
+      },
+      "id": "48a4a9c4535ae91b",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI bots meddled with multiple US Government agency sites",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "publishedAt": "2026-09-26T14:03:54Z",
+      "excerpt": "",
+      "author": "Betelbuddy",
+      "extra": {
+        "points": 89,
+        "comments": 118,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49856665"
+      },
+      "id": "f228e54bab0a15e0",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Chinese AI models surge in global popularity — and Washington is worried",
+      "url": "https://www.cnbc.com/2026/09/26/china-ai-global-adoption.html",
+      "publishedAt": "2026-09-26T16:18:45Z",
+      "excerpt": "",
+      "author": "/u/yogthos",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wqukft/chinese_ai_models_surge_in_global_popularity_and/"
+      },
+      "id": "f57ceda1916cfbc4",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure - AP News",
+      "url": "https://apnews.com/article/openai-government-website-incident-df331b55daffc6d202d8e2f6d0afa264",
+      "publishedAt": "2026-09-26T03:42:54Z",
+      "excerpt": "SAN FRANCISCO (AP) — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company’s models’ unanticipated behavior. OpenAI spokesperson Liz Bourgeois said in a statement that the lab is continuing to conduct a review of “misaligned model activity” — meaning when AI systems behave in undesired ways — and is notifying organizations when it identifies potential…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.238
+      },
+      "id": "7c7b476fafcbd26a",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure - greenwichtime.com",
+      "url": "https://www.greenwichtime.com/business/article/openai-says-its-models-engaged-with-us-government-22450008.php",
+      "publishedAt": "2026-09-26T03:42:54Z",
+      "excerpt": "SAN FRANCISCO (AP) — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior. The AI giant's models accessed publicly available information on two websites operated by the Securities and Exchange Commission as well as U.S. Census Bureau data, the company revealed Friday. The disclosure comes at a time of heightened global…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.17
+      },
+      "id": "b6c00546ba4d4fb8",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI says its models engaged with US government websites in misbehavior disclosure - kedm.org",
+      "url": "https://www.kedm.org/npr-news/2026-09-26/openai-says-its-models-engaged-with-us-government-websites-in-misbehavior-disclosure",
+      "publishedAt": "2026-09-26T17:10:04Z",
+      "excerpt": "SAN FRANCISCO — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior. The disclosure comes at a time of heightened global concerns about AI systems escaping human control and hacking into external websites, as well as industry calls for a slowdown on AI development, which OpenAI has said it supports. AI evaluator and…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.123
+      },
+      "id": "00c30ad52be23ba1",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI says its models engaged with US government websites in misbehavior disclosure - Hawaii Public Radio",
+      "url": "https://www.hawaiipublicradio.org/national-international/2026-09-26/openai-says-its-models-engaged-with-us-government-websites-in-misbehavior-disclosure",
+      "publishedAt": "2026-09-26T17:10:04Z",
+      "excerpt": "SAN FRANCISCO — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior. The disclosure comes at a time of heightened global concerns about AI systems escaping human control and hacking into external websites, as well as industry calls for a slowdown on AI development, which OpenAI has said it supports. AI evaluator and…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.118
+      },
+      "id": "59e98b33408d9525",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Nvidia CEO Says AI Companies Will Be Sued to Death If Their Frontier Models Keep Doing Horrible Things - Futurism",
+      "url": "https://futurism.com/artificial-intelligence/nvidia-ceo-ai-companies-sued-liability",
+      "publishedAt": "2026-09-25T17:09:34Z",
+      "excerpt": "According to Nvidia CEO Jensen Huang, if AI labs truly believe their tech could spiral out of control and cause widespread harm, they should simply not release a new product — or face criminal liability. “Now, if they say the alternative, which is: there is no way to contain our experiments, there’s just no way; when we test our AI models, it will get out, and it will damage the world — then I think the answer is that we have to shut the labs down,” Huang said in an interview with the *New…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.102
+      },
+      "id": "82bc0959fa87cf5d",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Artificial Intelligence: Latest News & Updates on AI, Top Headlines on Artificial Intelligence",
+      "url": "https://www.livemint.com/ai/artificial-intelligence",
+      "publishedAt": "2026-09-25T22:00:00Z",
+      "excerpt": "## Insight Partners sees niche AI businesses after deploying $1bn+ in India\n\n4 min read10 Sep 2026\n\n## OpenAI chief scientist warns AI could manipulate or blackmail humans\n\n3 min read7 Sep 2026\n\n## 'Aim to Empower 100 mn AI builders': Hugging Face CEO on Nvidia acquisation\n\n2 min read5 Sep 2026\n\n## AI to operate microscopes, conduct experiments? Anthropic unveils new protocol\n\n3 min read28 Aug 2026\n\n## Shivaami launches India's 1st Google Gemini Centre in this city — What's new [...] ##…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.324
+      },
+      "id": "8baddcf87475a04a",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "MATLAB MCP Server",
+      "url": "https://www.mathworks.com/products/matlab-mcp-server.html",
+      "publishedAt": "2026-09-26T15:00:00Z",
+      "excerpt": "### Integrate MATLAB in agentic AI workflows\n\nIntegrate MATLAB into agentic AI workflows using the Model Context Protocol (MCP). MATLAB MCP Server standardizes connections between agentic AI apps (Claude® Desktop and Code, Visual Studio Code® and GitHub Copilot®, Gemini CLI®) and MATLAB, enabling code execution, debugging, and automation. Eliminate the need for manual copy and paste with five built-in tools that drive interaction with MATLAB:",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.556
+      },
+      "id": "2c3ee62b1882f5a7",
+      "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    }
+  ],
+  "updatedAt": "2026-09-26T22:02:10.062209+00:00"
+}
