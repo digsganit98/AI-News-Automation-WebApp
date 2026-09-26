@@ -59,6 +59,36 @@ async def testOneBrokenSourceDoesNotStopTheOthers():
     assert result.items[0].url == "https://openai.com/index/new-reasoning-model/"  # utm removed
 
 
+@respx.mock
+async def testASourceWithAnUnexpectedBugDoesNotStopTheOthers(monkeypatch):
+    """e.g. a feed changes shape and the parser hits a missing field (KeyError)."""
+    from digest.collectors import rssFeedCollector
+
+    real = rssFeedCollector.parseFeed
+
+    def parseOrBreak(content, collector):
+        if collector.source.id == "changed":
+            raise KeyError("title")
+        return real(content, collector)
+
+    monkeypatch.setattr(rssFeedCollector, "parseFeed", parseOrBreak)
+    for host in ("good", "changed"):
+        respx.get(f"https://{host}.test/feed").mock(
+            return_value=httpx.Response(200, content=readFixture("openaiFeed.xml"))
+        )
+    config = Config(
+        sources=[
+            SourceConfig(id="good", name="Good", type="rss", url="https://good.test/feed"),
+            SourceConfig(id="changed", name="Changed", type="rss", url="https://changed.test/feed"),
+        ]
+    )
+    result = await collectSources(config, hours=24 * 365 * 5)
+
+    health = {h.source: h for h in result.health}
+    assert health["good"].ok and health["good"].items == 2
+    assert not health["changed"].ok and "KeyError" in health["changed"].error
+
+
 @pytest.mark.parametrize(
     "url",
     ["file:///etc/passwd", "http://localhost/admin", "http://127.0.0.1:8080", "http://10.0.0.5/"],

@@ -48,8 +48,12 @@ async def _runOne(
             source=source.id, sourceName=source.name, ok=True, items=len(items), checkedAt=now
         )
         return items, health
-    except (CollectorError, httpx.HTTPError, OSError, ValueError) as exc:
-        log.warning("%-24s FAILED: %s", source.id, exc)
+    except Exception as exc:  # one broken source, even an unexpected bug, never stops the rest
+        expected = isinstance(exc, (CollectorError, httpx.HTTPError, OSError, ValueError))
+        if expected:
+            log.warning("%-24s FAILED: %s", source.id, exc)
+        else:  # e.g. a feed changed shape: keep the traceback so it can be fixed
+            log.exception("%-24s FAILED unexpectedly", source.id)
         firstLine = (str(exc).splitlines() or [""])[0]
         error = f"{type(exc).__name__}: {firstLine}"[:300]
         health = SourceHealth(

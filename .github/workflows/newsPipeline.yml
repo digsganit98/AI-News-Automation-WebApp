@@ -96,8 +96,9 @@ jobs:
           LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
         run: uv run digest run --mode ${{ steps.mode.outputs.mode }} ${{ inputs.dryRun && '--dry-run' || '' }}
 
+      # always(): even if the agents crash, the news already collected is saved and published.
       - name: Save collected data to the repo
-        if: ${{ !inputs.dryRun && steps.mode.outputs.mode != 'skip' }}
+        if: ${{ always() && !inputs.dryRun && steps.mode.outcome == 'success' && steps.mode.outputs.mode != 'skip' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -110,11 +111,28 @@ jobs:
             git push
           fi
 
+      # Fails the run (so GitHub emails you) when an attempt from 09:00 IST ends with no edition.
+      # Earlier attempts only warn: the next attempt tries again.
+      - name: Check today's edition is out
+        if: ${{ always() && !inputs.dryRun && steps.mode.outputs.mode == 'dailyEdition' }}
+        run: |
+          today=$(TZ=Asia/Kolkata date +%F)
+          now=$(TZ=Asia/Kolkata date +%H%M)
+          if [ -f "data/digests/$today.json" ]; then
+            echo "Today's edition is out."
+          elif [ "$now" -lt 900 ]; then
+            echo "::warning::No edition yet at $now IST; the next attempt will try again."
+          else
+            echo "::error::No daily edition for $today at $now IST. The run summary and Langfuse show why."
+            exit 1
+          fi
+
   # Rebuild and publish the website with the data just collected.
   # (Pushes made by this workflow don't trigger other workflows, so it's called directly.)
   website:
     needs: collect
-    if: ${{ !inputs.dryRun && needs.collect.outputs.mode != 'skip' }}
+    # Publish whatever was saved, even if part of the collect job failed.
+    if: ${{ always() && !inputs.dryRun && needs.collect.outputs.mode != '' && needs.collect.outputs.mode != 'skip' }}
     uses: ./.github/workflows/deploySite.yml
     permissions:
       contents: read

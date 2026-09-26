@@ -77,6 +77,8 @@ If a model is busy or out of quota, the next one in [`config/agents.yaml`](confi
 
 **Edition on time.** GitHub often starts scheduled runs 30 minutes to 2 hours late, or skips them. So the edition isn't tied to one slot: four attempts run between 07:40 and 09:05 IST. The first one GitHub actually starts writes the edition (about 10 minutes), and the rest see it's done and stop at once, with no LLM calls. Any other run after 07:30 IST that finds no edition writes it too.
 
+**You hear about problems.** Each source, LLM call, agent and batch fails on its own without stopping the rest, and whatever was collected is always saved and published, even if the agents crash. If an attempt from 09:00 IST still ends with no edition, the run fails on purpose, so GitHub emails you (Settings → Notifications → Actions on your GitHub account).
+
 For a start time that's exact to the minute, add a free outside timer:
 
 1. Create a fine-grained GitHub token for this repository only, with **Actions: Read and write**.
