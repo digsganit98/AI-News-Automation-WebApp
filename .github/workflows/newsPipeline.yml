@@ -2,11 +2,16 @@
 #
 #   Every 3 hours  -> "update":       collect new items; scout + analyst agents turn them into
 #                                     stories; the website is republished
-#   09:30 IST      -> "dailyEdition": the same, then the writer and editor agents produce the
+#   by 09:30 IST   -> "dailyEdition": the same, then the writer and editor agents produce the
 #                                     daily digest + op-ed (and, in Phase 4, one email)
 #
-# GitHub often starts scheduled runs late, or skips them when it's busy. So the first run at or
-# after 09:30 IST that finds no edition for today writes it: a missed slot never costs a day.
+# The edition must be on the site by 09:30 IST, but GitHub often starts scheduled runs 30 min to
+# 2 h late, or skips them. So the edition isn't tied to one slot:
+#   - four attempts between 07:40 and 09:05 IST; the first one that runs writes the edition, and
+#     the rest see it's done and stop straight away (no LLM calls, no deploy)
+#   - any other run from 07:30 IST on that finds no edition for today writes it (catch-up)
+#   - an optional outside timer (e.g. cron-job.org) can start "editionIfMissing" on the minute;
+#     see "Edition on time" in the README
 #
 # The agents need GROQ_API_KEY and/or GEMINI_API_KEY secrets; without them they're skipped and the
 # site shows the plain collected feed.
@@ -15,14 +20,15 @@ name: News pipeline
 on:
   schedule:
     # Times are UTC. IST = UTC + 5:30, and India has no daylight saving, so these never shift.
-    - cron: "0 4 * * *" # 09:30 IST: daily edition
+    - cron: "10,40 2 * * *" # 07:40 and 08:10 IST: daily edition attempts
+    - cron: "10,35 3 * * *" # 08:40 and 09:05 IST: more attempts, in case GitHub is late
     - cron: "30 1,7,10,13,16,19,22 * * *" # 07:00, 13:00, 16:00, 19:00, 22:00, 01:00, 04:00 IST
   workflow_dispatch: # "Run workflow" button in the Actions tab
     inputs:
       mode:
-        description: "update = collect only; dailyEdition = also write the digest and email"
+        description: "update = stories only; dailyEdition = (re)write today's digest; editionIfMissing = write it only if today's is missing"
         type: choice
-        options: [update, dailyEdition]
+        options: [update, dailyEdition, editionIfMissing]
         default: update
       dryRun:
         description: "Dry run: collect and print, but don't save anything"
@@ -53,10 +59,14 @@ jobs:
         run: |
           today=$(TZ=Asia/Kolkata date +%F)
           now=$(TZ=Asia/Kolkata date +%H%M)
-          if [ "$SCHEDULE" = "0 4 * * *" ] || [ "$CHOSEN" = "dailyEdition" ]; then
-            mode=dailyEdition
-          elif [ -z "$CHOSEN" ] && [ "$now" -ge 930 ] && [ ! -f "data/digests/$today.json" ]; then
-            mode=dailyEdition # catch-up: the 09:30 run was late or skipped
+          done=$([ -f "data/digests/$today.json" ] && echo yes || echo no)
+          case "$SCHEDULE" in "10,40 2 * * *" | "10,35 3 * * *") attempt=yes ;; *) attempt=no ;; esac
+          if [ "$CHOSEN" = "dailyEdition" ]; then
+            mode=dailyEdition # asked for by hand: always (re)write it
+          elif [ "$attempt" = yes ] || [ "$CHOSEN" = "editionIfMissing" ]; then
+            if [ "$done" = yes ]; then mode=skip; else mode=dailyEdition; fi
+          elif [ -z "$CHOSEN" ] && [ "$now" -ge 730 ] && [ "$done" = no ]; then
+            mode=dailyEdition # catch-up: the edition attempts were late or skipped
           else
             mode=update
           fi
@@ -64,13 +74,16 @@ jobs:
           echo "Mode: $mode ($now IST)"
 
       - uses: astral-sh/setup-uv@v6
+        if: ${{ steps.mode.outputs.mode != 'skip' }} # today's edition is already out
         with:
           enable-cache: true
 
       - name: Install
+        if: ${{ steps.mode.outputs.mode != 'skip' }} # today's edition is already out
         run: uv sync --frozen
 
       - name: Collect news and run the AI agents
+        if: ${{ steps.mode.outputs.mode != 'skip' }} # today's edition is already out
         env:
           # Optional secrets; anything that needs a missing one is skipped.
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
@@ -84,7 +97,7 @@ jobs:
         run: uv run digest run --mode ${{ steps.mode.outputs.mode }} ${{ inputs.dryRun && '--dry-run' || '' }}
 
       - name: Save collected data to the repo
-        if: ${{ !inputs.dryRun }}
+        if: ${{ !inputs.dryRun && steps.mode.outputs.mode != 'skip' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -101,7 +114,7 @@ jobs:
   # (Pushes made by this workflow don't trigger other workflows, so it's called directly.)
   website:
     needs: collect
-    if: ${{ !inputs.dryRun }}
+    if: ${{ !inputs.dryRun && needs.collect.outputs.mode != 'skip' }}
     uses: ./.github/workflows/deploySite.yml
     permissions:
       contents: read
