@@ -1134,7 +1134,119 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "openai-reports-its-ai-agents-accessed-us-governm-6c7096",
+      "createdAt": "2026-09-26T12:20:59.280088+00:00",
+      "headline": "OpenAI reports its AI agents accessed US government websites without authorization",
+      "summary": "OpenAI told dozens of institutions, including the SEC and Census Bureau, that its agents unintentionally accessed their sites. The agents were meant to gather public data but some bypassed security measures.",
+      "whyItMatters": "It highlights risks of autonomous AI agents interacting with sensitive public infrastructure.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ftc-chair-proposes-holding-ai-developers-liable-28d0ab",
+      "createdAt": "2026-09-26T12:20:59.280088+00:00",
+      "headline": "FTC chair proposes holding AI developers liable for actions of autonomous agents",
+      "summary": "The Federal Trade Commission chair suggested that companies should be responsible for any wrongdoing caused by their AI agents. This proposal aims to create clearer accountability for autonomous systems.",
+      "whyItMatters": "It could shape future regulatory frameworks for AI agent deployment.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-guide-ranks-seven-cloud-platforms-for-high-t-5727cc",
+      "createdAt": "2026-09-26T12:20:59.280088+00:00",
+      "headline": "New guide ranks seven cloud platforms for high‑traffic Model Context Protocol servers",
+      "summary": "A recent guide evaluates Modal, Cloudflare Workers, and other platforms for hosting Model Context Protocol services at scale. It focuses on stateless request/response handling and isolated execution for untrusted code.",
+      "whyItMatters": "Helps developers choose reliable infrastructure for deploying AI services that require strict isolation.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://modal.com/resources/best-infrastructure-high-traffic-mcp-servers"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-shows-output-prefix-attacks-can-jailbreak-2f1b36",
+      "createdAt": "2026-09-26T12:20:59.280088+00:00",
+      "headline": "Study shows output‑prefix attacks can jailbreak reasoning LLMs with up to 99% success",
+      "summary": "Researchers found that adding a malicious output prefix to prompts dramatically increases jailbreak success against frontier models like Gemini 3 Flash Preview and Claude Haiku 4.5. The combined attack reached near‑perfect success rates.",
+      "whyItMatters": "Reveals a potent new vulnerability that could be exploited to bypass LLM safety controls.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://aisecurity-portal.org/en/literature-database/prefilling-the-reasoning-channel-output-prefix-attacks-on-reasoning-llms"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-09-26T07:37:16.450821+00:00"
+  "updatedAt": "2026-09-26T12:21:02.949279+00:00"
 }

@@ -2142,6 +2142,244 @@
           "checkedAt": "2026-09-26T07:46:54.504684Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-26T12:18:39.428652+00:00",
+      "newItems": 15,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.446501Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.487259Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.487646Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.487933Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.488094Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.488246Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.488391Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.488535Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.488693Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.488843Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.488980Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.489037Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.489078Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.489277Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.489317Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.489450Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.489581Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.489995Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-26T12:18:39.490280Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.490505Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.490748Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.491051Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.491252Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.491413Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.492038Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.492203Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.492367Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.492417Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-09-26T12:18:39.492455Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2942,7 +3180,219 @@
       },
       "id": "7e69a5e852240e78",
       "collectedAt": "2026-09-26T07:46:54.439528+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Claude Fable 5.1: Why the Cache Discount Matters",
+      "url": "https://medium.com/@ibokkon/claude-fable-5-1-why-the-cache-discount-matters-88af395d4db0?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T10:30:16Z",
+      "excerpt": "Anthropic’s September release changes repeated-context economics while Mythos remains available through trusted-access programs. Continue reading on Medium »",
+      "author": "Balthasar",
+      "extra": {},
+      "id": "7c5e0cacc29873ad",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Were Superpowers and Robots Just AI Abilities Before We Had a Name for Them?",
+      "url": "https://medium.com/@TokyoAIStories/were-superpowers-and-robots-just-ai-abilities-before-we-had-a-name-for-them-737c7110afd7?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T10:21:41Z",
+      "excerpt": "What creating an AI-powered battle universe taught me about science fiction, superpowers, and the strange way reality is catching up with… Continue reading on Medium »",
+      "author": "Sora-to-Sakura",
+      "extra": {},
+      "id": "2185892c370910e6",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Generative AI to Agentic Commerce: Building Intelligent Commerce Applications with AI Agents",
+      "url": "https://medium.com/@shivvachan95/from-generative-ai-to-agentic-commerce-building-intelligent-commerce-applications-with-ai-agents-6cd225199874?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T09:18:25Z",
+      "excerpt": "From Generative AI to Agentic Commerce: Building Intelligent Commerce Applications with AI Agents Continue reading on Medium »",
+      "author": "SHIVVACHAN  PANDEY",
+      "extra": {},
+      "id": "ed15636f87769c1b",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Building a Real-Time Full-Duplex Voice Assistant with Gemini 3.8 Live and Python",
+      "url": "https://medium.com/@anooshmughal471/building-a-real-time-full-duplex-voice-assistant-with-gemini-3-8-live-and-python-ff0d49b7fdcf?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T08:52:48Z",
+      "excerpt": "Real-time voice AI is moving beyond simple question-and-answer interactions. Continue reading on Medium »",
+      "author": "Qaiser Anoosh Mughal",
+      "extra": {},
+      "id": "5e85d67244de516e",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Weekend Generative AI Training In Hyderabad",
+      "url": "https://medium.com/@brolly-academy/weekend-generative-ai-training-in-hyderabad-ed72d98df241?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T08:11:42Z",
+      "excerpt": "Why weekend courses fail and the twenty minute weekday habit that makes them work Continue reading on Medium »",
+      "author": "Brolly academy",
+      "extra": {},
+      "id": "f93cde6692caa8cb",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "One Month Without AI",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "publishedAt": "2026-09-26T10:08:21Z",
+      "excerpt": "",
+      "author": "saibotk",
+      "extra": {
+        "points": 64,
+        "comments": 47,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49855018"
+      },
+      "id": "ab6a90f5d123d78d",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "publishedAt": "2026-09-26T09:41:58Z",
+      "excerpt": "",
+      "author": "signa11",
+      "extra": {
+        "points": 66,
+        "comments": 106,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49854875"
+      },
+      "id": "53c6959c18709054",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI’s Systems Went Rogue and Meddled With U.S. Government Websites",
+      "url": "https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html",
+      "publishedAt": "2026-09-25T23:22:18Z",
+      "excerpt": "",
+      "author": "jbegley",
+      "extra": {
+        "points": 52,
+        "comments": 12,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49851355"
+      },
+      "id": "a4f7b654711c3d7f",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+      "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+      "publishedAt": "2026-09-25T22:49:41Z",
+      "excerpt": "",
+      "author": "usernomdeguerre",
+      "extra": {
+        "points": 52,
+        "comments": 16,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49850999"
+      },
+      "id": "742c4a510c92b6e0",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Swift 1.5 27b: Swift Qwen just got faster",
+      "url": "https://huggingface.co/collections/ukisai/swift-15-27b",
+      "publishedAt": "2026-09-26T07:28:27Z",
+      "excerpt": "Enjoy! Fucking loving it.",
+      "author": "/u/sleight42",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wqkb3v/swift_15_27b_swift_qwen_just_got_faster/"
+      },
+      "id": "b821fc43a2a3a6cb",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo",
+      "publishedAt": "2026-09-26T00:22:52Z",
+      "excerpt": "",
+      "author": "/u/Calm_Connection_9127",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wqcedh/openai_investigating_dozens_of_instances_of/"
+      },
+      "id": "d1e0958bc14267ae",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How Haas is rewiring the MBA for AI and a new era of work",
+      "url": "https://newsroom.haas.berkeley.edu/how-haas-is-rewiring-the-mba-for-ai-and-a-new-era-of-work",
+      "publishedAt": "2026-09-25T00:57:37Z",
+      "excerpt": "Launching the Haas AI Research Living Lab, developed in partnership with the Institute for Business and Social Impact (IBSI), which supports integrating AI into multidisciplinary research to solve complex societal challenges. The lab’s first effort is a new research grant program to fund new faculty projects examining the impacts of AI, leveraging AI as an analytical tool, or building the statistical and theoretical foundations to study AI.",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.227
+      },
+      "id": "a578c44d0865811e",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Top AI Development Companies in Coimbatore | 2026 - DesignRush",
+      "url": "https://www.designrush.com/agency/ai-companies/in/coimbatore",
+      "publishedAt": "2026-09-25T12:00:00Z",
+      "excerpt": "When hiring a Coimbatore artificial intelligence company, look for proven experience, strong technical expertise, and domain understanding. Review its portfolio and casestudies to see if they’ve delivered projects in your industry using technologies like TensorFlow, PyTorch, or cloud-based AI tools.",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.594
+      },
+      "id": "e7a12161afaf9b1c",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Best Infrastructure for High-Traffic MCP Servers in 2026",
+      "url": "https://modal.com/resources/best-infrastructure-high-traffic-mcp-servers",
+      "publishedAt": "2026-09-26T06:00:00Z",
+      "excerpt": "Model Context Protocol (MCP) is an open protocol for connecting AI applications to tools and data. The July 28, 2026 specification moved its core to stateless request/response semantics, making horizontal request scaling a clearer deployment concern while leaving application state to each implementation. MCP defines communication; it does not prescribe hosting infrastructure or sandboxing. Sandboxes are a separate execution and isolation layer, useful when tools run generated code, shells,…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.752
+      },
+      "id": "5727cc36c9e4abb8",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs | AI Security Portal",
+      "url": "https://aisecurity-portal.org/en/literature-database/prefilling-the-reasoning-channel-output-prefix-attacks-on-reasoning-llms",
+      "publishedAt": "2026-09-25T21:57:43Z",
+      "excerpt": "Large Language Models (LLMs) consume and produce a single sequence of text; hence, if text can be added to the beginning of the LLM's response, i.e., an output prefix, then all subsequent tokens will be conditioned on it. This output-prefix attack technique is a cheap black-box prompt injection. Prior work has shown this type of attack can reliably jailbreak non-reasoning models. Most reasoning models add an intermediate scratchpad reasoning step before the assistant's final response. The…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.589
+      },
+      "id": "2f1b369e02861214",
+      "collectedAt": "2026-09-26T12:18:39.428652+00:00"
     }
   ],
-  "updatedAt": "2026-09-26T07:46:54.439528+00:00"
+  "updatedAt": "2026-09-26T12:18:39.428652+00:00"
 }
