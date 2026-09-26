@@ -2380,6 +2380,244 @@
           "checkedAt": "2026-09-26T12:18:39.492455Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-26T17:18:28.584373+00:00",
+      "newItems": 16,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.601355Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.640195Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.640531Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.640803Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641007Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641164Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641306Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641440Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641570Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641706Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641845Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641912Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.641953Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.642150Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.642188Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.642317Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.642444Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.642711Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-26T17:18:28.642855Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.643001Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.643128Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.643313Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.643455Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.643592Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.644129Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.644275Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.644423Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.644473Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-26T17:18:28.644509Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -3392,7 +3630,236 @@
       },
       "id": "2f1b369e02861214",
       "collectedAt": "2026-09-26T12:18:39.428652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Streaming LLM Responses Explained: How ChatGPT-Style Answers Reach Your UI Token by Token",
+      "url": "https://medium.com/ai-engineering-compass/streaming-llm-responses-explained-how-chatgpt-style-answers-reach-your-ui-token-by-token-ef29b27a0e46?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T16:05:51Z",
+      "excerpt": "An LLM may need several seconds to generate an answer. Continue reading on AI Engineering Compass »",
+      "author": "Dipak Ahirav",
+      "extra": {},
+      "id": "a6340fafa40be8a3",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Visibility Is the New Layer of Digital Discovery",
+      "url": "https://medium.com/@orbiniti.social/ai-visibility-is-the-new-layer-of-digital-discovery-9cd8b96dd6fd?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T15:51:27Z",
+      "excerpt": "AI visibility is how often, how accurately, and how prominently a brand appears in AI-generated answers to relevant customer queries. Continue reading on Medium »",
+      "author": "Orbiniti Social",
+      "extra": {},
+      "id": "b23e211681064974",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Gen AI Course in Electronic City: The Complete Guide to Gen AI Certification & Training Center…",
+      "url": "https://medium.com/@gokulemexo/gen-ai-course-in-electronic-city-the-complete-guide-to-gen-ai-certification-training-center-15680bbbf60c?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T12:36:26Z",
+      "excerpt": "Introduction: Why Gen AI Skills Are Exploding in Electronic City Continue reading on Medium »",
+      "author": "eMexo Technologies",
+      "extra": {},
+      "id": "0a5e42720a574bed",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Told Google’s AI I Was Leaving Zoom.",
+      "url": "https://medium.com/@growgence/i-told-googles-ai-i-was-leaving-zoom-47f174e1b37c?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T12:26:49Z",
+      "excerpt": "One question, one day, one laptop. One switching sentence erased the unanimous default and moved every citation to one “alternatives” page. Continue reading on Medium »",
+      "author": "Growgence",
+      "extra": {},
+      "id": "4aff9eace327482a",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+      "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "publishedAt": "2026-09-26T13:05:36Z",
+      "excerpt": "",
+      "author": "nisosguy",
+      "extra": {
+        "points": 55,
+        "comments": 63,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49856149"
+      },
+      "id": "bfae75b2877bc586",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "CEO of Mistral: AI is software. It can be controlled",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "publishedAt": "2026-09-26T12:52:04Z",
+      "excerpt": "",
+      "author": "thibaut_barrere",
+      "extra": {
+        "points": 79,
+        "comments": 137,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49856034"
+      },
+      "id": "d5155e3c50f46901",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Astra leads in IKEA furniture assembly",
+      "url": "https://epoch.ai/publications/furniture-assembly",
+      "publishedAt": "2026-09-26T06:22:32Z",
+      "excerpt": "",
+      "author": "/u/Proper_Actuary2907",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wqj7mu/astra_leads_in_ikea_furniture_assembly/"
+      },
+      "id": "d0e318b7f28b4d82",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic’s discovery will, at best, be just another gene-editing tool - New Scientist",
+      "url": "https://www.newscientist.com/article/2590769-has-anthropics-claude-really-made-a-discovery-comparable-to-crispr/",
+      "publishedAt": "2026-09-25T11:04:53Z",
+      "excerpt": "#### Comment and Health. The AI company Anthropic has announced that its Claude large language model has discovered a system reminiscent of CRISPR, but that doesn’t mean the Nobel prizes will start rolling in, says Michael Le Page. The pioneers of the CRISPR gene-editing tool won a Nobel prize in 2020, and for good reason. The breakthrough has revolutionised biology, and is also transforming medicine and farming. Now, AI company Anthropic has announced that it has discovered an enzyme system…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.05
+      },
+      "id": "7d78a2b15559e8b1",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft Adds Agentic Capabilities, Challenges Meta 09/25/2026 - mediapost.com",
+      "url": "https://www.mediapost.com/publications/article/418295/microsoft-adds-agentic-capabilities-challenges-me.html?edition=143965",
+      "publishedAt": "2026-09-25T16:27:16Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. The move allows Microsoft to compete directly with Meta Platforms' AI agent \"Muse.\". The three new tools in Copilot will roll out in the. Jared Spataro, Microsoft, CMO of AI at Work, in a blog post highlighted the new features in Copilot. ask Copilot to…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.363
+      },
+      "id": "4e23cd1475e2d35d",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta's agentic AI push with Muse feels different after a history of disrupting tech - Business Insider",
+      "url": "https://www.businessinsider.com/meta-muse-ai-agent-stock-volatility-agentic-ai-turning-point-2026-9",
+      "publishedAt": "2026-09-25T09:50:01Z",
+      "excerpt": "Earnings have usually brought a huge stock move — but the direction has been hard to predict. Meta's latest surge has been powered by the rapid uptake of Muse, its personal AI agent, since it was released on Sept. 8. The stock's response suggests investors see the app as the company's clearest shot yet at turning its enormous AI investment into a meaningful new business. It offers a glimpse of the holy grail: a tangible example of what the company can build — and potentially sell — with all…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.345
+      },
+      "id": "63debb14bd3440f1",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The new agent craze gives OpenAI a Mark Zuckerberg-shaped problem - Business Insider",
+      "url": "https://www.businessinsider.com/meta-muse-rise-ai-poses-threat-to-chatgpt-dominance-2026-9",
+      "publishedAt": "2026-09-25T09:00:03Z",
+      "excerpt": "OpenAI's ChatGPT is still the face of consumer AI. Meta's Muse agent overtook ChatGPT on the free app charts this week, part of a new craze over personal AI assistants in Silicon Valley. Meta is adding Muse to its smart glasses and building a new Tamagotchi-esque gadget called Muse Charm, it announced at its Connect conference on Wednesday. At the same time, Muse's explosive growth is still a major headache for OpenAI CEO Sam Altman. And it signals that OpenAI's longtime push into \"browser…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.312
+      },
+      "id": "e2cad0d4faa13398",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The \"Magnificent Seven\" Stocks: Here's the 1 I'm Buying Hand Over Fist Right Now - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/09/25/the-magnificent-seven-stocks-heres-the-1-im-buying/",
+      "publishedAt": "2026-09-25T14:00:00Z",
+      "excerpt": "Their momentum has slowed a bit this year, but they're still seven of the world's 11 most valuable public companies, with Tesla the smallest at a market cap of $1.5 trillion (as of Sept. Each Magnificent Seven stock has a legitimate investing case (I personally own four individually), but the one that stands out as the best investment right now is Google's parent company, Alphabet. While some companies rely heavily on third parties, Alphabet's advantage is that it's a vertically integrated AI…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.065
+      },
+      "id": "6ebcaa167ff535d7",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Nvidia CEO Jensen Huang Says That Sacrificing Our Children's Minds to AI Is a Price He's Willing to Pay - Futurism",
+      "url": "https://futurism.com/health-medicine/nvidia-jensen-huang-children-cognitive-minds-ai-harms",
+      "publishedAt": "2026-09-25T12:51:52Z",
+      "excerpt": "# Nvidia CEO Jensen Huang Says That Sacrificing Our Children’s Minds to AI Is a Price He’s Willing to Pay. Add Futurism (opens in a new tab). With so much hype about the future of AI safety, it can be easy to overlook the harms AI is causing in the here and now. On the consumer side, the impact generative AI has on the developing mind is becoming increasingly clear: students are losing critical thinking skills as chatbots become cognitive crutches, spurning human friends in favor of AI…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.039
+      },
+      "id": "3edc97eb6b0623eb",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft Copilot Becomes an Agentic Work Platform - The Futurum Group",
+      "url": "https://futurumgroup.com/insights/microsoft-copilot-becomes-an-agentic-work-platform/",
+      "publishedAt": "2026-09-25T20:46:13Z",
+      "excerpt": "Microsoft launched a redesigned Copilot on September 25, 2026, introducing three capability layers, Home, Code, and Autopilot, that restructure the product from a chat assistant into an agentic work platform. The move targets the top enterprise AI priorities: 55.1% of decision-makers (n=820) cite productivity improvements as their primary AI success metric [3], and 51.7% identify knowledge management as a leading generative AI use case [2]. With a new dual-pricing model and spend controls,…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.53
+      },
+      "id": "d1a59f5918550e20",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "McDonald’s tests Archy, an AI drive-thru voice for English and Spanish - The Next Web",
+      "url": "https://thenextweb.com/news/mcdonalds-archy-ai-drive-thru-english-spanish",
+      "publishedAt": "2026-09-26T15:06:38Z",
+      "excerpt": "Archy has been more than 90% accurate in early tests, McDonald’s said, according to Restaurant Dive. The company has not said how many restaurants use it, but Fox News reported in June that it was being tested at five US locations. Archy is one part of ArchIQ, a generative AI system for running restaurants. It also tracks stock, watches kitchen equipment with cameras and uses scales to check that orders are complete before they reach customers, Restaurant Dive reported. McDonald’s said the…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.416
+      },
+      "id": "af05fd718be073b1",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Legaltech Rundown: Harvey Raises an Additional $50M, Clio Brings New Tools to Canada, and More - Law.com",
+      "url": "https://www.law.com/legaltechnews/2026/09/25/legaltech-rundown-harvey-raises-an-additional-50m-clio-brings-new-tools-to-canada-and-more/",
+      "publishedAt": "2026-09-25T16:00:00Z",
+      "excerpt": "Sign in to access your account and subscription. General Counsel  Innovation  Law Firm Hiring  Law Firm Management  Law Firm Office Launches and Closures  All Topics. The Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech. Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. All…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.389
+      },
+      "id": "991cdc0d5af792cb",
+      "collectedAt": "2026-09-26T17:18:28.584373+00:00"
     }
   ],
-  "updatedAt": "2026-09-26T12:18:39.428652+00:00"
+  "updatedAt": "2026-09-26T17:18:28.584373+00:00"
 }
