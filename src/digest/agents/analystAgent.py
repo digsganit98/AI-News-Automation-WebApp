@@ -12,6 +12,7 @@ can only ever point at pages that were actually collected.
 from __future__ import annotations
 
 import hashlib
+import logging
 import re
 from datetime import UTC, datetime
 
@@ -24,12 +25,16 @@ from digest.agents.agentModels import (
     StorySource,
 )
 from digest.agents.groundingStats import groundingStats
-from digest.agents.llmRouter import LlmRouter
+from digest.agents.llmRouter import LlmRouter, LlmUnavailableError
 from digest.agents.promptKit import loadPrompt, untrusted
 from digest.envSettings import env
 
-NOTES_PER_CALL = 40
+# Notes per call: 12 notes + the story memory + ~4.5k output tokens fit Groq's 8k
+# tokens/minute. (40 at once overflowed it, and Gemini's output limit, on a busy run.)
+NOTES_PER_CALL = 12
 MEMORY_STORIES = 40  # recent headlines the analyst compares against
+
+log = logging.getLogger(__name__)
 
 
 def storyId(headline: str, firstUrl: str) -> str:
@@ -67,12 +72,18 @@ async def runAnalyst(
             ],
             "recentStories": memory,
         }
-        report = await router.structured(
-            "analyst",
-            AnalystReport,
-            loadPrompt("analyst", categories=", ".join(CATEGORIES)),
-            untrusted(payload, "notes and recent stories"),
-        )
+        try:
+            report = await router.structured(
+                "analyst",
+                AnalystReport,
+                loadPrompt("analyst", categories=", ".join(CATEGORIES)),
+                untrusted(payload, "notes and recent stories"),
+            )
+        except LlmUnavailableError:
+            if stories or start + NOTES_PER_CALL < len(notes):
+                log.warning("Analyst: notes %d-%d skipped", start + 1, start + len(chunk))
+                continue  # one bad chunk shouldn't lose the others
+            raise
         for draft in report.stories:
             if draft.status == "alreadyCovered":
                 continue

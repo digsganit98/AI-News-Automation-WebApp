@@ -19,7 +19,7 @@ providers:
 
 budget:
   dailyCallCap: 150                # hard limit on LLM calls per day (IST); Groq allows 1,000 per model
-  dailyEditionReserve: 25          # calls kept free for the 10:00 IST edition
+  dailyEditionReserve: 25          # calls kept free for the 09:30 IST edition
   maxItemsPerScout: 25             # newest items a scout looks at per run
   maxArticlesPerScout: 3           # full articles a scout may read per run
   maxStoriesForWriter: 20          # most important stories the writer sees
@@ -40,10 +40,10 @@ models:
   analyst:                         # every 3 hours
     - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
     - { provider: gemini, model: gemini-3.5-flash-lite }
-  writer:                          # 10:00 IST: digest + op-ed (Gemini Flash allows ~20 calls/day free)
+  writer:                          # 09:30 IST: digest + op-ed (Gemini Flash allows ~20 calls/day free)
     - { provider: gemini, model: gemini-3.8-flash }
     - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
-  editor:                          # 10:00 IST: fact-check
+  editor:                          # 09:30 IST: fact-check
     - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
     - { provider: gemini, model: gemini-3.5-flash-lite }
 

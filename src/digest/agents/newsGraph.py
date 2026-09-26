@@ -2,7 +2,7 @@
 
     START ─┬─ scout: labs & research ─┐
            ├─ scout: community ───────┤
-           ├─ scout: video & newsletters ─┼─► analyst ─► (10:00 IST only) writer + editor ─► END
+           ├─ scout: video & newsletters ─┼─► analyst ─► (09:30 IST only) writer + editor ─► END
            └─ scout: X ───────────────┘
 
 The four scouts run in parallel. One failing agent never stops the others: its error is

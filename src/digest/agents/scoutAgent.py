@@ -1,9 +1,10 @@
 """Scout agent: triages its sources' new items, reads the important ones in full through
 the MCP `fetchArticle` tool, and writes a short note for each real news item.
 
-Exactly 2 LLM calls per scout per run (0 if its sources had nothing new):
+2 LLM calls per scout per run (0 if its sources had nothing new):
   1. triage: keep / drop each item, pick up to N items worth reading in full
-  2. brief: a note per kept item, using the full articles it chose to read
+  2. brief: a note per kept item, using the full articles it chose to read. A busy run is
+     briefed in batches of BRIEF_BATCH items, so each call stays inside free-tier limits.
 
 To save tokens on free tiers, items are shown as short refs ("i1", "i2"...) without URLs,
 triage sees only titles and short excerpts, and code (not the LLM) attaches every URL.
@@ -24,7 +25,7 @@ from digest.agents.agentModels import (
 )
 from digest.agents.agentsConfig import Budget, ScoutSpec
 from digest.agents.groundingStats import groundingStats
-from digest.agents.llmRouter import LlmRouter
+from digest.agents.llmRouter import LlmRouter, LlmUnavailableError
 from digest.agents.promptKit import loadPrompt, untrusted
 from digest.dataModels import RawItem
 
@@ -36,6 +37,9 @@ BRIEF_EXCERPT_CHARS = 300
 ARTICLE_CHARS = 1800  # the key facts; more costs tokens without better notes
 NEWSLETTER_CHARS = 5000
 LINK_EXTRAS = ("githubRepo", "arxivUrl", "projectPage", "discussionUrl")
+# Notes per brief call: ~8 notes plus a few full articles fit Groq's 8k tokens/minute and
+# the scout's output limit. (One call for 25 items overflowed both.)
+BRIEF_BATCH = 8
 
 
 def triageView(ref: str, item: RawItem) -> dict:
@@ -134,15 +138,25 @@ async def runScout(
         except Exception as exc:  # a page that won't load just means no full text
             log.info("%s: could not read %s (%s)", spec.name, byRef[ref].url, exc)
 
-    brief = await router.structured(
-        "scout",
-        ScoutBrief,
-        loadPrompt("scoutBrief", scoutName=spec.name),
-        untrusted([briefView(ref, byRef[ref], fullTexts.get(ref)) for ref in keptRefs]),
-    )
+    drafts: list[ScoutNoteDraft] = []
+    for start in range(0, len(keptRefs), BRIEF_BATCH):
+        batch = keptRefs[start : start + BRIEF_BATCH]
+        try:
+            brief = await router.structured(
+                "scout",
+                ScoutBrief,
+                loadPrompt("scoutBrief", scoutName=spec.name),
+                untrusted([briefView(ref, byRef[ref], fullTexts.get(ref)) for ref in batch]),
+            )
+        except LlmUnavailableError as exc:
+            if not drafts and start + BRIEF_BATCH >= len(keptRefs):
+                raise  # nothing briefed at all: report the scout as failed
+            log.warning("%s: brief batch %d skipped (%s)", spec.name, start // BRIEF_BATCH, exc)
+            continue
+        drafts += brief.notes
     kept = [byRef[r] for r in keptRefs]
     allowed = allowedLinks(kept)
     texts = " ".join(fullTexts.values())
-    notes = [n for n in (groundNote(d, byRef, allowed, texts) for d in brief.notes) if n]
+    notes = [n for n in (groundNote(d, byRef, allowed, texts) for d in drafts) if n]
     log.info("%s: %d items -> kept %d -> %d notes", spec.name, len(items), len(kept), len(notes))
     return ScoutReport(notes=notes)

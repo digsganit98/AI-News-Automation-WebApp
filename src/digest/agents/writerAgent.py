@@ -1,4 +1,4 @@
-"""Writer and Editor agents: the 10:00 IST daily digest and op-ed.
+"""Writer and Editor agents: the 09:30 IST daily digest and op-ed.
 
 writer: digest (1 call) + op-ed (1 call)
 editor: fact-check both against the ORIGINAL articles of the stories they use (1 call);

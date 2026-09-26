@@ -8,12 +8,12 @@
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
-Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning at 10:00 IST they also write a **daily digest** and a short **op-ed**. It runs for free on GitHub, even when your computer is off.
+Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning at 09:30 IST they also write a **daily digest** and a short **op-ed**. It runs for free on GitHub, even when your computer is off.
 
 | At a glance | |
 |---|---|
 | Sources | **30**: 11 labs and research blogs, 4 cloud platforms, arXiv, Hacker News, Reddit, YouTube, 6 newsletters, web search. X is coming next. |
-| Updates | Every **3 hours**; daily edition at **10:00 IST** |
+| Updates | Every **3 hours**; daily edition at **09:30 IST** (GitHub may start it a little late) |
 | AI agents | **9**: 6 scouts, an analyst, a writer and an editor (built with LangGraph) |
 | LLM calls | About **80–100 a day**, hard cap **150** (all free tiers: Groq and Google Gemini) |
 | Quality | Links are checked in code, the editor checks facts against the original articles, and the test set scores **100/100** |
@@ -40,7 +40,7 @@ Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research 
 | Page | What it's for |
 |---|---|
 | **Latest** | The live **news** dashboard, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then every news item collected, with filters and search. |
-| **Daily Digest** | The **10:00 IST edition**: a 5-minute read with a headline, a 3-point TL;DR, the day's top 5 stories and a short **op-ed** on the biggest theme, all fact-checked by the editor. It says when the next edition comes. Latest is the full stream; the Daily Digest is the curated summary (and what the daily email will send). |
+| **Daily Digest** | The **09:30 IST edition**: a 5-minute read with a headline, a 3-point TL;DR, the day's top 5 stories and a short **op-ed** on the biggest theme, all fact-checked by the editor. It says when the next edition comes. Latest is the full stream; the Daily Digest is the curated summary (and what the daily email will send). |
 | **Paper Trail** | Every GenAI **research paper** from the last 14 days, from arXiv, Hugging Face Daily Papers, and anywhere else one turns up (Hacker News, web search, agent stories), merged into one card per paper. A **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), search, "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. Works without API keys. |
 | **Sources** | Which sources worked in the last run. |
 | **How it works** | The architecture, the agents and their LLMs. |
@@ -59,7 +59,7 @@ Each page has one job: news on Latest, papers on Paper Trail, the morning editio
 3. **The analyst** merges the same news from different sources into one story, checks it against the last 7 days, and sorts and scores it.
 4. **The website** is rebuilt with the new stories.
 
-**At 10:00 IST** it also runs:
+**At 09:30 IST** it also runs:
 
 5. **The writer**, which drafts the digest and a ~600-word op-ed.
 6. **The editor**, which re-reads the original articles and fact-checks both. The writer fixes anything flagged, once.
@@ -68,12 +68,12 @@ Each page has one job: news on Latest, papers on Paper Trail, the morning editio
 |---|---|---|
 | 6 scouts: labs & research · cloud & platforms · community · video, newsletters & blogs · X · web search | Qwen 3.8 27B on Groq | every 3 h |
 | Analyst | gpt-oss-120b on Groq | every 3 h |
-| Writer | Gemini Flash | 10:00 IST |
-| Editor | gpt-oss-120b on Groq | 10:00 IST |
+| Writer | Gemini Flash | 09:30 IST |
+| Editor | gpt-oss-120b on Groq | 09:30 IST |
 
 **Polite to the sites it reads.** Requests to the same site take turns with a gap (2 seconds; 4 seconds for arXiv, which asks for at least 3 and one connection at a time). arXiv's feed changes once a day, so it's re-checked at most every 6 hours with an "only if changed" request, and a site's `Retry-After` is honoured. Set per-site gaps with `HOST_SPACING_OVERRIDES` in `config/app.env`.
 
-If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. A daily budget keeps calls within the free tiers and saves 25 calls for the 10:00 edition.
+If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. A daily budget keeps calls within the free tiers and saves 25 calls for the 09:30 edition.
 
 **Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout, which also covers LinkedIn, X, YC and Coimbatore news through search results.
 
@@ -173,8 +173,8 @@ docs/              setup guides and the architecture diagram (+ editable .drawio
 | Problem | Fix |
 |---|---|
 | A source shows ❌ | Other sources still run. `429` usually clears by the next run. `404` means the feed URL in `config/app.env` has changed. |
-| "Skipped: no LLM API keys" | Add `GROQ_API_KEY` and/or `GEMINI_API_KEY` (in `.env` locally, or as a GitHub secret). |
-| No digest today | The writer's models were busy or out of quota. The run summary and Langfuse show why, and tomorrow's run tries again. |
+| "Skipped: no LLM API keys" / no stories or digest on the site | The keys in your `.env` only work on your computer. The scheduled runs need them as **GitHub secrets** too: Settings → Secrets and variables → Actions → add `GROQ_API_KEY` and `GEMINI_API_KEY`. |
+| No digest today | GitHub often starts scheduled runs late or skips them, so every run after 09:30 IST writes the edition if today's is still missing. If the models were busy or out of quota, the run summary and Langfuse show why. To make it now: Actions → News pipeline → Run workflow → `dailyEdition`, or locally `uv run digest run --mode dailyEdition --backlog-hours 24` (the backlog option also gives the agents items that earlier runs collected but never analysed). |
 | Website shows 404 | Turn on Pages: **Settings → Pages → Source: GitHub Actions**. |
 | `npm` not found | Install Node.js 20+ and add it to your `PATH`. |
 | Scheduled runs stopped | GitHub pauses schedules after 60 days without activity. Re-enable the workflow in the Actions tab. |

@@ -1,7 +1,7 @@
 """Saves what the agents produce, as public data the website reads:
 
 data/stories/<date>.json   analyst stories, added to through the day (every 3 hours)
-data/digests/<date>.json   the 10:00 IST digest + op-ed
+data/digests/<date>.json   the 09:30 IST digest + op-ed
 """
 
 from __future__ import annotations

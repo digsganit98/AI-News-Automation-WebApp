@@ -141,7 +141,7 @@ def scoreRun(trace, result: CollectionResult, outcome) -> None:
 def commandRun(args: argparse.Namespace) -> int:
     from digest.agents.runAgents import runAgents
     from digest.monitoring.langfuseTracing import traceRun
-    from digest.publish.saveDataFiles import digestDate
+    from digest.publish.saveDataFiles import digestDate, readRecentItems
     from digest.publish.saveStories import saveEdition, saveStories
 
     tags = [args.mode] + (["dryRun"] if args.dryRun else [])
@@ -150,7 +150,13 @@ def commandRun(args: argparse.Namespace) -> int:
         result, seen = collectNewItems(args)
         if not args.dryRun:
             saveCollected(result, seen, args)
-        outcome = asyncio.run(runAgents(result.items, args.mode, saveUsage=not args.dryRun))
+        agentItems = list(result.items)
+        if args.backlogHours:  # also items earlier runs saved but the agents never saw
+            known = {i.id for i in agentItems}
+            backlog = readRecentItems(args.backlogHours, datetime.now(UTC))
+            agentItems += [i for i in backlog if i.id not in known]
+            print(f"Agents get {len(agentItems)} items ({len(agentItems) - len(known)} backlog)")
+        outcome = asyncio.run(runAgents(agentItems, args.mode, saveUsage=not args.dryRun))
         scoreRun(trace, result, outcome)
         summary = agentSummary(outcome, trace.url)
     print(summary)
@@ -240,7 +246,14 @@ def main(argv: list[str] | None = None) -> int:
         "--mode",
         choices=["update", "dailyEdition"],
         default="update",
-        help="update = stories only (every 3 h); dailyEdition = also digest + op-ed (10:00 IST)",
+        help="update = stories only (every 3 h); dailyEdition = also digest + op-ed (09:30 IST)",
+    )
+    run.add_argument(
+        "--backlog-hours",
+        dest="backlogHours",
+        type=float,
+        default=0,
+        help="also give the agents items saved in the last N hours (catch up after missed runs)",
     )
     run.set_defaults(func=commandRun)
 

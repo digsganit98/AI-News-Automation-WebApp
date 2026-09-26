@@ -2,8 +2,11 @@
 #
 #   Every 3 hours  -> "update":       collect new items; scout + analyst agents turn them into
 #                                     stories; the website is republished
-#   10:00 IST      -> "dailyEdition": the same, then the writer and editor agents produce the
+#   09:30 IST      -> "dailyEdition": the same, then the writer and editor agents produce the
 #                                     daily digest + op-ed (and, in Phase 4, one email)
+#
+# GitHub often starts scheduled runs late, or skips them when it's busy. So the first run at or
+# after 09:30 IST that finds no edition for today writes it: a missed slot never costs a day.
 #
 # The agents need GROQ_API_KEY and/or GEMINI_API_KEY secrets; without them they're skipped and the
 # site shows the plain collected feed.
@@ -12,7 +15,7 @@ name: News pipeline
 on:
   schedule:
     # Times are UTC. IST = UTC + 5:30, and India has no daylight saving, so these never shift.
-    - cron: "30 4 * * *" # 10:00 IST: daily edition
+    - cron: "0 4 * * *" # 09:30 IST: daily edition
     - cron: "30 1,7,10,13,16,19,22 * * *" # 07:00, 13:00, 16:00, 19:00, 22:00, 01:00, 04:00 IST
   workflow_dispatch: # "Run workflow" button in the Actions tab
     inputs:
@@ -40,16 +43,25 @@ jobs:
     outputs:
       mode: ${{ steps.mode.outputs.mode }}
     steps:
+      - uses: actions/checkout@v5
+
       - name: Decide which run this is
         id: mode
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          CHOSEN: ${{ inputs.mode }}
         run: |
-          if [ "${{ github.event.schedule }}" = "30 4 * * *" ] || [ "${{ inputs.mode }}" = "dailyEdition" ]; then
-            echo "mode=dailyEdition" >> "$GITHUB_OUTPUT"
+          today=$(TZ=Asia/Kolkata date +%F)
+          now=$(TZ=Asia/Kolkata date +%H%M)
+          if [ "$SCHEDULE" = "0 4 * * *" ] || [ "$CHOSEN" = "dailyEdition" ]; then
+            mode=dailyEdition
+          elif [ -z "$CHOSEN" ] && [ "$now" -ge 930 ] && [ ! -f "data/digests/$today.json" ]; then
+            mode=dailyEdition # catch-up: the 09:30 run was late or skipped
           else
-            echo "mode=update" >> "$GITHUB_OUTPUT"
+            mode=update
           fi
-
-      - uses: actions/checkout@v5
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "Mode: $mode ($now IST)"
 
       - uses: astral-sh/setup-uv@v6
         with:

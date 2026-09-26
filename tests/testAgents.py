@@ -180,7 +180,7 @@ async def testUpdateRunProducesGroundedStoriesOnly(noSavedStories):
     )
     result = await runAgents(items, "update", router=router, fetchArticle=lambda url: None)
 
-    assert result.ran and result.edition is None  # no writer outside the 10:00 edition
+    assert result.ran and result.edition is None  # no writer outside the 09:30 edition
     assert [s.headline for s in result.stories] == ["OpenAI launches GPT-6"]
     assert len(result.stories[0].sources) == 2  # one story, both sources
     scoutsAsked = [a for a in router.asked if a[1] == "ScoutTriage"]
@@ -310,7 +310,7 @@ async def testBudgetKeepsCallsForTheDailyEdition(monkeypatch, tmp_path):
         mode="dailyEdition",
         cap=30,
     )
-    assert edition.budget.remaining() == 25  # the reserve is still there at 10:00
+    assert edition.budget.remaining() == 25  # the reserve is still there at 09:30
 
 
 # ------------------------------------------------------------------ saving

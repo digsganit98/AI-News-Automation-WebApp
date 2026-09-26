@@ -1,7 +1,7 @@
 """Daily LLM call budget, kept in state/llmUsage.json.
 
 Every call is counted. 3-hourly updates may use the budget only up to
-`dailyCallCap - dailyEditionReserve`, so the 10:00 IST edition always has calls left.
+`dailyCallCap - dailyEditionReserve`, so the 09:30 IST edition always has calls left.
 The count resets each day (in the digest's timezone).
 """
 

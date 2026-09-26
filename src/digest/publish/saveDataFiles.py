@@ -3,11 +3,11 @@
 from __future__ import annotations
 
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from digest.dataModels import CollectionResult
+from digest.dataModels import CollectionResult, RawItem
 from digest.envSettings import REPO_ROOT, env
 
 DATA_DIR = REPO_ROOT / "data"
@@ -58,3 +58,23 @@ def writeCollection(result: CollectionResult, outDir: Path | None = None) -> Pat
     )
     dayFile["items"].extend(newItems)
     return writeJson(path, dayFile)
+
+
+def readRecentItems(hours: float, now: datetime, rawDir: Path | None = None) -> list[RawItem]:
+    """Items saved in the last `hours`, from the day files.
+
+    Lets the agents catch up on items that earlier runs collected but never analysed
+    (for example when the LLM keys were missing or a provider was down).
+    """
+    cutoff = now - timedelta(hours=hours)
+    rawDir = rawDir or DATA_DIR / "raw"
+    items = []
+    for day in sorted({digestDate(cutoff), digestDate(now)}):
+        path = rawDir / f"{day.isoformat()}.json"
+        if not path.exists():
+            continue
+        for raw in json.loads(path.read_text(encoding="utf-8"))["items"]:
+            collectedAt = raw.get("collectedAt")
+            if collectedAt and datetime.fromisoformat(collectedAt) >= cutoff:
+                items.append(RawItem.model_validate(raw))
+    return items

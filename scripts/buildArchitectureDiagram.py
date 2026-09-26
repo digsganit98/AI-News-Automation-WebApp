@@ -218,7 +218,7 @@ CONTAINERS = [
         766,
         822,
         "GitHub Actions",
-        "every 3 h · 10:00 IST = daily edition · runs with your PC off",
+        "every 3 h · 09:30 IST = daily edition · runs with your PC off",
         icon="githubactions",
         fill="#F1F8FF",
         stroke="#2088FF",
@@ -360,7 +360,7 @@ NODES = [
         200,
         96,
         "Writer",
-        "digest + op-ed · 10:00 IST",
+        "digest + op-ed · 09:30 IST",
         [],
         "built",
         GEMINI,
@@ -403,7 +403,7 @@ NODES = [
         "built",
     ),
     Node(
-        "email", 1126, 690, 220, 96, "Daily email", "10:00 IST · once a day", ["gmail"], "planned"
+        "email", 1126, 690, 220, 96, "Daily email", "09:30 IST · once a day", ["gmail"], "planned"
     ),
     Node("readers", 1390, 430, 206, 110, "Readers", "web + inbox", ["readers"]),
     Node(
@@ -443,7 +443,7 @@ EDGES = [
         labelPos=(572, 580),
     ),
     Edge([(800, 339), (846, 339)], "scoutCloud", "analyst"),
-    Edge([(946, 408), (946, 540)], "analyst", "writer", "10:00 IST only", dashed=True),
+    Edge([(946, 408), (946, 540)], "analyst", "writer", "09:30 IST only", dashed=True),
     Edge([(946, 636), (946, 716)], "writer", "editor"),
     Edge(
         [(846, 780), (826, 780), (826, 600), (846, 600)],
@@ -464,7 +464,7 @@ EDGES = [
         labelPos=(1094, 376),
     ),
     Edge([(1236, 322), (1236, 430)], "data", "website", "build & deploy"),
-    Edge([(1046, 780), (1126, 780)], "editor", "email", "10:00 IST", dashed=True),
+    Edge([(1046, 780), (1126, 780)], "editor", "email", "09:30 IST", dashed=True),
     Edge([(1346, 478), (1390, 478)], "website", "readers"),
     Edge(
         [(1346, 712), (1366, 712), (1366, 516), (1390, 516)], "email", "readers", "inbox", labelAt=1
@@ -611,7 +611,7 @@ def buildSvg(icons: dict[str, Icon]) -> str:
         svgText(1446, 46, "every 3 h", 11, 400, MUTED),
         '<path d="M1510 42 L1550 42" stroke="#59636E" stroke-width="1.6" stroke-dasharray="6 4" '
         'marker-end="url(#arrow)"/>',
-        svgText(1556, 46, "10:00 IST", 11, 400, MUTED),
+        svgText(1556, 46, "09:30 IST", 11, 400, MUTED),
     ]
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" '
@@ -631,7 +631,7 @@ def buildSvg(icons: dict[str, Icon]) -> str:
             24,
             70,
             "Every 3 h: collect → scouts → analyst → Latest dashboard.   "
-            "10:00 IST: writer + editor → digest, op-ed and one email.",
+            "09:30 IST: writer + editor → digest, op-ed and one email.",
             12.5,
             400,
             MUTED,

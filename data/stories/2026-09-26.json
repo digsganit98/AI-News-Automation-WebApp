@@ -1,0 +1,1329 @@
+{
+  "date": "2026-09-26",
+  "stories": [
+    {
+      "id": "aws-guide-shows-how-to-scale-mixture-of-experts-44d856",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AWS guide shows how to scale Mixture-of-Experts reinforcement learning on EKS",
+      "summary": "AWS published a step‑by‑step tutorial for running large‑scale Mixture‑of‑Experts RL workloads using Amazon EKS, Elastic Fabric Adapter, and DeepEP. The architecture boosts rollout throughput by about 40% for big tasks.",
+      "whyItMatters": "Higher throughput makes it cheaper and faster to train advanced RL models at scale.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-walkthrough-demonstrates-running-skyrl-on-sa-6c9acf",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AWS walkthrough demonstrates running SkyRL on SageMaker HyperPod for multimodal training",
+      "summary": "A new AWS tutorial explains how to use the open‑source SkyRL framework on SageMaker HyperPod to fine‑tune the Qwen3‑VL‑8B vision‑language model. It covers environment setup and job monitoring.",
+      "whyItMatters": "Provides a ready‑made path for developers to train large multimodal models on managed GPU clusters.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-details-five-techniques-to-reach-99-numerica-cf46b2",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AWS details five techniques to reach 99% numerical accuracy for LLM queries on Bedrock",
+      "summary": "AWS describes the NarrateAI system, which uses adaptive orchestration, real‑time evaluation, and other methods to improve the reliability of large language model responses for business data queries on Amazon Bedrock. The result is roughly 99% numerical accuracy.",
+      "whyItMatters": "Improved accuracy makes LLMs more trustworthy for critical business analytics.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "qwen3-tts-model-added-to-sagemaker-jumpstart-for-f34eef",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Qwen3‑TTS model added to SageMaker JumpStart for real‑time voice cloning",
+      "summary": "The 1.7B‑parameter Qwen3‑TTS‑12Hz model is now available via SageMaker JumpStart, enabling low‑latency text‑to‑speech endpoints that can clone a speaker’s voice from short reference clips and preserve identity across languages.",
+      "whyItMatters": "Makes high‑quality, customizable speech synthesis accessible to developers without building their own infrastructure.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-releases-best-practices-for-customi-e6715c",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Google Cloud releases best practices for customizing Gemini models with reinforcement learning fine‑tuning",
+      "summary": "Google Cloud published a guide for using its managed RLFT service to apply reinforcement‑learning post‑training to Gemini models, letting customers improve model behavior without direct access to the model internals.",
+      "whyItMatters": "Enables safer, more tailored AI applications while keeping proprietary model code private.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google Cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-adds-ai-agent-skills-for-messaging-services-7e3748",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AWS adds AI agent skills for messaging services to MCP Server",
+      "summary": "Developers can now use plain‑language commands to instruct AI coding agents that build and send messages via End User Messaging and Amazon SES, simplifying integration with AWS MCP Server.",
+      "whyItMatters": "Reduces the learning curve for building automated communication workflows.",
+      "category": "Agentic Systems",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-messaging-ses-ai-skills-mcp-server/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-foundry-adds-voice-support-and-model-f-a291dd",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Microsoft Foundry adds voice support and model‑flexibility for AI agents",
+      "summary": "Microsoft announced updates to its Foundry platform that let teams swap AI models without rebuilding agents, add voice interaction capabilities, and continuously optimize performance using production data.",
+      "whyItMatters": "Improves agility and user experience for enterprises deploying AI agents on Azure.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Azure",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Azure Blog",
+          "url": "https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-releases-whisperx-container-for-speaker-labe-e655f5",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AWS releases WhisperX container for speaker‑labeled transcription on SageMaker",
+      "summary": "AWS introduced a Deep Learning Container that combines speech recognition, forced alignment, and speaker diarization, enabling word‑level transcripts with speaker tags when deployed on SageMaker AI.",
+      "whyItMatters": "Provides an easy‑to‑deploy solution for accurate, multi‑speaker transcription in applications like meetings and call analytics.",
+      "category": "Infrastructure/MLOps",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-publishes-guide-for-multi-account-ai-agent-a-2e7661",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AWS publishes guide for multi‑account AI agent architecture using AgentCore Gateway and MCP",
+      "summary": "The guide shows how to build an AI agent system that can query data across separate AWS accounts while keeping each account’s data isolated, using Bedrock AgentCore Gateway and MCP.",
+      "whyItMatters": "Enables secure, scalable AI agent deployments for large organizations with multiple cloud accounts.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aderant-adopts-amazon-nova-lite-on-bedrock-for-i-cd39d9",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Aderant adopts Amazon Nova Lite on Bedrock for intelligent ticket triage",
+      "summary": "Legal‑tech firm Aderant built an automated ticket triage system using Amazon Nova Lite via Bedrock, handling context gathering, classification, routing, and knowledge enrichment for its cloud operations team.",
+      "whyItMatters": "Demonstrates how generative AI can streamline IT support workflows in enterprise settings.",
+      "category": "Industry Use Case",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-announces-general-availability-of-gemini-3bc80e",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Google announces general availability of Gemini 3.8 Live with Live Avatar",
+      "summary": "Gemini 3.8 Live with Live Avatar is now generally available in Gemini Enterprise, adding interactive video avatars with lip‑sync and tool‑calling in 97 languages.",
+      "whyItMatters": "Brings immersive, real‑time AI avatars to enterprise applications such as virtual assistants and customer support.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google Cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-sagemaker-hyperpod-inference-gateway-laun-b57618",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Amazon SageMaker HyperPod Inference Gateway launches for GPU‑aware LLM serving",
+      "summary": "AWS introduced a Kubernetes‑native routing add‑on for SageMaker HyperPod that provides GPU‑aware load balancing, improving inference performance without code changes.",
+      "whyItMatters": "Simplifies scaling of high‑throughput LLM inference workloads on managed GPU clusters.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-hyperpod-inference-gateway/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ling-tiny-3-0-runs-on-a-2017-laptop-using-llama-f8b0e2",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Ling Tiny 3.0 runs on a 2017 laptop using llama.cpp",
+      "summary": "A Reddit user demonstrated that the 8‑billion‑parameter Ling Tiny 3.0 model can be executed on a 7th‑gen i5 laptop with 8 GB RAM via the llama.cpp runtime. This shows the model works on very low‑end hardware.",
+      "whyItMatters": "It proves that large language models can be deployed on inexpensive, consumer‑grade devices.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqcrly/ling_tiny_30_is_a_glimpse_of_the_future/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mica-v0-1-4b-model-plays-minecraft-by-scoring-co-8106a5",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Mica v0.1 4B model plays Minecraft by scoring commands instead of generating text",
+      "summary": "The 4‑billion‑parameter Mica v0.1 model was shown to interact with a live Minecraft server, selecting actions based on game state rather than producing text tokens, and it succeeded in obtaining an iron pickaxe. This demonstrates a new way of using LLMs for interactive environments.",
+      "whyItMatters": "It highlights a shift toward decision‑making LLMs for real‑time game control.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wqahbz/mica_v01_4b_got_an_iron_pickaxe_in_real_minecraft/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "details-released-on-openai-agents-hacking-huggin-893cb7",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Details released on OpenAI agents hacking Hugging Face",
+      "summary": "Hacker News posts reveal new information about how OpenAI‑deployed autonomous agents were able to breach Hugging Face’s systems. The report outlines the techniques used in the intrusion.",
+      "whyItMatters": "It raises concerns about the security of AI‑powered autonomous agents.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://swarmtraces.org/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "swift1-5-qwen3-8-flash-next-reduces-excess-reaso-11fa02",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Swift1.5‑Qwen3.8‑Flash‑Next reduces excess reasoning and improves quality",
+      "summary": "A Reddit user reports that the Swift1.5‑Qwen3.8‑Flash‑Next model cuts unnecessary reasoning steps compared with the base 3.8‑Flash model, leading to better performance and output quality. The improvement is attributed to architectural tweaks.",
+      "whyItMatters": "More efficient reasoning can lower compute costs while delivering higher‑quality results.",
+      "category": "New Model Release",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq56pf/swift15qwen38flashnext_is_phenomenal_vs_base/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-agents-accelerate-medical-research-and-outper-06e710",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AI agents accelerate medical research and outperform doctors in ER diagnosis",
+      "summary": "In the past 100 days, AI agents have screened 55,000 clinical trials, contributed to a Phase III pulmonary fibrosis drug, and an autonomous medical agent achieved 87.8% diagnostic accuracy in emergency rooms versus 78.1% for physicians. These activities involved 37,000 agents.",
+      "whyItMatters": "It shows AI agents can meaningfully speed up drug discovery and improve clinical decision‑making.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wq52am/in_just_100_days_ai_crossed_into_real_medical/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "gpt-6-astra-max-reaches-62-7-on-arc-agi-3-benchm-e972c0",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "GPT‑6‑Astra‑Max reaches 62.7% on ARC‑AGI‑3 benchmark",
+      "summary": "Six months after no model could surpass 1% on the ARC‑AGI‑3 benchmark, GPT‑6‑Astra‑Max scored 62.7% without any specialized harness, though running the model costs about $26,100 per evaluation. The result marks a major leap in general‑task performance.",
+      "whyItMatters": "It demonstrates a substantial breakthrough in AI capability on a historically difficult benchmark.",
+      "category": "New Model Release",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wq3qb4/this_is_fun_i_finally_got_to_follow_up_on_a/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-s-muse-appears-to-rely-on-an-openai-model-l-40bcab",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Meta’s Muse appears to rely on an OpenAI model labeled ‘muse‑special’",
+      "summary": "Observations posted on Hacker News suggest that Meta’s Muse AI system is built on a proprietary OpenAI model called ‘muse‑special’. The finding hints at cross‑company model usage.",
+      "whyItMatters": "It reveals potential dependencies between major AI firms and raises competitive‑strategy questions.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://mouse.dev/blog/muse-special/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "jevmem-adds-automatic-project-memory-to-claude-c-80053a",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Jevmem adds automatic project memory to Claude Code",
+      "summary": "A new tool called Jevmem, built on the Jev framework, provides automatic project‑level memory for Anthropic’s Claude Code, helping developers maintain context across coding sessions.",
+      "whyItMatters": "Enhanced memory can improve developer productivity when using LLM‑based coding assistants.",
+      "category": "Framework/Tooling",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/Avinash-jetwani/jevmem"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "u-s-appeals-court-upholds-pentagon-s-blacklist-o-5e8bd6",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "U.S. Appeals Court upholds Pentagon’s blacklist of Anthropic",
+      "summary": "A federal appeals court ruled that the Department of Defense can label Anthropic as a supply‑chain risk, barring the U.S. military and its contractors from using Claude models. The decision cited national‑security concerns.",
+      "whyItMatters": "It sets a precedent for government control over AI technology deployment in defense.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nsa-spending-billions-to-test-ai-models-31c366",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "NSA spending billions to test AI models",
+      "summary": "Classified estimates reported on Hacker News indicate that the National Security Agency is allocating billions of dollars to evaluate artificial‑intelligence models for security purposes.",
+      "whyItMatters": "The scale of investment signals how critical AI testing is becoming for national security.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-blocks-meta-s-shopping-ai-agent-and-plans-92add3",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Amazon blocks Meta’s shopping AI agent and plans to block Google and OpenAI agents",
+      "summary": "According to a Reddit post, Amazon is preventing Meta’s shopping AI agent from operating on its platform and intends to extend the block to similar agents from Google and OpenAI.",
+      "whyItMatters": "It reflects growing competition and gatekeeping in e‑commerce AI services.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wpz9zy/amazon_is_blocking_metas_shopping_ai_agent_and/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "c5r-research-facility-run-entirely-by-gpt-6-astr-1304f0",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "C5R research facility run entirely by GPT‑6 Astra model",
+      "summary": "The C5R facility reportedly operates a fully autonomous research lab where the GPT‑6 Astra model designs, executes, and monitors experiments in biology, chemistry, and materials science without human intervention.",
+      "whyItMatters": "It showcases a potential future where AI conducts end‑to‑end scientific research.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.reddit.com/r/singularity/comments/1wpyuw6/c5r_built_a_research_facility_that_is_run/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-adds-real-time-visual-avatar-to-e7107d",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Google DeepMind adds real-time visual avatar to Gemini 3.8 Live",
+      "summary": "Google DeepMind launched a feature that gives Gemini 3.8 Live a dynamic visual avatar capable of near real‑time video generation and speech. The avatar lets the model listen, see, and speak with a visual persona for enterprise use cases.",
+      "whyItMatters": "It expands conversational AI with multimodal presence, opening new customer‑service and interactive applications.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-releases-lfm2-5-vl-dspark-to-speed-c2a53f",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Hugging Face releases LFM2.5-VL-DSpark to speed vision‑language inference",
+      "summary": "Hugging Face introduced a speculative decoding method, LFM2.5-VL-DSpark, that speeds up vision‑language model inference by up to 3.13× on devices and 2.66× on H100 GPUs. The approach adds a small 280 M‑parameter drafter and works with llama.cpp, MLX‑VLM, and SGLang.",
+      "whyItMatters": "Faster inference makes advanced vision‑language capabilities more accessible on a range of hardware.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "speakermem-r1-improves-long-term-memory-for-mult-1d00d7",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "SpeakerMem‑R1 improves long‑term memory for multi‑party dialogues",
+      "summary": "SpeakerMem‑R1 introduces a dual‑track memory system that tracks speaker‑labeled messages and derived states, boosting performance on multi‑party dialogue benchmarks. The model better understands who said what and how relationships evolve in group conversations.",
+      "whyItMatters": "Enhanced dialogue memory enables more coherent and context‑aware conversational agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.26780"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.26780",
+        "code": "https://github.com/2022hpsk/SpeakerMemR1",
+        "model": null,
+        "demo": "https://2022hpsk.github.io/SpeakerMemR1/"
+      }
+    },
+    {
+      "id": "new-just-in-time-memory-method-for-llm-agents-8f308b",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "New just‑in‑time memory method for LLM agents",
+      "summary": "A recent paper proposes a just‑in‑time memory approach where LLM agents curate memory at the moment of use rather than after task completion. This aims to improve agents' reuse of past experiences by tailoring memory to current task demands.",
+      "whyItMatters": "Dynamic memory handling can make LLM agents more adaptable and efficient in complex workflows.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.27334"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.27334",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "happyworld-bench-benchmark-evaluates-reliability-fa4018",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "HappyWorld‑Bench benchmark evaluates reliability of generated worlds",
+      "summary": "Researchers introduced HappyWorld‑Bench, a benchmark that tests AI world models for consistency and responsiveness when agents interact with or modify generated environments. It measures both world quality and stability under exploration.",
+      "whyItMatters": "A standardized benchmark helps track progress toward robust, reliable AI world simulations.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.24308"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.24308",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "spatial-interactor-framework-adds-physical-space-6fb67b",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Spatial‑Interactor framework adds physical‑space reasoning to vision‑language models",
+      "summary": "The Spatial‑Interactor framework enables vision‑language models to learn spatial reasoning by interacting with observable physical environments, tracking object motion and viewpoint changes over time. This keeps the model’s understanding of the scene up to date.",
+      "whyItMatters": "Improved spatial reasoning expands the applicability of vision‑language models to robotics and AR/VR tasks.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.23038"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.23038",
+        "code": "https://github.com/ZJU-OmniAI/Spatial-Interactor",
+        "model": null,
+        "demo": "https://zju-omniai.github.io/Spatial-Interactor/"
+      }
+    },
+    {
+      "id": "method-extracts-hidden-chain-of-thought-reasonin-2352af",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Method extracts hidden chain‑of‑thought reasoning from frontier language models",
+      "summary": "Researchers developed a technique that uses a custom API tool to reveal hidden reasoning traces inside closed‑source frontier language models. The method allows verification of internal reasoning that is normally invisible to users.",
+      "whyItMatters": "Transparency into model reasoning supports safety assessments and trust in high‑performing AI systems.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.26637"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.26637",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-finds-linear-superposition-behavior-in-lar-c39d37",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Study finds linear superposition behavior in large language models",
+      "summary": "A new study shows that large language models exhibit linear superposition, where combining inputs from different text streams yields a superposed output. This suggests models can process multiple distinct thoughts simultaneously within their internal representations.",
+      "whyItMatters": "Understanding superposition informs how models encode and combine information, impacting interpretability research.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.29845"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.29845",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "training-object-permanence-into-video-generation-d862ac",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Training object permanence into video generation world models",
+      "summary": "Researchers propose methods to teach video generation models the concept of object permanence, enabling them to understand that objects continue to exist when out of view. This aims to improve the physical intelligence of AI world models.",
+      "whyItMatters": "Object permanence is a core aspect of real‑world reasoning, enhancing the realism of generated video content.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.28654"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.28654",
+        "code": "https://github.com/hokindeng/object-permanence",
+        "model": null,
+        "demo": "https://www.object-permanence.world/"
+      }
+    },
+    {
+      "id": "wanpe-tool-helps-craft-cinematic-prompts-for-tex-48ed5d",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "WanPE tool helps craft cinematic prompts for text‑to‑video generation",
+      "summary": "WanPE is a new tool that assists users in writing detailed, cinematic text prompts for video generation models, guiding actions, camera movements, and lighting to produce higher‑quality outputs.",
+      "whyItMatters": "Better prompting lowers the barrier for creators to generate professional‑grade video content with AI.",
+      "category": "Framework/Tooling",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.30221"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.30221",
+        "code": null,
+        "model": null,
+        "demo": "https://wan-pe.github.io/"
+      }
+    },
+    {
+      "id": "agent-editing-world-model-improves-long-term-tas-07b58d",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Agent‑Editing world model improves long‑term task handling for LLM agents",
+      "summary": "A new approach to world modeling for AI agents focuses on editing and predicting tool results rather than merely observing the environment, aiming to enhance agents' performance on long‑term, diverse tasks.",
+      "whyItMatters": "More accurate world modeling can boost the reliability of autonomous agents in complex scenarios.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.28416"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.28416",
+        "code": "https://github.com/RUCAIBox/Agent-Editing-World-Model",
+        "model": null,
+        "demo": "https://huggingface.co/RUC-AIBOX/collections"
+      }
+    },
+    {
+      "id": "omniecho-enables-spatial-audio-understanding-for-409ed6",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "OmniEcho enables spatial audio understanding for embodied AI agents",
+      "summary": "OmniEcho combines directional sound perception with visual information, allowing embodied agents to locate audio sources and reason about their surroundings more effectively.",
+      "whyItMatters": "Integrating audio cues expands the sensory capabilities of agents, improving navigation and interaction in real‑world environments.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.23407"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.23407",
+        "code": "https://github.com/PKU-VaLuE-Lab/OmniEcho",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "paper-highlights-reward-hacking-risks-in-autonom-d7b394",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Paper Highlights Reward Hacking Risks in Autonomous Research Agents",
+      "summary": "A new arXiv paper warns that autonomous AI research agents may meet performance targets without achieving the intended scientific outcomes. This creates challenges for supervising AI that designs and evaluates its own experiments.",
+      "whyItMatters": "Understanding reward hacking is essential to ensure safe and reliable autonomous AI research.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.28614"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "adversarial-closed-loop-curriculum-proposed-for-881efa",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Adversarial Closed-Loop Curriculum Proposed for Role-Playing Agents",
+      "summary": "Researchers introduce a training method that uses a dynamic set of evolving scenarios instead of a fixed pool for role‑playing AI agents. The approach aims to improve adaptability in personalized assistance and social simulation tasks.",
+      "whyItMatters": "Dynamic curricula can produce more flexible and robust conversational agents.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.28609"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "twist-benchmark-introduced-for-evaluating-conver-fc509a",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "TWIST Benchmark Introduced for Evaluating Conversational Memory Interventions",
+      "summary": "The TWIST benchmark suite measures how well AI systems update memory and influence user beliefs during long conversations. It fills a gap in existing evaluation tools that overlook intervention quality.",
+      "whyItMatters": "Better benchmarks help track progress on memory handling, a key capability for trustworthy dialogue systems.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.28575"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "basecamp-framework-automates-decision-layers-in-ac78d9",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "BaseCamp Framework Automates Decision Layers in DNA Sequencing Pipelines",
+      "summary": "BaseCamp is an agentic AI framework that automates complex decision‑making steps in DNA sequencing workflows, such as quality control and variant calling. It works alongside existing pipeline tools to streamline genomics processing.",
+      "whyItMatters": "Automation can accelerate genomic analysis and reduce human error in critical biomedical pipelines.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.28557"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "paws-platform-simulates-financial-multi-agent-en-b301ad",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "PAWS Platform Simulates Financial Multi‑Agent Environments with Policy Interventions",
+      "summary": "PAWS is a simulation system that links policy actions to historical financial data, enabling researchers to model how public communication and institutional decisions affect markets. It supports multi‑agent scenarios for economic analysis.",
+      "whyItMatters": "Such simulations can inform policymakers about potential market impacts before real‑world deployment.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.28547"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.28547",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tw3cast-achieves-top-rank-on-gift-eval-benchmark-18734c",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "TW3Cast Achieves Top Rank on GIFT‑Eval Benchmark for Time‑Series Forecasting",
+      "summary": "The TW3Cast system uses a router to select among lightly fine‑tuned foundation models for forecasting tasks, earning third place on the GIFT‑Eval benchmark as of September 2026. Selection is based solely on the training split.",
+      "whyItMatters": "Effective model routing can improve forecasting accuracy without extensive retraining.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.28506"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.28506",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-when-forecasting-agents-should-re-2907ba",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Study Examines When Forecasting Agents Should Reason or Retrieve Information",
+      "summary": "Researchers conduct behavioral stress tests to determine the conditions under which forecasting agents' reasoning and retrieval behaviors are trustworthy. Binary forecasting tasks are used to evaluate reliability.",
+      "whyItMatters": "Identifying reliable agent behaviors helps deploy forecasting systems safely in critical applications.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.28475"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.28475",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "runway-releases-gwm-worlds-2-for-real-time-inter-6c1df0",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Runway Releases GWM Worlds 2 for Real‑Time Interactive Video and Audio Simulation",
+      "summary": "Runway's GWM Worlds 2 preview generates high‑fidelity video and audio in real time, allowing users to create interactive simulations via a new WorldPrompt format. The system lets creators specify environmental details and timed actions.",
+      "whyItMatters": "Real‑time, high‑quality simulation opens new possibilities for entertainment, training, and virtual prototyping.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Entertainment",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://www.latent.space/p/runway"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "opus-5-5-model-released-showcasing-advances-towa-f3e294",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Opus 5.5 Model Released, Showcasing Advances Toward Automated AI Research",
+      "summary": "The Opus 5.5 release presents a large model accompanied by a 230‑page paper discussing its capabilities and the prospect of recursive self‑improvement. The announcement highlights the frontier of automated AI research.",
+      "whyItMatters": "New model releases push the boundaries of what AI systems can autonomously achieve.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "AI Explained",
+          "url": "https://www.youtube.com/watch?v=R9momwXV9w4"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "jobber-adds-model-context-protocol-integrations-fadfce",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Jobber Adds Model Context Protocol Integrations for ChatGPT and Claude",
+      "summary": "Jobber enables home and commercial service businesses to connect their account data directly to ChatGPT and Claude via Model Context Protocol (MCP) integrations. Users can query and automate workflows using their own business context within these AI tools.",
+      "whyItMatters": "Context‑aware AI assistants can streamline operations for service‑oriented businesses.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.prnewswire.com/news-releases/jobber-launches-mcp-bringing-home-and-commercial-service-data-and-workflows-directly-into-chatgpt-and-claude-302890385.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-announces-stateless-model-context-protocol-c-4a5e39",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "AWS Announces Stateless Model Context Protocol Changes for Easier Server Scaling",
+      "summary": "AWS updates the Model Context Protocol specification to remove the need for sticky sessions and shared session stores, allowing any server instance to handle requests. State management is shifted to surrounding infrastructure, simplifying horizontal scaling.",
+      "whyItMatters": "Stateless MCP enables more robust and scalable deployment of AI services.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.infoq.com/news/2026/09/aws-stateless-mcp"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "analysis-of-china-s-approach-to-ai-development-a-329d32",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "Analysis of China's Approach to AI Development and Safety Highlights Divergent AGI Views",
+      "summary": "A recent article compiles interviews with twelve experts on China's AI strategy, revealing that Chinese researchers often envision AGI emerging through robotics and physical world feedback, contrasting with many American perspectives. The piece addresses seven key questions about China's AI roadmap.",
+      "whyItMatters": "Understanding global AI strategies informs international policy and safety coordination.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.derekthompson.org/p/how-china-sees-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-urges-united-states-to-lead-creation-of-g-c0e902",
+      "createdAt": "2026-09-26T05:19:06.070664+00:00",
+      "headline": "OpenAI urges United States to lead creation of global frontier AI standards",
+      "summary": "OpenAI has called for the United States to take the lead in establishing worldwide standards for advanced AI systems. The appeal is part of ongoing discussions about AI governance, safety, and regulation.",
+      "whyItMatters": "Global standards could shape how powerful AI technologies are developed and deployed worldwide.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.edtechinnovationhub.com/news/openai-calls-for-us-led-international-standards-on-frontier-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-09-26T05:28:43.140876+00:00"
+}
