@@ -238,6 +238,244 @@
           "checkedAt": "2026-09-26T22:02:10.103074Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-27T00:44:37.279789+00:00",
+      "newItems": 7,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.297178Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.337979Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.338375Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.338672Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.338846Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339011Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339176Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339358Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339526Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339686Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339846Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339909Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.339957Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.340195Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.340243Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.340436Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.340601Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.340890Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-27T00:44:37.341053Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.341210Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.341390Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.341619Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.341781Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.341942Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.342623Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.342817Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.343003Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.343057Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-27T00:44:37.343100Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -447,7 +685,103 @@
       },
       "id": "2c3ee62b1882f5a7",
       "collectedAt": "2026-09-26T22:02:10.062209+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 497,
+        "trendingScore": 486,
+        "task": "image-text-to-text"
+      },
+      "id": "029c522f3c8e4875",
+      "collectedAt": "2026-09-27T00:44:37.279789+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Chunking Matters in RAG",
+      "url": "https://medium.com/@savitajk8/why-chunking-matters-in-rag-d8230346d825?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T22:18:14Z",
+      "excerpt": "You can use a great LLM. Continue reading on Medium »",
+      "author": "Savitaj K.",
+      "extra": {},
+      "id": "3a8def0f04be2794",
+      "collectedAt": "2026-09-27T00:44:37.279789+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "RAG Isn’t Just Vector Search Anymore",
+      "url": "https://medium.com/@savitajk8/rag-isnt-just-vector-search-anymore-af5bb9deb403?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-26T22:17:10Z",
+      "excerpt": "Imagine building a chatbot over your company’s internal documentation. Continue reading on Medium »",
+      "author": "Savitaj K.",
+      "extra": {},
+      "id": "e2ad7492fefd5d30",
+      "collectedAt": "2026-09-27T00:44:37.279789+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "We need Universal Basic Income before losing your job to AI becomes your financial emergency",
+      "url": "https://www.change.org/p/ai-should-benefit-everyone-establish-federal-universal-basic-income",
+      "publishedAt": "2026-09-26T19:08:41Z",
+      "excerpt": "If you’re reading this, your job could be replaced by AI within the next two years or sooner. Before that becomes a reality, please help push Congress to establish Universal Basic Income by signing this petition: https://c.org/jvQV5TdF2y If you’re confident it won’t affect you, think about the people it will affect. Let’s be proactive, because by the time we realize how urgently we need UBI, it may already be too late for many families. Please, take a minute to sign this petition. While I…",
+      "author": "/u/Karmaa",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1wqyslz/we_need_universal_basic_income_before_losing_your/"
+      },
+      "id": "f89fdf8c49bc032e",
+      "collectedAt": "2026-09-27T00:44:37.279789+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Jev already has an open-weight competitor - Deem 9b",
+      "url": "https://labs.libertai.io/papers/deem-open-machine-reflexes",
+      "publishedAt": "2026-09-26T15:36:00Z",
+      "excerpt": "Just saw that LibertAI released Deem which basically an open-weight alternative to Jev, built on Qwen3.5-9B. It’s still behind Jev on the hard benchmark — 68.9% with extended reasoning vs 74.1% for Jev but considering how new this whole category is I thought it was pretty cool to already see an open model showing up. There’s also a 0.8B version that can run on CPU, which could make this stuff much easier to actually tinker with locally.",
+      "author": "/u/Pokenhagen",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wqtjd4/jev_already_has_an_openweight_competitor_deem_9b/"
+      },
+      "id": "e02d93b92e77405b",
+      "collectedAt": "2026-09-27T00:44:37.279789+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "If the leaks are true that OpenAI’s new persistent agent will be called “o”, then I wonder if this old article about them possibly rebranding to just an “O” is related?",
+      "url": "https://fortune.com/2024/09/20/openai-staffers-unhappy-new-logo-design-ominous/",
+      "publishedAt": "2026-09-26T15:08:10Z",
+      "excerpt": "Article is from September 20th, 2024",
+      "author": "/u/Dullydude",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wqsvem/if_the_leaks_are_true_that_openais_new_persistent/"
+      },
+      "id": "8ccf68a90f690c9d",
+      "collectedAt": "2026-09-27T00:44:37.279789+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "ggml-cpu: tiled mul_mat for k-quants by jbooth · Pull Request #27851 · ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/27851",
+      "publishedAt": "2026-09-26T06:18:19Z",
+      "excerpt": "faster CPU prompt processing: \"TL;DR: 3-7x faster CPU mul_mat using VNNI with IMO minimal complexity\"",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wqj4zg/ggmlcpu_tiled_mul_mat_for_kquants_by_jbooth_pull/"
+      },
+      "id": "91451cf357096dd6",
+      "collectedAt": "2026-09-27T00:44:37.279789+00:00"
     }
   ],
-  "updatedAt": "2026-09-26T22:02:10.062209+00:00"
+  "updatedAt": "2026-09-27T00:44:37.279789+00:00"
 }
