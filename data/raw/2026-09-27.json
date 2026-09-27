@@ -952,6 +952,244 @@
           "checkedAt": "2026-09-27T06:43:49.653168Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-27T13:10:02.549325+00:00",
+      "newItems": 13,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.559728Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.583780Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.583968Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584157Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584247Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584330Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584407Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584479Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584551Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584621Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 24,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584690Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584722Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584745Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584868Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584890Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.584963Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.585043Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.585197Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-27T13:10:02.585269Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.585338Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.585405Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.585515Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.585587Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.585659Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.586011Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.586105Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.586190Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.586215Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-27T13:10:02.586234Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1495,7 +1733,188 @@
       },
       "id": "598842d6b15e4171",
       "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Engineering SupportNova: Dual-Pipeline AI Governance and Deterministic Ground-Truth Validation for…",
+      "url": "https://medium.com/@raomohsin213/engineering-supportnova-dual-pipeline-ai-governance-and-deterministic-ground-truth-validation-for-42d0ed84dfbe?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T12:14:14Z",
+      "excerpt": "By: The SupportNova Engineering Team (Lead: Rao Mohsin) Continue reading on Medium »",
+      "author": "Raomohsin",
+      "extra": {},
+      "id": "7b241ca611135f90",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Your AI Has a Memory. Does It Know When to Forget?",
+      "url": "https://python.plainenglish.io/your-ai-has-a-memory-does-it-know-when-to-forget-69bc8a30e82b?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T10:30:58Z",
+      "excerpt": "A practical AI QA guide to testing cross-session recall, stale preferences, user isolation, and deletion. Continue reading on Python in Plain English »",
+      "author": "Sonia Akther",
+      "extra": {},
+      "id": "94206e9d49a14d40",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Told Google’s AI I’m Not Tech-Savvy.",
+      "url": "https://medium.com/@growgence/i-told-googles-ai-i-m-not-tech-savvy-7968399ee01f?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T09:08:30Z",
+      "excerpt": "Eighteen dials into this experiment series, I have learned that the loudest results come from the quietest sentences. In my last… Continue reading on Medium »",
+      "author": "Growgence",
+      "extra": {},
+      "id": "4047e174826b8bbf",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The AI Cost Trap: We Keep Measuring the Price of AI, Not the Value of the Decision",
+      "url": "https://medium.com/@indr1983bi/the-ai-cost-trap-we-keep-measuring-the-price-of-ai-not-the-value-of-the-decision-b3bcc379fd34?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T08:24:55Z",
+      "excerpt": "Subtitle: AI economics shouldn’t be about making every inference cheaper. Continue reading on Medium »",
+      "author": "Indraneel Chatterjee",
+      "extra": {},
+      "id": "9a029da170fa7dd5",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "SEO vs GEO: what changes for a small business",
+      "url": "https://medium.com/@citedgeo/seo-vs-geo-what-changes-for-a-small-business-103d7a8b3935?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T08:16:32Z",
+      "excerpt": "SEO (search engine optimization) is the work of ranking a page in a list of links. GEO (Generative Engine Optimization) is the work of… Continue reading on Medium »",
+      "author": "CitedGEO",
+      "extra": {},
+      "id": "27a6e8e26657eccc",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "publishedAt": "2026-09-27T10:26:25Z",
+      "excerpt": "",
+      "author": "yu3zhou4",
+      "extra": {
+        "points": 61,
+        "comments": 58,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49865343"
+      },
+      "id": "71ac5a164a1de7a9",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "publishedAt": "2026-09-27T06:19:33Z",
+      "excerpt": "",
+      "author": "papergirl",
+      "extra": {
+        "points": 350,
+        "comments": 300,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49863864"
+      },
+      "id": "9fe0a063f817f4e3",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Scoop: Top AI companies probing tens of thousands of security incidents",
+      "url": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents",
+      "publishedAt": "2026-09-27T01:49:13Z",
+      "excerpt": "",
+      "author": "/u/EvilSporkOfDeath",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wr7oko/scoop_top_ai_companies_probing_tens_of_thousands/"
+      },
+      "id": "4da4891c0271e2fc",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cyera's new $2B valuation, Chamelio's $26M for in-house legal AI, Adlib buys Paperbox - Axios",
+      "url": "https://www.axios.com/pro/pro-rata-premium/2026/09/26/deals-of-the-week-cyera-chamelio-adlib",
+      "publishedAt": "2026-09-26T11:45:05Z",
+      "excerpt": "* **Baseten**, an SF-based AI inference startup, is in talks to raise Series G funding at a $26b valuation, *per Axios Pro*. * **Cyera**, an NYC-based data security company, raised $400m in Series G extension funding from **Goldman Sachs Alternatives** at nearly a $2b post-money valuation. * **Ema**, a Mountain View, Calif.-based developer of enterprise agents, raised $77m in Series B funding. * **Firecrawl**, a library of official data for AI agents, raised $75m in Series B funding. **Smash…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.278
+      },
+      "id": "2adab6e7cbb34acb",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cloudflare AI Wallets Put Agentic Commerce Trust Frameworks to the Test - The Fintech Times",
+      "url": "https://thefintechtimes.com/cloudflare-ai-wallets-put-agentic-commerce-trust-frameworks-to-the-test/",
+      "publishedAt": "2026-09-27T06:00:28Z",
+      "excerpt": "#### ***Cloudflare**‘s launch of digital identity and payment capabilities for AI agents is accelerating a debate the payments industry has been circling for the better part of a year: whether the technical infrastructure for autonomous commerce is moving faster than the trust frameworks required to govern it.*. “For merchants, knowing an AI agent has been authenticated and is acting within a consumer’s delegated permissions is essential if autonomous purchasing is to become a trusted part of…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.213
+      },
+      "id": "649294a452516adb",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Inside Meta's months-long grind to turn Muse into a hit - Business Insider",
+      "url": "https://www.businessinsider.com/meta-ai-success-nat-friedman-muse-launch-2026-9",
+      "publishedAt": "2026-09-26T09:00:02Z",
+      "excerpt": "A year ago, Meta was struggling to convince Silicon Valley that it could keep up in the AI race. Muse, Meta's new personal AI assistant, has rocketed to the top of the App Store and become a victory lap for CEO Mark Zuckerberg's massive AI spending. Meta's Connect conference this week was all about the app, which AI chief Alexandr Wang — who is 29 and has been posting risqué memes of Muse's mascot all week — called a \"banger.\". Getting there required months of painstaking work, a team led by…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.204
+      },
+      "id": "0d6c719d21b95dad",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining - SecurityWeek",
+      "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/amp/",
+      "publishedAt": "2026-09-26T12:00:00Z",
+      "excerpt": "# New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining. The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions. **A threat actor has been selling access to a new Windows botnet that relies on AI to maintain persistence on infected hosts, Qrator reports.**. Dubbed x47.c, it is advertised by a threat actor named WraithTools as providing distributed denial-of-service (DDoS) and credential theft capabilities, SOCKS5 proxies, and an AI API…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.145
+      },
+      "id": "04070da0ce7be54a",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amazon Blocks Shoppers From Using New Meta Agent 09/22/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418166/amazon-blocks-shoppers-from-using-new-meta-agent.html",
+      "publishedAt": "2026-09-27T08:56:47Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Amazon Blocks Shoppers From Using New Meta Agent. Amazon has restricted its customers from using Muse. AI -- Meta’s newest artificial intelligence agent -- while shopping on its ecommerce platform, following denied requests that Meta remove its agent from…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.125
+      },
+      "id": "3072ccb4936de95a",
+      "collectedAt": "2026-09-27T13:10:02.549325+00:00"
     }
   ],
-  "updatedAt": "2026-09-27T06:43:49.587054+00:00"
+  "updatedAt": "2026-09-27T13:10:02.549325+00:00"
 }
