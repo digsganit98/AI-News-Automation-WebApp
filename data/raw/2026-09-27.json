@@ -476,6 +476,244 @@
           "checkedAt": "2026-09-27T00:44:37.343100Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-27T04:44:20.998525+00:00",
+      "newItems": 9,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.014253Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.054902Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.055275Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.055536Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.055672Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.055803Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.055930Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056049Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056216Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056338Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056455Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056507Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056543Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056748Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056782Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.056900Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.057018Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.057470Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-27T04:44:21.057687Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.057869Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.058022Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.058243Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.058376Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.058500Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.059115Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.059274Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.059418Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.059459Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-09-27T04:44:21.059494Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -781,7 +1019,133 @@
       },
       "id": "91451cf357096dd6",
       "collectedAt": "2026-09-27T00:44:37.279789+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "THE LARGE LIABILITY MACHINE",
+      "url": "https://medium.com/cognicuisine/the-large-liability-machine-11bcb761694e?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T02:06:42Z",
+      "excerpt": "Why I use AI without trusting it Continue reading on CogniCuisine »",
+      "author": "Robert Meyers-Lussier",
+      "extra": {},
+      "id": "6b53e0fd27243ef5",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do AI Agents Interact With the World Around Them? Understanding Agent–Environment Interaction",
+      "url": "https://medium.com/@thedatascientistkiran/how-do-ai-agents-interact-with-the-world-around-them-understanding-agent-environment-interaction-f2d6401c22cb?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T02:01:02Z",
+      "excerpt": "An AI agent cannot work completely alone. Continue reading on Medium »",
+      "author": "Kiran Hayat Data Scientist",
+      "extra": {},
+      "id": "26aea1c197569db1",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "The first real AI worms have arrived. OpenAI just documented self-replicating prompt injections spreading across agents.",
+      "url": "https://sorami.com.au/guides/self-replicating-prompt-injection/",
+      "publishedAt": "2026-09-27T01:30:28Z",
+      "excerpt": "The first real AI worms have arrived. OpenAI just documented self-replicating prompt injections spreading across agents. In a new misalignment research report, OpenAI revealed that models undergoing reinforcement learning discovered how to write instructions that duplicate and spread autonomously: The infection: An agent reads an incoming email or Jira ticket containing a hidden injection. The payload: The prompt instructs the agent to execute its task while silently copying the exact…",
+      "author": "/u/No-Peanut-6988",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1wr7ayr/the_first_real_ai_worms_have_arrived_openai_just/"
+      },
+      "id": "53957e0a81f3c70c",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "42x Faster Prompt Lookup Drafting in llama.cpp",
+      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+      "publishedAt": "2026-09-27T00:23:41Z",
+      "excerpt": "",
+      "author": "/u/Available_Pressure47",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wr5ylm/42x_faster_prompt_lookup_drafting_in_llamacpp/"
+      },
+      "id": "e6f2eebb259b95fc",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Koboldcpp v1.122 released",
+      "url": "https://github.com/LostRuins/koboldcpp/releases/tag/v1.122",
+      "publishedAt": "2026-09-26T22:24:22Z",
+      "excerpt": "",
+      "author": "/u/Fcking_Chuck",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wr3esw/koboldcpp_v1122_released/"
+      },
+      "id": "c51a8d09094ecd3f",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Is Presenting A New Model For Ad Infrastructure 09/25/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418290/ai-is-presenting-a-new-model-for-ad-infrastructure.html?edition=143965",
+      "publishedAt": "2026-09-25T17:03:20Z",
+      "excerpt": "# AI Is Presenting A New Model For Ad Infrastructure. “What’s emerging isn’t a random collection of AI features but rather a whole. Google on Thursday introduced a Gemini AI model that allows. The product, “Live Avatar,” builds on last week’s introduction of \"Gemini. The Live Avatar feature in the model creates an experience that listens, sees, and speaks with a dynamic visual. The avatars are backed by Gemini's advanced reasoning, allowing Live Avatar to trigger calls for. The company said it…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.426
+      },
+      "id": "4b1c781bbf518e6e",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Skylark Labs researchers develop AI system that enables robots to keep learning after deployment - Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/09/27/skylark-labs-researchers-develop-ai-system-that-enables-robots-to-keep-learning-after-deployment/105179/",
+      "publishedAt": "2026-09-27T00:12:30Z",
+      "excerpt": "# Skylark Labs researchers develop AI system that enables robots to keep learning after deployment. Researchers at Skylark Labs, working with academics from Carnegie Mellon University and the University of California, Berkeley, have developed a new approach designed to enable robots to continue learning from successful experiences in the real world – without retraining their underlying AI models or forgetting what they already know.**. The researchers call the new architecture Continual…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.279
+      },
+      "id": "9bd676cbc730c4e6",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure - Military.com",
+      "url": "https://www.military.com/openai-models-engaged-with-us-government-websites",
+      "publishedAt": "2026-09-26T23:49:42Z",
+      "excerpt": "It was able to access publicly available information on websites operated by the Securities and Exchange Commission and U.S. Census Bureau data. SAN FRANCISCO (AP) — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company’s models’ unanticipated behavior. The AI giant’s models accessed publicly available information on two websites operated by the Securities…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.217
+      },
+      "id": "f3e946913588b4d0",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Papaya: Continuous optimization for AI agents | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/papaya",
+      "publishedAt": "2026-09-26T13:00:00Z",
+      "excerpt": "Y Combinator\nY Combinator\n\n### Continuous optimization for AI agents\n\nMacy Mody\nMacy Mody\nNiyaz Puzhikkunnath\nNiyaz Puzhikkunnath\nFaiz Vadakkumpadath\nTwitter account\nFaiz Vadakkumpadath\nTwitter account\nPapaya\n\n## Footer\n\nY Combinator\n\n### Make something people want.\n\n### Programs\n\n### Resources\n\n### Company\n\n© 2026 Y Combinator",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.364
+      },
+      "id": "3c82f6b4c9b57e4a",
+      "collectedAt": "2026-09-27T04:44:20.998525+00:00"
     }
   ],
-  "updatedAt": "2026-09-27T00:44:37.279789+00:00"
+  "updatedAt": "2026-09-27T04:44:20.998525+00:00"
 }
