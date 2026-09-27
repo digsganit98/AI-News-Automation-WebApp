@@ -714,6 +714,244 @@
           "checkedAt": "2026-09-27T04:44:21.059494Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-27T06:43:49.587054+00:00",
+      "newItems": 8,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.604708Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.647727Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.648111Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.648424Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.648598Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.648766Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.648931Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649094Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649279Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649445Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649603Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649665Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649714Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649951Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.649999Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.650157Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.650343Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.650742Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-27T06:43:49.650988Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.651215Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.651459Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.651704Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.651866Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.652027Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.652699Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.652884Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.653067Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.653121Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-27T06:43:49.653168Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1145,7 +1383,119 @@
       },
       "id": "3c82f6b4c9b57e4a",
       "collectedAt": "2026-09-27T04:44:20.998525+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Would You Stop a ₹85,000 Fraudulent Transaction?",
+      "url": "https://medium.com/@manish.nakar/how-would-you-stop-a-85-000-fraudulent-transaction-881666ac45bb?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T06:22:27Z",
+      "excerpt": "Building an AI-Powered Fraud Detection System Continue reading on Medium »",
+      "author": "Manish Nakar",
+      "extra": {},
+      "id": "1ad7de89b90f89a0",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "My LangChain Learning Journey: From Simple LLM Calls to Runnables",
+      "url": "https://medium.com/@purushotam.rauniyar/my-langchain-learning-journey-from-simple-llm-calls-to-runnables-61031c89232a?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T04:46:54Z",
+      "excerpt": "When I started learning Generative AI, I could make an LLM answer a question with a few lines of Python. Continue reading on Medium »",
+      "author": "Purushotam Rauniyar",
+      "extra": {},
+      "id": "b8ddf7e09f127c6b",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Best AI Image Generators : Tested Models With the Same Prompt",
+      "url": "https://medium.com/@gawaisgtasleem/best-ai-image-generators-tested-models-with-the-same-prompt-5bba084f893c?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-27T04:44:34Z",
+      "excerpt": "One prompt, eight AI image generators, and a simple question: which model creates the most realistic images? Continue reading on Medium »",
+      "author": "perfcalcpro",
+      "extra": {},
+      "id": "76a845dc4ed9b2c5",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+      "url": "https://swarmcha.se/posts/openai-unctad",
+      "publishedAt": "2026-09-27T01:08:07Z",
+      "excerpt": "",
+      "author": "intunderflow",
+      "extra": {
+        "points": 68,
+        "comments": 61,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49862299"
+      },
+      "id": "efa67a455fc993ea",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI says its models engaged with US government websites in misbehavior disclosure - WSKG",
+      "url": "https://www.wskg.org/npr-news/2026-09-26/openai-says-its-models-engaged-with-us-government-websites-in-misbehavior-disclosure",
+      "publishedAt": "2026-09-26T17:10:04Z",
+      "excerpt": "SAN FRANCISCO — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior. The AI giant's models accessed publicly available information on two websites operated by the Securities and Exchange Commission as well as U.S. Census Bureau data, the company revealed Friday. AI evaluator and research lab Transluce said Friday that…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.103
+      },
+      "id": "44d7a6afd3bc2b27",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "India hasn’t missed AI bus as some foreign media perceive: FM - The Hindu",
+      "url": "https://www.thehindu.com/business/Industry/india-hasnt-missed-ai-bus-as-some-foreign-media-perceive-fm/article71513364.ece",
+      "publishedAt": "2026-09-26T15:29:34Z",
+      "excerpt": "Speaking at an IIT Madras Alumni Association event, Sitharaman said the perception was partly driven by the absence of a significant number of AI companies listed on the National Stock Exchange or Bombay Stock Exchange. Several Indian AI startups, she noted, had already become unicorns or were close to achieving that status. [...] Live Now\n\nNews\n\nNews   India   World   States   Cities\n\nIsrael-US strikes on Iran   Delimitation   Ground Zero   Spotlight\n\nnewsletterimg\n\nThe View From India…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.085
+      },
+      "id": "57a2acc35324cad3",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Markdown replaces JSON as AI's default data format - The Next Web",
+      "url": "https://thenextweb.com/news/markdown-default-language-search-data-ai-models",
+      "publishedAt": "2026-09-26T16:43:00Z",
+      "excerpt": "Across the infrastructure layer that powers AI applications, Markdown has been emerging as a new standard. More providers are turning to it as the default output for anything a model needs to read, and moving beyond JavaScript Object Notation (JSON) as the go-to, one-size-fits-all format. This real, ongoing shift reflects how large language models are trained, how chat interfaces render answers, and how developers actually build with tokens, context windows, and cost in mind. That exposure…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.02
+      },
+      "id": "2585105e60fbde87",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI & Tech Brief: Pacing AI without Washington - washingtonpost.com",
+      "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/09/25/ai-tech-brief-pacing-ai-without-washington/",
+      "publishedAt": "2026-09-25T23:10:01Z",
+      "excerpt": "# AI & Tech Brief: Pacing AI without Washington. Foreign countries could shape international AI regulation even if Washington doesn’t come to the table. Make us preferred on Google. Sign up here to get this newsletter in your inbox. * AI industry executives and heads of state discussed ideas for international AI governance at a convening Thursday at the United Nations General Assembly in New York. “Middle-power” nations may have more power than people think to steer AI development. * A rundown…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.114
+      },
+      "id": "598842d6b15e4171",
+      "collectedAt": "2026-09-27T06:43:49.587054+00:00"
     }
   ],
-  "updatedAt": "2026-09-27T04:44:20.998525+00:00"
+  "updatedAt": "2026-09-27T06:43:49.587054+00:00"
 }
