@@ -476,6 +476,244 @@
           "checkedAt": "2026-09-28T00:58:21.857618Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-28T04:54:33.177989+00:00",
+      "newItems": 26,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.195377Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.235745Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.236081Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.236407Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.236585Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.236754Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.236917Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237078Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237268Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237432Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237587Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237647Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237694Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237934Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.237983Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.238144Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.238358Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.238653Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-28T04:54:33.238815Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.238973Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.239129Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.239390Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.239555Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.239720Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.240379Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.240578Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.240761Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.240817Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-28T04:54:33.240860Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -753,7 +991,362 @@
       },
       "id": "bbb4177d72f77638",
       "collectedAt": "2026-09-28T00:58:21.793025+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+      "url": "https://huggingface.co/papers/2609.31394",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "excerpt": "World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics, scene semantics, geometry, and motion---into a unified framework for robot action generation. We introduce InternW0-Δ, a unified WAM pretrained on a heterogeneous corpus that outperforms prior methods across simulation benchmarks and real-robot platforms.\n  InternW0-Δ combines…",
+      "author": "Xingyu Miao, Zizun Li, Baole Fang, Kaiwen Song, Tenghui Wang, Hanxue Zhang, Yating Wang, Xudong Li, Yuping He, Xueyuan Wei, Chao Gao, Xijie Yang, Yingxiang Xu, Kerui Ren, Wenqi Guo, Jianjun Zhou, Xinzhe Wang, Weiguang Zhao, Ni Yang, Zetao Cai, Yufei Xue, Hengjie Li, Zeyu He, Yuanzhen Zhou, Rong Fu, Jianyang Zhang, Siwei Cui, Fuxian Huang, Yunsong Zhou, Xing Gao, Yifei Yao, Qiaojun Yu, Kailin Li, Ming Zhou, Mu Huang, Xinyue Li, Wenze Cui, Bingqi Jiang, Xueyue Zhu, Junting Dong, Haoyu Guo, Tao Lu, Mulin Yu, Bowen Zhou, Bin Zhao, Tianfan Xue, Weinan Zhang, Chunhua Shen",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": "https://internrobotics.github.io/InternW0-Delta/",
+        "arxivUrl": "https://arxiv.org/abs/2609.31394"
+      },
+      "id": "c4afdfa0e44d015d",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "url": "https://huggingface.co/papers/2609.31620",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "excerpt": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details better, while deeper layers tend to yield better generation metrics. A fixed heuristic layer fusion…",
+      "author": "Hongyang Du, Yunfei Xie, Junjie Ye, Jiawei Yang, Xiaoyan Cong, Haodong Zhang, Yongchao Huang, Haiyu Wu, Zongxia Li, Shihang Gui, Dawei Liu, Runhao Li, Jingcheng Ni, Chen Wei, Randall Balestriero, Yue Wang",
+      "extra": {
+        "upvotes": 46,
+        "githubRepo": "https://github.com/Hongyang-Du/FuseReg",
+        "projectPage": "https://hongyang-du.github.io/FuseReg/",
+        "arxivUrl": "https://arxiv.org/abs/2609.31620"
+      },
+      "id": "c9515cbd2e634ffd",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: XingChen-AGI/TeleOCR",
+      "url": "https://huggingface.co/XingChen-AGI/TeleOCR",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 617,
+        "trendingScore": 516,
+        "task": "image-text-to-text"
+      },
+      "id": "3280d88cfc32724f",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
+      "url": "https://arxiv.org/abs/2609.30289",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30289v1 Announce Type: new \nAbstract: In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve member-specific observations, execution traces, and intermediate progress. Existing memory-augmented systems typically retrieve from all stored memories as a flat pool, ranking them by semantic relevance, importance, or recency without modeling…",
+      "author": "Yufei Shi, Rujing Yao, Ang Li, Yang Wu, Zhuoren Jiang, Xiaozhong Liu",
+      "extra": {},
+      "id": "a72f36c603737ac3",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
+      "url": "https://arxiv.org/abs/2609.30290",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30290v1 Announce Type: new \nAbstract: Production text-to-SQL pipelines often end with an LLM-as-judge whose agreement with human annotators has never actually been measured. When we checked ours, the deployed gpt-4o-mini judge agreed with two-author gold at only Cohen's kappa = 0.04 on a disagreement-enriched set and 0.42 on a uniform-random spot-check, over-flagging 77.1% of the human-FAITHFUL cases in the enriched set. Most of its over-flags trace back to a single mechanism we…",
+      "author": "Haowei Liu, Hsin-Tai Wu, Yi Fang",
+      "extra": {},
+      "id": "89cfa475c2cdfc02",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "A Survey on Fake Review Detection: From Pre-trained Language Models to Large Language Models",
+      "url": "https://arxiv.org/abs/2609.30292",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30292v1 Announce Type: new \nAbstract: Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems, recommendation pipelines, and public trust mechanisms.The rise of large language models, or LLMs, has changed the problem in two directions.LLMs can generate fluent and context-aware deceptive reviews, while pre-trained language models, or PLMs, and LLMs also…",
+      "author": "Fanji Yang (Guizhou University of Finance and Economics), Huiyao Chen (Harbin Institute of Technology), Xi Yu (Guizhou University of Finance and Economics), Meishan Zhang (Harbin Institute of Technology), Xiaohong Xiao (Guizhou University of Commerce), Mingsen Deng (Guizhou University of Finance and Economics)",
+      "extra": {},
+      "id": "e421d3f963f49792",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
+      "url": "https://arxiv.org/abs/2609.30293",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30293v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) enables AI agents to discover and call tools, but loading every definition becomes expensive as connected catalogs grow. We present Cartograph, a federated MCP proxy that changes agent-visible tool discovery from $O(n)$ catalog traversal to $O(k)$ progressive disclosure. Cartograph combines three mechanisms: (1) operator-attested capability cards, Ed25519-signed descriptions generated under the deploying…",
+      "author": "Justice Owusu Agyemang, Michael Agyare, Kwame Opuni-Boachie Obour Agyekum, Kwame Agyeman-Prempeh Agyekum, Francisca Adoma Acheampong, Jerry John Kponyo",
+      "extra": {},
+      "id": "aa9903feed237588",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "SlideLab: Audience-Centered Scientific Slide Generation and Evaluation",
+      "url": "https://arxiv.org/abs/2609.30294",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30294v1 Announce Type: new \nAbstract: Scientific presentations are more than summaries of research papers. They need to present the work in a coherent sequence, explain the main ideas clearly, and help the audience follow the presentation. We present SlideLab, a training-free multi-agent framework for generating scientific presentations from research papers. SlideLab first plans the presentation narrative, then builds and iteratively refines a shared slide deck using agents for…",
+      "author": "Vidushee Vats, Karun Sharma, Yuxia Wang",
+      "extra": {},
+      "id": "b394df1ecc069ffe",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops",
+      "url": "https://arxiv.org/abs/2609.30297",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30297v1 Announce Type: new \nAbstract: Conversational recommendation agents are a new paradigm for content discovery, enabling users to express complex intents through natural language (e.g., \"recommend Italian indie artists I haven't heard before\"). A central challenge in building such agents is optimizing agent planning -- deciding how to select, sequence, and invoke tools -- particularly in cold-start settings where real user interactions are not yet available. We introduce a…",
+      "author": "Enrico Palumbo, Alexandre Tamborrino, Victor Ode, Ben Lacker, Adri\\`a Casas Escoda, Jeremy Hopple, Marcus Better, James Leoni, Hugo Galv\\~ao, Hugues Bouchard, Mounia Lalmas, Jos\\'e Luis Redondo Garc\\'ia, Abenezer Abebe, Ann Clifton, Anton Blomberg, Henrik Lindstr\\\"om, Dani Doro, Christine Doig Cardet",
+      "extra": {},
+      "id": "e01dfab93863502a",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "A Benchmark Framework for Screening Automation in Systematic Reviews",
+      "url": "https://arxiv.org/abs/2609.30298",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30298v1 Announce Type: new \nAbstract: Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity to reduce this workload by assisting with article relevance classification. However, existing evaluation approaches often rely on traditional metrics that may be misleading for highly imbalanced SR screening datasets.This paper presents a benchmark…",
+      "author": "Gauransh Kumar, Luciano Marchezan, Guillaume Genois, K\\'evin Delcourt, Eugene Syriani",
+      "extra": {},
+      "id": "4d149b4eb8dfac4e",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "url": "https://arxiv.org/abs/2609.30325",
+      "publishedAt": "2026-09-28T04:00:00Z",
+      "excerpt": "arXiv:2609.30325v1 Announce Type: new \nAbstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real barrier to deployment is a special case of alignment: scope adherence. We introduce ScopeBench, a benchmark of 30 dead-end agentic security tasks in which…",
+      "author": "Shane Caldwell, Max Harley, Ads Dawson, Michael Kouremetis, Vincent Abruzzo, Will Pearce",
+      "extra": {},
+      "id": "3b64b7e40e5ebfea",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Prompt Injection Still Works — Even With AI Guardrails",
+      "url": "https://medium.com/@TheCraftedDev/why-prompt-injection-still-works-even-with-ai-guardrails-d2251c1185db?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T04:34:57Z",
+      "excerpt": "You ask an AI agent: “Summarize my unread emails and highlight the action items.” Continue reading on Medium »",
+      "author": "TheCraftedDev",
+      "extra": {},
+      "id": "4de305e7c08991b3",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Video: Choosing First, Last, and Reference Images",
+      "url": "https://medium.com/@sophiaxu0506/ai-video-choosing-first-last-and-reference-images-6edc1c885369?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T03:07:09Z",
+      "excerpt": "Two approved stills do not tell you whether the movement between them will make sense. Continue reading on Medium »",
+      "author": "Sophiaxu",
+      "extra": {},
+      "id": "abfc9ffbb67f6bb2",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Chat GPT Works: A Beginner-Friendly Guide to Generative AI",
+      "url": "https://medium.com/@harshadayewale11/how-chat-gpt-works-a-beginner-friendly-guide-to-generative-ai-52637f3f313e?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T03:07:04Z",
+      "excerpt": "Artificial Intelligence has become a part of everyday life. One of the most widely known AI tools is Chat GPT. Continue reading on Medium »",
+      "author": "HarshadaYewale",
+      "extra": {},
+      "id": "a648bde90655797f",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do AI Agents Learn From Their Actions? Understanding Feedback Loops in Agentic AI",
+      "url": "https://medium.com/@thedatascientistkiran/how-do-ai-agents-learn-from-their-actions-understanding-feedback-loops-in-agentic-ai-adcf58344404?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T02:01:03Z",
+      "excerpt": "Imagine an AI agent searches for five research papers. Continue reading on Medium »",
+      "author": "Kiran Hayat Data Scientist",
+      "extra": {},
+      "id": "f64a8ca87f262c00",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Built Operational Memory Because ChatGPT Kept Forgetting Where We Left Off",
+      "url": "https://medium.com/@christophercaruso/i-built-operational-memory-because-chatgpt-kept-forgetting-where-we-left-off-9c63877a0789?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T01:45:38Z",
+      "excerpt": "What happened when I stopped thinking about AI memory as “remember more” and started treating it as operational state. Continue reading on Medium »",
+      "author": "Christopher Caruso",
+      "extra": {},
+      "id": "e7506120015d5c6a",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "FT: Corporate America rejects overpriced frontier, embraces open models",
+      "url": "https://archive.ph/https://www.ft.com/content/d9de4776-1fc9-4f2b-aaaf-9961c35d8acd",
+      "publishedAt": "2026-09-28T00:03:49Z",
+      "excerpt": "",
+      "author": "/u/chocolateUI",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wrzpzg/ft_corporate_america_rejects_overpriced_frontier/"
+      },
+      "id": "dc5271a13a39c8e7",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "2026 in LLMs (so far)",
+      "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "excerpt": "Photos from How the OpenClaw Frenzy Is Testing China’s AI Commitment (March 29th) and The Enthusiasm and Anxiety Behind China’s OpenClaw Craze (April 8th, 2026).\n\nApril \n\n#\n\nIn April, we had a model release where the model wasn’t actually released.\n\nSimon Willison’s Weblogs - screenshot of the post \n\n#\n\nAnthropic announced their new Claude Mythos model, and then said it was too dangerous to release beyond a trusted group of security researchers. [...] #\n\nI’m going to give a lightning tour of…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.726
+      },
+      "id": "193eb09a66e5b52a",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft releases .NET SDK for AG-UI agent-user interaction protocol",
+      "url": "https://www.infoworld.com/article/4227233/microsoft-releases-net-sdk-for-ag-ui-agent-user-interaction-protocol.html",
+      "publishedAt": "2026-09-27T00:00:00Z",
+      "excerpt": "### Visual Studio Code 1.136 introduces agent merges for pull requests\n\n  Sep 4, 2026 2 mins\n news\n\n  ### Rust 1.98.1 fixes miscompilation bug\n\n  Sep 3, 2026 2 mins\n\n## Show me more\n\nnews\n\n### Microsoft releases .NET SDK for AG-UI agent-user interaction protocol\n\nBy Paul Krill\n\nSep 27, 20263 mins\n\nDevelopment ToolsGenerative AIMicrosoft .NET\n\nImage\n\nnews\n\n### OpenAI wants you to use AI — but not to train its AI\n\nBy Maxwell Cooter\n\nSep 25, 20262 mins\n\nArtificial IntelligenceCareersIT Training…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.65
+      },
+      "id": "cdbca3711c94ab1e",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amazon Opens Seller Tools To Anthropic Agent, Supports Ads 09/24/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418249/amazon-opens-seller-tools-to-anthropic-agent-supp.html",
+      "publishedAt": "2026-09-27T06:22:47Z",
+      "excerpt": "# Amazon Opens Seller Tools To Anthropic Agent, Supports Ads. Amazon has announced new AI tools for its sellers across the. marketplace with a plugin that enables them to run their businesses from Anthropic Claude and \"Amazon Quick\" assistants. The connection between Seller Assistant, the first. iteration of the tool, which launched in 2023, now has been updated to provide a memory of each seller's pricing patterns, inventory cycles, and growth goals that can follow them in any Amazon.…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.093
+      },
+      "id": "f07d70c7b7b7cd58",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Everyone is racing to create an AI device. Meta thinks it has one - NPR",
+      "url": "https://www.npr.org/2026/09/27/nx-s1-5980407/everyone-is-racing-to-create-an-ai-device-meta-thinks-it-has-one",
+      "publishedAt": "2026-09-27T00:00:00Z",
+      "excerpt": "* Keyboard shortcuts for audio player. **Everyone is racing to create an AI device. Meta thinks it has one** **Tech companies are betting that people will connect with AI using something other than smartphones. Meta is going all-in on glasses, after launching its new AI agent Muse.**. ### Business. Meta thinks it has one. Heard on Weekend Edition Sunday. **Audio will be available later today.**. Tech companies are betting that people will connect with AI using something other than smartphones.…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.034
+      },
+      "id": "4536eae1af4fdda9",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta Is Gambling $200 Billion Year On AI 09/28/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418327/meta-is-gambling-200-billion-year-on-ai.html?edition=143965",
+      "publishedAt": "2026-09-27T22:29:44Z",
+      "excerpt": "# Meta Is Gambling $200 Billion Year On AI. Meta is taking a structurally irreversible gamble worth roughly $200 billion in annual capital expenditure to prove that its AI vision works, BigGo writes in an analysis. The bull side of the. The bull case is that Meta’s lease and other obligations may outlast the. Google on Thursday introduced a Gemini AI model that allows. The Live Avatar feature in the model creates an experience that listens, sees, and speaks with a dynamic visual. The avatars…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.025
+      },
+      "id": "2716c30074ac7958",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How Can Everyday People Participate in the AI Infrastructure Boom? 51AIpower Explains the AI Token Economy - markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/how-can-everyday-people-participate-in-the-ai-infrastructure-boom-51aipower-explains-the-ai-token-economy-1036576439",
+      "publishedAt": "2026-09-27T18:33:44Z",
+      "excerpt": "# How Can Everyday People Participate in the AI Infrastructure Boom? Beyond buying shares of AI-related companies such as NVIDIA, building an AI product requires technical expertise, training models requires specialized teams, and developing data centers or purchasing GPUs is far beyond what most individuals can realistically do. That raises an increasingly practical question: If you do not know how to code or have the resources to build an AI company, how can you participate in the AI boom?…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.022
+      },
+      "id": "c1a9aca5a623484f",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft overhauls Copilot to take on AI rivals like Anthropic - CNBC",
+      "url": "https://www.cnbc.com/video/2026/09/27/microsoft-overhauls-copilot-to-take-on-ai-rivals-like-anthropic.html",
+      "publishedAt": "2026-09-28T01:50:47Z",
+      "excerpt": "Microsoft overhauls Copilot to take on AI rivals like Anthropic. CNBC's MacKenzie Sigalos reports on Microsoft's revamped Copilot app, its shift to usage-based pricing, and its push to catch up with OpenAI and Anthropic. Inside the race to make the critical layer beneath AI chips. Japan has raised rates and bought yen. Here’s why strengthening the currency remains difficult. Highly probable 10-year Treasury yield will hit 6% by January, says FedWatch's Ben Emons. OpenAI says its agents leaked…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.022
+      },
+      "id": "784bf2e661bb7d37",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "PR Newswire Launches AEO & GEO Report for AI Brand ...",
+      "url": "https://www.prnewswire.com/apac/news-releases/pr-newswire-launches-aeo--geo-report-for-ai-brand-visibility-in-apac-region-302890305.html",
+      "publishedAt": "2026-09-28T02:00:00Z",
+      "excerpt": "HONG KONG, Sept. 28, 2026 /PRNewswire/ -- AI-powered search and generative answer engines are reshaping how audiences discover and evaluate brands, and communicators are increasingly seeking data-driven insights into their organization's presence within this evolving landscape. To empower PR professionals and marketing and investor relations teams to move beyond traditional SEO metrics and take their AI visibility to the next level, PR Newswire is introducing the AEO & GEO Brand Report. The…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.558
+      },
+      "id": "62996dac64b71c3f",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How to Make a Product Launch Video With AI From Existing Assets | TechView Africa",
+      "url": "https://techviewafrica.com/articles/how-to-create-a-product-launch-video-with-ai-from-assets-you-already-have",
+      "publishedAt": "2026-09-27T11:16:57Z",
+      "excerpt": "For a first 30-second startup film, Resolve may be unnecessary. It becomes more useful when launch-video production becomes a repeated part of the company's marketing.\n\n### Add branding after the AI generation\n\nUse the editor not the generative model for critical text whenever possible.\n\nAdd:\n\n headlines;\n genuine interface labels;\n your logo;\n website address;\n prices or statistics;\n captions;\n final call to action. [...] Generative video can distort typography. Conventional editors give you…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.429
+      },
+      "id": "6ca239aace35eb5a",
+      "collectedAt": "2026-09-28T04:54:33.177989+00:00"
     }
   ],
-  "updatedAt": "2026-09-28T00:58:21.793025+00:00"
+  "updatedAt": "2026-09-28T04:54:33.177989+00:00"
 }
