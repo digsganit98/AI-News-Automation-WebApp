@@ -4,7 +4,7 @@ import NewsFeed from "../components/NewsFeed";
 import StoryCard from "../components/StoryCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
-  GROUPS, formatDay, href, iconMap, isNews, loadDays, loadSources, loadTopStories, sortNewestFirst,
+  GROUPS, formatDay, href, iconMap, isFeedItem, loadDays, loadSources, loadTopStories, sortNewestFirst,
   toFeedItem, toFeedSources,
 } from "../lib/siteData";
 
@@ -13,8 +13,8 @@ const sources = loadSources();
 const latest = days[0];
 // Today and yesterday, so the feed always covers at least the last 24 hours.
 // News only: research papers have their own page, Paper Trail.
-const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items).filter(isNews)).map(toFeedItem);
-const newsToday = latest?.items.filter(isNews).length ?? 0;
+const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items).filter(isFeedItem)).map(toFeedItem);
+const newsToday = latest?.items.filter(isFeedItem).length ?? 0;
 const buildTime = new Date().toISOString();
 // The analyst's stories from today and yesterday, most important first.
 const topStories = loadTopStories(2).slice(0, 9);

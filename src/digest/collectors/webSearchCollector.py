@@ -33,10 +33,11 @@ def queriesForThisRun(queries: list[str], perRun: int, now: datetime | None = No
 
 
 def parseResults(data: dict, query: str, collector: Collector) -> list[RawItem]:
+    minScore = float(collector.source.opt("minScore", 0))  # the engine's relevance, 0-1
     items = []
     for result in data.get("results", []):
         url, title = result.get("url"), (result.get("title") or "").strip()
-        if not url or not title:
+        if not url or not title or float(result.get("score") or 0) < minScore:
             continue
         published = None
         if result.get("published_date"):

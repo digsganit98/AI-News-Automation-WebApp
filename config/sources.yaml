@@ -16,6 +16,23 @@ settings:
     [reddit.com, redd.it, news.ycombinator.com, x.com, twitter.com, imgur.com, youtube.com,
      youtu.be, instagram.com, facebook.com, tiktok.com, threads.net, quora.com, discord.com, t.me,
      linkedin.com]
+  # Content safety. An item whose title or summary matches any of these (case-insensitive
+  # regular expressions) is dropped from EVERY source before the agents or the website see it:
+  # sexual or explicit content, and racist, sexist, misogynistic, hateful or anti-religious
+  # content. The website applies the same list to data already collected. Add terms freely.
+  # Note: this also drops neutral news that uses these words (e.g. research on racist bias
+  # in AI models); that's intended, to keep the site clean.
+  blockedTerms:
+    - '\b(sex|sexy|sexual\w*|sexting|porn\w*|nsfw|nude\w*|nudity|naked|nudify\w*|undress\w*)\b'
+    - '\b(erotic\w*|xxx|hentai|onlyfans|escorts?|fetish\w*|camgirls?|strip ?club\w*)\b'
+    - '\b(adult (content|chat|site|video|entertainment|industry)|ai (girlfriend|boyfriend)s?)\b'
+    - '\b(deepfake (porn|nudes?)|explicit (images?|content|videos?))\b'
+    - '\b(racis[mt]\w*|sexis[mt]\w*|misogyn\w*|misandr\w*|bigot\w*|white suprem\w*|neo-?nazi\w*)\b'
+    - '\b(hate speech|slurs?|ethnic cleansing|genocid\w*)\b'
+    - '\banti-?(religio\w*|muslim\w*|islam\w*|hindu\w*|christian\w*|catholic\w*|jew\w*|semit\w*|sikh\w*|buddhis\w*)\b'
+    - '\b(islamophob\w*|hinduphob\w*|christianophob\w*|blasphem\w*|religious hatred)\b'
+    - '\b(murder\w*|terroris[mt]\w*|terrorists?|massacre\w*|gore|gory|behead\w*|mass shooting\w*|shooting spree)\b'
+    - '\b(bomb-?making|bioweapon\w*|chemical weapon\w*|kill(s|ed|ing)? (people|civilians)|self-harm|suicid\w*)\b'
 
 sources:
   # --- AI labs and research blogs (RSS feeds) ---

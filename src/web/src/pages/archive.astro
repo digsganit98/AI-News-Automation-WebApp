@@ -1,7 +1,7 @@
 ---
 // Archive: the last 5 days, reached from the calendar icon in the header.
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { ARCHIVE_DAYS, formatDay, href, iconMap, isNews, loadDays, loadDigests, loadSources } from "../lib/siteData";
+import { ARCHIVE_DAYS, formatDay, href, iconMap, isFeedItem, loadDays, loadDigests, loadSources } from "../lib/siteData";
 
 const days = loadDays().slice(0, ARCHIVE_DAYS);
 const icons = iconMap(loadSources());
@@ -15,7 +15,7 @@ const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
   <div class="mt-8 grid gap-3">
     {days.length === 0 && <p class="card p-6 text-ink-muted">Nothing collected yet.</p>}
     {days.map((day) => {
-      const news = day.items.filter(isNews);
+      const news = day.items.filter(isFeedItem);
       const bySource = Object.entries(
         news.reduce<Record<string, number>>((acc, i) => ({ ...acc, [i.source]: (acc[i.source] ?? 0) + 1 }), {}),
       ).sort((a, b) => b[1] - a[1]);

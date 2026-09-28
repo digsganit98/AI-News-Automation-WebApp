@@ -81,6 +81,18 @@ export function loadSources(): SourceInfo[] {
   }));
 }
 
+// Content safety: the same `blockedTerms` the pipeline uses (config/sources.yaml), applied
+// again here so nothing that breaks the content policy is ever shown, even in older data.
+let blockedTerms: RegExp[] | undefined;
+
+export function isBlocked(text: string): boolean {
+  blockedTerms ??= (
+    (YAML.parse(fs.readFileSync(path.join(repoRoot, "config", "sources.yaml"), "utf8")).settings
+      ?.blockedTerms ?? []) as string[]
+  ).map((term) => new RegExp(term, "i"));
+  return blockedTerms.some((re) => re.test(text));
+}
+
 export function loadDays(): DayFile[] {
   const dir = path.join(repoRoot, "data", "raw");
   if (!fs.existsSync(dir)) return [];
@@ -89,7 +101,14 @@ export function loadDays(): DayFile[] {
     .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
     .sort()
     .reverse()
-    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as DayFile);
+    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as DayFile)
+    .map((day) => ({ ...day, items: day.items.filter((i) => !isBlocked(`${i.title} ${i.excerpt}`)) }));
+}
+
+/** Items the news feeds (Latest, Archive) show: news, not papers, and not raw web-search
+ * results. Web search finds leads; they reach the site only as a story an agent reviewed. */
+export function isFeedItem(item: NewsItem): boolean {
+  return isNews(item) && item.source !== "web-search";
 }
 
 export function itemTime(item: NewsItem): string {
@@ -238,11 +257,21 @@ export function loadTopStories(days = 2): Story[] {
   const files = readDatedFiles<{ date: string; stories: Story[] }>("stories").slice(0, days);
   return files
     .flatMap((f) => f.stories)
+    .filter((s) => !isBlocked(storyText(s)))
     .sort((a, b) => b.importance - a.importance || b.createdAt.localeCompare(a.createdAt));
 }
 
+const storyText = (s: Story) => `${s.headline} ${s.summary} ${s.whyItMatters}`;
+
+/** Editions whose text breaks the content policy are never shown (the pipeline also checks). */
 export function loadDigests(): DigestFile[] {
-  return readDatedFiles<DigestFile>("digests");
+  return readDatedFiles<DigestFile>("digests").filter(
+    (d) =>
+      !isBlocked(
+        [d.digest.headline, d.digest.dek, d.digest.intro, ...d.digest.tldr, d.opEd.title, d.opEd.dek,
+          ...d.opEd.paragraphs, ...Object.values(d.stories).map(storyText)].join(" "),
+      ),
+  );
 }
 
 export const IMPORTANCE_LABEL: Record<number, string> = {
@@ -281,7 +310,7 @@ export const LOG_COLUMNS = [
 /** Stories from the newest `days` story files, newest first. */
 export function loadRecentStories(days = 7): Story[] {
   const files = readDatedFiles<{ date: string; stories: Story[] }>("stories").slice(0, days);
-  return files.flatMap((f) => [...f.stories].reverse());
+  return files.flatMap((f) => [...f.stories].reverse()).filter((s) => !isBlocked(storyText(s)));
 }
 
 // ------------------------------------------------------------------ Paper Trail

@@ -3,7 +3,7 @@
 import NewsFeed from "../../components/NewsFeed";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
-  ARCHIVE_DAYS, GROUPS, type DayFile, formatDay, href, iconMap, isNews, loadDays, loadSources,
+  ARCHIVE_DAYS, GROUPS, type DayFile, formatDay, href, iconMap, isFeedItem, loadDays, loadSources,
   sortNewestFirst, toFeedItem, toFeedSources,
 } from "../../lib/siteData";
 
@@ -16,7 +16,7 @@ export function getStaticPaths() {
 const { day } = Astro.props as { day: DayFile };
 const sources = loadSources();
 // News only: that day's papers are in Paper Trail.
-const news = day.items.filter(isNews);
+const news = day.items.filter(isFeedItem);
 const items = sortNewestFirst(news).map(toFeedItem);
 ---
 

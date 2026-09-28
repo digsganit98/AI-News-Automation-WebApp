@@ -15,9 +15,11 @@ def _read(name: str) -> str:
 
 
 def loadPrompt(name: str, **values: object) -> str:
-    """Read prompts/<name>.md and fill its {placeholders}."""
+    """Read prompts/<name>.md, fill its {placeholders}, and add the content policy
+    (prompts/contentPolicy.md), which every agent must follow."""
     text = _read(name)
-    return text.format(**values) if values else text
+    text = text.format(**values) if values else text
+    return text + _read("contentPolicy")
 
 
 def untrusted(data: object, label: str = "items") -> str:

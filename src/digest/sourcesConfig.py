@@ -38,6 +38,7 @@ class Settings(BaseModel):
     windowHours: int = 36
     requestTimeout: float = 30.0
     notArticleHosts: list[str] = []  # discussion/social sites: a link there isn't an article
+    blockedTerms: list[str] = []  # content safety: items matching any of these are dropped
 
 
 class Config(BaseModel):

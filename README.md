@@ -27,6 +27,7 @@ Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research 
 - [What you get](#what-you-get)
 - [How it works](#how-it-works)
 - [How we keep the AI honest](#how-we-keep-the-ai-honest)
+- [Responsible AI](#responsible-ai)
 - [Use it](#use-it)
 - [Run your own copy](#run-your-own-copy)
 - [Configuration](#configuration)
@@ -99,6 +100,20 @@ Manual starts like this aren't delayed the way schedules are, and `editionIfMiss
 - **Scraped text is treated as data.** It's fenced off, so instructions hidden in a web page are ignored.
 - **A test set measures it.** `uv run digest eval` runs the real agents on 20 saved cases, including tutorials to drop, fake claims, two prompt-injection traps and a planted wrong number. It scores 6 checks (keep/drop accuracy, numbers found in the source, duplicates merged, traps ignored, no invented links, editor catches the error). The current score is **100/100**.
 - **Everything is visible in Langfuse:** each run, each agent and each LLM call, with tokens and errors, plus scores such as stories, failed calls, editor approval and hallucination catches.
+
+## Responsible AI
+
+GenAI Daily covers AI that advances people. These rules are enforced in code and in every AI prompt, not left to chance:
+
+- **Content policy.** No sexual or explicit content, nothing racist, sexist, misogynistic, hateful or anti-religious, and nothing that promotes violence, weapons, terrorism or self-harm. No gossip, outrage bait or fear-mongering.
+- **Checked three times.** (1) At collection, a block list (`blockedTerms` in [`config/sources.yaml`](config/sources.yaml)) drops matching items from every source before any AI or page sees them. (2) Every agent prompt includes the policy ([`contentPolicy.md`](src/digest/agents/prompts/contentPolicy.md)). (3) Before anything is saved, code checks what the AI wrote: a story that breaks the policy is removed, and an edition that does is withheld. The website applies the block list once more to everything it shows.
+- **Only reviewed content is published.** Raw web-search results are never shown; they reach the site only as a story an AI agent reviewed. Raw feeds come from known sources only.
+- **Transparent.** AI-written content is labelled (the op-ed is marked "AI-written opinion"), every story links to its original sources, and every AI call is logged in Langfuse.
+- **Grounded and fact-checked.** The AI can't invent links, and an editor agent checks every edition against the original articles (see above).
+- **Privacy.** No personal data is collected or stored; the site has no accounts, tracking or ads. (The planned email list will store only an email address, outside this public repo.)
+- **Human in charge.** The policy, block list and prompts are plain files anyone can read and change; a missing or withheld edition alerts the owner by email.
+
+The block list is strict on purpose: it can also drop neutral news that uses a listed word (for example research on bias in AI). Edit the list to change that.
 
 ## Use it
 

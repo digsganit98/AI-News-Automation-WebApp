@@ -16,6 +16,7 @@ from digest.dataModels import CollectionResult, RawItem, SourceHealth
 from digest.envSettings import env
 from digest.processing.articleFilter import keepArticlesOnly
 from digest.processing.cleanItems import normalize
+from digest.processing.contentSafety import blockedPattern, dropBlocked
 from digest.processing.removeDuplicates import inWindow
 from digest.processing.titleFilter import applyTitleFilter
 from digest.sourcesConfig import Config, SourceConfig
@@ -78,5 +79,9 @@ async def collectSources(
         results = await asyncio.gather(*(_runOne(s, client, since, hosts) for s in sources))
 
     items = [item for batch, _ in results for item in batch]
-    items = inWindow(normalize(items), since)
+    # Content safety, for every source: blocked items never reach the agents or the site.
+    safe = dropBlocked(items, blockedPattern(config.settings.blockedTerms))
+    if len(safe) < len(items):
+        log.info("Content safety: dropped %d items", len(items) - len(safe))
+    items = inWindow(normalize(safe), since)
     return CollectionResult(runAt=runAt, items=items, health=[h for _, h in results])
