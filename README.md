@@ -75,11 +75,11 @@ Each page has one job: news on Latest, papers on Paper Trail, the morning editio
 
 If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. Every request is sized to fit **every** model in its chain, including Groq's 8,000 tokens a minute: the writer drops its least important stories, and the editor shortens the original articles it checks until the request fits. So when Gemini is busy, Groq can always write and check the edition. A daily budget keeps calls within the free tiers and saves 25 calls for the morning edition.
 
-**Edition on time.** GitHub often starts scheduled runs 30 minutes to 2 hours late, or skips them. So the edition isn't tied to one slot: four attempts run between 07:40 and 09:05 IST. The first one GitHub actually starts writes the edition (about 10 minutes), and the rest see it's done and stop at once, with no LLM calls. Any other run after 07:30 IST that finds no edition writes it too.
+**Edition on time.** GitHub often starts scheduled runs 30 minutes to 2 hours late, or skips them. So the edition isn't tied to one slot: an attempt runs every 15 minutes from 07:35 to 09:05 IST (7 in all). The first one GitHub actually starts writes the edition (about 10 minutes), and the rest see it's done and stop at once, with no LLM calls. Any other run after 07:30 IST that finds no edition writes it too.
 
 **You hear about problems.** Each source, LLM call, agent and batch fails on its own without stopping the rest, and whatever was collected is always saved and published, even if the agents crash. If an attempt from 09:00 IST still ends with no edition, the run fails on purpose, so GitHub emails you (Settings → Notifications → Actions on your GitHub account).
 
-For a start time that's exact to the minute, add a free outside timer:
+GitHub may still skip every morning attempt when it's busy (it did on 27–28 September). **For a guaranteed 09:30, add a free outside timer:**
 
 1. Create a fine-grained GitHub token for this repository only, with **Actions: Read and write**.
 2. On [cron-job.org](https://cron-job.org), add a daily job at **07:45 IST** (and a backup at 08:30) that sends:

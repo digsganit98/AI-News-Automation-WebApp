@@ -7,7 +7,8 @@
 #
 # The edition must be on the site by 09:30 IST, but GitHub often starts scheduled runs 30 min to
 # 2 h late, or skips them. So the edition isn't tied to one slot:
-#   - four attempts between 07:40 and 09:05 IST; the first one that runs writes the edition, and
+#   - an attempt every 15 minutes from 07:35 to 09:05 IST (7 in all, off the busy :00/:30
+#     marks); the first one GitHub actually starts writes the edition, and
 #     the rest see it's done and stop straight away (no LLM calls, no deploy)
 #   - any other run from 07:30 IST on that finds no edition for today writes it (catch-up)
 #   - an optional outside timer (e.g. cron-job.org) can start "editionIfMissing" on the minute;
@@ -20,8 +21,8 @@ name: News pipeline
 on:
   schedule:
     # Times are UTC. IST = UTC + 5:30, and India has no daylight saving, so these never shift.
-    - cron: "10,40 2 * * *" # 07:40 and 08:10 IST: daily edition attempts
-    - cron: "10,35 3 * * *" # 08:40 and 09:05 IST: more attempts, in case GitHub is late
+    - cron: "5,20,35,50 2 * * *" # 07:35, 07:50, 08:05, 08:20 IST: daily edition attempts
+    - cron: "5,20,35 3 * * *" # 08:35, 08:50, 09:05 IST: more attempts, in case GitHub is late
     - cron: "30 1,7,10,13,16,19,22 * * *" # 07:00, 13:00, 16:00, 19:00, 22:00, 01:00, 04:00 IST
   workflow_dispatch: # "Run workflow" button in the Actions tab
     inputs:
@@ -60,7 +61,7 @@ jobs:
           today=$(TZ=Asia/Kolkata date +%F)
           now=$(TZ=Asia/Kolkata date +%H%M)
           done=$([ -f "data/digests/$today.json" ] && echo yes || echo no)
-          case "$SCHEDULE" in "10,40 2 * * *" | "10,35 3 * * *") attempt=yes ;; *) attempt=no ;; esac
+          case "$SCHEDULE" in "5,20,35,50 2 * * *" | "5,20,35 3 * * *") attempt=yes ;; *) attempt=no ;; esac
           if [ "$CHOSEN" = "dailyEdition" ]; then
             mode=dailyEdition # asked for by hand: always (re)write it
           elif [ "$attempt" = yes ] || [ "$CHOSEN" = "editionIfMissing" ]; then
