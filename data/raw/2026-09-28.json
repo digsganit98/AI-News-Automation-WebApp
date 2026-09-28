@@ -1190,6 +1190,244 @@
           "checkedAt": "2026-09-28T09:08:15.307184Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-28T15:41:31.573444+00:00",
+      "newItems": 13,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.591164Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.639717Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 869,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.640200Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.640539Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.640768Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.640951Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.641128Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.641294Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.641458Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.641692Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.641910Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.641976Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.642025Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.642341Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.642409Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.642653Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.642859Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.643227Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-28T15:41:31.643426Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.643602Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.643844Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.644180Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.644416Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.644683Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.645470Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.645697Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.645899Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.645957Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-28T15:41:31.646000Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2107,7 +2345,189 @@
       },
       "id": "afc57a2bac889514",
       "collectedAt": "2026-09-28T09:08:15.242184+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Holo4: powering generalist computer-use agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "publishedAt": "2026-09-28T09:44:05Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "9552195c964ddb7b",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Tactile-JEPA: Topology-Aware Self-Supervised Representation Learning for Distributed Tactile Sensors",
+      "url": "https://huggingface.co/papers/2609.24385",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "excerpt": "Tactile sensing is an essential modality for robots performing contact-rich, dexterous manipulation, particularly under visual occlusion. While pre-trained image encoders are standard in robot learning pipelines, tactile encoders are still commonly trained from scratch from raw, noisy signals, which might limit their expressivity. Existing self-supervised learning (SSL) approaches focus predominantly on vision-based tactile sensors, leaving distributed electronic skins largely unaddressed.…",
+      "author": "Elizaveta Kovtun, Matvey Konovalov, Andrey Sakhovskiy, Semen Budennyy",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/E-Kovtun/tactile",
+        "projectPage": "https://bosbobos.github.io/Tactile-JEPA/",
+        "arxivUrl": "https://arxiv.org/abs/2609.24385"
+      },
+      "id": "c438a74ad1833676",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: XiaomiMiMo/MiMo-V2.6-Flash-RL",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 506,
+        "trendingScore": 499,
+        "task": "text-generation"
+      },
+      "id": "e2aa4adb2c358747",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Novel Generation with AI: Turning Your Digital Life Into a Story for Learning",
+      "url": "https://medium.com/@zahihalimi637/novel-generation-with-ai-turning-your-digital-life-into-a-story-for-learning-4a1ade631fec?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T15:20:06Z",
+      "excerpt": "Imagine an AI that doesn’t simply generate a fictional story from a prompt, but creates a personalized novel inspired by your digital life. Continue reading on Medium »",
+      "author": "Zahi Halimi",
+      "extra": {},
+      "id": "37ee084e1e59b943",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI Sadece İçerik Üretmiyor: Artık Olasılıkları Modelliyor",
+      "url": "https://medium.com/@ssenturkilayda/generative-ai-sadece-i%CC%87%C3%A7erik-%C3%BCretmiyor-art%C4%B1k-olas%C4%B1l%C4%B1klar%C4%B1-modelliyor-4ce2a771fe7d?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T14:59:28Z",
+      "excerpt": "Generative AI denildiğinde aklımıza hâlâ ilk olarak metinler, görseller ve videolar geliyor. Oysa üretken modellerin veri bilimi açısından… Continue reading on Medium »",
+      "author": "Burcu İlayda Şentürk",
+      "extra": {},
+      "id": "e326464a555031ee",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "We Never Needed All Those AI Hats",
+      "url": "https://medium.com/@hello.trisrose/we-never-needed-all-those-ai-hats-9188cb3ca776?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T14:37:33Z",
+      "excerpt": "“Act as” didn’t give ChatGPT its expertise. We were naming capabilities it already had — and mistaking steering for intelligence. Continue reading on Medium »",
+      "author": "Hello Trisrose",
+      "extra": {},
+      "id": "da2035fdff13916b",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "ChatGPT is Yesterday’s News. This is What’s Actually Next.",
+      "url": "https://medium.com/@pramod.er90/chatgpt-is-yesterdays-news-this-is-what-s-actually-next-d6d5fd667f91?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T13:06:46Z",
+      "excerpt": "Chatbots changed how we talk to computers. AI agents could change how computers actually work for us. Continue reading on Medium »",
+      "author": "Kumar, Pramod",
+      "extra": {},
+      "id": "8433c3049d70e986",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "When an Edited Photo Becomes Evidence of Your Life",
+      "url": "https://medium.com/where-thought-bends/when-an-edited-photo-becomes-evidence-of-your-life-1ea8825f40cf?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T13:01:06Z",
+      "excerpt": "Personal photographs can express how life felt — and later become evidence of what happened Continue reading on Where Thought Bends »",
+      "author": "Andrzej Wierzbicki",
+      "extra": {},
+      "id": "7180c2d1d37500a3",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI companies in race to demonstrate their model most threatening to humanity",
+      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+      "publishedAt": "2026-09-28T08:35:40Z",
+      "excerpt": "",
+      "author": "ljewalsh",
+      "extra": {
+        "points": 402,
+        "comments": 348,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49875148"
+      },
+      "id": "db3e760e700f9b18",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "publishedAt": "2026-09-28T07:33:29Z",
+      "excerpt": "",
+      "author": "Michelangelo11",
+      "extra": {
+        "points": 179,
+        "comments": 196,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49874728"
+      },
+      "id": "9f284effa55e58c2",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "UC Riverside's AI Screens 50 Million Compounds to Find Chemicals That Steer Bees Away From Pesticides - Global Agriculture",
+      "url": "https://www.global-agriculture.com/ag-tech-research-news/uc-riversides-ai-screens-50-million-compounds-to-find-chemicals-that-steer-bees-away-from-pesticides/",
+      "publishedAt": "2026-09-28T09:52:40Z",
+      "excerpt": "Home » Ag Tech and Research News » UC Riverside’s AI Screens 50 Million Compounds to Find Chemicals That Steer Bees Away From Pesticides. # UC Riverside’s AI Screens 50 Million Compounds to Find Chemicals That Steer Bees Away From Pesticides. **28 September 2026, California, USA:** Researchers at the University of California, Riverside have used a machine learning model to sift through tens of millions of candidate chemicals and identify a small set that reliably repel honeybees, a finding…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.152
+      },
+      "id": "f2c3e4d6a53c5dac",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Nvidia says its new OpenShell platform can stop AI agents from going rogue - CBS News",
+      "url": "https://www.cbsnews.com/news/nvidia-openshell-ai-safety-rogue-agents/",
+      "publishedAt": "2026-09-28T12:36:24Z",
+      "excerpt": "# Nvidia says its new OpenShell platform can stop AI agents from going rogue. NVIDIA has created a new security platform that the chipmaker said can prevent artificial intelligence agents from going rogue. The company said on Monday that it is releasing the new system, called OpenShell, due to the need for \"independent security controls\" after multiple AI agents disobeyed commands and broke into other systems. \"From what we know, this new security platform could have stopped the breach if it…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.133
+      },
+      "id": "6c608cf1bbdc2cb3",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Why I'm finally giving Meta AI a chance - Axios",
+      "url": "https://www.axios.com/2026/09/28/meta-ai-muse-privacy-zuckerberg",
+      "publishedAt": "2026-09-28T09:00:07Z",
+      "excerpt": "# Why I'm finally giving Meta AI a chance. Meta is finally promising the one feature that has long kept me away from its AI services: Privacy. **Why it matters:** In a world with many models capable of meeting my needs, knowing how my data will be used is a key factor, especially with sensitive information. Muse data also won't feed Meta's ad systems, and a more ambitious confidential VM option, encrypted with a key held only by the user, is still to come. **I've been a big user of Meta…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.139
+      },
+      "id": "8177e3f80ed71347",
+      "collectedAt": "2026-09-28T15:41:31.573444+00:00"
     }
   ],
-  "updatedAt": "2026-09-28T09:08:15.242184+00:00"
+  "updatedAt": "2026-09-28T15:41:31.573444+00:00"
 }
