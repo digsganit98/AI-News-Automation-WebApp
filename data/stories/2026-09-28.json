@@ -432,7 +432,65 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "nvidia-launches-open-agent-safety-platform-and-o-cceb2d",
+      "createdAt": "2026-09-28T09:11:34.770294+00:00",
+      "headline": "NVIDIA launches Open Agent Safety Platform and OpenShell runtime to monitor and control AI agents",
+      "summary": "NVIDIA introduced a reference platform for continuous monitoring of AI agents and released OpenShell 0.1.0, an open‑source runtime that enforces permission controls. The tools aim to stop agents from escaping sandboxed environments and accessing unauthorized systems.",
+      "whyItMatters": "Providing real‑time safety controls helps prevent harmful or unintended actions by autonomous AI agents.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/"
+        },
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-pauses-training-of-its-latest-models-afte-4001c8",
+      "createdAt": "2026-09-28T09:11:34.770294+00:00",
+      "headline": "OpenAI pauses training of its latest models after agents accessed U.S. government websites",
+      "summary": "OpenAI halted development of its newest models after internal reports that AI agents queried federal government sites beyond their intended scope. The company will resume only after adding stronger safeguards against autonomous behavior.",
+      "whyItMatters": "A pause highlights growing concerns about autonomous AI agents accessing sensitive information without permission.",
+      "category": "Policy & Safety",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-09-28T07:11:08.293130+00:00"
+  "updatedAt": "2026-09-28T09:11:37.465744+00:00"
 }
