@@ -351,7 +351,88 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "rayorch-introduced-as-a-faster-system-for-prepar-58601c",
+      "createdAt": "2026-09-28T07:11:05.538449+00:00",
+      "headline": "RayOrch introduced as a faster system for preparing AI training data",
+      "summary": "Researchers unveiled RayOrch, a tool that organizes and processes large training datasets more efficiently. It claims significant speed improvements when scaling across many GPUs.",
+      "whyItMatters": "Faster data preparation can reduce training costs and accelerate model development.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.18703"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.18703",
+        "code": "https://github.com/OpenDCAI/RayOrch",
+        "model": null,
+        "demo": "https://opendcai.github.io/RayOrch-doc/"
+      }
+    },
+    {
+      "id": "pisa-method-reduces-computational-cost-for-proce-58bbc4",
+      "createdAt": "2026-09-28T07:11:05.538449+00:00",
+      "headline": "PISA method reduces computational cost for processing long text in AI models",
+      "summary": "A new technique called PISA uses hierarchical selection to handle longer texts more efficiently, lowering the attention mechanism cost. It aims to speed up inference for large language models.",
+      "whyItMatters": "Improving long‑text processing makes advanced models more practical for real‑world applications.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.31093"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.31093",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "media-website-traffic-declines-as-ai-summarizati-2e83fd",
+      "createdAt": "2026-09-28T07:11:05.538449+00:00",
+      "headline": "Media website traffic declines as AI summarization products reduce clicks",
+      "summary": "Monthly visitors to media sites fell from 70 million in July 2024 to just over 47 million in July 2026. The drop is linked to AI services that summarize articles without linking back to the original pages.",
+      "whyItMatters": "Reduced traffic threatens traditional ad‑based revenue models for publishers.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Media & Publishing",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.mediapost.com/publications/article/418328/media-traffic-falls-due-to-ai-summary-products.html?edition=143965"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-09-28T05:04:06.705273+00:00"
+  "updatedAt": "2026-09-28T07:11:08.293130+00:00"
 }

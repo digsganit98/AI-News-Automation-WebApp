@@ -714,6 +714,244 @@
           "checkedAt": "2026-09-28T04:54:33.240860Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-28T07:08:47.103106+00:00",
+      "newItems": 11,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1230,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.120267Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.159188Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 868,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.159467Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.159747Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 87,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.159949Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.160130Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.160293Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.160454Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.160612Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.160768Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.160954Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.161014Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.161060Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.161296Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.161343Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.161499Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.161657Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.161979Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-28T07:08:47.162226Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.162401Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.162572Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.162793Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.162980Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.163142Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.163730Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.163953Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.164141Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.164195Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-09-28T07:08:47.164239Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1346,7 +1584,162 @@
       },
       "id": "6ca239aace35eb5a",
       "collectedAt": "2026-09-28T04:54:33.177989+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
+      "url": "https://huggingface.co/papers/2609.18703",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "excerpt": "Preparing high quality training data for foundation models requires scalable pipelines that transform heterogeneous documents and videos into structured records. Such pipelines expand each parent item into an ordered and input dependent sequence of children, whose counts may be long tailed. GPUs should batch children across parents while preserving parent relationships, child order, completion status, and result routing. Existing systems either hide parallelism behind coarse grained jobs or…",
+      "author": "Xiaochen Ma, Zimo Meng, Junzhu Liang, Youhe Jiang, Yue Cheng, Hao Liang, Bohan Zeng, Dengchun Li, Lu Ma, Zhengyang Zhao, Zhen Hao Wong, Runming He, Meiyi Qiang, Jiangtao Guan, Binhang Yuan, Wentao Zhang",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/OpenDCAI/RayOrch",
+        "projectPage": "https://opendcai.github.io/RayOrch-doc/",
+        "arxivUrl": "https://arxiv.org/abs/2609.18703"
+      },
+      "id": "58601c7ca2624210",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "url": "https://huggingface.co/papers/2609.31093",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "excerpt": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention offers an efficient alternative, but selecting the retained blocks remains a bottleneck. Conventional block selection requires scoring all query-block pairs and therefore remains quadratic in sequence length. To address this issue, we propose PISA, a block-sparse attention mechanism that employs a pyramid Top-K selection strategy. The main idea is to gradually narrow down the…",
+      "author": "Bohao Tang, Zhen Qin, Yuqi Pan, Zheng Li, Pengfei Liu",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.31093"
+      },
+      "id": "58bbc4f762db131c",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI Certification: Why an AI ML Certificate Program Is the Smartest Career Move in 2026",
+      "url": "https://medium.com/@prepzeee/generative-ai-certification-why-an-ai-ml-certificate-program-is-the-smartest-career-move-in-2026-ac65091f8ca2?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T06:52:42Z",
+      "excerpt": "Artificial Intelligence is transforming industries faster than any technology wave before it. Continue reading on Medium »",
+      "author": "Prepzee Learning Solutions",
+      "extra": {},
+      "id": "cec7627f4103d3c4",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Quantization Explained: How a 32GB AI Model Fits on Your Laptop",
+      "url": "https://medium.com/@adityaa9971/quantization-explained-how-a-32gb-ai-model-fits-on-your-laptop-6828ec6f91e1?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T06:36:48Z",
+      "excerpt": "The technique that made local AI possible explained simply, without the jargon. Continue reading on Medium »",
+      "author": "ADITYA RANJAN",
+      "extra": {},
+      "id": "0471329a51df9c36",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Agentic AI Explained: How Autonomous Agents Plan, Use Tools, and Fail",
+      "url": "https://medium.com/@savadsv.official/agentic-ai-explained-how-autonomous-agents-plan-use-tools-and-fail-4a65f6c98614?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T06:29:31Z",
+      "excerpt": "Most people meet AI through a chat box. You type a question, the model answers, and the exchange ends. Continue reading on Medium »",
+      "author": "Savadsv Official",
+      "extra": {},
+      "id": "d20b1f18cf0704c7",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Is ChatGPT — 6 Astra and How Does It Work?",
+      "url": "https://medium.com/@dataspace-academy/what-is-chatgpt-6-astra-and-how-does-it-work-3c9b5d71e5ad?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T05:49:56Z",
+      "excerpt": "Introduction Continue reading on Medium »",
+      "author": "DataSpace Academy",
+      "extra": {},
+      "id": "2f2bf0c1df6b78f8",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Generative AI Is Reshaping Everyday Work",
+      "url": "https://medium.com/@nextitcarear/how-generative-ai-is-reshaping-everyday-work-aa28db1b3851?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T05:13:16Z",
+      "excerpt": "Generative AI Training in Hyderabad can help learners understand how artificial intelligence is changing the way people create content… Continue reading on Medium »",
+      "author": "nextit carear",
+      "extra": {},
+      "id": "a79c9871b25aab4a",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "url": "https://arxiv.org/abs/2110.01834",
+      "publishedAt": "2026-09-28T03:23:53Z",
+      "excerpt": "",
+      "author": "teleforce",
+      "extra": {
+        "points": 64,
+        "comments": 9,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49873241"
+      },
+      "id": "f1d69bd4c8060c52",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Media Traffic Falls Due To AI Summary Products 09/28/2026 - mediapost.com",
+      "url": "https://www.mediapost.com/publications/article/418328/media-traffic-falls-due-to-ai-summary-products.html?edition=143965",
+      "publishedAt": "2026-09-27T22:29:44Z",
+      "excerpt": "Traffic to media web sites has plummeted over the past year, as Google and other tech giants funnel into AI products that summarize journalism without encouraging users to click through to the. Google on Thursday introduced a Gemini AI model that allows. visual identities to fit their brand,” Google wrote in a blog post. The Live Avatar feature in the model creates an experience that listens, sees, and speaks with a dynamic visual. The avatars are backed by Gemini's advanced reasoning,…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.117
+      },
+      "id": "27e342312a2fdf3e",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta Is Gambling $200 Billion A Year On AI 09/28/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418327/meta-is-gambling-200-billion-a-year-on-ai.html?edition=143965",
+      "publishedAt": "2026-09-28T00:26:12Z",
+      "excerpt": "# Meta Is Gambling $200 Billion A Year On AI. Meta is taking a structurally irreversible gamble worth roughly $200 billion in annual capital expenditure to prove that its AI vision works, BigGo writes in an analysis. The bull side of the. The bull case is that Meta’s lease and other obligations may outlast the. The Live Avatar feature in the model creates an experience that listens, sees, and speaks with a dynamic visual. The avatars are backed by Gemini's advanced reasoning, allowing Live…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.165
+      },
+      "id": "bb604c997ab64c95",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Can Muse overcome Meta’s trust issues? - TechCrunch",
+      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "publishedAt": "2026-09-27T19:57:30Z",
+      "excerpt": "“And yes, they’ll make the argument that the more they know about you, the more accurate and interesting the ads will be — wake me up when we get to that fever dream.”. Kirsten Korosec: So how do you put Muse, which is this new personal AI agent that’s just been released by Meta and [is] clearly a bet on consumer — how does that fit into what you just described, at least with other frontier AI model companies seeing opportunity and business within enterprise? There’s a part of me that’s like,…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.141
+      },
+      "id": "80032e73c06a7a2a",
+      "collectedAt": "2026-09-28T07:08:47.103106+00:00"
     }
   ],
-  "updatedAt": "2026-09-28T04:54:33.177989+00:00"
+  "updatedAt": "2026-09-28T07:08:47.103106+00:00"
 }
