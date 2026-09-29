@@ -476,6 +476,244 @@
           "checkedAt": "2026-09-29T02:07:03.052057Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-29T05:48:53.138294+00:00",
+      "newItems": 41,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1234,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.151352Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.184086Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 869,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.184387Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.184618Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.184737Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.184847Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.184950Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185048Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185146Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185239Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185346Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185389Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185418Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185595Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185625Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185724Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.185820Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.186043Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-29T05:48:53.186146Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.186242Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.186348Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.186504Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.186607Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.186707Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.187187Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.187326Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.187449Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.187483Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-09-29T05:48:53.187508Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1190,7 +1428,610 @@
       },
       "id": "438d42c92d6c34b3",
       "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
+      "url": "https://huggingface.co/papers/2609.31948",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Real-time full-duplex speech models can listen while speaking, enabling natural interaction without rigid turn boundaries. Existing benchmarks evaluate turn-taking, interruption handling and multi-round dialogue, but largely centre on a designated user rather than an assistant participating in a shared conversation among several people. We introduce Duplex-MPE to evaluate when such an assistant should answer, remain silent or stop speaking. The benchmark contains 2,000 scenarios with three or…",
+      "author": "Chengqian Ma, Wenhao Feng, Weixuan Jin, Gaole Dai, Tianyu Xie, Yuexiao Ma, Zhaolu Kang, Xiangyu Zhao, Xiawu Zheng, Fei Chao",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://step-out.github.io/Duplex-MPE-Page/",
+        "arxivUrl": "https://arxiv.org/abs/2609.31948"
+      },
+      "id": "abffbcb4dd806613",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge",
+      "url": "https://huggingface.co/papers/2609.34327",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Scaling test-time computation is a powerful way to improve language-model reasoning, and is particularly appealing for small reasoning models (sRMs) that are cheap to serve. However, is additional thinking always the right operation? By intervening at intermediate reasoning states across two model families and multiple scales, we find that self-refinement largely consolidates probability mass onto solutions already reachable from the current state, rather than making new ones reachable. These…",
+      "author": "Chanuk Lee, Minki Kang, Sangwoo Park, Woongyeong Yeo, Jinheon Baek, Sung Ju Hwang",
+      "extra": {
+        "upvotes": 22,
+        "githubRepo": "https://github.com/tally0818/FlyBy",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.34327"
+      },
+      "id": "852966959d12c1f2",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "REALM: A Coarse-to-Fine Generative Framework for Embodied Reactive Listening",
+      "url": "https://huggingface.co/papers/2609.33095",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Generating responsive listener facial motion is an important task for embodied conversational AI. Two modeling challenges are central: accounting for the timing of speaker cues while maintaining continuity with the listener's ongoing motion, and capturing locally variable facial events alongside the overall motion trajectory. Listener responses may follow preceding cues with a temporal lag, while brief expressions and blinks introduce variation that is difficult to predict deterministically.…",
+      "author": "Peizhen Li, Longbing Cao, Yang Zhang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/lipzh5/REALM",
+        "projectPage": "https://www.youtube.com/watch?v=Tf5mpd5S8VQ",
+        "arxivUrl": "https://arxiv.org/abs/2609.33095"
+      },
+      "id": "cc409a2b003c0ebf",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+      "url": "https://huggingface.co/papers/2609.35748",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-compute slope, measured as the accuracy gain per doubling of test-time decoding FLOPs. We find that…",
+      "author": "Yichen You, Tianyu Fu, Aosong Feng, Xingtai Lv, Xuefei Ning, Ning Ding, Yu Wang",
+      "extra": {
+        "upvotes": 20,
+        "githubRepo": "https://github.com/thu-nics/TaH",
+        "projectPage": "https://fuvty.github.io/thinking_yard_project_page/projects/tah2/",
+        "arxivUrl": "https://arxiv.org/abs/2609.35748"
+      },
+      "id": "636d94830247db18",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Surprising Success, Repeated Failure: Entropy-Guided Credit Assignment for Exploration in LLM Reasoning",
+      "url": "https://huggingface.co/papers/2609.33781",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Reinforcement learning with verifiable rewards (RLVR) enhances reasoning in large language models (LLMs) through outcome-level feedback, yet recent approaches to finer-grained credit assignment often require auxiliary models, additional sampling, or privileged information. Although policy entropy provides a readily available signal, prioritizing uncertain positions under both reinforcement and penalization concentrates penalties where failed responses still retain alternatives for recovery,…",
+      "author": "Woongyeong Yeo, Minki Kang, Chanuk Lee, Sangwoo Park, Jinheon Baek, Sung Ju Hwang",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": "https://github.com/wgcyeo/EAPO",
+        "projectPage": "https://eapo-explore.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33781"
+      },
+      "id": "1c94106d7ff59312",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Learning to Learn from Context: Synthetic Training from Perturbed Public Documents",
+      "url": "https://huggingface.co/papers/2609.33642",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Real-world tasks often require large language models (LLMs) to learn from complex task-specific context rather than pretrained parametric knowledge. This capability remains a weakness of LLMs, while human annotation for such task contexts is expensive and difficult to scale. Public high-quality documents are an abundant alternative, but much of the public web has already been consumed during pretraining: training on such documents naively would reward memorization rather than context learning.…",
+      "author": "Haoyi Wu, Yang Xiao, Yusong Sun, Wenyang Hui, Zhaokai Luo, Chengyue Jiang, Mu Chuan",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33642"
+      },
+      "id": "6f8661399f80d01c",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Skill2Env: Capability-Oriented Environment Synthesis from Skills for General Agents",
+      "url": "https://huggingface.co/papers/2609.33772",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Executable environments are critical for post-training agents on tasks that require tool use and multi-step interaction, but constructing executable tasks together with their environments remains difficult to scale. Skills provide reusable domain knowledge, operational procedures, and tool-use instructions, but a substantial gap remains between the information contained in a skill and a concrete, challenging task with a complete executable environment. To address this gap, we introduce…",
+      "author": "Weiyi Xu, Xiaowen Yang, Wen Da, Hang Xu, Canwei Li, Hongjie You, Pusen Dong, Yucheng Zeng, Zhaokai Luo, Mu Chuan",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33772"
+      },
+      "id": "5f0dcfbc8523ad8f",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Self-Evolving Coding Agents: From Digital Programs to Physical-World Intelligence",
+      "url": "https://huggingface.co/papers/2609.35432",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Vision-language-action (VLA) and world-action (WAM) models map observations and instructions directly to robot actions. This directness ties a policy to training: minor layout or viewpoint changes cause failure, and instructions generalize poorly. The root cause lies in representation: task requirements, conditions, progress, and failure recovery are implicitly encoded in action sequences, making them difficult to inspect or revise. Digital coding agents offer a precedent: LLMs call tools,…",
+      "author": "Hongcheng Gao, Jingjing Zhou, Zelin Zheng, Shijia Ge, Jay Zhu, Yazhe Wang, Jianshu Zeng, Xuan Shangguan, Di Wu, Lingyu He, Zhiqi Jia, Sihang Wu, Xiao He",
+      "extra": {
+        "upvotes": 38,
+        "githubRepo": "https://github.com/HexaFuture/PhysicalCoding",
+        "projectPage": "https://hexafuture.ai/blog/physical-coding",
+        "arxivUrl": "https://arxiv.org/abs/2609.35432"
+      },
+      "id": "e09bb25591fb921d",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents",
+      "url": "https://huggingface.co/papers/2609.32862",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "A foundation model should not act in isolation as an embodied agent. Yet, existing methods often optimize individual components of the agent stack, such as memory, context, skills, or action interfaces, rather than treating the supporting system itself as a unified policy. Moreover, interaction alone does not yield self-improvement unless execution experience is converted into persistent, validated system changes. We therefore propose RoboFoundry, the first embodied agentic framework that…",
+      "author": "Jingsong Liang, Shuhao Liao, Shizhe Zhang, Diyuan Hou, Yuxin Cai, Xinjian Deng, Chengyang He, Wenhui Huang, Runjia Tan, Zhidong Wang, Lan Yu, Xuesong Tian, Guillaume Sartoretti, Jie Luo, Yao Mu, Wenjun Wu, Wanhua Li, Chen Lv",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": null,
+        "projectPage": "https://jingsongliang.com/robofoundry/",
+        "arxivUrl": "https://arxiv.org/abs/2609.32862"
+      },
+      "id": "64547573e1ba6ed6",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Just MLPs: Efficient Visual State Reconstruction for Multimodal Language Models",
+      "url": "https://huggingface.co/papers/2609.34972",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Long visual token sequences often account for a substantial fraction of the computational overhead in multimodal large language models~(MLLMs). Existing approaches reduce this cost by pruning redundant visual tokens, but permanently discard visual evidence that may become useful in subsequent layers. We instead ask whether all visual tokens can be preserved while reducing the cost of repeatedly evolving the representations through the Transformer. To answer this question, we perform low-rank…",
+      "author": "Jingdi lei, Junxian Li, Di Zhang, Zhanqiu Zhang, Yiwen Guo, Soujanya Poria",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/declare-lab/delta-Vision",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.34972"
+      },
+      "id": "98c5639afad7d243",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces",
+      "url": "https://huggingface.co/papers/2609.33295",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "An agent can complete a task while exhibiting undesirable behavior during execution. Developers need tests for the specific behaviors encountered in deployment, beyond fixed benchmark suites. We present TraceDance, an agent system that constructs targeted benchmarks from deployment traces for user-specified undesirable behaviors. For efficient construction, Anchor-and-Confirm combines programmable retrieval with candidate-level confirmation by a Flash large language model (LLM), while the…",
+      "author": "Dehai Min, Daoan Zhang, Yiming Zeng, Huayi Zhang, Ziyi Chen, Yan Zhang, Qinbo Bai, Mengyuan Chao, Jing Ning, Qiyue Hua, Huiyi Chen, Hanrong Zhang, Henry Peng Zou, Jie Yang, Wei Xu, Philip S. Yu",
+      "extra": {
+        "upvotes": 43,
+        "githubRepo": "https://github.com/ZhishanQ/TraceDance",
+        "projectPage": "https://zhishanq.github.io/TraceDance/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33295"
+      },
+      "id": "039338de9c80eb54",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SpatialSpeak: QA-Native Reconstruction with Local and Global Context for Spatial Chain-of-Thought Reasoning",
+      "url": "https://huggingface.co/papers/2609.33616",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Vision-language models (VLMs) can benefit from geometric priors for multi-view spatial reasoning, yet answer-only training does not directly supervise the intermediate geometric estimates and their use in deriving quantitative spatial answers. We hypothesize that spatial chain-of-thought (CoT) supervision becomes more effective when the VLM first jointly learns complementary local geometry and global scene context through multi-view reconstruction. We introduce SpatialSpeak, a two-stage…",
+      "author": "Yang Cao, Jiaxin Zhang, Dave Zhenyu Chen, Yingji Zhong, Ruiyuan Gao, Lanqing Hong, Dan Xu",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/yangcaoai/SpatialSpeak-VLM",
+        "projectPage": "https://yangcaoai.github.io/SpatialSpeak/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33616"
+      },
+      "id": "b53b3defb9221d5c",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "CompoWorld: Compositional Environment Scaling for General Agents",
+      "url": "https://huggingface.co/papers/2609.33665",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Automatically generated environments provide a scalable source of interaction data for training general agents. However, existing approaches mainly generate tasks within a single environment, while real-world workflows require agents to connect information and actions across multiple services. We introduce Compositional Environment Scaling (CompoWorld), which expands the task space by composing a finite library of reusable services. Coding agents turn tool specifications into verified services…",
+      "author": "Xiao-Wen Yang, Weiyi Xu, Wen Da, Hang Xu, Canwei Li, Hong-Jie You, Pusen Dong, Yucheng Zeng, Zhaokai Luo, Yu-Feng Li, Yao Hu, Mu Chuan",
+      "extra": {
+        "upvotes": 24,
+        "githubRepo": "https://github.com/AllSpark-Research/CompoWorld",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33665"
+      },
+      "id": "126f85932885763f",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Diffusion Reward Models",
+      "url": "https://huggingface.co/papers/2609.33803",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Reward models underpin the alignment of large language models, yet the dominant designs reduce each prompt--response pair to a point estimate or to a distribution from a fixed parametric family. This is at odds with human preference, which is inherently multimodal: the same response can be reasonably judged in many ways, and no single family covers all of them. To better fit this structure, we introduce DRM, a Diffusion Reward Model that recasts reward modeling as conditional density…",
+      "author": "Xiangyang Wang, Bingxiang He, Zeyuan Liu, Jiaze WangZiqing Qiao, Yuxin Zuo, Huan-ang Gao, Cheng Qian, Wenbin Zhang, Ran Li, Youbang Sun, Ning Ding, Yuanchun Shi, Zhiyuan Liu, Chaojun Xiao, Chun Yu",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/thunlp/DRM",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33803"
+      },
+      "id": "eca446971bd02dd0",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality",
+      "url": "https://huggingface.co/papers/2609.33757",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and harmony, expands it into semantic music tokens, and realizes it as full-song audio. In comparisons…",
+      "author": "Ruibin Yuan, Jiahao Pan, Junyan Jiang, Zhiyue Wu, Ziya Zhou, Jiankai Sun, Yizhi Li, Ge Zhang, Yicheng Gu, Zeyue Tian, Junyu Dai, Hanfeng Lin, Kai Li, Shangda Wu, Xuanjie Liu, Jiaming Wang, Zihan Liu, Yue Wang, Yinghao Ma, Hanzhi Yin, Kangrui Chen, Xinyue Zhang, Ziyang Ma, Mengqi Liao, Hejia Zhao, Guowei Huang, Chao Yan, Lei Ke, Jianwei Yu, Bei Liu, Joe Guo, Liumeng Xue, Gus Xia, Wei Xue, Yike Guo",
+      "extra": {
+        "upvotes": 45,
+        "githubRepo": null,
+        "projectPage": "https://map-yue2.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33757"
+      },
+      "id": "c6287575379c2eca",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research",
+      "url": "https://huggingface.co/papers/2609.32472",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Document rerankers determine what evidence reaches the downstream model in RAG and deep research, yet mainstream rerankers select by relevance matching, and individually relevant documents rarely constitute the complete, complementary, non-redundant set a complex information need demands. Prior work rewards a set by its aggregate rubric score, shifting the objective from ranking documents to composing sets. Yet that score is one scalar shared by every document in the set, so the supervision is…",
+      "author": "Kailin Jiang, Lei Liu, Jian Xi, Yangqi Chen, Hui Xu, Hongwei Zhao, Bin Li, Yu Lu, Haibo Shi",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/AdaTutoRank/AdaTutoRank",
+        "projectPage": "https://adatutorank.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2609.32472"
+      },
+      "id": "77d0cd01aed0f1d7",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
+      "url": "https://huggingface.co/papers/2609.28236",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Long-horizon embodied interaction requires agents to retain and continually update information about the environment as they observe, act, and encounter change. Yet current agents struggle to maintain such memory reliably. Our analysis traces this limitation to four key deficiencies: weak fine-grained visual memory, unreliable dynamic world-state tracking, failing to record world state revealed by interaction outcomes, and limited generalization from prior experience. However, existing…",
+      "author": "Lizhou Liang, Xinyu Zhong, Miao Pan, Xiaohe Zhou, Xuanyu Liu, Qinfeng Li, Peng Li, Jintao Chen, Xuhong Zhang, Wenqi Zhang",
+      "extra": {
+        "upvotes": 17,
+        "githubRepo": null,
+        "projectPage": "https://zju-omniai.github.io/Embodied-Omni/EmbodiedMemoryBench/",
+        "arxivUrl": "https://arxiv.org/abs/2609.28236"
+      },
+      "id": "543abbbf62134433",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Parser, Chunking, and Embedding Interactions in Retrieval-Augmented Generation over Indian Government Regulatory Documents",
+      "url": "https://arxiv.org/abs/2609.31660",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31660v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) pipelines are typically assembled from independently-chosen components -- a document parser, a chunking strategy, and an embedding model -- yet these choices are rarely evaluated jointly, and evaluations that do combine them are usually run on a single document or corpus. We present a controlled factorial study of 3 parsers, 3 chunking strategies, and 5 dense embedding models, together with a sparse BM25…",
+      "author": "Shubham Kumar Singh",
+      "extra": {},
+      "id": "735a3396be6af9da",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "LLM-Guided Ontology-Driven Knowledge Graph Construction from Unstructured Text",
+      "url": "https://arxiv.org/abs/2609.31663",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31663v1 Announce Type: new \nAbstract: Ontology-driven knowledge graph construction from industrial text remains challenging due to the domain specificity of documents, the scarcity of annotated resources, and the complexity of ontology engineering workflows. This paper presents and investigates the applicability of an ontology learning pipeline that combines compact open-source Large Language Models (LLMs), reusable prompting strategies, and open knowledge bases to support the…",
+      "author": "Abdelhadi Belfadel, Maxence Gagnant, Joseph Kattan, Sana Tmar",
+      "extra": {},
+      "id": "4edc4dce3494f342",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "An Evaluation of AI-Supported Evidence-Based Learning for Public Speaking Skill Development",
+      "url": "https://arxiv.org/abs/2609.31676",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31676v1 Announce Type: new \nAbstract: Public speaking is an essential skill in academic and professional contexts, but it often causes anxiety. Although several AI-based speech coaching tools exist, they typically provide generic feedback and lack model speeches for learning. This study addresses these gaps by developing a system that incorporates speech context into evaluation criteria, enabling more tailored feedback. It also generates improved model speeches in both text and…",
+      "author": "Sashini Hettiarachchi, Shahbaz Siddeeq, Mika Saari, Pekka Abrahamsson",
+      "extra": {},
+      "id": "b6a0f2ada2e5a8d0",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "The Temporal Tug-of-War: Visualizing and Detecting RAG Conflicts in Diffusion Models via Trajectory Variance",
+      "url": "https://arxiv.org/abs/2609.31684",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31684v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) introduces a specific failure mode in discrete diffusion language models: when retrieved context contradicts parametric knowledge, the iterative denoising process becomes a visible battleground between competing knowledge sources. We identify temporal semantic divergence as an observable for detecting these conflicts and introduce the Trajectory Variance Score (TVS), a simple and interpretable measure of this…",
+      "author": "Sravan Karthick T, Pranav Darshan, Pranav A, Minal Moharir, Ivan P. Yamshchikov",
+      "extra": {},
+      "id": "e0b55c450a02dacf",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Verification of PETSc with CIVL using LLM-generated ACSL contracts and deterministic driver generation",
+      "url": "https://arxiv.org/abs/2609.31687",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31687v1 Announce Type: new \nAbstract: Parallel numerical libraries such as PETSc are widely used in science and engineering applications where wrong results can have costly consequences. Despite this, numerical libraries are rarely formally verified. One of the challenges is the need for an expert to hand-write a specification and manually apply a verification tool, often requiring the development of a harness or driver, all of which can contain additional bugs that lead to false…",
+      "author": "Hansol Suh, Jan H\\\"uckelheim, Stephen Siegel",
+      "extra": {},
+      "id": "fe0b054cecd67dd2",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "The Ongiini-Eval-OW Benchmark: A Concept Paper for the Planned Benchmarking of Machine Translation and Large Language Models on Oshindonga and Oshikwanyama",
+      "url": "https://arxiv.org/abs/2609.31727",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31727v1 Announce Type: new \nAbstract: Oshiwambo -- a cluster of mutually intelligible Bantu languages spoken by over a million people across northern Namibia and southern Angola, and the home language of roughly half of Namibian households -- has, to our knowledge, no published machine-translation evaluation benchmark. Major commercial services (Google Translate, DeepL, Microsoft Translator), open multilingual MT models (NLLB-200, MADLAD-400), and the open Masakhane checkpoint…",
+      "author": "Sebastian K\\\"upers (Common Intelligence Foundation)",
+      "extra": {},
+      "id": "5bc898fc03654a82",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "SMARtCARE: Privacy-Preserving Agentic AI Systems for Bounded-Autonomy Clinical Decision Support",
+      "url": "https://arxiv.org/abs/2609.31763",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31763v1 Announce Type: new \nAbstract: Long-context clinical AI systems can miss relevant patient history when prior admissions fall outside the active reasoning context. In ICU monitoring, this can cause early vital-sign drift to appear nonspecific even when it resembles a prior deterioration pattern. SMARtCARE addresses this gap through a four-state clinical decision-support architecture: Stable, Meta-cognitive, Assisted, and Regulated (Revoked). Rather than automatically…",
+      "author": "Srini Ramaswamy, Deveeshree Nayak",
+      "extra": {},
+      "id": "f4dcb391bfd5a3ef",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
+      "url": "https://arxiv.org/abs/2609.31790",
+      "publishedAt": "2026-09-29T04:00:00Z",
+      "excerpt": "arXiv:2609.31790v1 Announce Type: new \nAbstract: Crystal plasticity (CP) simulations predict the mechanical behavior of polycrystalline metals, yet their routine use is hindered by the manual effort of configuring heterogeneous tools, orchestrating multi-step data pipelines, and calibrating constitutive parameters against experiments. These bottlenecks impede productivity in systematic parameter studies, motivating interest in automated workflows. This study presents CP-Agent, a…",
+      "author": "Samuel Onimpa Alfred, Abhishek Kumar, Veera Sundararaghavan",
+      "extra": {},
+      "id": "5ea74d5166723470",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+      "publishedAt": "2026-09-29T02:55:27Z",
+      "excerpt": "Congrats team!",
+      "author": null,
+      "extra": {},
+      "id": "33e6711b7576ea7c",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Opus 5.5 is good at explainer videos",
+      "url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+      "publishedAt": "2026-09-29T02:44:29Z",
+      "excerpt": "a rare feature of a capability",
+      "author": null,
+      "extra": {},
+      "id": "866d74891372bcfa",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Build Production-Grade GenAI Apps with Amazon Bedrock, Without Managing Infrastructure",
+      "url": "https://himanshuvishwakarma21.medium.com/build-production-grade-genai-apps-with-amazon-bedrock-without-managing-infrastructure-b1b35aee2831?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T05:18:07Z",
+      "excerpt": "While upskilling in Generative AI, I discovered Amazon Bedrock, a fully managed AWS service that makes it much easier to build and deploy… Continue reading on Medium »",
+      "author": "Himanshuvishwakarma",
+      "extra": {},
+      "id": "d441ba65770c1c50",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Middle Ground Becomes Invisible",
+      "url": "https://paniaras.medium.com/the-middle-ground-becomes-invisible-8580f1d23971?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T05:17:12Z",
+      "excerpt": "Shift Three in Where Disciplines Converge, a six-part series examining the frictions, possibilities, and emerging futures of AI-native… Continue reading on Medium »",
+      "author": "Yannis Paniaras",
+      "extra": {},
+      "id": "30b6fe1d455b21e3",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "LLM’e ne kadar güvenebiliriz?",
+      "url": "https://medium.com/@zaferkasap/llme-ne-kadar-g%C3%BCvenebiliriz-6768d8a245f1?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T04:43:00Z",
+      "excerpt": "Akıcı bir cevaptan, sınırları ve sorumlulukları belli bir sisteme. Continue reading on Medium »",
+      "author": "Zafer Kasap",
+      "extra": {},
+      "id": "0e51a7a366d6c89c",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Is an Agentic Workflow? A Beginner’s Guide to How AI Agents Get Work Done",
+      "url": "https://medium.com/@thedatascientistkiran/what-is-an-agentic-workflow-a-beginners-guide-to-how-ai-agents-get-work-done-9cd032e095a5?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T02:01:02Z",
+      "excerpt": "Imagine asking an AI: Continue reading on Medium »",
+      "author": "Kiran Hayat Data Scientist",
+      "extra": {},
+      "id": "6d3c8e0a261a2af3",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "15 Key Terms in Generative AI Everyone Should Know",
+      "url": "https://medium.com/@bishalgoutam3/15-key-terms-in-generative-ai-everyone-should-know-51934626425d?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T01:59:21Z",
+      "excerpt": "Introduction Continue reading on Medium »",
+      "author": "Bishal Goutam",
+      "extra": {},
+      "id": "b42362512f43f8d3",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
+      "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
+      "publishedAt": "2026-09-28T21:26:41Z",
+      "excerpt": "",
+      "author": "nkko",
+      "extra": {
+        "points": 65,
+        "comments": 9,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49884625"
+      },
+      "id": "519655950107760c",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Republicans seem to be going all in on data centers, despite widespread public opposition.",
+      "url": "https://newrepublic.com/post/215930/mike-johnson-public-opinion-data-centers-psyop",
+      "publishedAt": "2026-09-28T23:56:28Z",
+      "excerpt": "",
+      "author": "/u/SnoozeDoggyDog",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wsuz34/republicans_seem_to_be_going_all_in_on_data/"
+      },
+      "id": "3ca12cbd7d33884d",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "nvidia/NVIDIA-Nemotron-Labs-3-Competitive-Coding-550B-A55B-NVFP4 · Hugging Face",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Competitive-Coding-550B-A55B-NVFP4",
+      "publishedAt": "2026-09-28T23:45:33Z",
+      "excerpt": "Model Developer: NVIDIA Corporation Model Development: Fine-tuned from NVIDIA-Nemotron-3-Ultra-550B-A55B What is Nemotron? NVIDIA Nemotron™ is a family of open models with open weights, training data, and recipes, delivering leading efficiency and accuracy for building specialized AI agents. Description Nemotron-Labs-3-Competitive-Coding is a competitive-programming specialist model based on Nemotron-3-Ultra, fine-tuned for one epoch on 477,642 synthetic reasoning traces distilled from GLM-5.2…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wsuqmb/nvidianvidianemotronlabs3competitivecoding550ba55b/"
+      },
+      "id": "dc7816f60cf8a386",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "From Parkinson’s to Potholes: 9 Tamil Nadu Students Turn to AI to Solve Everyday Problems – Samsung Newsroom India",
+      "url": "https://news.samsung.com/in/from-parkinsons-to-potholes-9-tamil-nadu-students-turn-to-ai-to-solve-everyday-problems",
+      "publishedAt": "2026-09-28T06:41:01Z",
+      "excerpt": "Through MicroLearning AI, SafePath AI and NeuroStride, nine young innovators from Chennai and Coimbatore are using artificial intelligence, sensors and wearable technology to solve everyday problems in workplace learning, road safety and healthcare.\n\n## Learning on the Shopfloor—in Just Three Minutes [...] Teams 4 Percentage, JARVISS and Rogue reach the Top 20 of Samsung Solve for Tomorrow 2026 with solutions for workplace learning, road safety and Parkinson’s care  \n   \n Young innovators from…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.735
+      },
+      "id": "5a6767606e8eafce",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Startup news and updates: daily roundup (September 28, 2026) | YourStory",
+      "url": "https://yourstory.com/2026/09/startup-news-and-updates-daily-roundup-september-28-2026",
+      "publishedAt": "2026-09-28T14:00:00Z",
+      "excerpt": "Kochi, Pune, Coimbatore, Madurai, Mysuru, Mangalore, Surat and Indore. Arovia will work with promoter families to help businesses expand into new markets, channels and categories. Parameswaran previously founded Soulfull, which was acquired by Tata Consumer Products in 2021, and continued to lead the business for five years. [...] Indian technology company MagTapp has rebuilt its browser around artificial intelligence and is expanding to iOS after recording more than six million downloads. The…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.359
+      },
+      "id": "90c5fce2f98001a1",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Global advertising giant Omnicom expands to Coimbatore, strengthening the city’s fast-growing GCC ecosystem. 🌍 #Coimbatore #Omnicom #OmnicomGlobalSolutions #GCC #GlobalCapabilityCentre CoimbatoreIT Kovai TamilNadu BusinessNews CoimbatoreNews",
+      "url": "https://www.threads.com/@weluvcoimbatore/post/Dd07xgJmzal/global-advertising-giant-omnicom-expands-to-coimbatore-strengthening-the-citys",
+      "publishedAt": null,
+      "excerpt": "# Thread\n\n495 views\n\nweluvcoimbatore's profile picture\n\nweluvcoimbatore\n\nGlobal advertising giant Omnicom expands to Coimbatore, strengthening the city’s fast-growing GCC ecosystem. 🌍\n\n#Coimbatore #Omnicom #OmnicomGlobalSolutions #GCC #GlobalCapabilityCentre CoimbatoreIT Kovai TamilNadu BusinessNews CoimbatoreNews\n\n4\n\nLog in or sign up for ThreadsSee what people are talking about and join the conversation.\nLog in with username instead",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.302
+      },
+      "id": "cf7fd3f10d12a067",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "MCP 2026-07-28 Migration: Python and TypeScript | ComputingForGeeks",
+      "url": "https://computingforgeeks.com/migrate-mcp-server-stateless",
+      "publishedAt": "2026-09-28T06:00:00Z",
+      "excerpt": ".gEkOIhMNvs3Ru5g6-AangyzjKaprxfJ2VA87mefZQ-fWV17dICJ5-i5V14QgvHqIy3B3ukYYpKFanpalWmgXV9ZOoSh4DqXNZX1xM7qax7-PeCs4oZQ3CsnRIWTXLVAJxpw8tngecMivgBNMvdFgKIQ65t9VQlZRd4TGlTX6Y5xItQEBXqBI9uedw00elwRpgMkKL53TUgQtiKkaVL5i_COsT9J5KR5JVp9iD9vNY3L94gJI7VZtQsD8yu5qr4ArstUxkBIPGftqu7j3AO9T2389Tp7m-xVbFZrZpblM8HJsV0y7xEIEHVU0KGfasrVNnDVHDu4vVWUp1r7lykOXZE2pFg6kO75ShBOyyi7pO3CF38w\",\"resultType\":\"input_required\",\"_meta\":{\"io.modelcontextprotocol/serverInfo\":{\"name\":\"ops-tools\",\"version\":\"2.0.0\"}}}} [...]…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.687
+      },
+      "id": "d41f0a20222c180a",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "MCP Crash Course: Model Context Protocol Explained (Simply) - DEV Community",
+      "url": "https://dev.to/techwithsam/mcp-crash-course-model-context-protocol-explained-simply-266e",
+      "publishedAt": "2026-09-28T07:00:00Z",
+      "excerpt": "That's why Model Context Protocol (MCP) was introduced and open-sourced by Anthropic in November 2024 to create a universal, standardized way for AI models to connect with external data sources, developer tools, and local systems.\n\nToday, we're creating a complete handbook on how this MCP solution works, how to use it, and how it became one of the most useful things in AI right now.\n\nBy the end of this handbook, you'll understand: [...] What MCP actually is\n Why it matters\n How to use existing…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.632
+      },
+      "id": "03213b49c2a38d18",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Why LLMs Hallucinate, and Why They Can’t Just Say “I Don’t Know”",
+      "url": "https://medium.com/@parserdigital/why-llms-hallucinate-and-why-they-cant-just-say-i-don-t-know-18b4f2201139",
+      "publishedAt": "2026-09-28T10:43:23Z",
+      "excerpt": "Third, and this changed my mind the most: _you can’t fully trust the model’s own sense of “I’m confident here_.” Anthropic secretly slipped hints into a model’s prompt and checked whether its visible “thinking” admitted using them. Claude’s reasoning admitted it about a quarter of the time. A competing model, less than 40% .\n\n> What a model says it’s doing isn’t a reliable window into what it’s actually doing. [...] Press enter or click to view image in full size\n\nImage 20\n\nAnd before building…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.278
+      },
+      "id": "8083d66424dfe3aa",
+      "collectedAt": "2026-09-29T05:48:53.138294+00:00"
     }
   ],
-  "updatedAt": "2026-09-29T02:07:03.005556+00:00"
+  "updatedAt": "2026-09-29T05:48:53.138294+00:00"
 }
