@@ -1,0 +1,718 @@
+{
+  "date": "2026-09-30",
+  "runs": [
+    {
+      "runAt": "2026-09-29T20:56:10.817151+00:00",
+      "newItems": 34,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1238,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.834560Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.876423Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 869,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.876806Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.877115Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.877291Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.877460Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.877672Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.877853Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878017Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878175Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878330Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878393Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878440Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878705Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878755Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.878916Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.879078Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.879368Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-29T20:56:10.879532Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.879718Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.879881Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.880108Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.880266Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.880425Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.881065Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.881251Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.881431Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-29T20:56:10.881485Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "publishedAt": "2026-09-29T10:00:00Z",
+      "excerpt": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "author": null,
+      "extra": {},
+      "id": "19db7cc5ca5cc5ea",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "publishedAt": "2026-09-29T10:00:00Z",
+      "excerpt": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "author": null,
+      "extra": {},
+      "id": "dd66acaed2a04b44",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "author": null,
+      "extra": {},
+      "id": "884977ecb8004cb3",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "publishedAt": "2026-09-29T15:30:38Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "493cf3fce1b87919",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
+      "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
+      "publishedAt": "2026-09-29T19:10:51Z",
+      "excerpt": "Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT...",
+      "author": "Tanya Lenz",
+      "extra": {},
+      "id": "fec08784a322012f",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SentZero: An Enhanced Sentence-Centric Vision-Language Pretraining for Multi-Task Zero-Shot Chest X-Ray Analysis",
+      "url": "https://huggingface.co/papers/2609.34479",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Vision-language (VL) pretraining using paired chest X-ray (CXR) images and radiology reports has shown strong potential for medical image understanding. However, existing methods often remain dependent on task-specific finetuning because radiology reports are lengthy, clinically dense, and difficult to align with simple zero-shot prompts. Recent sentence-level approaches partially address this limitation using clinical phrases extracted by large language models (LLMs), but they largely…",
+      "author": "Hangyul Yoon, Hyungyung Lee, Edward Choi, Eunho Yang",
+      "extra": {
+        "upvotes": 25,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.34479"
+      },
+      "id": "0e2d2649ae6a863b",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
+      "url": "https://huggingface.co/papers/2609.33325",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) with input-dependent state transitions, and Test-Time Training (TTT) layers that adapt an inner learner while processing an image. Across this progression, visual computation has become increasingly adaptive to each input, yet the rules governing that adaptation remain largely prescribed by the trained backbone. We…",
+      "author": "Siran Peng, Tianshuo Zhang, Tianyu Fu, Weisong Zhao, Haoyuan Zhang, Jiankuo Zhao, Minghui Wu, Ping Jiang, Xiangyu Zhu, Chenxu Zhao, Zhen Lei",
+      "extra": {
+        "upvotes": 106,
+        "githubRepo": "https://github.com/PSRben/VisionHOPE",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33325"
+      },
+      "id": "f7d42e6b38c8b853",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
+      "url": "https://huggingface.co/papers/2609.35718",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally handled by dedicated computer-vision models. As these capabilities expand, a central question for the computer-vision community is how far this reach extends, and what remains hard. We evaluate GPT-6 Astra alongside five frontier general-purpose AI systems across 34 capabilities and 55 benchmarks spanning nine areas of computer vision. We compare their performance with dedicated…",
+      "author": "Hanoona Rasheed, Mohammed Irfan Kurpath, Bin Ren, Hisham Cholakkal, Fahad Shahbaz Khan, Salman Khan",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": "https://github.com/mbzuai-oryx/frontier-vision",
+        "projectPage": "https://mbzuai-oryx.github.io/frontier-vision/",
+        "arxivUrl": "https://arxiv.org/abs/2609.35718"
+      },
+      "id": "6051faa8f3575006",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "An RL View of OPD: Least Square Policy Distillation for Sample-Efficient LLM Reasoning",
+      "url": "https://huggingface.co/papers/2609.35505",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "We study on-policy distillation (OPD) through the lens of reinforcement learning, establishing a connection between the reverse-KL objective in OPD and KL-regularized policy optimization. Building on this connection, we introduce Least-Square Policy Distillation (LSPD), an RL-inspired framework that brings optimistic exploration and off-policy data reuse from value-based RL into policy distillation. LSPD preserves policy diversity through exploration while improving rollout efficiency by…",
+      "author": "Shangzhe Li, Yuxiao Yang, Tianrun Yu, Kaixiang Zhao, Xiaoyun Wang, Taylor W. Killian, Weitong Zhang",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/UNCSciML/LSPD",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.35505"
+      },
+      "id": "1064395c10ed32f0",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Imprint Reader: From Weight-Update Readout to Behavioral Intervention",
+      "url": "https://huggingface.co/papers/2609.35261",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "As language models take a growing role in AI development, a natural aspiration is for them to reflect on their own learning process, as humans do, and use that reflection to improve themselves. At the same time, these models have an advantage that human learners lack, since training leaves parameter-level traces that can, in principle, be inspected directly. However, current models cannot decode these traces into an explicit account of what they have learned. To this end, we introduce the…",
+      "author": "Guanxu Chen, Qihao Lin, Jing Shao",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/biuboomc/SMaRT-Vibe-Alignment",
+        "projectPage": "https://huggingface.co/quantumfr/imprint-reader-v1.0-0928",
+        "arxivUrl": "https://arxiv.org/abs/2609.35261"
+      },
+      "id": "4bfdc7e485a4de8b",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Residual Transferability in Neural Image Watermarking",
+      "url": "https://huggingface.co/papers/2609.32241",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Neural image watermarks can be forged by extracting watermark-bearing residuals from released images and transferring them to unrelated content. While prior work has demonstrated this vulnerability, what makes these residuals transferable remains poorly understood. We formalize this vulnerability with residual transferability (RT), a metric that quantifies how well watermark evidence remains decodable after transfer across unrelated images. Through comparative analyses and controlled…",
+      "author": "Ziping Dong, Qi Li, Xinchao Wang",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.32241"
+      },
+      "id": "16b31bd4a039bb33",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "TT-VidT: Decoupling the Temporal Axis for Efficient Motion-Centric Video Pretraining",
+      "url": "https://huggingface.co/papers/2609.33419",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Comparisons in video self-supervised learning often evaluate complete training recipes rather than isolating the method itself: architecture, objective, data exposure, schedule, scale, and decoder capacity can all vary at once. This makes it hard to identify which choices yield motion-prioritized representations, whose gains concentrate on frame-to-frame change while retaining useful appearance. We address this with a matched 4 times 6 = 24 architecture-objective study at roughly 170M ~ 190M…",
+      "author": "Shih-Ying Yeh, Daniel Z. Kaplan, Xuehai Wang, Fu-En Yang, Min-Hung Chen, Shang-Hong Lai",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/KohakuBlueleaf/TTVidT",
+        "projectPage": "https://kohakublueleaf.github.io/TTVidT/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33419"
+      },
+      "id": "7b76208dabc0f415",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Viggle/Qwen-Image-2.1-viggle-turbo",
+      "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 418,
+        "trendingScore": 393,
+        "task": "text-to-image"
+      },
+      "id": "b474ccb4ddc60cbf",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+      "publishedAt": "2026-09-29T19:34:14Z",
+      "excerpt": "GPT-6.1 Sol is now generally available on Amazon Bedrock, bringing stronger reasoning to coding, computer use, and professional workloads that run frequently.",
+      "author": "Tanvi Girinath",
+      "extra": {},
+      "id": "2abb956bfece8382",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Prompt engineering fundamentals for Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
+      "publishedAt": "2026-09-29T16:27:57Z",
+      "excerpt": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusable frameworks (specificity, context-setting, few-shot examples, and the CRISPE framework) for consistent, high-quality results across Amazon Quick.",
+      "author": "Daiquan Nkere",
+      "extra": {},
+      "id": "13bc4c52bea7faf9",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Prompt engineering by Quick component: Patterns and pitfalls",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/",
+      "publishedAt": "2026-09-29T16:27:33Z",
+      "excerpt": "Part 2 of our Amazon Quick prompt engineering series goes component by component. Learn the prompt patterns that get the best results from Amazon Quick Research, Quick Flows, Quick Sight, chat agents, and action integrations, plus the common pitfalls to avoid.",
+      "author": "Daiquan Nkere",
+      "extra": {},
+      "id": "067768027e39b69f",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-09-29T16:14:24Z",
+      "excerpt": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract and verify contract fields, then answers aggregate and single-contract questions through Amazon Quick analytics.",
+      "author": "Konala McGrath",
+      "extra": {},
+      "id": "0be4a27903e80267",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Condé Nast built multimodal video discovery with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+      "publishedAt": "2026-09-29T15:55:17Z",
+      "excerpt": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a multimodal video discovery solution on Amazon Bedrock and Amazon OpenSearch Service that cut discovery time to under 2 minutes.",
+      "author": "Mariah Miller",
+      "extra": {},
+      "id": "ae902e3fdd8b4729",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "ChatGPT’s New Version — GPT-6 Astra: The Next Generation of AI",
+      "url": "https://medium.com/@sindhuriaishwarya/chatgpts-new-version-gpt-6-astra-the-next-generation-of-ai-4e639c77c3a9?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T20:29:12Z",
+      "excerpt": "Artificial Intelligence is evolving faster than ever, and ChatGPT has become one of the most widely used AI tools for students, developers… Continue reading on Medium »",
+      "author": "Sindhuriaishwarya",
+      "extra": {},
+      "id": "cf1585e02e531e5d",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Architect | Senior AI/ML Engineer | From Research to Production | Generative AI | LLMs |…",
+      "url": "https://medium.com/@engr.kashifaawan/ai-architect-senior-ai-ml-engineer-from-research-to-production-generative-ai-llms-faafc356e163?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T20:04:03Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "Muhammad Kashif",
+      "extra": {},
+      "id": "a4bcb34ca23f6c6b",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Harmony Beyond the Center [EN/PT/RU/JP/ZH]",
+      "url": "https://medium.com/@PiperFox/harmony-beyond-the-center-en-pt-ru-jp-zh-b00506b1e344?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T19:04:15Z",
+      "excerpt": "English Continue reading on Medium »",
+      "author": "PiperFox",
+      "extra": {},
+      "id": "c25e2e79dcafd13c",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Jev: When AI Starts Behaving More Like Code",
+      "url": "https://medium.com/@shiv.i.ghariwala/jev-when-ai-starts-behaving-more-like-code-43afd9418297?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T18:13:18Z",
+      "excerpt": "TypeSafe AI is exploring something completely different from the trends: what happens when AI is built less for conversation and more for… Continue reading on Medium »",
+      "author": "Shiv Ghariwala",
+      "extra": {},
+      "id": "1af26f1f06916fbb",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Prompt Engineering for SDETs — Part 3: Few-Shot Prompting",
+      "url": "https://medium.com/@sha.jamdar/prompt-engineering-for-sdets-part-3-few-shot-prompting-0f90d73c2ef0?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T18:07:42Z",
+      "excerpt": "After exploring Zero-Shot and One-Shot Prompting, the next technique Continue reading on Medium »",
+      "author": "Shashavali J",
+      "extra": {},
+      "id": "f3a7365512b90606",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI needs $6T in annual revenue to justify data centre boom",
+      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+      "publishedAt": "2026-09-29T19:21:25Z",
+      "excerpt": "",
+      "author": "Betelbuddy",
+      "extra": {
+        "points": 130,
+        "comments": 123,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49898952"
+      },
+      "id": "5d0568f91b9f36a9",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "DraftKings Is Using AI to Behaviorally Target Chronic Gamblers",
+      "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+      "publishedAt": "2026-09-29T16:30:48Z",
+      "excerpt": "",
+      "author": "paimapi",
+      "extra": {
+        "points": 445,
+        "comments": 306,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49896050"
+      },
+      "id": "858436b0db4b0c91",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude partial outage",
+      "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
+      "publishedAt": "2026-09-29T14:25:41Z",
+      "excerpt": "",
+      "author": "sidcool",
+      "extra": {
+        "points": 168,
+        "comments": 142,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49893876"
+      },
+      "id": "c51de47a49e7ab15",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+      "publishedAt": "2026-09-29T14:15:24Z",
+      "excerpt": "",
+      "author": "dkobia",
+      "extra": {
+        "points": 148,
+        "comments": 38,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49893709"
+      },
+      "id": "a45e0f4237603cd5",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Anthropic just dropped the greatest advertisement for GLM ever.",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "publishedAt": "2026-09-29T17:55:48Z",
+      "excerpt": "Like.. yea bro, I knew GLM was cool. Now everyone does.",
+      "author": "/u/BannedGoNext",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wth4iz/anthropic_just_dropped_the_greatest_advertisement/"
+      },
+      "id": "ee711ecd9dde788a",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "GPT-6.1 Sol - Apparently near-Astra performance for complex work at a lower cost.",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "publishedAt": "2026-09-29T17:06:53Z",
+      "excerpt": "",
+      "author": "/u/acoolrandomusername",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wtftlt/gpt61_sol_apparently_nearastra_performance_for/"
+      },
+      "id": "aa20b9435e8e90fb",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AMD's new 256 core EPYC has 16-channel DDR5-12800, 91% memory bandwidth of an RTX 5090",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-drops-an-epyc-usd15-000-256-core-bomb-epyc-9006-zen-6-venice-cpus-get-full-spec-and-pricing-treatment-from-usd700-up-to-usd14-904",
+      "publishedAt": "2026-09-29T14:48:03Z",
+      "excerpt": "Here are some inspirational quotes you can put into the comments: God is dead and we killed him I am become death All this for 1.5 tok/s? Sir this is LocalLLaMA not RichPeopleofLocalLLaMA Sweet! A 2TB DDR5-12800 RDIMM kit is going to cost only 2 kidneys and a small micronation's GDP",
+      "author": "/u/Dany0",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wtc4j9/amds_new_256_core_epyc_has_16channel_ddr512800_91/"
+      },
+      "id": "332e858a6bdfb1e1",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Commercialization of fusion energy will ‘change everything,’ lawmaker says",
+      "url": "https://www.nextgov.com/emerging-tech/2026/09/commercialization-fusion-energy-will-change-everything-lawmaker-says/416287/",
+      "publishedAt": "2026-09-29T02:54:56Z",
+      "excerpt": "",
+      "author": "/u/Ice2jc",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wsyrja/commercialization_of_fusion_energy_will_change/"
+      },
+      "id": "75e5af9574447897",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq mixed as oil retreats, Anthropic and OpenAI fuel AI jitters - Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-29-dow-sp-500-nasdaq-080526442.html",
+      "publishedAt": "2026-09-29T14:22:33Z",
+      "excerpt": "US stocks were mixed as a leaked Anthropic (ANTH.PVT) IPO prospectus and scrapped OpenAI (OPAI.PVT) next-generation model raised more questions about AI safety, while geopolitical tensions continued to support higher oil and bond prices. AMD (AMD) stock rose after the Lisa Su-led company acquired Fei-Fei Li's AI model startup World Labs for $8.2 billion in a deal viewed as a talent and AI insights play. News of that acquisition was soon eclipsed by a Reuters report detailing a leaked Anthropic…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.245
+      },
+      "id": "8de6b85b2bb6cb89",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Security Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/industry/security",
+      "publishedAt": "2026-09-29T08:00:00Z",
+      "excerpt": "MindFort is building fully autonomous AI agents powered by their in-house models that can find, exploit, and patch complex vulnerabilities in web applications at massive scale. MindFort agents use the same principles as human penetration testers to understand their target and figure out the best ways to work together to exploit it. We can do fully autonomous AI web pentesting and bring offensive security to teams out numbered. While security teams were already behind with legacy tools and…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.745
+      },
+      "id": "513a7f4a806e6c59",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What Is Agentic AI? Benefits, Use Cases & Risks",
+      "url": "https://www.qa.com/resources/guides/agentic-ai",
+      "publishedAt": "2026-09-28T19:00:00Z",
+      "excerpt": "The agent ecosystem is developing quickly. Current enterprise platforms include Amazon Bedrock AgentCore, which provides infrastructure for deploying, connecting, securing, and monitoring agents; Gemini Enterprise Agent Platform, designed to build, scale, and govern enterprise agents; and Microsoft Agent Framework, which supports individual agents, tools, and multi-agent workflows. [...] Organisations should avoid attempting enterprise-wide deployment from day one. A more effective approach is…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.795
+      },
+      "id": "d8c8bb01a2459f81",
+      "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    }
+  ],
+  "updatedAt": "2026-09-29T20:56:10.817151+00:00"
+}
