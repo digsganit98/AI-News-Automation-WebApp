@@ -491,7 +491,277 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "openai-withholds-latest-ai-model-due-to-safety-c-2813ce",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "OpenAI withholds latest AI model due to safety concerns",
+      "summary": "OpenAI has announced that it will not release its newest AI model because of safety concerns. The company stated that the risks associated with the model capabilities are too significant to justify a public launch at this time.",
+      "whyItMatters": "This decision highlights ongoing challenges in balancing advanced AI capabilities with safety and risk management before public deployment.",
+      "category": "Policy & Safety",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.nytimes.com/2026/09/28/technology/openai-astra-safety.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-research-introduces-quine-system-for-b-53ae60",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "Microsoft Research introduces Quine system for biological research",
+      "summary": "Microsoft Research has announced Quine, an early-stage multimodal AI system designed to model complex biological processes across different scales. In collaboration with the Broad Institute, researchers used the system to identify and validate potential compounds for therapeutic tumor-state shifts.",
+      "whyItMatters": "Multimodal systems tailored for biology can accelerate the discovery of therapeutic compounds by modeling complex cellular processes.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Microsoft",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Microsoft Research",
+          "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-method-improves-reinforcement-learning-for-c-b9c33d",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "New method improves reinforcement learning for code agents using groupwise grading",
+      "summary": "Researchers have proposed a new approach to reinforcement learning for code agents that addresses the limitations of binary test-based rewards. The method uses groupwise agentic grading to better distinguish between different implementation qualities within a group of model outputs.",
+      "whyItMatters": "Granular grading techniques can significantly improve how coding agents learn from reinforcement learning by providing more informative feedback than simple binary passes.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.32577"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.32577",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "qwengyre-framework-supports-training-long-horizo-d0b96d",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "QwenGyre framework supports training long-horizon AI agents",
+      "summary": "A new elastic reinforcement learning framework called QwenGyre has been developed to train large language model agents on extreme-long horizon tasks. The framework addresses the challenges of managing executions that span hours and involve nearly one million tokens per rollout.",
+      "whyItMatters": "Effective long-horizon training frameworks are essential for developing autonomous agents capable of handling complex, multi-hour workflows.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.33848"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.33848",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-scaling-laws-for-encoder-free-mul-9099ca",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "Study examines scaling laws for encoder-free multimodal models",
+      "summary": "Researchers have investigated the scaling behavior of multimodal large language models that learn visual representations directly from raw pixels without a separate visual encoder. The study aims to understand how these unified architectures perform as they scale.",
+      "whyItMatters": "Understanding the scaling properties of encoder-free models helps simplify multimodal architectures while maintaining performance.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.35457"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.35457",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-finds-post-training-updates-affect-unre-a5866a",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "Research finds post-training updates affect unrelated model decisions",
+      "summary": "A new study reveals that language models can transfer capabilities through text that is unrelated to the specific training tasks. The findings suggest that post-training updates can leave behavioral shadows that influence the model performance on other decisions.",
+      "whyItMatters": "Recognizing unintended behavioral shifts helps researchers better control language model updates and maintain alignment.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.29233"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.29233",
+        "code": "https://github.com/myboker/ATD",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-technique-merges-multiple-ai-specialists-int-db2a4a",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "New technique merges multiple AI specialists into a single model via distillation",
+      "summary": "Researchers have introduced a domain-normalized multi-teacher on-policy distillation method to combine the skills of multiple specialized language models. This approach allows a single model to excel at various tasks such as mathematics, coding, and instruction following.",
+      "whyItMatters": "Combining multiple specialized models into a single efficient architecture reduces deployment complexity while retaining diverse capabilities.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.35347"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.35347",
+        "code": "https://github.com/LiXin97/DN-MOPD",
+        "model": null,
+        "demo": "https://lixin.ai/DN-MOPD/"
+      }
+    },
+    {
+      "id": "openai-releases-guidelines-for-frontier-ai-safet-cf468e",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "OpenAI releases guidelines for frontier AI safety cases",
+      "summary": "OpenAI has published early guidelines for creating safety cases for frontier AI training. The document covers technical safeguards, operational practices, and methods for investigating misalignment incidents.",
+      "whyItMatters": "Standardized safety case guidelines provide a structured framework for managing high-risk frontier AI training protocols.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "sima-ai-raises-150-million-series-c-round-at-1-4-31bd34",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "SiMa.ai raises $150 million Series C round at $1.45 billion valuation",
+      "summary": "SiMa.ai, a developer of chips and software for running AI directly on devices like robots and drones, has raised a $150 million Series C round. The funding brings the company total capital raised to over $500 million.",
+      "whyItMatters": "Substantial funding rounds for edge AI hardware highlight strong investor interest in running machine learning models locally on physical devices.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/09/28/physical-ai-chip-developer-sima-ai-hits-1-45b-valuation/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-agent-startup-instinct-raises-1-billion-at-10-2a2124",
+      "createdAt": "2026-09-29T14:18:16.147121+00:00",
+      "headline": "AI agent startup Instinct raises $1 billion at $10 billion valuation",
+      "summary": "Instinct, a startup known for its artificial intelligence agent that performs everyday tasks, has raised $1 billion in funding at a $10 billion valuation. The massive financing round reflects rapid commercial interest in consumer and enterprise agentic software.",
+      "whyItMatters": "Large capital inflows into agentic startups signal a shift toward venture-backed scaling for general-purpose digital assistants.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-28/ai-agent-startup-instinct-raises-1-billion-at-10-billion-value"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-09-29T05:59:45.727494+00:00"
+  "updatedAt": "2026-09-29T14:18:28.216843+00:00"
 }
