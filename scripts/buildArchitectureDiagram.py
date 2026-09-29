@@ -210,7 +210,7 @@ class Edge:
 
 
 CONTAINERS = [
-    Container("sources", 24, 92, 272, 822, "Sources", "30 sources · every 3 h"),
+    Container("sources", 24, 92, 272, 822, "Sources", "28 sources · every 3 h"),
     Container(
         "actions",
         320,

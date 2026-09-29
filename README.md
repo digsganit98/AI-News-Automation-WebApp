@@ -8,11 +8,11 @@
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
-Every 3 hours, GenAI Daily reads 30 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning, **on the site by 09:30 IST**, they also write a **daily digest** and a short **op-ed**. It runs for free on GitHub, even when your computer is off.
+Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning, **on the site by 09:30 IST**, they also write a **daily digest** and a short **op-ed**. It runs for free on GitHub, even when your computer is off.
 
 | At a glance | |
 |---|---|
-| Sources | **30**: 11 labs and research blogs, 4 cloud platforms, arXiv, Hacker News, Reddit, YouTube, 6 newsletters, web search. X is coming next. |
+| Sources | **28**, all in English: 11 labs and research blogs, 4 cloud platforms, arXiv, Hacker News, Reddit, YouTube, 5 newsletters and blogs, web search. |
 | Updates | Every **3 hours**; daily edition **on the site by 09:30 IST** |
 | AI agents | **9**: 6 scouts, an analyst, a writer and an editor (built with LangGraph) |
 | LLM calls | About **80–100 a day**, hard cap **150** (all free tiers: Groq and Google Gemini) |
@@ -51,7 +51,7 @@ Each page has one job: news on Latest, papers on Paper Trail, the morning editio
 
 ## How it works
 
-![Architecture: 30 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
+![Architecture: 28 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
 
 **Every 3 hours** a GitHub Actions job:
 
@@ -107,6 +107,7 @@ GenAI Daily covers AI that advances people. These rules are enforced in code and
 
 - **Content policy.** No sexual or explicit content, nothing racist, sexist, misogynistic, hateful or anti-religious, and nothing that promotes violence, weapons, terrorism or self-harm. No gossip, outrage bait or fear-mongering.
 - **Checked three times.** (1) At collection, a block list (`blockedTerms` in [`config/sources.yaml`](config/sources.yaml)) drops matching items from every source before any AI or page sees them. (2) Every agent prompt includes the policy ([`contentPolicy.md`](src/digest/agents/prompts/contentPolicy.md)). (3) Before anything is saved, code checks what the AI wrote: a story that breaks the policy is removed, and an edition that does is withheld. The website applies the block list once more to everything it shows.
+- **English only, in plain, correct English.** Items in other languages are dropped at collection (`englishOnly` in `config/sources.yaml`). Everything the AI writes is tidied in code before it's saved: long dashes (—) between clauses become proper punctuation, odd hyphen characters are fixed, and empty bullet points or paragraphs are removed. The prompts ask for the same.
 - **Only reviewed content is published.** Raw web-search results are never shown; they reach the site only as a story an AI agent reviewed. Raw feeds come from known sources only.
 - **Transparent.** AI-written content is labelled (the op-ed is marked "AI-written opinion"), every story links to its original sources, and every AI call is logged in Langfuse.
 - **Grounded and fact-checked.** The AI can't invent links, and an editor agent checks every edition against the original articles (see above).

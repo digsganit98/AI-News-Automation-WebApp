@@ -9,3 +9,9 @@ GenAI Daily covers AI that advances people: progress, useful tools, research, re
 - gossip, outrage bait, fear-mongering or sensationalism
 
 If an item or story touches any of these, drop it. Write in a calm, constructive, respectful tone.
+
+## Language and style (always applies)
+- English only. Drop any item that is not written in English, and write everything in English.
+- Write complete, grammatical sentences in plain, correct English.
+- Do not use long dashes (— or –) to join clauses. Use a comma, a full stop or a new sentence instead. Use a normal hyphen (-) inside words and names.
+- Never return an empty bullet point or paragraph.

@@ -23,6 +23,7 @@ from digest.collectors.feedCache import saveFeedCache
 from digest.dataModels import CollectionResult
 from digest.processing.contentSafety import blockedPattern, guardOutput
 from digest.processing.removeDuplicates import SeenStore, dedupe
+from digest.processing.textStyle import tidyOutcome
 from digest.publish.saveDataFiles import SEEN_FILE, writeCollection
 from digest.runCollectors import collectSources
 from digest.sourcesConfig import loadConfig
@@ -158,7 +159,9 @@ def commandRun(args: argparse.Namespace) -> int:
             agentItems += [i for i in backlog if i.id not in known]
             print(f"Agents get {len(agentItems)} items ({len(agentItems) - len(known)} backlog)")
         outcome = asyncio.run(runAgents(agentItems, args.mode, saveUsage=not args.dryRun))
-        # Content policy, checked in code on what the AI wrote, before anything is saved.
+        # House style (no long dashes, no empty bullets) and the content policy, checked in
+        # code on what the AI wrote, before anything is saved.
+        tidyOutcome(outcome)
         policy = blockedPattern(loadConfig().settings.blockedTerms)
         if removed := guardOutput(outcome, policy):
             outcome.errors.append("Content policy removed: " + "; ".join(removed))

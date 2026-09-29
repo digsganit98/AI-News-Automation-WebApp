@@ -17,6 +17,7 @@ from digest.envSettings import env
 from digest.processing.articleFilter import keepArticlesOnly
 from digest.processing.cleanItems import normalize
 from digest.processing.contentSafety import blockedPattern, dropBlocked
+from digest.processing.languageFilter import keepEnglish
 from digest.processing.removeDuplicates import inWindow
 from digest.processing.titleFilter import applyTitleFilter
 from digest.sourcesConfig import Config, SourceConfig
@@ -83,5 +84,10 @@ async def collectSources(
     safe = dropBlocked(items, blockedPattern(config.settings.blockedTerms))
     if len(safe) < len(items):
         log.info("Content safety: dropped %d items", len(items) - len(safe))
+    if config.settings.englishOnly:
+        english = keepEnglish(safe)
+        if len(english) < len(safe):
+            log.info("English only: dropped %d items in other languages", len(safe) - len(english))
+        safe = english
     items = inWindow(normalize(safe), since)
     return CollectionResult(runAt=runAt, items=items, health=[h for _, h in results])

@@ -22,6 +22,7 @@ settings:
   # content. The website applies the same list to data already collected. Add terms freely.
   # Note: this also drops neutral news that uses these words (e.g. research on racist bias
   # in AI models); that's intended, to keep the site clean.
+  englishOnly: true      # items in other languages are dropped (the site is English only)
   blockedTerms:
     - '\b(sex|sexy|sexual\w*|sexting|porn\w*|nsfw|nude\w*|nudity|naked|nudify\w*|undress\w*)\b'
     - '\b(erotic\w*|xxx|hentai|onlyfans|escorts?|fetish\w*|camgirls?|strip ?club\w*)\b'
@@ -291,6 +292,7 @@ sources:
   - id: krish-naik-hindi
     name: Krish Naik Hindi
     type: youtube
+    enabled: false   # Hindi channel: the site is English only
     group: video
     icon: youtube
     channelId: UCjWY5hREA6FFYrthD0rZNIw

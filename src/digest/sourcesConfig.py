@@ -39,6 +39,7 @@ class Settings(BaseModel):
     requestTimeout: float = 30.0
     notArticleHosts: list[str] = []  # discussion/social sites: a link there isn't an article
     blockedTerms: list[str] = []  # content safety: items matching any of these are dropped
+    englishOnly: bool = False  # drop items written in another language
 
 
 class Config(BaseModel):
