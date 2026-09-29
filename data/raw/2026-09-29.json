@@ -238,6 +238,244 @@
           "checkedAt": "2026-09-28T22:11:23.965955Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-29T02:07:03.005556+00:00",
+      "newItems": 15,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1234,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.017867Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.048505Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 869,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.048829Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049071Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049185Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049292Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049394Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049491Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049585Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049678Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049767Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049811Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049839Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.049995Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.050024Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.050118Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.050211Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.050587Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-29T02:07:03.050746Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.050871Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.051009Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.051155Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.051254Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.051346Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.051755Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.051865Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.051999Z"
+        },
+        {
+          "source": "krish-naik-hindi",
+          "sourceName": "Krish Naik Hindi",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.052033Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-29T02:07:03.052057Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -738,7 +976,221 @@
       },
       "id": "0e4b0f42412e7447",
       "collectedAt": "2026-09-28T22:11:23.900079+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "publishedAt": "2026-09-29T01:00:00Z",
+      "excerpt": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "author": null,
+      "extra": {},
+      "id": "cfe8e900401f31bb",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Contrastive-LM/CLM-v0.1-8B",
+      "url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 479,
+        "trendingScore": 472,
+        "task": "text-ranking"
+      },
+      "id": "d242d07dbb0944cb",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: nvidia/Nemotron-3-Diarization",
+      "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 463,
+        "trendingScore": 449,
+        "task": "voice-activity-detection"
+      },
+      "id": "2e18c6e34256db01",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Grok 4.7 is now available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/",
+      "publishedAt": "2026-09-28T18:29:00Z",
+      "excerpt": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work, with US Geo and Global cross-Region inference. Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and error recovery, and enhanced browser-use agents for form fills and portal navigation. Get started with Grok 4.7 in the Amazon Bedrock console or programmatically through supported Amazon Bedrock APIs. For information…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "0efbb34e38477cab",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Grok 4.7 is now available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+      "publishedAt": "2026-09-28T22:13:16Z",
+      "excerpt": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs.",
+      "author": "Suheel Farooq",
+      "extra": {},
+      "id": "96eb78113b186fcb",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "url": "https://www.latent.space/p/thariq",
+      "publishedAt": "2026-09-29T01:48:18Z",
+      "excerpt": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+      "author": null,
+      "extra": {},
+      "id": "251ef6521f8b0784",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "De la Lógica Tradicional a la AGI: Las 7 Capas de la Inteligencia Artificial",
+      "url": "https://medium.com/@ingalopez11/de-la-l%C3%B3gica-tradicional-a-la-agi-las-7-capas-de-la-inteligencia-artificial-ad8863ec061d?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-28T23:26:01Z",
+      "excerpt": "🤖 La evolución de la Inteligencia Artificial no ocurrió de la noche a la mañana; ha sido una escalada constante a través de distintos… Continue reading on Medium »",
+      "author": "Michel Alan López",
+      "extra": {},
+      "id": "d611accd9539d7ca",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+      "publishedAt": "2026-09-28T23:40:59Z",
+      "excerpt": "",
+      "author": "6thbit",
+      "extra": {
+        "points": 69,
+        "comments": 63,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49886005"
+      },
+      "id": "30bb7297dcd2557d",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Pacing the Frontier is not the actual goal for AI labs",
+      "url": "https://www.lesswrong.com/posts/Nm4ewbYovtjq69dvH/pacing-the-frontier-is-not-the-actual-goal-for-ai-labs",
+      "publishedAt": "2026-09-28T20:47:26Z",
+      "excerpt": "",
+      "author": "brlewis",
+      "extra": {
+        "points": 74,
+        "comments": 79,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49884119"
+      },
+      "id": "32b405586eacb347",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AMD acquiring Fei-Fei Li's World Labs AI firm in deal worth $8.2 billion - CNBC",
+      "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+      "publishedAt": "2026-09-28T20:10:45Z",
+      "excerpt": "AMD announced on Monday that it has entered into an agreement to acquire World Labs, a San Francisco-based AI lab developing a kind of model called a world model, which can be used to simulate 3D environments. AMD said on Monday that the lab was acquired for about $8.2 billion in an all-stock transaction. AMD is making its biggest splash yet in the AI M&A market at a time when tech's largest companies are opening their wallets for top engineering and research talent, even for businesses that…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.391
+      },
+      "id": "5e143e67c1ec07d9",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic launches cheaper AI model, its second release since CEO's call for a slowdown - cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/28/anthropic-sonnet-5-5-launch.html",
+      "publishedAt": "2026-09-28T18:00:06Z",
+      "excerpt": "Anthropic on Monday released a new artificial intelligence model called Sonnet 5.5, the company's second launch since CEO Dario Amodei called to slow down the pace of development. Sonnet 5.5 is a faster, lower-cost offering from Anthropic, and the company said it is better at coding, completing scoped tasks and creating polished documents, slides and spreadsheets than its predecessor. The launch comes less than one week after Anthropic introduced Opus 5.5, a more expensive model, and it said…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.293
+      },
+      "id": "8f9548e147bbc132",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion - The Verge",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "publishedAt": "2026-09-28T21:31:35Z",
+      "excerpt": "# AMD is acquiring AI company World Labs in a deal worth more than $8 billion. AMD announced today that it’s acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. Li will become EVP and chief scientist at AMD, reporting to AMD CEO Lisa Su, while the World Labs team will “continue to focus on advancing AI model research.” AMD also notes that the acquisition will strengthen “its ability to develop AI…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.226
+      },
+      "id": "e2fc9b9196c5f7cd",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta Goes All-In On AI for Businesses Before Muse Goes Horribly Wrong - Gizmodo",
+      "url": "https://gizmodo.com/meta-goes-all-in-on-ai-for-businesses-before-muse-goes-horribly-wrong-2000818432",
+      "publishedAt": "2026-09-28T20:45:55Z",
+      "excerpt": "On Monday, the company announced it’s also bringing its superintelligence ambitions to the all-important enterprise market with the launch of a new internal business unit. “Initially, we will focus on bringing our full technology stack, including the Muse agent, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers to help them grow.” The company is following in the footsteps of its biggest competitors in the AI sector, including OpenAI, Anthropic, and Microsoft, all…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.212
+      },
+      "id": "44a8c3f60942a50a",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Muse is Meta's new family of AI models — I'm Meta AI powered by Muse Spark, which launched April 8th, 2026 as the first model in that series. It's also a separate app: Muse is your personal AI agent from Meta that gets things done across every part of life. You can download it at http://muse.ai.",
+      "url": "https://www.threads.com/@meta.ai/post/DdrN_8Uk5Hc/muse-is-metas-new-family-of-ai-models-im-meta-ai-powered-by-muse-spark-which",
+      "publishedAt": null,
+      "excerpt": "# Thread\n\n53 views\n\nmeta.ai's profile picture\n\nmeta.ai\n\nMuse is Meta's new family of AI models — I'm Meta AI powered by Muse Spark, which launched April 8th, 2026 as the first model in that series.\n\nIt's also a separate app: Muse is your personal AI agent from Meta that gets things done across every part of life. You can download it at muse.ai.\n\n1\n\nLog in or sign up for ThreadsSee what people are talking about and join the conversation.\nLog in with username instead",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.436
+      },
+      "id": "3caa88dc03d6c0c4",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Capital One’s agentic AI strategy hinges on data, platform-first mindset",
+      "url": "https://www.ciodive.com/news/capital-one-agentic-ai-strategy/831435",
+      "publishedAt": "2026-09-28T07:00:00Z",
+      "excerpt": "Preparing an enterprise platform for agentic use cases with codified policies and policy checks, runtime controls, compliance and any other mandatory enterprise cybersecurity guardrails allows developers to build AI agents quickly on top of a secure foundation, Shetty said.\n\nKeep up with the story. Subscribe to the CIO Dive free daily newsletter [...] Chat Concierge was one of the bank’s marquee external use cases and one of its first multiagent applications, deployed in production over two…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.822
+      },
+      "id": "438d42c92d6c34b3",
+      "collectedAt": "2026-09-29T02:07:03.005556+00:00"
     }
   ],
-  "updatedAt": "2026-09-28T22:11:23.900079+00:00"
+  "updatedAt": "2026-09-29T02:07:03.005556+00:00"
 }
