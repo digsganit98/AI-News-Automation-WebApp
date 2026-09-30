@@ -745,7 +745,223 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "new-benchmark-apm-bench-tests-long-term-memory-f-a76b0b",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "New benchmark APM-Bench tests long-term memory for video assistants",
+      "summary": "Researchers introduced APM-Bench to evaluate how well AI video assistants remember information across separate, non-continuous interactions. The study found that current models struggle to balance reliable long-term recall with low processing overhead.",
+      "whyItMatters": "This benchmark highlights key memory limitations that must be solved before video assistants can reliably handle long-horizon tasks.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.37559"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.37559",
+        "code": "https://github.com/Jianguo-Huang11/APM-Bench",
+        "model": null,
+        "demo": "https://jianguo-huang11.github.io/APM-Bench/"
+      }
+    },
+    {
+      "id": "asyncllm-framework-enables-language-models-to-ha-5a0808",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "AsyncLLM framework enables language models to handle multiple tasks simultaneously",
+      "summary": "A new open-source framework called AsyncLLM allows large language models to process new inputs while they are already thinking or acting. The system demonstrates that existing models can handle concurrent tasks like voice interaction and monitoring without additional training.",
+      "whyItMatters": "Concurrent task processing improves the responsiveness and practical utility of language models in real-time applications.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.35427"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.35427",
+        "code": "https://github.com/dvmazur/async_llm",
+        "model": null,
+        "demo": "https://dvmazur.github.io/async_llm"
+      }
+    },
+    {
+      "id": "q-and-d-method-trains-ai-agents-to-proactively-s-71f690",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "Q and D method trains AI agents to proactively seek missing information",
+      "summary": "A new study introduces an approach for training AI agents to ask for information that users did not explicitly request but is necessary to complete a task. The method helps agents determine what to pursue and when to stop, reducing the number of questions needed.",
+      "whyItMatters": "Proactive information-seeking allows AI agents to complete complex tasks more autonomously with less user intervention.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.37236"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.37236",
+        "code": "https://github.com/dolev31/ProactiveInquirer",
+        "model": null,
+        "demo": "https://dolev31.github.io/ProactiveInquirer/"
+      }
+    },
+    {
+      "id": "storyengine-framework-improves-coherence-in-ai-g-eccd22",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "StoryEngine framework improves coherence in AI-generated video stories",
+      "summary": "Researchers developed StoryEngine, an agentic framework designed to help AI generate longer and more consistent video stories. The system uses an explicit mechanism to track the consequences of actions across different shots.",
+      "whyItMatters": "Maintaining narrative consistency across multiple shots is a major hurdle in multi-shot video generation.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.33627"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.33627",
+        "code": "https://github.com/wwwTaylor/StoryEngine",
+        "model": null,
+        "demo": "https://wwwtaylor.github.io/StoryEngine/"
+      }
+    },
+    {
+      "id": "china-telecom-releases-teleocr-model-for-documen-f513a1",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "China Telecom releases TeleOCR model for document parsing",
+      "summary": "China Telecom's Xingchen AGI Lab has open-sourced TeleOCR, a 1.2 billion parameter model that tops three international benchmarks and won the ICDAR 2026 competition. The release shows that a lightweight, specialized model can outperform general-purpose systems in document understanding.",
+      "whyItMatters": "Specialized lightweight models offer high performance for specific document tasks while reducing computational costs.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://markets.businessinsider.com/news/stocks/china-telecom-unveils-teleocr-lightweight-1-2b-model-tops-global-document-parsing-benchmarks-1036584327"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openclaw-launches-free-enterprise-platform-for-a-879b2f",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "OpenClaw launches free enterprise platform for AI agents",
+      "summary": "OpenClaw has introduced OpenClaw Enterprise, a vendor-neutral and MIT-licensed platform designed to help companies manage persistent AI agents. The platform is backed by support from OpenAI, Red Hat, and Nvidia.",
+      "whyItMatters": "Enterprise platforms provide standardized infrastructure for deploying and managing persistent AI agents securely.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://venturebeat.com/orchestration/openclaw-launches-free-enterprise-control-plane-for-persistent-ai-agents-backed-by-openai-red-hat-and-nvidia"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-unveils-dots-suite-for-continuous-ai-agen-202bec",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "OpenAI unveils Dots suite for continuous AI agents",
+      "summary": "OpenAI launched Dots, a suite of autonomous AI agents that work continuously to perform tasks using cloud computers, web browsers, and integrations with thousands of applications. The announcement followed the company's decision to hold back another system due to safety concerns.",
+      "whyItMatters": "Continuous agents expand the scope of automation by executing long-running workflows across external tools and environments.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-launches-dots-ai-agents-safety-questions-rcna600338"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-introduces-muse-for-small-business-a74159",
+      "createdAt": "2026-09-30T14:05:47.390069+00:00",
+      "headline": "Meta introduces Muse for Small Business",
+      "summary": "Meta has launched Muse for Small Business, an AI service that connects its Muse agent to business software such as Asana, Zoom, and Slack. The tool uses the same pricing structure and usage limits as the existing Muse app.",
+      "whyItMatters": "Integrating agentic tools into standard small business software broadens access to workplace automation.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.cnbc.com/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-09-30T09:12:21.668723+00:00"
+  "updatedAt": "2026-09-30T14:05:52.748487+00:00"
 }

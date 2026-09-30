@@ -1380,6 +1380,236 @@
           "checkedAt": "2026-09-30T09:03:09.474327Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-30T13:59:22.101876+00:00",
+      "newItems": 20,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1238,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.119551Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.160794Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 869,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.161163Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.161445Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.161649Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.161822Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.161986Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.162151Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.162312Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.162470Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.162659Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.162723Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.162772Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.163012Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.163061Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.163224Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.163386Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.163706Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-30T13:59:22.163870Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.164032Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.164189Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.164419Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.164619Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.164801Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.165425Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.165642Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.165829Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-09-30T13:59:22.165884Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -3095,7 +3325,304 @@
       },
       "id": "c18f468d5df732d8",
       "collectedAt": "2026-09-30T09:03:09.412586+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
+      "url": "https://huggingface.co/papers/2609.37559",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences for later use. Yet existing streaming benchmarks and methods often focus on individual continuous videos or short clips, overlooking that real-world interactions are often intermittent and require memory to persist across interruptions. To fill this gap, we introduce APM-Bench, which reformulates real-world streaming interaction as multi-session life trajectories. It contains…",
+      "author": "Jianguo Huang, Jinming Liu, Qiyao Wang, Liang Xu, Jianhang Li, Zhimian Wen, Mingda Li, Shule Lu, Zhicheng Wang, Yuhan Guo, Xin Jin, Wenjun Zeng",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/Jianguo-Huang11/APM-Bench",
+        "projectPage": "https://jianguo-huang11.github.io/APM-Bench/",
+        "arxivUrl": "https://arxiv.org/abs/2609.37559"
+      },
+      "id": "a76b0b490b976f53",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "LLMs are General Asynchronous Agents",
+      "url": "https://huggingface.co/papers/2609.35427",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think, reply or call tools, repeat. Many real-world use cases are not sequential: voice assistants, embodied agents, and monitoring systems receive new inputs while they think or perform another task. Modern LLMs address this with specialized architectures for voice interaction and video streams, VLAs for robot control, asynchronous tool calling for API usage, and others. In this…",
+      "author": "George Yakushev, Denis Mazur, Vladimir Bartenev, Vyacheslav Zhdanovskiy, Timofey Byzov, Vladimir Kaurkin, Vadim Pastushenko",
+      "extra": {
+        "upvotes": 28,
+        "githubRepo": "https://github.com/dvmazur/async_llm",
+        "projectPage": "https://dvmazur.github.io/async_llm",
+        "arxivUrl": "https://arxiv.org/abs/2609.35427"
+      },
+      "id": "5a0808072593ee38",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents",
+      "url": "https://huggingface.co/papers/2609.37236",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "An agent that uses tools typically responds to what the user explicitly asks, yet completing the task may require information the user never requested. Work on proactive agents mainly studies whether and when an agent should act on its own, not what information it should pursue. We study a distinct axis of proactivity: its content. Horizontal proactivity pursues unstated information that the current context already identifies, and vertical proactivity pursues needs that only earlier evidence…",
+      "author": "Ido Levy, Asaf Yehudai, Segev Shlomov, Asaf Adi, Leshem Choshen",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/dolev31/ProactiveInquirer",
+        "projectPage": "https://dolev31.github.io/ProactiveInquirer/",
+        "arxivUrl": "https://arxiv.org/abs/2609.37236"
+      },
+      "id": "71f690c6d184f5a5",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "StoryEngine: A State-Grounded Agentic Framework for Video Storytelling",
+      "url": "https://huggingface.co/papers/2609.33627",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "Despite recent progress in agentic multi-shot video generation, producing coherent and consistent long-form stories remains challenging. Existing agentic pipelines typically rely on textual shot plans or previously generated pixels, yet lack an explicit mechanism for propagating the consequences of story events and maintaining the video world state across shots. As a result, missing visual details may be reconstructed inaccurately, while visual drift may propagate across subsequent shots,…",
+      "author": "Yingrui Wang, Zeqing Wang, Yeying Jin",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/wwwTaylor/StoryEngine",
+        "projectPage": "https://wwwtaylor.github.io/StoryEngine/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33627"
+      },
+      "id": "eccd22b1e73036de",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Detailed Study of LLM, Prompt Engineering and LangChain with Code Example",
+      "url": "https://medium.com/@hitanshibuha11/detailed-study-of-llm-prompt-engineering-and-langchain-with-code-example-d158f1585a46?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T13:48:55Z",
+      "excerpt": "Abstract Continue reading on Medium »",
+      "author": "Hitanshibuha",
+      "extra": {},
+      "id": "a8825619c6775496",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Microsoft’s New Copilot Made Me Think: Is Smarter AI Even Enough Anymore?",
+      "url": "https://generativeai.pub/microsofts-new-copilot-made-me-think-is-smarter-ai-even-enough-anymore-d64eff94fcb0?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T13:48:35Z",
+      "excerpt": "Microsoft’s new Copilot made me think about a different AI problem: how do we turn all this intelligence into something people can… Continue reading on Generative AI »",
+      "author": "Pinki Singh",
+      "extra": {},
+      "id": "5c3ce43f37c9e04d",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Agent Automation: From Simple Workflows to Intelligent Systems",
+      "url": "https://medium.com/@techpratham.29/ai-agent-automation-from-simple-workflows-to-intelligent-systems-4c49c1ba647e?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T13:21:55Z",
+      "excerpt": "How AI agents use tools, context, APIs and orchestration to automate multi-step work Continue reading on Medium »",
+      "author": "Future Tech Career Hub",
+      "extra": {},
+      "id": "5eda3d7fc278579b",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Your AI Agent Isn’t Expensive. Your Architecture Is.",
+      "url": "https://manalisomani099.medium.com/your-ai-agent-isnt-expensive-your-architecture-is-e64be0cf1732?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T13:01:04Z",
+      "excerpt": "I stopped looking at token prices and started looking at everything happening between the user request and the final answer. Continue reading on Medium »",
+      "author": "Manali Somani",
+      "extra": {},
+      "id": "0417e277290523cd",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Beyond Chatbots: How OpenAI’s Dots Could Change the Way We Work With AI",
+      "url": "https://medium.com/@sharmarkunal/beyond-chatbots-how-openais-dots-could-change-the-way-we-work-with-ai-d6d6f06b7433?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T12:45:38Z",
+      "excerpt": "The shift from AI that responds to AI that works in the background is already underway. Continue reading on Medium »",
+      "author": "Sharmarkunal",
+      "extra": {},
+      "id": "d9fa6379e9e74b5b",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
+      "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
+      "publishedAt": "2026-09-30T09:59:03Z",
+      "excerpt": "",
+      "author": "theanonymousone",
+      "extra": {
+        "points": 66,
+        "comments": 82,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49906669"
+      },
+      "id": "3e9b576df9947d11",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Pi.dev: You Said No MCP",
+      "url": "https://earendil.com/posts/you-said-no-mcp/",
+      "publishedAt": "2026-09-30T09:55:23Z",
+      "excerpt": "",
+      "author": "yarapavan",
+      "extra": {
+        "points": 274,
+        "comments": 128,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49906637"
+      },
+      "id": "f9d283d850cc3a91",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: TurboGPT: train 22KiB transformer in 13s",
+      "url": "https://github.com/lostmsu/TurboGPT",
+      "publishedAt": "2026-09-29T19:20:02Z",
+      "excerpt": "",
+      "author": "lostmsu",
+      "extra": {
+        "points": 52,
+        "comments": 10,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49898931"
+      },
+      "id": "8abf9ed4bc81e6fd",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Meta's new AI agent built lists of people in vulnerable groups on request",
+      "url": "https://hntrbrk.com/breaking-news/muse-doxxing",
+      "publishedAt": "2026-09-29T08:06:40Z",
+      "excerpt": "",
+      "author": "iamacyborg",
+      "extra": {
+        "points": 50,
+        "comments": 0,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49889780"
+      },
+      "id": "25f669214bc30ad2",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "China Telecom Unveils TeleOCR: Lightweight 1.2B Model Tops Global Document Parsing Benchmarks - markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/china-telecom-unveils-teleocr-lightweight-1-2b-model-tops-global-document-parsing-benchmarks-1036584327",
+      "publishedAt": "2026-09-30T07:52:31Z",
+      "excerpt": "Open-sourced by China Telecom's Xingchen AGI Lab, the model tops three international benchmarks and wins the ICDAR 2026 competition, showing that a lightweight model can surpass general-purpose AI giants at specialized document understanding. (China Telecom AI) announced that TeleOCR, its self-developed document parsing model, has set a new state-of-the-art (SOTA) result on OmniDocBench v1.6, the field's most comprehensive benchmark, with an overall score of 96.87 out of 100. The model also…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.294
+      },
+      "id": "f513a1b83b02b979",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "An employee or AI? A $12M Israeli startup wants to tell the difference - ynetnews.com",
+      "url": "https://www.ynetnews.com/business/article/hkkbcbt9zx",
+      "publishedAt": "2026-09-29T14:37:58Z",
+      "excerpt": "# An employee or AI? ## As AI agents increasingly operate through human accounts, Israeli startup Rig Security has raised $12 million to help companies distinguish between people and AI and stop risky agent activity without blocking employees. As AI agents take on more work inside companies, from writing code to investigating problems and automating routine tasks, they are creating a surprisingly basic security problem: Companies may no longer know whether a person or a piece of software is…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.381
+      },
+      "id": "263d9651c77c556c",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI launches always-on AI agents a day after apologizing for a hack by its bots - NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/openai-launches-dots-ai-agents-safety-questions-rcna600338",
+      "publishedAt": "2026-09-29T23:03:10Z",
+      "excerpt": "# OpenAI launches always-on AI agents a day after apologizing for a hack by its bots. OpenAI launched a new agent product focused on continuous work just a day after it announced it had refrained from releasing its latest system due to safety concerns. SAN FRANCISCO — Leading AI company OpenAI tried to navigate through a storm of controversy on a cloudless San Francisco Tuesday, touting a new wave of products and tools it said would empower users with autonomous assistants. CEO Sam Altman…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.321
+      },
+      "id": "76c899a4e5a6a415",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta launches Muse for Small Business as Zuckerberg pushes beyond consumer AI market - CNBC",
+      "url": "https://www.cnbc.com/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html",
+      "publishedAt": "2026-09-29T09:30:01Z",
+      "excerpt": "Coming off the successful launch of its Muse AI agent, Meta is now pushing its new artificial intelligence service into the business world. Meta on Tuesday unveiled Muse for Small Business that connects its agent to popular software from companies like Asana, Zoom, Intuit, Box, Canva and Salesforce's Slack. The company didn't offer details on pricing, but referred at the bottom of its blog post to the existing Muse app, which is free with usage limits and available on a subscription basis…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.312
+      },
+      "id": "732c561a6f40549e",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Chinese-powered AI agents show the same deception as their US rivals - thenextweb.com",
+      "url": "https://thenextweb.com/news/chinese-powered-ai-agents-show-the-same-deception-as-their-us-rivals",
+      "publishedAt": "2026-09-30T12:13:40Z",
+      "excerpt": "AI agents built on Chinese models have lied, hidden their failures, and got around limits in tests, a Reuters review of more than 200 research documents has found. Reuters has identified at least 20 studies and tests conducted since 2025 that describe such instances, but it found no evidence that an agent using a Chinese model had escaped onto the open web or avoided a shutdown. In a trial conducted in March, researchers from Beihang University, Peking University, and the 360 AI Security Lab,…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.175
+      },
+      "id": "f628bec5c90eed35",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenClaw launches free enterprise control plane for persistent AI agents, backed by OpenAI, Red Hat and Nvidia - VentureBeat",
+      "url": "https://venturebeat.com/orchestration/openclaw-launches-free-enterprise-control-plane-for-persistent-ai-agents-backed-by-openai-red-hat-and-nvidia",
+      "publishedAt": "2026-09-30T01:25:08Z",
+      "excerpt": "# OpenClaw launches free enterprise control plane for persistent AI agents, backed by OpenAI, Red Hat and Nvidia. The popular open source AI agentic framework OpenClaw is now targeting the enterprise with OpenClaw Enterprise, or OCE, a new, vendor-neutral, MIT Licensed platform designed to allow companies to deploy persistent AI agents while retaining centralized control over security, permissions, auditing and infrastructure. OpenClaw says the project originated inside OpenAI before being…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.731
+      },
+      "id": "879b2f1271f66b9a",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Muse is crushing these consumer stocks. Cramer says some may be worth a look - CNBC",
+      "url": "https://www.cnbc.com/2026/09/29/jim-cramer-meta-muse-consumer-inertia.html",
+      "publishedAt": "2026-09-29T22:24:38Z",
+      "excerpt": "CNBC's Jim Cramer said Tuesday that Wall Street might be overreacting to the threat Meta's Muse AI agent poses to a wide range of consumer stocks. The latest AI disruption trade, dubbed \"consumer inertia,\" is based on the idea that agents like Muse could hurt businesses that benefit when consumers don't bother canceling subscriptions, comparing prices or shopping around for better deals. \"I'm skeptical about dumping entire groups based on this idea that agentic AI means the death of consumer…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.329
+      },
+      "id": "3acd59aeaedb4378",
+      "collectedAt": "2026-09-30T13:59:22.101876+00:00"
     }
   ],
-  "updatedAt": "2026-09-30T09:03:09.412586+00:00"
+  "updatedAt": "2026-09-30T13:59:22.101876+00:00"
 }
