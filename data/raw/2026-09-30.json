@@ -460,6 +460,236 @@
           "checkedAt": "2026-09-30T01:22:11.135539Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-30T02:16:32.725807+00:00",
+      "newItems": 9,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1238,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.739040Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.773638Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 869,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.773992Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774234Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774351Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774458Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774562Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774664Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774761Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774873Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.774972Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.775017Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.775047Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.775217Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.775248Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.775353Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.775454Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.775839Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-30T02:16:32.776013Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.776134Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.776236Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.776398Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.776504Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.776608Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.777125Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.777252Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.777379Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-30T02:16:32.777413Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1289,7 +1519,137 @@
       },
       "id": "2e45bc18569ddd70",
       "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "What Makes World Action Models Generalize? An Empirical Study of Test-Time Future Modeling",
+      "url": "https://huggingface.co/papers/2609.34981",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "World action models (WAMs) predict the future alongside actions during training. Due to the heavy computation cost of video denoising, whether the future must still be generated during inference is disputed: Explicit WAMs denoise it into clean frames along with every action chunk, whereas Latent WAMs discard it entirely for acceleration. We find that latent WAMs, despite matching explicit ones on in-distribution tasks, fail to retain the generalization benefits that originally motivated WAMs.…",
+      "author": "Renping Zhou, Zanlin Ni, Zihao Fan, Guohao Fu, Zeyu Liu, Hao Shi, Jie Zhang, Chi Bene Chen, Yang Yue, Xueyang Fu, Gao Huang",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/LeapLabTHU/Simple-WAM",
+        "projectPage": "https://zrporz.github.io/Simple-WAM-Web/",
+        "arxivUrl": "https://arxiv.org/abs/2609.34981"
+      },
+      "id": "fa7cd1fd68c33993",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Learning from Teacher Continuations at Student States",
+      "url": "https://huggingface.co/papers/2609.36246",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "We present OLIVE (OnLine InterVEntion). At each iteration, the evolving student policy generates a new prefix, the teacher continues it autoregressively, and the student is updated using cross-entropy computed on the teacher-generated tokens. Each design choice targets a corresponding limitation of existing distillation methods: (1) sequential covariate shift in offline supervised fine-tuning (SFT) on fixed teacher trajectories, (2) fragmented supervision under prefix failure in token-level…",
+      "author": "Haojin Wang, Dylan Zhang, Huaibo Chen, Suhao Yu, Yihang Sun, Zhanyang Jin, Jiaying Ye, Dianqi Li, Prasanna Sattigeri, Kamal Youcef-Toumi, Hao Peng",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": null,
+        "projectPage": "https://dylanzsz.github.io/olive/",
+        "arxivUrl": "https://arxiv.org/abs/2609.36246"
+      },
+      "id": "abd702d44e7d450a",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock expands Claude model availability to India, South Korea, and Singapore",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-in-sk/",
+      "publishedAt": "2026-09-29T15:41:00Z",
+      "excerpt": "We're excited to announce the availability of Anthropic's Claude Opus 5, Claude Sonnet 5 , and Claude Haiku 4.5 on Amazon Bedrock in India, Claude Opus 5 and Claude Sonnet 5 in South Korea, as well as Claude Sonnet 5 in Singapore. Customers who need to process data within a specific geography, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country. In India, the regional endpoint is served through…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "7550b65a09968978",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do AI Agents Work Through Conversation? Understanding Conversational Workflows",
+      "url": "https://medium.com/@thedatascientistkiran/how-do-ai-agents-work-through-conversation-understanding-conversational-workflows-77ba51ef7e77?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T02:01:02Z",
+      "excerpt": "Think about the last time you used an AI chatbot. Continue reading on Medium »",
+      "author": "Kiran Hayat Data Scientist",
+      "extra": {},
+      "id": "54aea68a5e8f0888",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI in the Classroom",
+      "url": "https://medium.com/@landrie.smith06/generative-ai-in-the-classroom-05a90be79135?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T01:41:40Z",
+      "excerpt": "As our world continues to grow with the use of technology, so does AI. With that being said, as teachers, we are beginning to see the… Continue reading on Medium »",
+      "author": "Landrie Smith",
+      "extra": {},
+      "id": "711579567eaa1a2c",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI delays latest model over security concerns, as industry faces pressure - kpcw.org",
+      "url": "https://www.kpcw.org/npr-news/2026-09-29/openai-delays-latest-model-over-security-concerns-as-industry-faces-pressure",
+      "publishedAt": "2026-09-29T06:34:43Z",
+      "excerpt": "OpenAI said Monday it was delaying the release of a new artificial intelligence model out of security concerns voiced by its researchers, the latest in the company's effort to decelerate the pace of the technology's advance. OpenAI's decision to hold back the model, called GPT-6.1 Astra, comes amid a broader push within the industry to slow the development of increasingly autonomous systems until safety measures can catch up. The announcement comes a day before AI executives are set to huddle…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.082
+      },
+      "id": "3d3cb7b3ccfb212c",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Apple’s new CEO cuts managers to ship products faster, Bloomberg reports - The Next Web",
+      "url": "https://thenextweb.com/news/apple-ternus-overhaul-managers-applecare-ai-bloomberg",
+      "publishedAt": "2026-09-29T17:05:26Z",
+      "excerpt": "Apple’s new chief executive, John Ternus, is reshaping the company to release products more often and cut layers of management, Bloomberg reported on Tuesday. Ternus wants Apple to rely less on its fixed spring and autumn launch schedules, according to the report. He also wants the company to be more experimental in the AI era. In the past two weeks, Apple dismissed a number of engineering programme managers in its hardware engineering group, Bloomberg reported. Ternus wants to remove some…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.433
+      },
+      "id": "cd16a622c52d38ba",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "As AI Labs Build a Safety Standards Body, Existing Legal Frameworks and Prior Groups’ Mistakes Should be Instructive - Law.com",
+      "url": "https://www.law.com/legaltechnews/2026/09/28/as-ai-labs-build-a-safety-standards-body-existing-legal-frameworks-and-prior-groups-mistakes-should-be-instructive/",
+      "publishedAt": "2026-09-28T16:00:00Z",
+      "excerpt": "Sign in to access your account and subscription. General Counsel  Innovation  Law Firm Hiring  Law Firm Management  Law Firm Office Launches and Closures  All Topics. The Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech. Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. All…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.395
+      },
+      "id": "84351b48bf66efc4",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta Forms Business-Facing AI Product Platform 09/29/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418358/meta-forms-business-facing-ai-product-platform.html",
+      "publishedAt": "2026-09-28T21:32:47Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Meta Forms Business-Facing AI Product Platform. of superintelligence and AI, the tech giant will begin selling its artificial-intelligence (AI) tools to businesses and developers via its newly founded “Meta Enterprise Platform.”. With the recent launch of…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.325
+      },
+      "id": "4ccf740c12937043",
+      "collectedAt": "2026-09-30T02:16:32.725807+00:00"
     }
   ],
-  "updatedAt": "2026-09-30T01:22:11.072929+00:00"
+  "updatedAt": "2026-09-30T02:16:32.725807+00:00"
 }
