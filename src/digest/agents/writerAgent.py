@@ -1,6 +1,6 @@
-"""Writer and Editor agents: the 09:30 IST daily digest and op-ed.
+"""Writer and Editor agents: the 09:30 IST daily digest and its three short opinion takes.
 
-writer: digest (1 call) + op-ed (1 call)
+writer: digest (1 call) + three short takes (1 call)
 editor: fact-check both against the ORIGINAL articles of the stories they use (1 call);
         the originals are fetched fresh through the MCP fetchArticle tool, not stored
 writer: fix the editor's issues, once, only in the flagged piece(s) (0-2 calls)
@@ -15,7 +15,7 @@ import logging
 from collections.abc import Awaitable, Callable
 from dataclasses import dataclass, field
 
-from digest.agents.agentModels import DigestDraft, EditorReview, OpEdDraft, Story
+from digest.agents.agentModels import DigestDraft, EditorReview, Story, TakesDraft
 from digest.agents.llmRouter import LlmRouter, estimateTokens
 from digest.agents.promptKit import loadPrompt, untrusted
 
@@ -24,7 +24,7 @@ log = logging.getLogger(__name__)
 FetchArticle = Callable[[str], Awaitable[dict]]
 MAX_ORIGINALS = 6  # stories whose original article the editor reads
 ORIGINAL_CHARS = 1200  # per original: enough for the key facts, within free-tier limits
-REVISION_MAX_OUTPUT = 2200  # one piece (digest or op-ed) rewritten in full
+REVISION_MAX_OUTPUT = 2200  # one piece (the digest or the takes) rewritten in full
 MIN_ORIGINAL_CHARS = 300  # shortest useful excerpt of an original before dropping one
 MIN_WRITER_STORIES = 5  # the digest's top 5
 
@@ -71,7 +71,7 @@ def fitStories(stories: list[Story], tokensLeft: int | None) -> list[Story]:
 
 def fitOriginals(originals: list[dict], tokensLeft: int | None) -> list[dict]:
     """Shorten the originals' text until they fit; if even short excerpts don't, drop the
-    last ones (the op-ed's, which come after the digest's top stories)."""
+    last ones (the digest's top stories, which come after the takes' stories)."""
     if tokensLeft is None:
         return originals
     chars, kept = ORIGINAL_CHARS, list(originals)
@@ -86,8 +86,18 @@ def fitOriginals(originals: list[dict], tokensLeft: int | None) -> list[dict]:
     return []
 
 
-def drafts(digest: DigestDraft, opEd: OpEdDraft) -> dict:
-    return {"digest": digest.model_dump(), "opEd": opEd.model_dump()}
+def drafts(digest: DigestDraft, takes: TakesDraft) -> dict:
+    return {"digest": digest.model_dump(), "takes": takes.model_dump()["takes"]}
+
+
+def takeStoryIds(takes: TakesDraft) -> list[str]:
+    return [storyId for take in takes.takes for storyId in take.basedOnStoryIds]
+
+
+def keepKnownTakeIds(takes: TakesDraft, stories: list[Story]) -> None:
+    """Each take points only at real stories (at least the top one, if the AI named none)."""
+    for take in takes.takes:
+        take.basedOnStoryIds = keepKnownIds(take.basedOnStoryIds, stories, 1)[:3]
 
 
 async def fetchOriginals(
@@ -111,7 +121,7 @@ async def fetchOriginals(
 @dataclass
 class Edition:
     digest: DigestDraft
-    opEd: OpEdDraft
+    takes: TakesDraft
     review: EditorReview
     revised: bool = False
     stories: list[Story] = field(default_factory=list)
@@ -122,27 +132,28 @@ async def writeEdition(
     stories: list[Story], router: LlmRouter, fetchArticle: FetchArticle
 ) -> Edition:
     """Stories must be sorted most important first."""
-    digestPrompt, opEdPrompt = loadPrompt("writerDigest"), loadPrompt("writerOpEd")
+    digestPrompt, takesPrompt = loadPrompt("writerDigest"), loadPrompt("writerTakes")
     stories = fitStories(
         stories,
         smallest(
             router.inputBudget("writer", digestPrompt, DigestDraft),
-            router.inputBudget("writer", opEdPrompt, OpEdDraft),
+            router.inputBudget("writer", takesPrompt, TakesDraft),
         ),
     )
     data = untrusted(storiesForPrompt(stories), "stories")
     digest = await router.structured("writer", DigestDraft, digestPrompt, data)
-    opEd = await router.structured("writer", OpEdDraft, opEdPrompt, data)
+    takes = await router.structured("writer", TakesDraft, takesPrompt, data)
     digest.topStoryIds = keepKnownIds(digest.topStoryIds, stories, 5)
-    opEd.basedOnStoryIds = keepKnownIds(opEd.basedOnStoryIds, stories, 3)
+    keepKnownTakeIds(takes, stories)
 
-    usedIds = digest.topStoryIds + opEd.basedOnStoryIds
+    # The takes' stories first: they carry the opinions, so their originals matter most.
+    usedIds = takeStoryIds(takes) + digest.topStoryIds
     originals = await fetchOriginals(usedIds, stories, fetchArticle)
 
     # The editor sees the drafts, the stories and the originals. If that's too much for the
     # tightest model, it gets only the stories the drafts use, then shorter originals.
     editorPrompt = loadPrompt("editor")
-    draftsText = untrusted(drafts(digest, opEd), "drafts")
+    draftsText = untrusted(drafts(digest, takes), "drafts")
     editorBudget = router.inputBudget("editor", editorPrompt, EditorReview)
     editorData = data
     if editorBudget is not None:
@@ -163,7 +174,7 @@ async def writeEdition(
         # Revise only the piece(s) the editor flagged, one at a time: smaller requests
         # fit the free tiers' per-minute limits.
         revisionPrompt = loadPrompt("writerRevision")
-        for where, draft in (("digest", digest), ("opEd", opEd)):
+        for where, draft in (("digest", digest), ("takes", takes)):
             issues = [i.model_dump() for i in review.issues if i.where == where]
             if not issues:
                 continue
@@ -186,10 +197,10 @@ async def writeEdition(
             if where == "digest":
                 digest = fixed
             else:
-                opEd = fixed
+                takes = fixed
             revised = True
         digest.topStoryIds = keepKnownIds(digest.topStoryIds, stories, 5)
-        opEd.basedOnStoryIds = keepKnownIds(opEd.basedOnStoryIds, stories, 3)
+        keepKnownTakeIds(takes, stories)
 
     checked = sum(1 for o in checkedOriginals if o["text"] != "(not available)")
-    return Edition(digest, opEd, review, revised, stories, checked)
+    return Edition(digest, takes, review, revised, stories, checked)

@@ -6,16 +6,17 @@ import json
 from datetime import UTC, datetime
 
 import pytest
+from conftest import makeTakes
 
 from digest.agents import runAgents as runAgentsModule
 from digest.agents.agentModels import (
     AnalystReport,
     DigestDraft,
     EditorReview,
-    OpEdDraft,
     ScoutBrief,
     ScoutTriage,
     Story,
+    TakesDraft,
 )
 from digest.agents.agentsConfig import Budget, loadAgentsConfig
 from digest.agents.llmBudget import LlmBudget
@@ -199,9 +200,7 @@ async def testDailyEditionWritesDigestAndRevisesOnce(noSavedStories):
         intro="Today OpenAI...",
         topStoryIds=["does-not-exist"],
     )
-    opEd = OpEdDraft(
-        title="Why GPT-6 matters", dek="An opinion.", paragraphs=["One.", "Two.", "Three."]
-    )
+    takes = makeTakes()
     fixedDigest = digest.model_copy(update={"headline": "OpenAI releases GPT-6"})
     router = FakeRouter(
         {
@@ -209,7 +208,7 @@ async def testDailyEditionWritesDigestAndRevisesOnce(noSavedStories):
             ScoutBrief: scoutNotes,
             AnalystReport: analystAnswer,
             DigestDraft: [digest, fixedDigest],
-            OpEdDraft: opEd,
+            TakesDraft: takes,
             EditorReview: EditorReview.model_validate(
                 {
                     "approved": False,
@@ -228,9 +227,9 @@ async def testDailyEditionWritesDigestAndRevisesOnce(noSavedStories):
     assert edition is not None and edition.revised
     assert edition.digest.headline == "OpenAI releases GPT-6"
     assert edition.digest.topStoryIds == [result.stories[0].id]  # unknown id replaced
-    # only the flagged piece (the digest) is revised, once; the op-ed is left alone
+    # only the flagged piece (the digest) is revised, once; the takes are left alone
     assert [a[1] for a in router.asked].count("DigestDraft") == 2
-    assert [a[1] for a in router.asked].count("OpEdDraft") == 1
+    assert [a[1] for a in router.asked].count("TakesDraft") == 1
     editorPrompt = next(a[2] for a in router.asked if a[1] == "EditorReview")
     assert "original articles" in editorPrompt  # the editor checks the source, not a summary
     assert "GPT-6 ships in three sizes" in editorPrompt
@@ -336,7 +335,7 @@ def testStoriesAndEditionAreSaved(tmp_path):
 
     edition = Edition(
         DigestDraft(headline="H", dek="D", tldr=["T"], intro="I", topStoryIds=[story.id]),
-        OpEdDraft(title="T", dek="D", paragraphs=["1", "2", "3"], basedOnStoryIds=[story.id]),
+        makeTakes(storyIds=[story.id]),
         EditorReview(approved=True),
         False,
         [story],
@@ -347,6 +346,7 @@ def testStoriesAndEditionAreSaved(tmp_path):
         )
     )
     assert saved["digest"]["headline"] == "H" and saved["stories"][story.id]["importance"] == 5
+    assert [t["theme"] for t in saved["takes"]] == ["Models", "Policy"] and "opEd" not in saved
     assert saved["editor"] == {
         "approved": True,
         "issuesFound": 0,

@@ -45,3 +45,21 @@ def noRealServices(monkeypatch):
     langfuseTracing.langfuseClient.cache_clear()
     yield
     langfuseTracing.langfuseClient.cache_clear()
+
+
+def makeTakes(takeText: str = "I think it matters.", storyIds: list[str] | None = None):
+    """Two short opinion takes for tests; `takeText` is the first take's opinion."""
+    from digest.agents.agentModels import Take, TakesDraft
+
+    def take(theme: str, text: str) -> Take:
+        return Take(
+            theme=theme,
+            title=f"{theme} take",
+            verdict="A clear verdict.",
+            whatHappened="Something was released.",
+            take=text,
+            watchFor="Watch the next release.",
+            basedOnStoryIds=list(storyIds or []),
+        )
+
+    return TakesDraft(takes=[take("Models", takeText), take("Policy", "I think it helps.")])

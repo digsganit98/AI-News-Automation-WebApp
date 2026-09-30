@@ -6,8 +6,9 @@ from datetime import UTC, datetime
 from types import SimpleNamespace
 
 import pytest
+from conftest import makeTakes
 
-from digest.agents.agentModels import DigestDraft, OpEdDraft, Story
+from digest.agents.agentModels import DigestDraft, Story
 from digest.agents.promptKit import PROMPT_DIR, loadPrompt
 from digest.dataModels import RawItem
 from digest.processing.contentSafety import blockedPattern, dropBlocked, guardOutput, isBlocked
@@ -80,10 +81,10 @@ def story(sid: str, headline: str) -> Story:
     )
 
 
-def edition(opEdParagraph: str):
+def edition(takeText: str):
     return SimpleNamespace(
         digest=DigestDraft(headline="H", dek="D", tldr=["t"], intro="I"),
-        opEd=OpEdDraft(title="T", dek="D", paragraphs=["a", "b", opEdParagraph]),
+        takes=makeTakes(takeText),
         stories=[story("ok", "A new open model")],
     )
 

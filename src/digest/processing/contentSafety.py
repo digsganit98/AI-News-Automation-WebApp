@@ -11,6 +11,7 @@ from __future__ import annotations
 import re
 
 from digest.dataModels import RawItem
+from digest.processing.textStyle import TAKE_TEXT_FIELDS
 
 
 def blockedPattern(terms: list[str]) -> re.Pattern[str] | None:
@@ -34,7 +35,7 @@ def storyText(story) -> str:
 def guardOutput(outcome, pattern: re.Pattern[str] | None) -> list[str]:
     """Last check on what the AI wrote, before anything is saved or published.
 
-    Stories that break the policy are removed. If the digest, the op-ed or any story they use
+    Stories that break the policy are removed. If the digest, a take or any story they use
     breaks it, the whole edition is withheld (a later run writes a new one). Returns what
     was removed, for the run summary.
     """
@@ -42,10 +43,10 @@ def guardOutput(outcome, pattern: re.Pattern[str] | None) -> list[str]:
     outcome.stories = [s for s in outcome.stories if not isBlocked(storyText(s), pattern)]
     edition = outcome.edition
     if edition is not None:
-        digest, opEd = edition.digest, edition.opEd
+        digest = edition.digest
         text = " ".join(
             [digest.headline, digest.dek, digest.intro, *digest.tldr]
-            + [opEd.title, opEd.dek, *opEd.paragraphs]
+            + [getattr(t, name) for t in edition.takes.takes for name in TAKE_TEXT_FIELDS]
             + [storyText(s) for s in edition.stories]
         )
         if isBlocked(text, pattern):

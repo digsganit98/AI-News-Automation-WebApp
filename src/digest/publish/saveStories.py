@@ -1,7 +1,7 @@
 """Saves what the agents produce, as public data the website reads:
 
 data/stories/<date>.json   analyst stories, added to through the day (every 3 hours)
-data/digests/<date>.json   the 09:30 IST digest + op-ed
+data/digests/<date>.json   the 09:30 IST edition: digest + three short takes
 """
 
 from __future__ import annotations
@@ -10,7 +10,7 @@ import json
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
-from digest.agents.agentModels import CATEGORIES, Story
+from digest.agents.agentModels import Story
 from digest.agents.writerAgent import Edition
 from digest.publish.saveDataFiles import DATA_DIR, digestDate, writeJson
 
@@ -62,22 +62,13 @@ def saveEdition(edition: Edition, models: dict[str, int], digestsDir: Path = DIG
     now = datetime.now(UTC)
     day = digestDate(now).isoformat()
     byId = {s.id: s for s in edition.stories}
-    sections = {
-        cat: [
-            s.id
-            for s in edition.stories
-            if s.category == cat and s.id not in edition.digest.topStoryIds
-        ]
-        for cat in CATEGORIES
-    }
     return writeJson(
         digestsDir / f"{day}.json",
         {
             "date": day,
             "createdAt": now.isoformat(),
             "digest": edition.digest.model_dump(mode="json"),
-            "opEd": edition.opEd.model_dump(mode="json"),
-            "sections": {cat: ids for cat, ids in sections.items() if ids},
+            "takes": edition.takes.model_dump(mode="json")["takes"],
             "stories": {sid: s.model_dump(mode="json") for sid, s in byId.items()},
             "editor": {
                 "approved": edition.review.approved,

@@ -41,7 +41,7 @@ models:
   analyst:                         # every 3 hours
     - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
     - { provider: gemini, model: gemini-3.5-flash-lite }
-  writer:                          # by 09:30 IST: digest + op-ed (Gemini Flash allows ~20 calls/day free)
+  writer:                          # by 09:30 IST: summary + 3 takes (Gemini Flash allows ~20 calls/day free)
     - { provider: gemini, model: gemini-3.8-flash }
     - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
     - { provider: gemini, model: gemini-3.5-flash-lite }   # last resort: its own, much larger quota

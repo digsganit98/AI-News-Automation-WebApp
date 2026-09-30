@@ -61,7 +61,7 @@ def summarizeForTrace(result: dict) -> dict:
     if result.get("edition"):
         e = result["edition"]
         summary["digest"] = e.digest.headline
-        summary["opEd"] = e.opEd.title
+        summary["takes"] = [t.title for t in e.takes.takes]
         summary["editorApproved"] = e.review.approved
     if result.get("errors"):
         summary["errors"] = result["errors"]

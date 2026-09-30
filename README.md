@@ -8,7 +8,7 @@
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
-Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning, **on the site by 09:30 IST**, they also write a **daily digest** and a short **op-ed**. It runs for free on GitHub, even when your computer is off.
+Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning, **on the site by 09:30 IST**, they also write the **Daily Digest**: three short opinion takes on what's happening in GenAI. It runs for free on GitHub, even when your computer is off.
 
 | At a glance | |
 |---|---|
@@ -41,7 +41,7 @@ Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research 
 | Page | What it's for |
 |---|---|
 | **Latest** | The live **news** dashboard, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then every news item collected, with filters and search. |
-| **Daily Digest** | The morning edition, **live by 09:30 IST**: a 5-minute read with a headline, a 3-point TL;DR, the day's top 5 stories and a short **op-ed** on the biggest theme, all fact-checked by the editor. It says when the next edition comes. Latest is the full stream; the Daily Digest is the curated summary (and what the daily email will send). |
+| **Daily Digest** | The morning briefing, **live by 09:30 IST**: three short, AI-written opinion **takes** on the day's biggest themes, one per card. Each card gives a one-line verdict, then *What happened · Our take · Watch for*, and links to the stories it's based on. Swipe, use the arrow keys or the buttons; the deck ends with "You're all caught up". About 2 minutes, fact-checked by the editor. It shows no story cards: the news itself lives on Latest. (It's also what the daily email will send.) |
 | **Paper Trail** | Every GenAI **research paper** from the last 14 days, from arXiv, Hugging Face Daily Papers, and anywhere else one turns up (Hacker News, web search, agent stories), merged into one card per paper. A **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), search, "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. Works without API keys. |
 | **Sources** | The sources that worked in the latest check (failing ones aren't listed). |
 | **How it works** | The architecture, the agents and their LLMs. |
@@ -62,7 +62,7 @@ Each page has one job: news on Latest, papers on Paper Trail, the morning editio
 
 **Every morning, finished before 09:30 IST,** it also runs:
 
-5. **The writer**, which drafts the digest and a ~600-word op-ed.
+5. **The writer**, which drafts the day's summary and three short opinion takes (a verdict, what happened, the take, what to watch; about 100 words each).
 6. **The editor**, which re-reads the original articles and fact-checks both. The writer fixes anything flagged, once.
 
 | Agent | LLM (free tier) | Runs |
@@ -96,7 +96,7 @@ Manual starts like this aren't delayed the way schedules are, and `editionIfMiss
 
 - **Real articles only.** From Reddit, Hacker News and web search, only items that link to a proper article, announcement or paper get through: a Reddit post becomes the article it links to, and text-only threads, screenshots, tweets and social posts are dropped (the list of discussion sites is `notArticleHosts` in `config/sources.yaml`). The scouts also drop rumours and claims whose only source is a forum post.
 - **The AI can't invent links.** Agents refer to items by number (`i1`, `i2`…); the code attaches every URL. Any link that isn't in the collected data is removed and counted as a "hallucination catch".
-- **The editor checks the original,** not a summary: it re-fetches the source article for every story the digest and op-ed use.
+- **The editor checks the original,** not a summary: it re-fetches the source article for every story the takes and the summary use.
 - **Scraped text is treated as data.** It's fenced off, so instructions hidden in a web page are ignored.
 - **A test set measures it.** `uv run digest eval` runs the real agents on 20 saved cases, including tutorials to drop, fake claims, two prompt-injection traps and a planted wrong number. It scores 6 checks (keep/drop accuracy, numbers found in the source, duplicates merged, traps ignored, no invented links, editor catches the error). The current score is **100/100**.
 - **Everything is visible in Langfuse:** each run, each agent and each LLM call, with tokens and errors, plus scores such as stories, failed calls, editor approval and hallucination catches.
@@ -109,7 +109,7 @@ GenAI Daily covers AI that advances people. These rules are enforced in code and
 - **Checked three times.** (1) At collection, a block list (`blockedTerms` in [`config/sources.yaml`](config/sources.yaml)) drops matching items from every source before any AI or page sees them. (2) Every agent prompt includes the policy ([`contentPolicy.md`](src/digest/agents/prompts/contentPolicy.md)). (3) Before anything is saved, code checks what the AI wrote: a story that breaks the policy is removed, and an edition that does is withheld. The website applies the block list once more to everything it shows.
 - **English only, in plain, correct English.** Items in other languages are dropped at collection (`englishOnly` in `config/sources.yaml`). Everything the AI writes is tidied in code before it's saved: long dashes (—) between clauses become proper punctuation, odd hyphen characters are fixed, and empty bullet points or paragraphs are removed. The prompts ask for the same.
 - **Only reviewed content is published.** Raw web-search results are never shown; they reach the site only as a story an AI agent reviewed. Raw feeds come from known sources only.
-- **Transparent.** AI-written content is labelled (the op-ed is marked "AI-written opinion"), every story links to its original sources, and every AI call is logged in Langfuse.
+- **Transparent.** AI-written content is labelled (the Daily Digest is marked "AI-written opinion"), every story links to its original sources, and every AI call is logged in Langfuse.
 - **Grounded and fact-checked.** The AI can't invent links, and an editor agent checks every edition against the original articles (see above).
 - **Privacy.** No personal data is collected or stored; the site has no accounts, tracking or ads. (The planned email list will store only an email address, outside this public repo.)
 - **Human in charge.** The policy, block list and prompts are plain files anyone can read and change; a missing or withheld edition alerts the owner by email.

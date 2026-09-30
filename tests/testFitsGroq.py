@@ -5,7 +5,9 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from digest.agents.agentModels import DigestDraft, EditorIssue, EditorReview, OpEdDraft, Story
+from conftest import makeTakes
+
+from digest.agents.agentModels import DigestDraft, EditorIssue, EditorReview, Story, TakesDraft
 from digest.agents.agentsConfig import loadAgentsConfig
 from digest.agents.llmBudget import LlmBudget
 from digest.agents.llmRouter import LlmRouter, estimateTokens
@@ -27,9 +29,9 @@ class RecordingRouter(LlmRouter):
         ids = [f"s{n}" for n in range(5)]
         if schema is DigestDraft:
             return DigestDraft(headline="H", dek="D", tldr=["t"], intro="I", topStoryIds=ids)
-        if schema is OpEdDraft:
-            return OpEdDraft(title="T", dek="D", paragraphs=[LONG[:900]] * 5, basedOnStoryIds=ids)
-        issues = [EditorIssue(where=w, problem="p", fix="f") for w in ("digest", "opEd")]
+        if schema is TakesDraft:
+            return makeTakes(LONG[:400], ids[:3])
+        issues = [EditorIssue(where=w, problem="p", fix="f") for w in ("digest", "takes")]
         return EditorReview(approved=False, issues=issues)
 
 

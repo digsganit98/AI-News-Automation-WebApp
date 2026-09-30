@@ -3,7 +3,7 @@
 Commands
   sources   list the configured sources
   collect   fetch every enabled source and save data/raw/<date>.json
-  run       collect, then run the AI agents (stories every run; digest + op-ed in dailyEdition mode)
+  run       collect, then run the AI agents (stories every run; digest + takes in dailyEdition mode)
   eval      score how well the agents stick to their sources (uses real LLM calls)
   mcp       start the MCP server (stdio) that exposes the news tools to agents
 """
@@ -96,7 +96,7 @@ def agentSummary(outcome, traceUrl: str | None = None) -> str:
         "## AI agents",
         "",
         f"**{len(outcome.stories)} stories**"
-        + (", digest + op-ed written" if outcome.edition else "")
+        + (", digest + takes written" if outcome.edition else "")
         + f", {len(outcome.calls)} LLM calls.",
         "",
         "| Agent | Model | Result | Tokens in / out |",
@@ -175,10 +175,8 @@ def commandRun(args: argparse.Namespace) -> int:
             print(f"- [{s.category} · {s.importance}] {s.headline}\n  {s.summary}")
         if outcome.edition:
             print(f"\n# {outcome.edition.digest.headline}\n{outcome.edition.digest.dek}")
-            print(
-                f"\n## Op-ed: {outcome.edition.opEd.title}\n"
-                + "\n\n".join(outcome.edition.opEd.paragraphs)
-            )
+            for take in outcome.edition.takes.takes:
+                print(f"\n## [{take.theme}] {take.title}\n{take.verdict}\n{take.take}")
         return 0
 
     if path := saveStories(outcome.stories):
@@ -254,7 +252,7 @@ def main(argv: list[str] | None = None) -> int:
         "--mode",
         choices=["update", "dailyEdition"],
         default="update",
-        help="update = stories only (every 3 h); dailyEdition = also digest + op-ed (09:30 IST)",
+        help="update = stories only (every 3 h); dailyEdition = also digest + takes (09:30 IST)",
     )
     run.add_argument(
         "--backlog-hours",

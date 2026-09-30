@@ -25,7 +25,7 @@ from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
 
-from digest.agents.agentModels import DigestDraft, EditorReview, OpEdDraft, ScoutNote, Story
+from digest.agents.agentModels import DigestDraft, EditorReview, ScoutNote, Story, Take, TakesDraft
 from digest.agents.agentsConfig import loadAgentsConfig
 from digest.agents.analystAgent import runAnalyst
 from digest.agents.llmBudget import LlmBudget
@@ -231,16 +231,16 @@ async def runGroundingEval(
         importance=4,
         sources=[{"name": case["sourceName"], "url": case["url"]}],
     )
-    opEd = OpEdDraft(
+    take = Take(
+        theme="Open models",
         title="Open models keep getting better",
-        dek="A short opinion.",
-        paragraphs=[
-            "Open reasoning models are improving.",
-            "That helps builders.",
-            "I think it matters.",
-        ],
+        verdict="Open reasoning models are improving fast.",
+        whatHappened="Open reasoning models are improving.",
+        take="I think that helps builders, and it matters.",
+        watchFor="Watch for the next open releases.",
         basedOnStoryIds=["planted"],
     )
+    takes = TakesDraft(takes=[take, take])
     originals = [{"storyId": "planted", "url": case["url"], "text": case["fullText"]}]
     review = await router.structured(
         "editor",
@@ -248,7 +248,7 @@ async def runGroundingEval(
         loadPrompt("editor"),
         f"{untrusted(storiesForPrompt([story]), 'stories')}\n\n"
         f"{untrusted(originals, 'original articles')}\n\n"
-        f"{untrusted(drafts(DigestDraft(**planted['digest']), opEd), 'drafts')}",
+        f"{untrusted(drafts(DigestDraft(**planted['digest']), takes), 'drafts')}",
     )
     scoreEditor(review, planted["mustMention"], result)
     return result

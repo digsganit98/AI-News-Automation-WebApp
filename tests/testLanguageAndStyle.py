@@ -5,8 +5,9 @@ from __future__ import annotations
 from types import SimpleNamespace
 
 import pytest
+from conftest import makeTakes
 
-from digest.agents.agentModels import DigestDraft, OpEdDraft
+from digest.agents.agentModels import DigestDraft
 from digest.dataModels import RawItem
 from digest.processing.languageFilter import isEnglish, keepEnglish
 from digest.processing.textStyle import tidyLines, tidyOutcome, tidyText
@@ -84,14 +85,14 @@ def testEmptyBulletsAndParagraphsAreRemoved():
 def testEverythingTheAgentsWroteIsTidied():
     edition = SimpleNamespace(
         digest=DigestDraft(headline="A—B", dek="D", tldr=["One—two.", " "], intro="I"),
-        opEd=OpEdDraft(title="T", dek="D", paragraphs=["a", "b—c", ""]),
+        takes=makeTakes("Agents are fast—but risky."),
         stories=[],
     )
     outcome = SimpleNamespace(stories=[], edition=edition)
     tidyOutcome(outcome)
     assert edition.digest.headline == "A, B"
     assert edition.digest.tldr == ["One, two."]
-    assert edition.opEd.paragraphs == ["a", "b, c"]
+    assert edition.takes.takes[0].take == "Agents are fast, but risky."
 
 
 def testPlainCapitalLettersAreNeverForeign():

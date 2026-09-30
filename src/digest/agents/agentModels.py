@@ -131,15 +131,24 @@ class DigestDraft(BaseModel):
     topStoryIds: list[str] = Field(default_factory=list, max_length=5)
 
 
-class OpEdDraft(BaseModel):
+class Take(BaseModel):
+    """One short opinion piece. The Daily Digest shows three, one card each."""
+
+    theme: str  # 1-2 word label, e.g. "Policy"
     title: str
-    dek: str
-    paragraphs: list[str] = Field(min_length=3)
+    verdict: str  # the opinion in one line
+    whatHappened: str  # the facts, ~35 words
+    take: str  # the opinion, ~45 words
+    watchFor: str  # what to do or watch next, one sentence
     basedOnStoryIds: list[str] = Field(default_factory=list)
 
 
+class TakesDraft(BaseModel):
+    takes: list[Take] = Field(min_length=2, max_length=3)  # 3; 2 on a very thin news day
+
+
 class EditorIssue(BaseModel):
-    where: Literal["digest", "opEd"]
+    where: Literal["digest", "takes"]
     problem: str
     fix: str
 
