@@ -230,6 +230,236 @@
           "checkedAt": "2026-09-29T20:56:10.881485Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-09-30T01:22:11.072929+00:00",
+      "newItems": 25,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1238,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.091298Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.130907Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 869,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.131270Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.131547Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.131700Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.131849Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.131990Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132125Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132274Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132418Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132555Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132610Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132650Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132843Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.132881Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.133010Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.133137Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.133555Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-09-30T01:22:11.133820Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.133987Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.134132Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.134357Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.134500Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.134644Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.135179Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.135347Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.135494Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-09-30T01:22:11.135539Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -712,7 +942,354 @@
       },
       "id": "d8c8bb01a2459f81",
       "collectedAt": "2026-09-29T20:56:10.817151+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Selecting Diverse SFT Traces Improves Post-RL Generalization",
+      "url": "https://huggingface.co/papers/2609.33780",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "Verified solutions are not equally useful for preparing reasoning models for reinforcement learning (RL). We present a comprehensive study of route diversity, the variation in the sequences of reasoning steps in supervised fine-tuning (SFT) data, and propose a lightweight, rule-based fingerprint to select for it. From one pool at one budget, with matched training recipes and checkpoints, selecting diverse rather than similar routes improves post-RL problem coverage across puzzles and…",
+      "author": "Dylan Zhang, Mingyuan Wu, Jinning Li",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33780"
+      },
+      "id": "c8ba25abe84ffc38",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock Managed Agents, powered by OpenAI, is now available in preview",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+      "publishedAt": "2026-09-29T21:10:00Z",
+      "excerpt": "Developed jointly by AWS and OpenAI, Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you already use. BMA manages how the model preserves state, selects and uses tools, executes code, and coordinates work across multiple steps and decisions. Durable sessions…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "fd69a1966c14f338",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "OpenAI GPT-6.1 Sol is now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/",
+      "publishedAt": "2026-09-29T20:17:00Z",
+      "excerpt": "Today, AWS announces the general availability of GPT-6.1 Sol from OpenAI on Amazon Bedrock. An upgrade to GPT-6 Sol, GPT-6.1 Sol delivers exceptionally strong performance on agentic coding, computer use, and professional work. According to OpenAI, it approaches GPT-6 Astra across demanding evaluations at roughly one-fifth of the cost, giving developers more room to build and run capable agents at scale. The Amazon Bedrock inference engine delivers the performance, security, and reliability…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "afe3814461c75b49",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+      "publishedAt": "2026-09-30T01:13:14Z",
+      "excerpt": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models while processing data within the India Regions, and get started from the Amazon Bedrock console or with the Messages, InvokeModel, and Converse APIs.",
+      "author": "Aamna Najmi",
+      "extra": {},
+      "id": "17f76098dbb1f0b1",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+      "publishedAt": "2026-09-30T01:13:12Z",
+      "excerpt": "Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing requirements in South Korea or Singapore, you can now use these Anthropic models at scale, with inference processed entirely within the Region you call.",
+      "author": "Aamna Najmi",
+      "extra": {},
+      "id": "e0d0bc875e2ae936",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "My First Blog!!",
+      "url": "https://medium.com/@jesslynnrodriguez520/my-first-blog-87e1aa6c49e4?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T00:46:10Z",
+      "excerpt": "For my first blog I wanted to write about something that interests me. I am currently taking a course at TXST University “Introduction to… Continue reading on Medium »",
+      "author": "Jesslynn Rodriguez",
+      "extra": {},
+      "id": "423816f435f3debe",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Explore Online Work Without Taking Big Risks",
+      "url": "https://medium.com/@jameswalkerai/how-to-explore-online-work-without-taking-big-risks-423182ba9a12?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T00:01:03Z",
+      "excerpt": "You don’t need to quit your job, invest large amounts of money, or commit to a single path to start exploring AI-powered online… Continue reading on Medium »",
+      "author": "James Walker AI",
+      "extra": {},
+      "id": "2c0afdece6764f70",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "On Generative AI in the Classroom",
+      "url": "https://medium.com/@meredithbuechi/on-generative-ai-in-the-classroom-8217dc85151c?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T23:53:27Z",
+      "excerpt": "I remember my first interaction with AI as a student. It was 2019, my freshman year of high school and I had forgotten to do my biology… Continue reading on Medium »",
+      "author": "Meredith Buechi",
+      "extra": {},
+      "id": "692a0a755cbbd4d3",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "31 Posters, 31 Days: What GenAI Couldn’t Follow",
+      "url": "https://medium.com/@angelesmorenodesign/31-posters-31-days-what-genai-couldnt-follow-e30dddd76088?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T21:51:40Z",
+      "excerpt": "A poster-a-day challenge, and why craft still matters. Continue reading on Medium »",
+      "author": "Angeles Moreno",
+      "extra": {},
+      "id": "8b4e00692c32587f",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "ElevenLabs v4 vs. the Rest: I Blind-Tested the Emotion",
+      "url": "https://medium.com/@softer.video/elevenlabs-v4-vs-the-rest-i-blind-tested-the-emotion-2f99cc83af18?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-29T21:05:12Z",
+      "excerpt": "ElevenLabs just traded its style slider for inline tags. I put v4 up against v3, v2, Fish Audio, Gemini, Grok and ByteDance Seed on the… Continue reading on Medium »",
+      "author": "Softer video",
+      "extra": {},
+      "id": "fe2e99162459d358",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Anthropic says a Chinese AI model anyone can download can now build working hacks on its own",
+      "url": "https://madrobot.blog/2026/09/29/anthropic-glm-5-3-zai-cyber-exploits-safeguards-open-weight/",
+      "publishedAt": "2026-09-29T20:17:29Z",
+      "excerpt": "Worrying news from Anthropic's Frontier Red Team.",
+      "author": "/u/ross2000",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wtkwkq/anthropic_says_a_chinese_ai_model_anyone_can/"
+      },
+      "id": "a3f2d9c4037b0db4",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Scientists recently gave mice without prefrontal cortexes human brain implants - and after seeing these developing connections to the mice’s brains and spinal cords - now they're wondering if these organoids might gave the mice some level of human-like consciousness cognition - calling for ethics",
+      "url": "https://www.nature.com/articles/d41586-026-03048-5?linkId=63942662",
+      "publishedAt": "2026-09-29T18:12:27Z",
+      "excerpt": "Lab-grown brain organoids: time for international oversight",
+      "author": "/u/Distinct-Question-16",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wthlb0/scientists_recently_gave_mice_without_prefrontal/"
+      },
+      "id": "fc8b3071ebb11713",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Deepseek Harness app is out now!!!",
+      "url": "https://www.deepseek.com/en/harness/",
+      "publishedAt": "2026-09-29T17:15:12Z",
+      "excerpt": "Downloading now.",
+      "author": "/u/politefella0",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wtg1hs/deepseek_harness_app_is_out_now/"
+      },
+      "id": "b72f6b75e1a12852",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "RatHat's Evolving C2 Panel Points to Malware-as-a-Service Model - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/rathat-c2-panel-malware-as-a/",
+      "publishedAt": "2026-09-29T14:30:00Z",
+      "excerpt": "Infosecurity Magazine Home » News » RatHat's Evolving C2 Panel Points to Malware-as-a-Service Model. # RatHat's Evolving C2 Panel Points to Malware-as-a-Service Model. The infrastructure behind the RatHat Android banking trojan has changed more than the malware itself, with successive command-and-control (C2) panels able to build malware, manage infected devices and use AI to rank potential victims. Cleafy said the panels could build, sign and publish new Android samples directly from the…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.269
+      },
+      "id": "ac2344f09f08c10d",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "With No Astra to Release, OpenAI Pivots to New GPT-6.1 Sol Model - gizmodo.com",
+      "url": "https://gizmodo.com/with-no-astra-to-release-openai-pivots-to-new-gpt-6-1-sol-model-2000819044",
+      "publishedAt": "2026-09-29T20:59:36Z",
+      "excerpt": "# With No Astra to Release, OpenAI Pivots to New GPT-6.1 Sol Model. Less than 24 hours after announcing that it won’t release its new model, GPT-6.1 Astra, because it’s too dangerous to make public, OpenAI showed up to its annual DevDay event with a fresh release after all—just an apparently less powerful one. When the company released GPT-6 earlier this month, it called it Astra and promised that it was its most capable model for intelligence work. Then it released two other versions of…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.092
+      },
+      "id": "fd649118036dda6c",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI delays latest model over security concerns, as industry faces pressure - kedm.org",
+      "url": "https://www.kedm.org/npr-news/2026-09-29/openai-delays-latest-model-over-security-concerns-as-industry-faces-pressure",
+      "publishedAt": "2026-09-29T06:34:43Z",
+      "excerpt": "NPR News, Classical and Music of the Delta. NPR | By The Associated Press. OpenAI said Monday it was delaying the release of a new artificial intelligence model out of security concerns voiced by its researchers, the latest in the company's effort to decelerate the pace of the technology's advance. OpenAI's decision to hold back the model, called GPT-6.1 Astra, comes amid a broader push within the industry to slow the development of increasingly autonomous systems until safety measures can…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.085
+      },
+      "id": "dd1e4f414ab6db68",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "LangGraph vs CrewAI vs AutoGen vs OpenAI Agents SDK",
+      "url": "https://www.greensighter.com/blog/ai-agent-frameworks",
+      "publishedAt": "2026-09-28T20:00:00Z",
+      "excerpt": "Microsoft merged it with Semantic Kernel into a new project called Microsoft Agent Framework, reaching general availability in April 2026.\n\nThe original AutoGen repo hit 50,400 GitHub stars and 559 contributors before the merge, per Microsoft's own announcement. It still exists. It's just in maintenance mode now: bug fixes and security patches, no new features.\n\nThat single change reshaped this whole comparison. We'll get into what it means for you further down.\n\n‍ [...] LangGraph has a…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.696
+      },
+      "id": "1ed71b3da8290909",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Top AI Agent Orchestration Frameworks & Platforms (2026) | Kestra",
+      "url": "https://kestra.io/resources/ai/ai-agent-orchestration-frameworks",
+      "publishedAt": "2026-09-29T00:00:00Z",
+      "excerpt": "CrewAI focuses on a high-level abstraction of collaborative agents. AutoGen, now in maintenance mode according to its README, pioneered the concept of “conversable agents” that could solve tasks together. The new Microsoft Agent Framework aims to be its more structured, enterprise-ready successor, integrating tightly with the Azure stack. CrewAI is generally easier to start with for multi-agent setups, while the Microsoft Agent Framework is geared towards teams already committed to Microsoft’s…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.655
+      },
+      "id": "9ed3c872ef5ab85a",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "‘Data never leaves AWS’: OpenAI agents move into Amazon’s cloud - The Next Web",
+      "url": "https://thenextweb.com/news/openai-bedrock-managed-agents-aws-devday",
+      "publishedAt": "2026-09-29T18:08:07Z",
+      "excerpt": "Companies can now build OpenAI agents that run entirely inside Amazon Web Services, with their data never leaving AWS. OpenAI and Amazon launched Bedrock Managed Agents, powered by OpenAI, at OpenAI’s DevDay 2026 event in San Francisco on Tuesday. OpenAI built it with Amazon from the core of its Agents API. It added customisation so the agents work natively in AWS and with AWS resources, the company wrote in its DevDay recap. Bedrock Managed Agents is built on OpenAI’s own agent framework,…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.099
+      },
+      "id": "646e5c5b4cf2a2d0",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "PwC's huge survey of 50,000 workers says AI is splitting employees into 4 distinct groups - Business Insider",
+      "url": "https://www.businessinsider.com/major-pwc-survey-finds-ai-splitting-workers-4-groups-2026-9",
+      "publishedAt": "2026-09-29T04:01:01Z",
+      "excerpt": "A huge survey carried out by consulting giant PwC found that AI is allowing a small group of workers to pull away from the rest of the workforce and dividing employees into four distinct categories. But the survey revealed a widening divide in how workers are getting the tools and opportunities to benefit from AI. The front-runners have in-demand skills and reported getting strong benefits from AI in their work. Just over half the group use generative AI daily, while nearly 80% said they have…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.063
+      },
+      "id": "14dcd2e74069a493",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Random: \"Motherbrain\" Returns As Ubisoft's GenAI Gaming Initiative - Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/09/random-motherbrain-returns-as-ubisofts-genai-gaming-initiative",
+      "publishedAt": "2026-09-28T23:55:00Z",
+      "excerpt": "# Random: \"Motherbrain\" Returns As Ubisoft's GenAI Gaming Initiative. As reported by Stephen Totilo of Game File, \"Motherbrain\" is actually a trademark and term Ubisoft is now using to refer to its AI projects. Kotaku further notes how one \"Motherbrain\" trademark filing refers to \"downloadable computer software using artificial intelligence (AI) for creating video games and interactive content\", and another lists \"analyzing data for interacting with humans\". For now, there's no public notice…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.055
+      },
+      "id": "dceb4a266eec6189",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Spurs College Board Redesign of 2 AP Courses - GovTech",
+      "url": "https://www.govtech.com/education/k-12/ai-spurs-college-board-redesign-of-2-ap-courses",
+      "publishedAt": "2026-09-28T23:12:11Z",
+      "excerpt": "## Feedback from thousands of Advanced Placement teachers is informing new lessons in AP Computer Science Principles and new limits on when artificial intelligence can be used in AP Seminar. Beginning in the 2027-28 school year, AI and machine learning will become part of the AP Computer Science Principles curriculum, while AP Seminar students will complete essays that count toward their AP scores in a secure environment without access to generative AI, the nonprofit said in a recent news…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.05
+      },
+      "id": "3e45b4ca30637480",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Why Muse is Winning the Agentic AI Race — TradingView News",
+      "url": "https://www.tradingview.com/news/zacks:875ae99c1094b:0-why-muse-is-winning-the-agentic-ai-race",
+      "publishedAt": "2026-09-29T19:07:00Z",
+      "excerpt": "Generative AI applications like ChatGPT and Alphabet’s (GOOGL) “Gemini” have soared in popularity. These generative AI models can answer almost any question and quickly create content from user prompts. Like the search engine wars of the late 1990s, the AI winners have likely not been crowned yet. Until Google launched in 1997, Yahoo!, AltaVista, and Lycos owned the search engine arena. However, Google gained an edge in the search engine wars by delivering a faster, cleaner, and more [...]…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.696
+      },
+      "id": "9af3bdfdff8b47e1",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Prompts for Beverage and CPG Product Launches in 2026 | Luma",
+      "url": "https://lumalabs.ai/news/ai-prompts-beverage-cpg-product-launches",
+      "publishedAt": "2026-09-29T11:00:00Z",
+      "excerpt": "AI prompts compress CPG product launch timelines by 50-80%, turning 18-month projects into 8-week sprints\n 56% of CPG leaders reported regularly using generative AI in their organizations\n Properly structured prompts reduce content creation time by 80% while maintaining brand consistency\n Effective personalization can deliver 5-8x ROI on marketing spend and contribute to 10-15% revenue lift [...] You must specify these elements explicitly in your prompts. \"Generate product shot of [beverage]\"…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.656
+      },
+      "id": "a44703c1bf9175a0",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How to prepare your website for AI agents without rebuilding everything | Contentful",
+      "url": "https://www.contentful.com/blog/prepare-website-ai-agents",
+      "publishedAt": "2026-09-29T22:00:00Z",
+      "excerpt": "April 30, 2026\n\nA website interface showing a search bar, philodendron plant image, profile photo, navigation controls, and \"Generative Engine Optimization\" text\n\nThree GEO playbooks: How to prepare your content for generative search\n\nJune 17, 2025\n\nContentful Logo 2.5 Dark\n\nReady to start building?\n\nPut everything you learned into action. Create and publish your content with Contentful — no credit card required.\n\nWhy Contentful DXP?\n\nContent Platform\n\nAI\n\nPersonalization\n\nWhat's new [...]…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.285
+      },
+      "id": "2e45bc18569ddd70",
+      "collectedAt": "2026-09-30T01:22:11.072929+00:00"
     }
   ],
-  "updatedAt": "2026-09-29T20:56:10.817151+00:00"
+  "updatedAt": "2026-09-30T01:22:11.072929+00:00"
 }
