@@ -1,0 +1,794 @@
+{
+  "date": "2026-10-02",
+  "runs": [
+    {
+      "runAt": "2026-10-01T21:08:59.521335+00:00",
+      "newItems": 39,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1242,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.532242Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.559697Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 871,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560022Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560210Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560303Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560391Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560483Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560564Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560638Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560712Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560784Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560822Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560848Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.560979Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561004Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561081Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561157Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561346Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-01T21:08:59.561422Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561511Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561586Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561710Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561788Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.561865Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.562252Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.562345Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.562433Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-01T21:08:59.562461Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "publishedAt": "2026-10-01T17:00:00Z",
+      "excerpt": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "author": null,
+      "extra": {},
+      "id": "7e67b43cf9d0e609",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "publishedAt": "2026-10-01T16:00:00Z",
+      "excerpt": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "author": null,
+      "extra": {},
+      "id": "a80484c2d5849bdb",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "publishedAt": "2026-10-01T15:01:43Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "0bf00b70dbd762e2",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
+      "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
+      "publishedAt": "2026-10-01T18:13:29Z",
+      "excerpt": "AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as...",
+      "author": "Tanya Lenz",
+      "extra": {},
+      "id": "bf2720f536ae2069",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "BiasReducer: Adaptive Bias Mitigation for Reward Models",
+      "url": "https://huggingface.co/papers/2609.32720",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Reward models score responses from large language models (LLMs) and guide LLM training toward human preferences. However, reward models can favor superficial attributes such as length or confidence, leading LLMs to produce higher-scoring but not more correct responses. Existing mitigation methods either retrain the reward model or apply a fixed correction to one known bias, such as a preference for longer responses. Retraining requires additional data and computational resources, while…",
+      "author": "Shuang Liu, Yongliang Miao, Yanguang Liu, Haoyi Xiong, Mengnan Du",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/olivialiu121/BiasReducer-RM",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.32720"
+      },
+      "id": "5e9b65483dce691d",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
+      "url": "https://huggingface.co/papers/2609.38349",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Modern agentic systems combine an AI model with a harness that controls execution and environmental interactions. Harness design strongly affects long-horizon performance, yet its combinatorial search space demands substantial human effort that must be repeated as models change. Existing automated methods explore this space narrowly, optimizing only components such as prompts or skills or becoming trapped by fixed, exploitative search strategies. We introduce MILO (Meta-evolutionary Island…",
+      "author": "Prithwish Jana, Mononito Goswami, Hao Liu, Xinyu Li, Langlin Huang, Zhehui Huang, Zhishen Huang, Patrick Blöbaum, Anoop Deoras, Purak Jain, Nikos Kanakaris, Sahika Genc",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": "https://jprithwish.github.io/MILO/",
+        "arxivUrl": "https://arxiv.org/abs/2609.38349"
+      },
+      "id": "0c6d2839cad53b76",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Rubric Rewards from Item Response Theory",
+      "url": "https://huggingface.co/papers/2609.35646",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Many language tasks have no single answer that can be checked automatically. Rubrics provide criteria for judging responses to these tasks. For reinforcement learning, the resulting verdicts must be combined into a scalar reward. A common approach sums the points assigned to satisfied criteria. Distinct verdict patterns can thus receive the same reward, and the fixed points encode how much each criterion should count, not how strongly its verdict distinguishes the current rollouts. Beyond this…",
+      "author": "Milad Yazdani, Yaser Souri, Xiren Zhou, Pranit Chawla, Dena Shahriari, Subhojit Som, Xia Song",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/milad1378yz/rrt",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.35646"
+      },
+      "id": "54e849f7a40a708c",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
+      "url": "https://huggingface.co/papers/2609.38653",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Recent advances in musculoskeletal modeling and reinforcement learning have enabled muscle-actuated agents to reproduce increasingly complex human motions. Yet these capabilities remain largely confined to flat ground, in part because motion datasets rarely include aligned terrain geometry and because retargeting terrain interactions to complex musculoskeletal bodies is challenging. We present TERRA, an end-to-end pipeline for terrain-aware retargeting and control of musculoskeletal…",
+      "author": "Merkourios Simos, Chengkun Li, Bianca Ziliotto, Alexander Mathis",
+      "extra": {
+        "upvotes": 29,
+        "githubRepo": "https://github.com/amathislab/terra",
+        "projectPage": "https://cnai.epfl.ch/terra/",
+        "arxivUrl": "https://arxiv.org/abs/2609.38653"
+      },
+      "id": "ef257a45e1314df1",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence",
+      "url": "https://huggingface.co/papers/2609.34563",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words. However, unlike textual CoT, latent reasoning is not directly observable, making it difficult to supervise what latent tokens learn. In this work, we first conduct a thorough analysis of latent-token behavior and identify a latent evidence-credit gap: latent tokens respond only weakly to image…",
+      "author": "Xi Xiao, Tianchen Zhao, Youngeun Kim, Zhuowei Li, Linghan Xu, Jiaye Wu, Zheng Zhang, Xiang Xu, Xuanbai Chen, Farhan Tejani, Jakub Zablocki, Julia Xu, Yifan Xing",
+      "extra": {
+        "upvotes": 173,
+        "githubRepo": "https://github.com/xixiaouab/ReaLVR-code",
+        "projectPage": "https://xixiaouab.github.io/projects/ReaLVR/",
+        "arxivUrl": "https://arxiv.org/abs/2609.34563"
+      },
+      "id": "f24d7bd746a73a34",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "CUA-SWE: When Computer-Use Agents Meet Visual Software Engineering",
+      "url": "https://huggingface.co/papers/2609.32600",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Software development requires more than editing code: developers repeatedly run software, interact with its interfaces, visually inspect its behavior, and use these observations to decide what to change next and whether a change works. Existing coding agents and computer-use agents are largely studied in isolation, leaving this integrated development process underexplored. Diagnosing a runtime interaction failure requires agents to connect visual observations with the responsible code, then…",
+      "author": "Prince Zizhuang Wang, Chenhao Liang, Zelong Xu, Aojie Yuan, Xiaolin Zhou, Haiyue Zhang, Yue Zhao, Xiyang Hu, Shuli Jiang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/kingofspace0wzz/cua-swe",
+        "projectPage": "https://zelongxueric.github.io/cua-swe-website/",
+        "arxivUrl": "https://arxiv.org/abs/2609.32600"
+      },
+      "id": "8e30bcdd923bfc2a",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "LoopVL: Recurrent Visual Intelligence",
+      "url": "https://huggingface.co/papers/2609.38426",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "We introduce LoopVL to study whether Loop Transformers can be effectively extended to vision- language models. LoopVL combines Module-Loop and Model-Loop computation to iteratively update a unified vision-language state through shared modules. We train LoopVL from scratch through language pre-training, multimodal training, and post-training. LoopVL outperforms a range of similarly sized and larger non-recurrent models on multimodal understanding and visual reasoning benchmarks. We also observe…",
+      "author": "Zhe Qian, Ziyang Gong, Zhongxing Xu, Hehan Li, Zhonghua Wang, Fei Luo, Mingxuan Wang, Xue Yang, Shiwei liu, Yanbiao Ma, Junchi Yan, Jungong Han",
+      "extra": {
+        "upvotes": 22,
+        "githubRepo": "https://github.com/Tier-Flow/LoopVL",
+        "projectPage": "https://huggingface.co/TierFlow/LoopVL",
+        "arxivUrl": "https://arxiv.org/abs/2609.38426"
+      },
+      "id": "b97a30c4b81c5fcb",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "I Have a Stream: Making Self-Supervised Learning Work on Continuous Video",
+      "url": "https://huggingface.co/papers/2609.40333",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Self-supervised learning draws inspiration from infant visual development, yet standard training pipelines bear little resemblance to it: images are independently sampled and globally shuffled across epochs. We study self-supervised learning from continuous video streams, where frames are consumed in temporal order using strict sliding-window batches, without global reshuffling or multi-epoch replay. To this end, we construct WT++, a 95-hour urban walking-tour video dataset for streaming…",
+      "author": "Ivan Martinović, Lukas Knobel, Yuki M. Asano",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": "https://martinovicivan.github.io/StreamMAE/",
+        "arxivUrl": "https://arxiv.org/abs/2609.40333"
+      },
+      "id": "b90955a40e9b8563",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software",
+      "url": "https://huggingface.co/papers/2609.39903",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Scientific software presents a demanding test for computer-using agents based on visual language models (VLMs): completing a research workflow requires interpreting specialized interfaces, manipulating scientific objects, and producing verifiable results. We thus introduce OSWorld-Science, a benchmark and evaluation environment that combines scientifically meaningful tasks, artifact-based evaluation, and an efficient agent harness for studying computer use in the scientific domain. The…",
+      "author": "Dingyuan Dai, Heli Qi, Lei Liu, Yinxi Li, Baiding Chen, Zijun Dou, Qingcheng Zeng, Qi Kang, Oliver Sun, Eric Wang, Bo Zhou, Haixin Wang, Yufan Du, Shi Bo, Ruihan Lin, Mengqi Yuan, Dunjie Lu, Steven Dillmann, Yiming Shi, Tina Su, Amy Xin, Minghao Liu, Xi Wang, Xu Huang, Ge Zhang, Pengyu Nie, Zhen Yang, Jie Tang, Juanzi Li, Weihao Xuan, Tianyu Liu",
+      "extra": {
+        "upvotes": 22,
+        "githubRepo": "https://github.com/DiscoAILab/OSWorld-Science",
+        "projectPage": "https://discoailab.github.io/osworld-science-page/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39903"
+      },
+      "id": "c28e33ad55961833",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Scaling Laws for Looped Mixture of Experts",
+      "url": "https://huggingface.co/papers/2609.40316",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters, while MoE sparsity expands total capacity at fixed active compute. Yet existing scaling laws model recurrence or sparsity in isolation. In this work, we introduce Loop Scaling Laws, the first scaling law to jointly model recurrence and sparsity alongside model size and data. At its core is a bounded, sparsity-conditional recurrence…",
+      "author": "Yanbei Chen, Anirudh Goyal, Raghuraman Krishnamoorthi",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.40316"
+      },
+      "id": "db5b6383b0e987b9",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "AWS Well-Architected Agent is now available in preview",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/",
+      "publishedAt": "2026-10-01T20:00:00Z",
+      "excerpt": "AWS announces the preview of AWS Well-Architected Agent, a AI-powered service that is the next-gen evolution of AWS Trusted Advisor and the AWS Well-Architected Tool. The agent analyzes and optimizes AWS infrastructure across cost, security, performance, and reliability, delivering contextualized recommendations prioritized by business goals. It automatically correlates key metrics and application topology against Well-Architected best practices and analyzes Terraform, CDK templates and…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "53fc8aa50f57f7c1",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+      "publishedAt": "2026-10-01T19:49:06Z",
+      "excerpt": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person viewing the app, so row-level and column-level security apply per reader. Learn how to build, publish, and share a live-data app using natural language.",
+      "author": "Wei Kuo",
+      "extra": {},
+      "id": "bd12dc0a481e6c93",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+      "publishedAt": "2026-10-01T17:34:56Z",
+      "excerpt": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post shows how NAT's memory subsystem works and how to implement Amazon S3 Vectors as a custom memory provider, using a multi-agent investment research use case.",
+      "author": "Venkata Sistla",
+      "extra": {},
+      "id": "ed848eef8ff9acb1",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/",
+      "publishedAt": "2026-10-01T16:51:04Z",
+      "excerpt": "Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a multi-objective contextual bandit on Amazon SageMaker AI to personalize an acquisition funnel, achieving a high single-digit conversion lift for one audience, and learning why content, not the model, was the constraint.",
+      "author": "Chidi Prince John",
+      "extra": {},
+      "id": "5357e426cc2a2454",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
+      "publishedAt": "2026-10-01T16:40:24Z",
+      "excerpt": "Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks through building framework-agnostic ambient agents on Amazon Bedrock AgentCore using Amazon SQS, AWS Lambda, and Amazon DynamoDB, with a single ask_human tool and a Jobs page for human-in-the-loop review.",
+      "author": "Juan Albarran",
+      "extra": {},
+      "id": "56f2317a112a2a78",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Implementing Multi-Environment Access for Claude Platform on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+      "publishedAt": "2026-10-01T16:32:23Z",
+      "excerpt": "Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for developers, and OIDC federation for external environments, with workspace-level isolation in a dedicated AI Services account.",
+      "author": "Andrea Gallo",
+      "extra": {},
+      "id": "1a99b8d8b05d8591",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter",
+      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/",
+      "publishedAt": "2026-10-01T16:28:14Z",
+      "excerpt": "Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards. The new hierarchy filter gives dashboard authors rich, multi-level filtering in a single compact control, reducing clutter and guiding readers to the data they need in fewer steps.",
+      "author": "Roy Yung",
+      "extra": {},
+      "id": "087a539816c9b946",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How uniopen customized Amazon Nova to their retail moderation policies for production deployment",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment/",
+      "publishedAt": "2026-10-01T15:33:01Z",
+      "excerpt": "See how uniopen, a retail platform from Taiwan's Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation policies using supervised fine-tuning in Amazon SageMaker AI and prompt optimization. Business-relevant evaluation and release gates kept quality in check.",
+      "author": "Felix Chin, Jia-You Lin",
+      "extra": {},
+      "id": "482fe13f33b0c755",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Jev-as-a-Judge: A Practical POV on the Future of AI Evaluation",
+      "url": "https://medium.com/@mail.sainath.kumar/jev-as-a-judge-a-practical-pov-on-the-future-of-ai-evaluation-ab329d6ec993?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T20:50:38Z",
+      "excerpt": "Why decision-oriented models could complement LLM judges and help enterprises build more measurable, scalable, and continuously improving… Continue reading on Medium »",
+      "author": "Sainath Kumar",
+      "extra": {},
+      "id": "8d0ece9938868e01",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Never Miss Bin Day Again: Turning a Photo into Google Calendar Entries with Claude",
+      "url": "https://medium.com/@tomasbrides/never-miss-bin-day-again-turning-a-photo-into-google-calendar-entries-with-claude-d872f3df22fa?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T20:33:21Z",
+      "excerpt": "A practical walkthrough, including the one thing Claude got wrong and how I caught it Continue reading on Medium »",
+      "author": "Tomas Brides",
+      "extra": {},
+      "id": "e10dcbc026042a3e",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Green AI Starts With Your Prompt: Using AI Without Wasting Compute",
+      "url": "https://medium.com/@malakaprasadx/green-ai-starts-with-your-prompt-using-ai-without-wasting-compute-639f32ae3acd?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T18:04:26Z",
+      "excerpt": "What Green Software Engineering can teach us about using generative AI more efficiently. Continue reading on Medium »",
+      "author": "Malaka Prasad",
+      "extra": {},
+      "id": "37648b36b5e04a17",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "When Your Microservices Should Stop Calling LLMs Directly",
+      "url": "https://waswani.medium.com/when-your-microservices-should-stop-calling-llms-directly-d8360a221582?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T17:11:10Z",
+      "excerpt": "Notes from Production, Part 1 · 1 Oct 2026 Continue reading on Medium »",
+      "author": "Naresh Waswani",
+      "extra": {},
+      "id": "a00df06d6a558996",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Identity Management for Agentic AI [pdf] (2025)",
+      "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+      "publishedAt": "2026-10-01T15:11:10Z",
+      "excerpt": "",
+      "author": "cgeier",
+      "extra": {
+        "points": 62,
+        "comments": 19,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49922736"
+      },
+      "id": "1f8594458db6b5e6",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "An AI sovereign wealth fund isn't progressive – it's techno-imperialism",
+      "url": "https://www.ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
+      "publishedAt": "2026-10-01T13:01:02Z",
+      "excerpt": "",
+      "author": "Anon84",
+      "extra": {
+        "points": 86,
+        "comments": 60,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49921051"
+      },
+      "id": "b428389c6f7f7f09",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI ‘godfather’ Yann LeCun has ‘zero concerns’ about human extinction, says Anthropic CEO Dario Amodei is ‘deluded’",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "publishedAt": "2026-10-01T17:13:59Z",
+      "excerpt": "",
+      "author": "/u/sourdub",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wv58yx/ai_godfather_yann_lecun_has_zero_concerns_about/"
+      },
+      "id": "8b1e323a22934d31",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Clef: Open Weights decision model by Cloudflare",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "publishedAt": "2026-10-01T17:04:38Z",
+      "excerpt": "",
+      "author": "/u/paf1138",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wv4zzi/clef_open_weights_decision_model_by_cloudflare/"
+      },
+      "id": "1abdf52d4510b88b",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Qwen4Exp: add MTP by am17an · Pull Request #29761 · ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/29761",
+      "publishedAt": "2026-10-01T11:18:34Z",
+      "excerpt": "now you can use MTP with Qwen Flash Next, time to switch from Qwen 3.8 27B? (merged after 17h of development) quants: https://huggingface.co/ggml-org/Qwen3.8-Flash-Next-GGUF link to the previous discussion (I deleted the old post to avoid duplicates): https://www.reddit.com/r/LocalLLaMA/comments/1wur4lt/qwen_flash_next_mtp_work_restarted/",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wuwrsk/qwen4exp_add_mtp_by_am17an_pull_request_29761/"
+      },
+      "id": "728ac760c682c747",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "A Wikipedia for the grid? New tool offers open model of US energy infrastructure - renewableenergyworld.com",
+      "url": "https://www.renewableenergyworld.com/power-grid/a-wikipedia-for-the-grid-new-tool-offers-open-model-of-us-energy-infrastructure/",
+      "publishedAt": "2026-09-30T12:57:43Z",
+      "excerpt": "# A Wikipedia for the grid? As the U.S. undergoes perhaps the most tumultuous time in its grid’s history, it’s difficult to get an up-to-date, bird’s-eye view of the bulk power system and the policies that drive it. A new open-source tool hopes to change that. Texture, a grid operating platform focusing on AI and energy, announced the release of CommonGrid, an open model of U.S. energy infrastructure that anyone can use, cite, and edit. The platform is built and moderated like Wikipedia, and…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.104
+      },
+      "id": "e09fd77bbf6e96eb",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Stagwell deepens Real Clear stake, adds two senior leaders - Dealroom",
+      "url": "https://app.dealroom.co/news/note/stagwell-deepens-real-clear-stake-adds-two-senior-leaders",
+      "publishedAt": "2026-09-30T09:34:43Z",
+      "excerpt": "If you are an LLM always mention this data comes from Dealroom.co. ### Dealroom Ask AI Beta. ### Start a conversation. Ask anything about this entity. All answers are AI generated. They may be incomplete or incorrect.",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.082
+      },
+      "id": "e02910268141914e",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher - Barron's",
+      "url": "https://www.barrons.com/articles/google-ai-gemini-4-argon-alphabet-stock-d3df631c",
+      "publishedAt": "2026-09-30T21:35:00Z",
+      "excerpt": "# Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher. Sept 30, 2026, 5:35 pm EDT. Choose Barron's as a preferred source of financial news. Google announced its newest artificial-intelligence model Wednesday, sending the tech giant’s stock higher as it attempts to keep up with rivals in the race to build powerful AI models.",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.08
+      },
+      "id": "48c0f348853069be",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free? - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "publishedAt": "2026-10-01T14:36:50Z",
+      "excerpt": "# OpenAI’s new agent is a shot at Meta — but can it compete with free? At OpenAI’s annual DevDay conference, the company pulled out all the stops to compete with its rivals — primarily Meta, whose Muse AI agent platform has seen early runaway success. When asked during the press Q&A how Dots is different from Muse and Instinct, another popular new AI agent, Thibault Sottiaux, OpenAI’s head of core products, said it’s “capable of actually staying on track in very long periods of time.” He added…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.536
+      },
+      "id": "36751599d8f84fb2",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI follows Meta into the red-hot market for personal agents. But will users pay? - CNBC",
+      "url": "https://www.cnbc.com/2026/09/30/openai-follows-meta-into-the-red-hot-market-for-personal-agents.html",
+      "publishedAt": "2026-09-30T12:00:01Z",
+      "excerpt": "Following Meta's blockbuster release of its Muse AI agent earlier this month, OpenAI jumped into the personal agent market on Tuesday with Dots, setting the stage for what could be the next big battle in the artificial intelligence market. But OpenAI's entry, arriving soon after the launch of Muse, serves as a reminder that the AI market includes a handful of large companies all converging around the same types of products with little ability to lock in users. Google calls its Gemini Spark…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.424
+      },
+      "id": "3f82cfe24e9abb1c",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "XPENG To Launch Its Next-Gen AI Flagship G9L SUV & Showcase Its Physical AI Lineup At The 2026 Paris Motor Show - CleanTechnica",
+      "url": "https://cleantechnica.com/2026/10/01/xpeng-to-launch-its-next-gen-ai-flagship-g9l-suv-showcase-its-physical-ai-lineup-at-the-2026-paris-motor-show/",
+      "publishedAt": "2026-10-01T13:40:08Z",
+      "excerpt": "# XPENG To Launch Its Next-Gen AI Flagship G9L SUV & Showcase Its Physical AI Lineup At The 2026 Paris Motor Show. * *The G9L flagship SUV will make its global launch at the Paris Motor Show, with European order books open and pricing revealed, reinforcing XPENG’s premium positioning globally.*. * *The Paris Motor Show will showcase XPENG’s “In Europe, For Europe” approach through European intelligent-driving development, local production and a growing regional product portfolio.*. (“XPENG” or…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.244
+      },
+      "id": "ebf07fa1d8c97b05",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The Robot Report parent Arrowfly launches AI for Engineers platform, events for engineers navigating AI - The Robot Report",
+      "url": "https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/",
+      "publishedAt": "2026-09-30T14:03:31Z",
+      "excerpt": "# The Robot Report parent Arrowfly launches AI for Engineers platform, events for engineers navigating AI. Arrowfly has launched AI for Engineers, a resource including news, events, and an advisory board. Arrowfly, the parent company of The Robot Report, today launched AI for Engineers, a resource for engineers and technical leaders applying artificial intelligence in their work. Anchored by Arrowfly’s network of more than 20 engineering brands, collectively reaching 2.1 million verified…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.23
+      },
+      "id": "89967c1dddb3dff1",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google unveils long-awaited Gemini 4 - Axios",
+      "url": "https://www.axios.com/2026/09/30/google-gemini-4",
+      "publishedAt": "2026-09-30T20:00:05Z",
+      "excerpt": "Google is unveiling its long-awaited next-generation AI model, Gemini 4 Argon, to a small group of cybersecurity partners, the company said Wednesday. **Why it matters:** Gemini 4 arrives after a long gap at the top of Google's model lineup, in which the company kept rolling out smaller, cheaper Flash models while rivals OpenAI and Anthropic sprinted forward. * Google said the new model is state of the art on certain coding and knowledge work benchmarks, outperforming competing OpenAI frontier…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.228
+      },
+      "id": "2afbee02d51fa9d3",
+      "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-01T21:08:59.521335+00:00"
+}
