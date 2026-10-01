@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-01T01:22:49.528829Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-01T02:16:32.370306+00:00",
+      "newItems": 4,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1240,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.389741Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.438325Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 870,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.438729Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.439055Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.439225Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.439384Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.439550Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.439710Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.439861Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440003Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 23,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440141Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440200Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440244Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440496Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440588Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440761Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.440924Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.441356Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-01T02:16:32.441659Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.441900Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.442118Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.442372Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.442567Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.442732Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.443419Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.443625Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.443803Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-01T02:16:32.443852Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1346,7 +1576,68 @@
       },
       "id": "9abd16bb974d3ebe",
       "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
+      "url": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+      "publishedAt": "2026-09-30T20:44:19Z",
+      "excerpt": "",
+      "author": "danaris",
+      "extra": {
+        "points": 50,
+        "comments": 23,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49914149"
+      },
+      "id": "5a7fddad532de8e7",
+      "collectedAt": "2026-10-01T02:16:32.370306+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic IPO Papers Indicate $518 Bn AI Spending Commitments - BW Businessworld",
+      "url": "https://www.businessworld.in/article/anthropic-ipo-papers-indicate-518-bn-ai-spending-commitments-626101",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "logo\n\nTuesday | Sep 29 2026 | 02:32:47 PM\n\n### BW Communities\n\nBW Main Logo      Sep 29, 2026\n\n # Anthropic\n # IPO\n # Artificial Intelligence\n # AI\n # Technology\n # Cloud Computing\n # AI Infrastructure\n # OpenAI\n # Dario Amodei\n # US Markets\n\nThe AI startup’s prospectus shows revenue surging alongside widening operating losses, heavy compute spending, and a potential valuation above USD 2 trillion [...] The AI startup posted a nearly USD 42 billion net loss last year, although about USD 34…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.238
+      },
+      "id": "29ac807a3006f6f6",
+      "collectedAt": "2026-10-01T02:16:32.370306+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Sonar Extends Agentic Code Governance and Verification to Self-Managed Infrastructure - PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/sonar-extends-agentic-code-governance-and-verification-to-self-managed-infrastructure-302893110.html",
+      "publishedAt": "2026-09-29T15:30:00Z",
+      "excerpt": "# Sonar Extends Agentic Code Governance and Verification to Self-Managed Infrastructure. *Agentic capabilities now available on SonarQube Server, allowing enterprises to operate software factories with confidence on their infrastructure*. 29, 2026 /PRNewswire/ -- Sonar, the global leader in agentic code governance and verification, today announced the general availability of SonarQube Server 2026.5 LTA, enabling enterprises to guide, verify, and continuously resolve issues in agentic code…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.028
+      },
+      "id": "c5c66447f26f0a60",
+      "collectedAt": "2026-10-01T02:16:32.370306+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Large language models are zero-shot reasoners",
+      "url": "https://dl.acm.org/doi/10.5555/3600270.3601883",
+      "publishedAt": null,
+      "excerpt": "by T Kojima · 2022 · Cited by 10709 — prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, LLMs are decent zero-shot reasoners by simply",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.705
+      },
+      "id": "0e4270483f88a9c0",
+      "collectedAt": "2026-10-01T02:16:32.370306+00:00"
     }
   ],
-  "updatedAt": "2026-10-01T01:22:49.464762+00:00"
+  "updatedAt": "2026-10-01T02:16:32.370306+00:00"
 }
