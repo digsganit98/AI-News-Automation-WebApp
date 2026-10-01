@@ -920,6 +920,236 @@
           "checkedAt": "2026-10-01T07:21:23.637251Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-01T14:37:56.480102+00:00",
+      "newItems": 17,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1240,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.493153Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.526435Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 870,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.526751Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.526986Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527101Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527207Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527310Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527410Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527507Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527602Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527695Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527737Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527766Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527944Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.527974Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.528073Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.528169Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.528388Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-01T14:37:56.528492Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.528592Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.528687Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.528851Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.528958Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.529058Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.529545Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.529671Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.529787Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-01T14:37:56.529820Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2451,7 +2681,260 @@
       },
       "id": "c700f94a4298765e",
       "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "It's Not What the Image Shows: Irrelevant Context Destabilises VLM Judges Without Informing Them",
+      "url": "https://huggingface.co/papers/2609.37863",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Vision-language models (VLMs) are increasingly used in place of human annotators, making it important that substitutability tests reflect the model rather than incidental evaluation conditions. We introduce MIST, the Misleading-Image Stress Test: 200 English sentences, each built around a phrase readable either figuratively or literally and shown with an aligned image depicting its reading, a misleading image depicting the opposite, or no image at all. The guidelines require the label to be…",
+      "author": "Nagham Omar, Mahmoud Jabarin, Kinan Ibraheem, Lotem Peled-Cohen",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.37863"
+      },
+      "id": "2b03acfbf600da41",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "DyRAD: Radar Novel View Synthesis for Dynamic Driving Scenes",
+      "url": "https://huggingface.co/papers/2609.39841",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Reconstructing dynamic driving scenes from recorded sensor data supports closed-loop evaluation of autonomous driving systems by synthesizing observations beyond the original trajectory. Unlike cameras and LiDAR, radar measures radial velocity directly through Doppler. Yet existing radar novel-view synthesis fails to exploit this capability: methods addressing dynamic scenes reconstruct only range-azimuth tensors, while methods that render Doppler assume static scenes. Moreover, because radar…",
+      "author": "Merav Keidar, Tomer Borreda, Rajalakshmi Nandakumar, Or Litany",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/Dyrad-NVS/DyRAD",
+        "projectPage": "https://dyrad-nvs.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39841"
+      },
+      "id": "916d4b3683d4e374",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "LANTERN: Illuminating Hidden Mathematical Knowledge in Language Models",
+      "url": "https://huggingface.co/papers/2609.32264",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Language models can now prove theorems, but people still decide which problems to pursue. We ask whether a model's internal representations can help identify promising mathematical connections. We develop LANTERN, a fast, cost-efficient pipeline that uses a classifier over pretrained-model activations to rank candidate relations, followed by staged filtering, hypothesis generation, executable verification, and analytical checking. Applied to the On-Line Encyclopedia of Integer Sequences…",
+      "author": "Pavel Tikhonov, Elena Tutubalina, Ivan Oseledets, Dmitry I. Ignatov, Mikhail Seleznyov",
+      "extra": {
+        "upvotes": 19,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.32264"
+      },
+      "id": "9c2b6e455189fe22",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AIM: Agentic Idea Management for Automated Research",
+      "url": "https://huggingface.co/papers/2609.38445",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organizing evolving research ideas, selecting promising directions, and maintaining alignment between ideas and their implementations. To address these challenges, we introduce the Agentic Idea Manager (AIM), a fully autonomous framework for managing and exploring research directions in idea-driven…",
+      "author": "Hyeong Kyu Choi, Bhavana Dalvi Mishra, Jiefeng Chen, Mihir Parmar, Rui Meng, Chun-Liang Li, Xiangru Tang, Sharon Li, Jinsung Yoon, Tomas Pfister",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": "https://imhgchoi.github.io/agentic-idea-manager/",
+        "arxivUrl": "https://arxiv.org/abs/2609.38445"
+      },
+      "id": "a590a4d6c9286100",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "A Practical Map of Modern AI: What All Those AI Terms Actually Mean",
+      "url": "https://medium.com/@noumanahmad93/a-practical-map-of-modern-ai-what-all-those-ai-terms-actually-mean-6630a7293d19?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T12:17:10Z",
+      "excerpt": "Scalable, modular, agentic, federated, sovereign… A connected guide to 17 terms, and the different questions they answer. Continue reading on Medium »",
+      "author": "Nouman Ahmad",
+      "extra": {},
+      "id": "7aa778c08c42b83b",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Where Generative AI Can Make a Practical Difference for UK Businesses",
+      "url": "https://medium.com/@wedowebappsuk/where-generative-ai-can-make-a-practical-difference-for-uk-businesses-9c22b882476a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T11:38:40Z",
+      "excerpt": "Generative AI is becoming easier for businesses to access. The bigger challenge is deciding where it can make a genuine difference to… Continue reading on Medium »",
+      "author": "WEDOWEBAPPS LTD",
+      "extra": {},
+      "id": "16a086f29d9b384d",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "100% Recall on Security Tickets, 57% Accuracy Overall: What My Support Triage Agent Taught Me",
+      "url": "https://medium.com/@bhardwajpreeti357/i-built-an-ai-agent-that-knows-when-not-to-answer-%EF%B8%8F-804776968ff9?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T11:16:30Z",
+      "excerpt": "Routing support tickets with tool-calling and FAISS: a 21-ticket eval, an agent that’s too cautious to draft, and safety rules that live… Continue reading on Medium »",
+      "author": "Preeti",
+      "extra": {},
+      "id": "c234d888b5764d2e",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "publishedAt": "2026-10-01T23:59:59Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "8a78d74aef0967c5",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "publishedAt": "2026-10-01T13:00:55Z",
+      "excerpt": "",
+      "author": "dgellow",
+      "extra": {
+        "points": 65,
+        "comments": 19,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49921050"
+      },
+      "id": "daa9a77897d51bc7",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "publishedAt": "2026-10-01T10:21:36Z",
+      "excerpt": "",
+      "author": "giuliomagnifico",
+      "extra": {
+        "points": 99,
+        "comments": 46,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49919910"
+      },
+      "id": "caab970345b94ebb",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+      "url": "https://lathoa.ai/en",
+      "publishedAt": "2026-09-30T14:38:57Z",
+      "excerpt": "",
+      "author": "thanouil1411",
+      "extra": {
+        "points": 52,
+        "comments": 45,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49909648"
+      },
+      "id": "9368f324172422ad",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Trump Reprograms Government AI Chatbot to Stop Fact-Checking His Lies. Trump officials seem to have realized their AI chatbot was correcting the president’s biggest lies.",
+      "url": "https://newrepublic.com/post/216016/trump-rigs-americagov-ai-chatbot-fact-check-lies",
+      "publishedAt": "2026-09-30T19:26:56Z",
+      "excerpt": "",
+      "author": "/u/esporx",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1wueara/trump_reprograms_government_ai_chatbot_to_stop/"
+      },
+      "id": "d31262b9fd756574",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "2026 in LLMs (so far) - Simon Willison’s Newsletter",
+      "url": "https://simonw.substack.com/p/2026-in-llms-so-far",
+      "publishedAt": null,
+      "excerpt": "#### November 2025\n\nNovember saw the release of two important models: Claude Opus 4.5 and GPT-5.1.\n\nAs is usually the case with new models, these were incremental improvements on the models that came before them.\n\nBut every now and then when a model improves, it crosses an invisible line where something that didn’t really work starts working.\n\nIn this case, the thing that started working was their coding agents. Claude Code had been around since February 2025; Codex was a little younger. [...]…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.706
+      },
+      "id": "e745e435d43f2bf2",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AG-UI 1.0: A Stable Spec for Connecting AI Agents to Apps",
+      "url": "https://www.sitepoint.com/ag-ui-1-0-stable-spec-agent-user-interaction",
+      "publishedAt": "2026-09-30T21:02:38Z",
+      "excerpt": "AG-UI 1.0, released September 30, 2026, freezes the Agent-User Interaction Protocol into a stable specification: every event is defined by a JSON Schema, the TypeScript, Python, and .NET SDKs are generated from that schema, and the release adds subagent support, metadata, multimodal tool results, and human-in-the-loop interrupts. This article explains what AG-UI standardizes, what is new in 1.0, and how to try it.\n\n## What Is AG-UI? [...] The 1.0 release has two core pieces. First, a JSON…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.653
+      },
+      "id": "dc45405917fa8d21",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "BigDATAwire - Data Science • AI • Advanced Analytics",
+      "url": "https://hpcwire.com/bigdatawire/this-just-in/c3-ai-announces-launch-of-c3-generative-ai-product-suite",
+      "publishedAt": "2026-10-01T05:00:00Z",
+      "excerpt": "### TCI Media: Home of the Wire Publications\n\nHeader Logo 1\nHeader Logo 2\nHeader Logo 3\nLogo\n\n## Off the Wire Press Releases\n\n### September 30, 2026\n\n## C3 AI Announces Launch of C3 Generative AI Product Suite\n\nREDWOOD CITY, Calif., Jan. 31, 2023 — C3 AI today announced the launch of the C3 Generative AI Product Suite with the release of its first product — C3 Generative AI for Enterprise Search. [...] , former commanding general of the U.S. Army Cyber Command. “This technology breakthrough…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.862
+      },
+      "id": "ff504c37bed00ff5",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Canon launches Connected Value Platform to deliver AI-powered feature enhancements for printing products | Canon Global",
+      "url": "https://global.canon/en/news/2026/20261001.html",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "TOKYO, October 1, 2026—Canon Inc. and Canon Marketing Japan Inc. today announced the launch of Connected Value Platform, a cloud-based feature enhancement platform that combines generative AI and Canon imaging technologies to add new capabilities to a broad range of printing products from home printers to office multifunction devices. As the first phase of this initiative, Canon will offer feature extension tools for PIXUS (PIXMA in other regions), inkjet printers beginning October 1, 2026.1,2…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.741
+      },
+      "id": "5f630cc899bd3626",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Why WD-40 Skipped a Traditional Shoot for AI-Generated Product Campaign — LBB",
+      "url": "https://lbbonline.com/news/wd40-amazon-ads-ai-generated-campaign",
+      "publishedAt": "2026-09-30T13:38:00Z",
+      "excerpt": "Why WD-40 Skipped a Traditional Shoot for AI-Generated Product Campaign\n\nPhoto: LBB\n\ntoday·22 views\n\nEditorial Series\n\nTrends and Insight\n\nIn-depth analysis of the trends and shifts transforming advertising and marketing.\n\nWD-40 has used generative AI to turn existing product imagery into a video campaign for the launch of its Specialist Professional Degreaser in France, bypassing a traditional production shoot in a bid to get the new product to market faster. [...] LIALittle Black…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.682
+      },
+      "id": "496565589257d48f",
+      "collectedAt": "2026-10-01T14:37:56.480102+00:00"
     }
   ],
-  "updatedAt": "2026-10-01T07:21:23.574516+00:00"
+  "updatedAt": "2026-10-01T14:37:56.480102+00:00"
 }
