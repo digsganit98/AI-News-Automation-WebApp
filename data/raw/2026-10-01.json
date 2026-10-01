@@ -230,6 +230,236 @@
           "checkedAt": "2026-09-30T20:54:03.653652Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-01T01:22:49.464762+00:00",
+      "newItems": 20,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1240,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.482432Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.523489Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 870,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.523899Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.524177Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.524346Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.524540Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.524714Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.524878Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525038Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525196Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 23,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525350Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525412Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525458Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525727Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525777Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.525935Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.526093Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.526475Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-01T01:22:49.526751Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.526979Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.527173Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.527401Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.527588Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.527766Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.528380Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.528589Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.528776Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-01T01:22:49.528829Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -821,7 +1051,302 @@
       },
       "id": "2281cee225e0f0a0",
       "collectedAt": "2026-09-30T20:54:03.584140+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Deploying an HSTU Generative Recommender with NVIDIA Dynamo-Triton",
+      "url": "https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/",
+      "publishedAt": "2026-09-30T20:54:59Z",
+      "excerpt": "Generative recommender (GR) systems are emerging as a powerful new approach for large-scale personalization. Instead of treating recommendation as a set of...",
+      "author": "Tanya Lenz",
+      "extra": {},
+      "id": "1d04843f00c0f8ae",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Fractional State Space Transition for Long Sequence Modeling",
+      "url": "https://huggingface.co/papers/2609.36314",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "State Space Models (SSMs) compress sequence history into a bounded recurrent state, making the resulting memory law a central architectural choice for long-context performance. Most modern SSMs rely on ODE-based dynamics that lead to exponential forgetting, limiting their ability to retain information over broad temporal ranges. We introduce FRAC, a selective SSM architecture derived from fractional dynamics that replaces this exponential decay with power-law long memory. To make fractional…",
+      "author": "Ivan Kobyzev, Abbas Ghaddar, Ali Nasiri-Sarvi, Lifeng Shang, Yufei Cui",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/anasiri/frac-ssm",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.36314"
+      },
+      "id": "47223501e36b5e15",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
+      "url": "https://huggingface.co/papers/2609.37402",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "Large language model (LLM) routing reduces serving cost by assigning each query to an appropriate model while preserving response quality. Learning such a router, however, often requires executing multiple candidate models on historical queries to collect query--model quality feedback, creating a nontrivial supervision cost before deployment. Existing work largely focuses on serving-time efficiency, overlooking whether the resulting savings are sufficient to recover this upfront expenditure.…",
+      "author": "Guannan Lai, Gelin Bian, Hao-Xuan Ma, Jun-Peng Jiang, Long Chen, Jian-Dong Liu, Zhi-Hao Tan, Han-Jia Ye",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/LAMDA-Model-Reuse/SaveRouter",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.37402"
+      },
+      "id": "45b9cc6bd6c2c7f2",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
+      "url": "https://huggingface.co/papers/2609.36965",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "System One models such as Jev offer an efficient alternative to generative language models for tasks that require decisions rather than open-ended responses. However, existing Jev models exhibit limited Chinese-language decision accuracy, restricting their utility in both general and specialized settings. In this paper, we introduce Chinese-Jev, a System One model that addresses this gap through a unified data processing and training pipeline. Our data processing protocol converts…",
+      "author": "Zexiao Wang, Zihao Zhang, Xudong Wang, Pan Wang, Ziyi Ye, Haoyu Zhao, Zuxuan Wu, Shuicheng Yan",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/gulucaptain/Chinese-Jev",
+        "projectPage": "https://gulucaptain.github.io/Chinese-Jev/",
+        "arxivUrl": "https://arxiv.org/abs/2609.36965"
+      },
+      "id": "bfd2a17f2a929074",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "AWS CLI now supports bulk skill updates and version checks for the Agent Toolkit for AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/",
+      "publishedAt": "2026-09-30T20:16:00Z",
+      "excerpt": "Today, AWS expanded the AWS Command Line Interface (CLI) commands for the Agent Toolkit for AWS with two new capabilities that make it easier to keep agent skills up to date. Customers can now run aws agent-toolkit check-skill-updates to compare all installed skills against the latest versions available in the registry, and use aws agent-toolkit update-skill --all to update every outdated skill in a single command. The Agent Toolkit for AWS consists of the AWS MCP Server (which provides a…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "d49425bbb8b46a09",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "publishedAt": "2026-09-30T22:23:40Z",
+      "excerpt": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
+      "author": null,
+      "extra": {},
+      "id": "97e9b56df7eddc3d",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Actually Happens When an LLM Generates a Token?",
+      "url": "https://medium.com/@shagufta.0201/what-actually-happens-when-an-llm-generates-a-token-3888e11ca65e?source=rss------generative_ai-5",
+      "publishedAt": "2026-09-30T22:37:00Z",
+      "excerpt": "I’ve used LLM APIs enough that terms like logits, logprobs, sampling, and next-token prediction had started to feel familiar. Continue reading on Medium »",
+      "author": "Shagufta Anjum",
+      "extra": {},
+      "id": "0cc2d0fb91cbadcc",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+      "publishedAt": "2026-09-30T20:50:28Z",
+      "excerpt": "",
+      "author": "theanonymousone",
+      "extra": {
+        "points": 80,
+        "comments": 43,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49914236"
+      },
+      "id": "4aba897202c07177",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "CS240 AI Cheating Retrospective",
+      "url": "https://turkeyland.net/thoughts/ai.php",
+      "publishedAt": "2026-09-30T19:54:29Z",
+      "excerpt": "",
+      "author": "ArchAndStarch",
+      "extra": {
+        "points": 90,
+        "comments": 66,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49913458"
+      },
+      "id": "4f2c29510b4c35a0",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Says",
+      "url": "https://ohhfishal.net/Posts/claude",
+      "publishedAt": "2026-09-30T17:32:06Z",
+      "excerpt": "",
+      "author": "speckx",
+      "extra": {
+        "points": 67,
+        "comments": 30,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49911928"
+      },
+      "id": "a1dd108cfb7d8bea",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Preorder for new AMD Ryzen™ AI Max 400 Series 192GB from framework just started",
+      "url": "https://frame.work/de/en/products/desktop-diy-amd-aimax400/configuration/new",
+      "publishedAt": "2026-09-30T19:19:05Z",
+      "excerpt": "Framework Desktop Framework Desktop DIY Edition (AMD Ryzen™ AI Max 400 Series) 192GB",
+      "author": "/u/Educational_Sun_8813",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wue339/preorder_for_new_amd_ryzen_ai_max_400_series/"
+      },
+      "id": "1d6736c9b94517c2",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Walmart bans AI slop signs in stores",
+      "url": "https://www.businessinsider.com/walmart-al-slop-bans-stores-policy-2026-9",
+      "publishedAt": "2026-09-30T04:45:02Z",
+      "excerpt": "",
+      "author": "/u/beingmodest",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1wtvwu3/walmart_bans_ai_slop_signs_in_stores/"
+      },
+      "id": "0aa091341b4e6334",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "You Can Order DoorDash Through Texts and Slack Messages Now - ADWEEK",
+      "url": "https://www.adweek.com/commerce/you-can-order-doordash-through-texts-and-slack-messages-now/",
+      "publishedAt": "2026-09-30T13:00:00Z",
+      "excerpt": "# You Can Order DoorDash Through Texts and Slack Messages Now. ## DoorDash revealed new agentic shopping features for both companies and individuals. Your favorite meal is now just a text or Slack message away, through new AI-powered features from DoorDash. The delivery platform has launched the DoorDash MCP (model context protocol) for corporate ordering to make it easier for companies to put their office restaurant orders and supply restocks on autopilot, DoorDash co-founder Andy Fang said…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.522
+      },
+      "id": "8a95e62f9aa8bded",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "SolarWinds Observability Self-Hosted: Unauthenticated RCE (CVE-2026-28324) and Related Deserialization Flaw (CVE-2026-28325) - Rescana",
+      "url": "https://www.rescana.com/post/solarwinds-observability-cve-2026-28324-unauth-rce",
+      "publishedAt": "2026-09-30T07:38:58Z",
+      "excerpt": "# SolarWinds Observability Self-Hosted: Unauthenticated RCE (CVE-2026-28324) and Related Deserialization Flaw (CVE-2026-28325). SolarWinds published Trust Center advisories on 22 September 2026 for two unauthenticated remote code execution issues in **SolarWinds Observability Self-Hosted (OSH)** — the self-hosted observability product that runs on the SolarWinds Platform. The primary issue, **CVE-2026-28324**, is rated **CVSS 3.1 9.8 Critical** (network, low complexity, no privileges, no user…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.029
+      },
+      "id": "2dad5c0076950f28",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "WARDOGS 0.1.2 Patch Notes - IGN",
+      "url": "https://www.ign.com/wikis/wardogs/WARDOGS_0.1.2_Patch_Notes",
+      "publishedAt": "2026-09-30T10:00:01Z",
+      "excerpt": "# WARDOGS 0.1.2 Patch Notes. The **0.1.2 Patch** for **WARDOGS** has arrived, bringing with it a number of key fixes and adjustments across the game to improve performance, balance and overall stability. This page acts as a comprehensive breakdown of the 0.1.2 Patch for WARDOGS, including a **link to the full Patch Notes.**. + Fixed the issue caused by the latest Windows 11 update, KB5124010, causing the recent WD-L020 crashes. + Revive action validity checks are now fully server…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.029
+      },
+      "id": "61b91a84ae968ec9",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Add one more AI worry to the nightmare scenario: self-replicating prompt injections - The Register",
+      "url": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
+      "publishedAt": "2026-09-29T21:34:39Z",
+      "excerpt": "# Add one more AI worry to the nightmare scenario: self-replicating prompt injections. It's a worm attack, AI-style. “We have found instances of our GPT models being susceptible to an AI-version of a worm attack that we call ‘self-replicating prompt injection,’” OpenAI said in a Friday alignment research blog. To address this threat before it turns into a security nightmare, OpenAI said that it's using its automated red-teaming agent, GPT-Red, to train future models on self-reproduction as an…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.081
+      },
+      "id": "45a9d13676d98b46",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents - TechCrunch",
+      "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+      "publishedAt": "2026-09-30T19:00:57Z",
+      "excerpt": "One of the more intriguing announcements at OpenAI’s Dev Day event on Tuesday came in an aside from CEO Sam Altman, who revealed the company’s new “Decisions API.”. A kind of super-powered classifier built on an LLM, developers can give Jev a set of choices that it outputs as probabilities cheaply and at high speeds. At the event, Altman described the API as a way to give the lab’s Luna model a predefined set of options to choose between, such as categories in which to classify an image or…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.062
+      },
+      "id": "d4c4ffc0ae75cd96",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Hilton Tech Exec Says AI Agents Put OTAs ‘Under Real Threat’ - Skift",
+      "url": "https://skift.com/2026/09/29/hilton-tech-exec-says-ai-agents-put-otas-under-real-threat/",
+      "publishedAt": "2026-09-29T20:57:21Z",
+      "excerpt": "The difference is that Hilton will get more bookings on its site and app. ChatGPT and other large language models have put the online travel agencies \"under real threat,\" said Hilton SVP and Chief Information Officer Michael Leidinger Tuesday at an industry event. \"It really, for the first time, puts the OTAs under real threat, because in many ways they were providing those aggregated views in this highly fragmented environment and now, the LLMs have kind of, they're providing that,\" Leidinger…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.042
+      },
+      "id": "5eeeb37e1ff56779",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Can we predict the jobs robots will do? - Anthropic",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "publishedAt": "2026-09-30T16:01:00Z",
+      "excerpt": "* We present a robot exposure index based on how well robots can perform job tasks today. * Robots, which we define as autonomous physical machines that sense and act, can perform three-quarters of physical tasks in the US, making up 34% of working hours, but mostly in limited settings. For example, driving and warehouse jobs are highly exposed to currently available robots; nursing and general repair jobs are not, since present-day robots can do little of their work even in highly controlled…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.041
+      },
+      "id": "f87e53ee5fc675c1",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Scientists Dated the Catastrophic Pompeii Eruption Using Only Rocks. Here's How Close They Got - Gizmodo",
+      "url": "https://gizmodo.com/scientists-dated-the-catastrophic-pompeii-eruption-using-only-rocks-heres-how-close-they-got-2000819011",
+      "publishedAt": "2026-09-29T20:50:48Z",
+      "excerpt": "“Argon-argon dating” is a common technique scientists use to reveal when a geological event, such as a volcanic eruption, took place. In a study published Friday in *Science Advances*, scientists used argon-argon dating to date pumice samples from Mount Vesuvius’ eruption. They compared this age with the historical date—August 24th, 79 CE, according to Pliny the Younger, who witnessed the tragedy from a distance—which enabled them to fine-tune the calibration of the argon-argon technique. “So…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.012
+      },
+      "id": "9abd16bb974d3ebe",
+      "collectedAt": "2026-10-01T01:22:49.464762+00:00"
     }
   ],
-  "updatedAt": "2026-09-30T20:54:03.584140+00:00"
+  "updatedAt": "2026-10-01T01:22:49.464762+00:00"
 }

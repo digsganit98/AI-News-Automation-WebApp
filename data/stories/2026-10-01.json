@@ -405,7 +405,254 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-cli-adds-bulk-update-commands-for-agent-tool-6d7b6d",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "AWS CLI adds bulk update commands for Agent Toolkit skills",
+      "summary": "AWS has expanded its Command Line Interface to let developers check for and update all installed Agent Toolkit skills in a single command. This change simplifies the process of keeping coding agents up to date across various AWS services.",
+      "whyItMatters": "Streamlining updates for coding agent tools reduces maintenance overhead for developers managing multi-service AI workflows.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-cli-agent-toolkit-update-skill/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-workflow-deploys-generative-recommender-m-961887",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "NVIDIA workflow deploys generative recommender models using Dynamo-Triton",
+      "summary": "NVIDIA has introduced a workflow using Dynamo-Triton to deploy Hierarchical Sequential Transduction Unit models for large-scale personalization. This approach allows for low-latency inference of complex recommendation systems by optimizing user behavior sequence processing on modern GPUs.",
+      "whyItMatters": "Optimized deployment workflows enable faster, more efficient personalization for large-scale production recommendation systems.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "frac-architecture-uses-fractional-dynamics-to-im-472235",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "FRAC architecture uses fractional dynamics to improve long-context state space models",
+      "summary": "Researchers have developed FRAC, a new architecture for State Space Models that uses fractional dynamics to replace standard exponential forgetting with power-law long memory. Experiments show this method improves performance on long-context tasks while remaining competitive on shorter sequences.",
+      "whyItMatters": "Improving long-context retention in state space models helps AI systems process extended documents and data histories more effectively.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36314"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36314",
+        "code": "https://github.com/anasiri/frac-ssm",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "saverouter-framework-reduces-costs-for-large-lan-45b9cc",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "SaveRouter framework reduces costs for large language model routing",
+      "summary": "A new framework called SaveRouter uses sparse supervision to train LLM routers more economically by selectively acquiring model feedback. This approach reduces the upfront cost of training the router, allowing savings from efficient model routing to cover deployment costs faster.",
+      "whyItMatters": "Lowering the barrier to training efficient request routers makes multi-model architectures more financially viable for developers.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.37402"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.37402",
+        "code": "https://github.com/LAMDA-Model-Reuse/SaveRouter",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "chinese-jev-model-adapts-efficient-architectures-bfd2a1",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "Chinese-Jev model adapts efficient architectures for Chinese-language tasks",
+      "summary": "The Chinese-Jev model adapts efficient System One architectures to improve decision accuracy for Chinese-language tasks. This work addresses the limited performance of existing models in handling Chinese, making them more useful for general and specialized applications.",
+      "whyItMatters": "Specialized architectural adjustments improve the performance and reliability of language models in non-English linguistic contexts.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36965"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36965",
+        "code": "https://github.com/gulucaptain/Chinese-Jev",
+        "model": null,
+        "demo": "https://gulucaptain.github.io/Chinese-Jev/"
+      }
+    },
+    {
+      "id": "openai-details-computer-use-progress-and-introdu-1a601b",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "OpenAI details Computer Use progress and introduces Decisions API",
+      "summary": "OpenAI leaders explained that their Computer Use agents have improved significantly by combining screenshots with accessibility data and code generation. The company also introduced a new Decisions API that allows developers to give models a predefined set of options to choose from for faster and cheaper responses.",
+      "whyItMatters": "Combining multimodal UI data with structured decision tools expands the practical capabilities of AI agents in workflow automation.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://www.latent.space/p/devday-2026"
+        },
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "doordash-enables-food-ordering-through-text-and-e84d91",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "DoorDash enables food ordering through text and Slack messages",
+      "summary": "DoorDash has launched new AI-powered features allowing users to place food delivery orders directly through text messages and Slack. The update is designed to make ordering meals more convenient for individuals and corporate teams.",
+      "whyItMatters": "Integrating commerce platforms into daily messaging applications showcases practical conversational workflows for consumer services.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.adweek.com/commerce/you-can-order-doordash-through-texts-and-slack-messages-now/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-identifies-self-replicating-prompt-inject-2e2143",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "OpenAI identifies self-replicating prompt injection vulnerability in GPT models",
+      "summary": "OpenAI reported that its GPT models are susceptible to an attack called self-replicating prompt injection, describing it as an AI version of a worm attack. The finding was shared as part of the company's recent alignment research update.",
+      "whyItMatters": "Identifying complex vulnerabilities like self-replicating prompt injections highlights ongoing security challenges in autonomous AI agent ecosystems.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hilton-executive-notes-ai-agents-threaten-online-177dd5",
+      "createdAt": "2026-10-01T01:30:11.036138+00:00",
+      "headline": "Hilton executive notes AI agents threaten online travel agencies",
+      "summary": "Michael Leidinger, Hilton's Chief Information Officer, stated that large language models and AI agents pose a significant threat to online travel agencies. He noted that these technologies could shift booking behavior directly to hotel websites and applications.",
+      "whyItMatters": "Agentic AI is driving shifts in digital distribution channels and changing how consumers interact with service providers.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://skift.com/2026/09/29/hilton-tech-exec-says-ai-agents-put-otas-under-real-threat/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-09-30T21:02:38.305982+00:00"
+  "updatedAt": "2026-10-01T01:30:16.663422+00:00"
 }
