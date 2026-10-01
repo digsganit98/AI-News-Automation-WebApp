@@ -295,13 +295,13 @@ export default function PaperTrail({ papers, icons, buildTime }: Props) {
                 <p class="eyebrow flex items-center gap-1.5 !text-[12px] !text-brand-600 dark:!text-brand-400"><SparkIcon /> Paper of the day</p>
                 <div class="flex items-center gap-2"><Upvotes n={spotlight.upvotes} /><Sightings p={spotlight} icons={icons} /></div>
               </div>
-              <h2 class="mt-4 text-2xl font-semibold leading-[1.15] tracking-[-0.03em] sm:text-[32px]">
-                <a href={spotlight.links.abs} target="_blank" rel="noopener" class="hover:text-brand-600 dark:hover:text-brand-400">{spotlight.title}</a>
+              <h2 class="mt-4 text-2xl font-bold leading-[1.15] tracking-tight text-slate-900 sm:text-[30px]">
+                <a href={spotlight.links.abs} target="_blank" rel="noopener" class="hover:text-[#1a00d9]">{spotlight.title}</a>
               </h2>
               {spotlight.authors.length > 0 && (
-                <p class="mt-2 text-sm text-ink-muted dark:text-[#a1a1a6]">{authorLine(spotlight.authors, 4)}</p>
+                <p class="mt-2 text-xs font-semibold text-slate-800">{authorLine(spotlight.authors, 4)}</p>
               )}
-              <p class="mt-4 line-clamp-4 text-[15px] lg:line-clamp-6 leading-relaxed text-slate-700 dark:text-slate-300">
+              <p class="mt-3.5 line-clamp-4 text-sm lg:line-clamp-6 leading-relaxed text-slate-900 font-normal">
                 {spotlight.agentNote?.whyItMatters || spotlight.abstract}
               </p>
               <div class="mt-4"><ThemeTags themes={spotlight.themes} onPick={setTheme} /></div>
@@ -410,15 +410,15 @@ export default function PaperTrail({ papers, icons, buildTime }: Props) {
                     </h4>
                     {p.authors.length > 0 && <p class="mt-1 truncate text-[13px] text-ink-muted dark:text-[#a1a1a6]">{authorLine(p.authors)}</p>}
                     {p.agentNote && (
-                      <p class="mt-3 flex gap-2 rounded-2xl bg-brand-500/[0.07] px-3 py-2 text-[13px] leading-snug text-slate-700 dark:bg-brand-400/10 dark:text-slate-200">
-                        <span class="mt-0.5 shrink-0 text-brand-600 dark:text-brand-400"><SparkIcon /></span>
-                        <span><b class="font-semibold">Why it matters:</b> {p.agentNote.whyItMatters}</span>
+                      <p class="mt-3 flex gap-2 rounded-xl border border-blue-200 bg-blue-50 px-3 py-2 text-xs leading-snug text-slate-900">
+                        <span class="mt-0.5 shrink-0 text-[#1a00d9] font-bold"><SparkIcon /></span>
+                        <span><b class="font-bold text-[#1a00d9]">Why it matters:</b> <span class="font-medium text-slate-900">{p.agentNote.whyItMatters}</span></span>
                       </p>
                     )}
                     {p.abstract && (
                       <div class="mt-3">
-                        <p id={`abs-${p.id}`} class={`text-sm leading-relaxed text-slate-600 dark:text-slate-400 ${expanded ? "" : "line-clamp-3"}`}>{p.abstract}</p>
-                        <button type="button" class="mt-1 text-[13px] font-medium text-brand-600 hover:underline dark:text-brand-400"
+                        <p id={`abs-${p.id}`} class={`text-xs sm:text-sm leading-relaxed text-slate-900 ${expanded ? "" : "line-clamp-3"}`}>{p.abstract}</p>
+                        <button type="button" class="mt-1 text-xs font-bold text-[#1a00d9] hover:underline"
                           aria-expanded={expanded} aria-controls={`abs-${p.id}`} onClick={() => toggleOpen(p.id)}>
                           {expanded ? "Less" : "More"}
                         </button>
