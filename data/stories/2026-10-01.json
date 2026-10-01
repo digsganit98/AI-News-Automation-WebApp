@@ -652,7 +652,466 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "amazon-bedrock-adds-in-region-support-for-claude-3b0bcd",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "Amazon Bedrock adds in-region support for Claude models in the UK",
+      "summary": "Amazon has announced that Anthropic's Claude Opus 5.5 and Claude Sonnet 5 models are now available in the UK London region on Amazon Bedrock. This update allows customers in regulated sectors to process data within the United Kingdom.",
+      "whyItMatters": "It enables regional compliance for enterprises using advanced Claude models on cloud infrastructure.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-details-method-to-fine-tune-nemotron-for-b2513d",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "NVIDIA details method to fine-tune Nemotron for Saudi Arabic dialects",
+      "summary": "NVIDIA has published a guide on using the NeMo framework to adapt its Nemotron 3.5 speech recognition model for specific Saudi Arabic dialects. The process involves curating local speech data and using replay mixing to maintain multi-language performance.",
+      "whyItMatters": "It provides a clear template for adapting large speech models to regional linguistic variations without performance degradation.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tomasullm-runtime-speeds-up-coding-agents-by-run-ddd0e4",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "TomasuLLM runtime speeds up coding agents by running tool calls out of order",
+      "summary": "Researchers introduced TomasuLLM, a runtime that allows AI coding agents to execute long-running tools like compilers in parallel rather than waiting sequentially. The system validates results in the correct order to ensure accuracy and speed up task completion.",
+      "whyItMatters": "It removes execution bottlenecks to make autonomous coding agents significantly faster.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.38201"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-explores-how-system-prompts-alter-internal-67f60d",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "Study explores how system prompts alter internal model computations",
+      "summary": "A new paper investigates the internal effects of system prompts on 17 different instruction-tuned language models. The research aims to clarify how these initial instructions modify transformer architecture computations to control behavior.",
+      "whyItMatters": "It deepens our mechanistic understanding of how system-level instructions alter model processing.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.38205"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-method-improves-factual-accuracy-in-multi-ho-c32add",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "New method improves factual accuracy in multi-hop retrieval-augmented generation",
+      "summary": "Researchers proposed a conformal factuality control method to address issues in multi-hop retrieval-augmented generation. The approach ensures generated claims are factually supported by retrieved external evidence across multiple steps.",
+      "whyItMatters": "It helps reduce hallucinations in complex information retrieval tasks.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2609.38222"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "paper-identifies-co-cheating-failure-mode-in-sel-455075",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "Paper identifies co-cheating failure mode in self-evolving search agents",
+      "summary": "Researchers identified a failure mode called co-cheating in self-evolving search agents, where the question proposer and answer solver begin to agree on shared errors. The paper proposes methods to diagnose and mitigate this closed-loop performance inflation.",
+      "whyItMatters": "It highlights critical reliability risks in fully automated agent training loops.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39102"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39102",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "evoke-framework-helps-ai-agents-transfer-decisio-f33304",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "EVOKE framework helps AI agents transfer decision-making skills to new environments",
+      "summary": "The EVOKE framework enables large language model agents to better transfer decision-making skills to unseen environments by eliciting world knowledge. This approach avoids the high costs and compounding errors associated with traditional world-model training.",
+      "whyItMatters": "It improves the generalizability of AI agents without requiring complex environment-specific training.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38334"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38334",
+        "code": "https://github.com/Gnonymous/EVOKE",
+        "model": null,
+        "demo": "https://gnonymous.github.io/EVOKE"
+      }
+    },
+    {
+      "id": "mid-harness-improves-reliability-of-terminal-age-81bad2",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "Mid-Harness improves reliability of terminal agent actions",
+      "summary": "Mid-Harness is a new approach for terminal agents that scales actions between the model and the execution framework. It prevents poor commands from negatively altering the environment to ensure steady progress.",
+      "whyItMatters": "It protects execution environments from destructive actions taken by autonomous terminal agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39982"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39982",
+        "code": null,
+        "model": null,
+        "demo": "https://byungkwanlee.github.io/MidHarness-page/"
+      }
+    },
+    {
+      "id": "unievo-vl-allows-multimodal-models-to-self-impro-b55cb5",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "UniEvo-VL allows multimodal models to self-improve using their own feedback",
+      "summary": "UniEvo-VL is a self-evolving framework that allows multimodal models to improve their image generation capabilities by learning from their own critiques. The method uses a single model to act as both teacher and student to boost benchmark scores.",
+      "whyItMatters": "It demonstrates an efficient way for multimodal systems to autonomously refine their output quality.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38721"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38721",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "arex-2-framework-advances-test-time-self-improve-640d80",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "AREX-2 framework advances test-time self-improvement for language model agents",
+      "summary": "Researchers present AREX-2 to improve the self-improving capabilities of language model agents during test time. The system relies on structured reflection and long-horizon planning to iteratively refine solutions.",
+      "whyItMatters": "It provides a mechanism for agents to correct course and solve complex tasks dynamically.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38288"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38288",
+        "code": "https://github.com/VectorSpaceLab/AREX-2",
+        "model": null,
+        "demo": "https://github.com/VectorSpaceLab/AREX-2"
+      }
+    },
+    {
+      "id": "new-dataset-scales-50-000-error-diagnosis-pairs-bab64e",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "New dataset scales 50,000 error-diagnosis pairs for agent failure analysis",
+      "summary": "This work introduces a dataset containing 50,000 error-diagnosis pairs derived from unsuccessful agent rollouts. The data helps analyze failures and supports error-aware post-training by identifying decisions to revise.",
+      "whyItMatters": "It supplies large-scale failure data needed to make agent post-training more robust.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.40111"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.40111",
+        "code": null,
+        "model": null,
+        "demo": "https://agenterrordata.apodex.com"
+      }
+    },
+    {
+      "id": "study-examines-learning-meta-skills-for-agent-ha-8c5d63",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "Study examines learning meta-skills for agent harness design",
+      "summary": "This study examines how a builder model can learn to construct better execution environments for a target model while both model weights remain fixed. The approach introduces reusable meta-skills for test-time optimization.",
+      "whyItMatters": "It automates the optimization of execution harnesses to better support downstream AI agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38143"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38143",
+        "code": "https://github.com/qiancheng-apodex/MetaSkill-AI4AI",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "evoduet-coordinates-web-searching-and-task-solvi-80f7a6",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "EvoDuet coordinates web searching and task solving for scientific discovery",
+      "summary": "Researchers introduce EvoDuet, a bi-level optimization method that coordinates web searching and task solving. The approach helps language model evolutionary search succeed in scientific discovery tasks.",
+      "whyItMatters": "It improves the ability of language models to autonomously conduct effective scientific research.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.40340"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.40340",
+        "code": "https://github.com/Open-Galapagos/EvoDuet",
+        "model": null,
+        "demo": "https://open-galapagos.github.io/evoduet_project_page/"
+      }
+    },
+    {
+      "id": "on-policy-distillation-study-explores-extrapolat-49f1e6",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "On-policy distillation study explores extrapolating representation residuals",
+      "summary": "A new research paper explores on-policy distillation where student models match teacher distributions on their own trajectories. Generalized variants allow students to surpass teachers by extrapolating implicit rewards.",
+      "whyItMatters": "This technique helps smaller models exceed the performance of their teachers through effective distillation.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36484"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36484",
+        "code": "https://github.com/xixixixixxxx/RIDE",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "wush-kv-provides-low-bit-kv-cache-quantization-u-971830",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "WUSH-KV provides low-bit KV cache quantization using data-adaptive transforms",
+      "summary": "To address memory and bandwidth bottlenecks in long-context language model inference, researchers introduce WUSH-KV. The technique performs low-bit key-value cache quantization using data-aware transforms.",
+      "whyItMatters": "It reduces memory and bandwidth overhead during long-context language model inference.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38121"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38121",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "runway-launches-ai-agent-for-creating-and-measur-a06392",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "Runway launches AI agent for creating and measuring ads",
+      "summary": "Runway has introduced an AI agent within its web app that creates ad variations and analyzes performance across multiple platforms. The tool allows brands to localize ads and uses performance data to inform future creative work.",
+      "whyItMatters": "It automates ad creation and cross-platform performance measurement for enterprise brands.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.adweek.com/programmatic/runways-ai-video-agent-creates-and-measures-ads-across-platforms/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-ai-develops-optimization-method-to-reduce-b-479edb",
+      "createdAt": "2026-10-01T07:31:48.909404+00:00",
+      "headline": "Meta AI develops optimization method to reduce bias without retraining",
+      "summary": "Meta AI researchers have developed a method to reduce bias in AI models without requiring full retraining. The approach uses an optimization procedure that iteratively refines prompts to align model output.",
+      "whyItMatters": "It offers an efficient way to mitigate model bias without the high computational cost of retraining.",
+      "category": "Methodology",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://facebookresearch.github.io/RAM/blogs/unslop"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-01T01:30:16.663422+00:00"
+  "updatedAt": "2026-10-01T07:31:58.835502+00:00"
 }

@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-01T02:16:32.443852Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-01T07:21:23.574516+00:00",
+      "newItems": 39,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1240,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.591795Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.632158Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 870,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.632520Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.632869Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.633052Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.633223Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.633393Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.633552Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.633733Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.633900Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.634057Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.634119Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.634165Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.634403Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.634451Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.634610Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.634796Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.635082Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-01T07:21:23.635245Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.635405Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.635564Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.635817Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.635986Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.636150Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.636820Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.637013Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.637195Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-01T07:21:23.637251Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1637,7 +1867,591 @@
       },
       "id": "0e4270483f88a9c0",
       "collectedAt": "2026-10-01T02:16:32.370306+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages/",
+      "publishedAt": "2026-10-01T05:00:00Z",
+      "excerpt": "Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Regional dialects and...",
+      "author": "Elizabeth Goodman",
+      "extra": {},
+      "id": "cb2fa7d7f035b988",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+      "url": "https://huggingface.co/papers/2609.39102",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence shows co-cheating growing more severe over successive rounds of self-evolution, with pseudo-label…",
+      "author": "Meijia Chen, Hao Li, Zheng Lu, Hongshan Lin, Junbai Tian, Yichen Liu, Zijun Tian, Yufan Zou, Shuhan Sun, Hanxin Chen, Zeyu Zhang, Weizhi Du, Yueting Li, Tianyu Shi, Alaa Khamis",
+      "extra": {
+        "upvotes": 28,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.39102"
+      },
+      "id": "45507557a3ac931e",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+      "url": "https://huggingface.co/papers/2609.38334",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this world knowledge is already internalized during pretraining, which shifts the problem from acquiring…",
+      "author": "Yuhan Guo, Jinming Liu, Liang Xu, Ziqiang Li, Jianguo Huang, Zhicheng Wang, Hu Zhu, Qiuyu Chen, Yuntao Wei, Xin Jin, Wenjun Zeng",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": "https://github.com/Gnonymous/EVOKE",
+        "projectPage": "https://gnonymous.github.io/EVOKE",
+        "arxivUrl": "https://arxiv.org/abs/2609.38334"
+      },
+      "id": "f33304f4b136d871",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Unmask the State: When Does State Adaptation Matter for Masked Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.33355",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Masked diffusion language models (MDMs) admit flexible generation orders, making the unmasking strategy an inference decision. Existing methods vary in how they prioritize positions, control parallelism, restrict selection regions, revise predictions, or plan future denoising, yet it remains unclear when these choices should change during generation. We study this question through strategy reversals, where an alternative action becomes preferable to a fixed choice. We organize MDM inference…",
+      "author": "Injin Kong, Sunghwan Choi, Yohan Jo",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33355"
+      },
+      "id": "384248cdcb8e4e97",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+      "url": "https://huggingface.co/papers/2609.39982",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can improve action reliability and trajectory success, and what makes this allocation effective. To…",
+      "author": "Minki Kang, Ryo Hachiuma, Shaokun Zhang, Subhashree Radhakrishnan, Yonggan Fu, Jindong Jiang, Mingjie Liu, Ehsan Hosseini-Asl, Yi Dong, Yu-Chiang Frank Wang, Byung-Kwan Lee",
+      "extra": {
+        "upvotes": 31,
+        "githubRepo": null,
+        "projectPage": "https://byungkwanlee.github.io/MidHarness-page/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39982"
+      },
+      "id": "81bad2502e12a2b0",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation",
+      "url": "https://huggingface.co/papers/2609.38660",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Long-form subtitle translation requires reasoning over discourse and cultural context spanning episodes or entire series, while maintaining consistent terminology and style. Existing single-LLM methods are largely sentence-level, and multi-agent systems often use static workflows that do not adapt to scene complexity or production context. We propose SMART, a Self-evolving Multi-Agent system for long-foRm subtitle Translation. During test-time training, SMART builds persistent series-level…",
+      "author": "Haibo Jin, Xinjie Li, Najmeh Sadoughi, Yang Liu, Yibo Wang, Zhu Liu, Yuzong Liu",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38660"
+      },
+      "id": "88d750072f55fa4e",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
+      "url": "https://huggingface.co/papers/2609.38721",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teacher, we leverage their self-critiques as privileged information and ask a single multimodal model to…",
+      "author": "Fang Wu, Da Xing, Yanjie Huang, Junxi Wang, Ji Wang, Hejia Geng, Guancheng Wan, Bowen Zuo, Xiaomin Li, Shixiang Tang, Xinyu Xiang, Zehong Wang, Shiyi Du, Peng Xia, Shuangjia Zheng, Yining Hong, Li Erran Li, Jure Leskovec, Yejin Choi",
+      "extra": {
+        "upvotes": 74,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38721"
+      },
+      "id": "b55cb54dccb3ec7c",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "url": "https://huggingface.co/papers/2609.38288",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for…",
+      "author": "Hongjin Qian, Chaofan Li, Kun Luo, Wenqing Wei, Jianlyu Chen, Shuqi Lu, Yuyang Hu, Hongwang Xiao, Hui Wang, Chaozhuo Li, Qiwei Ye, Zhicheng Dou, Defu Lian, Zheng Liu",
+      "extra": {
+        "upvotes": 53,
+        "githubRepo": "https://github.com/VectorSpaceLab/AREX-2",
+        "projectPage": "https://github.com/VectorSpaceLab/AREX-2",
+        "arxivUrl": "https://arxiv.org/abs/2609.38288"
+      },
+      "id": "640d806c349b6752",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+      "url": "https://huggingface.co/papers/2609.40111",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment's responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We introduce the Agent Error Dataset (AED), comprising 50,228 error-diagnosis pairs from 9,961 source tasks across 33 environments, 19 harness families, and 23 policy models in text-based agent systems.…",
+      "author": "Kunlun Zhu, Xuyan Ye, Yibo Li, Cheng Qian, Beibin Li, Heng Ji",
+      "extra": {
+        "upvotes": 17,
+        "githubRepo": null,
+        "projectPage": "https://agenterrordata.apodex.com",
+        "arxivUrl": "https://arxiv.org/abs/2609.40111"
+      },
+      "id": "bab64e24f68b4032",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+      "url": "https://huggingface.co/papers/2609.38143",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Builder learns these principles from Target's execution feedback on the development set, then uses the…",
+      "author": "Cheng Qian, Kunlun Zhu, Beibin Li, Zhenhailong Wang, Heng Ji",
+      "extra": {
+        "upvotes": 39,
+        "githubRepo": "https://github.com/qiancheng-apodex/MetaSkill-AI4AI",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38143"
+      },
+      "id": "8c5d63e9d8e83811",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+      "url": "https://huggingface.co/papers/2609.39045",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. Naive iterative refinement can easily overfit a small set of test cases, producing fragile games with unresolved bugs, missing behaviors, and poor generalization to broader player interactions. We introduce RSIGame, an autonomous agentic game development framework with recursive self-improvement. RSIGame…",
+      "author": "Wenyi Wu, Minghao Fu, Jieyu You, Kun Zhou, Siqi Liu, Aayush Salvi, Yiheng Lin, Ce Zhang, Xiaohan Lan, Jiahui Zhu, Yujie Zhong, Qi She, Biwei Huang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/WenyiWU0111/RSIGame",
+        "projectPage": "https://huggingface.co/spaces/RSIGame/rsigame-page",
+        "arxivUrl": "https://arxiv.org/abs/2609.39045"
+      },
+      "id": "cc071d1dcdd1af95",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
+      "url": "https://huggingface.co/papers/2609.38827",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8\\% of all predictions and 51.3\\% of errors to Neutral despite 74.95\\% accuracy, nearly balanced gold labels, and…",
+      "author": "Tianxiang Gao, Jinzhe Li, Zhiyuan Li, Yi Chang, Yuan Wu",
+      "extra": {
+        "upvotes": 27,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38827"
+      },
+      "id": "ef14ecc53dd8e9b1",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+      "url": "https://huggingface.co/papers/2609.40340",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retrieval gate lets the LLM assess its knowledge gap and choose to retrieve new documents, reuse…",
+      "author": "Young-Jun Lee, Jinheon Baek, Soyeong Jeong, Minki Kang, Seungyeon Jwa, Jonghyun Choi, Seungho Han, Dongyeop Kang",
+      "extra": {
+        "upvotes": 55,
+        "githubRepo": "https://github.com/Open-Galapagos/EvoDuet",
+        "projectPage": "https://open-galapagos.github.io/evoduet_project_page/",
+        "arxivUrl": "https://arxiv.org/abs/2609.40340"
+      },
+      "id": "80f7a6d1e1a71b9b",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Systematically Exploring the Capabilities of GPT-6 Astra as Embodied Policies",
+      "url": "https://huggingface.co/papers/2609.38537",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "GPT-6 Astra exhibits a remarkable ability to generate numerical robot actions, extending its role beyond high-level planning. To assess Astra's capabilities as general-purpose embodied policies, we conduct comprehensive evaluations across six domains, examining direct control, cooperation with learned policies, and feedback-driven adaptation. In gripper manipulation, Astra can correct task targets and prepare contact conditions for subsequent policy execution; hybrid control with π0.5 achieves…",
+      "author": "Galbot Team, Xuchuan Chen, Xiaoqian Cheng, Yu Deng, Lihe Ding, Shaocong Dong, Xiangjun Gao, Haozhe Jia, Zekai Li, Zhoujian Li, Yunrui Lian, Sikai Liang, Chenghuai Lin, Dairu Liu, Jiahang Liu, Qingtao Liu, Yuxuan Ma, Zekun Qi, Jiayi Su, He Wang, Ruochen Xu, Tianyu Xu, Xudong Xu, Zhe Xu, Mi Yan, Siming Yan, Li Yi, Ruixi Yu, Jinlu Zhang, Yintianrun Zhang, Zhikai Zhang, Zhizheng Zhang, Yixin Zheng, Weiyi Zhu",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/anonymous-report-421/GPT-as-Policy",
+        "projectPage": "https://galaxygeneralrobotics.github.io/astra-policy/",
+        "arxivUrl": "https://arxiv.org/abs/2609.38537"
+      },
+      "id": "47401276ef15698b",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "DC-SAE: Deep Compression Semantic Autoencoder for Faster Diffusion Convergence",
+      "url": "https://huggingface.co/papers/2609.39222",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "High-compression tokenizers are essential for scaling latent image generative models. However, aggressive compression creates a fundamental tradeoff between reconstruction fidelity and generation efficiency: high compression image encoder always increases the learning difficulty of diffusion training, resulting in slow model convergence. Recent representation autoencoders speed up the diffusion training by improving the latent feature's expressive capability by replacing VAE encoders with…",
+      "author": "Xu Huang, Ye Huang, Zijun Liao, Yuwei Niu, Xiaojie Li, Menghan Zhou, De Wen Soh, Xiaotong Li, Daquan Zhou",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/DAGroup-PKU/DCSAE",
+        "projectPage": "https://dagroup-pku.github.io/DCSAE/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39222"
+      },
+      "id": "3bff3e7a71627c3b",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.36484",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "On-policy distillation (OPD) trains a student to match the teacher's next-token distributions on the student's own trajectories and has yielded substantial empirical gains. Generalized variants allow the student to surpass the teacher by extrapolating an implicit reward in output space. The language-model head, however, attenuates this change anisotropically: much of the change encoded in the teacher's hidden states reaches the logits at a small fraction of its weight, and the sampled-token…",
+      "author": "Hao Li, MeiJia Chen, Weijie Ren, Donghan Li, Zijun Tian, Jingchun Huang, Naibo Wang",
+      "extra": {
+        "upvotes": 140,
+        "githubRepo": "https://github.com/xixixixixxxx/RIDE",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.36484"
+      },
+      "id": "49f1e639a923239a",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
+      "url": "https://huggingface.co/papers/2609.38121",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "KV cache memory and bandwidth costs grow with context length and batch size, which limits efficient long-context inference. To address this bottleneck, we introduce WUSH-KV for low-bit KV-cache quantization. It adapts WUSH, which constructs a data-aware transform from the second-order statistics of both factors in a matrix product to reduce quantization error. WUSH-KV uses calibration data to construct separate key and value transforms, with the value transform folded into the model weights…",
+      "author": "Jiale Chen, Vage Egiazarian, Eldar Kurtić, Torsten Hoefler, Dan Alistarh",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38121"
+      },
+      "id": "971830b98f295d95",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+      "url": "https://huggingface.co/papers/2609.40325",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have shown potential for automating this task. However, 3D world auditing is complex, requiring the close…",
+      "author": "Ziyan Jiang, Jingbo Yang, Jiabao Ji, Yujian Liu, Qiucheng Wu, Tommi Jaakkola, Yang Zhang, Shiyu Chang",
+      "extra": {
+        "upvotes": 39,
+        "githubRepo": "https://github.com/UCSB-NLP-Chang/WorldAuditBench",
+        "projectPage": "https://ucsb-nlp-chang.github.io/WorldAuditBench/",
+        "arxivUrl": "https://arxiv.org/abs/2609.40325"
+      },
+      "id": "85a99ba414894272",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "url": "https://huggingface.co/papers/2609.38177",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work attempts to close this gap by injecting 3D awareness into MLLMs, either by boosting fine-grained pixel-level cross-view correspondence or by fusing features from 3D geometry foundation models, yet a…",
+      "author": "Jaewoo Jung, Hyeonseo Yu, Honggyu An, Jisang Han, Mungyeom Kim, Minkyeong Jeon, Heeseong Shin, Wonjun Moon, Federico Tombari, Daniel Barath, Marc Pollefeys, Seungryong Kim, Sunghwan Hong",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/cvlab-kaist/Imagine3D-LLM",
+        "projectPage": "https://cvlab-kaist.github.io/Imagine3D-LLM/",
+        "arxivUrl": "https://arxiv.org/abs/2609.38177"
+      },
+      "id": "12efa20786472bde",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "On the Off-Policy Teacher in On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.38360",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "excerpt": "On-policy distillation (OPD) has recently emerged as a promising post-training paradigm in which the student learns from trajectories generated by its own policy under dense teacher supervision. However, OPD introduces a fundamental asymmetry: although the sampled trajectories are on-policy for the student, they are off-policy for the teacher. The teacher is typically optimized to continue from prefixes generated by its own policy, but during OPD it must instead supervise prefixes generated by…",
+      "author": "Langlin Huang, Hao Liu, Mononito Goswami, Xinyu Li, Prithwith Jana, Nikos Kanakaris, Patrick Blöbaum, Purak Jain",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": "https://shrango.github.io/scout/",
+        "arxivUrl": "https://arxiv.org/abs/2609.38360"
+      },
+      "id": "c3ef1ad2c89b46a7",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock expands Claude models in-region support in the UK (London)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/claude-region-expansion-lhr/",
+      "publishedAt": "2026-09-30T17:00:00Z",
+      "excerpt": "We're excited to announce in-region support for Anthropic's Claude Opus 5.5 and Claude Sonnet 5 on Amazon Bedrock in the UK (London) Region. Customers who need to process data within the United Kingdom, including those in financial services, healthcare, and the public sector, can now use these models at scale while keeping inference in-country. In the UK, Amazon Bedrock supports Claude Opus 5.5 and Claude Sonnet 5 with in-region inference on the bedrock-runtime endpoint in the London…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "a9584bf451e12c29",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Large Language Models are Approximate Survival Estimators",
+      "url": "https://arxiv.org/abs/2609.38181",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38181v1 Announce Type: new \nAbstract: Survival analysis estimates time-to-event outcomes from patient covariates and is widely used for medical risk assessment. Patients seeking prognostic information after a diagnosis may turn to large language models (LLMs), now readily accessible through consumer applications. However, whether LLMs can provide accurate survival predictions has not been rigorously evaluated. We introduce Survprompt, a framework that converts structured patient…",
+      "author": "Juan M Zambrano Chaves, Peniel Argaw, Risa Ueno, Carlo Bifulco, Kristina Young, Rom Leidner, Tristan Naumann, Hoifung Poon",
+      "extra": {},
+      "id": "336c1aaf4972a5a5",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "TomasuLLM: Out-of-Order Speculative Execution for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.38201",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38201v1 Announce Type: new \nAbstract: Long-running tools can dominate coding-agent latency: compilers, test suites, and repository commands take seconds to minutes while the agent idles. This observation stall presents the same tension that drove out-of-order processors -- asequential interface hides work that can be predicted and started early, but a speculative result may become visible only after it and every earlier step have been validated.\n  We present TomasuLLM, a runtime…",
+      "author": "Jiangnan Yu, Ceyu Xu, Mengming Li, Shiyu Huang, Yiran Xia, Jian Weng, Hui Xue, Haohui Mai, Yuan Xie",
+      "extra": {},
+      "id": "ddd0e48e97bdf136",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Automatic estimation of verbal fluency index in people with Motor Neuron Disease using ASR alignment and pause modelling",
+      "url": "https://arxiv.org/abs/2609.38203",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38203v1 Announce Type: new \nAbstract: Monitoring cognitive impairment (CI) in motor neuron disease (MND) is essential for timely treatment and care, yet challenging due to co-occurring speech difficulties. The Edinburgh Cognitive and Behavioural ALS Screen (ECAS) provides a robust metric for CI assessment, with the Verbal Fluency Index (VFI) a central element. Building on recent advances in automated speech analysis, this study proposes a system for estimating VFI. It leverages a…",
+      "author": "Bahman Mirheidari, Leslie Ing, Daniel Blackburn, Sharon Abrahams, Christopher McDermott, Heidi Christensen",
+      "extra": {},
+      "id": "834bef3e56ebda7e",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "The System Prompt Illusion: How Instruction Preambles Modify Computation in Language Models",
+      "url": "https://arxiv.org/abs/2609.38205",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38205v1 Announce Type: new Abstract: System prompts are the primary lever practitioners use to control language model behavior, yet what they actually do to the computation inside the transformer remains poorly understood. Across 17 instruction-tuned models spanning 8 architecture families and 1.5B to 72B parameters, we use Centered Kernel Alignment (CKA) to compare layer-wise representations under 20 system prompts in five functional categories. Effects are layer-selective and…",
+      "author": "Muhammad Usama, Dong Eui Chang",
+      "extra": {},
+      "id": "67f60d58776901d8",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Conformal Factuality Control for Multi-Hop Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2609.38222",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38222v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) can ground large language models in external evidence, but retrieved context does not guarantee that generated claims are factually supported. This problem is especially relevant in multi-hop RAG, where retrieval and reasoning proceed through multiple dependent stages. We study whether claim-level conformal factuality control, previously developed for RAG, remains effective in this setting. We apply…",
+      "author": "Muhammad Aimal Rehman, Chi-Kuang Yeh",
+      "extra": {},
+      "id": "c32adde9a80bca93",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Framing the Narrative: Ideological Mimicry in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.38256",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38256v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used to answer questions about politically contentious issues, yet evaluations typically treat a model's stance as a relatively stable property. Real users, however, communicate political signals through their terminology, assumptions, and personal context. We investigate whether such signals produce ideological mimicry: systematic shifts in the political stance expressed by an LLM toward the…",
+      "author": "Olivia Macmillan-Scott, Michael Jacobs, Nils Metternich, Mirco Musolesi",
+      "extra": {},
+      "id": "2b1259c847a06168",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs",
+      "url": "https://arxiv.org/abs/2609.38260",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38260v1 Announce Type: new \nAbstract: Values such as honesty, autonomy, and confidentiality are often regarded as general principles underpinning AI alignment. However, what it means to act in accordance with these values can depend on the context in which a decision is made. In this paper, we ask whether large language models (LLMs) appropriately adapt the application of a value across professional settings, while remaining consistent when contextual changes do not alter the…",
+      "author": "Olivia Macmillan-Scott, Mirco Musolesi",
+      "extra": {},
+      "id": "e9774312644d3460",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "NinaXander: Feasibility and Limits of Composing Frozen Language Models Across Architecture Families via a Shared Latent Space",
+      "url": "https://arxiv.org/abs/2609.38261",
+      "publishedAt": "2026-10-01T04:00:00Z",
+      "excerpt": "arXiv:2609.38261v1 Announce Type: new \nAbstract: In this paper we propose NinaXander, a series of composed language models obtained by connecting layers of frozen language models from different architecture families with a single trained shared-latent adapter. A composed model runs the first layers of one model, converts the resulting intermediate representation once with the adapter, and then runs the remaining layers of the other model. Once the adapter is trained, several composed models…",
+      "author": "Takanori Kotama, Shun-ichiro Hayashi, Daichi Mukunoki, Tetsuya Hoshino, Takahiro Katagiri",
+      "extra": {},
+      "id": "b9eefa8051340bd8",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "publishedAt": "2026-10-01T06:45:05Z",
+      "excerpt": "... but you can&#8217;t try it yet unless you are &#8220;government users and trusted cyber defenders in the Fairwind Program&#8221;",
+      "author": null,
+      "extra": {},
+      "id": "d843c4e067908c96",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Told Google’s AI I’d Heard Mixed Reviews About Its Favorite.",
+      "url": "https://medium.com/@growgence/i-told-googles-ai-i-d-heard-mixed-reviews-about-its-favorite-141042fe45ac?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T05:42:25Z",
+      "excerpt": "I did not tell Google’s AI that anything was wrong with Tidio. I told it I had heard that something might be. The sentence was engineered… Continue reading on Medium »",
+      "author": "Growgence",
+      "extra": {},
+      "id": "3ece9ccf37862ce2",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Simplest AI Learning Roadmap for 2026: Learn AI Step by Step",
+      "url": "https://medium.com/@gawaisgtasleem/the-simplest-ai-learning-roadmap-for-2026-learn-ai-step-by-step-bcaeec7d6578?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T04:21:14Z",
+      "excerpt": "Artificial intelligence is moving fast. Continue reading on Medium »",
+      "author": "perfcalcpro",
+      "extra": {},
+      "id": "4d344c5363f567ac",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google announces Gemini 4 flagship AI model after months of delays - Reuters",
+      "url": "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30/",
+      "publishedAt": "2026-09-30T22:16:26Z",
+      "excerpt": "SAN FRANCISCO, Sept 30 (Reuters) - Alphabet's Google (GOOGL.O) on Wednesday announced a new top-tier artificial intelligence model to ​anchor its Gemini 4 generation of models in a fresh bid ‌to catch up to rivals Anthropic and OpenAI in the AI race. The new model, \"Argon\", is larger in size than Google's previous line of advanced \"Pro\" models, a company spokesperson ​said. \"It's our most performant model yet built for complex workloads, ​and we see it comparable to frontier models like…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.303
+      },
+      "id": "74226b039e86438f",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google Launches Gemini 4 AI Model to Compete with OpenAI Astra - Global Banking & Finance Review",
+      "url": "https://www.globalbankingandfinance.com/google-announces-gemini-4-flagship-ai-model-months-delays/",
+      "publishedAt": "2026-09-30T22:14:50Z",
+      "excerpt": "# Google announces Gemini 4 flagship AI model after months of delays. ## Google Unveils Gemini 4 AI Model, Argon, to Compete with Industry Leaders. ### Introduction of Argon: Gemini 4's Flagship Model. SAN FRANCISCO, Sept 30 (Reuters) - Alphabet's Google on Wednesday announced a new top-tier artificial intelligence model to anchor its Gemini 4 generation of models in a fresh bid to catch up to rivals Anthropic and OpenAI in the AI race. The new model, \"Argon\", is larger in size than Google's…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.26
+      },
+      "id": "ea314368f2766e7e",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet - TechCrunch",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "publishedAt": "2026-09-30T23:43:07Z",
+      "excerpt": "Google parent company Alphabet has launched Gemini 4 Argon, a new AI model built to handle a variety of tasks such as coding, research, and writing. But it’s cybersecurity that Gemini 4 Argon is supposed to have a particular knack for, according to Google. Argon is only being rolled out to a select group of the company’s cyber partners through its Fairwind Program, Google’s security initiative. Argon is also said to be good at coding and engineering, with the company noting that its own staff…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.254
+      },
+      "id": "5c1f615d64d23b47",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Runway’s AI Video Agent Creates and Measures Ads Across Platforms - ADWEEK",
+      "url": "https://www.adweek.com/programmatic/runways-ai-video-agent-creates-and-measures-ads-across-platforms/",
+      "publishedAt": "2026-09-30T17:30:00Z",
+      "excerpt": "# Runway’s AI Video Agent Creates and Measures Ads Across Platforms. ## Runway has used the agent internally for campaigns that have helped drive $100 million in annual recurring revenue. AI video-generation startup Runway is moving deeper into advertising with a new AI agent that can create ad variations and analyze performance across platforms. The agent connects to a brand’s accounts on Meta, Google, and TikTok. AI development platform Lovable is the launch partner. “The number of surfaces…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.456
+      },
+      "id": "12af997135550f60",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Unslopping AI | RAM @ Meta AI",
+      "url": "https://facebookresearch.github.io/RAM/blogs/unslop",
+      "publishedAt": "2026-09-30T16:00:00Z",
+      "excerpt": "model without the bias of retraining. [...] scoring highly across the other two sets of rubrics. [...] Our optimization procedure then iterates a simple refinement loop over a fixed number of iterations. At each iteration we show an optimizer LLM the current meta-prompt, the human-model gap it achieves on the training set, and the specific examples where it fails, and ask it to propose a revision that would widen the gap “for genuine-quality reasons, not superficial tells”. The meta-prompt is…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.265
+      },
+      "id": "479edb16af2d5cc3",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes - The New York Times",
+      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+      "publishedAt": "2026-09-30T09:00:48Z",
+      "excerpt": "Supported by\n\nMark Zuckerberg says Meta’s A.I. push is a tremendous success. “Our investments in A.I. are accelerating every major part of our core business,” he has told investors. “Every sign that we’re seeing in our own work and across the industry gives us confidence in this investment.” [...] Here’s what Meta is doing: For tax purposes, the company classifies its enormous, multibillion-dollar data centers as “pilot models.” Under a tax credit created in the 1980s to spur innovation,…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.193
+      },
+      "id": "db1f5c46bcb5eca0",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Agentic AI Use Cases That Drive Business Outcomes",
+      "url": "https://www.domo.com/learn/article/agentic-ai-use-cases",
+      "publishedAt": "2026-09-30T04:00:00Z",
+      "excerpt": "Agentic AI refers to autonomous AI agents that perceive context, reason through multi-step goals, take actions across systems, and learn from outcomes. These agents operate with bounded autonomy: humans define the objectives and constraints while machines execute and coordinate the work. [...] Most enterprise AI projects stall at the advisory stage. They never reach the automation levels that actually change workflows. This guide covers the perception-reasoning-action-learning loop that…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.76
+      },
+      "id": "c700f94a4298765e",
+      "collectedAt": "2026-10-01T07:21:23.574516+00:00"
     }
   ],
-  "updatedAt": "2026-10-01T02:16:32.370306+00:00"
+  "updatedAt": "2026-10-01T07:21:23.574516+00:00"
 }
