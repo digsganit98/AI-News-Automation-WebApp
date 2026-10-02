@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-01T21:08:59.562461Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-02T01:44:20.290285+00:00",
+      "newItems": 18,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1243,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.307675Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.348353Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 871,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.348688Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.349015Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.349189Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.349358Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.349522Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.349685Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.349871Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350036Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350193Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350254Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350302Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350536Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350583Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350739Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.350924Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.351298Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-02T01:44:20.351547Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.351773Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.351990Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.352217Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.352377Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.352538Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.353196Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.353382Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.353565Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-02T01:44:20.353618Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -788,7 +1018,249 @@
       },
       "id": "2afbee02d51fa9d3",
       "collectedAt": "2026-10-01T21:08:59.521335+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "author": null,
+      "extra": {},
+      "id": "3bba527585738108",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA (generative AI)",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "publishedAt": "2026-10-01T23:44:13Z",
+      "excerpt": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users.  Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
+      "author": "Dion Harris",
+      "extra": {},
+      "id": "9128069ece23e43b",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Synthetic Pre-pretraining Survives Scale, but Not as a Grammatical Prior",
+      "url": "https://huggingface.co/papers/2609.39827",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Pre-pretraining (PPT) on synthetic non-natural language data improves token efficiency during language model pre-training (PT). Prior work attributes this gain to a grammatical prior, i.e., a structural inductive bias learned during PPT that transfers to natural language grammar. However, PPT has only been tested on models of at most 1B parameters and PT budgets below 2B tokens on predominantly web text. It is unknown whether PPT is effective at larger scales and under more realistic PT data…",
+      "author": "Atsuki Yamaguchi, Tatsuro Inaba, Joel Niklaus, Michal Štefánik, Aline Villavicencio, Nikolaos Aletras",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/gucci-j/verify-ppt-at-scale",
+        "projectPage": "https://huggingface.co/verify-ppt",
+        "arxivUrl": "https://arxiv.org/abs/2609.39827"
+      },
+      "id": "f5433e32d04c0742",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-01T22:06:14Z",
+      "excerpt": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minutes.",
+      "author": "Nikhil Jha",
+      "extra": {},
+      "id": "0be132c0ceb10031",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Academia is for Ambition — Alex Zhang, MIT",
+      "url": "https://www.latent.space/p/rlm",
+      "publishedAt": "2026-10-02T00:28:04Z",
+      "excerpt": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
+      "author": null,
+      "extra": {},
+      "id": "627faaa1300a48d2",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Happens When “Keep Everything Else the Same” Stops Working?",
+      "url": "https://medium.com/@ttrimm/what-happens-when-keep-everything-else-the-same-stops-working-46d32e0b3ac1?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T01:37:46Z",
+      "excerpt": "I kept giving ChatGPT the same short instruction while making increasingly difficult changes to one AI image. It worked longer than I… Continue reading on Medium »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "c442dfcbf094a2ba",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Building, Evaluating, and Securing a RAG Application with Amazon Bedrock",
+      "url": "https://medium.com/@Kenny.Alicea/building-evaluating-and-securing-a-rag-application-with-amazon-bedrock-3c7256293761?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T01:36:43Z",
+      "excerpt": "From Knowledge Base retrieval and LangChain integration to RAGAS evaluation, IAM troubleshooting, model migration, and Bedrock Guardrails Continue reading on Medium »",
+      "author": "Kenny Alicea",
+      "extra": {},
+      "id": "c70e5137af310b0b",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Small Digital Skills Can Lead to Bigger Online Opportunities",
+      "url": "https://medium.com/@jameswalkerai/how-small-digital-skills-can-lead-to-bigger-online-opportunities-e63ea48d24f9?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T23:46:01Z",
+      "excerpt": "Many beginners underestimate how a single practical skill can become the foundation for freelancing, content creation, online business… Continue reading on Medium »",
+      "author": "James Walker AI",
+      "extra": {},
+      "id": "a80ef1692c42c3d6",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Who Do Servant Leaders Support When AI Makes Capability Harder to See?",
+      "url": "https://medium.com/@yumogami.est2k4/who-do-servant-leaders-support-when-ai-makes-capability-harder-to-see-ffc44a9de3d4?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T23:34:12Z",
+      "excerpt": "Generative AI is narrowing visible performance gaps. But when leaders can no longer tell what someone can do on their own, the very basis… Continue reading on Medium »",
+      "author": "Yuta Mogami, Ph.D.",
+      "extra": {},
+      "id": "755a361ee9068281",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Where Can I Get AI Prompts for Free? Top 7 High-Quality Platforms (2026)",
+      "url": "https://medium.com/@bigboyplusreview/where-can-i-get-ai-prompts-for-free-top-7-high-quality-platforms-2026-98875d1fb157?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-01T23:27:55Z",
+      "excerpt": "Stop wasting time writing bad prompts. Discover the best free prompt marketplaces and libraries for ChatGPT, Midjourney, and Claude. Continue reading on Medium »",
+      "author": "Elighton Emeka",
+      "extra": {},
+      "id": "7e39bfed199157cd",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Vote on which of Hacker News' challenges for AI have been met",
+      "url": "https://stoppels.ch/goalposts/",
+      "publishedAt": "2026-10-01T17:32:43Z",
+      "excerpt": "",
+      "author": "stabbles",
+      "extra": {
+        "points": 87,
+        "comments": 97,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49924618"
+      },
+      "id": "8fe0f43c8e68b453",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "A Harvard physicist spent 3 months doing research with Claude Fable 5: it reproduced weeks of work in 20 minutes, completed 15 never-before-solved physics calculations, and contributed to 36 papers across 18 fields",
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "publishedAt": "2026-10-02T00:04:30Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wvfbua/a_harvard_physicist_spent_3_months_doing_research/"
+      },
+      "id": "836c6e567032d71b",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "ai-explained",
+      "sourceName": "AI Explained",
+      "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
+      "url": "https://www.youtube.com/watch?v=_rtp1XzaP6Q",
+      "publishedAt": "2026-10-01T21:20:12Z",
+      "excerpt": "This video is hard to summarise. A cracked cipher, an OpenAI security warning, Gemini 4 Argon, RSI paper (co-authored by a who’s who of AI), Lab White House commitments, new hacks emerging, ‘deep personas’, biology Kasparov competitions, and so much more, ending with an epic Opus outro.\n\n\nPatreon Exclusives: https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:32 - Wrong about Opus 5.5? Deciphering 16th Century Text\n05:01 - Why the models keep breaking out\n11:40 - What the…",
+      "author": "AI Explained",
+      "extra": {},
+      "id": "9c13765a8048b43f",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google Is Already Having Problems With Its Latest AI Model - Gizmodo",
+      "url": "https://gizmodo.com/google-is-already-having-problems-with-its-latest-ai-model-2000820318",
+      "publishedAt": "2026-10-01T17:10:00Z",
+      "excerpt": "If there’s one company you’d expect to be at the bleeding edge of the AI race, it’s Google. It delivers “frontier-level capabilities” in software engineering, legal and financial work, creative writing, and cybersecurity defense, according to a blog post written by Koray Kavukcuoglu, Google’s “chief AI architect,” who replaced Demis Hassabis as the head of Google DeepMind in August. It’s also worth pointing out that “AI” didn’t appear anywhere in the announcement, except for in Kavucuoglu’s…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.33
+      },
+      "id": "6b8f8dbf339060e8",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Gemini 4 Is Here: When You May Be Able to Use Google’s New AI Model - CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/google-gemini-4-argon-ai-model-release/",
+      "publishedAt": "2026-10-01T19:03:14Z",
+      "excerpt": "# Gemini 4 Is Here: When You May Be Able to Use Google’s New AI Model. Gemini 4 Argon is only available to cyber defenders now, a sign Google is gearing up for a wider launch soon. Katelyn is a reporter with CNET covering artificial intelligence, including chatbots, image and video generators.… Read full bio. One is the introduction of the White House’s voluntary review process for new AI models, with which Google said in a blog post it is “actively engaged.” Another is the increasingly potent…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.315
+      },
+      "id": "1877c5ed0c9c907b",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "GitHub - yc-oss/open-source-companies: List of open source startups funded by Y Combinator · GitHub",
+      "url": "https://github.com/yc-oss/open-source-companies",
+      "publishedAt": "2026-10-01T01:00:00Z",
+      "excerpt": "| Superagent | Winter 2024 | API | Website | superagent-ai/superagent | 6,716 |\n| Helicone | Winter 2023 | API | Website | Helicone/helicone | 6,093 |\n| Rivet | Winter 2023 | API | Website | rivet-dev/actors | 6,074 |\n| Lightdash | Summer 2020 | API | Website | lightdash/lightdash | 6,069 |\n| Docker | Summer 2010 | API | Website | docker/cli | 6,014 |\n| Cactus Compute | Summer 2025 | API | Website | cactus-compute/cactus | 5,883 | [...] | PostHog | Winter 2020 | API | Website | PostHog/posthog…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.6
+      },
+      "id": "1d1b8b65dde7a80d",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "‘Riding the Hot Hand’ in AI. Meta, Anthropic & TypeSafe. ARD #171",
+      "url": "https://michaelparekh.substack.com/p/riding-the-hot-hand-in-ai-meta-anthropic",
+      "publishedAt": null,
+      "excerpt": "Meta, riding the hot hand of its Muse AI agent. Anthropic, riding its revenue streak to lock in founder control before its IPO. And a startup called TypeSafe, whose developer popularity of its new AI model ‘Jev’ has investors talking about a $10 billion valuation on a billion dollar raise. Let’s get into them all, along with my takes.\n\n## (1) Meta rides its Muse hot hand.",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.29
+      },
+      "id": "1c2e00b5b9caa899",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "'Things may get ugly': Meta's new AI Muse is about to make the internet more annoying",
+      "url": "https://www.bbc.com/future/article/20260930-metas-new-ai-is-about-to-break-the-internet",
+      "publishedAt": "2026-10-01T09:08:46Z",
+      "excerpt": "However, Meta uses your Muse data to train new AI models by default. Shroeder says it's impossible to remove data built into an AI model, and AIs can sometimes be tricked to reveal their training data. Meta says your data is \"sanitised\" to remove personally identifiable information before it's used for training, and you can opt-out of AI training with a setting.\n\nBut given Meta's history of privacy problems, should you trust what it's telling you now? [...] Raskar, the MIT professor, is part…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.275
+      },
+      "id": "70c98b9ee8466a30",
+      "collectedAt": "2026-10-02T01:44:20.290285+00:00"
     }
   ],
-  "updatedAt": "2026-10-01T21:08:59.521335+00:00"
+  "updatedAt": "2026-10-02T01:44:20.290285+00:00"
 }
