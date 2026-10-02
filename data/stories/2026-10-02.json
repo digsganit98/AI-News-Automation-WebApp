@@ -598,7 +598,142 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "new-framework-uses-existing-skills-to-improve-ai-6eefed",
+      "createdAt": "2026-10-02T02:21:50.141406+00:00",
+      "headline": "New Framework Uses Existing Skills to Improve AI Agent Performance",
+      "summary": "Researchers introduced a method called RASO that helps AI agents learn new tasks by retrieving and adapting knowledge from a library of existing skills. This approach reduces the need for expensive trial-and-error training and outperforms methods that start from scratch.",
+      "whyItMatters": "It lowers the computational cost of training AI agents by reusing previously learned capabilities.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38024"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38024",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-system-generates-synthetic-data-to-train-comp-01fb2f",
+      "createdAt": "2026-10-02T02:21:50.141406+00:00",
+      "headline": "AI System Generates Synthetic Data to Train Computer-Using Agents",
+      "summary": "A new framework uses image generators to create realistic computer interface interactions without needing to run actual software. Training an AI model on this synthetic data significantly improves its ability to perform tasks on real desktop operating systems.",
+      "whyItMatters": "It provides a scalable way to generate training data for computer-use agents without relying on live software environments.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.01215"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.01215",
+        "code": "https://github.com/ImYangC7/AutoGUIWorld",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-finds-better-text-embeddings-for-diffusion-e4588f",
+      "createdAt": "2026-10-02T02:21:50.141406+00:00",
+      "headline": "Study Finds Better Text Embeddings for Diffusion Language Models",
+      "summary": "Researchers identified that scaling text embedding models and distilling them into a specialized encoder creates a more effective latent space for diffusion language models. This technique improves generated text quality, allowing a medium-sized model to surpass GPT-2-M on benchmarks.",
+      "whyItMatters": "It enhances the generation capabilities of diffusion-based language models through optimized text embeddings.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.01016"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.01016",
+        "code": "https://github.com/la0ka1/diffusing-scaled-text-embeddings",
+        "model": null,
+        "demo": "https://la0ka1.github.io/diffusing-scaled-text-embeddings/"
+      }
+    },
+    {
+      "id": "research-analyzes-how-reinforcement-learning-cha-656875",
+      "createdAt": "2026-10-02T02:21:50.141406+00:00",
+      "headline": "Research Analyzes How Reinforcement Learning Changes Vision-Language-Action Models",
+      "summary": "A new study investigates how reinforcement learning reshapes vision-language-action models used for robotics and control tasks. The researchers found that this training process creates a specific low-rank structure in the models, offering new insights into how these AI systems learn.",
+      "whyItMatters": "It deepens our understanding of the structural changes occurring in multimodal robotics models during reinforcement learning.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.34599"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.34599",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "coreweave-launches-nvidia-vera-rubin-systems-for-e20d6d",
+      "createdAt": "2026-10-02T02:21:50.141406+00:00",
+      "headline": "CoreWeave Launches NVIDIA Vera Rubin Systems for AI Workloads",
+      "summary": "CoreWeave announced the availability of NVIDIA Vera Rubin systems with advanced networking at its Fully Connected event. Applied AI lab Cognition is the first customer running production workloads on the new infrastructure.",
+      "whyItMatters": "It marks the early enterprise deployment of next-generation NVIDIA hardware architectures for demanding AI workloads.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-02T01:50:45.005000+00:00"
+  "updatedAt": "2026-10-02T02:25:22.756452+00:00"
 }

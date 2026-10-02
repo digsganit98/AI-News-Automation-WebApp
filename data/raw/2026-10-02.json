@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-02T01:44:20.353618Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-02T02:16:30.279565+00:00",
+      "newItems": 7,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1243,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.292867Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.327295Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 871,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.327645Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.327867Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.327983Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328091Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328192Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328292Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328409Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328511Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328607Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328650Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328679Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328845Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328875Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.328986Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.329083Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.329452Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-02T02:16:30.329630Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.329749Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.329860Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.330025Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.330130Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.330234Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.330737Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.330862Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.330996Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-02T02:16:30.331029Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1260,7 +1490,119 @@
       },
       "id": "70c98b9ee8466a30",
       "collectedAt": "2026-10-02T01:44:20.290285+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
+      "url": "https://huggingface.co/papers/2609.38024",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "An agent skill is a reusable, actionable natural-language artifact that guides an agent to perform a task effectively under a given harness. Recent studies have explored the optimization of agent skills, contributing to a growing collection of publicly available skills spanning diverse tasks, domains, and harnesses. Despite millions of publicly shared skills, existing skill optimization methods largely overlook this accumulated knowledge, instead relying solely on expensive agent rollouts to…",
+      "author": "Jaewon Chu, Ji Soo Lee, Jihwan Park, Dohwan Ko, Jeehye Na, Seunghun Lee, Taehoon Lee, Minseo Yoon, Minseok Joo, Yunyang Xiong, Hyunwoo J. Kim",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38024"
+      },
+      "id": "6eefed49d7993710",
+      "collectedAt": "2026-10-02T02:16:30.279565+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
+      "url": "https://huggingface.co/papers/2610.01215",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex software, with specialized applications imposing additional installation, configuration, and runtime…",
+      "author": "Cheng Yang, Yifan Wu, Yutao Huang, Zhaohua Zhang, Beiduo Chen, Muxi Chen, Chenchen Zhao, Hexuan Deng, Haolin Yang, Geyuan Zhu, Sa Zhu, Jianhuan Zhuo, Qiuyong Xiao, Jianhao Ruan, Yiran Peng, Jiayi Zhang, Tian Ye, Xinlei Yu, Tianwen Jiang, Jihong Zhang, Yuyu Luo",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/ImYangC7/AutoGUIWorld",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.01215"
+      },
+      "id": "01fb2fe13cacb77a",
+      "collectedAt": "2026-10-02T02:16:30.279565+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Scaling and Distilling Text Embeddings for Better Diffusibility",
+      "url": "https://huggingface.co/papers/2610.01016",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Diffusion language models (DLMs) offer a promising alternative to autoregressive (AR) language generation. Recent advances in continuous DLMs, which apply latent diffusion to continuous text embeddings, raise a practical question: which embedding makes the best latent space, i.e., the most diffusible? To answer this, we search through different embeddings and find that scaling the embedding model to stronger ones within the same family (T5 to T5Gemma-1 to T5Gemma-2) greatly improves generative…",
+      "author": "Zekai Zhang, Yunjie Tian, Yanjin He, Xiaoyan Zhang, Dongdi Zhao, Qing Qu, Di Fu",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/la0ka1/diffusing-scaled-text-embeddings",
+        "projectPage": "https://la0ka1.github.io/diffusing-scaled-text-embeddings/",
+        "arxivUrl": "https://arxiv.org/abs/2610.01016"
+      },
+      "id": "e4588fd425196dcb",
+      "collectedAt": "2026-10-02T02:16:30.279565+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "The Low-Rank Structure of VLA Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2609.34599",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "excerpt": "Reinforcement learning (RL) is increasingly used to post-train vision-language-action (VLA) models, yet how RL reshapes these policies remains poorly understood. We find that RL across widely used flow-based VLA models, including π_{0.5} and GR00T~N1.5/N1.6, on LIBERO, ManiSkill, MetaWorld, and CALVIN induces substantially lower-rank parameter updates that are highly concentrated in the action expert's Timestep Modules, a small and previously overlooked component. Through systematic…",
+      "author": "Minjae Oh, Yoonah Park, Jongwon Lim, Yohan Jo",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.34599"
+      },
+      "id": "656875ab33a64131",
+      "collectedAt": "2026-10-02T02:16:30.279565+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Pi 1.0 released - MCP support now included by default",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "publishedAt": "2026-10-02T00:09:04Z",
+      "excerpt": "",
+      "author": "/u/psychohistorian8",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default/"
+      },
+      "id": "f796b39f9fcc2117",
+      "collectedAt": "2026-10-02T02:16:30.279565+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google announces Gemini 4 flagship AI model after months of delays | KELO-AM",
+      "url": "https://kelo.com/2026/09/30/google-announces-gemini-4-flagship-ai-model-after-months-of-delays",
+      "publishedAt": "2026-10-01T02:00:00Z",
+      "excerpt": "×\n\n Sign In\n\n Search\n News\n Weather\n Shows\n Blogs\n Podcasts\n More\n\n  + Contests\n  + Events\n  + Pictures\n\n# Google announces Gemini 4 flagship AI model after months of delays\n\nBy Thomson Reuters Sep 30, 2026 | 3:03 PM\n\nBy Kenrick Cai\n\nSAN FRANCISCO, Sept 30 (Reuters) – Alphabet’s Google on Wednesday announced a ​new top-shelf artificial ‌intelligence model to anchor its new Gemini 4 generation of models in a fresh bid ‌to ​catch up ⁠to rivals Anthropic ⁠and OpenAI in the AI race. [...] The new…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.452
+      },
+      "id": "f5fe3547e1d3ab6a",
+      "collectedAt": "2026-10-02T02:16:30.279565+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI | NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin",
+      "publishedAt": "2026-09-30T15:00:00Z",
+      "excerpt": "At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced availability of NVIDIA Vera Rubin NVL72 systems with Spectrum-X 102.4T Ethernet networking. Cognition, the applied AI lab behind the Devin AI software engineer, is the first customer running production workloads on Vera Rubin. [...] NVIDIA Nemotron open models give teams on Forge a direct path to customizing and deploying reasoning and multimodal models for agentic workflows.\n\n## Proven Impact From Startups…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.33
+      },
+      "id": "e20d6d18306f7883",
+      "collectedAt": "2026-10-02T02:16:30.279565+00:00"
     }
   ],
-  "updatedAt": "2026-10-02T01:44:20.290285+00:00"
+  "updatedAt": "2026-10-02T02:16:30.279565+00:00"
 }
