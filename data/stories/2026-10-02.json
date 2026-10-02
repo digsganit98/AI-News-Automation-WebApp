@@ -733,7 +733,690 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "servicenow-introduces-autosynthdata-to-generate-a885ed",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "ServiceNow Introduces AutoSynthData to Generate Training Tasks for Enterprise Agents",
+      "summary": "ServiceNow CoreAI has developed AutoSynthData, a tool that creates new training tasks for AI agents based on their specific failures. The system uses a stronger model to generate and validate tasks that help target agents improve within enterprise environments.",
+      "whyItMatters": "Automated synthetic data generation targeting specific failure modes helps enterprise agents improve reliability without manual dataset curation.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-analyzes-heavy-tailed-memory-traces-in-lon-1d9ebf",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Study Analyzes Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+      "summary": "Researchers argue that current evaluations of AI agent memory systems focus too much on task success while ignoring the shape of how memory is actually used. The paper suggests that understanding memory access patterns is crucial for assessing long-horizon agents.",
+      "whyItMatters": "Analyzing memory access distributions provides a more rigorous way to evaluate and improve long-horizon AI agent architectures.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00010"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-explores-when-causal-world-models-help-mod-3e14a9",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Study Explores When Causal World Models Help Modular LLM Agents",
+      "summary": "This study examines how causal world models can assist LLM agents operating in modular systems like order or inventory management. It highlights that standard models often fail to capture how actions in one module affect valid transitions in another.",
+      "whyItMatters": "Integrating causal world models can help prevent multi-module agents from making invalid state transitions across complex workflows.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00012"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "praxa-introduced-as-an-evidence-bound-harness-fo-b044d2",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Praxa Introduced as an Evidence-Bound Harness for Governed AI Agent Execution",
+      "summary": "Praxa is a new agent harness designed to manage the different stages of AI action from proposal to verified execution. It explicitly represents states such as authority and dispatch to ensure that AI agents operate within governed limits.",
+      "whyItMatters": "Explicitly managing authorization states helps enforce safety and governance boundaries during autonomous agent execution.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00015"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-measures-microtask-eligibility-gap-for-sma-a21d05",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Study Measures Microtask Eligibility Gap for Small Language Models",
+      "summary": "Researchers investigated whether small language models are capable enough to handle specific supporting microtasks, such as tool selection or memory writing, within an agent harness. The study aims to determine when an off-the-shelf small model is sufficient alongside a larger planner.",
+      "whyItMatters": "Identifying the microtask capabilities of small models helps optimize cost and performance in multi-tier agent architectures.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00025"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-evaluates-effectiveness-of-inference-time-0388c3",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Study Evaluates Effectiveness of Inference-Time Fragment Grafting in Reasoning Models",
+      "summary": "The paper presents evidence from three reasoning language models showing that an inference-time intervention known as fragment grafting can be ineffective in certain configurations. This method involves extracting high-scoring prefixes from pruned chains of thought to use as demonstrations.",
+      "whyItMatters": "Understanding the limitations of specific inference-time interventions prevents wasted compute on ineffective reasoning enhancement strategies.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00047"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-highlights-hidden-costs-of-reading-llm-jud-fa9cac",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Study Highlights Hidden Costs of Reading LLM Judges Without Generating",
+      "summary": "The study shows that determining an LLM judge's verdict by reading only the first token's logits can distort evaluation results. This efficiency-focused method fails to capture the full reasoning process and can introduce position bias.",
+      "whyItMatters": "Relying on logit shortcuts instead of full generation can compromise the reliability of automated evaluation benchmarks.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00054"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "critique-examines-use-of-human-derived-bias-cons-90e352",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Critique Examines Use of Human-Derived Bias Constructs in LLM Evaluation",
+      "summary": "This paper critiques the practice of using human concepts like implicit bias and anchoring to evaluate large language models. The authors argue that these constructs may not accurately reflect how models process information.",
+      "whyItMatters": "Adopting appropriate evaluation constructs ensures that assessments of model behavior are scientifically grounded rather than falsely anthropomorphized.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00070"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-finds-detailed-profession-specific-prompts-be0758",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Study Finds Detailed Profession-Specific Prompts Increase Cost Without Consistent Accuracy Gains",
+      "summary": "Researchers evaluated a corpus of profession-specific system prompts for scientific tasks and found they increased token usage and costs. However, these detailed prompts did not consistently improve task accuracy.",
+      "whyItMatters": "Prompt engineering strategies must be carefully benchmarked to avoid inflating operational expenses without real performance benefits.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.00084"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "corrgrpo-introduced-to-improve-multi-reward-lear-91352b",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "CorrGRPO Introduced to Improve Multi-Reward Learning for Reasoning Models",
+      "summary": "Researchers introduced CorrGRPO, a technique that normalizes rewards based on correlation to improve the training of reasoning language models. This approach addresses limitations in standard Group Relative Policy Optimization when handling multiple reward components.",
+      "whyItMatters": "Better multi-reward normalization techniques enable more stable alignment and training for complex reasoning models.",
+      "category": "Methodology",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36820"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36820",
+        "code": "https://github.com/HKUST-KnowComp/CorrGRPO",
+        "model": null,
+        "demo": "https://hkust-knowcomp.github.io/CorrGRPO/"
+      }
+    },
+    {
+      "id": "pyrua-lean-framework-boosts-robot-agent-success-94580c",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "PyRUA-Lean Framework Boosts Robot Agent Success Rate While Reducing Token Usage",
+      "summary": "Researchers developed PyRUA-Lean, an interactive code-execution framework for vision language model agents. In simulated tasks, the framework increased success rates while using fewer input tokens compared to baseline methods.",
+      "whyItMatters": "Efficient execution frameworks can significantly lower computational overhead while improving the task completion rates of vision-language agents.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.01939"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.01939",
+        "code": "https://github.com/DAGroup-PKU/PyRUA-Lean",
+        "model": null,
+        "demo": "https://dagroup-pku.github.io/PyRUA-Lean/"
+      }
+    },
+    {
+      "id": "onestreamer-unifies-perception-and-memory-for-re-8f020a",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "OneStreamer Unifies Perception and Memory for Real-Time Video Interaction",
+      "summary": "Researchers introduced OneStreamer, a model that jointly learns to record evidence and respond to tasks in streaming video. The compact model achieved top performance among compared methods across eight streaming video understanding benchmarks.",
+      "whyItMatters": "Combining real-time perception and memory enables more capable interactive video agents for live streaming applications.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.01762"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.01762",
+        "code": "https://github.com/MCG-NJU/OneStreamer",
+        "model": null,
+        "demo": "https://mcg-nju.github.io/OneStreamer"
+      }
+    },
+    {
+      "id": "enhanced-mixture-of-experts-improves-non-factori-61521c",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Enhanced Mixture-of-Experts Improves Non-Factorized Diffusion Language Models",
+      "summary": "Researchers proposed E-MoE, a method to improve the quality of masked diffusion models in the few-step generation regime. The approach addresses limitations in the reverse process that typically factorize over positions.",
+      "whyItMatters": "This technique improves generation quality and efficiency for diffusion language models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.37533"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.37533",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "egotools-advances-tool-centric-reasoning-in-egoc-20e480",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "EgoTools Advances Tool-Centric Reasoning in Egocentric Videos",
+      "summary": "Researchers developed EgoTools to help agents understand and reason about tool use in real-world egocentric videos. The work focuses on tracking evolving object and task states during physical activities.",
+      "whyItMatters": "It improves the ability of AI agents to comprehend complex physical interactions and tool usage from video inputs.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39378"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39378",
+        "code": "https://github.com/Ropedia/EgoTools",
+        "model": null,
+        "demo": "https://ropedia.github.io/egotools/"
+      }
+    },
+    {
+      "id": "decentralized-master-mind-refines-joint-actions-364430",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Decentralized Master-Mind Refines Joint Actions in Multi-Agent Pathfinding",
+      "summary": "Researchers introduced a method for decentralized multi-agent pathfinding that uses iterative intent denoising to refine joint actions. The approach helps agents reach goals without collisions under partial observability.",
+      "whyItMatters": "It enhances coordination and collision avoidance for multi-agent systems operating with limited visibility.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.32019"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.32019",
+        "code": "https://github.com/CognitiveAISystems/DMM",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "interevolve-enables-humanoid-robots-to-learn-new-d73530",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "InterEvolve Enables Humanoid Robots to Learn New Tasks Without Retraining",
+      "summary": "Researchers developed InterEvolve, a test-time evolution method for humanoid loco-manipulation. The system allows controllers to solve new tasks by repurposing existing skills and improving from their own attempts without requiring retraining.",
+      "whyItMatters": "This approach enables robots to adapt to new tasks dynamically in real time without expensive model retraining.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02196"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02196",
+        "code": null,
+        "model": null,
+        "demo": "https://sirui-xu.github.io/InterEvolve/"
+      }
+    },
+    {
+      "id": "density-aware-reward-aggregation-improves-multi-f9ed3d",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Density-Aware Reward Aggregation Improves Multi-Reward Reinforcement Learning for LLMs",
+      "summary": "Researchers introduced a technique called Density-Aware Reward Aggregation to help large language models learn multiple behavioral objectives more effectively. The method addresses issues where different learning goals progress at uneven rates during training.",
+      "whyItMatters": "It stabilizes multi-objective reinforcement learning for language models, leading to more balanced model behaviors.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.00574"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.00574",
+        "code": "https://github.com/zhaihaotian/DARA",
+        "model": null,
+        "demo": "https://zhaihaotian.github.io/DARA/"
+      }
+    },
+    {
+      "id": "study-examines-rhetorical-robustness-in-ai-scien-e6995d",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Study Examines Rhetorical Robustness in AI Scientific Reviewers",
+      "summary": "A new paper defines 'Rhetorical Robustness' to test whether AI reviewers give consistent judgments to manuscripts that contain the same science but use different language. The research aims to ensure AI tools reward scientific quality rather than just persuasive writing.",
+      "whyItMatters": "It highlights the importance of consistency and fairness when deploying AI systems for academic peer review.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39027"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39027",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "world-observer-model-tracks-objects-outside-the-36ee8b",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "World Observer Model Tracks Objects Outside the Main View",
+      "summary": "Researchers developed a video world model that can continue to simulate how objects evolve even when they are no longer visible to the main agent. This approach helps maintain a consistent understanding of the environment beyond the immediate field of view.",
+      "whyItMatters": "It gives AI agents better spatial awareness and memory of occluded objects in dynamic environments.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02162"
+        },
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39375"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02162",
+        "code": "https://github.com/cvlab-kaist/world-observer",
+        "model": null,
+        "demo": "https://cvlab-kaist.github.io/world-observer/"
+      }
+    },
+    {
+      "id": "agent-priors-and-active-viewpoints-improve-robot-6d3487",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Agent Priors and Active Viewpoints Improve Robot Learning from Few Demonstrations",
+      "summary": "A new policy learning method helps robots generalize skills to new tasks and situations by preserving information between compositional and skill-based learning. Additionally, a related system allows robots to select viewpoints and identify objects based on past interactions.",
+      "whyItMatters": "These advancements help robots adapt more efficiently with limited training data and memory.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.35690"
+        },
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39375"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.35690",
+        "code": "https://github.com/Agentics-robotics/Agent-Priors-guided-Policy-Learning",
+        "model": null,
+        "demo": "https://agentics-robotics.github.io/APPL/"
+      }
+    },
+    {
+      "id": "4director-uses-rigid-3d-geometry-for-precise-vid-ca27ec",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "4Director Uses Rigid 3D Geometry for Precise Video Control",
+      "summary": "A new tool called 4Director enables precise control over camera and object motion in video world models using rigid 3D geometry. This method offers more consistent and accurate control than previous approaches that relied on ambiguous image-plane cues.",
+      "whyItMatters": "It provides video generation models with structured, geometry-driven manipulation capabilities.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02160"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02160",
+        "code": "https://github.com/VVeiCao/4Director",
+        "model": null,
+        "demo": "https://stability-ai.github.io/4director/"
+      }
+    },
+    {
+      "id": "earendil-releases-pi-1-0-and-pi-durable-for-java-22b95d",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Earendil Releases Pi 1.0 and Pi Durable for JavaScript AI Agents",
+      "summary": "Earendil has released Pi 1.0, a stable version of its minimalist AI agent harness that adds native support for MCP and image models. The company also launched Pi Durable, a TypeScript port that enables crash recovery, parallel conversations, and pluggable storage backends for running agents in various JavaScript environments.",
+      "whyItMatters": "It provides developers with robust open-source tools to build and scale production-ready TypeScript AI agents.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "california-attorney-general-subpoenas-openai-fafa28",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "California Attorney General Subpoenas OpenAI",
+      "summary": "California Attorney General Rob Bonta has issued a subpoena to OpenAI following a series of incidents involving the company's artificial intelligence models.",
+      "whyItMatters": "It represents increasing regulatory and legal scrutiny over major artificial intelligence developers.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.cbsnews.com/sanfrancisco/news/openai-subpoena-californa-ai-artificial-intelligence-hugging-face/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "metaview-raises-60-million-series-c-to-expand-ai-595671",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "Metaview raises $60 million Series C to expand AI recruiting agents",
+      "summary": "Metaview, a startup that builds autonomous AI agents for recruiting, announced a $60 million Series C funding round led by Insight Partners. The money will be used to make its recruiting tool Fillmore generally available and to grow the team.",
+      "whyItMatters": "The investment accelerates the deployment of AI agents that can automate large-scale hiring processes.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/metaview-60m-series-c-insight-partners-ai-recruiting"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ibm-adds-self-hosted-deployment-option-for-ibm-b-490f19",
+      "createdAt": "2026-10-02T14:07:24.863794+00:00",
+      "headline": "IBM adds self-hosted deployment option for IBM Bob agentic development platform",
+      "summary": "IBM announced that its agentic software development platform, IBM Bob, can now be deployed on-premises or in private-cloud environments. This gives organizations more control over data and security while using AI-driven development tools.",
+      "whyItMatters": "It enables enterprises to adopt AI-assisted software development without sacrificing data sovereignty.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "IBM",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-02T02:25:22.756452+00:00"
+  "updatedAt": "2026-10-02T14:08:27.291539+00:00"
 }

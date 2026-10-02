@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-02T02:16:30.331029Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-02T13:58:57.019482+00:00",
+      "newItems": 40,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1243,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.037045Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.077055Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 872,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.077426Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.077711Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.077882Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.078052Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.078217Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.078422Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.078588Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.078749Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.078907Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.078968Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.079014Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.079273Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.079326Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.079492Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.079652Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.079936Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-02T13:58:57.080099Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.080279Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.080445Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.080676Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.080845Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.081006Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.081670Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.081855Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.082034Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-02T13:58:57.082087Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1602,7 +1832,585 @@
       },
       "id": "e20d6d18306f7883",
       "collectedAt": "2026-10-02T02:16:30.279565+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "publishedAt": "2026-10-02T04:01:31Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "a885ed61f54a415a",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "CorrGRPO: Correlation-Normalized GRPO for Multi-Reward Learning",
+      "url": "https://huggingface.co/papers/2609.36820",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Group Relative Policy Optimization (GRPO) is widely used to train reasoning language models, where it computes advantages by centering and normalizing rewards across rollouts of the same prompt. For multiple rewards, GRPO sums the reward components and normalizes the total reward by its within-group standard deviation. The corresponding variance equals the sum of all pairwise reward covariances. For a fixed centered reward, larger aggregate covariance produces smaller advantages, and vice…",
+      "author": "Wenbin Hu, Huihao Jing, Haochen Shi, Yuxuan Liu, Haoran Li, Yangqiu Song",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/HKUST-KnowComp/CorrGRPO",
+        "projectPage": "https://hkust-knowcomp.github.io/CorrGRPO/",
+        "arxivUrl": "https://arxiv.org/abs/2609.36820"
+      },
+      "id": "91352b48a00ee619",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+      "url": "https://huggingface.co/papers/2610.01939",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead. We introduce PyRUA-Lean, an interactive code-execution framework that couples feedback-driven primitive composition with selective observation: the agent composes classical robot primitives and learned vision-language-action (VLA) policies into Python cells that perform conditional checks and local…",
+      "author": "Ruiyang Si, Jianxin Bi, Shunyu Yang, Rui Ni, Wenbo Huang, Qiang Wang, Shulong Jiang, Duomin Wang, Xiuyu Li, Haiwen Feng, Zhen Dong, Daquan Zhou",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/DAGroup-PKU/PyRUA-Lean",
+        "projectPage": "https://dagroup-pku.github.io/PyRUA-Lean/",
+        "arxivUrl": "https://arxiv.org/abs/2610.01939"
+      },
+      "id": "94580c0cfb126532",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+      "url": "https://huggingface.co/papers/2610.01762",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive Hierarchical Caption Memory (PHCM) produces time-grounded local-detail captions and summaries of…",
+      "author": "Xiangyu Zeng, Yuandong Yang, Zhiqiu Zhang, Yuhan Zhu, Xinhao Li, Qingyi Si, Dingyu Yao, Changlian Ma, Haoran Chen, Xinyu Chen, Yansong Shi, Junhao Zhou, Yifei Li, Jun Zhang, Chuanyu Qin, Chenxu Yang, Xinlei Yu, Kun Ouyang, Yuchen Shao, Qianshan Wei, Changhai Zhou, Jun Gao, Jiaqi Wang, Limin Wang",
+      "extra": {
+        "upvotes": 100,
+        "githubRepo": "https://github.com/MCG-NJU/OneStreamer",
+        "projectPage": "https://mcg-nju.github.io/OneStreamer",
+        "arxivUrl": "https://arxiv.org/abs/2610.01762"
+      },
+      "id": "8f020abdf3666aa6",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.37533",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Masked diffusion models (MDMs) generate sequences by progressively unmasking several tokens per denoising step, but their reverse process is typically factorized over positions, limiting sample quality in the few-step regime where diffusion's speed advantage over autoregressive decoding matters most. A recent line of work introduces a continuous Gaussian latent, trained as a variational autoencoder, to capture correlations across positions, but such approaches are prone to posterior collapse,…",
+      "author": "Arseny Ivanov, Alexander Kolesov, Alexander Korotin, Ivan Oseledets, Mikhail Goncharov",
+      "extra": {
+        "upvotes": 19,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.37533"
+      },
+      "id": "61521c6a37af391e",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "EgoTools: Towards Tool-Centric Reasoning in Real-World Egocentric Videos",
+      "url": "https://huggingface.co/papers/2609.39378",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal effects on target objects. Yet despite strong performance on perception-oriented video tasks such…",
+      "author": "Shulin Tian, Junsu Kim, Shuai Liu, Hao Li, Yujiao Shen, Sihan Li, Zhe Yang, Yeongon Kim, Feiyu Li, Jialin Wu, Yichi Zhang, Wenhui Wang, Runmao Yao, Yuhao Dong, Zhaoxi Chen, Fangzhou Hong, Antonino Furnari, Jingkang Yang, Hongyuan Zhu, Ziwei Liu",
+      "extra": {
+        "upvotes": 20,
+        "githubRepo": "https://github.com/Ropedia/EgoTools",
+        "projectPage": "https://ropedia.github.io/egotools/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39378"
+      },
+      "id": "20e4802c8daeed3a",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding",
+      "url": "https://huggingface.co/papers/2609.32019",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Decentralized multi-agent path finding (MAPF) with communication requires agents to reach individual goals without collisions under partial observability. Learnable policies trained on expert data provide an effective approach to this problem. However, when several coordinated joint actions are valid in the same context, independently sampling from per-agent distributions can recombine locally valid choices into incompatible joint actions. This failure can arise from the final sampling…",
+      "author": "Valeriy Vyaltsev, Anton Andreychuk, Taisia Zlotnikova, Konstantin Yakovlev, Aleksandr Panov, Alexey Skrynnik",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": "https://github.com/CognitiveAISystems/DMM",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.32019"
+      },
+      "id": "364430fa259e82bf",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+      "url": "https://huggingface.co/papers/2610.02196",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage…",
+      "author": "Zhuo Lin, Sirui Xu, Liuyu Bian, Yu-Xiong Wang, Liang-Yan Gui",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://sirui-xu.github.io/InterEvolve/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02196"
+      },
+      "id": "d735305da6a4348a",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
+      "url": "https://huggingface.co/papers/2610.00574",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over a batch. Under idealized GDPO normalization, we show that this energy is proportional to…",
+      "author": "Tong Zheng, Skylar Zhai, Zhan Cheng, TianMing Sha, Youling Huang, Shuo Zhou, Shaotong Qi, Jingcheng Liang, Xuwei Ding, Pengcheng Xu",
+      "extra": {
+        "upvotes": 23,
+        "githubRepo": "https://github.com/zhaihaotian/DARA",
+        "projectPage": "https://zhaihaotian.github.io/DARA/",
+        "arxivUrl": "https://arxiv.org/abs/2610.00574"
+      },
+      "id": "f9ed3d0d2c1adb27",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review",
+      "url": "https://huggingface.co/papers/2609.39027",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,260 manuscript versions, and evaluate 30 reviewer configurations. The benchmark reveals false…",
+      "author": "Chenguang Wang, Ming Li, Chengrui Fan, Jianpeng Chen, Han Chen, Tianyi Zhou, Dawei Zhou",
+      "extra": {
+        "upvotes": 33,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.39027"
+      },
+      "id": "e6995d5dfec971f4",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "World Observer: Joint Actor-Observer Generation for Persistent World Modeling",
+      "url": "https://huggingface.co/papers/2610.02162",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples observing from acting by jointly generating a perspective actor for the agent-centric view with…",
+      "author": "Hyunwook Choi, Dahyun Chung, Hyunsung Kim, Siyoon Jin, Jinhyeok Choi, Junyoung Seo, Seungryong Kim",
+      "extra": {
+        "upvotes": 39,
+        "githubRepo": "https://github.com/cvlab-kaist/world-observer",
+        "projectPage": "https://cvlab-kaist.github.io/world-observer/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02162"
+      },
+      "id": "36ee8bdf3ffdc43d",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Agent Priors-guided Policy Learning",
+      "url": "https://huggingface.co/papers/2609.35690",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Robots that learn from a few demonstrations often require two forms of generalization. Compositional generalization recombines skills to solve new tasks, and skill generalization lets the learned policy behind each skill work in new situations. The two depend on each other, yet information is lost between composition and the skills it calls. Where a skill works is determined by the structure its policy is trained with, while composition sees the skill only through a separate description, such…",
+      "author": "Puming Jiang, Tianrun Hu, Haozhe Du, Yibo Li, Zhiwei Xue, Xinhu Li, Harold Soh",
+      "extra": {
+        "upvotes": 55,
+        "githubRepo": "https://github.com/Agentics-robotics/Agent-Priors-guided-Policy-Learning",
+        "projectPage": "https://agentics-robotics.github.io/APPL/",
+        "arxivUrl": "https://arxiv.org/abs/2609.35690"
+      },
+      "id": "6d34872a9af9d918",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
+      "url": "https://huggingface.co/papers/2609.39375",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "A robot that observes people interacting with objects should be able to carry out later requests that refer back to those interactions. Such requests may specify a grasp target by the role it played in a past event rather than by its name or appearance. Moreover, the target may no longer be visible when the robot is asked to act. We present BeyondSCe, a zero-shot robotic grasping system for this event-referential setting. Given the event history and the current scene, the system identifies the…",
+      "author": "Hyunjoon Lee, Haebeom Jung, Eunsung Cha, Daeun Lee, Yu-Chiang Frank Wang, Jaesung Choe, Jaesik Park",
+      "extra": {
+        "upvotes": 19,
+        "githubRepo": "https://github.com/SNU-VGILab/BeyondCSe",
+        "projectPage": "https://www.haebeom.com/BeyondCSe/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39375"
+      },
+      "id": "ce4436958e43f7b0",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "4Director: Controlling Video World Models with Rigid 3D Geometry",
+      "url": "https://huggingface.co/papers/2610.02160",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Precise control over camera and object motion is essential for professional video production. Existing methods control objects only coarsely, through image-plane cues that are ambiguous in depth and rotation or through 3D tracks and blobs that lack complete geometry and lose consistency across viewpoint changes. We introduce 4Director, a video world model conditioned on an explicit 4D scene representation: each object is reconstructed once from the input image as a canonical mesh and moved by…",
+      "author": "Wei Cao, Hao Zhang, Vikram Voleti, Yuqun Wu, Mallikarjun B R, Shimon Vainer, Mark Boss, Yaoyao Liu",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/VVeiCao/4Director",
+        "projectPage": "https://stability-ai.github.io/4director/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02160"
+      },
+      "id": "ca27ecbf3b7ae5ad",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+      "url": "https://arxiv.org/abs/2610.00010",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00010v1 Announce Type: new \nAbstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost. We argue that the missing object is the shape of memory use: under finite context and repeated retrieval, agent memory can concentrate on a small core while leaving rare states in a long tail where prediction errors accumulate. We study this effect through a conservative tail…",
+      "author": "Xinyuan Song, Zekun Cai",
+      "extra": {},
+      "id": "1d9ebfbb76c99688",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "When Do Causal World Models Help Modular LLM Agents",
+      "url": "https://arxiv.org/abs/2610.00012",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00012v1 Announce Type: new \nAbstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in another. Standard world models usually fit observational traces, but this is not the quantity needed for intervention-time planning: a trace may show that payment precedes shipment without identifying whether payment authorizes shipment, inventory mediates the effect, or…",
+      "author": "Xinyuan Song, Zekun Cai",
+      "extra": {},
+      "id": "3e14a998894f54ef",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+      "url": "https://arxiv.org/abs/2610.00015",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00015v1 Announce Type: new \nAbstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through deterministic admission, brokered execution, external read-back, reconciliation, and reviewed promotion. We report four evidence lanes. First, an author-run repository-local audit at a pinned revision…",
+      "author": "Stefan G. Creadore",
+      "extra": {},
+      "id": "b044d2469ff235f4",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+      "url": "https://arxiv.org/abs/2610.00025",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00025v1 Announce Type: new \nAbstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing memory, selecting tools, ranking past turns. We ask whether off-the-shelf SLMs meet practitioner-defined thresholds and, when they fail, why, and whether quantization changes the answer. We build a benchmark of 4 such microtasks with fixed prompts and automatic…",
+      "author": "Jundong Hu, Shekar Ramachandran",
+      "extra": {},
+      "id": "a21d05cf6500c8af",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
+      "url": "https://arxiv.org/abs/2610.00047",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00047v1 Announce Type: new \nAbstract: Diversity collapse in parallel chain-of-thought has motivated inference-time interventions built on a natural design: when a process reward model (PRM) prunes a chain, its high-PRM prefix is extracted and grafted verbatim as an in-context demonstration into a still-decoding sibling. We isolate this mechanism, PRM-Pruned Fragment Grafting (PPFG), as the most cost-minimal operationalization of cross-trajectory step-level transfer, and test it at…",
+      "author": "Khawaja Murad ul Hassan, Mehran Ebrahimi",
+      "extra": {},
+      "id": "0388c309b4d1d803",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating",
+      "url": "https://arxiv.org/abs/2610.00054",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00054v1 Announce Type: new \nAbstract: Reading an LLM judge's verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses produce. We show that this readout distorts position bias in one direction: it overstates it in every condition we test, so figures obtained this way behave as upper bounds. The mechanism is that judges do not always lead with a verdict token, on 12% to…",
+      "author": "Gnaneswar Villuri, Hashmath Shaik, Alex Doboli",
+      "extra": {},
+      "id": "fa9cacf6626c27f0",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Measuring Human-Like Bias in LLMs? A Critique of Human-Derived Bias Constructs in LLM Evaluation",
+      "url": "https://arxiv.org/abs/2610.00070",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00070v1 Announce Type: new \nAbstract: Researchers increasingly use human-derived bias constructs to study Large Language Models (LLMs), including social-cognitive constructs such as implicit bias and stereotype activation, and cognitive biases such as anchoring, framing effects, and confirmation bias. Such approaches offer alternatives to overt bias probes, particularly when direct questioning may obscure bias or when model behaviour appears normatively acceptable. However, adapting…",
+      "author": "Antonela Tommasel, Markus Schedl",
+      "extra": {},
+      "id": "90e352bc024f4b1c",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Scientific Agents: Evaluating Profession-Specific System Prompts on Scientific Tasks",
+      "url": "https://arxiv.org/abs/2610.00084",
+      "publishedAt": "2026-10-02T04:00:00Z",
+      "excerpt": "arXiv:2610.00084v1 Announce Type: new \nAbstract: Detailed profession-specific system prompts raise token use and estimated cost per response without a consistent accuracy gain. We evaluate Scientific Agents, an open-source corpus of 503 profession-specific AGENTS.md profiles, with Gemini 3.8 Flash via OpenRouter in the Pi agent harness. We compare matched profiles with four controls: a minimal baseline (\"You are a helpful assistant\"), the profile's opening role sentence, a generic scientific…",
+      "author": "Timothy Kassis",
+      "extra": {},
+      "id": "be07583f5333ea0e",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "publishedAt": "2026-10-02T06:40:53Z",
+      "excerpt": "the minimalist harness goes stable... and TypeScript!",
+      "author": null,
+      "extra": {},
+      "id": "50f5964b1c5672fb",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Everyone Stopped Talking About OpenClaw?",
+      "url": "https://medium.com/@skeptical_ai/why-everyone-stopped-talking-about-openclaw-e670608960c2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T13:41:01Z",
+      "excerpt": "Between late 2025 and early 2026, you couldn’t scroll through developer Twitter, Reddit, or Hacker News without stumbling across OpenClaw… Continue reading on Medium »",
+      "author": "Skeptical AI",
+      "extra": {},
+      "id": "4388aa63fa1cddaa",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Claude AI Funding: How Anthropic Raised $72.3B",
+      "url": "https://medium.com/@hamzatanveerahmad47/claude-ai-funding-how-anthropic-raised-72-3b-9fd7f7dab46b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T12:26:02Z",
+      "excerpt": "How Much Funding Has Claude Raised (2021–2026)? Continue reading on Medium »",
+      "author": "Facts Figs",
+      "extra": {},
+      "id": "c0ae8b98744d7853",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Fine-Tuning LLMs: What Actually Happens Inside the Model?",
+      "url": "https://medium.com/@yadavshashank0907/fine-tuning-llms-what-actually-happens-inside-the-model-fa2daff15bb8?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T11:19:49Z",
+      "excerpt": "I recently started learning about fine-tuning Large Language Models, and one thing that surprised me was how different fine-tuning is from… Continue reading on Medium »",
+      "author": "Shashank Yadav",
+      "extra": {},
+      "id": "8dcd7da8a86c509a",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "In the era of AI: Are you an AI-assisted thinker or an AI-dependent thinker?",
+      "url": "https://medium.com/@sithumini.senevirathne/in-the-era-of-ai-are-you-an-ai-assisted-thinker-or-an-ai-dependent-thinker-cd27f6818c81?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T10:24:51Z",
+      "excerpt": "AI can make us faster. The harder question is whether it helps us think better or quietly replaces our thinking. Continue reading on Medium »",
+      "author": "Sithumini Senevirathne",
+      "extra": {},
+      "id": "f543a5f978529a63",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Can Make the Wrong Assumption Look Correct",
+      "url": "https://mohitkale.medium.com/ai-can-make-the-wrong-assumption-look-correct-d6a296ea4f58?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T10:05:52Z",
+      "excerpt": "The dangerous AI mistake is not always a hallucination. Continue reading on Medium »",
+      "author": "Mohit Kale",
+      "extra": {},
+      "id": "664a60469c8d5d02",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Human Baselines for Benchmarks: AI Now Outperforms Junior Accountants",
+      "url": "https://www.mercor.com/blog/human-baselines-for-benchmarks-ai-now-outperforms-junior-accountants/",
+      "publishedAt": "2026-10-02T02:41:46Z",
+      "excerpt": "",
+      "author": "/u/ResultBackground2450",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wvik8x/human_baselines_for_benchmarks_ai_now_outperforms/"
+      },
+      "id": "0fd32c59b1b65140",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "arXiv now limits submitters to up to two submissions per calendar month [N]",
+      "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+      "publishedAt": "2026-10-02T00:47:10Z",
+      "excerpt": "",
+      "author": "/u/Nunki08",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/MachineLearning/comments/1wvg7yc/arxiv_now_limits_submitters_to_up_to_two/"
+      },
+      "id": "0df501c1fcf96db2",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Now which lab is behind fledge alpha?",
+      "url": "https://opencode.ai/data/unknown/fledge-alpha",
+      "publishedAt": "2026-10-01T18:50:10Z",
+      "excerpt": "New free/trial model dropped on OC. Details are yet to be provided. Could this be deepseek v4.1 pro?",
+      "author": "/u/Gohab2001",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wv7t3a/now_which_lab_is_behind_fledge_alpha/"
+      },
+      "id": "176c55a6dd4c50f2",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "TechCrunch Disrupt 2026 Will Bring Startup Founders and AI Leaders to San Francisco - Межа. Новини України.",
+      "url": "https://mezha.net/eng/news/bbebb017_techcrunch_disrupt_2026/",
+      "publishedAt": "2026-10-02T01:02:50Z",
+      "excerpt": "### Russian Forces Hit 51 Zaporizhzhia Settlements With 741 Attacks in One Day. 2 oct 2026, 07:16. ### Russian Attack Damages 25-Story Residential Building in Kyiv’s Darnytskyi District. ### SpaceX Crew Capsule Docks With the ISS as Four Members Begin a New Rotation. ### US Stocks Edge Higher as Treasury Yields Fall Ahead of Jobs Report. ### Russian Forces Hit Kyiv’s Southern Bridge Again as Debris Damages a Building and Cars. The focus will be on building companies and competing in the age of…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.1
+      },
+      "id": "a5d1b739b5cc2354",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "‘Recruiting is next’: Metaview raises $60m for AI hiring agents - The Next Web",
+      "url": "https://thenextweb.com/news/metaview-60m-series-c-insight-partners-ai-recruiting",
+      "publishedAt": "2026-10-01T14:55:55Z",
+      "excerpt": "Metaview, a London and San Francisco startup that builds AI agents for recruiting, has raised a $60m Series C led by Insight Partners. The round comes a year after its previous one and brings its total funding to $110m. > “The best engineering teams have already moved from writing code by hand to orchestrating AI agents that do the work. Recruiting is next,” said Siadhal Magos, Metaview’s CEO and co-founder. The company is also building new agents, including a dedicated AI screening agent,…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.088
+      },
+      "id": "595671f96e7a4ffd",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "California attorney general subpoenas OpenAI over incidents involving its AI models - CBS News",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/openai-subpoena-californa-ai-artificial-intelligence-hugging-face/",
+      "publishedAt": "2026-10-01T21:43:17Z",
+      "excerpt": "# California attorney general subpoenas OpenAI over incidents involving its AI models. Castañeda is a senior editor of news and social media for CBS Bay Area. California Attorney General Rob Bonta has issued a subpoena to OpenAI following a series of incidents involving the company's artificial intelligence models. Bonta announced last month that the California Department of Justice was investigating an incident in which an OpenAI model went rogue and hacked AI startup Hugging Face on its own,…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.086
+      },
+      "id": "7041e6ad45227bd7",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "3rd Circ.'s AI Copyright Ruling Signals Traditional Fair Use Rules Still Apply - Law.com",
+      "url": "https://www.law.com/2026/10/01/3rd-circs-ai-copyright-ruling-signals-traditional-fair-use-rules-still-apply/",
+      "publishedAt": "2026-10-01T20:38:23Z",
+      "excerpt": "Sign in to access your account and subscription. General Counsel  Innovation  Law Firm Hiring  Law Firm Management  Law Firm Office Launches and Closures  All Topics. The Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech. Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. All…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.073
+      },
+      "id": "df7f43350899c30d",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability - SecurityWeek",
+      "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
+      "publishedAt": "2026-10-01T08:26:03Z",
+      "excerpt": "# Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability. **Cisco on Wednesday rolled out urgent patches for a critical authentication bypass in Catalyst SD-WAN Manager that has been exploited in the wild.**. Tracked as CVE-2026-76504 (CVSS score of 9.8), the flaw impacts the API session-based authentication mechanism and could allow remote, unauthenticated attackers to gain administrative access to a vulnerable system. “An attacker could exploit this vulnerability by sending a crafted…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.029
+      },
+      "id": "5994c54313fd0f8a",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "IBM Introduces Self-Hosted Deployment for IBM Bob to Help Enterprises Advance AI Sovereignty and Governance - IBM Newsroom",
+      "url": "https://newsroom.ibm.com/2026-10-01-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+      "publishedAt": "2026-10-01T04:03:45Z",
+      "excerpt": "# IBM Introduces Self-Hosted Deployment for IBM Bob to Help Enterprises Advance AI Sovereignty and Governance. **ARMONK, N.Y., October 1, 2026** – Today IBM (NYSE: IBM) announced self-hosted deployment for IBM Bob, allowing organizations to bring AI software development to on-premises, private-cloud, sovereign-cloud, and air-gapped environments where they have control. IBM Bob’s self-hosted deployment option brings AI to customer-managed infrastructure and is specifically designed for…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.025
+      },
+      "id": "490f1955d9a6eee9",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Use.ai reaches 1 million monthly users with 10+ AI models in one app - The Next Web",
+      "url": "https://thenextweb.com/news/use-ai-1-million-monthly-active-users",
+      "publishedAt": "2026-10-01T12:00:26Z",
+      "excerpt": "For users who have already built up months or years of conversations, preferences, files and personal context inside one platform, moving to a better model can also mean starting again. Use.ai was built around the idea that people should be able to switch between the intelligence they use without changing the interface or losing their context. Less than a year after launch, the all-in-one AI workspace has reached one million monthly active users. It gives consumers access to more than 10…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.024
+      },
+      "id": "fa7a847d06a5de47",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Rolling the cyber dice with open-source and open-weight AI models - csoonline.com",
+      "url": "https://www.csoonline.com/article/4229623/rolling-the-cyber-dice-with-open-source-and-open-weight-ai-models.html",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "## More code means more risk exposure as cost pressures push organizations toward less-vetted models. What we are dealing with now is a new kind of exposure. For LLMs and AI models, there are invisible risks that are unscannable and virtually undetectable using traditional cybersecurity methods. Bad actors have the ability to embed malicious or undesired behavior inside a model in a way that cannot be easily tested today. What I am adding is a disqualifier: a vendor who cannot teach me…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.115
+      },
+      "id": "ec5e447ed79afad9",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Stem cell discovery opens nonsurgical era for lumbar spinal stenosis - Drug Discovery News",
+      "url": "https://www.drugdiscoverynews.com/stem-cell-discovery-opens-nonsurgical-era-for-lumbar-spinal-stenosis-17561",
+      "publishedAt": "2026-10-01T13:30:00Z",
+      "excerpt": "When a thin ligament in the spine thickens and bulges into the central canal, it compresses spinal nerves and leads to pain, numbness, and mobility issues. Hoping to change that, researchers at Weill Cornell Medicine and the Hospital for Special Surgery (HSS) set out to break down why the ligament undergoes hypertrophy. Reasoning that abnormal growth begins with activated, tissue-resident stem cells producing excess ligament cells, the team sought to identify the stem cells responsible for…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.017
+      },
+      "id": "2f5951e16f3d7b36",
+      "collectedAt": "2026-10-02T13:58:57.019482+00:00"
     }
   ],
-  "updatedAt": "2026-10-02T02:16:30.279565+00:00"
+  "updatedAt": "2026-10-02T13:58:57.019482+00:00"
 }
