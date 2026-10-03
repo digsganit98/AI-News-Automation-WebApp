@@ -1150,6 +1150,236 @@
           "checkedAt": "2026-10-03T12:39:15.565797Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-03T17:28:03.226788+00:00",
+      "newItems": 20,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.244689Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.288382Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 872,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.288823Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.289167Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.289358Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.289532Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.289728Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.289911Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.290079Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.290248Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 33,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.290413Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.290478Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.290526Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.290806Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.290858Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.291019Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.291182Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.291483Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-03T17:28:03.291698Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.291887Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.292049Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.292289Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.292452Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.292618Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.293289Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.293477Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.293682Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-03T17:28:03.293739Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2320,7 +2550,292 @@
       },
       "id": "e0d1a79ddc9fb170",
       "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "8 AI Video Mistakes That Make App Ads Feel Boring",
+      "url": "https://medium.com/@henrichstenn/8-ai-video-mistakes-that-make-app-ads-feel-boring-9080fb9bdf3e?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T15:01:01Z",
+      "excerpt": "A strong app video helps someone picture the product in a real workflow. These eight mistakes can make even a polished clip feel flat. Continue reading on Medium »",
+      "author": "Henrich the growth expert",
+      "extra": {},
+      "id": "32fccc11955187ec",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Prompt to RAG: The Anatomy of a Generative AI Application",
+      "url": "https://medium.com/@ahmet.kalafat/from-prompt-to-rag-the-anatomy-of-a-generative-ai-application-041119bf40b6?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T15:01:01Z",
+      "excerpt": "A Generative AI Journey with Google Cloud — Part 4/6. A GenAI application is made of three parts, but its quality is determined by prompt… Continue reading on Medium »",
+      "author": "Ahmet Kalafat",
+      "extra": {},
+      "id": "4418247dca47609b",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Generative AI Fails Without Source Truth in GxP Regulatory Monitoring",
+      "url": "https://medium.com/@rahuldewangan488/why-generative-ai-fails-without-source-truth-in-gxp-regulatory-monitoring-9d3991645a3b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T14:30:47Z",
+      "excerpt": "*Part 1 of 3 — Source truth before any summary* Continue reading on Medium »",
+      "author": "Rahuldewangan",
+      "extra": {},
+      "id": "db5c92371eed84b2",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "GPT-Live-1: What a Five-Cent Voice Minute Really Buys",
+      "url": "https://medium.com/@ibokkon/gpt-live-1-what-a-five-cent-voice-minute-really-buys-33abd2853878?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T14:28:46Z",
+      "excerpt": "OpenAI’s full-duplex voice model is in the API. Conversation costs and backend reasoning belong on the same budget. Continue reading on Medium »",
+      "author": "Balthasar",
+      "extra": {},
+      "id": "f9f76db8d6861dfb",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "I Quit OpenAI Because Its Culture Is Broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+      "publishedAt": "2026-10-03T13:46:34Z",
+      "excerpt": "",
+      "author": "Brajeshwar",
+      "extra": {
+        "points": 81,
+        "comments": 128,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+      },
+      "id": "3213fa585b03b215",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "US killer's sentence quashed because of AI video of victim shown in court",
+      "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+      "publishedAt": "2026-10-03T13:34:18Z",
+      "excerpt": "",
+      "author": "porridgeraisin",
+      "extra": {
+        "points": 56,
+        "comments": 43,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49944127"
+      },
+      "id": "32ff31b64593cd1b",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "publishedAt": "2026-10-03T10:43:51Z",
+      "excerpt": "",
+      "author": "tejaskumar__",
+      "extra": {
+        "points": 365,
+        "comments": 147,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49943034"
+      },
+      "id": "9a14422b82b9b3e3",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Offrun – manage every coding agent from one workspace",
+      "url": "https://offrun.dev/",
+      "publishedAt": "2026-10-03T08:40:17Z",
+      "excerpt": "",
+      "author": "arunbhatia",
+      "extra": {
+        "points": 60,
+        "comments": 26,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49942434"
+      },
+      "id": "115c53d07cd9661a",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "qwen4exp : halve the indexer score memory by ServeurpersoCom · Pull Request #29825 · ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/29825",
+      "publishedAt": "2026-10-03T06:18:34Z",
+      "excerpt": "Qwen Flash Next now uses less VRAM",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wwfyv6/qwen4exp_halve_the_indexer_score_memory_by/"
+      },
+      "id": "605dd3932b0f42d1",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "DataInventor: an open-source replication of Adoption Lab's Invent a Dataset",
+      "url": "https://huggingface.co/spaces/LocalLLaMA/data-inventor",
+      "publishedAt": "2026-10-03T01:40:33Z",
+      "excerpt": "",
+      "author": "/u/asankhs",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wwb0lh/datainventor_an_opensource_replication_of/"
+      },
+      "id": "7513b9ccac6ee1ff",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "'AI Doomsday': Why Big Tech Wants You Scared",
+      "url": "https://www.androidheadlines.com/2026/10/ai-doomerism-doomsday-hype-rogue-agents-political-distraction.html",
+      "publishedAt": "2026-10-02T23:58:54Z",
+      "excerpt": "",
+      "author": "/u/Nexusyak",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1ww90sy/ai_doomsday_why_big_tech_wants_you_scared/"
+      },
+      "id": "78c6af601d154961",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "This light-powered AI can spot deepfakes with nearly 98% accuracy",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260929053534.htm",
+      "publishedAt": "2026-10-02T21:38:39Z",
+      "excerpt": "",
+      "author": "/u/ai-edition",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1ww5zwo/this_lightpowered_ai_can_spot_deepfakes_with/"
+      },
+      "id": "83dd7ed522dea8e6",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Meta is giving Muse subscribers a free gadget that lets its AI control your smart home",
+      "url": "https://madrobot.blog/2026/10/02/meta-muse-home-link-free-gadget-subscribers-smart-home-diy-gadgets/",
+      "publishedAt": "2026-10-02T20:41:16Z",
+      "excerpt": "Have you claimed yours yet?",
+      "author": "/u/ross2000",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1ww4mhj/meta_is_giving_muse_subscribers_a_free_gadget/"
+      },
+      "id": "66d8fe20e93fbe4a",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AMD Ryzen AI Developer Platform OS updated with ROCm 10.0, Linux 7.2",
+      "url": "https://www.phoronix.com/news/Ryzen-AI-Dev-Platform-Sep-2026",
+      "publishedAt": "2026-10-02T20:27:52Z",
+      "excerpt": "",
+      "author": "/u/Fcking_Chuck",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1ww4amv/amd_ryzen_ai_developer_platform_os_updated_with/"
+      },
+      "id": "0cff99839ee00301",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Three OpenAI “safety” researchers reportedly handed an outside group sensitive blueprints of OpenAI’s AI infrastructure",
+      "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html?m=1",
+      "publishedAt": "2026-10-02T19:31:33Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1ww2wwb/three_openai_safety_researchers_reportedly_handed/"
+      },
+      "id": "9c62aa8c931a59fc",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "CEOs Keep Crying AGI. What Does That Even Mean? - Business Insider",
+      "url": "https://www.businessinsider.com/tech-ceos-declare-agi-is-here-2026-10",
+      "publishedAt": "2026-10-02T09:19:01Z",
+      "excerpt": "\"Welcome to the AGI era,\" OpenAI president Greg Brockman declared on a call with reporters in September, touting the company's latest AI model. AGI, or artificial general intelligence, is a nebulous term often taken to mean an AI model that can perform a wide variety of tasks as well as or better than a human. However, others in the industry told Business Insider that the term is, at best, too poorly defined to serve as a meaningful benchmark. \"It's all just marketing talk, and it's complete…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.23
+      },
+      "id": "51cf589babe374e8",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Agents Aimed SQL Injection at US and Canadian Government Sites - SecurityWeek",
+      "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
+      "publishedAt": "2026-10-02T08:38:46Z",
+      "excerpt": "The attacks targeted the US Department of Education and Library and Archives Canada, and researchers linked some agents to OpenAI. **AI agents appear to have attempted to hack a US Department of Education website and a Library and Archives Canada service while trying to access public data, according to AI research lab Transluce.**. “Data stored on this website appears to match a web search task in Google’s DeepSearchQA benchmark, suggesting that the agents were not given a hacking-related task…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.172
+      },
+      "id": "b80d35c88f7cde9e",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "'We can't trust them completely': AI research fellows warn that labs are running models with the safeguards off behind closed doors - Fortune",
+      "url": "https://fortune.com/2026/10/02/we-cant-trust-them-completely-labs-safeguards/",
+      "publishedAt": "2026-10-02T22:05:00Z",
+      "excerpt": "# ‘We can’t trust them completely’: AI research fellows warn that labs are running models with the safeguards off behind closed doors. “We can’t trust them completely to tell us about the safety of models,” Alan Chan, a research fellow at GovAI, told reporters at a briefing in Washington on Sept. Chan said models inside the labs, tested before anyone outside sees them, “haven’t necessarily gone through a bunch of safety testing,” and “internal safeguards have not been deployed.” Running with…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.132
+      },
+      "id": "6c72dbcaddadd188",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Global tech policymakers agree to embrace AI in science - NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/global-tech-policymakers-embrace-ai-science-rcna600974",
+      "publishedAt": "2026-10-03T13:00:41Z",
+      "excerpt": "A joint statement issued by the United States and 15 other countries touts the technology’s potential for accelerating scientific progress. The United States on Sunday will release a joint statement with 15 other countries describing a shared vision for a “golden age of science” that embraces the potential of artificial intelligence. The announcement is expected in Kyoto, Japan, at this year’s Science and Technology in Society Forum, an annual gathering of experts and policymakers that began…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.108
+      },
+      "id": "7e66416645378de7",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Taxation With Representation: Hogan Lovells, Davies, Sidley - Law360",
+      "url": "https://www.law360.com/real-estate-authority/commercial/articles/2533343/taxation-with-representation-hogan-lovells-davies-sidley",
+      "publishedAt": "2026-10-02T18:30:46Z",
+      "excerpt": "# Taxation With Representation: Hogan Lovells, Davies, Sidley. By **Zak Kostro** · October 2, 2026, 2:30 PM EDT. In this week's Taxation With Representation, semiconductor company Advanced Micro Devices buys AI model developer and research lab World Labs, Brixmor Property Group, and private investment management firm Everview Partners acquires... To view the full article, register now. Try a seven day FREE Trial. ### Recent Articles By Zak. Redo On Easement Value Cut. 'Survivor' Winner Asks…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.058
+      },
+      "id": "324465f0d19d8251",
+      "collectedAt": "2026-10-03T17:28:03.226788+00:00"
     }
   ],
-  "updatedAt": "2026-10-03T12:39:15.502067+00:00"
+  "updatedAt": "2026-10-03T17:28:03.226788+00:00"
 }
