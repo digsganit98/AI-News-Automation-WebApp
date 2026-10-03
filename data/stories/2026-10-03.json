@@ -702,7 +702,115 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "personadose-enables-precise-control-of-ai-person-ee8687",
+      "createdAt": "2026-10-03T06:48:37.749311+00:00",
+      "headline": "PersonaDose enables precise control of AI personality traits",
+      "summary": "Researchers introduced PersonaDose, a technique that lets users specify the intensity of individual personality traits in language models. It improves trait expression accuracy compared to earlier methods across several popular models.",
+      "whyItMatters": "Better personality control can make AI assistants more aligned with user preferences.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36388"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36388",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "spatial-guidance-training-improves-visual-reason-287275",
+      "createdAt": "2026-10-03T06:48:37.749311+00:00",
+      "headline": "Spatial guidance training improves visual reasoning in multimodal AI",
+      "summary": "A new training method uses synthetic scenes with known object locations to teach multimodal models better spatial awareness. The approach boosts performance on real-world perception tasks without needing manual data annotation.",
+      "whyItMatters": "Enhanced spatial reasoning can improve applications like robotics and augmented reality.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02117"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02117",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "neighborhood-opsd-improves-mathematical-reasonin-9d5567",
+      "createdAt": "2026-10-03T06:48:37.749311+00:00",
+      "headline": "Neighborhood OPSD improves mathematical reasoning in smaller language models",
+      "summary": "Neighborhood OPSD uses multiple slightly varied versions of a model to provide richer supervision for mathematical reasoning tasks. This method raises benchmark scores for smaller language models on competitive math tests.",
+      "whyItMatters": "It shows that smaller models can achieve stronger reasoning abilities with smarter training.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39687"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39687",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "using-smaller-models-for-negative-example-genera-1d2147",
+      "createdAt": "2026-10-03T06:48:37.749311+00:00",
+      "headline": "Using smaller models for negative example generation reduces AI training costs",
+      "summary": "Researchers explored generating negative examples with smaller models for preference distillation, challenging the belief that only large models provide useful training data. This approach aims to cut computational expenses in AI training pipelines.",
+      "whyItMatters": "Lowering training costs can make advanced AI more accessible to a broader range of developers.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38987"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38987",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-03T02:22:23.260585+00:00"
+  "updatedAt": "2026-10-03T06:48:40.326174+00:00"
 }

@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-03T02:16:31.159543Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-03T06:42:18.093572+00:00",
+      "newItems": 11,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.110682Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.155150Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 872,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.155597Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.155896Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156050Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156196Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156329Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156476Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156618Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156750Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 23,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156878Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156934Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.156973Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.157195Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.157235Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.157365Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.157511Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.157805Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-03T06:42:18.157942Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.158083Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.158216Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.158417Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.158612Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.158756Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.159407Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.159631Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.159795Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-03T06:42:18.159840Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1596,7 +1826,169 @@
       },
       "id": "fc1c6e27930ec3ef",
       "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Persona Dosing: Calibrated Activation Steering for Graded Trait Control",
+      "url": "https://huggingface.co/papers/2609.36388",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "An activation-steering coefficient sets intervention strength, but requesting a particular degree of persona expression requires a behavioral scale. We study persona dosing: controlling a language model through a trait description and a requested mean intensity. PersonaDose specializes a shared, description-conditioned FLAS controller on persona responses, then calibrates its flow time against measured trait expression. Training responses are not paired with requested target intensities.…",
+      "author": "Zehao Jin, Junran Wang, Ruixuan Deng, Jiahao Chen, Jingyuan Zhang, Yuxuan Zhang, Xinjie Shen",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.36388"
+      },
+      "id": "ee86873a0a212455",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+      "url": "https://huggingface.co/papers/2610.02117",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves that receives privileged information. Its application to multimodal large language models (MLLMs), however, remains largely unexplored. Recent approaches use privileged visual information, such as image crops corresponding to a question, to improve fine-grained perception, but their gains are confined to tasks that…",
+      "author": "Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.02117"
+      },
+      "id": "287275124a79edaa",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Better Supervision Is Nearby: Neighborhood On-Policy Self-Distillation",
+      "url": "https://huggingface.co/papers/2609.39687",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "On-policy self-distillation (OPSD) trains mathematical reasoning models using a privileged teacher that sees a reference solution and supervises student-sampled prefixes. Standard OPSD uses one fixed parameter setting at every state, but nearby settings may offer additional supervision. We find that local parameter perturbations reveal complementary reference-aligned corrections under the same reference context. Different experts supply these corrections at different reference positions. Their…",
+      "author": "Xincheng Wei, Yifan Ding, Yoshua Li, Yuquan Lu, Ziheng Li, Yi Lu, Dongsheng Ma, Rongxiang Weng, Xunliang Cai",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": "https://arxiv.org/abs/2609.39687",
+        "arxivUrl": "https://arxiv.org/abs/2609.39687"
+      },
+      "id": "9d5567946e74fb1b",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Smaller Models, Better Rejects: Preference Distillation Scaling",
+      "url": "https://huggingface.co/papers/2609.38987",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Preference distillation typically treats a teacher response as preferred and the student's own response as rejected. This assumes that self-generated failures are the most informative negatives and that rejects must come from a model at least as large as the student, making generation costly at scale. We find neither assumption holds: across students from 7B to 72B, smaller frozen models generate rejects with less inference compute yet train stronger students than self-generated rejects,…",
+      "author": "Rui Cai, Wenhui Zhu, Xiwen Chen, Jincheng Cao, Han Yu, Shayan Mohajer Hamidi, Zelin He, Qiyao Ma, Daiwei Chen, Xuanzhao Dong, Yuanda Xu, Jelena Markovic-Voronov, Kayhan Behdin, Zhengze Zhou, Ran He, Alborz Geramifard, Rohit Jain, Zhe Zhao",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38987"
+      },
+      "id": "1d214724f9436e5e",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Cloudflare/clef-flash",
+      "url": "https://huggingface.co/Cloudflare/clef-flash",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 283,
+        "trendingScore": 277,
+        "task": "image-text-to-text"
+      },
+      "id": "da99a1199a5c8ed9",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Transformers Explained Simply: How LLMs Like ChatGPT Actually Work",
+      "url": "https://medium.com/@gawaisgtasleem/transformers-explained-simply-how-llms-like-chatgpt-actually-work-1136ad9465e6?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T05:27:01Z",
+      "excerpt": "A beginner-friendly 5-minute guide to tokens, attention, training, and the technology behind modern AI Continue reading on Medium »",
+      "author": "perfcalcpro",
+      "extra": {},
+      "id": "c267aa9e37aa452d",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Tools Are Not the Skill — Knowing How to Use Them Is",
+      "url": "https://medium.com/@aryanku723/ai-tools-are-not-the-skill-knowing-how-to-use-them-is-802bb29c3c28?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T03:34:38Z",
+      "excerpt": "ChatGPT, Gemini, Claude, Midjourney, Runway and other AI tools are everywhere. Continue reading on Medium »",
+      "author": "Aryanku",
+      "extra": {},
+      "id": "7f86625625d6477b",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The New Attack Surface of Agentic AI: When LLMs Can Reason, Retrieve and Act",
+      "url": "https://medium.com/@venkatasudheers84778/the-new-attack-surface-of-agentic-ai-when-llms-can-reason-retrieve-and-act-b6a7c516077e?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T02:45:15Z",
+      "excerpt": "Why securing AI agents requires more than securing the model Continue reading on Medium »",
+      "author": "Venkata sudheer S",
+      "extra": {},
+      "id": "a6ff8599e5eab69d",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Your Business Appears in Some ChatGPT Searches but Not Others",
+      "url": "https://medium.com/@scorivra/why-your-business-appears-in-some-chatgpt-searches-but-not-others-2a9ec6673b40?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T01:43:25Z",
+      "excerpt": "Why Does My Business Appear in Some ChatGPT Searches but Not Others? Continue reading on Medium »",
+      "author": "Scorivra",
+      "extra": {},
+      "id": "cdd69563567eb7f8",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What is recursive self-improvement, and what would it mean to ban it? — EA Forum",
+      "url": "https://forum.effectivealtruism.org/posts/QWbiPy4eYKZCesZdy/what-is-recursive-self-improvement-and-what-would-it-mean-to",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Sounds simple enough. We probably should just not let AI models build successive AI models in ways that human researchers can’t oversee, because that sounds very dicey. But there’s another wrinkle, which is that no one can agree on what RSI actually is. Sam Altman made this point in an interview with Fortune: “I think it’s very hard to say what a ban on RSI means”. Maybe he is just participating in the classic AGI Lab CEO practice of injecting undue slipperiness into the definition of various…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.255
+      },
+      "id": "55babedf771f6622",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What is an MCP Server & How It Works | Kestra",
+      "url": "https://kestra.io/resources/ai/mcp-server",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "An MCP (Model Context Protocol) server is a component that provides a standardized interface for AI models to discover and interact with external tools, data sources, and services. The AI application connects to it through an MCP client, lists what the server offers, and calls it over a standard JSON-RPC protocol, so one integration works with any MCP-compatible model or agent. [...] ResourcesAI\n\n# What is an MCP Server: Connecting AI to External Systems\n\nAn MCP (Model Context Protocol) server…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.661
+      },
+      "id": "e6ba47407bad991a",
+      "collectedAt": "2026-10-03T06:42:18.093572+00:00"
     }
   ],
-  "updatedAt": "2026-10-03T02:16:31.095753+00:00"
+  "updatedAt": "2026-10-03T06:42:18.093572+00:00"
 }
