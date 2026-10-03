@@ -540,7 +540,169 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "survey-outlines-methods-for-aligning-video-gener-e59a1a",
+      "createdAt": "2026-10-03T02:19:53.375601+00:00",
+      "headline": "Survey outlines methods for aligning video generation models with human intent",
+      "summary": "Researchers published a comprehensive review of post-training strategies for video generation models. The paper categorizes techniques such as supervised fine-tuning and preference-based methods to help models better follow instructions and maintain temporal consistency.",
+      "whyItMatters": "It establishes a clear taxonomy for aligning video models, which helps developers improve output quality and instruction-following capabilities.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.00812"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.00812",
+        "code": "https://github.com/people-robots/Awesome-Video-Generation-Post-Training",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "small-lora-adapter-extends-reasoning-depth-in-fr-740f68",
+      "createdAt": "2026-10-03T02:19:53.375601+00:00",
+      "headline": "Small LoRA adapter extends reasoning depth in frozen transformer models",
+      "summary": "A study found that large language models often stop processing context chains too early. Adding a tiny, task-trained LoRA adapter to one early layer allows frozen models to follow much longer reference chains, significantly improving accuracy on complex tasks.",
+      "whyItMatters": "It offers an efficient way to enhance model reasoning depth without the high cost of full retraining.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36585"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36585",
+        "code": "https://github.com/Lunamos/stop-thinking-too-early",
+        "model": null,
+        "demo": "https://lunamos.github.io/stop-thinking-too-early/"
+      }
+    },
+    {
+      "id": "meta-launches-open-source-muse-gadgets-for-custo-83485a",
+      "createdAt": "2026-10-03T02:19:53.375601+00:00",
+      "headline": "Meta launches open-source Muse Gadgets for custom AI hardware",
+      "summary": "Meta has introduced Muse Gadgets, an open-source project that allows developers to build custom hardware connected to the Muse AI agent. The company provides firmware and a Linux SDK, enabling users to connect Muse to devices like Raspberry Pi boards, e-ink displays, or home networks.",
+      "whyItMatters": "It lowers the barrier for developers to build physical devices powered by conversational AI agents.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mit-and-sakana-ai-release-sift-to-reduce-coding-f45fb1",
+      "createdAt": "2026-10-03T02:19:53.375601+00:00",
+      "headline": "MIT and Sakana AI release SIFT to reduce coding agent evaluation costs",
+      "summary": "A new framework called SIFT, developed by MIT and Sakana AI, uses a large language model judge to lower the cost of evaluating self-improving coding agents. The tool aims to reduce the thousands of CPU hours and dollars typically required to test multiple candidate changes.",
+      "whyItMatters": "It makes the iterative testing of self-improving code agents much more affordable for development teams.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://venturebeat.com/orchestration/new-mit-and-sakana-ai-framework-uses-an-llm-judge-to-cut-evaluation-costs-for-self-improving-coding-agents"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-introduces-dots-an-enterprise-focused-ai-5028b5",
+      "createdAt": "2026-10-03T02:19:53.375601+00:00",
+      "headline": "OpenAI introduces Dots, an enterprise-focused AI agent platform",
+      "summary": "OpenAI has launched Dots, a new agent platform designed for workplace tasks that can use software like Blender and GIMP. Unlike free consumer agents, Dots is currently available only to users on OpenAI's highest-tier accounts, such as the $100-per-month Pro plan.",
+      "whyItMatters": "It gives enterprise teams access to more capable workspace automation agents that interact with professional software tools.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "palm-bay-florida-builds-in-house-ai-system-for-p-794faa",
+      "createdAt": "2026-10-03T02:19:53.375601+00:00",
+      "headline": "Palm Bay, Florida builds in-house AI system for public and staff queries",
+      "summary": "The city of Palm Bay is using a self-hosted AI system to answer questions from staff and the public. This approach keeps the underlying data within the city's own infrastructure, addressing concerns about data privacy and external dependencies.",
+      "whyItMatters": "It demonstrates how local governments can adopt conversational AI while maintaining strict data sovereignty.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.govtech.com/artificial-intelligence/palm-bay-fla-s-answer-to-ai-drift-build-it-in-house"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-03T01:26:03.122548+00:00"
+  "updatedAt": "2026-10-03T02:22:23.260585+00:00"
 }

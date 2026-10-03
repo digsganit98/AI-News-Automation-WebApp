@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-03T01:15:37.908211Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-03T02:16:31.095753+00:00",
+      "newItems": 8,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.113043Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.154108Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 872,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.154499Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.154800Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.154975Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.155147Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.155313Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.155508Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.155676Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.155841Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.156000Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.156063Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.156111Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.156351Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.156421Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.156592Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.156756Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.157136Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-03T02:16:31.157393Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.157669Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.157858Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.158086Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.158247Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.158451Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Blocked' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-10-03T02:16:31.159084Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.159274Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.159485Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-03T02:16:31.159543Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1242,7 +1472,131 @@
       },
       "id": "85caaead8ad91d84",
       "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+      "url": "https://huggingface.co/papers/2610.00812",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics. Despite strong generative priors learned through large-scale pretraining, pretrained video models often fail to reliably follow human intent, maintain temporal coherence, or satisfy physical and safety constraints. Compared with image and text generation, alignment in video generation presents unique challenges, including error accumulation…",
+      "author": "Chaoyu Li, Xiaoyi Gu, Yogesh Kulkarni, Eun Woo Im, Mohammadmahdi Honarmand, Zeyu Wang, Juntong Song, Fei Du, Xilin Jiang, Kexin Zheng, Tianzhi Li, Fei Tao, Pooyan Fazli",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/people-robots/Awesome-Video-Generation-Post-Training",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.00812"
+      },
+      "id": "e59a1a7d507fa967",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+      "url": "https://huggingface.co/papers/2609.36585",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B reaches 60 lines after four loops and at least 160 after eight. The LoRA starts a relay: program…",
+      "author": "Zehao Jin, Ruixuan Deng, Junran Wang",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/Lunamos/stop-thinking-too-early",
+        "projectPage": "https://lunamos.github.io/stop-thinking-too-early/",
+        "arxivUrl": "https://arxiv.org/abs/2609.36585"
+      },
+      "id": "740f68edb1418c0a",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "publishedAt": "2026-10-02T18:00:00Z",
+      "excerpt": "# OpenAI’s Dot agent is enterprise software that can also order your dinner. It’s a tale as old as last week: OpenAI’s new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito — emphasis on work. In the future, OpenAI says you’ll be able to have multiple Dots, but right now you get one. The interface looks similar to Muse’s;…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.452
+      },
+      "id": "cf70e45ebac24c28",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta wants you to build your own Muse gadget - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "publishedAt": "2026-10-03T00:45:39Z",
+      "excerpt": "Meta’s Muse, a personal AI agent that books travel, fills out forms, and shops on a user’s behalf, has already proven popular with the masses, but a new side project could be particularly alluring to tinkerers and hackers. On Friday, the company introduced Muse Gadgets, an open-source project that lets developers build their own hardware that connects to Muse. Meta is providing open-source firmware (the low-level software that runs a device), and a Linux software development kit (SDK), along…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.39
+      },
+      "id": "2d915e86c2608ecf",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "MIT's SIFT cuts coding agent eval costs - venturebeat.com",
+      "url": "https://venturebeat.com/orchestration/new-mit-and-sakana-ai-framework-uses-an-llm-judge-to-cut-evaluation-costs-for-self-improving-coding-agents",
+      "publishedAt": "2026-10-02T22:50:08Z",
+      "excerpt": "# New MIT and Sakana AI framework uses an LLM judge to cut evaluation costs for self-improving coding agents. Each candidate change needs testing, and a search across many candidates can consume thousands of CPU hours and cost thousands of dollars. Recursive Self-Improvement via Fast Tree Search (SIFT), a framework from researchers at MIT and Sakana AI, tries to cut that evaluation cost. That lets the search explore several branches without waiting for a full test after every patch. On the…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.353
+      },
+      "id": "f45fb1270f9e6ac3",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "NSW Health uses AI to help map staff access to digital patient record system - iTnews",
+      "url": "https://www.itnews.com.au/news/nsw-health-uses-ai-to-help-map-staff-access-to-digital-patient-record-system-629328",
+      "publishedAt": "2026-10-01T20:55:00Z",
+      "excerpt": "## NSW Health uses AI to help map staff access to digital patient record system ## Chinese hackers impersonated ex-US official to steal emails from AI experts ## ACCAN wants temporary disaster roaming mandate ## Fortescue introduces agentic 'capability' to procurement ## Cisco says no workaround for exploited SD-WAN Manager flaw. # NSW Health uses AI to help map staff access to digital patient record system. * NSW Health is using Amazon Bedrock within its AWS tenancy to help assign role-based…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.094
+      },
+      "id": "7899202c16921235",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Palm Bay, Fla.’s Answer to AI Drift: Build It In-House - govtech.com",
+      "url": "https://www.govtech.com/artificial-intelligence/palm-bay-fla-s-answer-to-ai-drift-build-it-in-house",
+      "publishedAt": "2026-10-01T21:55:19Z",
+      "excerpt": "# Palm Bay, Fla.’s Answer to AI Drift: Build It In-House. ## The Florida city is using a self-hosted AI system to answer questions from staff and the public while keeping the underlying data inside its own infrastructure. The city was trying to answer a more fundamental question: What would it take to use generative AI without handing its information over to a commercial AI service? “We began developing our internal AI infrastructure (hardware and software) in early 2025 after evaluating risk,…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.054
+      },
+      "id": "5c571fc7856bf478",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive thanks to AI - Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+      "publishedAt": "2026-10-02T14:52:16Z",
+      "excerpt": "# The 7-year-old Nvidia Shield TV is now $100 more expensive thanks to AI. Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99. The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it’s getting more expensive. Nvidia has just announced that the Shield TV Pro is getting $100 more expensive, effective immediately. The device launched at $199.99, with a non-Pro variant at $149.99. The non-Pro…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.049
+      },
+      "id": "fc1c6e27930ec3ef",
+      "collectedAt": "2026-10-03T02:16:31.095753+00:00"
     }
   ],
-  "updatedAt": "2026-10-03T01:15:37.868060+00:00"
+  "updatedAt": "2026-10-03T02:16:31.095753+00:00"
 }
