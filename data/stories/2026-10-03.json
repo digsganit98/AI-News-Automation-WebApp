@@ -459,7 +459,88 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "x-tree-extracts-reusable-skill-hierarchies-to-im-d772d8",
+      "createdAt": "2026-10-03T01:26:00.268491+00:00",
+      "headline": "X-Tree extracts reusable skill hierarchies to improve agent generalization",
+      "summary": "Researchers introduced X-Tree, a method that builds reusable skill hierarchies from multi-step agent trajectories without calling language models. The approach boosts performance on benchmarks such as WebArena, ScienceWorld, and WebShop.",
+      "whyItMatters": "It offers a more efficient way to scale agent capabilities across diverse tasks.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.32993"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.32993",
+        "code": "https://github.com/sitaocheng/X-Tree",
+        "model": null,
+        "demo": "https://sitaocheng.github.io/xtree/"
+      }
+    },
+    {
+      "id": "omni-embed-mini-provides-dense-multimodal-embedd-9ecb29",
+      "createdAt": "2026-10-03T01:26:00.268491+00:00",
+      "headline": "Omni-Embed-Mini provides dense multimodal embeddings while preserving text retrieval quality",
+      "summary": "Omni-Embed-Mini is a 0.9 billion-parameter model that maps text, speech, audio, images, video, and documents into a single shared space. It keeps the text backbone frozen during training to avoid degrading text retrieval performance.",
+      "whyItMatters": "It enables unified multimodal search and retrieval without sacrificing existing text capabilities.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02148"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02148",
+        "code": "https://github.com/k-m-irfan/Omni-Embed-Mini",
+        "model": null,
+        "demo": "https://omniembed.cvmbzuai.com/"
+      }
+    },
+    {
+      "id": "runway-releases-open-weight-praxis-1-model-for-v-36c2b2",
+      "createdAt": "2026-10-03T01:26:00.268491+00:00",
+      "headline": "Runway releases open-weight Praxis-1 model for video-driven robot control",
+      "summary": "Runway unveiled Praxis-1, an open-weight AI model that leverages video knowledge to command physical robots. The model is being tested with partners such as Noble Machines and Standard Bots before a public release.",
+      "whyItMatters": "It brings advanced video-based robot control to a broader developer community.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Robotics",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://roboticsandautomationnews.com/2026/10/01/runway-moves-into-robotics-with-open-weight-praxis-1-ai-model/105402/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-02T21:00:56.497599+00:00"
+  "updatedAt": "2026-10-03T01:26:03.122548+00:00"
 }

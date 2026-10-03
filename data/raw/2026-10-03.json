@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-02T20:50:17.748805Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-03T01:15:37.868060+00:00",
+      "newItems": 17,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.878574Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.905206Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 872,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.905498Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.905694Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.905790Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.905876Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.905956Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906031Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906102Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906175Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906251Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906288Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906312Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906438Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906461Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906540Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906614Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.906973Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-03T01:15:37.907107Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.907216Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.907317Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.907447Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.907525Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.907599Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.908005Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.908097Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.908185Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-03T01:15:37.908211Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -765,7 +995,254 @@
       },
       "id": "13f20caa53a4638c",
       "collectedAt": "2026-10-02T20:50:17.685566+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization",
+      "url": "https://huggingface.co/papers/2609.32993",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Multi-step agents are trained on flat action streams: SFT and RLVR weight every token uniformly and ignore the sub-procedures that recur across tasks, the hierarchy that lets humans plan top-down from reusable routines. This structure sits unused, and flat training uses each scarce trajectory less fully than its content allows. Recent agents do use that structure, but only as LLM-written skills in context, never in the weights, so their gains do not generalize beyond retrieval. We instead…",
+      "author": "Sitao Cheng, Xunjian Yin, Zhiyuan Sun, Yuxuan Li, Ruiwen Zhou, Xiangru Jian, Victor Zhong",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/sitaocheng/X-Tree",
+        "projectPage": "https://sitaocheng.github.io/xtree/",
+        "arxivUrl": "https://arxiv.org/abs/2609.32993"
+      },
+      "id": "d772d82252e6170d",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Omni-Embed-Mini: Binding Modalities Without Forgetting via Dense Distillation",
+      "url": "https://huggingface.co/papers/2610.02148",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "excerpt": "Extending a text embedding model to new modalities typically degrades text retrieval quality, and existing omni-modal embedders compensate with multi-billion parameters. We present Omni-Embed-Mini, a 0.9B-parameter model that maps text, speech, audio, images, video, and visually-rich documents into a single shared cosine space without updating any text-side parameter. Our key insight is that the teacher signal requires no separate embedding model: each media sample is paired with a dense…",
+      "author": "Mohammed Irfan Kurpath, Jaseel Muhammad Kaithakkodan, Sahal Shaji Mullappilly, Ivan Laptev, Hisham Cholakkal",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/k-m-irfan/Omni-Embed-Mini",
+        "projectPage": "https://omniembed.cvmbzuai.com/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02148"
+      },
+      "id": "9ecb292c5931ad20",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "[Part 1] Why I Released “protocol-engineering-spec” Now",
+      "url": "https://medium.com/@eitoatsuta/part-1-why-i-released-protocol-engineering-spec-now-e211cfb89c65?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T00:16:11Z",
+      "excerpt": "▼ 20-Second Overview: The essence and background of this article at a glance. Continue reading on Medium »",
+      "author": "Eito Atsuta",
+      "extra": {},
+      "id": "3dbafd30e3c45f5d",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Context Persistence Dilemma in GenAI: Caching vs India’s DPDP Act",
+      "url": "https://medium.com/@nilesh.jangid/the-context-persistence-dilemma-in-genai-caching-vs-indias-dpdp-act-3df722383815?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T22:17:58Z",
+      "excerpt": "By Nilesh | Data & Systems Analyst Document Status: Independent Research & Portfolio Asset Continue reading on Medium »",
+      "author": "Nilesh",
+      "extra": {},
+      "id": "6945dcdd4c28fc05",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Make a Song with AI from One Sentence: A Suno and Udio Alternative",
+      "url": "https://rimlauf.medium.com/how-to-make-a-song-with-ai-from-one-sentence-a-suno-and-udio-alternative-b3fbf4db0099?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-02T21:01:56Z",
+      "excerpt": "You type a sentence. Something simple, like “a lo-fi beat with soft piano and rain sounds, slow tempo, late night studying.” Continue reading on Medium »",
+      "author": "Rimlauf",
+      "extra": {},
+      "id": "2e8494cd0e1d940f",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "publishedAt": "2026-10-02T20:00:15Z",
+      "excerpt": "",
+      "author": "antelocnova",
+      "extra": {
+        "points": 66,
+        "comments": 38,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49937916"
+      },
+      "id": "e35138269f8b51f6",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "GPT-6 Astra helped decipher a Napoleonic military letter that remained unread for 217 years; it took just 6 hours",
+      "url": "https://dev.ua/en/news/astra-rozshyfruvala-lyst-1809-ho-roku-1790927012",
+      "publishedAt": "2026-10-02T23:02:16Z",
+      "excerpt": "",
+      "author": "/u/Distinct-Question-16",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1ww7uga/gpt6_astra_helped_decipher_a_napoleonic_military/"
+      },
+      "id": "c892c99565b9f6cf",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Trump’s ‘super intelligence’ is being mocked by tech industry insiders: report",
+      "url": "http://independent.co.uk/news/world/americas/us-politics/trump-ai-super-intelligence-rebrand-b3060603.html",
+      "publishedAt": "2026-10-02T20:37:15Z",
+      "excerpt": "",
+      "author": "/u/theindependentonline",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1ww4ixs/trumps_super_intelligence_is_being_mocked_by_tech/"
+      },
+      "id": "012169a648983d1f",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Buying RTX 5090 At Micro Center Reportedly Now Requires Paperwork, Including A No-Export Declaration",
+      "url": "https://wccftech.com/buying-rtx-5090-at-micro-center-now-requires-paperwork/",
+      "publishedAt": "2026-10-02T20:35:45Z",
+      "excerpt": "",
+      "author": "/u/Boomfrag",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ww4hne/buying_rtx_5090_at_micro_center_reportedly_now/"
+      },
+      "id": "1c990ce1d0cb345c",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "microsoft/FrogNano-4B-2609 · Hugging Face",
+      "url": "https://huggingface.co/microsoft/FrogNano-4B-2609",
+      "publishedAt": "2026-10-02T20:16:26Z",
+      "excerpt": "An agentic model from Microsoft for the GPU poor https://huggingface.co/bartowski/FrogNano-4B-2609-GGUF FrogNano is derived from Qwen/Qwen3.5-4B, a general-purpose post-trained model designed for language, reasoning, coding, agentic, and multimodal tasks. FrogNano inherits Qwen3.5-4B's dense 32-layer hybrid Gated DeltaNet and gated-attention architecture, but its additional post-training is text-only and focused on repository-level software engineering. The model is further trained using…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1ww40o2/microsoftfrognano4b2609_hugging_face/"
+      },
+      "id": "ffeca88cf77a75e2",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Governance Tools: What Enterprises Should Look For | Amplix®",
+      "url": "https://amplix.com/insights/ai-governance-tools",
+      "publishedAt": "2026-10-01T16:17:56Z",
+      "excerpt": "OneTrust brings AI governance into a broader trust, privacy, data governance, and compliance environment, which is useful where AI risk is tightly connected to privacy, consent, data use, third-party risk, and regulatory reporting. In 2026 OneTrust moved toward real-time governance, adding AI agent discovery, an AI policy library, and runtime guardrail enforcement, with agent detection connectors for AWS Bedrock, Azure AI Foundry, and Vertex AI reaching general availability in the Spring [...]…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.521
+      },
+      "id": "61c733779900add5",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Vercel | Strands Agents",
+      "url": "https://strandsagents.com/docs/user-guide/sdk/model-providers/vercel",
+      "publishedAt": "2026-10-02T01:00:00Z",
+      "excerpt": "| Provider | Package |\n --- |\n| OpenAI | `@ai-sdk/openai` |\n| Amazon Bedrock | `@ai-sdk/amazon-bedrock` |\n| Anthropic | `@ai-sdk/anthropic` |\n| Google Generative AI | `@ai-sdk/google` |\n| Google Vertex | `@ai-sdk/google-vertex` |\n| Azure OpenAI | `@ai-sdk/azure` |\n| Mistral | `@ai-sdk/mistral` |\n| Cohere | `@ai-sdk/cohere` |\n| xAI Grok | `@ai-sdk/xai` |\n| DeepSeek | `@ai-sdk/deepseek` |\n| Groq | `@ai-sdk/groq` |\n\n### Community providers\n\nSection titled “Community providers” [...] # Amazon…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.408
+      },
+      "id": "2c8010a25d184294",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google Urges Fact Checking For Anyone Publishing Content Using Generative AI 10/02/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418453/google-urges-fact-checking-for-anyone-publishing-c.html",
+      "publishedAt": "2026-10-02T16:20:58Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Google Urges Fact Checking For Anyone Publishing Content Using Generative AI. Google updated its Search guidelines on Thursday to explain how to ensure the accuracy, authenticity and. trustworthiness prior to publishing generative AI content on websites.…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.385
+      },
+      "id": "927d561196fa778a",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Legaltech Rundown: Harvey Partners With Japanese Legal Data Company, Ivo Unveils Open-Source Model, and More - Law.com",
+      "url": "https://www.law.com/legaltechnews/2026/10/02/legaltech-rundown-harvey-partners-with-japanese-legal-data-company-ivo-unveils-open-source-model-and-more-/",
+      "publishedAt": "2026-10-02T17:13:32Z",
+      "excerpt": "Sign in to access your account and subscription. General Counsel  Innovation  Law Firm Hiring  Law Firm Management  Law Firm Office Launches and Closures  All Topics. The Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech. Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. All…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.375
+      },
+      "id": "34d7d18e032031b1",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google Publishes Guidelines For Using Generative AI Content Online 10/02/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418453/google-publishes-guidelines-for-using-generative-a.html?edition=144024",
+      "publishedAt": "2026-10-02T03:44:25Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Google Publishes Guidelines For Using Generative AI Content Online. Google updated its Search guidelines on Thursday to explain how to ensure the accuracy of generative AI. The company wants brands, companies and others to manually fact-check and review all…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.375
+      },
+      "id": "d2295e4e5dc718ce",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Runway moves into robotics with open-weight Praxis-1 AI model - Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/10/01/runway-moves-into-robotics-with-open-weight-praxis-1-ai-model/105402/",
+      "publishedAt": "2026-10-01T18:12:54Z",
+      "excerpt": "# Runway moves into robotics with open-weight Praxis-1 AI model. **Runway, one of the best-known developers of generative AI video technology, is moving into robotics with Praxis-1, an open-weight AI model designed to use knowledge learned from video to control physical robots.**. The company describes Praxis-1 as its first “world action model” and says it is based on the same large-scale video pretraining underlying its general world models. Runway is currently testing Praxis-1 with robotics…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.349
+      },
+      "id": "265544d997940b8b",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Daily 5 report for Oct. 2: AI is changing the way people shop for cars, but trust still gets the deal done - Automotive News",
+      "url": "https://canada.autonews.com/newsletters/daily-5/an-daily-5-congress-ai-car-buying-panel-1002/",
+      "publishedAt": "2026-10-02T19:00:00Z",
+      "excerpt": "# Daily 5 report for Oct. 2: AI is changing the way people shop for cars, but trust still gets the deal done. October 02, 2026 03:00 PM EDT. ## Featured Stories. Toyota rewrites online marketing playbook to grab AI bots’ attention. Toyota is rewriting its marketing strategy to attract artificial intelligence bots before humans, shifting from search engine optimization to generative engine optimization. Toyota planning $1.3 billion EV plant in Argentina to counter Chinese rivals’ push into…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.299
+      },
+      "id": "85caaead8ad91d84",
+      "collectedAt": "2026-10-03T01:15:37.868060+00:00"
     }
   ],
-  "updatedAt": "2026-10-02T20:50:17.685566+00:00"
+  "updatedAt": "2026-10-03T01:15:37.868060+00:00"
 }
