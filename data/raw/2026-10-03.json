@@ -920,6 +920,236 @@
           "checkedAt": "2026-10-03T06:42:18.159840Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-03T12:39:15.502067+00:00",
+      "newItems": 8,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.519272Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.560359Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 872,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.560711Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.561048Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.561248Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.561424Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.561591Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.561756Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.561915Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.562103Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 32,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.562266Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.562328Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.562376Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.562620Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.562670Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.562836Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.563026Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.563399Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-03T12:39:15.563659Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.563893Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.564122Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.564360Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.564526Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.564691Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Blocked' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-10-03T12:39:15.565361Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.565554Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.565743Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-03T12:39:15.565797Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1988,7 +2218,109 @@
       },
       "id": "e6ba47407bad991a",
       "collectedAt": "2026-10-03T06:42:18.093572+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "publishedAt": "2026-10-03T08:45:15Z",
+      "excerpt": "a quiet day.",
+      "author": "Latent.Space",
+      "extra": {},
+      "id": "6f506837167178c1",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Prompts to Production: Building Enterprise AI Agents with Google ADK",
+      "url": "https://medium.com/@swapnil29071999/from-prompts-to-production-building-enterprise-ai-agents-with-google-adk-51faa25f0e8e?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T12:05:27Z",
+      "excerpt": "Why Agent Development Kit (ADK) is becoming the go-to framework for building scalable AI agents on Google Cloud. Continue reading on Medium »",
+      "author": "Swapnil",
+      "extra": {},
+      "id": "0022a40d8af46831",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Fine-Tuning vs Knowledge Distillation: What’s the Difference?",
+      "url": "https://medium.com/@yadavshashank0907/fine-tuning-vs-knowledge-distillation-whats-the-difference-9a5538baab7b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T10:49:44Z",
+      "excerpt": "When I started learning about LLMs, I came across two concepts that initially sounded quite similar: Continue reading on Medium »",
+      "author": "Shashank Yadav",
+      "extra": {},
+      "id": "0bca463df0b05c0c",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Snowflake Cortex Analyst: Ask Your Data a Question, Get an Answer",
+      "url": "https://medium.com/@imprabhash/snowflake-cortex-analyst-ask-your-data-a-question-get-an-answer-b38876717f03?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T10:04:07Z",
+      "excerpt": "Let’s start with a problem you already have Continue reading on Medium »",
+      "author": "Prabhash Thakur",
+      "extra": {},
+      "id": "07bb25b5705ba501",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Can Summarize Anything. But Should You Trust What It Leaves Out?",
+      "url": "https://medium.com/ai-made-practical/ai-can-summarize-anything-but-should-you-trust-what-it-leaves-out-5bc8fb6676f6?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T09:11:01Z",
+      "excerpt": "Artificial intelligence has given us a powerful new button for dealing with information: Continue reading on AI Made Practical »",
+      "author": "AI Tool Steps",
+      "extra": {},
+      "id": "8946f51ef061582d",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Agents Explained: When AI Stops Just Answering and Starts Acting",
+      "url": "https://cybernerdie.medium.com/ai-agents-explained-when-ai-stops-just-answering-and-starts-acting-0abbf4175a9b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T08:09:35Z",
+      "excerpt": "AI agents can pursue goals, use tools and take actions. Continue reading on Medium »",
+      "author": "Joshua Idunnu Paul",
+      "extra": {},
+      "id": "7d3f211cbc880c8c",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Reco raises $55M to secure AI agents as vendor market crowds - news.lavx.hu",
+      "url": "https://news.lavx.hu/article/reco-raises-55m-to-secure-ai-agents-as-vendor-market-crowds",
+      "publishedAt": "2026-10-03T09:17:29Z",
+      "excerpt": "# Reco raises $55M to secure AI agents as vendor market crowds. AI agent security startup Reco has raised a $55 million extension to its Series B, bringing total funding to $140 million, as enterprises scramble to govern thousands of undocumented AI agents operating across their networks. AI agent security startup Reco announced Tuesday a $55 million funding extension that more than doubles its valuation since a $30 million Series B in February. The new capital brings Reco's total raised to…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.28
+      },
+      "id": "89066e72c29c7b52",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How to Evaluate Agentic AI Platforms for Enterprise",
+      "url": "https://www.moveworks.com/us/en/resources/blog/how-to-evaluate-agentic-ai-platform-enterprise-workflows",
+      "publishedAt": "2026-10-03T01:00:00Z",
+      "excerpt": "### \n\nAn enterprise agentic AI platform is a unified system that lets you design, deploy, govern, and scale AI agents that reason across your connected systems. Unlike a single-function tool, it takes permissioned action end to end across IT, HR, and other departments under enterprise controls.\n\n### [...] An enterprise agentic AI platform is designed to reason across connected systems and take permissioned action across them to support workflows end to end, within defined guardrails and…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.852
+      },
+      "id": "e0d1a79ddc9fb170",
+      "collectedAt": "2026-10-03T12:39:15.502067+00:00"
     }
   ],
-  "updatedAt": "2026-10-03T06:42:18.093572+00:00"
+  "updatedAt": "2026-10-03T12:39:15.502067+00:00"
 }
