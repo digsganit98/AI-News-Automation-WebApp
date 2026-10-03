@@ -1,0 +1,472 @@
+{
+  "date": "2026-10-04",
+  "runs": [
+    {
+      "runAt": "2026-10-03T22:15:35.017419+00:00",
+      "newItems": 16,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.030463Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.063304Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 872,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.063550Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.063766Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.063882Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.063989Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064131Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064256Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064360Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064461Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 34,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064559Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064602Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064631Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064801Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064831Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.064932Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.065029Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.065342Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-03T22:15:35.065522Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.065675Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.065823Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.066046Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.066236Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.066393Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.066935Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.067063Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.067228Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-03T22:15:35.067265Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "MENTAT: Teaching RAG Systems When to Retrieve, Connect, and Investigate",
+      "url": "https://medium.com/@sandeeps0774/mentat-teaching-rag-systems-when-to-retrieve-connect-and-investigate-94f3458e0613?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T21:14:44Z",
+      "excerpt": "An Adaptive Agentic GraphRAG Framework for Evidence-Grounded Reasoning Continue reading on Medium »",
+      "author": "Sandeeps",
+      "extra": {},
+      "id": "1dee1d35a20f06b3",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Does AI Actually Give You When You Ask for a “Reusable Prompt”?",
+      "url": "https://medium.com/prompt-odyssey/what-does-ai-actually-give-you-when-you-ask-for-a-reusable-prompt-faef2095284a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T18:05:17Z",
+      "excerpt": "I thought “reusable” meant turning one AI image into a flexible prompt I could change. Then I tested what ChatGPT actually did with the… Continue reading on Prompt Odyssey »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "077ddffb2e27ae61",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Our AI Midwife",
+      "url": "https://www.astralcodexten.com/p/our-ai-midwife",
+      "publishedAt": "2026-10-03T19:12:27Z",
+      "excerpt": "",
+      "author": "eatitraw",
+      "extra": {
+        "points": 59,
+        "comments": 41,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49946873"
+      },
+      "id": "523bb995812d12d8",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "publishedAt": "2026-10-03T18:29:30Z",
+      "excerpt": "",
+      "author": "saikatsg",
+      "extra": {
+        "points": 89,
+        "comments": 48,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49946567"
+      },
+      "id": "fc994d69ad09d9fe",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Pop!_OS bans AI-generated code from much of its codebase",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+      "publishedAt": "2026-10-03T17:57:03Z",
+      "excerpt": "",
+      "author": "bundie",
+      "extra": {
+        "points": 91,
+        "comments": 126,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49946321"
+      },
+      "id": "7835b7d998dec901",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "url": "https://pipod.dev/",
+      "publishedAt": "2026-10-02T19:10:38Z",
+      "excerpt": "",
+      "author": "edverma2",
+      "extra": {
+        "points": 57,
+        "comments": 25,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49937304"
+      },
+      "id": "884bedec01232db7",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+      "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+      "publishedAt": "2026-10-02T15:24:54Z",
+      "excerpt": "",
+      "author": "Betelbuddy",
+      "extra": {
+        "points": 50,
+        "comments": 23,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49934569"
+      },
+      "id": "78e3236485dba00a",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "The Rise of Overfit Inference Engines",
+      "url": "https://carteakey.dev/blog/local-inference/the-rise-of-overfit-inference-engines/",
+      "publishedAt": "2026-10-03T18:24:42Z",
+      "excerpt": "There seems to be a whole category of extremely narrow inference runtimes appearing: Strata, ninfer, DwarfStar, Splash, llamAmpere, gufo, etc. They deliberately give up the thing llama.cpp/vLLM are great at - generality - and optimize around a small number of models and sometimes one hardware family e.g. Strix Halo It seems that general runtimes for compatibility, disposable overfit runtimes for maximum performance is going to be the norm forward. This is actually another good step in helping…",
+      "author": "/u/carteakey",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wwu6zj/the_rise_of_overfit_inference_engines/"
+      },
+      "id": "e44c60972eb444e7",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "FLUX 3 Image: Maximum control over every pixel",
+      "url": "https://bfl.ai/models/flux-3-image",
+      "publishedAt": "2026-10-03T14:32:31Z",
+      "excerpt": "",
+      "author": "/u/SuperV1234",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wwopgk/flux_3_image_maximum_control_over_every_pixel/"
+      },
+      "id": "649e4d2bdd96ae81",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Aleph-Alpha/Kolibri-1 · Hugging Face - 78B parameters. 3.46B active. Up to 1M tokens of context - Apache 2.0",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "publishedAt": "2026-10-03T11:44:42Z",
+      "excerpt": "From Aleph Alpha on 𝕏: https://x.com/Aleph__Alpha/status/2106306840657297814 Tech report: https://aleph-alpha.com/downloads/tech-report.pdf",
+      "author": "/u/Nunki08",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wwl7y6/alephalphakolibri1_hugging_face_78b_parameters/"
+      },
+      "id": "2b2041c9e97d4bef",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Musk's AI chatbot Grok reportedly encouraged Trump to capture Venezuela's president",
+      "url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "publishedAt": "2026-10-03T05:49:57Z",
+      "excerpt": "",
+      "author": "/u/esporx",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1wwfhn1/musks_ai_chatbot_grok_reportedly_encouraged_trump/"
+      },
+      "id": "578143be7e8fa1a0",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "PewDiePie unveils \"uncensored\" Ajax AI model built to run on home PCs — creator says OpenAI banned him twice over model distillation used to build his product",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/pewdiepie-unveils-uncensored-ajax-ai-model-built-to-run-on-home-pcs-creator-says-openai-banned-him-twice-while-making-it",
+      "publishedAt": "2026-10-03T02:52:27Z",
+      "excerpt": "",
+      "author": "/u/ControlCAD",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1wwccsz/pewdiepie_unveils_uncensored_ajax_ai_model_built/"
+      },
+      "id": "10d81488939a1d42",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "XtalPi and Fangda Carbon Deploy Predictive AI to Optimize Cost and Material Efficiency in Graphite Electrode Manufacturing - The Manila Times",
+      "url": "https://www.manilatimes.net/2026/10/02/tmt-newswire/pr-newswire/xtalpi-and-fangda-carbon-deploy-predictive-ai-to-optimize-cost-and-material-efficiency-in-graphite-electrode-manufacturing/2438120",
+      "publishedAt": "2026-10-02T15:01:59Z",
+      "excerpt": "XtalPi and Fangda Carbon Deploy Predictive AI to Optimize Cost and Material Efficiency in Graphite Electrode Manufacturing. * The jointly developed AI model has passed comprehensive acceptance testing and is now operating within Fangda Carbon's production workflow. * By forecasting performance and screening formulations before physical trials, the system meets cost optimization targets while enabling rapid evaluation of substitute raw materials. * This initial deployment establishes a scalable…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.118
+      },
+      "id": "0369641acec81374",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Runway introduces Praxis-1 world action model for robotics - The Robot Report",
+      "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/",
+      "publishedAt": "2026-10-02T18:32:13Z",
+      "excerpt": "# Runway introduces Praxis-1 world action model for robotics. Runway said it is testing Praxis-1 on a variety of embodiments and environments to identify and close potential gaps before moving to general availability. Runway AI Inc. this week introduced Praxis-1, an open-weight world action model that turns Runway’s video pretraining into control for robots. The company said it built Praxis-1 on the same large-scale video pretraining behind its general world models. “Praxis-1 learns mostly…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.082
+      },
+      "id": "8038e7122f5f73f8",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Got $1,000? 2 Growth Stocks Building the Data Centers of the AI Infrastructure Supercycle. - The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/10/02/got-1000-2-growth-stocks-building-the-data-centers/",
+      "publishedAt": "2026-10-02T16:43:00Z",
+      "excerpt": "▲ S&P 500 **+---%**|▲ Stock Advisor **+---%**Join The Motley Fool. If you have $1,000 that you're ready to invest today, that would be enough to start positions in two of the chip stocks that look poised to lead the next wave of the artificial intelligence (AI) build-out in **Advanced Micro Devices** (AMD +2.95%) and **Broadcom** (AVGO +3.35%). It's developing processors that target the inference, agentic AI, and physical AI markets, and aims to be a viable contender in all three. The chiplet…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.082
+      },
+      "id": "8cc52032d99f85dd",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How to Create a Great First Startup Pitch Using AI",
+      "url": "https://fi.co/insight/how-to-create-a-great-first-startup-pitch-using-ai",
+      "publishedAt": "2026-10-03T01:00:00Z",
+      "excerpt": "Apply to the Program\n\nFounder Insights Newsletter\n\n## Join 50,000+ founders.\n\nSubscribe to our newsletter to receive exclusive startup articles, videos, and more.\n\nApplications are now open\n\n## Build your startup with AI agents doing the work\n\nJoin the FI Agentic Program: an AI-powered curriculum, world-class mentors, and free AI agents to turn your idea into a fundable company.\n\n9,000+ companies launched since 2009\n\n## Turn your idea into the next unicorn [...] Our programs helped launch…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.526
+      },
+      "id": "0077db88bbc4bc62",
+      "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-03T22:15:35.017419+00:00"
+}
