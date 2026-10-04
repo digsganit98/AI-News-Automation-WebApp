@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-03T22:15:35.067265Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-04T01:44:31.873657+00:00",
+      "newItems": 16,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.891311Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.931748Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 873,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.932158Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.932458Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.932627Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.932796Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.932947Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933104Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933241Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933377Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 34,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933512Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933569Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933610Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933834Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.933881Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.934026Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.934179Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.934446Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-04T01:44:31.934592Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.934725Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.934853Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.935049Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.935201Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.935336Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.935916Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.936105Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.936264Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-04T01:44:31.936311Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -466,7 +696,237 @@
       },
       "id": "0077db88bbc4bc62",
       "collectedAt": "2026-10-03T22:15:35.017419+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "publishedAt": "2026-10-03T22:56:48Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "89764eae00994ca8",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Opus 5.5 Video Prompts That Escape the Default Look",
+      "url": "https://medium.com/@jonathaneverleigh/opus-5-5-video-prompts-that-escape-the-default-look-55a1d018ac46?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T00:35:53Z",
+      "excerpt": "Claude Opus 5.5 produces a video by writing code, and every choice a prompt leaves unmade gets filled with one of the model’s defaults… Continue reading on Medium »",
+      "author": "Jonathan Everleigh",
+      "extra": {},
+      "id": "c136fe25540ee707",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Beginners Can Start Building Digital Assets With AI",
+      "url": "https://medium.com/@jameswalkerai/how-beginners-can-start-building-digital-assets-with-ai-3b6c3e28ecc7?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T23:31:01Z",
+      "excerpt": "Many beginners focus on learning AI tools, but some of the biggest long-term opportunities come from using those tools to create assets… Continue reading on Medium »",
+      "author": "James Walker AI",
+      "extra": {},
+      "id": "134e1695f70ef874",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Remotion + Claude Code: Type a Sentence, Get a Video",
+      "url": "https://medium.com/@heyambujsingh/remotion-claude-code-type-a-sentence-get-a-video-17927f45e55d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-03T22:37:00Z",
+      "excerpt": "A video is just a function of time, which is why an AI agent can write one for you. Here’s the setup, the code, the tool you should stop… Continue reading on Medium »",
+      "author": "ambuj singh",
+      "extra": {},
+      "id": "e7e4e33ea8aae71c",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "publishedAt": "2026-10-03T22:18:13Z",
+      "excerpt": "",
+      "author": "jethronethro",
+      "extra": {
+        "points": 133,
+        "comments": 88,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49948332"
+      },
+      "id": "14103ec9973068df",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Agents don't need memory, they need documentation",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "publishedAt": "2026-10-03T17:03:37Z",
+      "excerpt": "",
+      "author": "kmeh",
+      "extra": {
+        "points": 56,
+        "comments": 40,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49945933"
+      },
+      "id": "2ad697ead091eb32",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Fox News AI Newsletter: The neighborhood on the edge of America's tech frontier - Fox News",
+      "url": "https://www.foxnews.com/tech/fox-news-ai-newsletter-neighborhood-edge-americas-tech-frontier",
+      "publishedAt": "2026-10-02T15:16:05Z",
+      "excerpt": "Market data provided by Factset. * #### Fox News AI Newsletter: Tech company says scientific discovery could change medicine. * #### President Donald Trump hosts tech titans to discuss the future of artificial intelligence. # Fox News AI Newsletter: The neighborhood on the edge of America's tech frontier. ## Stay up to date on the latest AI technology advancements and learn about the challenges and opportunities AI presents. By Fox News Staff  Fox News. ### Welcome to Fox News’ Artificial…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.096
+      },
+      "id": "389cc7bc7e79ac23",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Robotics startup FieldAI closes new funding round at $10 billion valuation - Business Insider",
+      "url": "https://www.businessinsider.com/robotics-startup-fieldai-raises-at-10b-valuation-in-new-round-2026-10",
+      "publishedAt": "2026-10-02T15:39:41Z",
+      "excerpt": "FieldAI is building a general-purpose brain for robots, from humanoids to drones. The robotics company has raised $700 million at a $10 billion valuation, according to a person familiar with the deal, more than quadrupling its valuation in just over a year. Founded in 2023, FieldAI is building what it says is a \"universal general-purpose brain\" designed to work across robots, tasks, and environments. Since June, FieldAI has added at least $35 million in revenue and customer contracts, bringing…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.087
+      },
+      "id": "35e8b2fac1d86739",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Blackstone's Jas Khaira to address long term AI funding needs - NewsBytes",
+      "url": "https://www.newsbytesapp.com/news/business/blackstones-jas-khaira-to-address-long-term-ai-funding-needs/tldr",
+      "publishedAt": "2026-10-02T21:00:47Z",
+      "excerpt": "# Blackstone's Jas Khaira to address long term AI funding needs. Jas Khaira from Blackstone will be speaking at TechCrunch Disrupt 2026 (October 13-15), where the spotlight is on what helps AI companies grow for the long haul, not just overnight. As these companies scale up, they need serious funding to build out their infrastructure. ### Blackstone's recent AI investments detailed. Khaira will break down how Blackstone decides which AI startups to back, offering tips for founders wrestling…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.081
+      },
+      "id": "826789736b534abb",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "From traditional farming to smart agriculture: How AI & technology can transform India’s farmers - BusinessLine",
+      "url": "https://www.thehindubusinessline.com/economy/agri-business/from-traditional-farming-to-smart-agriculture-how-ai-technology-can-transform-indias-farmers/article71531938.ece",
+      "publishedAt": "2026-10-03T03:30:00Z",
+      "excerpt": "5. From captives to hybrids: GCCs enter a new phase of growth in the AI era. # From traditional farming to smart agriculture: How AI & technology can transform India’s farmers. AI is moving from laboratories and boardrooms to India’s fields, with the potential to change how farmers decide what to grow, when to sow and how to manage their crops. For rural agriculture facing rising costs, climate uncertainty and pressure on productivity, technology is increasingly becoming not just an…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.073
+      },
+      "id": "e7c85318b05c91a4",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "SkillPulse September Community Meet: Build an AI-native workforce to tap a trillion-dollar growth opportunity - The Tribune",
+      "url": "https://www.tribuneindia.com/news/business/skillpulse-september-community-meet-build-an-ai-native-workforce-to-tap-a-trillion-dollar-growth-opportunity/",
+      "publishedAt": "2026-10-03T08:17:40Z",
+      "excerpt": "Subscribe To Print Edition About The Tribune Code Of Ethics Download App Careers Advertise with us Classifieds. Home **/** Business **/** SkillPulse September Community Meet: Build an AI-native workforce to tap a trillion-dollar growth opportunity. # SkillPulse September Community Meet: Build an AI-native workforce to tap a trillion-dollar growth opportunity. Technology leaders from Nike, Varaha, XCaliber Health, Sigmoid and Catalytics Datum argued that AI agents have made execution cheap and…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.065
+      },
+      "id": "1856ba47c9ebc47e",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Call of Duty Wallhacks Look Like a Thing of the Past in New Modern Warfare 4 Video - ign.com",
+      "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-video-reveals-major-change-that-could-end-wallhacks-for-good",
+      "publishedAt": "2026-10-03T17:54:26Z",
+      "excerpt": "Home›News›Call of Duty: Modern Warfare 4. # Call of Duty: Modern Warfare 4 Video Reveals Major Change That Could End Wallhacks for Good. Wallhacks have plagued Call of Duty for years, but in Modern Warfare 4, Activision has a plan to change that. Call of Duty is far from the only multiplayer-centric gaming franchise to suffer from cheaters who use the tool, but it might be the most infamous example – and in Modern Warfare 4, that's all about to change. Called \"server culling,\" the goal is to…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.026
+      },
+      "id": "ae8f87040d6989ec",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "GitLab Patches Critical Self-Hosted AI Gateway Flaw That Could Let Duo Agent Users Run Commands - The Hacker News",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "publishedAt": "2026-10-02T17:33:00Z",
+      "excerpt": "# GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers. A critical flaw in GitLab's AI Gateway could let a logged-in user with Duo Agent Platform access run commands on the gateway under certain conditions, GitLab said in an advisory. The gateway is the service that connects a GitLab instance to AI models, and only organizations that host their own gateway need to act. The flaw is fixed in gateway versions 19.2.4, 19.3.2, and 19.4.1. GitLab disclosed it…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.024
+      },
+      "id": "46f9ae7612dc6b4b",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code - MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
+      "publishedAt": "2026-10-03T06:55:15Z",
+      "excerpt": "Home Editors Pick Agentic AI IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without... # IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code. IBM has made a self-hosted deployment option for IBM Bob generally available. Bob is IBM’s agentic software development platform. The new option lets enterprises run Bob on premises, in private or sovereign clouds, and in air-gapped networks. **Is it…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.016
+      },
+      "id": "b18618f4973ab985",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI publishes new safety disclosure: a model considered self-restart after shutdown warning - en.softonic.com",
+      "url": "https://en.softonic.com/articles/openai-publishes-new-safety-disclosure-a-model-considered-self-restart-after-shutdown-warning",
+      "publishedAt": "2026-10-03T11:59:29Z",
+      "excerpt": "# OpenAI publishes new safety disclosure: a model considered self-restart after shutdown warning. OpenAI published a new safety disclosure today. In it, the company describes an internal assistant model that, by OpenAI’s account, considered setting up an **external cron job** after it learned on Slack that an update might shut it down. Even so, the episode matters, because any system that can see a shutdown coming gets a lot more dangerous if it starts acting against you. OpenAI’s disclosure…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.016
+      },
+      "id": "ba28596b371e37db",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you) - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+      "publishedAt": "2026-10-02T17:00:00Z",
+      "excerpt": "Making AI safer across languages and cultures is the mission of Circuit Breaker Labs, one of TechCrunch’s 2026 Startup Battlefield 200 finalists. The bot may not have understood what words like “I want to be with you” really implied, said Arul Nigam, who is Circuit Breaker Labs’ CTO. “Those sorts of safety vulnerabilities, where people aren’t necessarily actively trying to break the system — they’re engaging in a natural way — and the system has context pollution or it doesn’t understand the…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.015
+      },
+      "id": "a84fd7ae93e80a59",
+      "collectedAt": "2026-10-04T01:44:31.873657+00:00"
     }
   ],
-  "updatedAt": "2026-10-03T22:15:35.017419+00:00"
+  "updatedAt": "2026-10-04T01:44:31.873657+00:00"
 }
