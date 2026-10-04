@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-04T02:16:32.006913Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-04T13:20:00.934928+00:00",
+      "newItems": 13,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.945885Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973071Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 873,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973402Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973586Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973676Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973761Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973840Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973915Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.973988Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974060Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 34,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974132Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974169Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974194Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974331Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974355Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974432Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974506Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974694Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-04T13:20:00.974769Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974841Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.974912Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.975029Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.975107Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.975181Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.975608Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.975701Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.975788Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-04T13:20:00.975814Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1170,7 +1400,189 @@
       },
       "id": "a33728e47e4c6b4d",
       "collectedAt": "2026-10-04T02:16:31.951659+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Built an AI Multi-Agent Pipeline That Turns Client PDFs into Audited Proposals",
+      "url": "https://medium.com/@hassanalighulam7/i-built-an-ai-multi-agent-pipeline-that-turns-client-pdfs-into-audited-proposals-af3d9b0b8c06?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T12:37:51Z",
+      "excerpt": "From a simple web form to a Google Sheets audit log, fully automated with n8n, FastAPI, LangGraph and Gemini. Continue reading on Medium »",
+      "author": "Ghulam Hassan",
+      "extra": {},
+      "id": "495095f7787e50b2",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Teaching a Transformer to Write SQL: We Built It From Scratch on WikiSQL",
+      "url": "https://medium.com/@amamamukhtar17/teaching-a-transformer-to-write-sql-we-built-it-from-scratch-on-wikisql-e1e06620d6fe?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T12:17:45Z",
+      "excerpt": "Most of the useful data in the world sits in tables, and most people cannot write SQL to get at it. For our Generative AI assignment we… Continue reading on Medium »",
+      "author": "Amamamukhtar",
+      "extra": {},
+      "id": "07c39cb11fba99e3",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Agent Frameworks on LangChain, LangGraph, CrewAI and Google ADK: From One Tool Loop to a Workflow…",
+      "url": "https://medium.com/@syedjunaidiqbal/agent-frameworks-on-langchain-langgraph-crewai-and-google-adk-from-one-tool-loop-to-a-workflow-0e85bf4721ec?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T11:25:07Z",
+      "excerpt": "Every agent framework looks the same in a demo. You give a model two tools, it calls them, you get an answer. The differences show up… Continue reading on Medium »",
+      "author": "SYED JUNAID IQBAL",
+      "extra": {},
+      "id": "96a4e212b8c057ff",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "GPT-6.1 Sol: Open AI’s Latest Release",
+      "url": "https://medium.com/@shubhra.dalakoti345/gpt-6-1-sol-vs-gpt-6-astra-price-benchmarks-5986ce1ceeca?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T10:17:17Z",
+      "excerpt": "OpenAI shelved GPT-6.1 Astra, then launched GPT-6.1 Sol 24 hours later at reduced price. What changed, is it in ChatGPT, and when to use… Continue reading on Medium »",
+      "author": "Journey With Data",
+      "extra": {},
+      "id": "43b175fa1040e4e3",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Always Has an Answer. Real Expertise Sometimes Says “I Don’t Know”",
+      "url": "https://medium.com/ai-made-practical/ai-always-has-an-answer-real-expertise-sometimes-says-i-dont-know-6898dce36629?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T09:11:01Z",
+      "excerpt": "Ask an AI assistant almost anything. Continue reading on AI Made Practical »",
+      "author": "AI Tool Steps",
+      "extra": {},
+      "id": "90d9d6df1c8f1ada",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Religious scholars met with Anthropic",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "publishedAt": "2026-10-04T02:34:22Z",
+      "excerpt": "",
+      "author": "bookofjoe",
+      "extra": {
+        "points": 104,
+        "comments": 240,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49950052"
+      },
+      "id": "f16653790b520f5b",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+      "publishedAt": "2026-10-03T19:33:10Z",
+      "excerpt": "",
+      "author": "Topfi",
+      "extra": {
+        "points": 55,
+        "comments": 85,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49947050"
+      },
+      "id": "6be976947ffd3eaa",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "I quit OpenAI because its culture is broken",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+      "publishedAt": "2026-10-03T13:46:34Z",
+      "excerpt": "",
+      "author": "Brajeshwar",
+      "extra": {
+        "points": 298,
+        "comments": 535,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+      },
+      "id": "4aab22cc6d747d9f",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Running Qwen3.8 Flash Next 176B on a 16GB RTX 3080 Laptop + 32GB RAM + SSD",
+      "url": "https://github.com/zhongkaifu/TensorSharp",
+      "publishedAt": "2026-10-03T20:06:34Z",
+      "excerpt": "I wanted to see how far I could push a fairly ordinary laptop with a huge MoE model. Turns out, Qwen3.8 Flash Next 176B can run on: RTX 3080 Laptop — 16GB VRAM 32GB system RAM SSD No 128GB/256GB RAM workstation and no multi-GPU setup. I’m running it with TensorSharp , my open-source local LLM inference engine: TensorSharp on GitHub The interesting part for me wasn't simply getting a 176B model to load. I wanted to make a model much larger than both available VRAM and RAM actually usable. The…",
+      "author": "/u/fuzhongkai",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wwwmy1/running_qwen38_flash_next_176b_on_a_16gb_rtx_3080/"
+      },
+      "id": "a133bdb60972d8d9",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Introducing: The Raymond Weil Millesime Jubilee Chronograph 50th Anniversary - Monochrome Watches",
+      "url": "https://monochrome-watches.com/raymond-weil-marks-50-years-again-with-a-more-accessible-millesime-jubilee-chronograph-automatic-introducing-price/",
+      "publishedAt": "2026-10-03T14:00:38Z",
+      "excerpt": "Raymond Weil Marks 50 Years Again, with a More Accessible Millesime Jubilee Chronograph Automatic. ## Following The Fifty and its restored vintage movement, RW celebrates its 50th anniversary again with a more accessible automatic chronograph. Following the launch of The Fifty at Watches & Wonders, the Geneva-based, independent, family-owned brand continues the story with the Jubilee Chronograph. The Fifty was a 50-piece limited edition chronograph, powered by restored 1976 Valjoux movements,…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.163
+      },
+      "id": "75d1a3d595d6b88e",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google Restricts AI Gemini 4 Argon Release: Explained - JournalArta",
+      "url": "https://journalarta.com/en/2026/10/04/google-ai-gemini-4-argon-restricted-release/",
+      "publishedAt": "2026-10-04T09:18:19Z",
+      "excerpt": "# Google Restricts AI Gemini Argon to Cybersecurity Experts. Google has unveiled its newest frontier model, Gemini 4 Argon, but is withholding public access to mitigate hacking risks and conduct safety evaluations. Google has unveiled its latest artificial intelligence model, Gemini 4 Argon, but is withholding the software from public release. Instead of a broad commercial launch, the company is distributing the model exclusively to a restricted group of cybersecurity defenders and government…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.05
+      },
+      "id": "062a8bd4adbef0bc",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Lead Agentic AI Engineer 2",
+      "url": "https://accenture.com/in-en/careers/jobdetails?id=R00361038_en",
+      "publishedAt": "2026-10-03T15:00:00Z",
+      "excerpt": "The candidate will work closely with AI architects, data engineers, application developers, product teams, and DevOps engineers to build scalable, secure, observable, cost-efficient, and production-ready AI solutions. Experience with equivalent AI platforms such as AWS Bedrock or Azure AI Foundry is considered an additional advantage.\n\nRoles and Responsibilities [...] Skip to footer\n\nCareers\n\n# Lead Agentic AI Engineer 2\n\nPackaged Application Development Team Lead/Consultant  | Full time |…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.378
+      },
+      "id": "e886d809021cc443",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Capcom announces plans to transform its RE Engine into an 'AI-generation game engine' - PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/capcom-announces-plans-to-transform-its-re-engine-into-an-ai-generation-game-engine/",
+      "publishedAt": "2026-10-03T10:42:31Z",
+      "excerpt": "See the latest gaming news first. For the quickest way to join, simply enter your email below and get access. We will send a confirmation and sign you up to our newsletter to keep you updated on all your gaming news. By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over. Enter your email below and we'll send confirmation, and sign you up to our newsletter. By submitting your information, you confirm you are aged 16 or over, have read our…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.419
+      },
+      "id": "78f8ef5f8b767870",
+      "collectedAt": "2026-10-04T13:20:00.934928+00:00"
     }
   ],
-  "updatedAt": "2026-10-04T02:16:31.951659+00:00"
+  "updatedAt": "2026-10-04T13:20:00.934928+00:00"
 }
