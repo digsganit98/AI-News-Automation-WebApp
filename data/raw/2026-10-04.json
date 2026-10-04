@@ -920,6 +920,236 @@
           "checkedAt": "2026-10-04T13:20:00.975814Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-04T17:43:16.854065+00:00",
+      "newItems": 9,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.871423Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.912023Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 873,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.912415Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.912695Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.912866Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.913036Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.913202Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.913407Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.913581Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.913741Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 35,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.913900Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.913962Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.914008Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.914241Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.914289Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.914476Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.914640Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.915001Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-04T17:43:16.915258Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.915519Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.915706Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.915934Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.916096Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.916257Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.916926Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.917115Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.917300Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-04T17:43:16.917398Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1582,7 +1812,129 @@
       },
       "id": "78f8ef5f8b767870",
       "collectedAt": "2026-10-04T13:20:00.934928+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Is Changing How We Work With Data. But Is It Changing How We Think About Data?",
+      "url": "https://ebruyildirim17.medium.com/ai-is-changing-how-we-work-with-data-but-is-it-changing-how-we-think-about-data-8450ef1494aa?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T17:27:46Z",
+      "excerpt": "AI is changing the way we work with data. We can ask questions in plain language, generate SQL without writing SQL, summarize reports in… Continue reading on Medium »",
+      "author": "Ebru Yildirim Amura",
+      "extra": {},
+      "id": "ade827c4744f5838",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The LLM Call Is the Easy Part",
+      "url": "https://medium.com/@neharakeshsharma2207/the-llm-call-is-the-easy-part-f576170d31a2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T16:50:29Z",
+      "excerpt": "Here’s a support bot that would pass most of the tests you’d think to write. Continue reading on Medium »",
+      "author": "Neha Sharma",
+      "extra": {},
+      "id": "d6c3305503acefac",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What you choose to see first matters",
+      "url": "https://blog.architect2architect.com/what-you-choose-to-see-first-matters-5e03f688a5fe?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T16:49:06Z",
+      "excerpt": "The glass can be half empty and half full at the same time Continue reading on architect2architect »",
+      "author": "Asanka Abeysinghe",
+      "extra": {},
+      "id": "8ee0130cb25026a4",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Thought AI Video Was Overhyped… Then This Tool Made Me Rethink Everything",
+      "url": "https://medium.com/@raazmuhammed0089/i-thought-ai-video-was-overhyped-then-this-tool-made-me-rethink-everything-276c5e285cf1?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T16:37:04Z",
+      "excerpt": "It started late at night. Continue reading on Medium »",
+      "author": "Raazmuhammed",
+      "extra": {},
+      "id": "2986dfce72e840c1",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From One Agent to an Agent Team: ADK, Agent Skills, MCP and A2A",
+      "url": "https://medium.com/@ahmet.kalafat/from-one-agent-to-an-agent-team-adk-agent-skills-mcp-and-a2a-6bc9b48a171c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T15:01:02Z",
+      "excerpt": "A Generative AI Journey with Google Cloud — Part 6/6. An agent that tries to solve everything with one giant prompt eventually becomes… Continue reading on Medium »",
+      "author": "Ahmet Kalafat",
+      "extra": {},
+      "id": "ec83c87998c56541",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "url": "https://github.com/Niko1221/Strata",
+      "publishedAt": "2026-10-04T12:51:53Z",
+      "excerpt": "",
+      "author": "snehesht",
+      "extra": {
+        "points": 326,
+        "comments": 176,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
+      },
+      "id": "bca476fd34631d9d",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "publishedAt": "2026-10-04T09:24:52Z",
+      "excerpt": "",
+      "author": "allenleee",
+      "extra": {
+        "points": 78,
+        "comments": 42,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49952111"
+      },
+      "id": "567a67be41501d5c",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI turns ChatGPT into an app platform, challenging Apple and Google's store model - news.lavx.hu",
+      "url": "https://news.lavx.hu/article/openai-turns-chatgpt-into-an-app-platform-challenging-apple-and-google-s-store-model",
+      "publishedAt": "2026-10-03T16:12:41Z",
+      "excerpt": "# OpenAI turns ChatGPT into an app platform, challenging Apple and Google's store model. OpenAI's Dev Day announcements position ChatGPT as a discovery and execution layer for software, letting its 1.2 billion weekly users launch apps directly in chat while AI agents called Dots handle tasks autonomously across 4,000-plus connected services. OpenAI used its Dev Day on Tuesday to lay out a direct challenge to the traditional app store model. The company's announcements — spanning new AI models,…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.187
+      },
+      "id": "ee8bf70cd89641cc",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Scoop: A powerful new model from startup Reflection is set to shake up the AI race - Axios",
+      "url": "https://www.axios.com/2026/10/04/reflection-open-weight-ai",
+      "publishedAt": "2026-10-04T12:49:31Z",
+      "excerpt": "# Scoop: Powerful open model is set to shake up AI race. A closely watched Nvidia-backed startup called Reflection is preparing to shake up the AI race with a powerful open-weight system that could threaten Chinese upstarts and U.S. AI giants alike. * Reflection's first model is set to be joined by other open-weight models from other Western players this month, sources tell Axios. **State of play**: Reflection's model, set to be released soon, is expected to initially lag behind the most…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.138
+      },
+      "id": "1cfff35a9541c076",
+      "collectedAt": "2026-10-04T17:43:16.854065+00:00"
     }
   ],
-  "updatedAt": "2026-10-04T13:20:00.934928+00:00"
+  "updatedAt": "2026-10-04T17:43:16.854065+00:00"
 }
