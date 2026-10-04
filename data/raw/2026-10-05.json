@@ -1,0 +1,417 @@
+{
+  "date": "2026-10-05",
+  "runs": [
+    {
+      "runAt": "2026-10-04T22:23:49.906307+00:00",
+      "newItems": 13,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.924210Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.968608Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 873,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.969108Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.969465Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.969656Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.969855Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.970031Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.970200Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.970374Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.970539Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 38,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.970699Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.970766Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.970840Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.971126Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.971176Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.971340Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.971503Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.971853Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-04T22:23:49.972040Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.972207Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.972372Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.972604Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.972771Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.972966Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.973614Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.973834Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.974037Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-04T22:23:49.974092Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 268,
+        "trendingScore": 249,
+        "task": "text-generation"
+      },
+      "id": "f7d816a4792ab8aa",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Artifact Is Not the Cognition",
+      "url": "https://medium.com/@michellemcclanan/the-artifact-is-not-the-cognition-21008bd79bf7?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T21:01:01Z",
+      "excerpt": "What generative AI exposes about the evidence we use to infer learning. Continue reading on Medium »",
+      "author": "MichelleMcclanan",
+      "extra": {},
+      "id": "6b9043ec158a21e5",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Edit or Regenerate? Holding One Product Pack Steady Across AI Images",
+      "url": "https://medium.com/@sachinrajeev.uoh/edit-or-regenerate-holding-one-product-pack-steady-across-ai-images-2105095a8f1f?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T20:17:20Z",
+      "excerpt": "Nano Banana Pro vs GPT Image on one product pack, and the five-check QC workflow that keeps AI product images true to the reference. Continue reading on Medium »",
+      "author": "Sachin Rajeev",
+      "extra": {},
+      "id": "134e79a372c8e5d9",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Happens When You Separate an AI Image’s Structure From Its Style?",
+      "url": "https://medium.com/prompt-odyssey/what-happens-when-you-separate-an-ai-images-structure-from-its-style-70f139b35720?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T19:26:52Z",
+      "excerpt": "I extracted the structure from one AI image and the visual style from another, then combined them to see whether both would survive. Continue reading on Prompt Odyssey »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "a66234d5539b314c",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "A practical way to design responsible generative AI solutions",
+      "url": "https://medium.com/@umerfarooq.pucit/a-practical-way-to-design-responsible-generative-ai-solutions-fe9f740e2240?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T18:39:03Z",
+      "excerpt": "Generative AI can produce useful content quickly. It can also produce content that is wrong, offensive, or harmful. The difference often… Continue reading on Medium »",
+      "author": "Umer Farooq",
+      "extra": {},
+      "id": "dde7f8e056f48563",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Validate Generative AI Image Outputs in Production",
+      "url": "https://medium.com/@jayanthapoojary1989/how-to-validate-generative-ai-image-outputs-in-production-f7497e239d74?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-04T18:03:31Z",
+      "excerpt": "When deploying generative image and video models in enterprise pipelines, prompt engineering alone is insufficient to guarantee safe… Continue reading on Medium »",
+      "author": "Jayanthapoojary",
+      "extra": {},
+      "id": "24e65f2adabd9490",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "What's the future for pure math research in the age of AI?",
+      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+      "publishedAt": "2026-10-04T07:53:45Z",
+      "excerpt": "",
+      "author": "6bitquant",
+      "extra": {
+        "points": 54,
+        "comments": 42,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49951641"
+      },
+      "id": "e6dc84249acd95a1",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Anthropic Has Been Aggressively Lobbying the Vatican to Consider AI Consciousness",
+      "url": "https://futurism.com/artificial-intelligence/anthropic-lobbying-vatican",
+      "publishedAt": "2026-10-04T19:36:39Z",
+      "excerpt": "",
+      "author": "/u/sourdub",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wxogp8/anthropic_has_been_aggressively_lobbying_the/"
+      },
+      "id": "b092694a39c82aa0",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
+      "url": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
+      "publishedAt": "2026-10-04T18:08:12Z",
+      "excerpt": "",
+      "author": "/u/chillinewman",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wxma3a/micron_ceo_says_memory_supply_will_be_much/"
+      },
+      "id": "867eb23cb57f4ec9",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "I trained a 3.87B MoE (1.45B active) from scratch on only 86.5B tokens",
+      "url": "https://huggingface.co/YOON1v/Apex-2",
+      "publishedAt": "2026-10-04T15:50:54Z",
+      "excerpt": "First of all, thank you for reading. I trained a small MoE model completely from scratch (no external base weights) and wanted to share the results + a couple of lessons. Apex-2 - Architecture: Decoder-only MoE, every layer is MoE (no dense layers) - Size: 3.87B total parameters, 1.45B active per token - 32 layers, d_model 2048, GQA 16Q/4KV, 16 experts, top-4 - Context: 4096 - Tokenizer: Qwen3 (151k) - Hugging Face: https://huggingface.co/YOON1v/Apex-2 (loads with transformers / vLLM via…",
+      "author": "/u/Prestigious-Taste-63",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wxiy8y/i_trained_a_387b_moe_145b_active_from_scratch_on/"
+      },
+      "id": "100bb4348f614642",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Resident Evil and Onimusha developer Capcom plans to embrace AI in game development - Polygon.com",
+      "url": "https://www.polygon.com/capcom-ai-re-engine-statement-2026/",
+      "publishedAt": "2026-10-03T14:31:26Z",
+      "excerpt": "Tomas Franzese is the Weekend News Editor at Polygon, following and reporting on the latest goings-on in the gaming and entertainment spaces. The next iteration of RE Engine is being built so Capcom can make games \"together with AI,\" although it's still not using generative AI. A Capcom developer recently made some eyebrow-raising statements about integrating AI into RE Engine, the game engine Capcom uses to make games like *Resident Evil Requiem*, *Pragmata*, and *Onimusha: Way of the Sword*.…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.042
+      },
+      "id": "2e49a5394525d57f",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Springer Journal Retracts AI Review After Undeclared Generative AI Use - Bioengineer.org",
+      "url": "https://bioengineer.org/springer-journal-retracts-ai-review-after-undeclared-generative-ai-use/",
+      "publishedAt": "2026-10-03T16:35:55Z",
+      "excerpt": "# Springer Journal Retracts AI Review After Undeclared Generative AI Use. Reading Time: 6 mins read. Discover Artificial Intelligence, a Springer Nature journal, has formally retracted a 2024 review article titled “Innovative application of artificial intelligence in a multi-dimensional communication research analysis: a critical review,” after the publisher concluded that generative AI had been used in the manuscript without being declared, and that the resulting text could no longer be…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.031
+      },
+      "id": "835c863a0903dd3f",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Vibe-coded mashup mods are flooding X/Twitter, and modders hate it - Eurogamer.net",
+      "url": "https://www.eurogamer.net/claude-opus-vibe-coded-mashup-mods-x-twitter-modding-backlash",
+      "publishedAt": "2026-10-04T16:38:22Z",
+      "excerpt": "Modders are furious as Claude-powered mashup mods flood social media PlatinumGames boss hints he wants to expand Bayonetta as Stellar Blade director calls the series \"indispensable\" RuneScape Reignited launches 2 December Fourth RuneScape officially revealed Final Fantasy 7 Revelation director says he \"did his best\" to fight for a full disc release Sony in talks to land Battlefield movie from Christopher McQuarrie and Michael B. Long-time mod makers are not happy about the latest trend to take…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.029
+      },
+      "id": "470fc45b7332d3b1",
+      "collectedAt": "2026-10-04T22:23:49.906307+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-04T22:23:49.906307+00:00"
+}
