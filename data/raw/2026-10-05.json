@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-05T02:16:33.323260Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-05T07:17:22.299685+00:00",
+      "newItems": 23,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.317564Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.360036Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 873,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.360474Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.360765Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.360943Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.361142Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.361313Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.361479Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.361644Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.361800Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 22,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.361957Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.362018Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.362090Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.362337Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.362385Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.362543Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.362702Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.362995Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-05T07:17:22.363185Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.363348Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.363509Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.363737Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.363898Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.364090Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.364736Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.364923Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.365132Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-05T07:17:22.365188Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1033,7 +1263,327 @@
       },
       "id": "fafeb11e512686ee",
       "collectedAt": "2026-10-05T02:16:33.271055+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.38078",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Vision-language-action (VLA) models have advanced robotic manipulation, but their zero-shot generalization in new tasks and environments remains limited, and their reliance on specialized training keeps them from benefiting directly from rapidly advancing general-purpose vision-language models (VLMs). In parallel, recent agentic robotic systems leverage VLMs for high-level reasoning or coding agents for robot control, but often depend on extensive external models and tools, introducing…",
+      "author": "Bingxuan Li, Siqi Song, Yizhuo Wu, Jiarui Yao, Tong Zhang, Huan Zhang",
+      "extra": {
+        "upvotes": 53,
+        "githubRepo": null,
+        "projectPage": "https://motor-mind.github.io",
+        "arxivUrl": "https://arxiv.org/abs/2609.38078"
+      },
+      "id": "d7d7a069cb90e11d",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+      "url": "https://huggingface.co/papers/2609.38879",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we build FoldingCorpus, a protein-derived question-answer dataset, and Fold2Reason, a recipe that…",
+      "author": "Yong Liu, Zhanpeng Shi, Yizhou Dang, Zhongyue Zhang, Xiaoliang Shi, Zhijian Wei, Shuangjia Zheng",
+      "extra": {
+        "upvotes": 52,
+        "githubRepo": "https://github.com/GENTEL-lab/Fold2Reason",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38879"
+      },
+      "id": "321dae7725c1913b",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models",
+      "url": "https://huggingface.co/papers/2609.39071",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Legal language models require reward signals that capture not only answer correctness but also the multidimensional quality of legal responses. Existing reward methods, however, often rely on coarse-grained holistic judgments, providing limited domain specificity and interpretability. We introduce LexReward, a taxonomy-driven framework for legal reward modeling. LexReward characterizes legal response quality along three complementary dimensions: Style, covering lexical and syntactic quality;…",
+      "author": "Yida Cai, Xin Dai, Bingxiang He, Huiyuan Xie, Yuxiao Ye, Zhenghao Liu, Yang Bai, Zhiyuan Liu",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.39071"
+      },
+      "id": "32970c537540ef2d",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "FrameMorrow: Future-guided Frame Selection with Prospective Tokens for Long-Horizon Video Generation",
+      "url": "https://huggingface.co/papers/2609.38839",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present is not necessarily useful for future generation, while seemingly less relevant history may become…",
+      "author": "Bo Yin, Xiaobin Hu, Jiaqi Zhao, Shuicheng Yan",
+      "extra": {
+        "upvotes": 20,
+        "githubRepo": "https://github.com/YinBo0927/FrameMorrow",
+        "projectPage": "https://yinbo0927.github.io/FrameMorrow/",
+        "arxivUrl": "https://arxiv.org/abs/2609.38839"
+      },
+      "id": "f4f8c3fdf888d174",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Source Preference in the Wild: How LLM Agents Favor Items by Source, and How to Reduce It",
+      "url": "https://huggingface.co/papers/2610.03195",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "As LLM agents decide on users' behalf which product to buy, which hotel to book, or which paper to cite, a preference for items from certain sources (the sites or services they come from) shapes what users receive and which sources are selected. We study source preference in end-to-end search with 12 agent models across three domains. Comparing items from different sources that satisfy the same requirements at the same position, we find that each model prefers some sources and avoids others in…",
+      "author": "Jonghyun Song, Haewon Park, Jeonghoon Shim, Woojung Song, Yohan Jo",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.03195"
+      },
+      "id": "81fad8a4aac2af10",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+      "url": "https://huggingface.co/papers/2610.02826",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Successful trajectories on difficult tasks provide valuable supervision for model improvement, but specialized harnesses introduce interventions that may be unavailable during deployment. We propose Recursive Self-Rewrite (RSR), a framework that uses one base model, Qwen-3.8-27B, to discover successful solutions under diverse harnesses and reconstruct them as training trajectories under a general harness. A planner extracts procedures into runbooks, a critic screens for verifier and solution…",
+      "author": "Zongxia Li, Yucheng Shi, Zhongzhi Li, Junyao Yang, Ruhan Wang, Chengsong Huang, Fuxiao Liu, Haitao Mi, Jordan Boyd-Graber, LeoweiLiang",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.02826"
+      },
+      "id": "3acc001df5ba4b89",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "World Embedding Benchmark",
+      "url": "https://huggingface.co/papers/2610.03632",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Physical fidelity has received increasing attention in world models and video generation, yet how video representations encode physical information remains less understood. We introduce the World Embedding Benchmark, comprising 8,000 controlled simulation cases from 80 families spanning fluid mechanics, solid mechanics, dynamics, and optics & electromagnetism. Each case pairs a rendered video with simulation-derived physical annotations, supporting three complementary tasks: text-video…",
+      "author": "Yiqi Liu, Ruifeng Yuan, Yang Wang, Long Li, Fengyu Cai, Hou Pong Chan, Jialin Yu, Hao Zhang, Chenghua Lin, Chenghao Xiao",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/World-Representation-Lab/World-Embedding-Benchmark",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.03632"
+      },
+      "id": "156dc368fbed58d6",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "url": "https://arxiv.org/abs/2610.02267",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02267v1 Announce Type: new \nAbstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection. System-1 decision models answer such questions in a single forward pass with class probabilities, promising large cost and latency savings over LLM calls. We present a paired evaluation of an open-weight (Laya) and a hosted (Jev) System-1 model on 11 agent decision points…",
+      "author": "Jiawei Li",
+      "extra": {},
+      "id": "4db1850702f9bca7",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+      "url": "https://arxiv.org/abs/2610.02293",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02293v1 Announce Type: new \nAbstract: HakemBench is a Turkish benchmark of typed decisions, in which the model under test reads a text, a question and a fixed set of options and returns a probability for every option. Version 1.0 is released fully open under CC BY 4.0, with 2,346 items and 4,275 choice, yes/no and score questions in seven tracks (fact-check triage, education, guardrails, legal routing, moderation, spam and phishing, and customer support). One harness scores decision…",
+      "author": "Sait Furkan Teke (ufak AI)",
+      "extra": {},
+      "id": "22f4f933d9bfcd1b",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+      "url": "https://arxiv.org/abs/2610.02330",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02330v1 Announce Type: new \nAbstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions. In long-horizon tool use, final-outcome rewards provide weak credit assignment over long interaction traces. Step-level rewards can offer more targeted feedback, but obtaining reliable step supervision often requires human or LLM judgment, or additional rollouts to…",
+      "author": "Yu Li, Zheng Zhang, Xin Liu, Shengtian Yang, Guangfeng Cai, Lei Feng",
+      "extra": {},
+      "id": "798258dfe2f6a5ba",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
+      "url": "https://arxiv.org/abs/2610.02351",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02351v1 Announce Type: new \nAbstract: ReAct-based agents typically rely on a single LLM policy to propose actions, interact with the environment, and decide when a task is complete. This coupling makes action authorization and completion control difficult to enforce independently, allowing errors to propagate and unsupported completion claims to terminate execution. We introduce DeReAct, a modular agent architecture that externalizes two gating policies: a Critic that validates…",
+      "author": "Ajay Vohra, Tao Chen, Neeti Narayan, Caron Zhang",
+      "extra": {},
+      "id": "d4462bfade0310ab",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "When Terminal-Agent Training Stalls: Demystifying Data Generation and Verification Challenge",
+      "url": "https://arxiv.org/abs/2610.02405",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02405v1 Announce Type: new \nAbstract: Using a frontier model like Claude Opus as a meta-agent to generate terminal tasks and verifiers for RL training is increasingly common. Yet a runnable Docker image and executable test suite do not guarantee a faithful end-to-end pipeline for terminal agent training. We present a meta-agent pipeline motivated by this gap, diagnosing three classes of failure: benchmark invalidity, harness brittleness, and reward misalignment. Prompt redesign and…",
+      "author": "Xi Qin, Isabel Kurth, Xin Cui, Elin Park, Alexander Schaefer, Yaad Oren",
+      "extra": {},
+      "id": "deb9f68b9ffd32db",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
+      "url": "https://arxiv.org/abs/2610.02425",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02425v1 Announce Type: new \nAbstract: Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent responds. We introduce XiangqiBench, an executable benchmark that measures this difference in Chinese chess: starting from 119 tactical endgames with forced mates supported by engine or checks-only search, an LLM agent must deliver checkmate against an engine defender. An interactive REPL interface…",
+      "author": "Yekun Chai, Qiwei Peng, Haoyi Xiong",
+      "extra": {},
+      "id": "e76dbf5de52bd776",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Reinforcement Learning Techniques for the Optimization of Target Polarization in Nuclear Physics Scattering Experiments",
+      "url": "https://arxiv.org/abs/2610.02452",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02452v1 Announce Type: new \nAbstract: The operation of dynamically polarized targets in nuclear physics experiments relies on continuous tuning of the microwave frequency to compensate for radiation damage and evolving material properties, a task that is traditionally performed through manual trial-and-error by expert operators. This work presents a data-driven control framework that combines surrogate modeling with reinforcement learning to optimize the target polarization. Using…",
+      "author": "Armen Kasparian, Torri Jeske, Monibor Rahman, Chris Keith, James Maxwell, Thomas Britton, Malachi Schram, David Lawrence",
+      "extra": {},
+      "id": "0631e5cebb162810",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
+      "url": "https://arxiv.org/abs/2610.02472",
+      "publishedAt": "2026-10-05T04:00:00Z",
+      "excerpt": "arXiv:2610.02472v1 Announce Type: new \nAbstract: Personalized LLM assistants must recover sparse evidence from long conversation histories across queries of varying complexity. We introduce APDMem (Agent-controlled Progressive Disclosure Memory), a hierarchical long-term memory architecture that applies progressive disclosure to memory retrieval. Rather than relying on a flat memory store or fixed retrieval granularity, APDMem represents conversation history as four progressively detailed…",
+      "author": "Chin-Lun Fu, Anagha Kulkarni, Hong Ni, Behrouz Madahian",
+      "extra": {},
+      "id": "59a99dd8249950a3",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do AI Agents Remember? The Difference Between Context and Memory",
+      "url": "https://cybernerdie.medium.com/how-do-ai-agents-remember-the-difference-between-context-and-memory-1b4c9c69e75c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T06:52:55Z",
+      "excerpt": "AI agents don’t need to remember everything. They need the right information at the right moment — and a way to keep what still matters. Continue reading on Medium »",
+      "author": "Joshua Idunnu Paul",
+      "extra": {},
+      "id": "bec94ce78cdeadd0",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do LLMs Generate a Response?",
+      "url": "https://medium.com/@info.codeplu/how-do-llms-generate-a-response-c465bbc83cdd?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T06:31:01Z",
+      "excerpt": "Root Concept Continue reading on Medium »",
+      "author": "Code Plu",
+      "extra": {},
+      "id": "6916fe814bc348b2",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Vector RAG to Materialized State Rethinking How Agents Remember",
+      "url": "https://medium.com/@musabzafar63/from-vector-rag-to-materialized-state-rethinking-how-agents-remember-82114ee5a0e3?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T06:20:15Z",
+      "excerpt": "If you spend enough time looking under the hood of modern agent frameworks, you notice a recurring architectural failure masquerading as… Continue reading on Medium »",
+      "author": "Musab Zafar",
+      "extra": {},
+      "id": "3cf49cef58c4f17a",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Citation Tracking Tools and the Exact Page Matching Test",
+      "url": "https://medium.com/xtrusio-ai-search-visibility/ai-citation-tracking-tools-and-the-exact-page-matching-test-04e154434f76?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T06:11:23Z",
+      "excerpt": "A real ChatGPT source link shows why a tracking parameter, a redirect and a different page need different treatment. Continue reading on Xtrusio AI Search & Visibility »",
+      "author": "Xtrusio",
+      "extra": {},
+      "id": "7e6146b4d7418931",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What is AI agent?",
+      "url": "https://medium.com/@harsha94liodream/what-is-ai-agent-241b04f0f43b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T06:02:04Z",
+      "excerpt": "before dig into the AI agent will check what is agent First and then move to the AI agent. Continue reading on Medium »",
+      "author": "harsha rathnayaka",
+      "extra": {},
+      "id": "c275ebaaead3e30c",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "publishedAt": "2026-10-05T05:37:40Z",
+      "excerpt": "",
+      "author": "emptybits",
+      "extra": {
+        "points": 51,
+        "comments": 46,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49961057"
+      },
+      "id": "b82bd485fd9d1ced",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Reflection AI Is About to Release a US Open-Weight Model to Take On DeepSeek and Qwen",
+      "url": "https://www.explainx.ai/blog/reflection-ai-open-weight-model-us-answer-deepseek-qwen-october-2026",
+      "publishedAt": "2026-10-05T05:33:32Z",
+      "excerpt": "Looks like new open model coming soon and will be \"strong\" hopefully something under 200b for us memory poor. Also seeing statements about more western open models coming. Hope we get some good competition again on the open front! Here is original artical but its not free to access. Maybe someone has it already here. https://www.axios.com/2026/10/04/reflection-open-weight-ai Oct starting strong!",
+      "author": "/u/mindwip",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wy0jrc/reflection_ai_is_about_to_release_a_us_openweight/"
+      },
+      "id": "6eb064876e241588",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amazon exec says finding FDE talent is very challenging: ‘These are unicorns’ - Business Insider",
+      "url": "https://www.businessinsider.com/amazon-aws-fde-plans-hiring-2026-10",
+      "publishedAt": "2026-10-04T10:03:01Z",
+      "excerpt": "Forward-deployed engineers are one of the hottest jobs in AI. Like its rivals, Amazon has made a big bet on the future of FDEs. In June, AWS announced a $1 billion investment to create a dedicated AWS FDE organization. Popularized by Palantir, FDEs are often embedded with companies to integrate AI into their workflows and to build more customized solutions. Kalavade said it's \"a really hard role,\" and that those best positioned to succeed have a startup mindset. Kalavade said AI models alone…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.028
+      },
+      "id": "0d76a9007bc42be3",
+      "collectedAt": "2026-10-05T07:17:22.299685+00:00"
     }
   ],
-  "updatedAt": "2026-10-05T02:16:33.271055+00:00"
+  "updatedAt": "2026-10-05T07:17:22.299685+00:00"
 }

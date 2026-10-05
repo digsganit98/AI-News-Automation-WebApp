@@ -27,7 +27,331 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "study-evaluates-lightweight-decision-models-for-4db185",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "Study evaluates lightweight decision models for AI agent harnesses",
+      "summary": "Researchers evaluated lightweight decision models designed to handle frequent, small tasks for AI agents like tool selection and security checks. The study uses a paired and self-audited approach to compare these fast models against more complex reasoning methods.",
+      "whyItMatters": "It sheds light on how to optimize lightweight models for frequent agent tasks without sacrificing reliability.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.02267"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "comparative-value-estimation-method-helps-long-h-798258",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "Comparative value estimation method helps long-horizon tool-use agents",
+      "summary": "A new paper addresses the challenge of AI agents making decisions over long sequences of actions. It introduces a method to estimate the value of different choices prior to acting, helping agents handle complex tasks where final outcomes are delayed.",
+      "whyItMatters": "This approach improves multi-step decision-making for autonomous agents operating in complex environments.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.02330"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "dereact-separates-reasoning-from-action-to-impro-d4462b",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "DeReAct separates reasoning from action to improve AI agent reliability",
+      "summary": "Researchers introduced DeReAct, a modular architecture that separates an AI agent's reasoning from its execution steps to boost reliability. The system adds independent validation checks for action validity and task completion to reduce errors.",
+      "whyItMatters": "Decoupling reasoning from actions helps lower error rates for less capable models handling complex workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.02351"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-data-generation-and-verification-deb9f6",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "Study examines data generation and verification challenges in terminal-agent training",
+      "summary": "This study investigates why training AI agents to use terminal commands can stall, even when advanced models generate the tasks. It highlights that runnable environments and test suites alone do not ensure a reliable training pipeline.",
+      "whyItMatters": "Identifying these hurdles helps developers build more robust training pipelines for interactive software agents.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.02405"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "apdmem-provides-hierarchical-memory-management-f-59a99d",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "APDMem provides hierarchical memory management for personalized AI assistants",
+      "summary": "Researchers developed APDMem, a memory system that allows personalized AI assistants to retrieve relevant information from long conversation histories. The system progressively discloses details based on the complexity of the user query.",
+      "whyItMatters": "Hierarchical memory management helps AI assistants maintain context over long interactions while keeping query processing efficient.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.02472"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "motormind-connects-vision-language-models-to-zer-d7d7a0",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "MotorMind connects vision-language models to zero-shot robot manipulation",
+      "summary": "MotorMind is a new system that enables general-purpose vision-language models to control robots without task-specific training. It connects model reasoning directly to robot actions and feedback in both simulated and real-world environments.",
+      "whyItMatters": "It bridges general vision models and robotic hardware for flexible zero-shot control.",
+      "category": "Methodology",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38078"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38078",
+        "code": null,
+        "model": null,
+        "demo": "https://motor-mind.github.io"
+      }
+    },
+    {
+      "id": "training-on-protein-folding-data-enhances-genera-321dae",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "Training on protein folding data enhances general reasoning in AI models",
+      "summary": "Researchers explored whether training AI models on protein folding data improves their general reasoning capabilities. Post-training with protein structure data significantly enhanced model performance on spatial, scientific, and general reasoning benchmarks.",
+      "whyItMatters": "It shows that domain-specific scientific data can successfully transfer to broader reasoning capabilities.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38879"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38879",
+        "code": "https://github.com/GENTEL-lab/Fold2Reason",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "lexreward-introduces-taxonomy-driven-evaluation-32970c",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "LexReward introduces taxonomy-driven evaluation for legal language models",
+      "summary": "This paper introduces LexReward, a framework for evaluating legal language models that assesses more than just simple answer correctness. It applies a detailed taxonomy to measure multidimensional quality and provide interpretable feedback for model improvement.",
+      "whyItMatters": "Multidimensional tax-driven evaluation helps developers build more accurate and nuanced legal AI assistants.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39071"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39071",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "framemorrow-selects-key-frames-to-improve-long-v-f4f8c3",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "FrameMorrow selects key frames to improve long video generation",
+      "summary": "Researchers introduced FrameMorrow, a method that helps video generation models handle long histories by selecting only the most relevant prior frames. The technique reduces the computational cost and redundancy tied to generating extended video content.",
+      "whyItMatters": "Selective frame handling makes long-form video generation more computationally efficient.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38839"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38839",
+        "code": "https://github.com/YinBo0927/FrameMorrow",
+        "model": null,
+        "demo": "https://yinbo0927.github.io/FrameMorrow/"
+      }
+    },
+    {
+      "id": "study-examines-source-bias-in-llm-agent-search-a-81fad8",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "Study examines source bias in LLM agent search and recommendation tasks",
+      "summary": "A new paper investigates how large language model agents develop preferences for specific sources when making decisions like product purchases or paper citations. The study explores mitigation techniques to reduce source bias in end-to-end applications.",
+      "whyItMatters": "Understanding and curbing source bias is essential for building fair and objective AI search agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.03195"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.03195",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "recursive-self-rewrite-framework-helps-models-le-3acc00",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "Recursive Self-Rewrite framework helps models learn from complex task trajectories",
+      "summary": "Researchers proposed the Recursive Self-Rewrite framework, which uses a single base model to discover successful trajectories for difficult tasks. The approach provides supervision for model improvement without requiring specialized interventions during deployment.",
+      "whyItMatters": "It offers a scalable way for base models to self-improve on complex multi-step trajectories.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02826"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02826",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "world-embedding-benchmark-evaluates-physical-law-156dc3",
+      "createdAt": "2026-10-05T07:23:43.628799+00:00",
+      "headline": "World Embedding Benchmark evaluates physical laws in video models",
+      "summary": "The World Embedding Benchmark introduces 8,000 controlled simulation cases to evaluate how video representations encode physical information. This tool lets researchers assess the physical fidelity of modern world models and video generation systems.",
+      "whyItMatters": "Standardized simulation benchmarks help measure whether video generation models accurately reflect real physical laws.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.03632"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.03632",
+        "code": "https://github.com/World-Representation-Lab/World-Embedding-Benchmark",
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-05T02:20:54.544746+00:00"
+  "updatedAt": "2026-10-05T07:23:50.527830+00:00"
 }
