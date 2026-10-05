@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-05T01:04:06.081266Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-05T02:16:33.271055+00:00",
+      "newItems": 6,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1245,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.285819Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.319364Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 873,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.319640Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.319875Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320003Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320129Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320249Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320382Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320500Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320618Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 36,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320728Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320773Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320806Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.320971Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.321006Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.321117Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.321225Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.321522Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-05T02:16:33.321765Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.321935Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.322062Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.322243Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.322379Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.322505Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.322963Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.323094Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.323222Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-05T02:16:33.323260Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -713,7 +943,97 @@
       },
       "id": "ac832217f3385da8",
       "collectedAt": "2026-10-05T01:04:06.016540+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Trump Announces New AI Leadership For ‘Super Intelligence Force’ - dailycaller.com",
+      "url": "https://dailycaller.com/2026/10/04/trump-super-intelligence-force-jay-clayton/",
+      "publishedAt": "2026-10-04T22:50:00Z",
+      "excerpt": "# Trump Announces New AI Leadership For ‘Super Intelligence Force’. President Donald Trump has handed the nation’s top intelligence official command of a new federal body built to steer American policy on artificial intelligence. Trump announced the Super Intelligence Force (SIF) on Sunday and named Director of National Intelligence Jay Clayton to run it, according to a post on Truth Social. The group will answer directly to the president and Chief of Staff Susie Wiles, according to the post.…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.198
+      },
+      "id": "cbbe2304fa049c66",
+      "collectedAt": "2026-10-05T02:16:33.271055+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "API Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/industry/api",
+      "publishedAt": "2026-10-04T20:00:00Z",
+      "excerpt": "Bird\nCheckr\nTerse\nClick\nLuca IQ\nArchal\nKeyframe Labs\nSalus\nCaptain\nParse\ns2.dev\nTesora\nNotte\nAgentMail\nHABIT\nParsewise\nsuperglue\nReJot\nBlindPay\nQuantstruct\nBrowser Use\nAbundant\nSurge\nUltralight\nVespper\nVideoGen\nScape\nOway\nPanora\nInteguru\nDownlink\nPrecip\nMagic Hour\nMinded\nRecipeUI\nInconvo\nSmobi\nOpensteer\nSkyvern\nTerminal\nMorph\nFastgen\nSuperAPI\nSpecCheck\nMercoa\nEscape\nPoplarML\nLaminate\nNango\nPropexo\n\n### Hottest Startup Categories\n\n## Footer\n\nY Combinator\n\n### Make something people want. [...] Y…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.331
+      },
+      "id": "9ee1ee967643022a",
+      "collectedAt": "2026-10-05T02:16:33.271055+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta opens Muse to DIY gadget builders with new open-source hardware project - JournalArta",
+      "url": "https://journalarta.com/2026/10/04/meta-opens-muse-to-diy-gadget-builders-with-new-open-source-hardware-project/",
+      "publishedAt": "2026-10-03T21:02:54Z",
+      "excerpt": "Saturday, October 3, 2026 · JakartaS&P 7,722.72 ▲0.73%USD/IDR 17,900 ▼0.13%Subscribe. # Meta opens Muse to DIY gadget builders with new open-source hardware project. October 3, 20262 min read. Meta is pushing its Muse AI agent beyond phones and browsers and into the hands of hobbyists who want to build their own hardware around it. The company said on Friday it is launching Muse Gadgets, an open-source project that lets developers connect Muse to custom devices. Meta says it is releasing…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.146
+      },
+      "id": "b185e029e9ae80e6",
+      "collectedAt": "2026-10-05T02:16:33.271055+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta, Duke and UC Davis researchers unveil self-improving branches for agent harness optimization - Crypto Briefing",
+      "url": "https://cryptobriefing.com/meta-self-improving-agent-harness-optimization/",
+      "publishedAt": "2026-10-03T22:45:59Z",
+      "excerpt": "# Meta, Duke and UC Davis researchers unveil self-improving branches for agent harness optimization. A new preprint splits harness search into specialized branches and routes each task to the best one, beating the earlier Meta-Harness system on math, terminal and coding benchmarks. Researchers from Meta, Duke University and the University of California, Davis have a new idea for making AI agents better. Their preprint, titled “Mixture of Self-Improving Branches for Agent Harness Optimization,”…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.119
+      },
+      "id": "05912ee8448a7aaf",
+      "collectedAt": "2026-10-05T02:16:33.271055+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amazon Blocks Shoppers From Using New Meta Agent 09/22/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418166/amazon-blocks-shoppers-from-using-new-meta-agent.html?edition=",
+      "publishedAt": "2026-10-04T02:02:28Z",
+      "excerpt": "*   Become A MediaPost Member Subscribe to your choice of industry specific newsletters, save $100 on conferences, search member directories, comment on stories and more. # Become a free MediaPost member now to read this article. Amazon has restricted its customers from using Muse AI -- Meta’s newest artificial intelligence agent -- while shopping on its ecommerce platform, following denied requests that Meta remove its agent from the retail site. Consumers attempting to use Muse AI while…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.111
+      },
+      "id": "6df3c396b818e126",
+      "collectedAt": "2026-10-05T02:16:33.271055+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Trump announces formation of AI \"Super Intelligence Force\" - CBS News",
+      "url": "https://www.cbsnews.com/news/ai-super-intelligence-force-trump-jay-clayton/",
+      "publishedAt": "2026-10-04T13:25:08Z",
+      "excerpt": "# Trump announces formation of AI \"Super Intelligence Force\". *Washington —* President Trump announced Sunday the formation of a \"Super Intelligence Force,\" after meeting with leaders of the country's largest artificial intelligence companies last week amid growing calls for guardrails on the technology. \"Following the Historic White House Accord on Super Intelligence, where the World's most important Technology Companies came together, and confirmed their responsibilities to the American…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.102
+      },
+      "id": "fafeb11e512686ee",
+      "collectedAt": "2026-10-05T02:16:33.271055+00:00"
     }
   ],
-  "updatedAt": "2026-10-05T01:04:06.016540+00:00"
+  "updatedAt": "2026-10-05T02:16:33.271055+00:00"
 }

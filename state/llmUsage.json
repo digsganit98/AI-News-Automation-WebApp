@@ -1,15 +1,20 @@
 {
   "byAgent": {
-    "scout": 6
+    "analyst": 1,
+    "editor": 1,
+    "scout": 8,
+    "writer": 2
   },
   "byModel": {
-    "groq/qwen/qwen3.8-27b": 6
+    "groq/openai/gpt-oss-120b": 4,
+    "groq/qwen/qwen3.8-27b": 8
   },
-  "calls": 6,
+  "calls": 12,
   "date": "2026-10-05",
   "tokensByModel": {
-    "groq/qwen/qwen3.8-27b": 6323
+    "groq/openai/gpt-oss-120b": 10104,
+    "groq/qwen/qwen3.8-27b": 8939
   },
-  "tokensIn": 6239,
-  "tokensOut": 84
+  "tokensIn": 17315,
+  "tokensOut": 1728
 }
