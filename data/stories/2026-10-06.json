@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-06",
+  "stories": [
+    {
+      "id": "anthropic-claude-models-available-on-aws-govclou-17a8be",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "Anthropic Claude models available on AWS GovCloud for regulated workloads",
+      "summary": "Anthropic's Claude Opus 5.5 and Claude Sonnet 5.5 are now available on Amazon Bedrock within AWS GovCloud (US) Regions. This allows organizations with strict compliance needs to use AI-assisted tools while maintaining necessary security certifications.",
+      "whyItMatters": "It expands access to advanced language models for organizations operating under strict public sector and defense compliance frameworks.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-aws-skill-helps-coding-agents-optimize-sagem-875cbd",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "New AWS skill helps coding agents optimize SageMaker inference",
+      "summary": "Amazon SageMaker has introduced a new skill called aws-ai-ml that integrates with coding agents like Kiro and Claude Code. This tool allows developers to ask their agents to benchmark endpoints, recommend deployment configurations, and generate executable code for optimizing AI model inference.",
+      "whyItMatters": "It helps developers streamline the deployment and tuning of machine learning models directly through their coding assistants.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "realcompanion-benchmark-evaluates-human-understa-e0ffca",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "RealCompanion benchmark evaluates human understanding in long-term AI conversations",
+      "summary": "Researchers released a benchmark containing over 27,000 messages from real relationships with AI companions to test how well models understand users over time. The study found that recent context is usually sufficient for understanding, and that different agent systems can achieve similar accuracy at vastly different costs.",
+      "whyItMatters": "It provides empirical data on how conversational AI systems handle long-term context and user interactions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.01780"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.01780",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "latent-mopd-method-enables-representation-level-44418c",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "Latent-MOPD method enables representation-level multi-teacher distillation for LLMs",
+      "summary": "Researchers introduced Latent-MOPD as a representation-level multi-teacher on-policy distillation method for large language models. The approach integrates specialist predictions at a deeper level than standard output distribution transfers.",
+      "whyItMatters": "It offers a more integrated way to transfer knowledge from multiple teacher models into smaller target models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02381"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02381",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "weft-framework-scales-tool-use-post-training-for-470800",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "WEFT framework scales tool-use post-training for general-purpose agents",
+      "summary": "A new framework called WEFT addresses the limitations of scaling only executable environments for AI agents. It proposes a broader approach to post-training that considers the full agentic interaction system, including tasks, agent harnesses, and evaluators.",
+      "whyItMatters": "It improves the post-training methodology for general-purpose AI agents interacting with various software environments.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36887"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36887",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "veriharness-framework-improves-verification-for-8bc5e8",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "VeriHarness framework improves verification for long-horizon AI tasks",
+      "summary": "Google Research released VeriHarness, a framework that helps verify the outputs of AI agents on complex, long-term tasks without needing reference answers. The system uses disagreement resolution and consensus challenging to improve accuracy, achieving notable performance gains on frontier models.",
+      "whyItMatters": "It provides a systematic way to verify complex agent outputs when ground-truth answers are unavailable.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.00972"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.00972",
+        "code": "https://github.com/google-research/veriharness",
+        "model": null,
+        "demo": "https://veriharness.com/"
+      }
+    },
+    {
+      "id": "helixworld-generates-real-time-interactive-audio-5862a8",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "HelixWorld generates real-time interactive audio-visual scenes",
+      "summary": "Researchers introduced HelixWorld, a model that generates synchronized visual scenes and spatial stereo sound in real time. It runs at 24 frames per second on a single GPU and outperforms existing baselines in camera-aligned spatial-acoustic immersion.",
+      "whyItMatters": "It advances real-time multimodal generation by combining synchronized spatial audio and visual rendering on standard hardware.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38123"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38123",
+        "code": "https://github.com/NoizAI/HelixWorld",
+        "model": null,
+        "demo": "https://helixworld.org"
+      }
+    },
+    {
+      "id": "recurrent-depth-recipe-scales-looped-mixture-of-778afe",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "Recurrent depth recipe scales looped mixture-of-experts models",
+      "summary": "A new paper explores the use of looped Transformers in large Mixture-of-Experts language models. The research provides a scalable recipe for applying recurrent depth to increase effective model depth without increasing parameter count.",
+      "whyItMatters": "It offers a structural approach to increase model reasoning capacity efficiently without scaling raw parameter counts.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.01153"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.01153",
+        "code": "https://github.com/hed-ucas/LOOM",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "triadic-linear-attention-improves-long-context-s-797471",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "Triadic Linear Attention improves long-context sequence modeling",
+      "summary": "Researchers proposed Triadic Linear Attention, a method that uses three-dimensional recurrent states to improve long-context sequence modeling. The approach aims to enhance the performance of linear attention mechanisms by expanding the memory state structure.",
+      "whyItMatters": "It addresses memory efficiency challenges in processing long sequences using linear attention architectures.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36529"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36529",
+        "code": "https://github.com/OliverSieberling/TriadicLinearAttention",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-researchers-propose-method-to-prevent-ai-6e0a54",
+      "createdAt": "2026-10-05T22:54:17.185275+00:00",
+      "headline": "Google researchers propose method to prevent AI agents from overfitting to test tasks",
+      "summary": "A new research paper from Google Cloud AI Research and partner universities addresses a common issue where self-improving AI agents memorize their specific test tasks rather than learning general skills. The proposed method aims to prevent this overspecialization while also reducing compute costs.",
+      "whyItMatters": "It helps ensure that self-improving AI agents develop broad competencies rather than simply memorizing evaluation benchmarks.",
+      "category": "Methodology",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-05T22:54:23.764040+00:00"
+}

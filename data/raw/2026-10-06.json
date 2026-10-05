@@ -1,0 +1,874 @@
+{
+  "date": "2026-10-06",
+  "runs": [
+    {
+      "runAt": "2026-10-05T22:47:54.553378+00:00",
+      "newItems": 41,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1247,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.570769Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.613655Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 874,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.614068Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.614385Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 85,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.614567Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.614740Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.614906Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615093Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615255Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615412Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 32,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615570Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615632Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615679Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615919Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.615990Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.616155Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.616318Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.616608Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-05T22:47:54.616769Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.616927Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.617151Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.617392Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.617553Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.617712Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.618363Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.618547Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.618728Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-05T22:47:54.618782Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "url": "https://huggingface.co/papers/2610.03715",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate this capability, we curate a set of real-world videos and construct synthetic scenes spanning…",
+      "author": "Ruihong Shen, Žiga Kovačič, Peter Kulits, Xingrui Wang, Zizhang Li, Joshua B. Tenenbaum, Alan Yuille, Jieneng Chen, Jiajun Wu",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/4DCodeBench/4DCodeBench",
+        "projectPage": "https://4dcodebench.com/",
+        "arxivUrl": "https://arxiv.org/abs/2610.03715"
+      },
+      "id": "5b32d40c65515ec8",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Tail-Influence Sampling for CVaR Policy Evaluation",
+      "url": "https://huggingface.co/papers/2609.38096",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Policies with similar mean returns can differ sharply in rare failures, yet estimating lower-tail conditional value-at-risk (CVaR) accurately can require many costly rollouts. When different conditional components of a stochastic workflow can be queried separately, we ask how to allocate a fixed evaluation budget to estimate a fixed policy's CVaR most accurately. We derive a tail influence for each queryable conditional law that aggregates how its uncertainty affects CVaR across every Bellman…",
+      "author": "Pauline Bourigault, Xiaotong Ji, Matthieu Zimmer, Rasul Tutunov, Haitham Bou-Ammar",
+      "extra": {
+        "upvotes": 17,
+        "githubRepo": "https://github.com/paulinebourigault/TIS",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.38096"
+      },
+      "id": "10ed5b12c4e75719",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+      "url": "https://huggingface.co/papers/2610.01780",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships with an AI companion: 27,218 messages over up to 120 days, released as the conversation and four…",
+      "author": "Arman Behnam, Sunglyoung Kim, Liangwei Yang",
+      "extra": {
+        "upvotes": 205,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.01780"
+      },
+      "id": "e0ffcafb487af9bc",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.02381",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "On-policy distillation (OPD) trains a student on the responses it generates. Existing LLM multi-teacher OPD transfers what specialists predict through their output distributions. We introduce Latent-MOPD, to our knowledge the first representation-level multi-teacher OPD method for LLMs. It integrates existing specialists through both their predictions and the hidden states used to compute them, without additional teacher training. To coordinate representation supervision from multiple…",
+      "author": "Zhengyu Fang, Seoyeon Hong, Jie Yang, Muyang Li, Koyoshi Shindo, Brandon Joseph Lwowski, Jing Li",
+      "extra": {
+        "upvotes": 32,
+        "githubRepo": null,
+        "projectPage": "https://arxiv.org/abs/2610.02381",
+        "arxivUrl": "https://arxiv.org/abs/2610.02381"
+      },
+      "id": "44418c421909aac3",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Beyond Future Prediction: Denoising as Generative Adaptation for Robot Control",
+      "url": "https://huggingface.co/papers/2609.28339",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Pretrained generative Diffusion Transformers (DiTs) capture rich pixel-level visual and language-conditioned structure through large-scale image and video generation training. A growing line of robot policies builds on this generative prior, but how it should be transferred to control remains unclear, and existing approaches commonly instantiate this transfer through future visual prediction. We ask a more basic question: what a pretrained generative DiT actually contributes to action…",
+      "author": "Zanyi Wang, Yuheng Lei, Dengyang Jiang, Ping Luo, Mengdi Wang, Zhixuan Liang, Shilong Liu",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/xmz111/NowWAM",
+        "projectPage": "https://xmz111.github.io/NowWAM/",
+        "arxivUrl": "https://arxiv.org/abs/2609.28339"
+      },
+      "id": "4aa7b979fe4f6f4d",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents",
+      "url": "https://huggingface.co/papers/2609.36887",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Recent efforts to scale tool-use post-training have largely centered on the synthesis of executable environments, which constitute only one component of a broader agentic interaction system comprising the environment, task, agent harness, and evaluator. Scaling environments in isolation, however, does not guarantee commensurate gains in model performance, because reliable learning signals depend on coherent interactions among all components of the agentic interaction system. To address this…",
+      "author": "Bo Mao, Hang He, Linting Wang, Lizhi Lin, Maosen Zhou, Guanming Liu, Jinxiu Liu, Tianyu Huai, Chaoyun Zhang, Bingxuan Li, Kepeng Lei, Guanting Dong, Zhou Shao, Rui Zheng, Hang Yan, Jie Zhou, Chengcheng Wan, Tao Gui, Liang He, Xipeng Qiu",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.36887"
+      },
+      "id": "470800de15556c39",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Language Models that Play Chess and Explain Their Moves",
+      "url": "https://huggingface.co/papers/2610.03695",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen, a 4B-parameter chess-language model that can explain its moves and plans while playing at the level of a typical Grandmaster. Our novel framework enables domain-specific reasoning through…",
+      "author": "Adithya Bhaskar, Jeffrey Cheng, Danqi Chen",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/queen-project/queen",
+        "projectPage": "https://queen-project.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.03695"
+      },
+      "id": "4e36002fbcda9cc7",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Equal Ranking Quality, Different Decisions: Measuring and Reducing Order Dependence in LLM Scorers",
+      "url": "https://huggingface.co/papers/2608.26762",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "In passage reranking, response ranking and multi-document question answering, LLMs can score several candidate documents or responses together in one prompt, each still receiving its own score. Such scorers are selected on ranking quality, but their scores determine a decision: what a score threshold retains, a reader answers, or which chosen/rejected pair enters preference training. Because the candidates share that prompt, reordering them changes their scores. The same query over the same…",
+      "author": "Markus Frohmann, Mahdiyar Ali Akbar Alavi, Elizabeth Lingg, Navid Rekabsaz",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/thomsonreuters/presentation-dependence",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2608.26762"
+      },
+      "id": "3f150fc47e5ffa71",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+      "url": "https://huggingface.co/papers/2610.03675",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framework where a stronger, higher-cost LLM explores solution strategies, and a cheaper LLM implements…",
+      "author": "Hui Chen, Xuan Qi, James Xu Zhao, Zhaopeng Feng, Shilong Liu, Kuang Xu, Pang Wei Koh, Bryan Hooi",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/chchenhui/frugalevo",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.03675"
+      },
+      "id": "455d9f0a4c20c80a",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2609.37925",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Autoregressive (AR) video diffusion enables low-latency, streamable video generation, but prediction errors often accumulate over long rollouts. Training the generator on its own rollouts exposes it to these imperfect histories. However, existing video-level distribution matching distillation (DMD) scores the whole rollout jointly. Because a chunk is evaluated together with its past and future, its correction can favor matching artifacts in the surrounding context merely to preserve temporal…",
+      "author": "Chenjian Gao, Zhihao Hu, Jianqi Ma, Jun Zhang, Weidong Zhang, Tianfan Xue",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/cjeen/RMD",
+        "projectPage": "https://cjeen.github.io/RMD/",
+        "arxivUrl": "https://arxiv.org/abs/2609.37925"
+      },
+      "id": "3085c65f131aa54e",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Collective Bias Mitigation via Model Routing and Collaboration",
+      "url": "https://huggingface.co/papers/2610.03240",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Large language models (LLMs) are increasingly deployed in public health, finance, and governance, requiring both accuracy and societal value alignment. Despite recent advances, LLMs often perpetuate or amplify bias embedded in their training data, posing challenges to fairness. While self-debiasing encourages an LLM to identify and correct its own biases, relying on a single model's intrinsic knowledge may be insufficient to address deeply ingrained stereotypes. To address this limitation, we…",
+      "author": "Mingzhe Du, Luu Anh Tuan, Xiaobao Wu, Yichong Huang, Yue Liu, Dong Huang, Huijun Liu, Bin Ji, Jie M. Zhang, See-Kiong Ng",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.03240"
+      },
+      "id": "e4e100483ad97137",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "LVMT: Video Mask Transformer for Long-term Video Segmentation",
+      "url": "https://huggingface.co/papers/2609.34895",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Existing online video segmentation methods struggle to track objects in long, complex videos with long-term occlusions. We hypothesize that this limitation is caused by (i) the inability of their temporal propagation mechanism to adaptively select the object information that is propagated across time, and (ii) their inability to be trained on long videos due to memory requirements and vanishing gradients. To address the first limitation, we propose to use a lightweight GRU-based temporal…",
+      "author": "Narges Norouzi, Niccolò Cavagnero, Idil Esen Zulfikar, Bastian Leibe, Gijs Dubbelman, Daan de Geus",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/tue-mps/lvmt",
+        "projectPage": "https://www.tue-mps.org/lvmt/",
+        "arxivUrl": "https://arxiv.org/abs/2609.34895"
+      },
+      "id": "4102565577cbd688",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
+      "url": "https://huggingface.co/papers/2610.00972",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "As LLM agents undertake increasingly complex, long-horizon tasks, verifying their outputs becomes increasingly challenging. We study how verification capability can be strengthened with a fixed base model, without access to reference answers or grading rubrics at test time. Repeated sampling yields multiple rollouts that can contain complementary correct claims, but we need a reliable verification mechanism to determine which claims to trust. We first find that disagreement often exposes…",
+      "author": "Caiqi Zhang, Rujun Han, Zifeng Wang, Zoey CuiZhu, Nigel Collier, Tomas Pfister, Chen-Yu Lee",
+      "extra": {
+        "upvotes": 30,
+        "githubRepo": "https://github.com/google-research/veriharness",
+        "projectPage": "https://veriharness.com/",
+        "arxivUrl": "https://arxiv.org/abs/2610.00972"
+      },
+      "id": "8bc5e84a7e0c1469",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Local Support Learning",
+      "url": "https://huggingface.co/papers/2610.02126",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "We explore catastrophic forgetting in the context of large pre-trained models. By considering forgetting as a geometric problem in the input space of each weight matrix, we uncover a natural retention objective under which updates produced by gradient-based optimizers are suboptimal. Following this observation, we propose Local Support Learning (LSL), a general-purpose framework that augments gradient-based training for retention of prior capabilities without access to prior data. During a new…",
+      "author": "Assaf Ben-Kish, Akarsh Kumar, James Glass, Raja Giryes",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/assafbk/local_support_learning",
+        "projectPage": "https://assafbk.github.io/lsl/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02126"
+      },
+      "id": "5d04dd5346cbc190",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
+      "url": "https://huggingface.co/papers/2609.38123",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "World simulation is inherently multisensory, demanding synchronized visual and acoustic dynamics in real time. Yet prevailing interactive world models remain strictly silent, focusing exclusively on visual rendering and control while overlooking the acoustic dimension. We present HelixWorld, a real-time interactive audio-visual world model where visual scenes and camera-grounded spatial stereo sound co-evolve natively under user interaction. We curate a high-fidelity spatial audio-visual…",
+      "author": "Lei Ke, Jiahao Pan, Zeyue Tian, Jiaming Wang, Haoyuan Huang, Kam Man Wu, Pengjun Fang, Hongyu Liu, Chenyang Qi, Lin Wang, Ruibin Yuan, Weijia Chen, Fangneng Zhan, Qifeng Chen, Wei Xue, Yike Guo",
+      "extra": {
+        "upvotes": 22,
+        "githubRepo": "https://github.com/NoizAI/HelixWorld",
+        "projectPage": "https://helixworld.org",
+        "arxivUrl": "https://arxiv.org/abs/2609.38123"
+      },
+      "id": "5862a87b23ab6ba8",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "ProAR: Learning Prospective Reasoning with Autoregressive Video Models",
+      "url": "https://huggingface.co/papers/2610.03664",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Autoregressive (AR) video models excel at causal generation, but their reliance on next-chunk prediction confines them to a short-sighted, reactive paradigm. This limitation is particularly consequential for reasoning-oriented generation, where achieving a target outcome through valid intermediate states matters more than local visual plausibility. To address this challenge, we propose Learning Prospective Reasoning with Autoregressive Video Models (ProAR), a novel framework that transforms…",
+      "author": "Linghui Shen, Tinghui Zhu, Sheng Zhang, Muhao Chen",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": "https://github.com/luka-group/ProAR",
+        "projectPage": "https://luka-group.github.io/ProAR/",
+        "arxivUrl": "https://arxiv.org/abs/2610.03664"
+      },
+      "id": "872669b556078fa6",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Looping Beyond Twice: A Scalable Recipe for Looped Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2610.01153",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Looped Transformers introduce recurrent depth as a new scaling axis for LLMs: by repeatedly applying shared Transformer blocks, they increase effective depth without increasing parameter count. However, the benefits of looping remain unclear for large MoE LLMs under FLOPs-matched comparisons. The main reason is that the gains from additional iterations diminish quickly and can even turn into degradation, so the extra FLOPs spent on looping yield little substantial improvement. Consequently,…",
+      "author": "Di He, Pengxiang Li, Da Chang, Qingyan Meng, Lu Yin, Shiwei Liu",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/hed-ucas/LOOM",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.01153"
+      },
+      "id": "778afe82daf53311",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Triadic Linear Attention: Three-Dimensional Recurrent States for Long-Context Sequence Modeling",
+      "url": "https://huggingface.co/papers/2609.36529",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Recurrent neural networks (RNNs) compress the historical context into a memory state of fixed size, thus allowing for constant-time inference. The memory state size is a crucial factor in their performance, as exemplified by the strong performance and resurgence of linear attention, which extends the vector-valued hidden states of ordinary RNNs to matrix-valued hidden states. Crucially, linear attention does so in a parameter-efficient way, in particular by using an outer product of the key…",
+      "author": "Oliver Sieberling, Bharat Runwal, David Jin, Ryan Chin, Rameswar Panda, Yoon Kim",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": "https://github.com/OliverSieberling/TriadicLinearAttention",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.36529"
+      },
+      "id": "797471b3248fa551",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: autotrust/JEV-27B-VL",
+      "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 509,
+        "trendingScore": 407,
+        "task": "image-text-to-text"
+      },
+      "id": "99a91df48bfac49b",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: autotrust/GEV-26B-Decide",
+      "url": "https://huggingface.co/autotrust/GEV-26B-Decide",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 403,
+        "trendingScore": 307,
+        "task": "text-classification"
+      },
+      "id": "2a4be64e27515518",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+      "publishedAt": "2026-10-05T17:25:20Z",
+      "excerpt": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding tool, for compliance-aligned, AI-assisted development on regulated and ITAR workloads.",
+      "author": "Bradley Wyman",
+      "extra": {},
+      "id": "1a12289f028759f9",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+      "publishedAt": "2026-10-05T17:23:19Z",
+      "excerpt": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep expertise in inference optimization and benchmarking. Describe what you want, and your agent generates executable SageMaker Python SDK v3 code to benchmark, recommend, and compare deployments.",
+      "author": "Mona Mona",
+      "extra": {},
+      "id": "f5b98f32f035f8a5",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Next AI Security Boundary Is Influence",
+      "url": "https://medium.com/@ornizri40/the-next-ai-security-boundary-is-influence-9035f2994248?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T21:40:55Z",
+      "excerpt": "Security teams are getting better at controlling AI agents. We give them identities, limit their tools, restrict permissions and log what… Continue reading on Medium »",
+      "author": "Or Nizri",
+      "extra": {},
+      "id": "9abf5b04da937cd1",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Choose the Right AI Model for Your Use Case",
+      "url": "https://medium.com/@devang.gandhi/how-to-choose-the-right-ai-model-for-your-use-case-e9344dc1a6a7?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T19:56:22Z",
+      "excerpt": "Which AI model should I use? Continue reading on Medium »",
+      "author": "Devang Gandhi",
+      "extra": {},
+      "id": "804b4919f8f74638",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Keep an AI Style Library From Becoming a Prompt Graveyard",
+      "url": "https://medium.com/chatgpt-beyond/how-to-keep-an-ai-style-library-from-becoming-a-prompt-graveyard-86ef76709c8a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T18:52:28Z",
+      "excerpt": "A useful creative library needs rules for what gets saved, revised, and turned into a new variation. Continue reading on ChatGPT & Beyond »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "7e6e8c75c1a27027",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "RushFrame Is Out: an AI Video Editor for People Who Think in Scenes",
+      "url": "https://medium.com/@dst.llc/rushframe-is-out-an-ai-video-editor-for-people-who-think-in-scenes-33883dbb1008?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T17:55:33Z",
+      "excerpt": "A Windows app that takes AI video from loose clips to a finished cut — generate, continue, bridge, edit, export, all in one place Continue reading on Medium »",
+      "author": "DST",
+      "extra": {},
+      "id": "f22280d8109a613c",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "token in vs token out",
+      "url": "https://medium.com/@Nishith_S/token-in-vs-token-out-f937a55b1511?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T17:24:13Z",
+      "excerpt": "Input tokens and output tokens are related but different concepts: Continue reading on Medium »",
+      "author": "Nishith S",
+      "extra": {},
+      "id": "dadb1ae0aa666ae5",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "publishedAt": "2026-10-05T21:00:21Z",
+      "excerpt": "",
+      "author": "outlier99",
+      "extra": {
+        "points": 128,
+        "comments": 108,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49970667"
+      },
+      "id": "e124c286dd2bccb5",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI Companies Are Parasites",
+      "url": "https://www.coryd.dev/posts/2026/ai-companies-are-parasites",
+      "publishedAt": "2026-10-05T19:30:10Z",
+      "excerpt": "",
+      "author": "cdrnsf",
+      "extra": {
+        "points": 58,
+        "comments": 37,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49969369"
+      },
+      "id": "d309e4fbcda57a56",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "publishedAt": "2026-10-05T17:53:35Z",
+      "excerpt": "",
+      "author": "brokensegue",
+      "extra": {
+        "points": 249,
+        "comments": 178,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49968105"
+      },
+      "id": "deeb3d35a36b9ce3",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Spending on AI is becoming almost impossible for businesses to budget",
+      "url": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+      "publishedAt": "2026-10-05T13:22:31Z",
+      "excerpt": "",
+      "author": "swolpers",
+      "extra": {
+        "points": 58,
+        "comments": 81,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49964537"
+      },
+      "id": "df3ea662a0a433d3",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
+      "url": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+      "publishedAt": "2026-10-05T12:56:18Z",
+      "excerpt": "",
+      "author": "samizdis",
+      "extra": {
+        "points": 57,
+        "comments": 113,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49964248"
+      },
+      "id": "bc41d95a41e53b0c",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "llama.cpp v0.6.0 released with MTP speculative decoding for Qwen4Exp and lots more",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0",
+      "publishedAt": "2026-10-05T18:58:01Z",
+      "excerpt": "",
+      "author": "/u/vexatious-big",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wyh03u/llamacpp_v060_released_with_mtp_speculative/"
+      },
+      "id": "af906adcf2faeca9",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI & Tech Brief: Math researchers strike back - The Washington Post",
+      "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/10/05/ai-tech-brief-math-researchers-strike-back/",
+      "publishedAt": "2026-10-05T19:08:52Z",
+      "excerpt": "# AI & Tech Brief: Math researchers strike back. Caltech mathematician Sergei Gukov speaks on the fallout from the Navier-Stokes controversy — and a new proposal for advancing math research. Make us preferred on Google. Sign up here to get this newsletter in your inbox. * Controversy around OpenAI’s solution to a famous math problem has created a lingering sense of distrust of the frontier AI labs within the math community. * **Exclusive:** I interview Sergei Gukov, a professor of theoretical…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.057
+      },
+      "id": "3426dbb53cf52434",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests - the-decoder.com",
+      "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+      "publishedAt": "2026-10-04T12:40:37Z",
+      "excerpt": "# Google researchers find a way to keep self-improving AI agents from memorizing their tests. **AI agents that keep optimizing their own working environment quickly tend to overspecialize on their test tasks. A new method from Google Cloud AI Research and several universities aims to prevent that while also cutting compute costs.**. Modern AI agents wrap a fixed language model in a so-called harness, a framework of prompts, workflows, tools, memory, and logic that controls what the model sees…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.052
+      },
+      "id": "1c86234bf3524496",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Agents Forecast To Drive $100B In Sales By Next Year 10/05/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418497/ai-agents-forecast-to-drive-100b-in-sales-by-next.html",
+      "publishedAt": "2026-10-05T15:09:50Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. OpenAI Dots, Grok bots, Meta Muse and OpenClaw Instinct, among others, will take consumers into the world of agentic commerce this holiday season -- marking a major shift in digital advertising and. Because Meta Muse recommends products from the open web --…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.046
+      },
+      "id": "4d2cc861a158a41f",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI and Anthropic execs donate millions to political causes. One billionaire stands apart - San Francisco Chronicle",
+      "url": "https://www.sfchronicle.com/california/article/openai-anthropic-political-donation-22456454.php",
+      "publishedAt": "2026-10-05T11:00:00Z",
+      "excerpt": "Greg Brockman, president of OpenAI, and his wife Anna have given far more to political causes than the combined donations of other top executives of the research lab and its rival Anthropic. The Brockmans gave a total of $25 million to the President Donald Trump-aligned political action committee Maga Inc. and became two of the group’s largest donors. The couple also gave a total of $25 million to the artificial intelligence advocacy group Leading the Future PAC, last year. To see where AI…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.044
+      },
+      "id": "9650b9ea3dfb5383",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI and Anthropic Have a New Threat to Worry About—and It Isn’t China - Gizmodo",
+      "url": "https://gizmodo.com/openai-and-anthropic-have-a-new-threat-to-worry-about-and-it-isnt-china-2000821705",
+      "publishedAt": "2026-10-05T16:30:51Z",
+      "excerpt": "# OpenAI and Anthropic Have a New Threat to Worry About—and It Isn’t China. A little-known American AI startup is looking to steal frontier AI companies’ bread and butter by letting enterprise customers build their own custom AI models. Several powerful open-source and open-weight models developed by Chinese AI labs have been a tempting alternative, since they can be modified to suit each customer’s needs and, more importantly, are cheaper than American frontier models. Echoing Nvidia’s Jensen…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.042
+      },
+      "id": "b0f0bdeff03ef626",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI startup offers tools to minimize flight delay losses - CNN",
+      "url": "https://edition.cnn.com/2026/10/05/business/video/ai-startup-flight-delays-hen-live-100504pseg1-cnni-business-fast",
+      "publishedAt": "2026-10-05T21:48:35Z",
+      "excerpt": "# AI startup offers tools to minimize flight delay losses. 5:48 PM EDT, Mon October 5, 2026. Assaia CEO Christiaan Hen explains what the service does. Survey: Most software developers try to avoid using AI. Why pistachios could get more expensive. The Hollywood hits filmed in Africa. Gulf tourism takes stock at the Arabian Travel Market. Fareed Zakaria on his takeaways from top tech meeting and what's difficult about regulating AI. Hassett defends Trump economy despite voter concerns on…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.192
+      },
+      "id": "30bcde9c4f90a309",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt - Fortune",
+      "url": "https://fortune.com/press-releases/buzz-beyond-signs-first-us-data-deal-techcrunch-disrupt-2026-10-05/",
+      "publishedAt": "2026-10-05T11:00:00Z",
+      "excerpt": "Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt. Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt / Source: Buzz & Beyond (EZ Newswire). SAN FRANCISCO, CA, October 5, 2026 (EZ Newswire) -- Buzz & Beyond, the Seoul-based artificial intelligence company behind video understanding AI platform vling, has signed its first U.S. commercial data agreement with a Silicon Valley-based…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.09
+      },
+      "id": "fbf083cc62811877",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt - Bluefield Daily Telegraph",
+      "url": "https://www.bdtonline.com/region/korean-video-understanding-ai-startup-buzz-beyond-signs-first-u-s-data-deal-ahead-of/article_3a7f7144-7ace-5b93-b4e1-b028bcf082da.html",
+      "publishedAt": "2026-10-05T11:05:59Z",
+      "excerpt": "Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt / Source: Buzz & Beyond. # Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt. SAN FRANCISCO, CA, October 5, 2026 (EZ Newswire) -- Buzz & Beyond, the Seoul-based artificial intelligence company behind video understanding AI platform vling, has signed its first U.S. commercial data agreement with a Silicon Valley-based analytics firm…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.088
+      },
+      "id": "1ba50f7c3696e1ca",
+      "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-05T22:47:54.553378+00:00"
+}
