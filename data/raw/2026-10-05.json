@@ -920,6 +920,236 @@
           "checkedAt": "2026-10-05T07:17:22.365188Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-05T16:14:37.633438+00:00",
+      "newItems": 29,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1247,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.651253Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.690776Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 874,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.691132Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.691414Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.691570Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.691732Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.691878Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692009Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692136Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692261Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692386Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692439Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692478Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692700Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692747Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.692891Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.693029Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.693295Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-05T16:14:37.693426Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.693551Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.693676Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.693922Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.694071Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.694210Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.694793Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.694947Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.695094Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-05T16:14:37.695140Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1583,7 +1813,429 @@
       },
       "id": "0d76a9007bc42be3",
       "collectedAt": "2026-10-05T07:17:22.299685+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "publishedAt": "2026-10-05T15:00:00Z",
+      "excerpt": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "author": null,
+      "extra": {},
+      "id": "78ad53815846c15c",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "publishedAt": "2026-10-05T10:00:00Z",
+      "excerpt": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "author": null,
+      "extra": {},
+      "id": "3cbec84de8bf6155",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
+      "url": "https://huggingface.co/papers/2610.03367",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "We understand little about how capabilities acquired in one language carry over to another, or what governs this transfer: evaluations rely on incomparable, saturation-prone datasets and rarely examine its determinants jointly. Identifying what predicts transfer would let us avoid exhaustive evaluation across all language pairs and let developers target the factors that limit performance in low-resource languages. To evaluate cross-lingual capability transfer, we introduce Multilingual…",
+      "author": "Kenneth Enevoldsen, Riley Herchert, Sofie Mosegaard, Dan Saattrup Smart, Simon Enni, Isaac Chung, Sofie Bruun, Ayush Sunil Munot, Max Müller-Eberstein, Adnan El-Assadi, Elisa Bassignana, Gianluca Barmina, Hafsteinn Einarsson, Iben Nyholm Debess, Linda Freienthal, Lukas Galke Poech, Mike Zhang, Nicolas Legrand, Vladimir Salnikov, Yevhen Kostiuk, Zafar Hussain, Sagandeep Kaur, Agnes Toftgård, Marie Mattson, Kristoffer Nielbo",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/centre-for-humanities-computing/multilingual-gsm-symbolic",
+        "projectPage": "https://github.com/centre-for-humanities-computing/multilingual-gsm-symbolic",
+        "arxivUrl": "https://arxiv.org/abs/2610.03367"
+      },
+      "id": "65dfbc15b80fb353",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "World Action Modeling with Progressive Visual Planning",
+      "url": "https://huggingface.co/papers/2610.02508",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "World action models (WAMs) have emerged as a promising paradigm for robotic control by jointly predicting future visual dynamics and actions from an initial observation and instruction. However, existing WAMs struggle with long-horizon prediction, as generating dense video rollouts is highly inefficient. Some recent WAMs address this by predicting a single future frame without generating the full video, but this approach neglects how to progress toward the goal. We present ProWAM, a…",
+      "author": "Fei Zhang, Zhaochong An, Duncan Frost, Yikai Wang, Pengfei Liu, Ya Zhang, Michal Drozdzal, Amir Bar",
+      "extra": {
+        "upvotes": 55,
+        "githubRepo": null,
+        "projectPage": "https://sii-ferenas.github.io/ProWAM-page/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02508"
+      },
+      "id": "b85cab548511be98",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory",
+      "url": "https://huggingface.co/papers/2610.02521",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Long-video generation and world models have shown strong potential for interactive entertainment and embodied simulation by predicting future observations conditioned on user actions and historical memory. However, as memory sequences grow longer and their structures become increasingly complex, managing long-range spatial context becomes increasingly challenging, calling for a more intelligent and systematic memory-management strategy. Building on the advancing spatial reasoning capabilities…",
+      "author": "Ying Yang, Guiyu Zhang, Lianghua Huang, Chang Nie, Chenyang Si, Haofan Wang, Shaoshuai Shi, Li Jiang",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/xbyym/SMI",
+        "projectPage": "https://spatial-memory-intelligence.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02521"
+      },
+      "id": "f2b5017eace747f1",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Native Action-Prior Learning from Videos for World Action Models",
+      "url": "https://huggingface.co/papers/2610.03391",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "World action models integrate future visual dynamics with robot action prediction, but their scalability remains limited by the need for action-annotated robot trajectories. Observation-only videos contain rich evidence about interaction dynamics, but existing approaches typically use them either to pretrain visual representations that must later be adapted for control, or to infer latent actions that are subsequently grounded to robot commands. We present NAVA-WAM, which introduces native…",
+      "author": "Zhaochong An, Fei Zhang, Menglin Jia, Duncan Frost, Zijian Zhou, Yikai Wang, Xudong Wang, Aditya Patel, Belinda Zeng, Tao Xiang, Serge Belongie, Amir Bar, Sen He",
+      "extra": {
+        "upvotes": 45,
+        "githubRepo": null,
+        "projectPage": "https://zhaochongan.github.io/projects/NAVA-WAM/",
+        "arxivUrl": "https://arxiv.org/abs/2610.03391"
+      },
+      "id": "8f4535c7db56c0a9",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.03665",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Masked diffusion language models (dLMs) offer a promising parallel alternative to autoregressive models for complex reasoning. However, they face a distinct credit-assignment challenge, since a few commitments during denoising sharply reduce the uncertainty over the remaining masked positions and shape much of the response. Most post-training recipes for dLMs do not use this signal to decide which tokens to train on: they typically train on the final text or assign rewards to whole denoising…",
+      "author": "Seo Hyun Kim, Sunwoo Hong, Younwoo Choi, Chen-Hao Chao, Se-Young Yun, Rahul G. Krishnan",
+      "extra": {
+        "upvotes": 24,
+        "githubRepo": null,
+        "projectPage": "https://sunwoohong.github.io/pivot-sd",
+        "arxivUrl": "https://arxiv.org/abs/2610.03665"
+      },
+      "id": "aa76ecf18f4ef298",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
+      "url": "https://huggingface.co/papers/2610.02304",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Existing Simulink benchmarks mainly evaluate whether generated models compile, execute, or resemble a reference model. These criteria do not establish whether a model satisfies its engineering requirements. We introduce SimuVerity, a benchmark of 101 text-to-executable Simulink model-generation tasks across ten engineering domains. For each task, executable-system profiles ground the engineering specification and four families of native simulation scenarios. A hierarchical evaluator first…",
+      "author": "Ruiqi Zhang, Jiahao Wang, Mingxuan Li, Haichen Luo, Chaoting Wang, Guoyu Mou, Keyu Lai, Hanchao Lv, Jiaxu Wang, Yibo Zheng, Aijun Yang, Xiaohua Wang",
+      "extra": {
+        "upvotes": 23,
+        "githubRepo": "https://github.com/SimuVerity/SimuVerity",
+        "projectPage": "https://simuverity.github.io/SimuVerity/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02304"
+      },
+      "id": "9f0277e4581847e7",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+      "url": "https://huggingface.co/papers/2610.03574",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and human-validated questions across 13 languages, written by native or highly proficient speakers. Questions are designed to be extremely challenging. Each question targets a concise, publicly verifiable answer whose discovery requires locating obscure evidence, following multi-step clue chains, or inspecting heterogeneous sources such as videos, scanned documents, images, or maps.…",
+      "author": "Alham Fikri Aji, Faiz Rizki Ramadhan, Zayd M. K. Zuhri, Seung Hun Eddie Han, Ryandito Diandaru, Qinrong Cui, Jan Christian Blaise Cruz, Badrinath Chandana, Peerawat Chomphooyod, Ahmed Attia, Jonibek Mansurov, Emilio Villa-Cueva, Canh Duong Nguyen, Imran Turganov, Minghao Wu, Peerat Limkonchotiwat, Irina Nikishina",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.03574"
+      },
+      "id": "28de1a047d5e1887",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Science Utopia? Closed-Loop LLM Simulation of Academic Research Ecosystems",
+      "url": "https://huggingface.co/papers/2610.01257",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Scientific progress emerges from a longitudinal ecosystem in which researchers, institutions, funding agencies, collaboration networks, and the scientific literature co-evolve. As AI becomes increasingly involved throughout the scientific research cycle, understanding these interconnected and evolving processes becomes increasingly important. We introduce SciUtopia, a persistent, closed-loop LLM-agent simulation framework for studying academic research ecosystems. SciUtopia models…",
+      "author": "Yiqiao Jin, Yiyang Wang, Lucheng Fu, Bing He, Siheng Xiong, Yijia Xiao, B. Aditya Prakash, Josiah Hester, Srijan Kumar, James Evans, Jindong Wang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/Ahren09/ScienceUtopia",
+        "projectPage": "https://ahren09.github.io/ScienceUtopia/",
+        "arxivUrl": "https://arxiv.org/abs/2610.01257"
+      },
+      "id": "229aea50b874d773",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
+      "url": "https://huggingface.co/papers/2609.36659",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "The strong generalization performance of on-policy post-training paradigms has motivated studies of their parameter update behaviors. However, these studies treat the observed behaviors only as byproducts in on-policy training, overlooking their potential to serve as optimization principles for improving the generalization of other paradigms such as supervised fine-tuning (SFT). To address this limitation, we investigate whether there exists a specific on-policy update behavior that can…",
+      "author": "Shufan Shen, Zhongni Hou, Junshu Sun, Yufei Zhang, Wei Lin, Guojun Yin, Qingming Huang, Shuhui Wang",
+      "extra": {
+        "upvotes": 42,
+        "githubRepo": "https://github.com/ssfgunner/OPSFT",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.36659"
+      },
+      "id": "973e342c99957ea4",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+      "url": "https://huggingface.co/papers/2610.00531",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "AI-generated content, often called AI slop, is increasingly common everywhere, particularly in academia. Slop in AI-generated scientific papers, however, has more complex patterns that cannot be easily detected by existing token-based AI detectors. Each part of such a paper looks plausible while the scientific reasoning that connects the parts breaks down, which can mislead how readers assess the work. We benchmark these failures as scientific slop through six measures across Structure,…",
+      "author": "Yerim Oh, Young-Jun Lee, Jaewoo Ahn, Gunhee Kim, Dongyeop Kang",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/yerimoh/ScientificSlop",
+        "projectPage": "https://yerimoh.github.io/scientific-slop-demo/",
+        "arxivUrl": "https://arxiv.org/abs/2610.00531"
+      },
+      "id": "11bed0ce783afe29",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PDE-JEPA: Predictive Representation Learning of Latent Dynamics Modeling for Parametric PDEs",
+      "url": "https://huggingface.co/papers/2609.34715",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Physical trajectories contain more than snapshots of a system: they also reveal how its states evolve under governing conditions. However, representation learning for parametric partial differential equations (PDEs) has largely relied on reconstruction-based objectives that emphasize recovering observed physical fields. In this paper, we investigate predictive representation pretraining as an alternative to reconstruction-based learning. We find that predictive representations preserve rich…",
+      "author": "Zhentao Tan, Jianrong Zhang, Ruijie Quan, Yi Yang",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": "https://github.com/Tanpig-X/PDE-JEPA",
+        "projectPage": "https://tanpig-x.github.io/PDE-JEPA/",
+        "arxivUrl": "https://arxiv.org/abs/2609.34715"
+      },
+      "id": "ea6a8339196e2c02",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion",
+      "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+      "publishedAt": "2026-10-05T15:56:28Z",
+      "excerpt": "Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.",
+      "author": "Keshav Ganesh",
+      "extra": {},
+      "id": "491353fed8ce6867",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+      "publishedAt": "2026-10-05T15:53:56Z",
+      "excerpt": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. Run the same query through both paths, read the trace events, and compare what each retrieval path costs.",
+      "author": "Manideep Reddy Gillela",
+      "extra": {},
+      "id": "e3250d8fd186e057",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Downgrading user roles in Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
+      "publishedAt": "2026-10-05T15:51:38Z",
+      "excerpt": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate approach and an AWS CLI step-down sequence that downgrades roles safely while preserving asset ownership.",
+      "author": "Gaurav Jaisingh",
+      "extra": {},
+      "id": "0b5990956b6b9645",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-05T15:50:01Z",
+      "excerpt": "Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-based multi-agent supply chain decisioning system and evaluate it with Amazon Bedrock AgentCore Evaluations using built-in, custom, and explainability evaluators.",
+      "author": "Kanishk Mahajan",
+      "extra": {},
+      "id": "0242681211317954",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "7 Video Formats Every Marketing App Should Test",
+      "url": "https://medium.com/@henrichstenn/7-video-formats-every-marketing-app-should-test-f21f25679196?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T15:01:03Z",
+      "excerpt": "Marketing apps do not need a new content plan every week. They need a few formats that the team can repeat while changing the feature… Continue reading on Medium »",
+      "author": "Henrich the growth expert",
+      "extra": {},
+      "id": "31dbfa8a0edc14fc",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The AI Series : Agent Harness — The Missing Architecture Layer Behind Reliable AI Agents",
+      "url": "https://isharadbharadwaj.medium.com/agent-harness-the-missing-architecture-layer-behind-reliable-ai-agents-a7ff68289e49?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T14:12:29Z",
+      "excerpt": "Why production-grade AI agents need more than an LLM, tools, and prompts — a practical look at execution control, state, context… Continue reading on Medium »",
+      "author": "Sharad Bharadwaj",
+      "extra": {},
+      "id": "d7a8836d950321f3",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "HNSW: Why Is It Approximate?",
+      "url": "https://medium.com/@gokulrejith/hnsw-why-is-it-approximate-200138d761c4?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T14:11:09Z",
+      "excerpt": "HNSW is one of the most popular algorithms for finding similar items fast. Continue reading on Medium »",
+      "author": "Gokul Rejithkumar",
+      "extra": {},
+      "id": "2bc504b077d3167b",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Helped Me Build RAG. I Still Couldn’t Debug It.",
+      "url": "https://pub.towardsai.net/ai-helped-me-build-rag-i-still-couldnt-debug-it-616cfd61bcc3?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T14:01:04Z",
+      "excerpt": "What retrieval failures taught me and why I built a small Python exercise that fails on purpose. Continue reading on Towards AI »",
+      "author": "Words by Dharani",
+      "extra": {},
+      "id": "3a8e1e8de36a2e2b",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Generative AI Metrics Can Quietly Hide Hallucinations in Your Reports",
+      "url": "https://medium.com/@sliitmozilla/how-generative-ai-metrics-can-quietly-hide-hallucinations-in-your-reports-b2ac6aa4ce19?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-05T13:57:46Z",
+      "excerpt": "Imagine asking an AI to write a report for you. Continue reading on Medium »",
+      "author": "Mozilla Campus Club of SLIIT",
+      "extra": {},
+      "id": "1488fd928f6d0258",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Tianjin University Lab Unveils 3-Gram Non-Invasive Brain-Computer Interface That Hides in Hair",
+      "url": "https://pandaily.com/tianjin-university-haihe-lab-3-gram-non-invasive-bci-cube-worlds-smallest",
+      "publishedAt": "2026-10-05T04:19:32Z",
+      "excerpt": "",
+      "author": "/u/yogthos",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wxzaqw/tianjin_university_lab_unveils_3gram_noninvasive/"
+      },
+      "id": "16e8369233877c89",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Distilling Stockfish on a Billion Positions, Full 3.9B Dataset Available [P]",
+      "url": "https://blog.lukesalamone.com/posts/distilling-stockfish",
+      "publishedAt": "2026-10-05T04:11:48Z",
+      "excerpt": "In this project, I distilled the Stockfish value function into a ResNet/ViT model using 1 billion positions from the Gigafish dataset. The 3.9 billion position dataset is available on huggingface: https://huggingface.co/datasets/lukesalamone/gigafish-3.8b-d10 . It is built from the positions from 37 months of Lichess games. I was interested in the idea that at depth-limited search, the value function attempts to approximate the tree underneath it, and if we could create some function to…",
+      "author": "/u/microscope1024",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/MachineLearning/comments/1wxz5qq/distilling_stockfish_on_a_billion_positions_full/"
+      },
+      "id": "94b2afac52a30fa1",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI should be easier for marketers - The Drum",
+      "url": "https://www.thedrum.com/industry-insight/ai-should-be-easier-for-marketers",
+      "publishedAt": "2026-10-05T07:06:32Z",
+      "excerpt": "# AI should be easier for marketers. **Scribble brings agentic AI into marketers’ everyday work, coordinating the right AI tools and agents from a simple brief while keeping people in control.**. It’s our new ‘master agent’, which means you can brief it in plain language like a colleague. It picks the right agents and models for the job, sequences the steps and runs the work in the background. It takes the best AI tools for marketers and makes them accessible, and we developed it alongside our…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.305
+      },
+      "id": "17b40096f2607590",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Chobani ranks higher in AI referrals than e-commerce sales: Euromonitor explains how - foodnavigator.com",
+      "url": "https://www.foodnavigator.com/Article/2026/10/05/why-chobani-ranks-higher-in-ai-referrals-than-e-commerce-sales/",
+      "publishedAt": "2026-10-05T13:28:44Z",
+      "excerpt": "Yogurt purveyor Chobani is winning in the AI online discovery race because of the product’s ability to fill a variety of needs for consumers.(Image: Chobani). Generative AI is becoming “retail’s new front door,” according to Euromonitor’s Michelle Evans, and products that solve problems for consumers could be the most well-positioned to capture market share. Yogurt purveyor Chobani is winning in the AI online discovery race because of the product’s ability to fill a variety of needs for…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.521
+      },
+      "id": "33e9c6cad517eb2e",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI launches visual ads that appear alongside image generation results - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "publishedAt": "2026-10-05T15:14:24Z",
+      "excerpt": "Specifically, OpenAI is adding visual display ads to its ad product line-up so that ads will appear alongside images that users ask ChatGPT to generate. In addition, the company is expanding its ad measurement tools and partnerships, and developing new ways to determine brand suitability. The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers. The ads will also be clearly labeled and won’t…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.421
+      },
+      "id": "bf51861925935ff2",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Arc Raiders is getting a free trial to celebrate its biggest update yet - Eurogamer.net",
+      "url": "https://www.eurogamer.net/arc-raiders-free-trial-frozen-trail",
+      "publishedAt": "2026-10-05T08:21:21Z",
+      "excerpt": "Arc Raiders is getting a free trial to celebrate its biggest update yet RuneScape creator Jagex in hot water over generative AI use in recent trailer Dynasty Warriors producer would rather make new games than more remasters Modders are furious as Claude-powered mashup mods flood social media PlatinumGames boss hints he wants to expand Bayonetta as Stellar Blade director calls the series \"indispensable\" RuneScape Reignited launches 2 December Fourth RuneScape officially revealed Final Fantasy 7…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.342
+      },
+      "id": "273b126d2dff2c46",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Ace Combat 8 is far and away the series' biggest launch on Steam - eurogamer.net",
+      "url": "https://www.eurogamer.net/ace-combat-8-steam-launch-record-players",
+      "publishedAt": "2026-10-05T11:02:40Z",
+      "excerpt": "Ace Combat 8 is far and away the series' biggest launch on Steam Dead by Daylight studio is hiring for a triple-A Sci-Fi first-person shooter with \"a high realism bar\" Millions return to The Witcher 3 as the Remastered game records another Steam personal best and sales skyrocket Final Fantasy Resonance feels so good to play because Square Enix 'experimented' with combining the best bits of FF5 and FF6 RuneScape creator Jagex in hot water over generative AI use in recent trailer Arc Raiders is…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.298
+      },
+      "id": "872cc78a48e401c3",
+      "collectedAt": "2026-10-05T16:14:37.633438+00:00"
     }
   ],
-  "updatedAt": "2026-10-05T07:17:22.299685+00:00"
+  "updatedAt": "2026-10-05T16:14:37.633438+00:00"
 }
