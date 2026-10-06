@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-06T02:17:08.419401Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-06T07:43:35.262497+00:00",
+      "newItems": 35,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1247,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.280011Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.321911Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 875,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.322262Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.322599Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.322786Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.322958Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.323124Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.323285Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.323441Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.323626Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.323785Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.323847Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.323893Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.324124Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.324171Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.324326Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.324484Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.324795Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-06T07:43:35.324956Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.325114Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.325268Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.325490Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.325679Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.325841Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.326456Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.326694Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.326880Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-06T07:43:35.326933Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1451,7 +1681,501 @@
       },
       "id": "614bd042975219db",
       "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "publishedAt": "2026-10-06T06:44:39Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "085f7195b66fbb80",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "ALoDLM: Adaptively Looped Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.04198",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Diffusion language models (DLMs) enable fast generation by predicting multiple tokens in parallel, but their practical adoption remains limited by a persistent quality gap relative to comparably sized autoregressive (AR) models. We attribute this gap to a computation-difficulty mismatch: within a partially observed sequence, some unknown tokens are easy to predict, while others require substantially more computation. Existing DLMs nevertheless apply uniform computational depth to all unknown…",
+      "author": "Liancheng Fang, Zhuowei Li, Youngeun Kim, Tianchen Zhao, Rajat Koner, Jiaye Wu, Linghan Xu, Xuanbai Chen, Xiang Xu, Zheng Zhang, Jakub Zablocki, Nishant Sankaran, Yifan Xing",
+      "extra": {
+        "upvotes": 36,
+        "githubRepo": "https://github.com/amazon-science/ALoDLM",
+        "projectPage": "https://alo-dlm.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.04198"
+      },
+      "id": "a860e6488dbd5b98",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+      "url": "https://huggingface.co/papers/2610.05608",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-resolution model raises the output resolution to Full-HD (1920times1080). Building on the video…",
+      "author": "Team Kandinsky, Julia Agafonova, Bulat Akhmatov, Mikhail Aksyutin, Grigorii Alekseenko, Anastasia Aliaskina, Olga Androsova, Vladimir Arkhipkin, Anna Averchenkova, Alexander Belykh, Serafima Bocharova, Sofiya Bogakovskaya, Anton Bukashkin, Mark Bulygin, Kirill Buzygin, Irina Cheremnykh, Kirill Chernyshev, Mikhail Chernyshov, Vladimir Chernyy, David Chikovani, Georgy Daniltsev, Denis Dimitrov, Anna Dmitrienko, Vladimir Dokholyan, Sergey Emelyanov, Dmitry Ermilov, Georgii Fedorov, Polina Gavrilova, Nikolai Gerasimenko, Aleksandr Gordeev, Andrey Inozemtsev, Andrei Ivaniuta, Alexander Ivanov, Mikhail Karaev, Anastasiia Kargapoltseva, Ivan Kirillov, Nikita Kiselev, Valeria Kobenko, Yury Kolabushin, Denis Koposov, Anatoly Korobov, Vladimir Korviakov, Kirill Kozlov, Denis Krzhivokolskiy, Konstantin Kuklev, Alexander Kunitsyn, Sergey Kuzin, Vladislav Lakhtionov, Alexey Letunovskiy, Maxim Litvinov, Alexander Lyulkov, Georgy Makarov, Kirill Malakhov, Egor Malykh, Mikhail Mamaev, Dmitrii Mikhailov, Polina Mikhailova, Ivan Mikheev, Elizaveta Muromtseva, Nikolai Nazarkin, Tatiana Nikulina, Lev Novitskiy, Stanislav Onuchin, Nikita Osterov, Denis Parkhomenko, Anatoliy Parpara, Vladimir Polovnikov, Konstantin Reznikov, Azat Saginbaev, Nikita Samsonov, Alexander Sentsov, Nikita Shaimov, Artem Sherstyuk, Andrey Shutkin, Egor Silvestrov, Bulat Suleimanov, Matvey Suprunov, Sergey Taranov, Irina Tolstykh, Tatiana Trofimuk, Ilya Trushkin, Aleksandra Tsybina, Olga Varlashina, Viacheslav Vasilev, Ilya Vasiliev, Eugeny Vilisov, Sergey Yakubson, Konstantin Zakharov",
+      "extra": {
+        "upvotes": 60,
+        "githubRepo": "https://github.com/kandinskylab/kandinsky-6",
+        "projectPage": "https://kandinskylab.ai/",
+        "arxivUrl": "https://arxiv.org/abs/2610.05608"
+      },
+      "id": "517a2e5381e1b11b",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
+      "url": "https://huggingface.co/papers/2610.00923",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Multimodal RAG retrieves text, tables, images, and videos, but choosing a retrieval granularity does not determine how much context to retain within each item. Coarse units include irrelevant content, while uniformly fine selection can remove context needed to interpret the evidence. Existing compressors address this trade-off with modality-specific mechanisms, leaving open a shared procedure for adapting the retained extent region by region across heterogeneous items. We introduce CANOPY…",
+      "author": "Hyojeong Yun, Jueun Kim, Wook-Shin Han",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": "https://canopy-project-page.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.00923"
+      },
+      "id": "309be4610a5e16df",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
+      "url": "https://huggingface.co/papers/2610.05303",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "A large language model (LLM) agent solves long-horizon tasks through many reasoning-action turns, with one verification signal at termination. Deployed agents face streams of related tasks, making their trajectories a natural resource for improvement. In-context adaptation agents store reflections, memories, or skills as text, so reuse depends on retrieving the right experience and on a frozen policy executing it. We study Online Agentic Test-Time Training (OaTTT), which trains the LLM's…",
+      "author": "Haodong Lu, Dong Gong",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://artificer-ai-lab.github.io/ASCENT/",
+        "arxivUrl": "https://arxiv.org/abs/2610.05303"
+      },
+      "id": "9f82c3c062fa9ec0",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
+      "url": "https://huggingface.co/papers/2609.34826",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Humans often solve spatial problems by mentally simulating visual transformations. In contrast, conventional vision-language models (VLMs) reason primarily through language. We investigate whether VLMs can solve spatial problems by reasoning with both text and generated visual states. To this end, we introduce WM-VLM, which equips a pretrained VLM with a lightweight world model branch for generating intermediate visual states. Our two-stage training first teaches the model to generate the next…",
+      "author": "Yuheng Zha, Yilei Wang, Qiyue Gao, Junrong Chen, Yujia Wu, Zhengfeng Lai, Zhengzhong Liu, Eric P. Xing",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/yuh-zha/WM-VLM",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.34826"
+      },
+      "id": "000abb3ca0b11199",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "KeyRec: Bounded Visual Memory for Streaming and Long-Video Understanding",
+      "url": "https://huggingface.co/papers/2609.32182",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Vision-language models are increasingly used to understand long videos and continuous streams. However, dense visual tokens accumulate with video duration, making long-context inference prohibitively expensive. Existing training-free visual-token selection methods reduce this cost by retaining informative tokens, but may lose coherent event evidence and fail to distinguish detailed recent observations from long-range history. We propose KeyRec, a training-free framework for constructing…",
+      "author": "Zihan Chen, Xuejian Rong, Xiaojuan Wang, Boqing Gong, Adi Zicher, Yael Pritch, Nikhil Karnad",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.32182"
+      },
+      "id": "6b5d3c01e9caec9f",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models",
+      "url": "https://arxiv.org/abs/2610.03802",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03802v1 Announce Type: new \nAbstract: Context: Fine-grained emotion classification of mobile app reviews enables requirements engineering activities that go beyond polarity-based opinion mining, including emotionally informed issue prioritisation and feature-oriented feedback analysis. However, automatic fine-grained emotion extraction from app reviews remains understudied. Objectives: Building on a previously published annotation framework and human-labelled ground truth adapted…",
+      "author": "Quim Motger, Carlota Catot, Marc Oriol",
+      "extra": {},
+      "id": "de8740511917ab7a",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
+      "url": "https://arxiv.org/abs/2610.03825",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03825v1 Announce Type: new \nAbstract: A benchmark score compares a system output against a reference, and methodological attention falls almost entirely on the first term. We measure the second. The retained annotation record of a six-language benchmark for personally identifiable information contains two independent annotator labellings, the aggregate shipped as gold, and a reviewer gold from independent expert re-annotation of a sample. Using it, we hold the scored output fixed…",
+      "author": "Parth Kulshreshtha, Shivali Dalmia, Abhishek Mukherji",
+      "extra": {},
+      "id": "fc0bf90cd47c7f0f",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "The Score Is Not the Structure: Brain Alignment and Cross-Lingual Transfer",
+      "url": "https://arxiv.org/abs/2610.03827",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03827v1 Announce Type: new \nAbstract: Researchers often support the claim that a model shares structure with the brain, or across languages, by reporting a similarity score. We ask what such a score reads when the shared structure is absent, or when the tool that measures it does not work. We check two settings, and in both the score is not what it appears. First, a probe trained to tell grammatical from ungrammatical sentences in one language transfers worse to more distant…",
+      "author": "Saman Rahbar",
+      "extra": {},
+      "id": "8bd8f729c3acf93c",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "SYNLAT: Syntax-Aligned Text-Latent Compression for Chain-of-Thought Reasoning",
+      "url": "https://arxiv.org/abs/2610.03839",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03839v1 Announce Type: new \nAbstract: Long chain-of-thought (CoT) traces impose substantial output-token costs. Under constrained budgets, compression must preserve answer-critical information, making boundary placement central. Token-level and fixed-length boundaries can fragment coherent spans such as phrases, formulas, and local derivations, whereas step-level boundaries can bind content requiring different compression actions. We introduce SynLat, a text-latent CoT framework…",
+      "author": "Yifeng Zhao, Hongjun Yu, Shibo Wang, Yunjiao Zhou, Zixiao Zhu, Zhipeng Ning, Kezhi Mao, Junlang Qian",
+      "extra": {},
+      "id": "a8ae4aec7a1b575e",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+      "url": "https://arxiv.org/abs/2610.03894",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run. Frontier chat APIs hide the model's token probabilities; the agent's stated confidence barely beats chance on the mistakes that matter; and resampling does not help, since frontier models are highly repetitive, reproducing the same call across samples. We recover the missing signal from a low-cost open-weight…",
+      "author": "Yikai Zhao, Saurabh Pandey, Pradeep Kumar Misra",
+      "extra": {},
+      "id": "35c5e69129de49f6",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "When Evidence Changes: Evaluating Memory Repair and Re-reading in Language-Model Agents",
+      "url": "https://arxiv.org/abs/2610.03902",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03902v1 Announce Type: new \nAbstract: When documents supporting an agent's derived facts are revoked or replaced, should it repair memory or re-read current evidence? We introduce an evidence-revision evaluation on medication- and problem-list tasks from public ICU records. Under revocation, replacement and control events, we compare full and source-filtered re-reading with caching, rebuilding and graph-local repair across two 7B models. Memory is supplied in full without retrieval,…",
+      "author": "Wenhui Chu (University at Albany, State University of New York)",
+      "extra": {},
+      "id": "a4e7a983c3af7a4d",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+      "url": "https://arxiv.org/abs/2610.03934",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03934v1 Announce Type: new \nAbstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a benchmark built from human-designed, open-source circuits associated with Tiny Tapeout manufacturing shuttles. The collection contains 273 topologically distinct top-level…",
+      "author": "Yueting Li, Weihang Ding",
+      "extra": {},
+      "id": "747f76e8751f5d3b",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+      "url": "https://arxiv.org/abs/2610.03948",
+      "publishedAt": "2026-10-06T04:00:00Z",
+      "excerpt": "arXiv:2610.03948v1 Announce Type: new \nAbstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions. Philosophical and ethical considerations have received limited attention in existing autonomous driving decision-making approaches based on numerical optimization, sequence prediction, and large language models (LLMs). We propose Chinese Philosophical Wisdom-Guided Driving (CPW-Drive), a closed-loop retrieval-augmented…",
+      "author": "Xiaojun Bi, Xiaoyuan Ma, Yiwen Sun, Tianren Huang, Chaoran Liu, Bokai Huang, Hao Yang, Baichuan Mo",
+      "extra": {},
+      "id": "c5ab105f7eb7f569",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "publishedAt": "2026-10-06T06:28:43Z",
+      "excerpt": "A small win for US open source",
+      "author": null,
+      "extra": {},
+      "id": "0fece73e7bef3f4d",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why My Support Agent Missed an Urgent Ticket",
+      "url": "https://generativeai.pub/why-my-support-agent-missed-an-urgent-ticket-307466e28f8f?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T07:35:15Z",
+      "excerpt": "Versioning and evaluating prompts for an IT support agent, and measuring what each revision changed Continue reading on Generative AI »",
+      "author": "Saiaashrith Gavini",
+      "extra": {},
+      "id": "0903945e620fb063",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Is the Best Course to Learn Generative AI and LLMs?",
+      "url": "https://101blockchains.medium.com/what-is-the-best-course-to-learn-generative-ai-and-llms-07202a5a387f?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T07:10:25Z",
+      "excerpt": "Generative AI and large language models (LLMs) have quickly become important technologies across industries. From content generation and… Continue reading on Medium »",
+      "author": "101 BlockChains",
+      "extra": {},
+      "id": "fbcd9f221b1f77aa",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Artificial Intelligence: How AI Is Changing the Way We Live and Work",
+      "url": "https://medium.com/@shizamashooq/artificial-intelligence-how-ai-is-changing-the-way-we-live-and-work-095eba0dfce2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T06:42:36Z",
+      "excerpt": "Artificial Intelligence, commonly known as AI, has become one of the most important technologies of the modern digital world. From… Continue reading on Medium »",
+      "author": "Shiza",
+      "extra": {},
+      "id": "b876ab9782c6a663",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "If AI Turns My Photo Into Anime, Can Another AI Turn It Back?",
+      "url": "https://medium.com/@maneaditya478/if-ai-turns-my-photo-into-anime-can-another-ai-turn-it-back-250acae9c5f6?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T06:29:46Z",
+      "excerpt": "Imagine you take a normal photograph of yourself. Continue reading on Medium »",
+      "author": "Maneaditya",
+      "extra": {},
+      "id": "4e88dbffa0f143f8",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Building Leo: A Multi-Agent AI Tutor with CrewAI, Gemini and Streamlit",
+      "url": "https://medium.com/@farjana.rafi1983/building-leo-a-multi-agent-ai-tutor-with-crewai-gemini-and-streamlit-474f7a18fe92?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T06:24:26Z",
+      "excerpt": "How four agents plan, teach, quiz and coach a student, with typed handoffs, a feedback loop and a human in the loop. Continue reading on Medium »",
+      "author": "Farjana Ferdausi",
+      "extra": {},
+      "id": "dec0efcda5af5ece",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI tutoring with Khanmigo in a two-year school experiment",
+      "url": "https://edworkingpapers.com/ai26-1551",
+      "publishedAt": "2026-10-06T00:00:45Z",
+      "excerpt": "",
+      "author": "bryan0",
+      "extra": {
+        "points": 61,
+        "comments": 55,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49972419"
+      },
+      "id": "a350ea2610501993",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Engineer says Claude Code has made his job \"soul-sucking\"",
+      "url": "https://www.techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html",
+      "publishedAt": "2026-10-05T22:01:35Z",
+      "excerpt": "",
+      "author": "hefner1456",
+      "extra": {
+        "points": 55,
+        "comments": 45,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49971473"
+      },
+      "id": "9f71e9c0b4ce73f1",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Florida woman arrested for allegedly making threats in an AI chat",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat",
+      "publishedAt": "2026-10-05T15:11:36Z",
+      "excerpt": "",
+      "author": "timpera",
+      "extra": {
+        "points": 50,
+        "comments": 74,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49965895"
+      },
+      "id": "79121d52105bee6f",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Princeton researchers train a 4B LLM to reach 2700 Elo in chess (with no signs of a plateau when they stopped training) and can explain its moves accurately. They say the training technique can also be applied to other games, robotics, and computer use",
+      "url": "https://fixupx.com/AdithyaNLP/status/2107123924828049691?s=20",
+      "publishedAt": "2026-10-06T01:02:28Z",
+      "excerpt": "",
+      "author": "/u/Eliv_nurotic",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1wypjue/princeton_researchers_train_a_4b_llm_to_reach/"
+      },
+      "id": "a783bb2caccc1978",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "‘More likely than not that humanity loses control’: NYC AI hearing - The Next Web",
+      "url": "https://thenextweb.com/news/nyc-council-ai-hearing-coxon-kokotajlo-turner",
+      "publishedAt": "2026-10-05T21:51:31Z",
+      "excerpt": "Three former AI lab researchers told the New York City Council on Monday that humanity may lose control of the systems the industry is building. The council’s AI hearing also questioned policy staff from OpenAI, Anthropic, Google and Meta, and weighed 10 bills to regulate AI in the city. > “On the current path, I think it is more likely than not that humanity loses control to these AIs, and it could end in human extinction,” said Jacob Coxon, a former OpenAI and Anthropic researcher. He said…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.149
+      },
+      "id": "6dbabd1100630894",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Has the Pentagon given up on AI polygraph analysis of trustworthiness? - Defense News",
+      "url": "https://www.defensenews.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/",
+      "publishedAt": "2026-10-05T23:43:37Z",
+      "excerpt": "AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing, will compound errors and may violate civil liberties in a domain where few such rights exist, critics argue. Now, Pentagon officials say that some of that AI is not part of the current revamp of the polygraph interview process, after Defense News asked for a response to concerns about the earlier statements and the slides. On Wednesday, the Pentagon’s Defense Counterintelligence and…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.055
+      },
+      "id": "b73662fef2cb5438",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Has the Pentagon given up on AI polygraph analysis of trustworthiness? - Federal Times",
+      "url": "https://www.federaltimes.com/defense/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/",
+      "publishedAt": "2026-10-05T23:43:37Z",
+      "excerpt": "# Has the Pentagon given up on AI polygraph analysis of trustworthiness? Now, Pentagon officials say that some of that AI is not part of the current revamp of the polygraph interview process, after Defense News asked for a response to concerns about the earlier statements and the slides. On Wednesday, the Pentagon’s Defense Counterintelligence and Security Agency, or DCSA, which vets security clearance holders and applicants, said in an emailed statement that “active research and development”…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.053
+      },
+      "id": "33ade8e084d98914",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt - USA Today",
+      "url": "https://www.usatoday.com/press-release/story/46863/korean-video-understanding-ai-startup-buzz-beyond-signs-first-u-s-data-deal-ahead-of-techcrunch-disrupt/",
+      "publishedAt": "2026-10-05T11:04:02Z",
+      "excerpt": "The placement of this content is part of a paid service***. # Korean Video Understanding AI Startup Buzz & Beyond Signs First U.S. Data Deal Ahead of TechCrunch Disrupt. SAN FRANCISCO, CA, October 5, 2026 (EZ Newswire) — Buzz & Beyond, the Seoul-based artificial intelligence company behind video understanding AI platform vling, has signed its first U.S. commercial data agreement with a Silicon Valley-based analytics firm as it moves to establish a foothold in the U.S. market. The deal comes…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.078
+      },
+      "id": "f3801eaf4b6520aa",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "New Dell System Update flaw lets hackers gain root privileges - BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+      "publishedAt": "2026-10-05T14:53:06Z",
+      "excerpt": "# New Dell System Update flaw lets hackers gain root privileges. Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. In a Thursday security advisory, the company said the flaw (tracked as CVE-2026-86360) allows threat actors to execute code with root privileges on unpatched devices by exploiting a path traversal weakness. \"This vulnerability is considered critical because it can be leveraged by an…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.024
+      },
+      "id": "e4c71330bfe10442",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Citrix NetScaler - Here we go again with another patch! - Korben",
+      "url": "https://korben.info/en/citrix-netscaler-another-patch.html",
+      "publishedAt": "2026-10-05T13:35:44Z",
+      "excerpt": "❤️ **Korben.info stays free** — No paywall or programmatic ads, thanks to readers Support. I don't know if you're familiar with **Citrix NetScaler**, but it's an appliance that acts as a remote access gateway for company employees, and it can also handle SAML authentication. But in recent days, some admins have still seen their NetScalers reboot in a loop even though they were up to date, including some on 14.1-73.37, the version supposed to fix the problem... It's the second wave in less than…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.022
+      },
+      "id": "1a5e1b1c7d05bf87",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Dell patches 18 critical flaws that could hand attackers the keys to storage and Kubernetes - csoonline.com",
+      "url": "https://www.csoonline.com/article/4230923/dell-patches-18-critical-flaws-that-could-hand-attackers-the-keys-to-storage-and-kubernetes.html",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Disclosed by Dell in two security notices, these critical vulnerabilities could allow unauthenticated attackers to “completely bypass” authentication controls, gain root access, manipulate storage resources, or forge admin tokens. Two of the flaws are rated 10, the most critical severity rating on the Common Vulnerability Scoring System (CVSS) scale, and five others are rated 9 and above. Customers are advised to upgrade as soon as possible, although Dell said it has no evidence that any of…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.02
+      },
+      "id": "e4ee7acb03fe8a17",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "New Linux backdoors disguise traffic as email, hide as legitimate services - MSSP Alert",
+      "url": "https://www.msspalert.com/brief/new-linux-backdoors-disguise-traffic-as-email-hide-as-legitimate-services",
+      "publishedAt": "2026-10-05T21:45:02Z",
+      "excerpt": "Malware, Network Security, Threat Intelligence. # New Linux backdoors disguise traffic as email, hide as legitimate services. Sophisticated Linux backdoors are targeting telecom and network-edge appliances in South Korea and Taiwan, employing stealthy tactics to evade detection by disguising their malicious traffic as email and their processes as legitimate services on compromised devices. Researchers at Rapid7 have identified a new variant of the BPFDoor malware and a BPF Rekoobe build…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.019
+      },
+      "id": "8b2afbe3b77648fb",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Multiple Teams 'Interested' In New Technique To Enhance Xbox Series S Development - Pure Xbox",
+      "url": "https://www.purexbox.com/news/2026/10/multiple-teams-interested-in-new-technique-to-enhance-xbox-series-s-development",
+      "publishedAt": "2026-10-05T12:30:00Z",
+      "excerpt": "# Multiple Teams 'Interested' In New Technique To Enhance Xbox Series S Development. \"Could be used as a blueprint for future games on Xbox Series S\". Last week, we mentioned how Gears of War: E-Day had been receiving quite a lot of praise for its Xbox Series S version, and how The Coalition had implemented a technique to help realise the game's potential on that console.",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.024
+      },
+      "id": "d80b378d49bcaef6",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "From the Steam Age to AI: 1834 British Sixpence Investigation Informs IA STUDIO Research Framework - Pressat.co.uk",
+      "url": "https://pressat.co.uk/releases/from-the-steam-age-to-ai-1834-british-sixpence-investigation-informs-ia-studio-research-framework-b7e1c7bd67c08e9234c468238eee1520/",
+      "publishedAt": "2026-10-06T05:55:54Z",
+      "excerpt": "> Independent physical measurements remained the primary empirical constraint, while final responsibility for interpretation remained human. UNITED KINGDOM, 6 October 2026 — A severely deformed British silver sixpence struck in 1834 has become the founding documented case for a research methodology examining how AI-assisted reasoning can be used without being confused with empirical evidence. IA STUDIO has deposited a fixed archival record of the **IA STUDIO Hybrid Reasoning Framework —…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.014
+      },
+      "id": "9fc2242c455229c2",
+      "collectedAt": "2026-10-06T07:43:35.262497+00:00"
     }
   ],
-  "updatedAt": "2026-10-06T02:17:08.354725+00:00"
+  "updatedAt": "2026-10-06T07:43:35.262497+00:00"
 }
