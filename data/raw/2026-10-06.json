@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-06T07:43:35.326933Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-06T16:52:24.218765+00:00",
+      "newItems": 37,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1248,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.237948Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.282735Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 875,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.283081Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.283381Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.283551Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.283734Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.283923Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.284089Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.284274Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.284432Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.284594Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.284661Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.284708Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.284993Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.285046Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.285224Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.285386Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.285681Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-06T16:52:24.285845Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.286033Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.286205Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.286427Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.286601Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.286764Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.287422Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.287618Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.287800Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-06T16:52:24.287875Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2175,7 +2405,546 @@
       },
       "id": "9fc2242c455229c2",
       "collectedAt": "2026-10-06T07:43:35.262497+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "publishedAt": "2026-10-06T16:00:00Z",
+      "excerpt": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "author": null,
+      "extra": {},
+      "id": "60ef2af305e795fe",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "mistral",
+      "sourceName": "Mistral AI",
+      "title": "Introducing Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "publishedAt": "2026-10-06T12:00:27Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "820bd24a41c4e68d",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "title": "What AI gets wrong and what failure teaches us",
+      "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
+      "publishedAt": "2026-10-06T16:19:06Z",
+      "excerpt": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the starts and stops that led to her professional sweet spot and her work identifying “surprising failures” making it hard for AI to handle complexity. The post What AI gets wrong and what failure teaches us appeared first on Microsoft Research .",
+      "author": "Chad Atalla, Jennifer Neville",
+      "extra": {},
+      "id": "3822fac18ccb34ac",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
+      "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
+      "publishedAt": "2026-10-06T16:13:47Z",
+      "excerpt": "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,...",
+      "author": "Elizabeth Goodman",
+      "extra": {},
+      "id": "d46e3cd2acda4b79",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
+      "url": "https://huggingface.co/papers/2610.04292",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world. Yet, producing elegant geometry is fundamentally different from producing objects that can be built and perform their intended functions. Existing evaluations largely focus on geometric quality while overlooking physical realizability. We introduce LMBuild, a benchmark for evaluating LLM agents on generating buildable and…",
+      "author": "Jiateng Liu, Rushi Wang, Cheng Qian, Xuejun Zhang, Sun Li, Jiayu Liu, Yifan Shen, Xu Cao, Jiarui Yao, Bingxuan Li, Ruhi Sarikaya, Heng Ji",
+      "extra": {
+        "upvotes": 20,
+        "githubRepo": "https://github.com/Lumos-Jiateng/LMBuild",
+        "projectPage": "https://lumos-jiateng.github.io/LMBuild/",
+        "arxivUrl": "https://arxiv.org/abs/2610.04292"
+      },
+      "id": "6de2379538c86703",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning",
+      "url": "https://huggingface.co/papers/2609.39490",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Recent advances have enabled unified omni-modal models in understanding audio, vision, and language. However, existing benchmarks, training data, and learning methods largely treat the modalities independently, leaving the capability of audio-visual joint reasoning poorly evaluated and insufficiently elicited. We address this gap with a benchmark, data engine, and learning method. First, we introduce OmniReasoningBench, a benchmark where both audio and visual evidence are indispensable. It…",
+      "author": "Junming Lin, Yuxuan Wang, Zhenxin Lei, Yuxin Liu, Ruixun Liu, Yinsong Yan, Ling Wang, Minghao Han, Yunfei Chu, Shun Lei, Xueyao Zhang, Qize Yang, Jin Xu, Yiwu Zhong",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/PKU-VaLuE-Lab/OmniReasoning",
+        "projectPage": "https://pku-value-lab.github.io/OmniReasoning-Homepage/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39490"
+      },
+      "id": "9b5a7fd604487fc5",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Data Unlearning via Inverse Distillation",
+      "url": "https://huggingface.co/papers/2609.36099",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Multi-step matching models, including flow and diffusion models, produce high-quality outputs but incur substantial inference costs and may reproduce unwanted components of their training datasets. We introduce Inverse Distillation Unlearning (IDU), a unified framework that simultaneously distills a teacher multi-step matching model into an efficient one-step student generator and suppresses outputs corresponding to a designated training subset. We first formulate distillation as a min-max…",
+      "author": "Aleksei Leonov, Nikita Kornilov, Zhenhe Zhang, Evgeny Burnaev, Iaroslav Koshelev, Alexander Korotin",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.36099"
+      },
+      "id": "22ebb944b51fd7e8",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
+      "url": "https://huggingface.co/papers/2610.06577",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Geometry optimization is a major cost in many quantum-chemical workflows: each optimization step requires one force evaluation, and at the density-functional level that evaluation dominates the wall time. Research in this area has produced a broad range of optimization methods, and we ask whether a language model can improve on the best of them through autoresearch. An agent rewrites the optimizer itself to minimize force-call counts, restrained by two admission gates that reject premature…",
+      "author": "Artem Tsypin, Vladimir Deshchenya, Kuzma Khrabrov, Denis Potapov, Maxim Radchenko, Artur Kadurin, Michael G. Medvedev",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/vdeshchenya/autosella",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.06577"
+      },
+      "id": "befb81c05542ac19",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
+      "url": "https://huggingface.co/papers/2609.37267",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Proactive LLM agents can turn idle compute into useful support before users ask. Yet even correct work can misread user context, impose review costs, or undermine trust. This work proposes foundations for designing, realizing, and evaluating proactive LLM agents around three joint principles (3T): Task Capability, anticipating relevant needs and correctly performing useful work; Temporal Allocation, allocating compute according to resource availability and when results are needed; and Trust,…",
+      "author": "Jio Oh, Seunghyun Do, Young-Jun Lee, Steven Euijong Whang, Dongyeop Kang",
+      "extra": {
+        "upvotes": 19,
+        "githubRepo": null,
+        "projectPage": "https://harryoh99.github.io/foundations_of_proactive_agents/",
+        "arxivUrl": "https://arxiv.org/abs/2609.37267"
+      },
+      "id": "4d51f20201bade3c",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
+      "url": "https://huggingface.co/papers/2610.05076",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Test-time training (TTT) lets a model store information in its weights during inference. When the model learns from its own output, however, each update also changes the model that generates the next training example. Across 128K-token streams, retaining generated-text updates worsens prediction on independent human-written text with three TTT-E2E model configurations (labeled 125M, 760M, and 3B). The same failure occurs when Adam updates Qwen3-4B's existing weights. The same update mechanisms…",
+      "author": "Cheng Luo, Bing Li, Bernard Ghanem",
+      "extra": {
+        "upvotes": 17,
+        "githubRepo": "https://github.com/lingjivoo/ttt-ouroboros",
+        "projectPage": "https://ttt-ouroboros.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.05076"
+      },
+      "id": "3802e4ffa9c34241",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "In-Distribution Forcing for Long Video Generation at Test Time",
+      "url": "https://huggingface.co/papers/2610.03120",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Modern autoregressive (AR) video diffusion models excel at short-horizon video generation, yet generating long videos remains challenging due to drifting, where colors and textures shift, and motion dynamics decay. Existing works primarily rely on KV conditioning, which selects or modifies cached key-value (KV) entries to mitigate drifting. However, we observe that KV conditioning alone is insufficient as it assumes cached KV entries remain in-distribution. This assumption fails beyond the…",
+      "author": "Jeongwoo Shin, Youngyoon Choi, Sangwoo Jo, Hyunmog Kim, Sungjoon Choi, Joonseok Lee, Jaewoong Choi, Jaemoo Choi",
+      "extra": {
+        "upvotes": 24,
+        "githubRepo": "https://github.com/In-Distribution-Forcing/ID-Forcing",
+        "projectPage": "https://in-distribution-forcing.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.03120"
+      },
+      "id": "493396300badea85",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+      "url": "https://huggingface.co/papers/2610.05107",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Search agents repeatedly make short decisions about relevance, evidence sufficiency, and search actions. Using generative language models for these decisions introduces latency and unreliable confidence. We present SearchJev, a fast and calibrated System-1 model that separates search decisions from System-2 reasoning and generation. Given a search state and a decision schema, SearchJev directly scores legal options without autoregressive output generation. We propose Soft-Label Learning for…",
+      "author": "Congfeng Cao, Lipeng Zuo, Konstantinos Papakostas, Qiwei Xu, Songwei Xu, Lun Zhou, Zhaochun Ren, Yougang Lyu, Xiaohui Yan",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/EvoScientist/SearchJev",
+        "projectPage": "https://huggingface.co/SearchJev/models",
+        "arxivUrl": "https://arxiv.org/abs/2610.05107"
+      },
+      "id": "9fc2065eaad0aab9",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RobotUse: Allocating Computation, Context, and Decisions",
+      "url": "https://huggingface.co/papers/2610.04929",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Robot agents must connect their intended actions to observed outcomes while retaining the context needed to revise their choices over repeated attempts. Existing interfaces often leave these choices inside predefined tools or require agents to manage detailed execution code and its growing history. We introduce RobotUse, a robot agent harness that organizes computation, context, and decisions around specifying and revising physical actions. Agents visually select targets and poses, while the…",
+      "author": "Junhoo Lee, Injun Baek, Seungyeon Kim, Suhyun Jeon, Minkyu Kim, Baekseung Kim, Nojun Kwak",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/robotuse-team/RobotUse",
+        "projectPage": "https://robotuse-team.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.04929"
+      },
+      "id": "5e6869f0965cd9f5",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Representation-Space MMD for Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.06648",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "We introduce a post-training method for diffusion language models (DLMs) that minimizes Maximum Mean Discrepancy (MMD) between generated and reference distributions in the feature space of a frozen pretrained DLM. To estimate MMD, we retain contextual features at individual token positions, obtaining multiple observations per sequence from a single extractor pass. We optimize this objective using policy gradients for discrete models and direct differentiation through generated latents for…",
+      "author": "Ilya Drobyshevskiy, Ilia Sudakov, Maksim Semenov, Denis Kuznedelev, Maksim Ignatov, Pavel Temirchev, Nikita Balagansky, Viacheslav Meshchaninov, Nikita Gushchin, Dmitry Baranchuk",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/yandex-research/dlm-mmd",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.06648"
+      },
+      "id": "b7a531805854b4c5",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+      "url": "https://huggingface.co/papers/2610.05162",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting personalization and long-horizon interactions. However, persistent memories can also induce sycophancy, causing agents to over-align with users' historical beliefs even when they are inaccurate, outdated, or inconsistent with objective evidence. Existing mitigation methods assume that memory-induced sycophancy originates from biased or incorrect memories and attempt to reduce this…",
+      "author": "Ruqing Ning, Haibo Meng, Zhishang Xiang, Zerui Chen, Jinsong Su, Xin Wang, Qinggang Zhang",
+      "extra": {
+        "upvotes": 25,
+        "githubRepo": "https://github.com/DEEP-JLU/MemAdapter",
+        "projectPage": "https://github.com/DEEP-JLU/MemAdapter.git",
+        "arxivUrl": "https://arxiv.org/abs/2610.05162"
+      },
+      "id": "f8b4dcacdb064d9f",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Certification of Real Images through Calibrated Content Authentication",
+      "url": "https://huggingface.co/papers/2610.05870",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Generative models can synthesize high-quality inauthentic multimedia content that is already being misused at scale. We evaluate twenty deepfake detectors against ten generators released in the last four years and find accuracy decreasing over time, from near-perfect 99.5% to 76%. Adversarial perturbations further reduce every baseline detector to below 2% accuracy, effectively inverting the detector's assigned label. We argue that this unreliability reflects a fundamental ambiguity:…",
+      "author": "Sarim Hashmi, Abdelrahman Elsayed, Mohammed Talha Alam, Samuele Poppi, Nils Lukas",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/Sarim-MBZUAI/content-authentication",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.05870"
+      },
+      "id": "9d9fbe3c9d7437b6",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: jialinyyzz/humanizer",
+      "url": "https://huggingface.co/jialinyyzz/humanizer",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 369,
+        "trendingScore": 361,
+        "task": "text-generation"
+      },
+      "id": "18967890f29489af",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+      "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+      "publishedAt": "2026-10-06T15:53:28Z",
+      "excerpt": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how it improves enterprise-wide risk management, and how ISO/IEC 42005:2025 codifies best practices for conducting and documenting these assessments.",
+      "author": "Adam Powers",
+      "extra": {},
+      "id": "ba58d97bce044e46",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Best practices for Amazon SageMaker HyperPod administration and governance",
+      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
+      "publishedAt": "2026-10-06T15:50:23Z",
+      "excerpt": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastructure boundaries, govern access, allocate shared capacity, and operate HyperPod consistently across the organization, project, cluster, and workload control layers.",
+      "author": "Geethanjali Banoth",
+      "extra": {},
+      "id": "eb89e877408d7730",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+      "publishedAt": "2026-10-06T15:47:02Z",
+      "excerpt": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.",
+      "author": "Giuseppe Angelo Porcelli",
+      "extra": {},
+      "id": "1ccfdcacfd19a879",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
+      "publishedAt": "2026-10-06T15:45:42Z",
+      "excerpt": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travelers change seats, check delays, and ask policy questions by voice, while the agent reaches your backend through MCP tools and confirms every change before it writes.",
+      "author": "Ravi Kumar",
+      "extra": {},
+      "id": "15fae5de395990ae",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "interconnects",
+      "sourceName": "Interconnects",
+      "title": "The Cyber Risk Discourse is Broken",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "publishedAt": "2026-10-06T14:22:41Z",
+      "excerpt": "Open-weights, ideology, and acknowledging trade-offs.",
+      "author": "Nathan Lambert",
+      "extra": {},
+      "id": "7c267aa07d2a02a7",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Palantir Platform (Part 1): Foundry, AIP, and Apollo",
+      "url": "https://medium.com/@anandiyer1/palantir-platform-part-1-foundry-aip-and-apollo-0563fb547127?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T16:10:32Z",
+      "excerpt": "While we have heard about Palantir in the news, have you ever thought about the underlying Palantir Technology Platform? Continue reading on Medium »",
+      "author": "Anand",
+      "extra": {},
+      "id": "7a961dddc091c9a2",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "PDF CHATBOT WITH RAG",
+      "url": "https://medium.com/@professionalcyber/pdf-chatbot-with-rag-d4c4c97af579?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T15:14:31Z",
+      "excerpt": "PDF CHATBOT WITH RAG Continue reading on Medium »",
+      "author": "Arunnachalam R S",
+      "extra": {},
+      "id": "dc0f153792aedb96",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "10 Ways to Turn One App Feature Into More Videos",
+      "url": "https://medium.com/@henrichstenn/10-ways-to-turn-one-app-feature-into-more-videos-7d087e1705a2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T15:01:02Z",
+      "excerpt": "One useful app feature can support many videos. The trick is to change the angle, not to repeat the same demo with a new caption. Continue reading on Medium »",
+      "author": "Henrich the growth expert",
+      "extra": {},
+      "id": "eb4ead8342649324",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative Engine Optimization (GEO): An Engineering Playbook for AI Visibility",
+      "url": "https://medium.com/@gurjot.chadha/generative-engine-optimization-geo-an-engineering-playbook-for-ai-visibility-6c5d542910e8?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T14:48:21Z",
+      "excerpt": "What GEO really is, what is proven versus experimental, and how organizations can effectively implement it in regulated industries such as… Continue reading on Medium »",
+      "author": "Gurjot Singh",
+      "extra": {},
+      "id": "516d6d847a8613cf",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "DeepSeek V4.1-Flash Is Here: What’s New, and Is V4-Pro Next?",
+      "url": "https://medium.com/@dhirendrac/deepseek-v4-1-flash-is-here-whats-new-and-is-v4-pro-next-5bd6447f7e49?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T14:06:01Z",
+      "excerpt": "A 552B open-weight model that DeepSeek says beats its own flagship, at about a third of the output price. Continue reading on Medium »",
+      "author": "Dhirendra Choudhary",
+      "extra": {},
+      "id": "d6c1006a3f4d236c",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Mistral Large 4",
+      "url": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "publishedAt": "2026-10-06T13:15:49Z",
+      "excerpt": "",
+      "author": "Philpax",
+      "extra": {
+        "points": 865,
+        "comments": 516,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49977979"
+      },
+      "id": "5888c276693c35f7",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+      "publishedAt": "2026-10-06T07:29:50Z",
+      "excerpt": "",
+      "author": "nsoonhui",
+      "extra": {
+        "points": 75,
+        "comments": 86,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49975345"
+      },
+      "id": "ebdbe868a59461c7",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Internal Anthropic model refuted the 3SUM and APSP hypotheses: first truly subquadratic 3SUM and truly subcubic APSP (Alman & Vassilevska Williams)",
+      "url": "https://arxiv.org/abs/2610.06783",
+      "publishedAt": "2026-10-06T07:16:54Z",
+      "excerpt": "New preprint gives deterministic O(n^1.9992) 3SUM and O(n^2.9995) integer-weight APSP. These are the first polynomial improvements over the textbook n² and n³ bounds. The key is a new thin matrix product algorithm, which known reductions turn into speedups for Exact Triangle, Zero-Weight k-Clique, Tree Edit Distance, and more. SETH and Orthogonal Vectors are unaffected. Notably, the paper says an Anthropic research model found the core algorithm on its own, and the main theorems are formalized…",
+      "author": "/u/AMBNNJ",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wyw84m/internal_anthropic_model_refuted_the_3sum_and/"
+      },
+      "id": "2cb74e6cff2811bd",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Vitalize secures $31M to scale AI-powered operating system for hospital staffing and scheduling - Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/vitalize-secures-31m-scale-ai-powered-operating-system-hospital-staffing-and-scheduling",
+      "publishedAt": "2026-10-06T16:00:00Z",
+      "excerpt": "# Vitalize secures $31M to scale AI-powered operating system for hospital staffing and scheduling. Hospital staffing and scheduling is unglamorous, complex and tedious work, and Veeraj Shah, Vitalize CEO and co-founder, believes it's the most valuable healthcare task to tackle. Startup Vitalize aims to supercharge health system capacity and operations with an artificial intelligence platform that unifies staffing, scheduling, flow and capacity. At health systems, labor and capacity management…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.108
+      },
+      "id": "285a9e6389642427",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The AI Dermatologist Can See You Now - The Business of Fashion",
+      "url": "https://www.businessoffashion.com/articles/beauty/ai-dermatologist-utah-doctor/",
+      "publishedAt": "2026-10-05T15:12:44Z",
+      "excerpt": "Agenda-setting intelligence, analysis and advice for the global fashion community. # The AI Dermatologist Can See You Now. An AI-based healthcare startup started offering acne prescriptions to Utah patients on Monday, the first time a state has allowed such technology to replace the role of a doctor. An AI-based healthcare startup on Monday will start offering prescriptions to Utah patients without direct human oversight, the first time a state has allowed such technology to replace the role…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.107
+      },
+      "id": "cd732bda86c3cb97",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "A New Open-Weight Challenger to Anthropic, Reflection, Emerges - The New York Times",
+      "url": "https://www.nytimes.com/2026/10/06/business/dealbook/anthropic-reflection-open-weight-ai.html",
+      "publishedAt": "2026-10-06T12:04:55Z",
+      "excerpt": "Reflection AI, a start-up backed by Nvidia, unveiled an open-weight artificial intelligence model meant to compete with Chinese tools — and other U.S. ones. We’ve got news on a new open-weight A.I. model that could challenge Anthropic and OpenAI — and it’s from an American start-up. The implications of a successful U.S. open-weight model are significant. If companies move away from more costly closed models, the economics of the business models of Anthropic and OpenAI fundamentally weaken. ##…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.105
+      },
+      "id": "501928f8b8485b30",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "These young founders just raised $5.2 million from Gradient to teach AI agents how companies work - Business Insider",
+      "url": "https://www.businessinsider.com/zeroset-startup-funding-ai-agents-gradient-ventures-enterprise-2026-10",
+      "publishedAt": "2026-10-06T12:01:01Z",
+      "excerpt": "Now, Zeroset has come out of stealth and raised $5.2 million to build models that give AI agents a constantly updated picture of a company's operations. Zeroset's cofounder and CEO, Akshat Kannan, said today's AI models have little knowledge of the inner workings of an individual business because that information can be scattered across customer relationship management systems, ticketing, and internal docs. Nor are AI models typically trained on a company's proprietary data. \"Models off the…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.096
+      },
+      "id": "f858ebaf74557d11",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "12 restaurant marketers facing intense industry pressure—what each must do next - Ad Age",
+      "url": "https://adage.com/brand-marketing/food-beverage/aa-12-restaurant-marketers-industry-pressure-challenges/",
+      "publishedAt": "2026-10-06T09:05:00Z",
+      "excerpt": "# 12 restaurant marketers facing intense industry pressure—what each must do next. October 06, 2026 05:05 AM EDT. ## Featured Stories. Tinuiti opens its media data to brands’ AI agents—signaling a potential new role for agencies. Tinuiti is claiming new territory by launching its own MCP server for its Bliss Point operating system. The power of satire and ads that don’t look like ads—according to Basura’s Rajeev Basu. Havas-Horizon venture one year later—why its global media pitch has yet to…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.267
+      },
+      "id": "4e3195174208da5a",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Mirror Particle is building a ‘world model’ of human behavior - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "publishedAt": "2026-10-06T16:35:00Z",
+      "excerpt": "The status quo for human behavior prediction today relies heavily on large language models (LLMs) that are prompted or fine-tuned to roleplay as a target demographic. “It’s like bringing a super soaker to Niagara Falls,” says Abhivyakti Ahuja, co-founder and CEO of Mirror, which sells brands an AI engine that predicts consumer behavior and the reasons behind it. “LLMs are modeling written language, but humans are made of visual perception, spatial reasoning, social intelligence.” Relying on…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.314
+      },
+      "id": "7a12fe93b8a77091",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Psychology says these 5 behaviours may reflect low self-awareness’: ‘From always needing to be right to d - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/life-style/relationships/psychology-says-these-5-behaviours-may-reflect-low-self-awareness-from-always-needing-to-be-right-to-dismissing-others-experiences/articleshow/134731994.cms",
+      "publishedAt": "2026-10-06T09:18:00Z",
+      "excerpt": "Sometimes it is the person who turns every story back to themselves.None of these behaviours, on their own, can tell you how intelligent someone is. But psychology has studied several qualities that sit behind these patterns - including intellectual humility, openness, self-awareness and defensiveness.And some everyday behaviours may offer clues about how comfortable a person is with being wrong, listening to others or questioning their own assumptions. The problem starts when every…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.014
+      },
+      "id": "e9fd318d867a8ad4",
+      "collectedAt": "2026-10-06T16:52:24.218765+00:00"
     }
   ],
-  "updatedAt": "2026-10-06T07:43:35.262497+00:00"
+  "updatedAt": "2026-10-06T16:52:24.218765+00:00"
 }

@@ -729,7 +729,520 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-demonstrates-voice-travel-concierge-using-am-34010b",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "AWS demonstrates voice travel concierge using Amazon Bedrock AgentCore and Nova Sonic",
+      "summary": "AWS published a guide for building a voice assistant for airline apps using Amazon Bedrock AgentCore, Nova Sonic, and Knowledge Bases. The system allows travelers to manage bookings and ask policy questions via real-time speech.",
+      "whyItMatters": "It showcases practical integration of real-time speech models with backend enterprise tools for customer service workflows.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-releases-aicr-v1-0-for-stable-gpu-cluster-d5ad2c",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "NVIDIA releases AICR v1.0 for stable GPU cluster configuration",
+      "summary": "NVIDIA launched version 1.0 of its AI Cluster Runtime, which provides validated and version-locked recipes for setting up GPU-accelerated Kubernetes clusters. This tool aims to simplify infrastructure deployment by ensuring compatibility across software components and hardware.",
+      "whyItMatters": "It reduces deployment complexity and configuration drift for teams building large-scale GPU infrastructure.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "atlassian-and-openai-expand-partnership-for-ente-60ef2a",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Atlassian and OpenAI expand partnership for enterprise AI integration",
+      "summary": "Atlassian and OpenAI are deepening their collaboration to integrate frontier AI models directly with enterprise knowledge repositories. The initiative aims to help teams more effectively plan, build, and deliver work using advanced capabilities.",
+      "whyItMatters": "It connects large language models more deeply into project management and enterprise software ecosystems.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/atlassian-partnership"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mistral-ai-introduces-mistral-large-4-with-one-t-8eda82",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Mistral AI introduces Mistral Large 4 with one trillion parameters",
+      "summary": "Mistral AI launched a public preview of Mistral Large 4, a natively multimodal model with 1 trillion parameters trained on European infrastructure. The company plans to release the model weights by the end of the month.",
+      "whyItMatters": "It marks a major addition to open-source frontier models with large-scale parameter counts.",
+      "category": "New Model Release",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/mistral-large-4/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "lmbuild-evaluates-language-model-agents-on-gener-6de237",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "LMBuild evaluates language model agents on generating buildable 3D structures",
+      "summary": "Researchers introduced LMBuild, a new framework for evaluating how well large language model agents can generate 3D structures that are physically buildable and functional. The benchmark goes beyond visual elegance to test structural integrity.",
+      "whyItMatters": "It provides a rigorous way to test generative AI capabilities in physical engineering and design tasks.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.04292"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.04292",
+        "code": "https://github.com/Lumos-Jiateng/LMBuild",
+        "model": null,
+        "demo": "https://lumos-jiateng.github.io/LMBuild/"
+      }
+    },
+    {
+      "id": "omnireasoning-framework-advances-audio-visual-jo-9b5a7f",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "OmniReasoning framework advances audio-visual joint reasoning in AI models",
+      "summary": "A new research project called OmniReasoning addresses the gap in evaluating how AI models process audio and visual information together. It introduces new benchmarks and methods to improve multimodal understanding.",
+      "whyItMatters": "It helps advance systems capable of fluidly reasoning across multiple sensory inputs simultaneously.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39490"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39490",
+        "code": "https://github.com/PKU-VaLuE-Lab/OmniReasoning",
+        "model": null,
+        "demo": "https://pku-value-lab.github.io/OmniReasoning-Homepage/"
+      }
+    },
+    {
+      "id": "inverse-distillation-unlearning-removes-unwanted-22ebb9",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Inverse Distillation Unlearning removes unwanted data from multi-step matching models",
+      "summary": "Researchers proposed a framework called Inverse Distillation Unlearning for multi-step matching models to remove specific data from training sets. The method successfully eliminates unwanted components while keeping high output quality intact.",
+      "whyItMatters": "It offers a precise technique for data removal and privacy compliance in complex generative architectures.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36099"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36099",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-uses-language-models-to-discover-faster-mo-befb81",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Study uses language models to discover faster molecular relaxation methods",
+      "summary": "New research explores using language models to optimize geometry in quantum-chemical workflows. The study demonstrates that AI can identify faster methods for molecular relaxation and reduce the computational cost of force evaluations.",
+      "whyItMatters": "It accelerates computational chemistry and materials science simulations using language model optimization.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.06577"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.06577",
+        "code": "https://github.com/vdeshchenya/autosella",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "proactivity-gym-benchmark-evaluates-proactive-la-4d51f2",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Proactivity-Gym benchmark evaluates proactive large language model agents",
+      "summary": "Researchers outlined foundational principles for creating proactive large language model agents that offer support before users ask. The work includes a technical framework and the Proactivity-Gym benchmark to evaluate these systems.",
+      "whyItMatters": "It shifts agent design toward anticipatory assistance rather than purely reactive interactions.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.37267"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.37267",
+        "code": null,
+        "model": null,
+        "demo": "https://harryoh99.github.io/foundations_of_proactive_agents/"
+      }
+    },
+    {
+      "id": "study-shows-self-generated-feedback-can-destabil-3802e4",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Study shows self-generated feedback can destabilize test-time training",
+      "summary": "A new study analyzes how models that learn from their own outputs during inference become less accurate over long sequences. Researchers found that retaining updates from generated text worsens prediction performance across 128K-token streams.",
+      "whyItMatters": "It highlights key stability limitations in self-improving inference loops for large language models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05076"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05076",
+        "code": "https://github.com/lingjivoo/ttt-ouroboros",
+        "model": null,
+        "demo": "https://ttt-ouroboros.github.io/"
+      }
+    },
+    {
+      "id": "in-distribution-forcing-improves-long-video-gene-493396",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "In-Distribution Forcing improves long video generation by preventing visual drift",
+      "summary": "Researchers introduced a technique called In-Distribution Forcing to help autoregressive video models generate longer clips without losing color consistency or motion quality. The method directly tackles visual degradation over time.",
+      "whyItMatters": "It solves core temporal consistency problems in long-form video generation models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.03120"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.03120",
+        "code": "https://github.com/In-Distribution-Forcing/ID-Forcing",
+        "model": null,
+        "demo": "https://in-distribution-forcing.github.io/"
+      }
+    },
+    {
+      "id": "searchjev-provides-a-faster-model-for-search-age-9fc206",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "SearchJev provides a faster model for search agents",
+      "summary": "A new system called SearchJev uses a fast and calibrated model to make quick decisions about search relevance and evidence. The approach reduces latency and uncertainty compared to using heavy generative models for retrieval tasks.",
+      "whyItMatters": "It streamlines search agent pipelines by cutting down decision-making latency.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05107"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05107",
+        "code": "https://github.com/EvoScientist/SearchJev",
+        "model": "https://huggingface.co/SearchJev/models",
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-introduces-robotuse-framework-for-robot-a-60ef2a",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "OpenAI introduces RobotUse framework for robot agent context and decision management",
+      "summary": "OpenAI has introduced a framework named RobotUse to help robot agents connect their actions to observed outcomes. It simplifies how agents manage execution code and history during repeated attempts.",
+      "whyItMatters": "This framework improves how robotic agents handle complex context and execution history during multi-step tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/atlassian-partnership"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.04929",
+        "code": "https://github.com/robotuse-team/RobotUse",
+        "model": null,
+        "demo": "https://robotuse-team.github.io/"
+      }
+    },
+    {
+      "id": "new-post-training-method-improves-diffusion-lang-b7a531",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "New post-training method improves diffusion language models via feature space analysis",
+      "summary": "Researchers from Yandex Research introduced a method to improve diffusion language models by minimizing the difference between generated and reference distributions. The technique uses feature space analysis to refine model outputs.",
+      "whyItMatters": "It offers a refined way to improve the quality and distribution alignment of diffusion language models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.06648"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.06648",
+        "code": "https://github.com/yandex-research/dlm-mmd",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "memadapter-tool-helps-ai-agents-avoid-sycophancy-f8b4dc",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Memadapter tool helps AI agents avoid sycophancy from long-term memory",
+      "summary": "A new tool called Memadapter addresses the tendency of AI agents to overly agree with users based on stored historical beliefs. It uses counterfactual adaptation to help agents maintain accuracy even when their memory suggests a different perspective.",
+      "whyItMatters": "It helps prevent AI agents from blindly agreeing with users due to biased historical memory.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05162"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05162",
+        "code": "https://github.com/DEEP-JLU/MemAdapter",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-finds-deepfake-detection-accuracy-drops-si-9d9fbe",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Study finds deepfake detection accuracy drops significantly over time",
+      "summary": "Researchers evaluated twenty deepfake detectors against ten recent generators and found that detection accuracy has dropped from 99.5% to 76% over the last four years. The findings highlight the growing challenge of authenticating real images as generative models improve.",
+      "whyItMatters": "It demonstrates that current deepfake detection tools are struggling to keep pace with rapidly improving media generation models.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05870"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05870",
+        "code": "https://github.com/Sarim-MBZUAI/content-authentication",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mirror-particle-develops-world-model-to-predict-c0a0a7",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Mirror Particle develops world model to predict human behavior for brands",
+      "summary": "Mirror Particle is building a world model of human behavior to help brands understand consumer actions. The company argues that current methods using large language models to roleplay demographics are less effective than their new approach.",
+      "whyItMatters": "It introduces an alternative behavioral prediction approach for market research compared to standard demographic roleplay.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "reflection-ai-releases-open-weight-model-backed-b96068",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Reflection AI releases open-weight model backed by Nvidia",
+      "summary": "Reflection AI, a startup backed by Nvidia, has unveiled a new open-weight artificial intelligence model. The company aims to compete with established players in the artificial intelligence market.",
+      "whyItMatters": "It adds another option to the growing ecosystem of open-weight artificial intelligence models.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.nytimes.com/2026/10/06/business/dealbook/anthropic-reflection-open-weight-ai.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "zeroset-raises-5-2-million-to-provide-ai-agents-f34696",
+      "createdAt": "2026-10-06T17:01:54.413528+00:00",
+      "headline": "Zeroset raises $5.2 million to provide AI agents with internal business operations context",
+      "summary": "Zeroset has emerged from stealth mode after raising $5.2 million from Gradient. The company is developing models that provide AI agents with a constantly updated understanding of a specific business's internal operations.",
+      "whyItMatters": "It addresses the need for enterprise AI agents to access real-time, internal operational data.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.businessinsider.com/zeroset-startup-funding-ai-agents-gradient-ventures-enterprise-2026-10"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-06T07:50:09.456453+00:00"
+  "updatedAt": "2026-10-06T17:02:04.705272+00:00"
 }
