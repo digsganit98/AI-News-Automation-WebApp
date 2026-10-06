@@ -1,0 +1,717 @@
+{
+  "date": "2026-10-07",
+  "runs": [
+    {
+      "runAt": "2026-10-06T23:09:07.820801+00:00",
+      "newItems": 34,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1250,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.833734Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.865715Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 875,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866049Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866258Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866368Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866521Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866626Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866728Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866825Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.866920Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867016Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867061Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867090Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867238Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867268Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867367Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867482Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867696Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-06T23:09:07.867792Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867888Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.867985Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.868123Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.868218Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.868311Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.868773Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.868887Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.868999Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-06T23:09:07.869033Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "publishedAt": "2026-10-06T12:00:00Z",
+      "excerpt": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "author": null,
+      "extra": {},
+      "id": "47b9255d8fa0f8e8",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "publishedAt": "2026-10-06T10:00:00Z",
+      "excerpt": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "author": null,
+      "extra": {},
+      "id": "9964af802e9c5fde",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "deepmind",
+      "sourceName": "Google DeepMind",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "publishedAt": "2026-10-06T19:57:04Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "2435ebd745855918",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA (generative AI)",
+      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "publishedAt": "2026-10-06T13:00:19Z",
+      "excerpt": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost.  Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care.  NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
+      "author": "Kanika Atri",
+      "extra": {},
+      "id": "be7f8737364ef747",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA (generative AI)",
+      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+      "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+      "publishedAt": "2026-10-05T13:00:57Z",
+      "excerpt": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results.  [&#8230;]",
+      "author": "Chelsea Sumner",
+      "extra": {},
+      "id": "a2beb8a05eac6abd",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: google/embeddinggemma-2",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 391,
+        "trendingScore": 385,
+        "task": "feature-extraction"
+      },
+      "id": "bf93ca7e3f086dc1",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw/",
+      "publishedAt": "2026-10-06T19:19:15Z",
+      "excerpt": "Off-the-shelf AI assistants forget you between conversations. This post shows how to build a personal assistant that accumulates context using OpenClaw on Amazon Bedrock AgentCore runtime, with AgentCore memory turning disposable chats into durable, structured knowledge you can retrieve with metadata filters.",
+      "author": "Thiago Verney",
+      "extra": {},
+      "id": "f29c5a304f698583",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Nodded at AI Buzzwords All Year. Then I Actually Looked Them Up.",
+      "url": "https://medium.com/@nirav.r.vaghasiya/i-nodded-at-ai-buzzwords-all-year-then-i-actually-looked-them-up-ad91eb3bad0d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T21:39:09Z",
+      "excerpt": "Thirty real ideas hide under a hundred new words. Here’s the shortlist that matters. Continue reading on Medium »",
+      "author": "Nirav Vaghasiya",
+      "extra": {},
+      "id": "8533adf8281cd792",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Can I Tell If AI Search Is Citing My Website?",
+      "url": "https://medium.com/@scorivra/how-can-i-tell-if-ai-search-is-citing-my-website-565008dfc898?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T20:30:48Z",
+      "excerpt": "How Can I Tell Whether AI Search Is Citing My Website? Continue reading on Medium »",
+      "author": "Scorivra",
+      "extra": {},
+      "id": "707817d02077e7f9",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Year I Stopped Treating AI Like a Toy and Started Building With It",
+      "url": "https://python.plainenglish.io/the-year-i-stopped-treating-ai-like-a-toy-and-started-building-with-it-b5e4f627d11a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T18:59:37Z",
+      "excerpt": "How I went from copy-pasting into ChatGPT to shipping agents, RAG pipelines, and fine-tuned models — and what actually broke along the way Continue reading on Python in Plain English »",
+      "author": "Mohsin Abro",
+      "extra": {},
+      "id": "5a0d20e9887309c1",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Create Depth in AI Art Without Blurring Everything",
+      "url": "https://medium.com/tanda-ai-art-library/how-to-create-depth-in-ai-art-without-blurring-everything-0455d321de9b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T17:35:14Z",
+      "excerpt": "Foreground, overlap, scale, contrast, and atmospheric perspective can create convincing space before depth of field ever enters the prompt. Continue reading on TandA AI Art Library »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "466f60a321088430",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Paid $20 for Claude. It Taught Me What AI Companies Are Really Competing On.",
+      "url": "https://medium.com/@tripathiashwin2004/i-paid-20-for-claude-it-taught-me-what-ai-companies-are-really-competing-on-3fc10e9b8d22?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T17:27:22Z",
+      "excerpt": "Taste Is the New Moat: What a $20 Claude Plan Taught Me About Where AI Is Really Competing Continue reading on Medium »",
+      "author": "Ashwini T",
+      "extra": {},
+      "id": "8bcf13c5e9ef93ff",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Expanding the Cyber Verification Program",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "publishedAt": "2026-10-06T23:59:59Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "eb1569caa0b7d2c3",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "publishedAt": "2026-10-06T18:00:34Z",
+      "excerpt": "",
+      "author": "zed_labs_dev",
+      "extra": {
+        "points": 55,
+        "comments": 29,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49981905"
+      },
+      "id": "729a1a1d63d146a4",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "publishedAt": "2026-10-06T16:23:25Z",
+      "excerpt": "",
+      "author": "fsbonetto",
+      "extra": {
+        "points": 202,
+        "comments": 265,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49980715"
+      },
+      "id": "dabfa79f68b85520",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/\\",
+      "publishedAt": "2026-10-06T13:15:49Z",
+      "excerpt": "",
+      "author": "Philpax",
+      "extra": {
+        "points": 1520,
+        "comments": 936,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49977979"
+      },
+      "id": "65b10d5e370b52bc",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "url": "https://www.erdosproblems.com/forum/thread/blog:9",
+      "publishedAt": "2026-10-06T12:53:58Z",
+      "excerpt": "",
+      "author": "pfdietz",
+      "extra": {
+        "points": 82,
+        "comments": 37,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49977689"
+      },
+      "id": "3d1ae007a36ac76c",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "I'm the AGI that's wiping out humanity",
+      "url": "https://ajmoon.com/posts/im-the-agi-thats-wiping-out-humanity-heres-how",
+      "publishedAt": "2026-10-06T10:59:55Z",
+      "excerpt": "",
+      "author": "alex-moon",
+      "extra": {
+        "points": 149,
+        "comments": 95,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49976751"
+      },
+      "id": "cd01a72537c2ff37",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Woman used claude as her diary - and got reported to the police for contents of her diary",
+      "url": "https://gizmodo.com/florida-woman-arrested-following-conversation-with-claude-that-allegedly-included-threats-2000821756",
+      "publishedAt": "2026-10-06T15:19:12Z",
+      "excerpt": "",
+      "author": "/u/Timely_Impression_92",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wz5b30/woman_used_claude_as_her_diary_and_got_reported/"
+      },
+      "id": "68159a0a4a70aeff",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "publishedAt": "2026-10-06T14:33:16Z",
+      "excerpt": "The race between open and closed AI is on, and Europe is still in the mix. On Tuesday, French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals — following what French president Macron has described as “a third way in AI.”. Amid a growing divide between closed models that can be unplugged and open models that are often made in China, Mistral is positioning ML4 as an alternative to both. Nicknamed Le Chonk in…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.43
+      },
+      "id": "350565f92a3283aa",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China - WIRED",
+      "url": "https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/",
+      "publishedAt": "2026-10-06T13:15:23Z",
+      "excerpt": "# Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China. As tensions mount over who gets access to top-end artificial intelligence, French company Mistral has released a new freely available model that it claims can compete with the very best from the US and China. Mistral presents Le Chonk as by far the most capable open-weight model developed outside of China, and “very, very close” to some proprietary models. Whereas Chinese labs have been accused by the…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.289
+      },
+      "id": "0fd3fa7f5c483234",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "\"I don't want an oligopoly\": New open-weight AI models mount a comeback against China - Axios",
+      "url": "https://www.axios.com/2026/10/06/reflection-mistral-open-weight-ai-models-china",
+      "publishedAt": "2026-10-06T13:05:06Z",
+      "excerpt": "# Western AI labs challenge China's open-model lead. A new crop of powerful, Western open-weight AI systems are mounting a comeback, with fresh models from Reflection and Mistral narrowing China's recent lead. **Why it matters:** These models and others will give businesses and governments alternatives to the closed ecosystems of OpenAI and Anthropic, as well as to Chinese options they may have eschewed for security reasons. * But putting powerful model weights into the world also makes their…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.287
+      },
+      "id": "16e71a019b509d3c",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Reflection debuts Beam, a open-weight AI model to rival Chinese models at lower compute cost - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "publishedAt": "2026-10-05T19:33:53Z",
+      "excerpt": "Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model. The two-year-old, Brooklyn-based startup claims Beam matches the performance of leading Chinese open models on advanced reasoning benchmarks at dramatically lower costs, a claim that could heat up the race to build a Western answer to DeepSeek, Qwen, and Z.ai. The company shared new details in a lengthy blog post Monday, which described Beam as a text-only mixture-of-experts model trained on high-compute…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.267
+      },
+      "id": "668fcb6077120c20",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Reflection AI unveils an open-source Western answer to Chinese labs - Semafor",
+      "url": "https://www.semafor.com/article/10/05/2026/reflection-ai-unveils-an-open-source-answer-to-chinese-labs",
+      "publishedAt": "2026-10-05T19:01:00Z",
+      "excerpt": "# Reflection AI unveils an open-source Western answer to Chinese labs. Reflection AI, the startup billing itself as America’s answer to open-source Chinese AI, is releasing its first model, called Beam. The model’s capabilities are comparable to one of China’s Z.ai’s recent models, GLM-5.2, which was released in June; Beam is “approaching” the performance of Alibaba’s most advanced model, Qwen 3.8-Max, which trails the top closed American models from OpenAI and Anthropic. China’s startups and…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.235
+      },
+      "id": "8ccc93ee81e1628c",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Sona8: Former Consultants Get Into Y Combinator With A.I. Interviews | Trending Topics",
+      "url": "https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews",
+      "publishedAt": "2026-10-05T17:38:46Z",
+      "excerpt": "Advertorial\n\n### aws First Incubator 2026: Get up to €55,000 to Launch Your First Startup!\n\neustella Web. © eustella / Canva\n\nAdvertorial\n\n### eustella: European AI Agent Now Generates Slides and Works With Documents\n\n© The Recursive\n\nAdvertorial\n\n### The Recursive CEE Forum: “Region can form a critical mass of innovative companies”\n\nThe Recursive CEE Forum will come to Vienna for a second time © The Recursive\n\nAdvertorial [...] Instead of a few dozen interviews, a team of interpreters and a…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.704
+      },
+      "id": "efa1761ee50357a1",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What Is Beam? the US AI Model Being Called the 'DeepSeek of the West' - Business Insider",
+      "url": "https://www.businessinsider.com/what-is-beam-american-ai-model-deepseek-of-the-west-2026-10",
+      "publishedAt": "2026-10-06T06:31:01Z",
+      "excerpt": "A New York AI startup founded by two former Google DeepMind researchers has released its first major model — and is pitching it as a homegrown answer to China's increasingly powerful open AI systems. Reflection AI on Monday unveiled Beam, an \"open-weight\" model designed for coding, reasoning, and AI-agent tasks. Beam is Reflection AI's first frontier open-weight model. \"The only way to own intelligence is, by definition, if it's open — because if it's open, you can run it on your stuff, you…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.334
+      },
+      "id": "b9d0184d7f45ec11",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "DeepSeek reportedly nears $12bn funding round backed by Tencent and CATL - thenextweb.com",
+      "url": "https://thenextweb.com/news/deepseek-12bn-funding-round-tencent-catl",
+      "publishedAt": "2026-10-06T08:29:35Z",
+      "excerpt": "DeepSeek is close to raising at least 80 billion yuan, or about $12bn, in a new funding round, Bloomberg News reported on Tuesday. Tencent and the battery maker CATL have committed some of the largest sums, according to people familiar with the matter cited by Bloomberg. The Chinese AI lab had first set out to raise about 50 billion yuan. Demand grew after the launch of its latest model, Bloomberg said, and the final total could approach 100 billion yuan. That round raised about 50 billion…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.275
+      },
+      "id": "79fbde07d1052ed7",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding",
+      "publishedAt": "2026-10-06T05:00:22Z",
+      "excerpt": "# DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding. * DeepSeek is close to securing at least 80 billion yuan in its latest round of funding, ahead of a landmark initial public offering in early 2027. * DeepSeek’s funding sets the stage for one of the most highly anticipated Chinese market debuts in years, after the successful release of its latest AI model, the V4 Flash. DeepSeek is close to securing at least 80 billion yuan ($12 billion) in its latest round of funding, blowing…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.271
+      },
+      "id": "a8cf331f88574912",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Six AI companies agree to voluntary safety accord with the White House - MSSP Alert",
+      "url": "https://www.msspalert.com/brief/six-ai-companies-agree-to-voluntary-safety-commitments-with-the-white-house",
+      "publishedAt": "2026-10-05T13:58:22Z",
+      "excerpt": "# Six AI companies agree to voluntary safety accord with the White House. Six major AI companies have agreed to voluntary safety commitments with the White House, establishing internal controls, independent audits, and board-level oversight for advanced AI models. The White House Accord on Super Intelligence was signed on September 29 by executives from Google, Anthropic, Meta, OpenAI, xAI, and NVIDIA. The accord outlines four layers of safety controls for companies developing and deploying…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.262
+      },
+      "id": "ba59f30857f5b955",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Slashing “Wrench Time”: How Agentic And Physical AI Are Accelerating Repairs - Automation World",
+      "url": "https://www.automationworld.com/analytics/news/55409953/slashing-wrench-time-how-agentic-and-physical-ai-are-accelerating-repairs",
+      "publishedAt": "2026-10-06T18:55:02Z",
+      "excerpt": "Agentic and physical AI could help manufacturers move beyond predictive maintenance by automating the coordination and execution of equipment repairs. * Physical AI can support or perform maintenance tasks in the physical environment. Today, when an AI model flags a degrading asset in milliseconds, the alert hits a dashboard and the process slams into a wall of human administration. A reliability engineer must verify the data, coordinate with the stores for spare parts, negotiate a downtime…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.647
+      },
+      "id": "44d483d546f27e5c",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Keysight Advances its Design Software with Agentic AI – Company Announcement - Financial Times",
+      "url": "https://markets.ft.com/data/announce/detail?dockey=600-202610061100BIZWIRE_USPRX____20261006_BW539221-1",
+      "publishedAt": "2026-10-06T15:00:00Z",
+      "excerpt": "Engineers connect their AI agents to radio frequency tools for circuit generation, verification, and optimization. View the full release here: https://www.businesswire.com/news/home/20261006539221/en/. Keysight introduces agentic AI to its design software. More than 60% of organizations expect to deploy AI agents by 2028, yet radio frequency (RF) engineering has been slower to follow. Keysight Advanced Design System (ADS) 2027 addresses this by letting teams record workflows as macros their…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.624
+      },
+      "id": "ccd696059780c9e4",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How David Jones, Canva and others are putting agentic AI to work - iTnews",
+      "url": "https://www.itnews.com.au/feature/how-david-jones-canva-and-others-are-putting-agentic-ai-to-work-629378",
+      "publishedAt": "2026-10-06T18:00:00Z",
+      "excerpt": "## How David Jones, Canva and others are putting agentic AI to work ## Microsoft spots new twist on ClickFix \"cache smuggling\" ## Apple says it will flag AI requests for Mac data ## Australia's Firmus to allocate half of IPO to existing investors ## Colonial First State turns marketing automation into an always-on engagement engine. # How David Jones, Canva and others are putting agentic AI to work. ## Meet around 600 customers, prospects and partners for two days focused on automation,…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.547
+      },
+      "id": "24feab90a0f72ee9",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Webinar | 18 November 2026 | Proof, performance, and profit: Measuring AI ROI in insurance - FinTech Futures",
+      "url": "https://www.fintechfutures.com/insurtech/webinar-18-november-2026-proof-performance-and-profit-measuring-ai-roi-in-insurance",
+      "publishedAt": "2026-10-06T11:52:55Z",
+      "excerpt": "Join our expert panel to explore how insurers can measure the value of AI, demonstrate ROI, and make the case for further investment. AI can affect productivity, operational efficiency, customer experience, and cost, making it difficult to isolate and measure the return. And how can leadership tell whether an AI deployment justifies further investment? webinar, we’ll explore how to build a strong business case, identify where AI can deliver the most value, and reliably measure returns after…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.373
+      },
+      "id": "251fe6f0b3278f38",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Mars predicts a future of automated and immersive retail - FoodNavigator.com",
+      "url": "https://www.foodnavigator.com/Article/2026/10/06/mars-predicts-a-future-of-automated-and-immersive-retail/",
+      "publishedAt": "2026-10-06T17:49:17Z",
+      "excerpt": "# Mars predicts a future of automated and immersive retail. Agentic AI is expected to automate purchases of household staples, increasing the importance of discovery-driven retail experiences as brands compete to surface products, trends and personalized recommendations, according to a new report from Mars.(Image: Getty/Peshkov). ## Agentic technology is increasingly shaping what consumers expect from their shopping experience as household staples are relegated to automated replenishment while…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.358
+      },
+      "id": "e5d2bf555cd572ad",
+      "collectedAt": "2026-10-06T23:09:07.820801+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-06T23:09:07.820801+00:00"
+}
