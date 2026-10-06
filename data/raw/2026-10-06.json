@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-05T22:47:54.618782Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-06T02:17:08.354725+00:00",
+      "newItems": 23,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1247,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.372278Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.414020Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 874,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.414398Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.414732Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 88,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.414922Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.415097Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.415268Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.415432Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.415595Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.415782Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 39,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.415946Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.416008Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.416058Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.416304Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.416355Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.416519Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.416702Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.417117Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-06T02:17:08.417353Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.417526Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.417742Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.417988Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.418153Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.418323Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.418973Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.419160Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.419346Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-06T02:17:08.419401Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -868,7 +1098,360 @@
       },
       "id": "1ba50f7c3696e1ca",
       "collectedAt": "2026-10-05T22:47:54.553378+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2610.02840",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal world dynamics guide accurate actions. Existing approaches typically represent the world as RGB frames or latent counterparts while predicting actions as end-effector poses or joint angles, but they often struggle to capture the 3D spatial structure and contact geometry central to dexterous manipulation. We introduce Point World Action Model (PointWAM), a 3D world action model…",
+      "author": "Chunghyun Park, Beomjun Kim, Seungcheol Park, Heeseung Kwon, Yashu Shukla, Seunghoon Sim, Jinwoo Shin, Minsu Cho",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": null,
+        "projectPage": "https://chrockey.github.io/PointWAM/",
+        "arxivUrl": "https://arxiv.org/abs/2610.02840"
+      },
+      "id": "3b37672902245b99",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification",
+      "url": "https://huggingface.co/papers/2609.30467",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medical corpora, has become the dominant paradigm for scalable hallucination detection in high-stakes clinical settings. Despite the urgency of reliable and transparent medical fact verification, most systems measure performance with aggregate metrics like F1, which obscure where and why failures occur. Existing RAG diagnostics require gold answers or annotated gold evidence,…",
+      "author": "Heyuan Huang, Jirui Dai, Alexandra DeLucia, Sonal Joshi, Mahsa Yarmohammadi, Jie Gao, Bernal Jiménez Gutiérrez, Mark Dredze",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.30467"
+      },
+      "id": "b86e269c78b8a3f5",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MinkowskiPE: Minkowski Positional Encoding for Spatiotemporal Perception",
+      "url": "https://huggingface.co/papers/2609.33804",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Modeling spatiotemporal coupling is a key challenge in building physical intelligence across scales, from microscopic to macroscopic. Existing models capture such structure broadly through physics-motivated dynamical formulations or learning-motivated architectures. The former provide stronger priors but may constrain flexibility, whereas the latter are more flexible but leave the spatiotemporal coupling largely implicit. We therefore seek an approach that combines flexible learning with an…",
+      "author": "Yuhao Li, Louie Hong Yao, Tianyi Shi, Hanqun Cao, Hongxia Hao, Zhen Zhao, Shengchao Liu",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": "https://liyuhao.com.cn/projects/minkowski-pe/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33804"
+      },
+      "id": "756a4cdfe210a856",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for Video World Models",
+      "url": "https://huggingface.co/papers/2609.26425",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Video world models achieve long-range temporal consistency by storing KV cache during generation, but the growing cache makes KV cache memory a major deployment bottleneck, which motivates low-bit quantization study for efficiency. Existing 2-bit KV cache quantization methods can achieve nearly lossless performance on VBench, however, when applied to video world models, we find they still cause severe temporal flickering and visual degradation. Meanwhile, deeper investigates show that Key…",
+      "author": "Jiaqi Zhao, Xiaobin Hu, Bo Yin, Junpeng Jiang, Miao Zhang, Shuicheng Yan",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://quantwm-project.github.io/QuantWM/",
+        "arxivUrl": "https://arxiv.org/abs/2609.26425"
+      },
+      "id": "54297c1f9e7abd2d",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "From Gradients to Capabilities: Understanding Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.02179",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Multi-teacher on-policy distillation (MOPD) aims to combine the strengths of RL-trained teachers in a single student, but how teacher signals affect parameter changes remains underexplored. We study Qwen3-1.7B with four domain teachers trained with RL from the same initialization as the student, comparing gradients, optimizer updates, and task learning curves, with additional SmolLM3-3B diagnostics. We find that several factors influence teacher signals. First, loss averaging implicitly…",
+      "author": "Siqi Zhu, Suozhi Huang, Kaixuan Zhang, Yuheng Yang, Zhanyang Jin, Yihang Sun, Jiaxuan You",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.02179"
+      },
+      "id": "fddce193f72be2db",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2609.39820",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Vision-language-action (VLA) models generalize broadly across robotic manipulation tasks, but complex environments require balancing task success with unintended contact. Runtime shields can correct individual actions, but they leave the underlying policy unchanged, so repeated disagreements may create a persistent policy-shield mismatch that blocks task progress. To address this challenge, we introduce FailBank, a four-stage self-evolving framework that converts runtime feedback into…",
+      "author": "Mingyue Cui, Zheyuan Liu, Yihan Zhu, Zheyuan Zhang, Meng Jiang",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": "https://github.com/Mingyuee88/FailBank",
+        "projectPage": "https://mingyuee88.github.io/FailBank/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39820"
+      },
+      "id": "ec5b1c40d4a3f672",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Receiver-Conditioned Latent Communication gives 94% CacheBack",
+      "url": "https://huggingface.co/papers/2609.32046",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Multi-agent systems distribute large contexts across agents that communicate to solve a task. Text messages are compact but require decoding and may omit evidence the receiving agent needs. Recent latent communication instead transfers KV caches. This avoids text generation and can improve accuracy and latency. However, a full KV cache grows linearly with both the context an individual agent processes, and the number of agents that coordinate together. This raises memory and context costs,…",
+      "author": "Maximillian Rossi, Prajwal Raghunath, Haoqing Xuan, Yusen Zhang, Eugene Wu",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/agentcacheback/cacheback",
+        "projectPage": "https://agentcacheback.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2609.32046"
+      },
+      "id": "9bf3a17f4542327f",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Rethinking Token Reweighting for SFT: Suppress, Reverse, and Extrapolate Learned Features",
+      "url": "https://huggingface.co/papers/2609.33463",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Supervised fine-tuning (SFT) learns most aggressively from tokens that the model deems least likely. This helps acquire new behaviors, but also amplifies noisy or conflicting supervision and can overwrite useful pretrained knowledge. Through a unified policy-loss view, we revisit existing token-reweighting methods and show that they assign nonnegative coefficients to demonstrated tokens. Consequently, they can suppress or amplify supervised updates, but cannot reverse harmful features once…",
+      "author": "Cunchun Li, Haonan He, Yifan Gao, Minglei Li, Jingqi Ye, Qingyu Yang, Peng Ye",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2609.33463"
+      },
+      "id": "1a8e55f13b9879e2",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+      "url": "https://huggingface.co/papers/2610.03509",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Chain-of-thought (CoT) reasoning allows humans to inspect how large language models reach their answers, and oversee model behaviour. This reasoning comes at an increased inference cost, motivating efficient methods that train models to solve tasks using fewer tokens. However, a common concern is that such training may cause models to skip important reasoning steps, so the CoT no longer faithfully reflects the model's decision. It is unclear whether or when this occurs in practice, since…",
+      "author": "Samuel Lewis-Lim, Xingwei Tan, Mario Sanger, Zhixue Zhao, Nikolaos Aletras",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.03509"
+      },
+      "id": "bdd6bc0bf95d8c0e",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "From Retrieval to Typed Decisions: Calibrated System One Models from Biomedical Sentence Encoders",
+      "url": "https://huggingface.co/papers/2610.02486",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "Typed decision models answer schema-constrained questions about a text in one forward pass and return probabilities meant to be thresholded. We ask whether biomedical sentence encoders trained for retrieval are good starting points for such models. We present SBERT2S1, which converts Sentence-Transformers encoders into bi-encoder, cross-head (C) and prior-fused residual (PFR) decision models, together with BIODECIDE, a biomedical typed-decision suite, and MEDLINE-S1, 243k training decisions…",
+      "author": "Pritam Deka",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/pritamdeka/sbert2s1",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.02486"
+      },
+      "id": "f6e99dbe8761d305",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+      "publishedAt": "2026-10-05T21:42:00Z",
+      "excerpt": "Amazon Bedrock now supports GLM 5.3 from Z.ai, giving you a powerful new option for agentic coding and long-horizon software engineering work. Customers using GLM 5.3 on Amazon Bedrock have access to the latest open weight model with the AWS security and compliance posture. GLM 5.3 is Z.ai’s flagship model, a mixture-of-experts architecture with 753B total parameters and roughly 40B active per token, built on the same base model as GLM 5.2 with all improvements driven by scaled post-training.…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "dc3b6b7d7abe0c54",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Announcing Amazon Nova 2.5 Sonic with improved reasoning for voice agents",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/",
+      "publishedAt": "2026-10-05T08:10:00Z",
+      "excerpt": "Today, we announce the general availability of Amazon Nova 2.5 Sonic, our latest speech-to-speech model for natural, real-time voice agents. This release brings improved reasoning, instruction following, and tool-calling accuracy to real-time voice applications. The model also delivers lower latency, enabling faster, more natural interactions. Nova 2.5 Sonic helps voice agents maintain context, follow multi-step instructions, and use connected tools to complete customer tasks. For example, a…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "7127c3782d9f46f6",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Introducing GLM 5.3 on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+      "publishedAt": "2026-10-05T23:25:17Z",
+      "excerpt": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the OpenAI-compatible APIs, cut cost and latency with prompt caching, and run an authorized security test with the open-source Strix agent.",
+      "author": "Alex Thewsey",
+      "extra": {},
+      "id": "6596bcd1df8c0f2c",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Ultimate Suno AI Prompt Guide: How to Generate Billboard-Ready Hits Every Single Time",
+      "url": "https://medium.com/@alielsous75/the-ultimate-suno-ai-prompt-guide-how-to-generate-billboard-ready-hits-every-single-time-42ca74219eae?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-06T01:21:46Z",
+      "excerpt": "If you’ve spent any time experimenting with Suno AI, you already know the magic it’s capable of. With just a few lines of text, you can… Continue reading on Medium »",
+      "author": "Alielsous",
+      "extra": {},
+      "id": "a8fa1a6b48f22943",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Censorship Bias Is Coming for You - Newsweek",
+      "url": "https://www.newsweek.com/censorship-bias-is-coming-for-you-12524429",
+      "publishedAt": "2026-10-05T13:27:00Z",
+      "excerpt": "China Decoded is Newsweek’s in-depth newsletter about China’s growing influence on the world. Below, for Newsweek Members, we are reproducing the latest edition of China Decoded in full: Missing the Truth We need to talk about epistemology, China and AI. The CCP suppresses information through network-level, platform-level, and AI-assisted controls, they wrote, flooding the information ecosystem with party-state narratives, so LLMs that are trained on text scraped from China’s censored internet…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.132
+      },
+      "id": "2baf2eb4a99b7950",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "HIGHCOURT Announces Expanded Legal Knowledge and MKC2 Review Capabilities - The National Law Review",
+      "url": "https://natlawreview.com/press-releases/highcourt-announces-expanded-legal-knowledge-and-mkc2-review-capabilities",
+      "publishedAt": "2026-10-05T02:01:39Z",
+      "excerpt": "### HIGHCOURT Announces Expanded Legal Knowledge and MKC2 Review Capabilities. *The existing private legal AI platform now brings together 31.3 million indexed legal passages and improved AI review performance.*. WASHINGTON, DC, UNITED STATES, October 4, 2026 /EINPresswire.com/ -- HIGHCOURT today announced expanded legal knowledge and specialized review capabilities for its existing private legal AI platform. Already available for deployment, HIGHCOURT helps law firms prepare, research and…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.096
+      },
+      "id": "b988a4fc31c7ba9c",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "HIGHCOURT Announces Expanded Legal Knowledge and MKC2 Review Capabilities - EIN News",
+      "url": "https://www.einnews.com/pr_news/947292364/highcourt-announces-expanded-legal-knowledge-and-mkc2-review-capabilities",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "excerpt": "*   EIN Presswire in the News. *   Newswires by U.S. State. *   Improve SEO and AI Reach (PDF). *   Master the Press Release (PDF). _The existing private legal AI platform now brings together 31.3 million indexed legal passages and improved AI review performance._. WASHINGTON, DC, UNITED STATES, October 4, 2026 /EINPresswire.com/ -- HIGHCOURT today announced expanded legal knowledge and specialized review capabilities for its existing private legal AI platform. Already available for…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.084
+      },
+      "id": "3b2404aae72df3ab",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How I'd Build a Self-Healing AI Agent for Zero-Touch Bug Remediation - HackerNoon",
+      "url": "https://hackernoon.com/how-id-build-a-self-healing-ai-agent-for-zero-touch-bug-remediation",
+      "publishedAt": "2026-10-05T08:19:05Z",
+      "excerpt": "# How I'd Build a Self-Healing AI Agent for Zero-Touch Bug Remediation. APIs that can restart a service, change config, retry a workflow, or fix bad state. Someone opens a dashboard, greps logs, checks a table, hunts docs, maybe compares it to an incident from six months ago. After enough of that, somebody names a cause and hits an API. I want an agent that walks that loop itself: investigate, decide whether it understands enough to touch production, run a controlled fix, then check that the…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.067
+      },
+      "id": "74f360409ca4554c",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Claims that genAI speeds up PC ports of classic games are either \"false\" or missing the point, says Banjo Kazooie: Recompiled developer - Rock Paper Shotgun",
+      "url": "https://www.rockpapershotgun.com/claims-that-genai-speeds-up-pc-ports-of-classic-games-are-either-false-or-missing-the-point-says-banjo-kazooie-recompiled-developer",
+      "publishedAt": "2026-10-05T15:13:13Z",
+      "excerpt": "# Claims that genAI speeds up PC ports of classic games are either \"false\" or missing the point, says Banjo Kazooie: Recompiled developer. He argues that the idea that generative AI allows for faster porting is either outright \"false\" or simply misguided, explaining that decompiling a game – that is turning the original machine code into human-readable code – in order to release on modern platforms is supposed to be an exercise in actually understanding and preserving how that game was made.…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.102
+      },
+      "id": "3eca7b300c0402ac",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cornerstone Expands Learning for the AI-Ready Workforce with Training Content from Google Cloud - newswiretoday.com",
+      "url": "https://www.newswiretoday.com/news/187004/Cornerstone-Expands-Learning-for-the-AI-Ready-Workforce-with-Training-Content-from-Google-Cloud/",
+      "publishedAt": "2026-10-05T23:15:07Z",
+      "excerpt": "| |  |  | | --- | --- | |  | **Cornerstone Expands Learning for the AI-Ready Workforce with Training Content from Google Cloud** |     |  |  |  |  | | --- | --- | --- | --- | |  | NewswireTODAY - /newswire/ - **Santa Monica, CA, United States, 2026/10/05 - Cornerstone Content™ subscribers gain access to official Google Cloud training and certification, accelerating cloud, AI and app development skill-building - Cloud.Google.com / CornerstoneOnDemand.com**. *Learn How!* | | | |  | Cornerstone…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.057
+      },
+      "id": "345aa2d606d31e8d",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\" - GamesIndustry.biz",
+      "url": "https://www.gamesindustry.biz/jagex-responds-to-use-of-generative-ai-in-runescape-trailer-made-by-trusted-external-partner",
+      "publishedAt": "2026-10-05T11:08:39Z",
+      "excerpt": "Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\" Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech Disney president and CCO dismisses rumours of Epic Games buyout: \"Those are not the conversations we are having right now\" Capcom aims to enhance its propriety RE Engine with AI to accelerate efficiency in QA, debugging, and data processing Bungie co-founder and Destiny 2 narrative…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.051
+      },
+      "id": "c991a90e1249c2d0",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech - GamesIndustry.biz",
+      "url": "https://www.gamesindustry.biz/sony-introduces-ai-upscaling-to-base-ps5-marvels-wolverine-and-ghost-of-yotei-are-first-games-to-implement-new-tech",
+      "publishedAt": "2026-10-05T13:35:22Z",
+      "excerpt": "Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech Jagex responds to use of generative AI in RuneScape trailer made by \"trusted external partner\" Disney president and CCO dismisses rumours of Epic Games buyout: \"Those are not the conversations we are having right now\" Capcom aims to enhance its propriety RE Engine with AI to accelerate efficiency in QA, debugging, and data processing Bungie co-founder and Destiny 2 narrative…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.049
+      },
+      "id": "30c3435665abea0b",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Capcom aims to enhance its propriety RE Engine with AI to accelerate efficiency in QA, debugging, and data processing - GamesIndustry.biz",
+      "url": "https://www.gamesindustry.biz/capcom-aims-to-enhance-its-propriety-re-engine-with-ai-to-accelerate-efficiency-in-qa-debugging-and-data-processing",
+      "publishedAt": "2026-10-05T08:29:51Z",
+      "excerpt": "Capcom aims to enhance its propriety RE Engine with AI to accelerate efficiency in QA, debugging, and data processing Arc Raiders and The Finals are getting TV series and film adaptations Ninja Theory begins laying off staff, according to employee posts Free-to-play playtime is broadly flat as gacha RPGs drive PC growth, says Newzoo Sony introduces AI upscaling to base PS5; Marvel's Wolverine and Ghost of Yōtei are first games to implement new tech Jagex responds to use of generative AI in…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.442
+      },
+      "id": "614bd042975219db",
+      "collectedAt": "2026-10-06T02:17:08.354725+00:00"
     }
   ],
-  "updatedAt": "2026-10-05T22:47:54.553378+00:00"
+  "updatedAt": "2026-10-06T02:17:08.354725+00:00"
 }
