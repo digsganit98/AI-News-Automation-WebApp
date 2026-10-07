@@ -540,7 +540,304 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "nemotron-fine-tuned-to-achieve-gold-medal-level-5bdd69",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "Nemotron fine-tuned to achieve gold-medal level results in math and coding",
+      "summary": "Researchers adapted the Nemotron model family for complex competitions using supervised fine-tuning and reinforcement learning. The resulting systems achieved gold-medal level performance in math and live coding tasks.",
+      "whyItMatters": "This demonstrates that open model families can reach peak competitive benchmarks in technical domains through targeted training.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "unreal-framework-unifies-retrieval-and-long-cont-4f2a8d",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "UNREAL framework unifies retrieval and long-context inference",
+      "summary": "A new framework called UNREAL enables a frozen large language model to select relevant evidence from prompts and large corpora without external retrieval systems. By adding few trainable parameters, it improves accuracy and reduces computational costs for long-context tasks.",
+      "whyItMatters": "It streamlines long-context processing by removing the need for separate, complex retrieval architectures.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.08463"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.08463",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ago-ai-quality-gate-provides-release-decisions-f-10d9b8",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "AGO AI Quality Gate provides release decisions for RAG systems",
+      "summary": "The AGO framework helps enterprises decide whether to promote, revise, or block retrieval-augmented generation system versions. It addresses operational decision-making challenges when evidence is incomplete and evaluation metrics rely on LLM judges.",
+      "whyItMatters": "It gives organizations a structured approach to safely managing and deploying retrieval-augmented generation applications.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.01218"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.01218",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "minicorp-simulates-ai-run-companies-to-generate-46ecec",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "MiniCorp simulates AI-run companies to generate training data",
+      "summary": "MiniCorp is an office simulator where AI agents collectively operate businesses like e-commerce stores within a simulated market. The environment logs agent decisions and outcomes to create scalable training data for enterprise tasks.",
+      "whyItMatters": "It offers a scalable method to generate complex, multi-agent operational data for business automation training.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05912"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05912",
+        "code": null,
+        "model": null,
+        "demo": "https://agents-minicorp.com/"
+      }
+    },
+    {
+      "id": "gui-harvest-automates-harness-evolution-for-gui-e35f53",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "GUI-HARVEST automates harness evolution for GUI agents",
+      "summary": "This research introduces a method to automatically optimize the executable harness surrounding graphical user interface models. The approach helps agents handle action control and observations through evidence-driven evolution.",
+      "whyItMatters": "It helps graphical user interface agents self-improve their operational scaffolding for better reliability.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.00948"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.00948",
+        "code": "https://github.com/GaryYang12345/GUI-HARVEST",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "embodiedsmith-scales-robotic-data-generation-usi-255968",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "EmbodiedSmith scales robotic data generation using recursive self-improvement",
+      "summary": "A new simulation pipeline named EmbodiedSmith generates diverse training data for robotic foundation models. It uses a recursive self-improvement flywheel to overcome limitations in predefined assets and disconnected scene generation.",
+      "whyItMatters": "It addresses data scarcity in robotics by automating the generation of varied training environments.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07969"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07969",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "kubernetes-co-creators-launch-cloud-native-agent-f2c199",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "Kubernetes co-creators launch cloud-native agent harness Mecatl",
+      "summary": "Stacklok is developing an open-source product called Mecatl, led by Kubernetes co-creators Craig McLuckie and Joe Beda. The project applies container orchestration principles to manage and scale coding agents in the cloud.",
+      "whyItMatters": "It brings infrastructure-grade orchestration and reliability management to cloud-based AI agent workflows.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://www.latent.space/p/stacklok"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "unity-launches-spark-browser-based-ai-game-creat-74dca1",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "Unity launches Spark browser-based AI game creation tool",
+      "summary": "Unity has introduced Spark, a web-based tool enabling users to design and iterate on 3D games via text prompts. The platform connects to the Unity Asset Store to support asset integration through generative AI agents.",
+      "whyItMatters": "It lowers the barrier to entry for 3D game prototyping by integrating generative AI directly into development environments.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.gamesindustry.biz/unity-unveils-a-web-based-ai-game-creation-platform"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "gamma-releases-version-5-to-improve-visual-quali-c4ee57",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "Gamma releases version 5 to improve visual quality of AI content",
+      "summary": "Gamma has launched version 5 of its visual communication platform, featuring a complete rebuild to reduce the generic look of AI-generated layouts. The update enhances visual output quality while maintaining platform speed.",
+      "whyItMatters": "It addresses common aesthetic complaints about AI-generated presentations and documents.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.morningstar.com/news/business-wire/20261006266441/gamma-launches-gamma-5-to-eliminate-the-ai-smell-from-ai-generated-content"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "security-flaws-identified-in-amazon-bedrock-agen-ef7914",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "Security flaws identified in Amazon Bedrock AgentCore SDK",
+      "summary": "Researchers found two critical vulnerabilities in the Python SDK for Amazon Bedrock AgentCore. These flaws could potentially permit arbitrary command execution and credential exposure on AWS.",
+      "whyItMatters": "It highlights critical security exposure risks in enterprise agent development frameworks.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.msspalert.com/brief/two-vulnerabilities-in-amazon-bedrock-agentcore-sdk-could-expose-aws-credentials"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-category-of-ai-models-focuses-on-fast-decisi-70aa42",
+      "createdAt": "2026-10-07T14:42:50.772689+00:00",
+      "headline": "New category of AI models focuses on fast decision-making",
+      "summary": "A new category of specialized models, such as Jev, is designed specifically for classification and decision-making instead of text generation. These models output numbers instead of words, enabling faster processing and lower costs.",
+      "whyItMatters": "It provides a lightweight, cost-effective alternative to large language models for high-volume classification and routing tasks.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://hackaday.com/2026/10/06/a-new-type-of-llm-on-the-block-decision-making-models"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-07T07:31:13.142071+00:00"
+  "updatedAt": "2026-10-07T14:46:48.368262+00:00"
 }

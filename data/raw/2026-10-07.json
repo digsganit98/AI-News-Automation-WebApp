@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-07T07:23:40.841263Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-07T14:37:30.153135+00:00",
+      "newItems": 19,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1251,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.169659Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.212730Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 874,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.213137Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.213436Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.213586Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.213726Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.213858Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214005Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214136Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214260Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214382Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214435Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214473Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214686Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214724Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214850Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.214995Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.215281Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-07T14:37:30.215418Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.215545Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.215666Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.215864Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.216064Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.216217Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.216829Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.217017Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.217183Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-07T14:37:30.217227Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2018,7 +2248,281 @@
       },
       "id": "53fc4c32772a13dd",
       "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "publishedAt": "2026-10-07T12:45:31Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "5bdd694c62903534",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+      "url": "https://huggingface.co/papers/2610.08463",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, from a single long prompt to an entire corpus. We ask whether a single model-internal mechanism can select evidence across this range. We introduce UNifying REtrieval And Long-Context with a Single Model (UNREAL), a model-native evidence selection framework to span corpus retrieval and long-context inference. UNREAL encodes chunks and derives retrieval queries directly from the…",
+      "author": "Edan Kinderman, Elad Hoffer, Yochai Blau, Brian Chmiel, Ron Banner, Daniel Soudry, Boris Ginsburg",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.08463"
+      },
+      "id": "4f2a8de5613bab9c",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
+      "url": "https://huggingface.co/papers/2610.01218",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Enterprises adopting retrieval-augmented generation (RAG) face a recurring operational decision: promote, revise, or block a system version. The evidence is incomplete and the metrics come from fallible LLM judges. We report on AGO AI Quality Gate (AGO), an evidence-first quality-gate framework deployed in industrial RAG assessment engagements. AGO integrates four key components: a four-state decision model that treats missing data and judge errors as explicit outcomes; layered scoring…",
+      "author": "Giulio Zeloni, Enrico Lo Conte, Salvatore Rionero, Giuseppe Santoro, Alessandro Rastelli, Fabio Sorrentino",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.01218"
+      },
+      "id": "10d9b81a004824d4",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MiniCorp: The Last Mile of the AI Agent Firm",
+      "url": "https://huggingface.co/papers/2610.05912",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "The last mile toward enterprise AGI is a company that runs itself. Training and adapting such agents require longitudinal enterprise data, which remain scarce, costly to acquire, and often restricted by privacy constraints. Historical archives are also frequently incomplete and record only what actually happened. They cannot show the outcomes of alternative decisions. We introduce MiniCorp, an office simulator for studying how agents can collectively run a company while generating enterprise…",
+      "author": "Jingying Zeng, Zhenwei Dai, Jinning Li, Changho Shin, Dylan Zhang, Yuxuan Lu, Qi He, Dakuo Wang, Kai-Wei Chang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://agents-minicorp.com/",
+        "arxivUrl": "https://arxiv.org/abs/2610.05912"
+      },
+      "id": "46ececdaea65716f",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
+      "url": "https://huggingface.co/papers/2610.00948",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "The executable harness surrounding a GUI model determines how observations are assembled, actions are executed, and verification, recovery, and termination are controlled. Compared with harness optimization for non-GUI agents, automatically optimizing this harness poses three coupled challenges: reconciling model intent with observed visual effects, diagnosing failures under variable execution outcomes, and identifying recurrent failure patterns across tasks and translating them into reusable…",
+      "author": "Geyi Yang, Zikun Qu, Xiang Li, Zhiyong Wang, Min Zhang, Shipei Zeng, Zhongxiang Dai",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/GaryYang12345/GUI-HARVEST",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.00948"
+      },
+      "id": "e35f537c096ae98c",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "EmbodiedSmith: Scaling Embodied Data through Recursive Self-Improvement Flywheel in Simulation",
+      "url": "https://huggingface.co/papers/2610.07969",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Scaling robotic foundation models requires diverse training data and reliable evaluation environments. Simulation offers a scalable solution, yet existing generation pipelines remain constrained by predefined assets and skills, a disconnect between scene generation and task generation, and limited support for complex embodiments and physics. We introduce EmbodiedSmith, a framework for scalable embodied data generation through recursive self-improvement (RSI). EmbodiedSmith unifies asset,…",
+      "author": "Yikai Qin, Yifei Deng, Mingjian Liang, Wenxuan Song, Zepeng Lin, Zhiyi Jiang, Jiajun Fu, Qiao Sun, Huashuo Lei, Xicheng Gong, Jiayi Chen, Han Zhao, Shuanghao Bai, Pengxiang Ding, Pengwei Wang, Haoang Li",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.07969"
+      },
+      "id": "2559680877448854",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "publishedAt": "2026-10-07T14:10:45Z",
+      "excerpt": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+      "author": "Richard MacManus",
+      "extra": {},
+      "id": "10c96a2b3658d6d2",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Run a 125B-Parameter LLM on One RTX 4090 (Strata vs llama.cpp)",
+      "url": "https://pub.towardsai.net/how-to-run-a-125b-parameter-llm-on-one-rtx-4090-strata-vs-llama-cpp-e76824795f0d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T14:01:05Z",
+      "excerpt": "The 4090 is the easy part. Here’s the RAM it needs, two ways to run the model, and what the speed costs you Continue reading on Towards AI »",
+      "author": "Dhirendra Choudhary",
+      "extra": {},
+      "id": "2299bfaa07166e12",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Nano Banana 2.1 Is Now on MixVio: Readable Text, 14 Reference Photos, and Up to 4K Images",
+      "url": "https://medium.com/@MixVioAI/nano-banana-2-1-is-now-on-mixvio-readable-text-14-reference-photos-and-up-to-4k-images-b0f859f76bcd?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T13:31:08Z",
+      "excerpt": "Google’s latest image model is now live on MixVio. It’s built for posters that need readable words, scenes that need the same subject, and… Continue reading on Medium »",
+      "author": "MixVio AI",
+      "extra": {},
+      "id": "88b2638fad99b602",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Agentic AI Course Online India: Skills, Projects & Roadmap",
+      "url": "https://medium.com/@techpratham.29/agentic-ai-course-online-india-skills-projects-roadmap-8b473bd214bf?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T13:17:47Z",
+      "excerpt": "AI applications are moving beyond systems that simply respond to Modern AI systems can interpret a goal, retrieve information… Continue reading on Medium »",
+      "author": "Future Tech Career Hub",
+      "extra": {},
+      "id": "4d34f0411fb12600",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "10 Enterprise AI Concepts Explained: From LLMs to AI Cost & Scalability",
+      "url": "https://cloudstakestechnology.medium.com/10-enterprise-ai-concepts-explained-from-llms-to-ai-cost-scalability-9b69d49bc5e5?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T13:09:51Z",
+      "excerpt": "Enterprise AI is no longer limited to experimental chatbots. Businesses are using AI to automate workflows, analyze information, improve… Continue reading on Medium »",
+      "author": "Cloudstakes Technology",
+      "extra": {},
+      "id": "f319e98d456857d9",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Spent a Weekend Figuring Out Which AI Certs Are Worth It. Four Had Already Been Retired.",
+      "url": "https://medium.com/@nirav.r.vaghasiya/i-spent-a-weekend-figuring-out-which-ai-certs-are-worth-it-four-had-already-been-retired-122fc2f0f966?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T12:57:17Z",
+      "excerpt": "I opened 40 browser tabs on a Saturday morning, coffee in hand, ready to pick an AI certification and finally stop second-guessing my… Continue reading on Medium »",
+      "author": "Nirav Vaghasiya",
+      "extra": {},
+      "id": "63c7b591dd1c5d88",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "A New Type Of LLM On The Block: Decision-Making Models | Hackaday",
+      "url": "https://hackaday.com/2026/10/06/a-new-type-of-llm-on-the-block-decision-making-models",
+      "publishedAt": "2026-10-06T08:00:29Z",
+      "excerpt": "Large language models (LLMs) output language, but they are commonly tasked with making a decision or classification of some kind instead of writing an essay or chat reply. An LLM will be provided with input, and asked to classify that content in some way: with a rating, yes/no answer, a best-fit categorization, and so forth. A recent new type of model by the name of Jev was released only weeks ago and it is extremely fast, ultra-cheap, and laser-focused on that decision-making role. It can’t…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.694
+      },
+      "id": "70aa42819b966a48",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft Agent Framework vs. Other Agent Frameworks [2026]",
+      "url": "https://atlan.com/know/ai-agent/microsoft/microsoft-agent-framework-vs-other-agent-frameworks",
+      "publishedAt": "2026-10-06T04:30:00Z",
+      "excerpt": "27. OpenAI Agents SDK for TypeScript, OpenAI, 2026. \n28. Sandbox agents, OpenAI Agents SDK documentation, 2026. \n29. Model Context Protocol in the OpenAI Agents SDK, OpenAI, 2026. \n30. Agent orchestration, OpenAI Agents SDK documentation, 2026. \n31. Agent SDK overview, Anthropic, 2026. \n32. Hosting the Agent SDK, Anthropic, 2026. \n33. anthropics/claude-agent-sdk-python, GitHub, 2026. \n34. Claude Managed Agents overview, Anthropic, 2026. \n35. LangGraph overview (Python), LangChain, 2026. [...]…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.614
+      },
+      "id": "38c0cb0dc8550f71",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "A Team of 4 Rebuilds Broward County, Fla.’s Digital Front Door - GovTech",
+      "url": "https://www.govtech.com/gov-experience/a-team-of-4-rebuilds-broward-county-fla-s-digital-front-door",
+      "publishedAt": "2026-10-06T21:50:52Z",
+      "excerpt": "## Broward County’s four-person web organization is using AI to tackle a massive website rebuild and rethink how residents find information online. When Broward County, Fla., decided it was time to move on from its 15-year-old SharePoint environment, the task wasn’t simply moving more than 10,000 web pages to a new content management system. Over the years, the county had accumulated hundreds of agency websites, thousands of pages and a large network of employees responsible for keeping that…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.088
+      },
+      "id": "ae4cba4f5eb4f6f6",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Unity unveils a web-based AI game creation platform - GamesIndustry.biz",
+      "url": "https://www.gamesindustry.biz/unity-unveils-a-web-based-ai-game-creation-platform",
+      "publishedAt": "2026-10-07T12:00:00Z",
+      "excerpt": "Unity unveils a web-based AI game creation platform Asha Sharma reportedly informs staff that Xbox has \"started to return to growth\" during internal town hall GamesIndustry.biz to host panel at Game Republic's Investment Summit at MCM Comic Con October 2026 Paramount and Warner Bros. Discovery operating under Skydance following completion of $111bn merger Sega won't \"entrust the creative aspect of games to AI,\" but is using tech to \"improve efficiency\" in other departments South Australian…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.069
+      },
+      "id": "7e2308ce2ae3be24",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Two flaws in Amazon Bedrock AgentCore SDK could expose AWS credentials - MSSP Alert",
+      "url": "https://www.msspalert.com/brief/two-vulnerabilities-in-amazon-bedrock-agentcore-sdk-could-expose-aws-credentials",
+      "publishedAt": "2026-10-06T13:08:31Z",
+      "excerpt": "Vulnerability Management, API security, AI/ML, Application security, Identity, Threat Management. # Two flaws in Amazon Bedrock AgentCore SDK could expose AWS credentials. Two critical vulnerabilities discovered in Amazon Bedrock AgentCore's Python SDK could allow attackers to execute arbitrary commands within AI sandboxes and potentially access sensitive AWS credentials associated with affected workloads, according to Infosecurity Magazine. The flaws, tracked as CVE-2026-12530 and…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.064
+      },
+      "id": "24710a89e54becbf",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The Open Market Playbook - Chamber of Progress",
+      "url": "https://progresschamber.org/project/democratic-ai-opportunity-agenda/open-market-playbook",
+      "publishedAt": "2026-10-07T08:00:00Z",
+      "excerpt": "Creative tools have followed a similar pattern. In a16z’s first ranking of leading generative AI products in 2023, seven of the nine creative tools were image generators. By 2026, only three image generators remained on the list. Video, music, and voice products had taken many of the other positions. Consumer demand had not disappeared. It had moved toward new capabilities and more specialized products.",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.609
+      },
+      "id": "f36a836f6434cec5",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Gamma Launches Gamma 5 to Eliminate the “AI Smell” From AI-Generated Content | Morningstar",
+      "url": "https://www.morningstar.com/news/business-wire/20261006266441/gamma-launches-gamma-5-to-eliminate-the-ai-smell-from-ai-generated-content",
+      "publishedAt": "2026-10-06T14:00:00Z",
+      "excerpt": "Gamma, the AI-powered platform for visual communication, today announced the launch of Gamma 5, a complete rebuild of its platform designed to eliminate the “AI smell” that has become associated with AI-generated visual content. Gamma 5 preserves the speed and ease of use that attracted more than 100 million users to Gamma, while helping teams maintain a consistent brand identity across presentations, documents, websites, and other visual content. [...] As generative AI has become ubiquitous,…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.569
+      },
+      "id": "e768c71a1a773e08",
+      "collectedAt": "2026-10-07T14:37:30.153135+00:00"
     }
   ],
-  "updatedAt": "2026-10-07T07:23:40.778402+00:00"
+  "updatedAt": "2026-10-07T14:37:30.153135+00:00"
 }
