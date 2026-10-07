@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-07T02:16:31.267920Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-07T07:23:40.778402+00:00",
+      "newItems": 36,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1251,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.795787Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.836326Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 875,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.836705Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.836984Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.837156Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.837321Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.837507Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.837675Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.837832Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.837985Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.838136Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.838196Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.838243Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.838503Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.838553Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.838711Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.838869Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.839148Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-07T07:23:40.839310Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.839490Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.839651Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.839874Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.840035Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.840193Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.840847Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.841031Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.841210Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-07T07:23:40.841263Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1269,7 +1499,526 @@
       },
       "id": "eb051b502c3284b7",
       "collectedAt": "2026-10-07T02:16:31.214955+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Taming VLAs under Robot Execution Errors: Self-Compensation and Stress Testing",
+      "url": "https://huggingface.co/papers/2609.37334",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Vision-language-action (VLA) policies often fail when a robot's executed motion deviates from their commanded action. Such execution errors arise from the robot's mechanics and operating conditions, such as wear and payload changes. We propose self-compensating VLA, a deployment-time adaptation method that enables a VLA policy to pre-compensate for the robot's execution errors when generating commands. Without task rewards or labels, it updates the policy online using the residual between the…",
+      "author": "Sohyun Lee, Yoonjae Baek, Jaesang Won, Jinnyeong Kim, Kang Hyunwoo, Seung-Hwan Baek, Ivan Laptev, Suha Kwak",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": null,
+        "projectPage": "https://sohyun-l.github.io/SelfCompensatingVLA_project_page/",
+        "arxivUrl": "https://arxiv.org/abs/2609.37334"
+      },
+      "id": "196601503f7573df",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "From Evidence to Action: How Tool-Using Agents Fail",
+      "url": "https://huggingface.co/papers/2610.07753",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can coexist with much weaker interactive execution. Failures often begin before execution: agents stop…",
+      "author": "Hongzhan Lin, Shidong Cao, Ziyang Luo, Wenhao Chai, Mong-Li Lee, Wynne Hsu",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": "https://github.com/caoshidong66/safeact",
+        "projectPage": "https://safeact.github.io",
+        "arxivUrl": "https://arxiv.org/abs/2610.07753"
+      },
+      "id": "a2f57a7bdad8af23",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+      "url": "https://huggingface.co/papers/2610.08448",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generation, strict 1:1 groups already cover most student-generated tokens despite substantial vocabulary…",
+      "author": "Bingxi Hou, Guochao Jiang, Guofeng Quan, Weiqing Li, Wenfeng Feng, Guohua Liu, Yuewei Zhang",
+      "extra": {
+        "upvotes": 40,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.08448"
+      },
+      "id": "09142ad66017f1ae",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+      "url": "https://huggingface.co/papers/2610.07767",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly reducing the discrepancy between the two quantized execution paths. In this work, we propose TRACE…",
+      "author": "Xin Wang, Hao Yu, Zhengyang Zhuge, Bochao Mao, Zheng Li, Junda Feng, Yuyan Luo, Yi Zhang, Yizhong Cao, Mi Zhang, Dayiheng Liu, Jianwei Zhang",
+      "extra": {
+        "upvotes": 26,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.07767"
+      },
+      "id": "091f58672aaefdea",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "World Action Learning via Interaction-Centric Spectral Latent Guidance",
+      "url": "https://huggingface.co/papers/2610.03607",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstrations remains expensive and difficult to scale. Egocentric videos offer abundant human interaction experience with task-relevant semantics for robotic manipulation, but direct transfer is challenging for two reasons: latent actions inferred from frame reconstruction can be dominated by nuisance variation such as ego-camera motion, and human and robot behaviors often exhibit…",
+      "author": "Zhiming Liu, Yikun Miao, Ying Chen, Hongrui Yin, Fangqi Zhu, Xiaoyi Pang, Quanxin Shou, Zhengyang Yan, Haodong Wang, Song Guo",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": null,
+        "projectPage": "https://mikuz12.github.io/wing/",
+        "arxivUrl": "https://arxiv.org/abs/2610.03607"
+      },
+      "id": "af85bd09a1533b09",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
+      "url": "https://huggingface.co/papers/2610.05966",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitations motivate RL-only adaptation. However, pure on-policy RL suffers from a cold-start problem, while mixed-policy RL still falls short: informative tokens in teacher outputs are learned too slowly…",
+      "author": "Junying Chen, Xinyuan Xie, Ziniu Li, Wenyuan Gu, Jianquan Li, Xiang Wan, Guangjun Yu, Ruoyu Sun, Haizhou Li, Benyou Wang",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/FreedomIntelligence/HuatuoGPT-3",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.05966"
+      },
+      "id": "989d321502f64dbe",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents",
+      "url": "https://huggingface.co/papers/2610.05140",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "As agents rapidly evolve, existing benchmarks can become saturated, limiting their ability to distinguish capabilities and reveal remaining failure modes. Particularly in scientific domains, constructing and updating benchmarks requires substantial time, labor, and domain expertise, making it difficult to keep evaluation aligned with advances in agent capabilities. We address this challenge by investigating whether scientific-agent benchmarks can be automatically generated and iteratively…",
+      "author": "Dongki Kim, Namkyeong Lee, Surag Nair, Carl Edwards, Xiner Li, Edward De Brouwer, Jenna Lynn Collier, Sung Ju Hwang, Gabriele Scalia, Ehsan Hajiramezanali",
+      "extra": {
+        "upvotes": 22,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.05140"
+      },
+      "id": "5a975c70a2e74599",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
+      "url": "https://huggingface.co/papers/2610.05030",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Continual skill evolution enables LLM agents to accumulate and refine reusable procedural knowledge from interaction experience without updating model parameters. Its effectiveness depends on determining not only what to change, but also why a change is justified and when it should become persistent guidance. However, existing experience-driven methods can lose the behavioral evidence and task contexts supporting edits. Moreover, a global validation outcome provides an incomplete judgment of…",
+      "author": "Yan Zhou, Yili Wang, Yiwei Dai, Qinggang Zhang, Xin Wang",
+      "extra": {
+        "upvotes": 26,
+        "githubRepo": "https://github.com/Zhouyaner/Eviskill",
+        "projectPage": "https://github.com/Zhouyaner/Eviskill",
+        "arxivUrl": "https://arxiv.org/abs/2610.05030"
+      },
+      "id": "83cf7cef3b8480d0",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
+      "url": "https://huggingface.co/papers/2610.03543",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Streaming video generation has benefited from distribution matching distillation (DMD), which matches the joint distribution of video frames to a video teacher's approximation of the real video distribution. Although this joint matching mitigates drift during autoregressive rollouts, limitations remain in visual quality and semantic alignment. To address these limitations, we propose DuoMatching, a distribution matching framework that approximates the real video distribution through a unified…",
+      "author": "Jiahao Zhan, Yan Wang, Yongrui Ma, Qunliang Xing, Ruchang Yao, Runtao Liu, Shijie Zhao, Tianfan Xue",
+      "extra": {
+        "upvotes": 41,
+        "githubRepo": "https://github.com/JohnZhan2023/DuoMatching",
+        "projectPage": "https://johnzhan2023.github.io/DuoMatching/",
+        "arxivUrl": "https://arxiv.org/abs/2610.03543"
+      },
+      "id": "8db46cd3a71b9f59",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+      "url": "https://huggingface.co/papers/2610.01892",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "excerpt": "Multimodal agents commonly generate free-form reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of open-ended generation. SSR represents recurring high-level reasoning as pre-specified, reusable…",
+      "author": "Feiyu Gavin Zhu, Xiaoyu Zhu, Jiqi Yang, Rui Yang, Arnab Kumar Mondal, Yancheng Wang, Xinke Deng, Jean Oh, Reid Simmons, Joerg Liebelt, Xiang Kong, Zhongyu Jiang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/zfy0314/ssr-unofficial",
+        "projectPage": "https://zfy0314.github.io/ssr-webpage/",
+        "arxivUrl": "https://arxiv.org/abs/2610.01892"
+      },
+      "id": "272de433201eb782",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Capability-Driven Self-Evolution of Agent Memory",
+      "url": "https://huggingface.co/papers/2610.06361",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "excerpt": "Memory self-evolution uses task feedback to iteratively improve executable memory programs that store and retrieve information from past interactions. Existing approaches typically adopt holistic evolution, deriving revision directions from mixed feedback and judging progress by overall performance. This can obscure optimization directions and hide capability-specific gains offset by regressions elsewhere, leaving promising directions underexplored. We introduce capability-driven evolution,…",
+      "author": "Yaoqi Chen, Yuru Feng, Qianxi Zhang, Baotong Lu, Jianan Lu, Zhirui Wang, Shusen Xu, Zewen Jin, Zengzhong Li, Cheng Li, Qi Chen",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://fionna-yrfeng.github.io/PrisMem/",
+        "arxivUrl": "https://arxiv.org/abs/2610.06361"
+      },
+      "id": "a5a294b6c2bb2ff8",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable",
+      "url": "https://arxiv.org/abs/2610.06897",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06897v1 Announce Type: new \nAbstract: Localizing latent structures in the activation space of language models (LMs) is central to understanding and controlling their behavior. Yet, localized structures can differ substantially in their causal influence, raising the question of what makes a structure actionable. We tackle this question by casting causal influence as a product of three factors and showing empirically that they act as interpretable, distinct constraints: capacity,…",
+      "author": "Or Shafran, Mor Geva",
+      "extra": {},
+      "id": "45e9d94ff21e612a",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Tree Navigation Without LLM Summaries: A Matched-Cost Study of Hierarchical Retrieval for Long-Document QA",
+      "url": "https://arxiv.org/abs/2610.06902",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06902v1 Announce Type: new \nAbstract: Retrieval-augmented generation grounds language models in external context, but for long documents flat top-$k$ retrieval can cluster on a single region and miss complementary evidence. RAPTOR-style summary trees address this by recursively clustering chunks and using a language model to summarize each cluster at indexing time, then ranking summary nodes alongside raw chunks at query time. We show the main benefit of summary trees in…",
+      "author": "Priyank Jayraj, Poonam Goyal, Navneet Goyal",
+      "extra": {},
+      "id": "35708eb93104f198",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Component and Dimension Sparsity in Transformer Refusal Mechanisms",
+      "url": "https://arxiv.org/abs/2610.06903",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06903v1 Announce Type: new \nAbstract: Activation steering manipulates large language model behavior by intervening on internal activations, but the mechanistic basis of these interventions remains poorly understood. We decompose refusal steering into component-level interventions across four open-weight models, identifying the sparse subsets of attention and MLP components whose steering suffices to reproduce the full behavioral effect. We find that refusal directions concentrate in…",
+      "author": "Vincent Siu, Glenn Grant-Richards, Vlad Pavlovich, Yizhou Sun, Dawn Song, Chenguang Wang",
+      "extra": {},
+      "id": "b1b276b7f5acb908",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+      "url": "https://arxiv.org/abs/2610.06910",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06910v1 Announce Type: new \nAbstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly…",
+      "author": "Haoyue Yang, Jingyao Li, Zhengfan Wu, Jing Liu, Xuanle Zhao, Kang Liu",
+      "extra": {},
+      "id": "dc0104d61caf876e",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+      "url": "https://arxiv.org/abs/2610.06914",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06914v1 Announce Type: new \nAbstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards,…",
+      "author": "Yiou Wu, Zezhi Tang, Ningwei Bai, Liuhaichen Yang",
+      "extra": {},
+      "id": "8b6a131a0fd939b5",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "FluidPD: In-Place Elasticity for SLO-Aware Prefill-Decode Disaggregated LLM Serving",
+      "url": "https://arxiv.org/abs/2610.06917",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06917v1 Announce Type: new \nAbstract: Prefill-decode disaggregation is becoming a common architecture for LLM serving because it separates two phases with distinct execution patterns and SLO objectives. Existing systems typically combine a fixed prefill/decode worker ratio with request routing across workers. However, real-world workloads exhibit both short bursts and sustained shifts in the prefill-to-decode demand ratio. As a result, a configuration that is well provisioned at one…",
+      "author": "Kartik Ramesh, Kaidi Fu, Zihan Zheng, Jiahuan Yu, Fabio Oliveira, Carlos Costa, Minjia Zhang",
+      "extra": {},
+      "id": "bdc134cd22fd6b4e",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+      "url": "https://arxiv.org/abs/2610.06923",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06923v1 Announce Type: new \nAbstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26…",
+      "author": "Caiwen Jiang, Shuoyang Wei, Songlin Zhao, Junyu Li, Jingyuan Chen, Wei Liu",
+      "extra": {},
+      "id": "0bc1242b35b07e04",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Metonymic Circuits for Abstract Concept Grounding in Vision Transformers",
+      "url": "https://arxiv.org/abs/2610.06928",
+      "publishedAt": "2026-10-07T04:00:00Z",
+      "excerpt": "arXiv:2610.06928v1 Announce Type: new \nAbstract: We study how Vision Transformers ground abstract concepts (e.g., angry) when training data provide limited direct referential evidence. We hypothesize a metonymic grounding mechanism in which abstract predictions are driven by concrete, interpretable anchor concepts (e.g., fire) that bridge visual signals to abstract semantics. By applying Transcoders on CLIP and DINO vision encoders, we recover intermediate features that can be associated with…",
+      "author": "Jing Ding, Ziqiao Ma, Jiayuan Mao, Joyce Chai, Freda Shi",
+      "extra": {},
+      "id": "c7b7c672c83a0919",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "publishedAt": "2026-10-07T04:55:44Z",
+      "excerpt": "Our head hurts.",
+      "author": null,
+      "extra": {},
+      "id": "264cab26a08dfb8e",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Design to Manufacturing: Why I Believe in Smaller AI Models",
+      "url": "https://medium.com/@harsh_patel_/from-design-to-manufacturing-why-i-believe-in-smaller-ai-models-a5d0a8ea50f4?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T06:51:46Z",
+      "excerpt": "One mechanical design passes through geometry, physics, and manufacturing. Each stage deserves the right tool and a clear way to test it. Continue reading on Medium »",
+      "author": "Harsh",
+      "extra": {},
+      "id": "917d8fbd17bc5d9c",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Agents with Python 2026 — Part 8: AI Agent Automation with Python",
+      "url": "https://abkarikari23.medium.com/ai-agents-with-python-2026-part-8-ai-agent-automation-with-python-8a273a92e9bb?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T06:44:28Z",
+      "excerpt": "Learn how to automate AI agents with Python using triggers, tools, APIs, workflows, verification, security, and human-in-the-loop.... Continue reading on Medium »",
+      "author": "Abraham Karikari",
+      "extra": {},
+      "id": "8bb0e111f7b4173c",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Can You Fine-Tune a Huge AI Model Without Changing the Whole Model?",
+      "url": "https://medium.com/@maneaditya478/how-can-you-fine-tune-a-huge-ai-model-without-changing-the-whole-model-746c8b9f2d7a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T06:27:23Z",
+      "excerpt": "Imagine you have a huge language model with billions of parameters. Continue reading on Medium »",
+      "author": "Maneaditya",
+      "extra": {},
+      "id": "60aba1ad9ad14798",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Turning Scattered HR Policies into a Cited-Answer System",
+      "url": "https://medium.com/@sales_95773/turning-scattered-hr-policies-into-a-cited-answer-system-87723b9a93ff?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T05:01:08Z",
+      "excerpt": "Built at Nooral.ai #1 Continue reading on Medium »",
+      "author": "Nooral.ai - Data & AI Company",
+      "extra": {},
+      "id": "0c484b046667f5f2",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Agents Are More Than Smart Chatbots: What I Learned About Agentic AI",
+      "url": "https://atdivinshan.medium.com/ai-agents-are-more-than-smart-chatbots-what-i-learned-about-agentic-ai-1ff0a975cf13?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T04:25:28Z",
+      "excerpt": "When I first heard the term AI Agent, I assumed it was basically a more advanced version of a chatbot. Continue reading on Medium »",
+      "author": "Divinshan",
+      "extra": {},
+      "id": "80b0c5daf935c062",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "South Korea says AI agents appear to have been used to hack the country's banks",
+      "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+      "publishedAt": "2026-10-06T23:50:33Z",
+      "excerpt": "",
+      "author": "thoughtpeddler",
+      "extra": {
+        "points": 68,
+        "comments": 14,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49985861"
+      },
+      "id": "f5136256c57a767c",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "LLMs may have helped my RSI",
+      "url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
+      "publishedAt": "2026-10-06T03:01:04Z",
+      "excerpt": "",
+      "author": "vaughands",
+      "extra": {
+        "points": 83,
+        "comments": 42,
+        "discussionUrl": "https://news.ycombinator.com/item?id=49973644"
+      },
+      "id": "1c151df04a2ca8d5",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Europe rejoins the fight with Chonky! Mistral Large 4 Released, Open weights end of month, who’s ready?",
+      "url": "https://mistral.ai/research/",
+      "publishedAt": "2026-10-06T22:40:46Z",
+      "excerpt": "1 trillion parameters, 49B active, definitely chonky! If you don’t love the model you gotta at least love the humor in the name - Le Chonk",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wzginu/europe_rejoins_the_fight_with_chonky_mistral/"
+      },
+      "id": "3f381d3a241d7df4",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Introducing EmbeddingGemma 2: A best-in-class open model for natively multimodal embeddings | Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "publishedAt": "2026-10-06T16:42:13Z",
+      "excerpt": "https://huggingface.co/google/embeddinggemma-2 EmbeddingGemma 2 is an open multimodal embedding model built by Google DeepMind which maps text (incl. code), images, video, and audio inputs—and combinations thereof—into a single, unified 768-dimensional vector space. The model has 740M total parameters, combining a 270M parameter text model with modular vision (170M) and audio (300M) encoders. Designed to run on consumer hardware such as mobile devices and laptops, EmbeddingGemma 2 delivers…",
+      "author": "/u/Recoil42",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1wz7faa/introducing_embeddinggemma_2_a_bestinclass_open/"
+      },
+      "id": "0a7d6e8e8b6e8899",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "For 31 years, mathematicians couldn’t finish this proof. The new paper says ChatGPT found most of the ideas and proofs behind a problem tied to efficient computer search and sampling, while the authors mostly worked to understand and explain it.",
+      "url": "https://arxiv.org/abs/2610.05474",
+      "publishedAt": "2026-10-06T08:35:57Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1wyxdtu/for_31_years_mathematicians_couldnt_finish_this/"
+      },
+      "id": "ab0d188366c2f583",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Our first streaming transcription model debuts at no. 1 on Artificial Analysis | Microsoft AI",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model",
+      "publishedAt": "2026-10-06T08:00:00Z",
+      "excerpt": "Along with today’s launch of our top-ranking MAI-Transcribe-2-Streaming, we’re also announcing two new voice models: MAI‑Voice‑2.1 and our blazing-fast variant, MAI‑Voice‑2.1‑Flash.\n\nTogether, they give users the fast and fluid building blocks to create conversational experiences, with no compromise on accuracy or voice quality. [...] Microsoft   Source     Signal blog Official Microsoft Blog Command Line Microsoft On The Issues Asia Canada Europe, Middle East and Africa Latin America The Code…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.522
+      },
+      "id": "20495b19102d8b9b",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Ghost Launches $3,499 Personal AI Computer After $11M Seed Round - JournalArta",
+      "url": "https://journalarta.com/2026/10/07/ghost-seed-round-personal-ai-computer/",
+      "publishedAt": "2026-10-06T20:49:37Z",
+      "excerpt": "# Ghost Launches $3,499 Personal AI Computer After $11M Seed Round. Ghost has raised an $11 million seed round led by Andreessen Horowitz as it launches Core, a $3,499 computer designed to run personal AI agents. At 19, Zain Javaid has shifted from quantitative investing to building a computer for personal AI. His startup, Ghost, emerged from stealth on Monday with an $11 million ghost seed round led by Andreessen Horowitz and a first product priced at $3,499. The launch puts a dedicated AI…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.464
+      },
+      "id": "a1963865ab937791",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Instinct joined the chat: The buzzy startup is bringing its AI agents to group DMs - Business Insider",
+      "url": "https://www.businessinsider.com/instincts-ai-agents-are-coming-to-your-group-chat-2026-10",
+      "publishedAt": "2026-10-06T10:05:47Z",
+      "excerpt": "Instinct came for your inbox, your errands, and your shopping list — now it's wading into the wild west of your group chat. Noah Shinn, the CEO of the personal AI agent startup, said in an X post on Monday that early-access users can now add Instinct to group chats, where it can help coordinate plans, settle logistics, and take actions for several people at once. Unlike in a standard chat with Instinct, not everyone in the group needs an account. A new group-specific Instinct joins the…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.305
+      },
+      "id": "89ac3bacd66ea68d",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "19-year-old founder raises $11M for Ghost's $3,499 personal AI computer - news.lavx.hu",
+      "url": "https://news.lavx.hu/article/19-year-old-founder-raises-11m-for-ghost-s-3-499-personal-ai-computer",
+      "publishedAt": "2026-10-05T20:55:07Z",
+      "excerpt": "# 19-year-old founder raises $11M for Ghost's $3,499 personal AI computer. Ghost emerged from stealth Monday with $11 million led by Andreessen Horowitz to sell Core, a $3,499 computer built to run personal AI agents. The startup bundles an Nvidia GPU, local models, and an agent firewall into a screenless box owners control through a phone app. Ghost raised $11 million in seed funding led by Andreessen Horowitz and came out of stealth Monday to sell Core, a $3,499 desktop computer built to run…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.287
+      },
+      "id": "78374e7a412e25df",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Web3 Firms Urged to Treat AI Agents as Workforce Members - Bitcoin News",
+      "url": "https://news.bitcoin.com/security/web3-firms-urged-to-treat-ai-agents-as-workforce-members/",
+      "publishedAt": "2026-10-07T05:15:10Z",
+      "excerpt": "BTC$84,207(-1.72%)ETH$2,615(-3.28%). **A new report advocates treating artificial intelligence agents as members of the workforce, noting that they have evolved from issuing passive threat alerts to carrying out autonomous actions.**. Based on a new report from Web3 security firm Certik, organizations must now govern agentic AI as an autonomous workforce participant — assigning explicit roles, bounded authority and strict human supervisory accountability. Yet because deploying organizations…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.467
+      },
+      "id": "c609fe7f28bc623b",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cognizant Expands AI-Enabled DevOps Capabilities for Gilead Sciences - BioSpace",
+      "url": "https://www.biospace.com/press-releases/cognizant-expands-ai-enabled-devops-capabilities-for-gilead-sciences",
+      "publishedAt": "2026-10-07T02:17:08Z",
+      "excerpt": "*Five-year agreement will support selected Gilead technology programs*. Under the agreement, Cognizant will support Gilead's continued development of DevOps capabilities and the responsible application of agentic AI tools across selected technology programs. Cognizant will apply its life sciences and technology experience to support Gilead's development and operations environment. The updated scope will provide additional support for selected DevOps and AI-enabled capabilities as Gilead…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.377
+      },
+      "id": "53fc4c32772a13dd",
+      "collectedAt": "2026-10-07T07:23:40.778402+00:00"
     }
   ],
-  "updatedAt": "2026-10-07T02:16:31.214955+00:00"
+  "updatedAt": "2026-10-07T07:23:40.778402+00:00"
 }

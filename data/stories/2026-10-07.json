@@ -297,7 +297,250 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "safeactbench-evaluates-how-ai-agents-handle-evid-a2f57a",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "SafeActBench evaluates how AI agents handle evidence before taking actions",
+      "summary": "Researchers introduced SafeActBench with 656 test cases to analyze where AI agents fail to gather sufficient evidence prior to executing tasks. The study found that while agents perform single actions reliably, they frequently struggle in multi-step workflows.",
+      "whyItMatters": "This benchmark helps identify specific reliability gaps in multi-step agent execution.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07753"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07753",
+        "code": "https://github.com/caoshidong66/safeact",
+        "model": null,
+        "demo": "https://safeact.github.io"
+      }
+    },
+    {
+      "id": "new-approach-trains-ai-models-using-feedback-acr-09142a",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "New approach trains AI models using feedback across different tokenizers",
+      "summary": "Researchers proposed a training method that utilizes supervision from models using different text encoding systems. The approach focuses on reliable supervision at strictly aligned positions to avoid conflicting training signals.",
+      "whyItMatters": "It offers a more effective way to leverage cross-model supervision without introducing conflicting signals.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.08448"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.08448",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "trace-improves-reinforcement-learning-efficiency-091f58",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "TRACE improves reinforcement learning efficiency for large language models",
+      "summary": "Researchers introduced TRACE, a method that applies low-precision calculations during reinforcement learning for large language models. This approach reduces the computation and memory overhead typically required during training.",
+      "whyItMatters": "It lowers the computational barriers associated with reinforcement learning for large language models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07767"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07767",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "autoscibench-automatically-generates-tests-for-s-5a975c",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "AutoSciBench automatically generates tests for scientific AI agents",
+      "summary": "A new tool called AutoSciBench creates benchmarks to evaluate AI agents in scientific domains. The system addresses the challenge of manually updating tests as AI capabilities evolve.",
+      "whyItMatters": "It automates benchmark generation to keep pace with rapid advancements in scientific AI agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05140"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05140",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "eviskill-allows-ai-agents-to-refine-skills-from-83cf7c",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "EVISKILL allows AI agents to refine skills from past experience",
+      "summary": "Researchers developed EVISKILL to help AI agents accumulate and refine reusable procedural knowledge from past interactions without modifying model parameters. The system grounds skill updates in replayable evidence to ensure valid improvements.",
+      "whyItMatters": "It enables agents to accumulate procedural knowledge safely without retraining their underlying models.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05030"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05030",
+        "code": "https://github.com/Zhouyaner/Eviskill",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "duomatching-framework-improves-video-generation-8db46c",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "DuoMatching framework improves video generation quality and speed",
+      "summary": "DuoMatching combines supervision from video and image models to generate high-quality video in fewer steps. Human evaluations showed high preference rates for the method compared to existing baselines.",
+      "whyItMatters": "It improves both the visual quality and semantic alignment of generated videos while reducing computation steps.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.03543"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.03543",
+        "code": "https://github.com/JohnZhan2023/DuoMatching",
+        "model": null,
+        "demo": "https://johnzhan2023.github.io/DuoMatching/"
+      }
+    },
+    {
+      "id": "prismem-iteratively-improves-ai-agent-memory-thr-a5a294",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "PrisMem iteratively improves AI agent memory through task feedback",
+      "summary": "PrisMem uses task feedback to iteratively refine the memory programs of AI agents. The system derives specific revision directions from mixed feedback to improve how agents store and retrieve information.",
+      "whyItMatters": "It provides a structured way to enhance agent memory performance based on targeted feedback rather than overall metrics.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.06361"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.06361",
+        "code": null,
+        "model": null,
+        "demo": "https://fionna-yrfeng.github.io/PrisMem/"
+      }
+    },
+    {
+      "id": "ghost-launches-personal-ai-computer-after-raisin-a024d7",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "Ghost launches personal AI computer after raising $11 million",
+      "summary": "Startup Ghost emerged from stealth with an $11 million seed round led by Andreessen Horowitz. The company released Core, a $3,499 dedicated computer designed to run personal AI agents locally.",
+      "whyItMatters": "It highlights growing hardware investments aimed at running continuous personal AI agents on local devices.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://journalarta.com/2026/10/07/ghost-seed-round-personal-ai-computer/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-releases-real-time-transcription-and-v-20495b",
+      "createdAt": "2026-10-07T07:31:07.095981+00:00",
+      "headline": "Microsoft releases real-time transcription and voice models",
+      "summary": "Microsoft launched MAI-Transcribe-2-Streaming, a real-time transcription model supporting 60 languages, alongside MAI-Voice-2.1 text-to-speech models. The transcription model ranked first in accuracy on Artificial Analysis.",
+      "whyItMatters": "It expands real-time speech and multilingual conversational capabilities for developers.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Azure",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://microsoft.ai/news/our-first-streaming-transcription-model"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-07T02:30:57.549572+00:00"
+  "updatedAt": "2026-10-07T07:31:13.142071+00:00"
 }
