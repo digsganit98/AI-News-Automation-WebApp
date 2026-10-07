@@ -108,7 +108,196 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "jump-trading-scales-quantitative-research-using-342677",
+      "createdAt": "2026-10-07T02:25:54.778296+00:00",
+      "headline": "Jump Trading scales quantitative research using ChatGPT",
+      "summary": "Jump Trading is incorporating OpenAI's ChatGPT into its quantitative research operations. The company utilizes extended AI workflows that combine multiple data streams alongside human oversight.",
+      "whyItMatters": "This highlights the growing adoption of generative AI tools within high-frequency trading and quantitative finance workflows.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/jump-trading"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "logra-reduces-memory-requirements-for-reinforcem-f26f4a",
+      "createdAt": "2026-10-07T02:25:54.778296+00:00",
+      "headline": "LoGRA reduces memory requirements for reinforcement learning in large language models",
+      "summary": "Researchers have introduced LoGRA, a method that lowers memory demands during reinforcement learning for large language models through low-rank gradient sketches. The technique cuts average training memory usage by up to 45.7 percent without degrading model performance.",
+      "whyItMatters": "This method enables stable reinforcement learning training for large models on standard hardware by significantly reducing memory overhead.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.06647"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.06647",
+        "code": "https://github.com/skzhang1/labs-molt/tree/logra/examples/scripts/logra",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-raw-conversation-turns-versus-fac-9b84dd",
+      "createdAt": "2026-10-07T02:25:54.778296+00:00",
+      "headline": "Study examines raw conversation turns versus fact extraction for agent memory",
+      "summary": "A pre-registered study investigates whether AI agents require explicit fact extraction from conversations or if selecting appropriate raw history turns is sufficient. The research addresses conflicting findings regarding the performance of extraction systems versus raw history ranking.",
+      "whyItMatters": "Optimizing how AI agents handle historical conversation context helps improve memory architecture and efficiency.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.34227"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.34227",
+        "code": "https://github.com/ris3abh/Engram",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "deskforge-provides-dense-supervision-data-for-co-3b3ff2",
+      "createdAt": "2026-10-07T02:25:54.778296+00:00",
+      "headline": "DeskForge provides dense supervision data for computer-use agents",
+      "summary": "DeskForge introduces training data that pairs complex desktop scenes featuring overlapping windows with dense annotations. This approach helps computer-use agents ground action targets more reliably in cluttered graphical user interfaces.",
+      "whyItMatters": "Better visual grounding datasets improve the reliability of desktop automation and computer-use AI agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02320"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02320",
+        "code": "https://github.com/Saidgurbuz/deskforge",
+        "model": null,
+        "demo": "https://saidgurbuz.github.io/deskforge/"
+      }
+    },
+    {
+      "id": "undobench-evaluates-fault-recovery-capabilities-831612",
+      "createdAt": "2026-10-07T02:25:54.778296+00:00",
+      "headline": "UndoBench evaluates fault recovery capabilities in tool-using AI agents",
+      "summary": "UndoBench is a new benchmark designed to measure how effectively tool-using AI agents recover from errors, separate from their ability to complete nominal tasks. Tests reveal that agent recovery success rates drop substantially when faults occur, pointing to reliability vulnerabilities.",
+      "whyItMatters": "Distinguishing task competence from recovery capability provides a clearer picture of autonomous agent robustness in practice.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05622"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05622",
+        "code": "https://github.com/tradertanmay/undobench",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "melius-raises-25-million-to-develop-ai-ad-campai-049bf6",
+      "createdAt": "2026-10-07T02:25:54.778296+00:00",
+      "headline": "Melius raises $25 million to develop AI ad campaign platform",
+      "summary": "Melius, a startup launched by former Ramp engineers, has secured $25 million in total funding for its platform that generates advertising campaigns, images, and videos. The company reported that its revenue has surpassed $1 million.",
+      "whyItMatters": "Venture funding for specialized generative marketing platforms highlights ongoing commercial demand in the advertising sector.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-expands-claude-startups-program-to-sup-fad169",
+      "createdAt": "2026-10-07T02:25:54.778296+00:00",
+      "headline": "Anthropic expands Claude Startups program to support founders",
+      "summary": "Anthropic is expanding its Claude Startups program to grant more founders and fast-growing companies access to AI tools and credits. Eligible members can receive up to $45,000 in discounts alongside direct support from Anthropic staff.",
+      "whyItMatters": "Startup support programs from major AI labs lower the barrier to entry for early-stage companies building production applications.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.cnbc.com/2026/10/06/anthropic-claude-startups-program.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-06T23:16:34.057662+00:00"
+  "updatedAt": "2026-10-07T02:30:57.549572+00:00"
 }
