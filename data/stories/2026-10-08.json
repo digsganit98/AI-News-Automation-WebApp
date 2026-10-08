@@ -652,7 +652,61 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "r-quest-method-improves-stability-of-self-evolvi-4851cf",
+      "createdAt": "2026-10-08T02:17:39.710556+00:00",
+      "headline": "R-Quest method improves stability of self-evolving AI models",
+      "summary": "Researchers introduced R-Quest, a technique that uses feedback on question validity and novelty to guide self-training of AI models. The approach prevents performance drops and achieves stable gains over ten self-evolution rounds.",
+      "whyItMatters": "It enables AI systems to improve autonomously without degrading performance.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.04299"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.04299",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "triage-technique-stabilizes-low-precision-reinfo-3179b2",
+      "createdAt": "2026-10-08T02:17:39.710556+00:00",
+      "headline": "TRIAGE technique stabilizes low-precision reinforcement learning for large language models",
+      "summary": "A new method called TRIAGE rebalances policy updates to address instability when large language models run in low-precision mode. It delivers full-precision performance with up to 2.3× higher throughput.",
+      "whyItMatters": "It makes high-performance language model training more efficient and cost-effective.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07043"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07043",
+        "code": "https://github.com/InfiXAI/TRIAGE",
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-08T02:14:50.090458+00:00"
+  "updatedAt": "2026-10-08T02:20:07.413383+00:00"
 }
