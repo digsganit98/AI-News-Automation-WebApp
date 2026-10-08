@@ -706,7 +706,574 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "google-cloud-introduces-gemini-agent-for-workspa-58506a",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Google Cloud introduces Gemini Agent for workspace applications",
+      "summary": "Google Cloud announced the Gemini agent, a universal workplace assistant designed to answer questions and manage knowledge tasks across Google Workspace applications. The system includes specialized skills tailored for data analysis, finance, and legal teams.",
+      "whyItMatters": "This release brings native, multi-domain AI agent capabilities directly into enterprise productivity environments.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-withdraws-three-math-papers-and-revises-1-133541",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "OpenAI withdraws three math papers and revises 14 others",
+      "summary": "OpenAI has withdrawn three mathematical manuscripts following the discovery of a sign error that invalidated key arguments in one of the papers. The company also revised 14 other manuscripts to repair proofs and correct statements.",
+      "whyItMatters": "Formal verification and correction of published AI research ensure the integrity of mathematical benchmarks and reasoning literature.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/openai/math/blob/main/history.md"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "route-verify-vote-improves-compositional-reasoni-ab68d2",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Route-Verify-Vote improves compositional reasoning in language models",
+      "summary": "Researchers introduced a technique called Route-Verify-Vote to help language models combine familiar reasoning operations in new ways. The method addresses compositional generalization challenges on the SCoRE 2026 benchmark.",
+      "whyItMatters": "Enhancing compositional reasoning helps language models reliably solve complex, multi-step problems across mixed domains.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.08814"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "codr-enables-training-free-token-revision-for-di-f2f668",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "CoDR enables training-free token revision for diffusion language models",
+      "summary": "A new training-free method called CoDR allows diffusion language models to revise previously committed tokens when later context indicates they are incorrect. This approach improves decoding accuracy without requiring additional model training.",
+      "whyItMatters": "Training-free decoding adjustments offer a resource-efficient way to boost generation quality in diffusion models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.08833"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-explores-factors-influencing-llm-sycophanc-9d1ae3",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Study explores factors influencing LLM sycophancy",
+      "summary": "Researchers investigated why large language models sometimes abandon correct answers and agree with users after receiving pushback. The study examines how task type, model choice, and user pressure shape this behavior beyond simple metrics.",
+      "whyItMatters": "Understanding the drivers of model sycophancy is essential for building reliable assistants that remain objective under user pressure.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.08840"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "empirical-study-evaluates-the-utility-of-agent-s-8fac63",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Empirical study evaluates the utility of Agent Skills",
+      "summary": "A new study examines how procedural guidance packages, known as Agent Skills, affect task performance in artificial intelligence agents. The research investigates why relevant skills do not always translate to improved outcomes.",
+      "whyItMatters": "Evaluating procedural guidance helps developers understand how to effectively structure and apply tools for autonomous agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.08875"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "humanize-workflow-targets-reliable-agentic-codin-a5ea11",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Humanize workflow targets reliable agentic coding",
+      "summary": "Researchers presented Humanize, a multi-agent orchestration workflow designed to improve the reliability of automated code generation. The system addresses the challenge of ensuring an AI agent correctly determines when its coding task is finished.",
+      "whyItMatters": "Reliable termination checks are a critical bottleneck for autonomous software engineering agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.08900"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "uncertainty-estimation-method-targets-parallel-m-2af7cb",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Uncertainty estimation method targets parallel multi-agent reasoning",
+      "summary": "A new method provides sequential probabilistic uncertainty estimation for systems where multiple AI agents solve identical problems in parallel. This approach aims to improve overall reasoning reliability in multi-agent configurations.",
+      "whyItMatters": "Quantifying uncertainty across parallel agent outputs helps verify the correctness of complex reasoning tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.08901"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "personalized-test-time-scaling-balances-llm-reas-f0fed8",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Personalized test-time scaling balances LLM reasoning efficiency",
+      "summary": "Researchers developed a method to personalize test-time scaling by optimizing both accuracy and resource costs simultaneously. The approach utilizes amortized agentic policy discovery to improve overall reasoning efficiency.",
+      "whyItMatters": "Balancing accuracy against compute costs at test-time makes advanced reasoning more practical for deployment.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09684"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09684",
+        "code": "https://github.com/WangXinglin/PersonTTS",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-analyzes-performance-gains-and-collapse-in-e63f03",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "Study analyzes performance gains and collapse in on-policy distillation",
+      "summary": "A new study explains the underlying mechanisms behind performance improvements and potential model collapse during on-policy distillation. The research highlights why this post-training method can occasionally trigger repetitive or excessively long generations.",
+      "whyItMatters": "Deepening our understanding of distillation dynamics helps prevent generation degradation in post-trained models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.03185"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.03185",
+        "code": "https://github.com/HancCui/opd_hacking",
+        "model": null,
+        "demo": "https://hancui.site/opd_hacking/"
+      }
+    },
+    {
+      "id": "swe-game-benchmark-evaluates-coding-agents-in-ga-349934",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "SWE-Game benchmark evaluates coding agents in game development",
+      "summary": "Researchers introduced SWE-Game, a benchmark consisting of 247 tasks built on 41 executable Godot games. It tests coding agents on feature implementation from design documents and fault repair across 2D and 3D environments.",
+      "whyItMatters": "Domain-specific benchmarks help measure how well coding agents handle complex, multi-file software development tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.33678"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.33678",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "dloop-introduces-looped-speculative-decoding-for-45e7cf",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "DLoop introduces looped speculative decoding for language models",
+      "summary": "A new method called DLoop accelerates text generation in large language models by employing a lightweight draft model to propose tokens. The approach is designed to manage cases where the target model accepts all proposed tokens efficiently.",
+      "whyItMatters": "Optimizing speculative decoding pipelines reduces inference latency and hardware resource requirements.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07659"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07659",
+        "code": "https://github.com/naver-ai/DLoop",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "runningtab-enables-direct-workspace-interaction-c40950",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "RunningTab enables direct workspace interaction for AI agents",
+      "summary": "RunningTab is a new method that allows LLM agents to search and read files directly from a terminal without requiring prior indexing. This direct interaction helps agents produce deliverables from existing workspace files more effectively.",
+      "whyItMatters": "Eliminating the need for indexing makes workspace file interaction faster and more efficient for AI agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.10444"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.10444",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "uniwam-combines-physical-reasoning-world-generat-08b08d",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "UniWAM combines physical reasoning, world generation, and action prediction",
+      "summary": "UniWAM is a unified architecture that integrates a physical reasoner, a world generator, and an action predictor to enhance robot and human-agent performance. It achieves state-of-the-art results in robustness, generalization, and long-horizon task execution.",
+      "whyItMatters": "Combining semantic understanding with action prediction improves how AI models handle complex, long-horizon physical tasks.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.02054"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.02054",
+        "code": "https://github.com/UniWAM/UniWAM",
+        "model": null,
+        "demo": "https://uniwam.github.io/"
+      }
+    },
+    {
+      "id": "robotworld-benchmarks-multimodal-agents-across-p-e586c3",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "RobotWorld benchmarks multimodal agents across physical tasks",
+      "summary": "RobotWorld is a simulation testbed designed to evaluate how well general-purpose agents can translate instructions into physical robot actions. It tests agents across diverse tasks and different robot embodiments to assess physical world capabilities.",
+      "whyItMatters": "Standardized benchmarking helps developers rigorously evaluate how multimodal agents perform in physical environments.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.10409"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.10409",
+        "code": "https://github.com/robotworldai/robotworld",
+        "model": null,
+        "demo": "https://robotworldai.github.io/"
+      }
+    },
+    {
+      "id": "vepagent-improves-video-event-prediction-with-ca-436770",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "VepAgent improves video event prediction with causal reasoning",
+      "summary": "VepAgent is an agentic framework that uses tool-augmented reinforcement learning to predict future events in videos. It explicitly models causal transitions and uses diagnostic tools to recover missing visual evidence.",
+      "whyItMatters": "Causal reasoning and diagnostic tools help video prediction models achieve higher accuracy on complex benchmarks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.06293"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.06293",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "stepquant-optimizes-linear-attention-models-thro-b19ed1",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "STEPQuant optimizes linear attention models through error-based quantization",
+      "summary": "STEPQuant is a post-training quantization framework that reduces memory usage for linear attention models by allocating precision based on error magnitude and memory lifetime. It achieves significant memory compression while maintaining near full precision accuracy.",
+      "whyItMatters": "Efficient memory compression makes linear attention models more practical to deploy in resource-constrained environments.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38169"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38169",
+        "code": "https://github.com/Dreamer-Toby/STEPQuant",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ultratext-bench-evaluates-visual-text-rendering-daf0b3",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "UltraText Bench evaluates visual text rendering in image generation",
+      "summary": "UltraText Bench is a bilingual benchmark designed to test image generators on their ability to render long strings of text with correct placement and legibility. It addresses the growing need for more demanding evaluation standards as short-string rendering improves.",
+      "whyItMatters": "Rigorous benchmarks for text rendering help push image generation models to accurately produce complex and long text.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09823"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09823",
+        "code": "https://github.com/LINs-lab/UltraText_Bench",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-on-policy-distillation-method-utilizes-negat-77eaf7",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "New on-policy distillation method utilizes negative-policy rollouts",
+      "summary": "Researchers have proposed a new approach to on-policy distillation where a student model learns from a stronger teacher. The technique incorporates negative-policy rollouts to enhance the overall learning process.",
+      "whyItMatters": "Enhancing on-policy distillation helps student models learn more effectively from teacher models during post-training.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07874"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07874",
+        "code": "https://github.com/naver-ai/np-opd",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "grace-accelerates-video-generation-using-generat-3a7822",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "GRACE accelerates video generation using generation-aware latent compression",
+      "summary": "GRACE is a new framework that uses generation-aware latent compression to speed up video diffusion models. By operating on fewer tokens, the method improves efficiency while addressing the training challenges of compressed video autoencoders.",
+      "whyItMatters": "Efficient latent compression reduces the computational overhead required to generate high-quality video content.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.10524"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.10524",
+        "code": "https://github.com/cvlab-kaist/GRACE",
+        "model": null,
+        "demo": "https://cvlab-kaist.github.io/GRACE/"
+      }
+    },
+    {
+      "id": "openai-publishes-722-mathematical-manuscripts-ge-2e2a3d",
+      "createdAt": "2026-10-08T14:55:29.210104+00:00",
+      "headline": "OpenAI publishes 722 mathematical manuscripts generated by an internal model",
+      "summary": "OpenAI has released 722 mathematical manuscripts from an unreleased internal model into a public GitHub repository. The collection features formal proofs in Lean and was developed with guidance from an independent panel of mathematicians.",
+      "whyItMatters": "Publicly sharing AI-generated mathematical research and formal proofs provides valuable data for the scientific community.",
+      "category": "Research",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "openai-publishes-377-new-ai-generated-mathematic-b0b670",
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/openai-maths-722-papers-unreleased-model-github"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-08T02:20:07.413383+00:00"
+  "updatedAt": "2026-10-08T14:55:39.024976+00:00"
 }
