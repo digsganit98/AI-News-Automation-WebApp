@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-07T21:24:51.189252Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-08T02:06:39.221448+00:00",
+      "newItems": 10,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1255,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.239424Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.281627Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 874,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.282011Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.282335Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.282510Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.282679Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.282891Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.283140Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.283357Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.283594Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.283768Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.283831Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.283879Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.284160Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.284214Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.284381Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.284546Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.284977Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-08T02:06:39.285269Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.285517Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.285757Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.286141Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.286340Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.286516Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.287192Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.287389Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.287578Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-08T02:06:39.287632Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -811,7 +1041,143 @@
       },
       "id": "444585fe65b736e6",
       "collectedAt": "2026-10-07T21:24:51.117374+00:00"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA (generative AI)",
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "publishedAt": "2026-10-07T18:45:28Z",
+      "excerpt": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of [&#8230;]",
+      "author": "Gerardo Delgado",
+      "extra": {},
+      "id": "6f02344687c47731",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AWS AI Practitioner Syllabus: One Support-Bot Project Across All Five Domains",
+      "url": "https://medium.com/@daisyscottp/aws-ai-practitioner-syllabus-one-support-bot-project-across-all-five-domains-d763fab4cd0e?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-08T01:27:25Z",
+      "excerpt": "The AWS AI Practitioner syllabus (exam AIF-C01) has five content domains: Fundamentals of AI and ML (20%), Fundamentals of GenAI (24%)… Continue reading on Medium »",
+      "author": "Daisy Scott",
+      "extra": {},
+      "id": "0ad9d44b1730b9f3",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Learning AI Image Prompts by Example: Why a Gallery Beats a Rulebook",
+      "url": "https://medium.com/@yasinmuratogullari/learning-ai-image-prompts-by-example-why-a-gallery-beats-a-rulebook-6e9d6c5ea14b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T23:32:13Z",
+      "excerpt": "Advice about image prompts usually comes as rules: name the subject, the lighting, the lens, the style. The rules are right and still hard… Continue reading on Medium »",
+      "author": "Yasin Muratoğulları",
+      "extra": {},
+      "id": "4ed0471bc216ca12",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Build vs. Buy, or Both? The Enterprise AI Decision",
+      "url": "https://sirjohnnymai.medium.com/build-vs-buy-or-both-the-enterprise-ai-decision-466eb1ead839?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-07T21:31:12Z",
+      "excerpt": "About 95% of enterprise AI pilots fail to deliver measurable P&L impact (MIT Project NANDA, The GenAI Divide, 2025). Continue reading on Medium »",
+      "author": "Johnny Mai",
+      "extra": {},
+      "id": "022b80fbb449c652",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "The Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "publishedAt": "2026-10-07T20:18:43Z",
+      "excerpt": "",
+      "author": "/u/TMWNN",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x07209/the_mathocalypse/"
+      },
+      "id": "5c906478c817e3c3",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "LiquidAI/d1-3B · Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/d1-3B",
+      "publishedAt": "2026-10-07T17:00:23Z",
+      "excerpt": "",
+      "author": "/u/iamn0",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x01xg3/liquidaid13b_hugging_face/"
+      },
+      "id": "13d2575360f49dfc",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post - Gizmodo",
+      "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
+      "publishedAt": "2026-10-07T01:50:52Z",
+      "excerpt": "On Tuesday, OpenAI continued its all-out assault on mathematicians’ peace of mind and sense of career stability by releasing 377 new math results in the form of an info-dump on GitHub. What kinds of accomplishments is OpenAI claiming now? The authors seek to reassure the community that their company wants “to directly empower scientists with state-of-the-art capabilities,” and says OpenAI is “working to responsibly release the model that produced these results.“. In its new blog post, OpenAI…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.356
+      },
+      "id": "b0b67049922b5e14",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Life sciences firm Danaher to launch AI-powered autonomous research lab in 2027 - Reuters",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/life-sciences-firm-danaher-launch-ai-powered-autonomous-research-lab-2027-2026-10-07/",
+      "publishedAt": "2026-10-07T20:07:10Z",
+      "excerpt": "Oct 7 (Reuters) - Life sciences company Danaher (DHR.N) said on Wednesday it plans to launch its ​first AI-powered autonomous research lab early ‌next year to make drug discovery and development faster and more efficient. * The ​lab, projected to operate at scale ​in early 2027, will combine AI, robotics ⁠and technologies from several Danaher operating ​companies in one connected workflow to develop ​custom antibodies and other molecular tools. * It is expected to make discovering molecules…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.222
+      },
+      "id": "a61b906c66d4cd21",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Grok Bot will use Claude Opus 5.5, Midjourney and Suno, says Musk - The Next Web",
+      "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk",
+      "publishedAt": "2026-10-07T15:06:02Z",
+      "excerpt": "Elon Musk’s Grok Bot will no longer run only on SpaceX’s own AI models. It will also use models from rivals, including Anthropic’s Claude Opus 5.5, Midjourney and Suno, Musk said in a post on X on Wednesday. > “Going forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. Whatever is most likely to give you the best outcome,” Musk wrote. Grok Bot is the AI agent app from SpaceXAI, the AI business Musk has folded…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.22
+      },
+      "id": "35699c77171dee7a",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How Do You Choose an Enterprise AI Agent Platform?",
+      "url": "https://www.moveworks.com/us/en/resources/blog/how-to-choose-an-enterprise-ai-agent-platform",
+      "publishedAt": "2026-10-06T20:00:00Z",
+      "excerpt": "Learn how to prioritize AI use cases with a scoring framework that helps IT leaders escape pilot purgatory and deliver fast, measurable enterprise value.\n\nRead the blog\n\nBlog\n\n### How Is Agentic AI Used in Utilities Operations Today?\n\nExplore agentic AI use cases in utilities for field IT support, seasonal onboarding, safety retrieval, and HR self-service across a distributed workforce.\n\nRead the blog\n\nBlog\n\n### What Are MCP Guardrails in Enterprise AI Deployments? [...] Ready to discover what…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.836
+      },
+      "id": "7fd6dec4e4bc935f",
+      "collectedAt": "2026-10-08T02:06:39.221448+00:00"
     }
   ],
-  "updatedAt": "2026-10-07T21:24:51.117374+00:00"
+  "updatedAt": "2026-10-08T02:06:39.221448+00:00"
 }
