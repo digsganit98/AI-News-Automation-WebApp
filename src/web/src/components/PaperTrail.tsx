@@ -295,13 +295,13 @@ export default function PaperTrail({ papers, icons, buildTime }: Props) {
                 <p class="eyebrow flex items-center gap-1.5 !text-[12px] !text-brand-600 dark:!text-brand-400"><SparkIcon /> Paper of the day</p>
                 <div class="flex items-center gap-2"><Upvotes n={spotlight.upvotes} /><Sightings p={spotlight} icons={icons} /></div>
               </div>
-              <h2 class="mt-4 text-2xl font-semibold leading-[1.15] tracking-[-0.03em] sm:text-[32px]">
-                <a href={spotlight.links.abs} target="_blank" rel="noopener" class="hover:text-brand-600 dark:hover:text-brand-400">{spotlight.title}</a>
+              <h2 class="mt-4 text-2xl font-bold leading-[1.15] tracking-tight text-slate-900 sm:text-[30px]">
+                <a href={spotlight.links.abs} target="_blank" rel="noopener" class="hover:text-[#1a00d9]">{spotlight.title}</a>
               </h2>
               {spotlight.authors.length > 0 && (
-                <p class="mt-2 text-sm text-ink-muted dark:text-[#a1a1a6]">{authorLine(spotlight.authors, 4)}</p>
+                <p class="mt-2 text-xs font-semibold text-slate-800">{authorLine(spotlight.authors, 4)}</p>
               )}
-              <p class="mt-4 line-clamp-4 text-[15px] lg:line-clamp-6 leading-relaxed text-slate-700 dark:text-slate-300">
+              <p class="mt-3.5 line-clamp-4 text-sm lg:line-clamp-6 leading-relaxed text-slate-900 font-normal">
                 {spotlight.agentNote?.whyItMatters || spotlight.abstract}
               </p>
               <div class="mt-4"><ThemeTags themes={spotlight.themes} onPick={setTheme} /></div>
@@ -327,12 +327,12 @@ export default function PaperTrail({ papers, icons, buildTime }: Props) {
                   <span class="h-1.5 overflow-hidden rounded-full bg-black/[0.06] dark:bg-white/10">
                     <span class={`block h-full rounded-full ${tone(t).bg} transition-[width] duration-500`} style={{ width: `${Math.max(6, (n / pulseMax) * 100)}%` }} />
                   </span>
-                  <span class="text-right tabular-nums text-ink-muted dark:text-[#a1a1a6]">{n}</span>
+                  <span class="text-right tabular-nums font-bold text-slate-900">{n}</span>
                 </button>
               </li>
             ))}
           </ul>
-          <p class="mt-3 text-xs text-ink-muted dark:text-[#a1a1a6]">Tap a theme to filter the papers below.</p>
+          <p class="mt-3 text-xs font-semibold text-slate-700">Tap a theme to filter the papers below.</p>
         </section>
       </div>
 
@@ -375,50 +375,50 @@ export default function PaperTrail({ papers, icons, buildTime }: Props) {
             Export reading list (.bib)
           </button>
         )}
-        <p class={`text-[13px] text-ink-muted dark:text-[#a1a1a6] ${saved.size > 0 ? "" : "ml-auto"}`}>
-          <b class="font-semibold text-ink dark:text-white">{visible.length + (filtering || !spotlight ? 0 : 1)}</b> of {papers.length} papers
+        <p class={`text-[13px] font-semibold text-slate-800 ${saved.size > 0 ? "" : "ml-auto"}`}>
+          <b class="font-bold text-slate-950">{visible.length + (filtering || !spotlight ? 0 : 1)}</b> of {papers.length} papers
         </p>
       </div>
 
       {/* ---------------------------------------------------------- papers */}
       {visible.length === 0 ? (
         <div class="card mt-6 grid place-items-center gap-3 px-6 py-16 text-center">
-          <p class="text-lg font-semibold">{savedOnly && saved.size === 0 ? "Your reading list is empty" : "No papers match"}</p>
-          <p class="max-w-sm text-sm text-ink-muted dark:text-[#a1a1a6]">
+          <p class="text-lg font-bold text-slate-950">{savedOnly && saved.size === 0 ? "Your reading list is empty" : "No papers match"}</p>
+          <p class="max-w-sm text-sm font-medium text-slate-800">
             {savedOnly && saved.size === 0 ? "Tap the bookmark on any paper to keep it here. It stays in this browser." : "Try a wider time range or clear the filters."}
           </p>
-          <button type="button" class="chip" onClick={reset}>Clear filters</button>
+          <button type="button" class="chip font-bold text-slate-900" onClick={reset}>Clear filters</button>
         </div>
       ) : (
         groups.map(([label, list]) => (
           <section key={label || "all"} class="mt-6">
-            {label && <h3 class="mb-3 ml-1 text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6]">{label}</h3>}
+            {label && <h3 class="mb-3 ml-1 text-[13px] font-bold uppercase tracking-[0.08em] text-slate-900">{label}</h3>}
             <div class="grid gap-4 md:grid-cols-2">
               {list.map((p) => {
                 const expanded = open.has(p.id);
                 return (
                   <article key={p.id} class="card flex flex-col p-5 sm:p-6">
-                    <div class="flex items-center gap-2 text-xs text-ink-muted dark:text-[#a1a1a6]">
+                    <div class="flex items-center gap-2 text-xs font-semibold text-slate-800">
                       <span class={`size-2 rounded-full ${tone(p.themes[0]).bg}`} />
-                      <span class={`font-semibold ${tone(p.themes[0]).text}`}>{p.themes[0]}</span>
+                      <span class={`font-bold ${tone(p.themes[0]).text}`}>{p.themes[0]}</span>
                       <span aria-hidden="true">·</span>
-                      <time dateTime={p.time}>{dayLabel(p.time, now)}</time>
+                      <time dateTime={p.time} class="text-slate-800">{dayLabel(p.time, now)}</time>
                       <span class="ml-auto flex items-center gap-2"><Upvotes n={p.upvotes} /><Sightings p={p} icons={icons} /></span>
                     </div>
-                    <h4 class="mt-3 text-[17px] font-semibold leading-snug tracking-[-0.02em]">
-                      <a href={p.links.abs} target="_blank" rel="noopener" class="hover:text-brand-600 dark:hover:text-brand-400">{p.title}</a>
+                    <h4 class="mt-3 text-[17px] font-bold leading-snug tracking-[-0.02em] text-slate-950">
+                      <a href={p.links.abs} target="_blank" rel="noopener" class="text-slate-950 hover:text-[#1a00d9]">{p.title}</a>
                     </h4>
-                    {p.authors.length > 0 && <p class="mt-1 truncate text-[13px] text-ink-muted dark:text-[#a1a1a6]">{authorLine(p.authors)}</p>}
+                    {p.authors.length > 0 && <p class="mt-1 truncate text-[13px] font-semibold text-slate-800">{authorLine(p.authors)}</p>}
                     {p.agentNote && (
-                      <p class="mt-3 flex gap-2 rounded-2xl bg-brand-500/[0.07] px-3 py-2 text-[13px] leading-snug text-slate-700 dark:bg-brand-400/10 dark:text-slate-200">
-                        <span class="mt-0.5 shrink-0 text-brand-600 dark:text-brand-400"><SparkIcon /></span>
-                        <span><b class="font-semibold">Why it matters:</b> {p.agentNote.whyItMatters}</span>
+                      <p class="mt-3 flex gap-2 rounded-xl border border-blue-200 bg-blue-50 px-3 py-2 text-xs leading-snug text-slate-900">
+                        <span class="mt-0.5 shrink-0 text-[#1a00d9] font-bold"><SparkIcon /></span>
+                        <span><b class="font-bold text-[#1a00d9]">Why it matters:</b> <span class="font-medium text-slate-900">{p.agentNote.whyItMatters}</span></span>
                       </p>
                     )}
                     {p.abstract && (
                       <div class="mt-3">
-                        <p id={`abs-${p.id}`} class={`text-sm leading-relaxed text-slate-600 dark:text-slate-400 ${expanded ? "" : "line-clamp-3"}`}>{p.abstract}</p>
-                        <button type="button" class="mt-1 text-[13px] font-medium text-brand-600 hover:underline dark:text-brand-400"
+                        <p id={`abs-${p.id}`} class={`text-xs sm:text-sm leading-relaxed text-slate-900 ${expanded ? "" : "line-clamp-3"}`}>{p.abstract}</p>
+                        <button type="button" class="mt-1 text-xs font-bold text-[#1a00d9] hover:underline"
                           aria-expanded={expanded} aria-controls={`abs-${p.id}`} onClick={() => toggleOpen(p.id)}>
                           {expanded ? "Less" : "More"}
                         </button>

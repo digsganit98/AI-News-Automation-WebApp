@@ -1,53 +1,50 @@
 ---
-// Home: the Latest dashboard, refreshed by every 3-hourly run.
-import NewsFeed from "../components/NewsFeed";
-import StoryCard from "../components/StoryCard.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
+// Classic UI route
+import NewsFeed from "../../components/NewsFeed";
+import StoryCard from "../../components/StoryCard.astro";
+import ClassicLayout from "../../layouts/ClassicLayout.astro";
 import {
   GROUPS, formatDay, href, iconMap, isFeedItem, loadDays, loadSources, loadTopStories, sortNewestFirst,
   toFeedItem, toFeedSources,
-} from "../lib/siteData";
+} from "../../lib/siteData";
 
 const days = loadDays();
 const sources = loadSources();
 const latest = days[0];
-// Today and yesterday, so the feed always covers at least the last 24 hours.
-// News only: research papers have their own page, Paper Trail.
 const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items).filter(isFeedItem)).map(toFeedItem);
 const newsToday = latest?.items.filter(isFeedItem).length ?? 0;
 const buildTime = new Date().toISOString();
-// The analyst's stories from today and yesterday, most important first.
 const topStories = loadTopStories(2).slice(0, 9);
 ---
 
-<BaseLayout title="Latest" current="home" showFooter>
+<ClassicLayout title="Latest (Classic UI)" current="home" showFooter>
   <section class="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
    <div class="text-center sm:text-left">
-    <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white/90 px-3.5 py-1 text-xs font-bold text-slate-950 shadow-xs">
+    <p class="glass mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-ink dark:text-white">
       <span class="relative flex size-2"><span class="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex size-2 rounded-full bg-emerald-500"></span></span>
       Live · updates every 3 hours
     </p>
     <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">Today in<br />Generative AI.</h1>
-    <p class="mt-5 max-w-2xl text-xl font-medium leading-relaxed text-slate-900">
+    <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
       New models, tools, cloud features and real-world uses: from AI labs, cloud platforms, Hacker News, Reddit, YouTube and newsletters, every 3 hours.
     </p>
-    {latest && <p class="mt-2 text-sm font-bold text-slate-800">{formatDay(latest.date)}</p>}
+    {latest && <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
    </div>
 
    <aside class="flex shrink-0 flex-col items-center gap-2 lg:mt-3 lg:items-end" aria-label="At a glance">
     <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
       <div>
-        <p class="eyebrow !text-[11px] font-bold text-[#1a00d9]">News today</p>
-        <p class="text-[11px] font-semibold text-slate-800">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
+        <p class="eyebrow !text-[10px]">News today</p>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
       </div>
-      <p class="text-2xl font-bold tracking-tight text-slate-950">{newsToday}</p>
+      <p class="text-xl font-semibold tracking-[-0.03em]">{newsToday}</p>
     </div>
     <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
       <div>
-        <p class="eyebrow !text-[11px] font-bold text-[#1a00d9]">Last update</p>
-        <p class="text-[11px] font-semibold text-slate-800" data-local-time={latest?.updatedAt ?? ""}></p>
+        <p class="eyebrow !text-[10px]">Last update</p>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400" data-local-time={latest?.updatedAt ?? ""}></p>
       </div>
-      <p class="text-2xl font-bold tracking-tight text-slate-950" data-relative={latest?.updatedAt ?? ""}>–</p>
+      <p class="text-xl font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
     </div>
    </aside>
   </section>
@@ -55,8 +52,8 @@ const topStories = loadTopStories(2).slice(0, 9);
   {topStories.length > 0 && (
     <section class="mb-14">
       <div class="mb-5 flex flex-wrap items-end justify-between gap-2">
-        <h2 class="text-3xl font-bold text-slate-950">Top stories</h2>
-        <p class="text-sm font-semibold text-slate-800">Picked, grouped and ranked by the AI agents</p>
+        <h2 class="text-3xl font-semibold">Top stories</h2>
+        <p class="text-sm text-ink-muted dark:text-[#a1a1a6]">Picked, grouped and ranked by the AI agents</p>
       </div>
       <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {topStories.map((story) => <StoryCard story={story} />)}
@@ -78,7 +75,6 @@ const topStories = loadTopStories(2).slice(0, 9);
   )}
 
   <script is:inline>
-    // Relative "last update" time, kept fresh while the page is open.
     const rel = (t) => {
       const m = Math.round((Date.now() - new Date(t).getTime()) / 60000);
       return m < 1 ? "just now" : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.floor(m / 60)} h ago` : `${Math.floor(m / 1440)} d ago`;
@@ -92,4 +88,4 @@ const topStories = loadTopStories(2).slice(0, 9);
     tick();
     setInterval(tick, 30000);
   </script>
-</BaseLayout>
+</ClassicLayout>

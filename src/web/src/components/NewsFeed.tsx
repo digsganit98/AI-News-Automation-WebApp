@@ -138,13 +138,13 @@ export default function NewsFeed({ items, sources, icons, groups, buildTime, liv
         </div>
       </div>
 
-      <p class="mb-3 text-sm text-slate-500 dark:text-slate-400">
-        Showing <b class="text-slate-900 dark:text-white">{visible.length}</b> of {items.length} items
+      <p class="mb-3 text-sm font-semibold text-slate-800">
+        Showing <b class="text-slate-950 font-bold">{visible.length}</b> of {items.length} items
       </p>
 
       {visible.length === 0 ? (
         <div class="card grid place-items-center gap-3 px-6 py-16 text-center">
-          <p class="text-lg font-semibold">Nothing matches these filters</p>
+          <p class="text-lg font-semibold text-slate-900">Nothing matches these filters</p>
           <button type="button" class="chip" onClick={reset}>Clear filters</button>
         </div>
       ) : (
@@ -153,33 +153,33 @@ export default function NewsFeed({ items, sources, icons, groups, buildTime, liv
             const isNew = live && i.collectedAt && now - new Date(i.collectedAt).getTime() < 3 * HOUR;
             return (
               <article key={i.id} class="card group relative flex flex-col p-5 transition duration-300 hover:-translate-y-1">
-                <div class="mb-3 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
+                <div class="mb-3 flex items-center gap-2 text-xs font-semibold text-slate-800">
                   <span class="glass-tile grid size-7 place-items-center !rounded-lg"
                     dangerouslySetInnerHTML={{ __html: icons[i.source] ?? "" }} />
-                  <span class="font-semibold text-slate-700 dark:text-slate-200">{i.sourceName}</span>
-                  <span aria-hidden="true">·</span>
-                  <time dateTime={i.time} title={new Date(i.time).toLocaleString()}>{relativeTime(i.time, now)}</time>
+                  <span class="font-bold text-slate-950">{i.sourceName}</span>
+                  <span aria-hidden="true" class="text-slate-400">·</span>
+                  <time class="font-semibold text-slate-700" dateTime={i.time} title={new Date(i.time).toLocaleString()}>{relativeTime(i.time, now)}</time>
                   {isNew && (
-                    <span class="pill ml-auto border-emerald-300/60 bg-emerald-50 text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:text-emerald-300">New</span>
+                    <span class="pill ml-auto border-emerald-300 bg-emerald-100 text-emerald-900 font-bold">New</span>
                   )}
                 </div>
-                <h3 class="text-[16px] font-semibold leading-snug tracking-[-0.015em]">
-                  <a href={i.url} target="_blank" rel="noopener" class="after:absolute after:inset-0 group-hover:text-brand-600 dark:group-hover:text-brand-400">
+                <h3 class="text-[16px] font-bold leading-snug tracking-[-0.015em] text-slate-950">
+                  <a href={i.url} target="_blank" rel="noopener" class="after:absolute after:inset-0 text-slate-950 hover:text-brand-600 transition">
                     {i.title}
                   </a>
                 </h3>
                 {i.excerpt && (
-                  <p class="mt-2 line-clamp-3 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{i.excerpt}</p>
+                  <p class="mt-2 line-clamp-3 text-sm leading-relaxed text-slate-900 font-normal">{i.excerpt}</p>
                 )}
-                <div class="relative z-10 mt-auto flex flex-wrap items-center gap-2 pt-4 text-xs">
-                  {i.points ? <span class="pill border-orange-200 bg-orange-50 text-orange-700 dark:border-orange-400/30 dark:bg-orange-400/10 dark:text-orange-300">▲ {i.points}</span> : null}
-                  {i.comments ? <span class="pill border-slate-200 text-slate-600 dark:border-white/10 dark:text-slate-300">{i.comments} comments</span> : null}
-                  {i.upvotes ? <span class="pill border-amber-200 bg-amber-50 text-amber-700 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-300">▲ {i.upvotes} upvotes</span> : null}
-                  {i.likes ? <span class="pill border-pink-200 bg-pink-50 text-pink-700 dark:border-pink-400/30 dark:bg-pink-400/10 dark:text-pink-300">♥ {i.likes.toLocaleString()}</span> : null}
-                  <span class="ml-auto flex gap-3 font-medium">
-                    {i.arxivUrl && <a class="text-brand-600 hover:underline dark:text-brand-400" href={i.arxivUrl} target="_blank" rel="noopener">Paper</a>}
-                    {i.githubRepo && <a class="text-brand-600 hover:underline dark:text-brand-400" href={i.githubRepo} target="_blank" rel="noopener">Code</a>}
-                    {i.discussionUrl && i.discussionUrl !== i.url && <a class="text-brand-600 hover:underline dark:text-brand-400" href={i.discussionUrl} target="_blank" rel="noopener">Discussion</a>}
+                <div class="relative z-10 mt-auto flex flex-wrap items-center gap-2 pt-4 text-xs font-medium">
+                  {i.points ? <span class="pill border-orange-200 bg-orange-50 text-orange-800 font-semibold">▲ {i.points}</span> : null}
+                  {i.comments ? <span class="pill border-slate-300 bg-slate-100 text-slate-800 font-semibold">{i.comments} comments</span> : null}
+                  {i.upvotes ? <span class="pill border-amber-200 bg-amber-50 text-amber-800 font-semibold">▲ {i.upvotes} upvotes</span> : null}
+                  {i.likes ? <span class="pill border-pink-200 bg-pink-50 text-pink-800 font-semibold">♥ {i.likes.toLocaleString()}</span> : null}
+                  <span class="ml-auto flex gap-3 font-bold">
+                    {i.arxivUrl && <a class="text-brand-600 hover:underline" href={i.arxivUrl} target="_blank" rel="noopener">Paper</a>}
+                    {i.githubRepo && <a class="text-brand-600 hover:underline" href={i.githubRepo} target="_blank" rel="noopener">Code</a>}
+                    {i.discussionUrl && i.discussionUrl !== i.url && <a class="text-brand-600 hover:underline" href={i.discussionUrl} target="_blank" rel="noopener">Discussion</a>}
                   </span>
                 </div>
               </article>

@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import RndIdeaHub from "../components/RndIdeaHub";
+import ideasData from "../data/rndIdeas.json";
+import type { RndIdea } from "../lib/rndTypes";
+
+const ideas = ideasData as RndIdea[];
+---
+
+<BaseLayout
+  title="R&D Ideas"
+  current="ideas"
+  description="Curated AI concepts, frameworks, and architectures for builders."
+  showFooter
+>
+  <div class="mb-6">
+    <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">R&D Ideas</h1>
+    <p class="mt-2 text-base font-medium text-slate-800">
+      Curated AI concepts, frameworks, and architectures for builders.
+    </p>
+  </div>
+
+  <RndIdeaHub client:load initialIdeas={ideas} />
+</BaseLayout>
+

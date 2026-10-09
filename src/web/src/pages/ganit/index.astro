@@ -1,22 +1,19 @@
 ---
-// Home: the Latest dashboard, refreshed by every 3-hourly run.
-import NewsFeed from "../components/NewsFeed";
-import StoryCard from "../components/StoryCard.astro";
-import BaseLayout from "../layouts/BaseLayout.astro";
+// Ganit Design Home
+import NewsFeed from "../../components/NewsFeed";
+import StoryCard from "../../components/StoryCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
   GROUPS, formatDay, href, iconMap, isFeedItem, loadDays, loadSources, loadTopStories, sortNewestFirst,
   toFeedItem, toFeedSources,
-} from "../lib/siteData";
+} from "../../lib/siteData";
 
 const days = loadDays();
 const sources = loadSources();
 const latest = days[0];
-// Today and yesterday, so the feed always covers at least the last 24 hours.
-// News only: research papers have their own page, Paper Trail.
 const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items).filter(isFeedItem)).map(toFeedItem);
 const newsToday = latest?.items.filter(isFeedItem).length ?? 0;
 const buildTime = new Date().toISOString();
-// The analyst's stories from today and yesterday, most important first.
 const topStories = loadTopStories(2).slice(0, 9);
 ---
 
@@ -78,7 +75,6 @@ const topStories = loadTopStories(2).slice(0, 9);
   )}
 
   <script is:inline>
-    // Relative "last update" time, kept fresh while the page is open.
     const rel = (t) => {
       const m = Math.round((Date.now() - new Date(t).getTime()) / 60000);
       return m < 1 ? "just now" : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.floor(m / 60)} h ago` : `${Math.floor(m / 1440)} d ago`;

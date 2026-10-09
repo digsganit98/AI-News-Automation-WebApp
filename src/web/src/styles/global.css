@@ -1,253 +1,149 @@
 @import "tailwindcss";
 
-/* Dark mode follows a `dark` class on <html>, set by the theme toggle (default: system). */
-@custom-variant dark (&:where(.dark, .dark *));
-
 @theme {
-  /* Apple look: SF Pro on Apple devices, Inter (closest match) everywhere else. */
-  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  /* Apple system blue */
-  --color-brand-50: #eaf3ff;
-  --color-brand-100: #d4e7ff;
-  --color-brand-200: #a9cfff;
-  --color-brand-300: #6fb0ff;
-  --color-brand-400: #2997ff;
-  --color-brand-500: #0a84ff;
-  --color-brand-600: #0071e3;
-  --color-brand-700: #0058b0;
-  --color-violet-glow: #bf5af2;
-  --color-ink: #1d1d1f;
-  --color-ink-muted: #6e6e73;
-}
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
-/* ------------------------------------------------------------------ liquid glass tokens */
+  /* Ganit Brand Solid Colors */
+  --color-brand-blue: #1a00d9;
+  --color-brand-blue-hover: #12009e;
+  --color-brand-orange: #fe6e06;
+  --color-brand-orange-hover: #e05e00;
+
+  --color-ink: #0f172a;
+  --color-ink-muted: #1e293b;
+}
 
 :root {
-  --glass-fill: rgba(255, 255, 255, 0.5);
-  --glass-fill-strong: rgba(255, 255, 255, 0.72);
-  --glass-rim: rgba(255, 255, 255, 0.85);
-  --glass-rim-soft: rgba(255, 255, 255, 0.28);
-  --glass-edge: rgba(15, 23, 42, 0.06);
-  --glass-shadow: 0 18px 50px -20px rgba(40, 52, 120, 0.35), 0 2px 6px -2px rgba(40, 52, 120, 0.12);
-  --glass-sheen: rgba(255, 255, 255, 0.55);
-  --glass-blur: 22px;
-}
-
-.dark {
-  --glass-fill: rgba(255, 255, 255, 0.06);
-  --glass-fill-strong: rgba(255, 255, 255, 0.11);
-  --glass-rim: rgba(255, 255, 255, 0.3);
-  --glass-rim-soft: rgba(255, 255, 255, 0.06);
-  --glass-edge: rgba(0, 0, 0, 0.35);
-  --glass-shadow: 0 22px 60px -24px rgba(0, 0, 0, 0.85), 0 2px 8px -2px rgba(0, 0, 0, 0.5);
-  --glass-sheen: rgba(255, 255, 255, 0.16);
+  --ganit-blue: #1a00d9;
+  --ganit-orange: #fe6e06;
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Force pure white mode */
+    color-scheme: light;
   }
   body {
-    @apply bg-[#f5f5f7] text-ink antialiased dark:bg-black dark:text-[#f5f5f7];
-    font-feature-settings: "cv11", "ss01";
-    letter-spacing: -0.011em;
+    min-height: 100vh;
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
   }
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     letter-spacing: -0.025em;
   }
   ::selection {
-    @apply bg-brand-500/25;
+    background-color: #fe6e06;
+    color: #ffffff;
   }
 }
 
 @layer components {
-  /* Colourful, softly blurred backdrop that the glass refracts. */
+  /* Ganit original white mode ambient backdrop - strong vibrant brand gradient */
   .glass-backdrop {
     position: fixed;
     inset: 0;
     z-index: -10;
     overflow: hidden;
     pointer-events: none;
+    background-color: #ffffff;
+    background-image: radial-gradient(rgba(26, 0, 217, 0.08) 1.2px, transparent 1.2px);
+    background-size: 24px 24px;
   }
   .glass-backdrop span {
     position: absolute;
     border-radius: 9999px;
-    filter: blur(70px);
-    opacity: 0.75;
-  }
-  .dark .glass-backdrop span {
-    opacity: 0.5;
+    filter: blur(85px);
+    opacity: 0.32;
   }
 
-  /* The glass material: translucent fill, background blur, bright rim, inner sheen, depth. */
-  .glass, .card, .chip, .field, .glass-nav {
-    position: relative;
-    isolation: isolate;
-    background:
-      linear-gradient(180deg, var(--glass-sheen) 0%, transparent 42%),
-      var(--glass-fill);
-    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(185%);
-    backdrop-filter: blur(var(--glass-blur)) saturate(185%);
-    box-shadow:
-      inset 0 1px 0 0 var(--glass-rim),
-      inset 0 -1px 0 0 var(--glass-rim-soft),
-      inset 0 0 0 1px var(--glass-edge),
-      var(--glass-shadow);
-  }
-  /* Gradient rim: light catches the top-left and bottom-right edges. */
-  .glass::before, .card::before, .chip::before, .field::before, .glass-nav::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    padding: 1px;
-    pointer-events: none;
-    background: linear-gradient(135deg, var(--glass-rim) 0%, transparent 35%, transparent 65%, var(--glass-rim-soft) 100%);
-    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-    -webkit-mask-composite: xor;
-    mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
-  }
-  /* Specular highlight that follows the pointer (--mx / --my set by a small script). */
-  .glass::after, .card::after, .chip::after, .field::after, .glass-nav::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.35s ease;
-    background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 0%), rgba(255, 255, 255, 0.38), transparent 45%);
-    mix-blend-mode: soft-light;
-  }
-  .glass:hover::after, .card:hover::after, .chip:hover::after, .glass-nav:hover::after {
-    opacity: 1;
-  }
-  .dark :is(.glass, .card, .chip, .field, .glass-nav)::after {
-    background: radial-gradient(380px circle at var(--mx, 50%) var(--my, 0%), rgba(255, 255, 255, 0.14), transparent 45%);
-    mix-blend-mode: normal;
-  }
-
+  /* Solid clean card styling - High contrast solid white */
   .card {
-    @apply rounded-[26px];
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
   }
+
   .glass-tile {
-    @apply rounded-xl bg-white/70 text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_3px_rgba(15,23,42,0.12)]
-      dark:bg-white/10 dark:text-white dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.18)];
+    @apply rounded-lg bg-slate-50 text-slate-900 border border-slate-200;
   }
+
   .pill {
-    @apply inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium backdrop-blur-md;
+    @apply inline-flex items-center gap-1 rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-medium text-slate-700;
   }
+
+  /* Solid clean chips */
   .chip {
-    @apply cursor-pointer rounded-full px-3.5 py-1.5 text-sm font-medium text-slate-700 transition
-      duration-200 hover:scale-[1.03] active:scale-[0.97] dark:text-slate-200;
-    --glass-blur: 14px;
+    @apply cursor-pointer rounded-md px-2.5 py-1 text-xs font-semibold text-slate-700 bg-slate-100 border border-slate-200 transition hover:bg-slate-200;
   }
   .chip[aria-pressed="true"] {
-    @apply text-white;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.32) 0%, transparent 55%), #0071e3;
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.55),
-      inset 0 -2px 6px rgba(0, 40, 110, 0.3),
-      0 8px 22px -8px rgba(0, 113, 227, 0.65);
+    @apply text-white bg-[#1a00d9] border-[#1a00d9];
   }
+
+  /* Solid clean input fields */
   .field {
-    @apply rounded-2xl px-3.5 py-2.5 text-sm text-slate-900 outline-none transition
-      focus:ring-4 focus:ring-brand-500/20 dark:text-slate-100 [&>option]:text-slate-900;
-    --glass-blur: 16px;
+    @apply rounded-lg px-3 py-1.5 text-xs text-slate-900 bg-white border border-slate-300 outline-none transition
+      focus:border-[#1a00d9] focus:ring-1 focus:ring-[#1a00d9];
   }
+
+  /* Solid clean buttons */
   .glass-button {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition
-      duration-200 hover:scale-[1.03] active:scale-[0.97];
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(255, 255, 255, 0) 52%), #0071e3;
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.65),
-      inset 0 -3px 8px rgba(0, 40, 110, 0.3),
-      0 12px 28px -10px rgba(0, 113, 227, 0.7);
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-3.5 py-1.5 text-xs font-semibold text-white bg-[#1a00d9] hover:bg-[#12009e] transition shadow-xs;
   }
 
-  /* Floating capsule navigation, like the iOS 26 tab bar. */
+  /* Solid clean navigation */
   .glass-nav {
-    @apply rounded-full;
-    --glass-fill: rgba(255, 255, 255, 0.42);
-    --glass-blur: 18px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   }
-  .dark .glass-nav {
-    --glass-fill: rgba(22, 24, 38, 0.45);
-  }
-  /* Real refraction where the browser supports SVG backdrop filters (Chromium). */
-  .refraction .glass-nav {
-    -webkit-backdrop-filter: url(#liquidGlass) blur(10px) saturate(190%);
-    backdrop-filter: url(#liquidGlass) blur(10px) saturate(190%);
-  }
+
   .nav-link {
-    @apply relative rounded-full px-3.5 py-1.5 text-sm font-medium text-slate-600 transition duration-200
-      hover:text-slate-900 dark:text-slate-300 dark:hover:text-white;
+    @apply relative rounded-md px-3 py-1.5 text-xs font-semibold text-slate-600 transition hover:text-[#1a00d9] hover:bg-slate-50;
   }
-  .nav-link[aria-current="page"],
-  .segment[aria-pressed="true"] {
-    @apply bg-white/85 text-slate-900 shadow-[inset_0_1px_0_rgba(255,255,255,1),0_4px_14px_-4px_rgba(40,52,120,0.35)]
-      dark:bg-white/15 dark:text-white dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.25),0_4px_14px_-4px_rgba(0,0,0,0.6)];
+  .nav-link[aria-current="page"] {
+    @apply bg-slate-100 text-[#1a00d9];
   }
-  /* iOS segmented control: one glass capsule, the chosen segment lifts out of it. */
+
   .segment {
-    @apply rounded-full px-3.5 py-1.5 text-[13px] font-medium whitespace-nowrap text-slate-600 transition duration-200
-      hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/50
-      dark:text-slate-300 dark:hover:text-white;
+    @apply rounded-md px-2.5 py-1 text-xs font-medium text-slate-600 transition hover:text-slate-900;
   }
-  /* Quiet round icon button (save, cite), 36px: comfortable to tap. */
+  .segment[aria-pressed="true"] {
+    @apply bg-[#1a00d9] text-white;
+  }
+
   .icon-button {
-    @apply grid size-9 place-items-center rounded-full text-slate-500 transition duration-200 hover:bg-black/5
-      hover:text-slate-900 active:scale-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/50
-      dark:text-slate-400 dark:hover:bg-white/10 dark:hover:text-white;
-  }
-  /* Small link capsule: Paper · PDF · Code. */
-  .link-capsule {
-    @apply inline-flex items-center gap-1 rounded-full bg-black/[0.04] px-2.5 py-1 text-xs font-medium text-brand-600
-      transition hover:bg-brand-500/10 dark:bg-white/[0.07] dark:text-brand-400 dark:hover:bg-brand-400/15;
+    @apply grid size-7 place-items-center rounded-md text-slate-500 transition hover:bg-slate-100 hover:text-slate-900;
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    transition-duration: 0.01ms !important;
-    animation-duration: 0.01ms !important;
-  }
-}
-
-@media (prefers-reduced-transparency: reduce) {
-  .glass, .card, .chip, .field, .glass-nav {
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-    background: var(--glass-fill-strong);
-  }
-}
-
-/* Apple-style headline: large, tight, with a subtle gradient. */
 .headline {
-  @apply bg-gradient-to-b from-ink to-[#434346] bg-clip-text font-semibold tracking-[-0.035em] text-transparent
-    dark:from-white dark:to-[#a1a1a6];
-}
-/* Daily Digest: the whole edition at 75% size (text, cards and spacing alike), for a calmer,
-   magazine-like page. */
-.edition-scale {
-  zoom: 0.75;
+  @apply font-bold tracking-tight text-slate-900;
 }
 
 .eyebrow {
-  @apply text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6];
+  @apply text-[11px] font-bold uppercase tracking-wider text-[#1a00d9];
 }
 
-/* Stats on the home page: long, lean and faint, so they sit back in the background. */
 .kpi {
-  --glass-fill: rgba(255, 255, 255, 0.22);
-  --glass-sheen: rgba(255, 255, 255, 0.25);
-  --glass-shadow: 0 8px 28px -18px rgba(40, 52, 120, 0.3);
-  --glass-blur: 14px;
-  border-radius: 9999px;
-  opacity: 0.9;
+  @apply rounded-lg border border-slate-200 bg-white p-2.5 shadow-2xs;
 }
-.dark .kpi {
-  --glass-fill: rgba(255, 255, 255, 0.035);
-  --glass-sheen: rgba(255, 255, 255, 0.06);
-  --glass-shadow: 0 8px 28px -18px rgba(0, 0, 0, 0.7);
+
+/* Enforce crisp high contrast on white theme across all monitors */
+.text-ink-muted, .text-slate-400, .text-slate-500, .text-slate-600, .text-slate-700 {
+  color: #1e293b !important;
 }
+
+body {
+  color: #0f172a;
+}
+
+p, span, td, th {
+  -webkit-font-smoothing: antialiased;
+}
+
