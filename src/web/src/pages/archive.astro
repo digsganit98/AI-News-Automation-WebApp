@@ -1,16 +1,15 @@
 ---
 // Archive: the last 5 days, reached from the calendar icon in the header.
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { ARCHIVE_DAYS, formatDay, href, iconMap, isFeedItem, loadDays, loadDigests, loadSources } from "../lib/siteData";
+import { ARCHIVE_DAYS, formatDay, href, iconMap, isFeedItem, loadDays, loadSources } from "../lib/siteData";
 
 const days = loadDays().slice(0, ARCHIVE_DAYS);
 const icons = iconMap(loadSources());
-const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
 ---
 
 <BaseLayout title="Archive" current="archive" description={`The last ${ARCHIVE_DAYS} days of collected GenAI news.`} showFooter>
   <h1 class="headline text-4xl sm:text-6xl">Archive</h1>
-  <p class="mt-3 text-ink-muted dark:text-[#a1a1a6]">The last {ARCHIVE_DAYS} days. Pick a day to browse and filter that day's news. Papers are in <a href={href("papers")} class="font-medium text-brand-600 hover:underline dark:text-brand-400">Paper Trail</a>.</p>
+  <p class="mt-3 text-ink-muted dark:text-[#a1a1a6]">The last {ARCHIVE_DAYS} days. Pick a day to browse and filter that day's news. Research papers are on <a href={href("")} class="font-medium text-brand-600 hover:underline dark:text-brand-400">Latest</a>.</p>
 
   <div class="mt-8 grid gap-3">
     {days.length === 0 && <p class="card p-6 text-ink-muted">Nothing collected yet.</p>}
@@ -19,7 +18,6 @@ const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
       const bySource = Object.entries(
         news.reduce<Record<string, number>>((acc, i) => ({ ...acc, [i.source]: (acc[i.source] ?? 0) + 1 }), {}),
       ).sort((a, b) => b[1] - a[1]);
-      const edition = digestByDate[day.date];
       return (
         <div class="card flex flex-col gap-3 p-5 sm:flex-row sm:items-center">
           <a href={href(`day/${day.date}`)} class="group sm:w-72">
@@ -35,7 +33,6 @@ const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
             ))}
           </div>
           <div class="flex gap-4 text-sm font-semibold">
-            {edition && <a href={href(`digest/${day.date}`)} class="text-[#bf5af2] hover:underline">Digest</a>}
             <a href={href(`day/${day.date}`)} class="text-brand-600 hover:underline dark:text-brand-400">Open →</a>
           </div>
         </div>

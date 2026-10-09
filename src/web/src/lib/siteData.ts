@@ -203,8 +203,72 @@ export function toFeedItem(item: NewsItem): FeedItem {
   };
 }
 
+/** A paper as a feed row, so Latest can show news and research papers in one list. */
+export function paperToFeedItem(p: Paper): FeedItem {
+  const first = p.spottedOn[0];
+  const abstract = p.agentNote?.whyItMatters || p.abstract;
+  return {
+    id: `paper:${p.id}`,
+    source: first?.source ?? "arxiv",
+    sourceName: first?.name ?? "arXiv",
+    title: p.title,
+    url: p.links.abs ?? first?.url ?? "",
+    time: p.time,
+    excerpt: abstract.length > 280 ? `${abstract.slice(0, 279)}…` : abstract,
+    upvotes: p.upvotes || undefined,
+    arxivUrl: p.links.abs,
+    githubRepo: p.links.code,
+    kind: "paper",
+  };
+}
+
+/** An R&D Hub article as a feed row. */
+export function hubToFeedItem(a: HubArticle): FeedItem {
+  return {
+    id: `hub:${a.id}`,
+    source: HUB_SOURCE_ID,
+    sourceName: `${a.team} · ${a.author}`,
+    title: a.title,
+    url: href(`hub/${a.file}`),
+    time: a.publishedAt,
+    excerpt: a.summary,
+    kind: "hub",
+  };
+}
+
 export function toFeedSources(sources: SourceInfo[]): FeedSource[] {
   return sources.map(({ id, name, group }) => ({ id, name, group }));
+}
+
+// ------------------------------------------------------------------ R&D Hub
+// Articles written by our own teams. Each is a small JSON file in data/hub/ plus the article
+// itself (an .html or .pdf file) in src/web/public/hub/. The R&D Hub page lists them.
+
+export const HUB_SOURCE_ID = "rd-hub";
+export const HUB_FORMATS = ["html", "pdf"] as const;
+
+export interface HubArticle {
+  id: string;
+  title: string;
+  summary: string;
+  author: string;
+  team: string;
+  tags: string[];
+  format: (typeof HUB_FORMATS)[number];
+  file: string; // file name inside src/web/public/hub/
+  publishedAt: string;
+  featured?: boolean;
+}
+
+export function loadHubArticles(): HubArticle[] {
+  const dir = path.join(repoRoot, "data", "hub");
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as HubArticle)
+    .filter((a) => HUB_FORMATS.includes(a.format) && !isBlocked(`${a.title} ${a.summary} ${a.tags.join(" ")}`))
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 
 // ------------------------------------------------------------------ AI agent output

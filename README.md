@@ -8,7 +8,7 @@
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
-Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning, **on the site by 09:30 IST**, they also write the **Daily Digest**: three short opinion takes on what's happening in GenAI. It runs for free on GitHub, even when your computer is off.
+Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. News and research papers sit together on one page, and teams can share their own write-ups in the **R&D Hub**. It runs for free on GitHub, even when your computer is off.
 
 | At a glance | |
 |---|---|
@@ -40,14 +40,13 @@ Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research 
 
 | Page | What it's for |
 |---|---|
-| **Latest** | The live **news** dashboard, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then every news item collected, with filters and search. |
-| **Daily Digest** | The morning briefing, **live by 09:30 IST**: three short, AI-written opinion **takes** on the day's biggest themes, one per card. Each card gives a one-line verdict, then *What happened · Our take · Watch for*, and links to the stories it's based on. Swipe, use the arrow keys or the buttons; the deck ends with "You're all caught up". About 2 minutes, fact-checked by the editor. It shows no story cards: the news itself lives on Latest. (It's also what the daily email will send.) |
-| **Paper Trail** | Every GenAI **research paper** from the last 14 days, from arXiv, Hugging Face Daily Papers, and anywhere else one turns up (Hacker News, web search, agent stories), merged into one card per paper. A **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), search, "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. Works without API keys. |
-| **Sources** | The sources that worked in the latest check (failing ones aren't listed). |
-| **How it works** | The architecture, the agents and their LLMs. |
+| **Latest** | One page for **news and research papers**, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then everything collected. A switch picks **All**, **News** or **Research papers**, with search and filters. The research view adds a **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
+| **R&D Hub** | Articles written by our own teams (HTML or PDF), with search and filters. Uploading is a small **Upload** button at the top right, not the page: it opens a pop-up that adds the file on GitHub as a pull request. Checks run, a reviewer merges it, and it appears here and in Latest. Published articles are public, because the repo is. Articles are small files in `data/hub/` (details) and `src/web/public/hub/` (the file). |
+| **Sources** (feed icon, top right) | A small pop-up listing the sources that worked in the latest check, grouped. Failing ones aren't listed. |
+| **How it works** (gear icon, top right) | The architecture, the agents and their LLMs. |
 | **Archive** (calendar icon, top right) | The news from the last 5 days, each day browsable and filterable. |
 
-Each page has one job: news on Latest, papers on Paper Trail, the morning edition on Daily Digest, history in the Archive. Light and dark mode, and it works on phones.
+Each page has one job: news and research on Latest, team write-ups in the R&D Hub, history in the Archive. The morning Daily Digest page was removed; the writer and editor agents still prepare the edition for future use (such as email). Light and dark mode, and it works on phones.
 
 ## How it works
 
@@ -109,7 +108,7 @@ GenAI Daily covers AI that advances people. These rules are enforced in code and
 - **Checked three times.** (1) At collection, a block list (`blockedTerms` in [`config/sources.yaml`](config/sources.yaml)) drops matching items from every source before any AI or page sees them. (2) Every agent prompt includes the policy ([`contentPolicy.md`](src/digest/agents/prompts/contentPolicy.md)). (3) Before anything is saved, code checks what the AI wrote: a story that breaks the policy is removed, and an edition that does is withheld. The website applies the block list once more to everything it shows.
 - **English only, in plain, correct English.** Items in other languages are dropped at collection (`englishOnly` in `config/sources.yaml`). Everything the AI writes is tidied in code before it's saved: long dashes (—) between clauses become proper punctuation, odd hyphen characters are fixed, and empty bullet points or paragraphs are removed. The prompts ask for the same.
 - **Only reviewed content is published.** Raw web-search results are never shown; they reach the site only as a story an AI agent reviewed. Raw feeds come from known sources only.
-- **Transparent.** AI-written content is labelled (the Daily Digest is marked "AI-written opinion"), every story links to its original sources, and every AI call is logged in Langfuse.
+- **Transparent.** AI-written content is labelled , every story links to its original sources, and every AI call is logged in Langfuse.
 - **Grounded and fact-checked.** The AI can't invent links, and an editor agent checks every edition against the original articles (see above).
 - **Privacy.** No personal data is collected or stored; the site has no accounts, tracking or ads. (The planned email list will store only an email address, outside this public repo.)
 - **Human in charge.** The policy, block list and prompts are plain files anyone can read and change; a missing or withheld edition alerts the owner by email.

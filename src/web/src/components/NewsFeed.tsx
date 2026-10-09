@@ -18,6 +18,7 @@ export interface FeedItem {
   discussionUrl?: string;
   githubRepo?: string;
   arxivUrl?: string;
+  kind?: "news" | "paper" | "hub"; // Latest mixes all three; a pill shows which one a row is
 }
 
 export interface FeedSource {
@@ -33,6 +34,7 @@ interface Props {
   groups: Record<string, string>;
   buildTime: string;
   live?: boolean; // the Latest page: offers "last 3 h / 24 h" and "New" badges
+  searchHint?: string;
 }
 
 const HOUR = 3_600_000;
@@ -51,7 +53,7 @@ function signal(i: FeedItem): number {
   return (i.points ?? 0) + (i.comments ?? 0) + (i.upvotes ?? 0) * 5 + (i.likes ?? 0) / 10;
 }
 
-export default function NewsFeed({ items, sources, icons, groups, buildTime, live = false }: Props) {
+export default function NewsFeed({ items, sources, icons, groups, buildTime, live = false, searchHint = "Search titles and summaries…" }: Props) {
   const [now, setNow] = useState(() => new Date(buildTime).getTime());
   const [group, setGroup] = useState<string | null>(null);
   const [source, setSource] = useState("");
@@ -112,7 +114,7 @@ export default function NewsFeed({ items, sources, icons, groups, buildTime, liv
           <label class="relative">
             <span class="sr-only">Search</span>
             <svg class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
-            <input class="field w-full pl-9" type="search" placeholder="Search titles and summaries…"
+            <input class="field w-full pl-9" type="search" placeholder={searchHint}
               value={query} onInput={(e) => setQuery((e.target as HTMLInputElement).value)} />
           </label>
           <select class="field" aria-label="Source" value={source}
@@ -159,6 +161,8 @@ export default function NewsFeed({ items, sources, icons, groups, buildTime, liv
                   <span class="font-semibold text-slate-700 dark:text-slate-200">{i.sourceName}</span>
                   <span aria-hidden="true">·</span>
                   <time dateTime={i.time} title={new Date(i.time).toLocaleString()}>{relativeTime(i.time, now)}</time>
+                  {i.kind === "paper" && <span class="pill border-transparent bg-[#bf5af2]/15 text-[#8944ab] dark:text-[#d9a3ff]">Paper</span>}
+                  {i.kind === "hub" && <span class="pill border-transparent bg-amber-400/20 text-amber-700 dark:text-amber-300">R&amp;D Hub</span>}
                   {isNew && (
                     <span class="pill ml-auto border-emerald-300/60 bg-emerald-50 text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:text-emerald-300">New</span>
                   )}

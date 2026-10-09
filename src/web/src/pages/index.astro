@@ -1,26 +1,31 @@
 ---
 // Home: the Latest dashboard, refreshed by every 3-hourly run.
-import NewsFeed from "../components/NewsFeed";
+import LatestFeed from "../components/LatestFeed";
 import StoryCard from "../components/StoryCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
-  GROUPS, formatDay, href, iconMap, isFeedItem, loadDays, loadSources, loadTopStories, sortNewestFirst,
-  toFeedItem, toFeedSources,
+  GROUPS, HUB_SOURCE_ID, PAPER_DAYS, formatDay, href, hubToFeedItem, iconMap, isFeedItem, loadDays, loadHubArticles,
+  loadPapers, loadSources, loadTopStories, paperToFeedItem, sortNewestFirst, toFeedItem, toFeedSources,
 } from "../lib/siteData";
 
 const days = loadDays();
 const sources = loadSources();
 const latest = days[0];
 // Today and yesterday, so the feed always covers at least the last 24 hours.
-// News only: research papers have their own page, Paper Trail.
+// News here; research papers and R&D Hub articles join them in the "All" view.
 const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items).filter(isFeedItem)).map(toFeedItem);
 const newsToday = latest?.items.filter(isFeedItem).length ?? 0;
+const papers = loadPapers(PAPER_DAYS);
+const papersWithCode = papers.filter((p) => p.links.code).length;
+const hubItems = loadHubArticles().map(hubToFeedItem);
+const feedSources = [...toFeedSources(sources), { id: HUB_SOURCE_ID, name: "R&D Hub", group: "hub" }];
+const feedGroups = hubItems.length > 0 ? { ...GROUPS, hub: "R&D Hub" } : GROUPS;
 const buildTime = new Date().toISOString();
 // The analyst's stories from today and yesterday, most important first.
 const topStories = loadTopStories(2).slice(0, 9);
 ---
 
-<BaseLayout title="Latest" current="home" showFooter>
+<BaseLayout title="Latest" current="home" showFooter description="The latest Generative AI news and research papers from 28 sources, updated every 3 hours.">
   <section class="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
    <div class="text-center sm:text-left">
     <p class="glass mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-ink dark:text-white">
@@ -29,7 +34,7 @@ const topStories = loadTopStories(2).slice(0, 9);
     </p>
     <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">Today in<br />Generative AI.</h1>
     <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
-      New models, tools, cloud features and real-world uses: from AI labs, cloud platforms, Hacker News, Reddit, YouTube and newsletters, every 3 hours.
+      New models, tools, cloud features, research papers and real-world uses: from AI labs, cloud platforms, arXiv, Hacker News, Reddit, YouTube and newsletters, every 3 hours.
     </p>
     {latest && <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
    </div>
@@ -41,6 +46,13 @@ const topStories = loadTopStories(2).slice(0, 9);
         <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
       </div>
       <p class="text-xl font-semibold tracking-[-0.03em]">{newsToday}</p>
+    </div>
+    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+      <div>
+        <p class="eyebrow !text-[10px]">Papers · {PAPER_DAYS} days</p>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400">{papersWithCode} with code</p>
+      </div>
+      <p class="text-xl font-semibold tracking-[-0.03em]">{papers.length}</p>
     </div>
     <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
       <div>
@@ -64,15 +76,22 @@ const topStories = loadTopStories(2).slice(0, 9);
     </section>
   )}
 
-  <div class="mb-5 flex flex-wrap items-end justify-between gap-2">
-    <h2 class="text-3xl font-semibold">{topStories.length > 0 ? "Everything collected" : "Latest news"}</h2>
-    <a href={href("papers")} class="text-sm font-medium text-brand-600 hover:underline dark:text-brand-400">Research papers are in Paper Trail →</a>
-  </div>
-  {items.length > 0 ? (
-    <NewsFeed client:load items={items} sources={toFeedSources(sources)} icons={iconMap(sources)} groups={GROUPS} buildTime={buildTime} live />
+  {items.length > 0 || papers.length > 0 ? (
+    <LatestFeed
+      client:load
+      news={items}
+      papers={papers}
+      paperItems={papers.map(paperToFeedItem)}
+      hubItems={hubItems}
+      sources={feedSources}
+      icons={{ ...iconMap(sources), [HUB_SOURCE_ID]: iconMap([{ id: HUB_SOURCE_ID, name: "", type: "", group: "hub", icon: "", enabled: true }])[HUB_SOURCE_ID] }}
+      groups={feedGroups}
+      buildTime={buildTime}
+      csvUrl={href("papers.csv")}
+    />
   ) : (
     <div class="card px-6 py-16 text-center">
-      <p class="text-lg font-semibold">No news collected yet</p>
+      <p class="text-lg font-semibold">Nothing collected yet</p>
       <p class="mt-2 text-slate-500">The first scheduled run will fill this page within 3 hours.</p>
     </div>
   )}

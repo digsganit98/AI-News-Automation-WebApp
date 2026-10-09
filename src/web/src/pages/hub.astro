@@ -1,0 +1,40 @@
+---
+// GenAI R&D Hub: articles written by our own teams. Uploading is a small button, not the page.
+import HubArticles, { type HubCard } from "../components/HubArticles";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { href, loadHubArticles } from "../lib/siteData";
+
+const articles = loadHubArticles();
+const cards: HubCard[] = articles.map((a) => ({
+  id: a.id, title: a.title, summary: a.summary, author: a.author, team: a.team, tags: a.tags,
+  format: a.format, url: href(`hub/${a.file}`), publishedAt: a.publishedAt,
+}));
+const featuredId = articles.find((a) => a.featured)?.id;
+const teams = new Set(articles.map((a) => a.team)).size;
+const authors = new Set(articles.map((a) => a.author)).size;
+const uploadUrl = process.env.HUB_UPLOAD_URL ?? process.env.PROJECT_URL ?? "";
+---
+
+<BaseLayout title="R&D Hub" current="hub" description="Experiments, findings and lessons written by our own GenAI teams.">
+  <section class="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+    <div class="text-center sm:text-left">
+      <p class="glass mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-ink dark:text-white">Written by our teams</p>
+      <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">GenAI<br />R&amp;D Hub.</h1>
+      <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
+        Experiments, findings and lessons from folks across the company, in one place.
+      </p>
+    </div>
+    <aside class="flex shrink-0 flex-col items-center gap-2 lg:mt-3 lg:items-end" aria-label="At a glance">
+      <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+        <div><p class="eyebrow !text-[10px]">Articles</p><p class="text-[11px] text-slate-500 dark:text-slate-400">from {teams} {teams === 1 ? "team" : "teams"}</p></div>
+        <p class="text-xl font-semibold tracking-[-0.03em]">{articles.length}</p>
+      </div>
+      <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+        <div><p class="eyebrow !text-[10px]">Contributors</p></div>
+        <p class="text-xl font-semibold tracking-[-0.03em]">{authors}</p>
+      </div>
+    </aside>
+  </section>
+
+  <HubArticles client:load articles={cards} featuredId={featuredId} uploadUrl={uploadUrl} />
+</BaseLayout>

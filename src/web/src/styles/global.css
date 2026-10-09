@@ -23,8 +23,11 @@
 /* ------------------------------------------------------------------ liquid glass tokens */
 
 :root {
-  --glass-fill: rgba(255, 255, 255, 0.5);
-  --glass-fill-strong: rgba(255, 255, 255, 0.72);
+  /* Tinted glass: a soft blue-to-violet wash over the fill, so panels pick up colour. */
+  --glass-tint-a: rgba(111, 176, 255, 0.26);
+  --glass-tint-b: rgba(191, 120, 255, 0.16);
+  --glass-fill: rgba(176, 207, 255, 0.34);
+  --glass-fill-strong: rgba(196, 220, 255, 0.58);
   --glass-rim: rgba(255, 255, 255, 0.85);
   --glass-rim-soft: rgba(255, 255, 255, 0.28);
   --glass-edge: rgba(15, 23, 42, 0.06);
@@ -34,8 +37,10 @@
 }
 
 .dark {
-  --glass-fill: rgba(255, 255, 255, 0.06);
-  --glass-fill-strong: rgba(255, 255, 255, 0.11);
+  --glass-tint-a: rgba(41, 151, 255, 0.20);
+  --glass-tint-b: rgba(191, 90, 242, 0.14);
+  --glass-fill: rgba(70, 120, 255, 0.10);
+  --glass-fill-strong: rgba(90, 135, 255, 0.18);
   --glass-rim: rgba(255, 255, 255, 0.3);
   --glass-rim-soft: rgba(255, 255, 255, 0.06);
   --glass-edge: rgba(0, 0, 0, 0.35);
@@ -85,6 +90,7 @@
     isolation: isolate;
     background:
       linear-gradient(180deg, var(--glass-sheen) 0%, transparent 42%),
+      linear-gradient(135deg, var(--glass-tint-a), var(--glass-tint-b)),
       var(--glass-fill);
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(185%);
     backdrop-filter: blur(var(--glass-blur)) saturate(185%);
@@ -168,11 +174,11 @@
   /* Floating capsule navigation, like the iOS 26 tab bar. */
   .glass-nav {
     @apply rounded-full;
-    --glass-fill: rgba(255, 255, 255, 0.42);
+    --glass-fill: rgba(176, 207, 255, 0.40);
     --glass-blur: 18px;
   }
   .dark .glass-nav {
-    --glass-fill: rgba(22, 24, 38, 0.45);
+    --glass-fill: rgba(30, 50, 110, 0.45);
   }
   /* Real refraction where the browser supports SVG backdrop filters (Chromium). */
   .refraction .glass-nav {
@@ -227,19 +233,13 @@
   @apply bg-gradient-to-b from-ink to-[#434346] bg-clip-text font-semibold tracking-[-0.035em] text-transparent
     dark:from-white dark:to-[#a1a1a6];
 }
-/* Daily Digest: the whole edition at 75% size (text, cards and spacing alike), for a calmer,
-   magazine-like page. */
-.edition-scale {
-  zoom: 0.75;
-}
-
 .eyebrow {
   @apply text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6];
 }
 
 /* Stats on the home page: long, lean and faint, so they sit back in the background. */
 .kpi {
-  --glass-fill: rgba(255, 255, 255, 0.22);
+  --glass-fill: rgba(176, 207, 255, 0.24);
   --glass-sheen: rgba(255, 255, 255, 0.25);
   --glass-shadow: 0 8px 28px -18px rgba(40, 52, 120, 0.3);
   --glass-blur: 14px;
@@ -247,7 +247,7 @@
   opacity: 0.9;
 }
 .dark .kpi {
-  --glass-fill: rgba(255, 255, 255, 0.035);
+  --glass-fill: rgba(70, 120, 255, 0.07);
   --glass-sheen: rgba(255, 255, 255, 0.06);
   --glass-shadow: 0 8px 28px -18px rgba(0, 0, 0, 0.7);
 }
