@@ -216,7 +216,200 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-adds-ultrafast-mode-for-openai-gpt-6-1-sol-o-bd4872",
+      "createdAt": "2026-10-09T02:23:05.083187+00:00",
+      "headline": "AWS adds Ultrafast mode for OpenAI GPT-6.1 Sol on Amazon Bedrock",
+      "summary": "AWS has announced that OpenAI's GPT-6.1 Sol model now supports an Ultrafast mode on Amazon Bedrock. This feature is designed to provide faster inference for latency-sensitive applications.",
+      "whyItMatters": "It improves inference speed for developers building real-time applications on cloud infrastructure.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "self-retrospection-distillation-helps-ai-agents-2b1478",
+      "createdAt": "2026-10-09T02:23:05.083187+00:00",
+      "headline": "Self-Retrospection Distillation helps AI agents learn from past mistakes",
+      "summary": "Researchers introduced a technique that allows AI agents to use hindsight from completed tasks to improve predictions before starting new ones. This approach boosts performance in complex reasoning tasks without standard reward signals.",
+      "whyItMatters": "It enhances the autonomous learning capabilities of AI agents in complex environments.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.08077"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.08077",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mimesis-framework-creates-realistic-ai-user-simu-b06db0",
+      "createdAt": "2026-10-09T02:23:05.083187+00:00",
+      "headline": "MIMESIS framework creates realistic AI user simulators for interactive agents",
+      "summary": "A new framework trains AI models to simulate real human users, providing a scalable way to test and improve interactive agents. The simulator produces realistic user behaviors that lead to better agent performance.",
+      "whyItMatters": "It provides a scalable testing environment for improving interactive AI applications.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09484"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09484",
+        "code": "https://github.com/VietHoang1512/mimesis",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "gan-jiang-self-learning-ai-agent-analyzes-x-ray-b678d1",
+      "createdAt": "2026-10-09T02:23:05.083187+00:00",
+      "headline": "Gan Jiang self-learning AI agent analyzes X-ray diffraction data",
+      "summary": "Scientists developed an AI agent that analyzes powder X-ray diffraction data by learning from its own analytical experiences. The system improves its accuracy over time without retraining its core language model.",
+      "whyItMatters": "It demonstrates how specialized AI agents can achieve high precision in material science applications.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07862"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07862",
+        "code": "https://github.com/DeltaGanjiang/XDecomposer",
+        "model": null,
+        "demo": "https://ganjiang.asia/"
+      }
+    },
+    {
+      "id": "cadfather-agent-autonomously-reconstructs-editab-cd222d",
+      "createdAt": "2026-10-09T02:23:05.083187+00:00",
+      "headline": "CADFather agent autonomously reconstructs editable CAD models from 3D shapes",
+      "summary": "A new agentic system coordinates various tools to reconstruct editable computer-aided design models from 3D shapes. This approach addresses the challenge of creating accurate CAD files without manual intervention.",
+      "whyItMatters": "It automates complex 3D modeling workflows and reduces manual design effort.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09127"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09127",
+        "code": "https://github.com/kulibinai/cadfather",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-introduces-persistent-gemini-agents-8c96a4",
+      "createdAt": "2026-10-09T02:23:05.083187+00:00",
+      "headline": "Google Cloud introduces persistent Gemini Agents for long-running workplace tasks",
+      "summary": "Google Cloud has released a universal AI agent capable of managing tasks that last for hours or days, including research, document creation, and code writing. These agents maintain consistent memory and identity across different applications.",
+      "whyItMatters": "It expands the capability of enterprise AI assistants to handle multi-day workflows.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "google-cloud-introduces-gemini-agent-for-workspa-58506a",
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.cbsnews.com/news/google-gemini-ai-workplace-agent/"
+        },
+        {
+          "name": "Web search",
+          "url": "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nous-research-raises-90-million-to-expand-hermes-3f98d0",
+      "createdAt": "2026-10-09T02:23:05.083187+00:00",
+      "headline": "Nous Research raises $90 million to expand Hermes AI agent for businesses",
+      "summary": "Nous Research has secured funding from investors including Nvidia and Microsoft to develop a business version of its open-source Hermes AI agent. The company plans to help enterprises customize models while maintaining data privacy.",
+      "whyItMatters": "It highlights continued investor backing for customizable open-source enterprise agents.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/nous-research-90m-1-5bn-hermes-agent-wsj"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-08T21:32:24.407015+00:00"
+  "updatedAt": "2026-10-09T02:28:21.534509+00:00"
 }

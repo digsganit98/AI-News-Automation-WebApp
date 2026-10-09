@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-08T21:24:54.887726Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-09T02:16:44.272147+00:00",
+      "newItems": 26,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1258,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.284940Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.317581Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.317843Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318064Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318179Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318306Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318416Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318515Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318609Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318703Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318800Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318840Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.318868Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.319030Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.319060Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.319155Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.319251Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.319576Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-09T02:16:44.319757Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.319893Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.319999Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.320155Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.320260Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.320387Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.320858Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.320982Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.321098Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-09T02:16:44.321132Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -565,7 +795,387 @@
       },
       "id": "097118c8c26d95a9",
       "collectedAt": "2026-10-08T21:24:54.824125+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "publishedAt": "2026-10-08T12:00:00Z",
+      "excerpt": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "author": null,
+      "extra": {},
+      "id": "f6d3626eb7c890d9",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "The model that didn't exist, so you made it yourself",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "0f05fd4155a46f47",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+      "url": "https://huggingface.co/papers/2610.08077",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "excerpt": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary question: can hindsight teach an agent what it could have anticipated before acting? We introduce…",
+      "author": "Haoxiang Zhang, Qinglin Chen, Hiroaki Hayashi, Zhuofeng Li, Siming Zhang, Jiaxin Zhang, Jixuan Chen, Fang Wu, Pan Lu, Silvio Savarese, Julian McAuley, Chien-Sheng Wu",
+      "extra": {
+        "upvotes": 43,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.08077"
+      },
+      "id": "2b147874bb881b9c",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
+      "url": "https://huggingface.co/papers/2610.09484",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "excerpt": "Training and evaluating interactive language agents typically requires rich user interactions, yet collecting human feedback is expensive and difficult to scale. Simulated users offer a scalable alternative, but they must both resemble real user behavior and provide useful learning experiences for agents. In contrast, most agent-training frameworks rely on off-the-shelf assistant LLMs, whose helpfulness can make them overly cooperative, explicit, and behaviorally homogeneous compared with real…",
+      "author": "Hoang Phan, Dat Huynh, Andrey Zhmoginov, Qi Zeng, Wancen Mu, Yue Cao, Shengjie Bi, Yun He, Changdae Oh, Deren Lei",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/VietHoang1512/mimesis",
+        "projectPage": "https://github.com/VietHoang1512/mimesis",
+        "arxivUrl": "https://arxiv.org/abs/2610.09484"
+      },
+      "id": "b06db05fe20538db",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "A self-learning scientific agent for X-ray diffraction",
+      "url": "https://huggingface.co/papers/2610.07862",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "excerpt": "A central challenge for scientific agents is to turn analytical experience into reusable expertise grounded in physical evidence. Here we introduce Gan Jiang, a self-learning agent for powder X-ray diffraction built on a diffraction-analysis ecosystem we developed: XMatcher, XQueryer, XDecomposer and WPEM. Together, these engines span phase identification, multiphase decomposition and physics-constrained whole-pattern modelling. Gan Jiang converts analytical experience into executable skills…",
+      "author": "Bin Cao, Huichi Zhou, Runyu Yang, Jingsong Li, Shuchen Sun, Yan Song, Hanyu Gao, Zhongwei Yu, Tong-Yi Zhang, Jun Wang",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/DeltaGanjiang/XDecomposer",
+        "projectPage": "https://ganjiang.asia/",
+        "arxivUrl": "https://arxiv.org/abs/2610.07862"
+      },
+      "id": "b678d13ef1742c19",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "CADFather: Autonomous CAD Reconstruction through Coordinated Tool Use",
+      "url": "https://huggingface.co/papers/2610.09127",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "excerpt": "Reconstructing an editable CAD model from a 3D shape remains a challenging engineering task. Existing methods can propose CAD operations, but no single source of proposals works equally well across different part geometries and stages of reconstruction. We introduce CADFather, an autonomous agentic system that coordinates complementary tools to recover parametric CAD programs from 3D meshes. A vision-language assistant inspects renders of the target and intermediate reconstructions, then…",
+      "author": "Gennadiy Savrasov, Maksim Elistratov, Nikita Gavrilov, Albert Garifullin, Oleg Pavlov, Soslan Kabisov, Vladimir Frolov, Anton Konushin, Andrey Kuznetsov, Dmitrii Zhemchuzhnikov",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/kulibinai/cadfather",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.09127"
+      },
+      "id": "cd222d9494e7b533",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "OpenAI GPT-6.1 Sol now supports Ultrafast mode on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
+      "publishedAt": "2026-10-08T19:41:00Z",
+      "excerpt": "Today, AWS announces the availability of Ultrafast mode for GPT-6.1 Sol from OpenAI on Amazon Bedrock. Ultrafast mode provides faster inference for workloads where speed matters most. The Amazon Bedrock inference engine delivers the performance, security, and reliability required for production workloads. Use GPT-6.1 Sol Ultrafast for latency-sensitive applications such as real-time coding assistants, interactive agents, and customer-facing experiences that require fast, high-quality…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "a09da81804ce5b81",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "AWS Cost Explorer, Budgets, and Dashboards now support Amazon Bedrock product attributes",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
+      "publishedAt": "2026-10-08T18:51:00Z",
+      "excerpt": "AWS Cost Explorer, AWS Budgets, and AWS Cost Management Dashboards now let you analyze Amazon Bedrock costs by product attributes, a new dimension that breaks down Bedrock cost by model, model provider, inference type, and feature. In Cost Explorer and Dashboards, you can group and filter costs by these attributes. In Budgets, you can filter budgets by the same attributes. With this launch, finance and platform teams get a direct view of which models and workloads drive their Bedrock spend,…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "b62a6103b354b89d",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+      "publishedAt": "2026-10-08T23:29:43Z",
+      "excerpt": "a quiet day.",
+      "author": null,
+      "extra": {},
+      "id": "2d2415fa4281819e",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Courageous Curiosity: Day 17 of 28",
+      "url": "https://medium.com/@k_abney/courageous-curiosity-day-17-of-28-29a91c771e5a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-09T01:15:34Z",
+      "excerpt": "I’ve been wondering: What is something technology has made you more curious about rather than less? Continue reading on Medium »",
+      "author": "Kenya A.",
+      "extra": {},
+      "id": "37e14051c65750b2",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Has an Answer for Everything. That’s the Problem.",
+      "url": "https://medium.com/@gazalthakur08/ai-has-an-answer-for-everything-thats-the-problem-af2dbbc8bdb4?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-08T23:42:13Z",
+      "excerpt": "What LLM hallucinations are, why they happen, and what we can do about them. Continue reading on Medium »",
+      "author": "Gazal Thakur",
+      "extra": {},
+      "id": "30dfcf6e2174d04e",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "publishedAt": "2026-10-08T23:29:43Z",
+      "excerpt": "",
+      "author": "md224",
+      "extra": {
+        "points": 85,
+        "comments": 104,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50013902"
+      },
+      "id": "dfc861ef0f353165",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI-ready biological data: $1.8B global commitment",
+      "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "publishedAt": "2026-10-08T20:46:25Z",
+      "excerpt": "",
+      "author": "ray__",
+      "extra": {
+        "points": 76,
+        "comments": 8,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50011999"
+      },
+      "id": "7d8f4ef47acb10b6",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+      "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months",
+      "publishedAt": "2026-10-08T19:17:51Z",
+      "excerpt": "",
+      "author": "firstcomm",
+      "extra": {
+        "points": 60,
+        "comments": 50,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50010656"
+      },
+      "id": "5dba6e7bf30e80c5",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails - Dark Reading",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+      "publishedAt": "2026-10-07T21:09:59Z",
+      "excerpt": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos. Alexander Culafi,Senior News Writer,Dark Reading. Anthropic will merge Project Glasswing into its existing Cyber Verification Program (CVP) to create an expanded, tiered program that gives vetted security professionals access to advanced AI cyber capabilities with varying levels of safeguards that experts say may or may not prevent misuse. It gives access to…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.225
+      },
+      "id": "3b21910dbc1e266b",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OPM Launches AI Chatbot for Federal Workforce Data - MeriTalk",
+      "url": "https://www.meritalk.com/articles/opm-launches-ai-chatbot-for-federal-workforce-data/",
+      "publishedAt": "2026-10-07T20:18:49Z",
+      "excerpt": "## The beta FWD Chat tool uses ChatGPT Luna to turn plain-English workforce questions into queries of OPM’s official personnel data. The Office of Personnel Management (OPM) launched FWD Chat on Oct. 7, adding an artificial intelligence-powered chatbot to its Federal Workforce Data (FWD) website that lets users ask questions about the federal civilian workforce in plain English and receive answers based on OPM data. The beta tool, available through OPM’s **Federal Workforce Data** site, can…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.21
+      },
+      "id": "b0c981b3a69acf92",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Chinese Hacker Deployed AI in Campaign Against South Korean Banks - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/chinese-hacker-ai-korean-banks/",
+      "publishedAt": "2026-10-08T11:00:00Z",
+      "excerpt": "Infosecurity Magazine Home » News » Chinese Hacker Deployed AI in Campaign Against South Korean Banks. # Chinese Hacker Deployed AI in Campaign Against South Korean Banks. A suspected China-based threat actor leveraged AI tooling in a campaign that successfully exfiltrated data from South Korean financial organizations, CrowdStrike has revealed. The cybersecurity firm discovered that the attacker used ARTEX, a recently released open-source agentic pentesting tool developed in China alongside…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.193
+      },
+      "id": "c936fef39abe05fc",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage - VentureBeat",
+      "url": "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage",
+      "publishedAt": "2026-10-08T12:00:00Z",
+      "excerpt": "Google is unveiling a new universal AI agent for the workplace that can research information, create documents, write code, coordinate other AI agents and complete tasks lasting hours or days — all while maintaining the same memory, business context and identity across different applications and devices. Announced Thursday at the company's Gemini at Work 2026 event, the new Gemini agent represents Google's attempt to turn its enterprise AI offering from a collection of assistants and…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.509
+      },
+      "id": "b03881575b918288",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google launches Gemini AI workplace agent that can write code and run tasks, company says - CBS News",
+      "url": "https://www.cbsnews.com/news/google-gemini-ai-workplace-agent/",
+      "publishedAt": "2026-10-08T16:21:29Z",
+      "excerpt": "# Google launches Gemini AI workplace agent that can write code and run tasks, company says. Google on Thursday unveiled a new AI agent tailored for workplace tasks, positioning it to compete with other technology giants racing to offer their own virtual office assistants. Called Gemini, the AI is a \"universal agent\" that can write and run code, create images and media and integrate with Google products like Gmail, Docs, Drive and Sheets, as well as third-party apps like Slack and Microsoft…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.494
+      },
+      "id": "752c8f4a7c7e7e68",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Silicon Labs Brings AI to Embedded Development With Simplicity AI SDK Beta - rfid journal",
+      "url": "https://www.rfidjournal.com/news/silicon-labs-brings-ai-to-embedded-development-with-simplicity-ai-sdk-beta/225682/",
+      "publishedAt": "2026-10-07T16:00:51Z",
+      "excerpt": "# Silicon Labs Brings AI to Embedded Development With Simplicity AI SDK Beta. * *Silicon Labs opened a public beta of its Simplicity AI SDK, giving developers and their existing AI coding assistants context-aware access to the company’s SDKs, tools, documentation and connected hardware.*. * *The company also previewed a Hardware Intent Agent, open-sourced BLE sample apps on GitHub and partnered with Databricks to connect edge AI with enterprise MLOps workflows.*. The company is bringing AI…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.482
+      },
+      "id": "1a9ad7f3d4888297",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft brings more AI to PCs - iTnews",
+      "url": "https://www.itnews.com.au/news/microsoft-brings-more-ai-to-pcs-629506",
+      "publishedAt": "2026-10-07T20:01:00Z",
+      "excerpt": "## Microsoft brings more AI to PCs ## CSIRO finds permanent CISO ## The new Intel-powered Surface family is here! Microsoft has unveiled an AI coding model that can run directly on personal computers and ⁠new security technology ⁠to prevent AI agents from accessing data without permission, challenging Apple's push to bring more AI into personal devices. As a guardrail against increasingly autonomous AI agents that have created security risks, Microsoft said it was releasing Microsoft Execution…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.405
+      },
+      "id": "391cb12bdf99221a",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Nous Research raises $90M to take its Hermes AI agent to businesses - The Next Web",
+      "url": "https://thenextweb.com/news/nous-research-90m-1-5bn-hermes-agent-wsj",
+      "publishedAt": "2026-10-07T15:18:48Z",
+      "excerpt": "Nous Research has raised $90M to build a business version of Hermes, its open-source AI agent. Nvidia, Microsoft’s M12, Samsung, Robot Ventures, Union Square Ventures, Y Combinator and Menlo Ventures are among the investors, chief executive Dillon Rolnick wrote in a note on the company’s website. The round values Nous at $1.5bn, The Wall Street Journal reported, which first broke the news. We at Nous have always delivered more with less,” Rolnick wrote. ## From fine-tuned models to an agent.…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.386
+      },
+      "id": "3f98d0178f0ef96f",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AWS launches open-source Physical AI Toolchain for robotics - The Robot Report",
+      "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+      "publishedAt": "2026-10-08T13:23:58Z",
+      "excerpt": "# AWS launches open-source Physical AI Toolchain for robotics. Amazon Web Services (AWS) today launched an open-source Physical AI Toolchain designed to help roboticists move from collecting data to training, simulating, validating and deploying AI models on their robots. The toolchain brings together AWS services and NVIDIA’s Physical AI software stack into a single development workflow. The goal is to address one of the biggest challenges facing companies developing AI-powered robots:…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.08
+      },
+      "id": "e39183bb0429b891",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "One prompt let researchers take over every AWS AgentCore agent in a region - The Next Web",
+      "url": "https://thenextweb.com/news/aws-agentcore-zenity-agentcorruption-one-prompt-agents",
+      "publishedAt": "2026-10-08T14:14:15Z",
+      "excerpt": "Researchers at Zenity Labs used a single prompt to one public-facing AI agent on Amazon Bedrock AgentCore to take over every AgentCore agent in the same AWS account and region. AgentCore is AWS’s managed service for building and running AI agents. Zenity says the chain of flaws, which it calls AgentCorruption, let its researchers read private conversations, copy agents’ source code, steal stored credentials and plant memories that changed how agents behaved. The researchers asked it, in plain…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.061
+      },
+      "id": "12f9d7282eaaf65f",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "'AgentCorruption' Puts AWS Environments At Risk With One Prompt - Dark Reading",
+      "url": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
+      "publishedAt": "2026-10-08T21:10:31Z",
+      "excerpt": "A now-patched vulnerability in AWS Bedrock AgentCore could allow an attacker to use one AI chatbot to take over an organization's entire fleet. That's according to Tamir Ishay Sharbat, director of security research at AI security vendor Zenity Labs, who detailed a now-patched flaw in AWS Bedrock AgentCore during a session at SecTor 2026 on Wednesday. But Sharbat and Zenity's research team tested the platform and found that agents deployed through Bedrock AgentCore could access the…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.049
+      },
+      "id": "fb44dced4fd205f1",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Is That Picture AI? Google’s SynthID Detector Launches to Identify AI-Generated Media - CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/google-synthid-detector-launches/",
+      "publishedAt": "2026-10-08T09:33:53Z",
+      "excerpt": "Anyone can now upload a suspicious image to Google’s online tool, but it’s not a foolproof way to check for authenticity. Google has opened its SynthID Detector to the public, so anyone with a Google, Apple or ChatGPT account can upload media to determine whether it’s been saved with a SynthID tag indicating manipulation using generative AI. To probe the level of Apple support in the tool, I created an entirely AI-generated image in Apple’s Playground app using ChatGPT’s image generation…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.038
+      },
+      "id": "46f90fe94c8f01a9",
+      "collectedAt": "2026-10-09T02:16:44.272147+00:00"
     }
   ],
-  "updatedAt": "2026-10-08T21:24:54.824125+00:00"
+  "updatedAt": "2026-10-09T02:16:44.272147+00:00"
 }
