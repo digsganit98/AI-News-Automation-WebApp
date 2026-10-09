@@ -27,7 +27,7 @@ const alsoToday = digest.topStoryIds.map((id) => stories[id]).filter((s) => s &&
 <header class="mx-auto max-w-3xl text-center">
   <p class="eyebrow mb-3 !text-[#bf5af2]">Daily Digest · {formatDay(edition.date)}</p>
   <h1 class="headline text-4xl leading-[1.08] sm:text-6xl">Today's briefing.</h1>
-  <p class="mt-3 text-lg text-ink-muted dark:text-[#a1a1a6]">
+  <p class="mt-3 text-base sm:text-lg font-medium text-slate-900 dark:text-slate-100">
     {count} {cards.length === 1 ? "take" : "takes"} · {minutes} {minutes === 1 ? "minute" : "minutes"} · AI-written opinion, fact-checked
   </p>
 </header>
@@ -48,19 +48,19 @@ const alsoToday = digest.topStoryIds.map((id) => stories[id]).filter((s) => s &&
       <article data-card={i} class="card p-8 sm:p-12">
         <p class={`flex items-center gap-2 text-[13px] font-semibold uppercase tracking-[0.08em] ${card.tone.text}`}>
           <span class={`size-2 rounded-full ${card.tone.bg}`}></span>{card.theme}
-          <span class="ml-auto text-xs font-medium normal-case tracking-normal text-ink-muted dark:text-[#a1a1a6]">{i + 1} of {cards.length}</span>
+          <span class="ml-auto text-xs font-semibold normal-case tracking-normal text-slate-800 dark:text-slate-200">{i + 1} of {cards.length}</span>
         </p>
         <h2 class="mt-4 text-3xl font-semibold leading-tight tracking-[-0.03em] sm:text-[40px]">{card.title}</h2>
-        <p class={`mt-6 rounded-2xl border-l-4 px-6 py-5 text-[24px] font-semibold leading-snug tracking-[-0.025em] ${card.tone.soft} ${card.tone.bar}`}>“{card.verdict}”</p>
-        <div class="mt-7 space-y-5 text-[17px] leading-relaxed">
-          {card.whatHappened && <p><span class="eyebrow mr-2 !text-[11px]">What happened</span><span class="text-slate-600 dark:text-slate-400">{card.whatHappened}</span></p>}
-          {card.take && <p><span class={`eyebrow mr-2 !text-[11px] ${card.tone.text}`}>Our take</span>{card.take}</p>}
-          {card.watchFor && <p><span class="eyebrow mr-2 !text-[11px]">Watch for</span><span class="text-slate-600 dark:text-slate-400">{card.watchFor}</span></p>}
-          {card.paragraphs?.map((p) => <p>{p}</p>)}
+        <p class={`mt-4 rounded-xl border-l-4 px-4 py-2.5 text-base sm:text-lg font-semibold leading-snug tracking-[-0.015em] ${card.tone.soft} ${card.tone.bar}`}>“{card.verdict}”</p>
+        <div class="mt-5 space-y-4 text-base leading-relaxed text-slate-900 dark:text-slate-100">
+          {card.whatHappened && <p><span class="eyebrow mr-2 !text-[11px] font-bold text-slate-900">What happened</span><span class="text-slate-900 dark:text-slate-100">{card.whatHappened}</span></p>}
+          {card.take && <p><span class={`eyebrow mr-2 !text-[11px] font-bold ${card.tone.text}`}>Our take</span><span class="text-slate-900 font-medium dark:text-slate-100">{card.take}</span></p>}
+          {card.watchFor && <p><span class="eyebrow mr-2 !text-[11px] font-bold text-slate-900">Watch for</span><span class="text-slate-900 dark:text-slate-100">{card.watchFor}</span></p>}
+          {card.paragraphs?.map((p) => <p class="text-slate-900 dark:text-slate-100">{p}</p>)}
         </div>
         {card.basedOn.length > 0 && (
           <p class="mt-7 flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-black/[0.06] pt-5 text-sm dark:border-white/10">
-            <span class="text-xs font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6]">Based on</span>
+            <span class="text-xs font-bold uppercase tracking-[0.08em] text-slate-800 dark:text-slate-200">Based on</span>
             {card.basedOn.map((story) => (
               <a href={story.sources[0]?.url} target="_blank" rel="noopener" class="font-medium text-brand-600 hover:underline dark:text-brand-400">{story.headline} ↗</a>
             ))}
@@ -74,15 +74,15 @@ const alsoToday = digest.topStoryIds.map((id) => stories[id]).filter((s) => s &&
         <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
       </span>
       <h2 class="mt-5 text-4xl font-semibold tracking-[-0.03em]">You're all caught up.</h2>
-      <p class="mt-2 text-lg text-ink-muted dark:text-[#a1a1a6]">The next briefing arrives tomorrow by 09:30 IST.</p>
+      <p class="mt-2 text-base font-medium text-slate-800 dark:text-slate-200">The next briefing arrives tomorrow by 09:30 IST.</p>
       {alsoToday.length > 0 && (
         <div class="mx-auto mt-8 max-w-xl text-left">
-          <h3 class="eyebrow mb-3 !text-[11px]">Also in today's news</h3>
+          <h3 class="eyebrow mb-3 !text-[11px] font-bold text-slate-900">Also in today's news</h3>
           <ul class="space-y-2.5 text-[16px]">
             {alsoToday.map((story) => (
               <li class="flex gap-3">
                 <span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-brand-500"></span>
-                <a href={story.sources[0]?.url} target="_blank" rel="noopener" class="font-medium hover:text-brand-600 dark:hover:text-brand-400">{story.headline} ↗</a>
+                <a href={story.sources[0]?.url} target="_blank" rel="noopener" class="font-medium text-slate-900 hover:text-brand-600 dark:text-slate-100 dark:hover:text-brand-400">{story.headline} ↗</a>
               </li>
             ))}
           </ul>
@@ -97,10 +97,10 @@ const alsoToday = digest.topStoryIds.map((id) => stories[id]).filter((s) => s &&
 
   <div class="mt-5 flex items-center justify-between gap-3">
     <button type="button" data-step="-1" class="chip" aria-label="Previous card">← Back</button>
-    <p class="hidden text-sm text-ink-muted sm:block dark:text-[#a1a1a6]">Swipe, or use the ← → keys</p>
+    <p class="hidden text-sm font-semibold text-slate-700 sm:block dark:text-slate-300">Swipe, or use the ← → keys</p>
     <button type="button" data-step="1" class="glass-button !py-2" aria-label="Next card"><span data-next-label>Next take</span> →</button>
   </div>
-  <p class="mt-6 text-center text-xs text-ink-muted dark:text-[#a1a1a6]">
+  <p class="mt-6 text-center text-xs font-medium text-slate-700 dark:text-slate-400">
     Written by the Writer agent and fact-checked by the Editor agent against the original articles. Opinions are the AI's, not a person's.
   </p>
 </section>
