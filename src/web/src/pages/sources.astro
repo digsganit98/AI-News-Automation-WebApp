@@ -19,14 +19,14 @@ const grouped = Object.entries(GROUPS)
 
 <BaseLayout title="Sources" current="sources" description="Where the news comes from, and whether each source is working.">
   <h1 class="headline text-4xl sm:text-6xl">Sources</h1>
-  <p class="mt-2 max-w-2xl text-ink-muted dark:text-[#a1a1a6]">
+  <p class="mt-2 max-w-2xl text-base font-medium text-slate-900">
     {working.length} sources, checked every 3 hours.
     {lastRun && <span> Last check: <time data-local-time={lastRun.runAt}>{lastRun.runAt}</time>.</span>}
   </p>
 
   {grouped.map((g) => (
     <section class="mt-8">
-      <h2 class="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">{g.label}</h2>
+      <h2 class="mb-3 text-sm font-bold uppercase tracking-wider text-slate-900">{g.label}</h2>
       <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {g.list.map((s) => {
           return (
@@ -34,8 +34,8 @@ const grouped = Object.entries(GROUPS)
               <div class="flex items-center gap-3">
                 <span class="glass-tile grid size-9 place-items-center" set:html={iconSvg(s.icon, 20)}></span>
                 <div class="min-w-0">
-                  <p class="truncate font-semibold">{s.name}</p>
-                  <p class="text-xs text-slate-500 dark:text-slate-400">{itemsToday[s.id] ?? 0} {(itemsToday[s.id] ?? 0) === 1 ? "item" : "items"} today</p>
+                  <p class="truncate font-bold text-slate-950">{s.name}</p>
+                  <p class="text-xs font-semibold text-slate-800">{itemsToday[s.id] ?? 0} {(itemsToday[s.id] ?? 0) === 1 ? "item" : "items"} today</p>
                 </div>
                 <span class="pill ml-auto border-emerald-300/60 bg-emerald-50 text-emerald-700 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:text-emerald-300">Working</span>
               </div>

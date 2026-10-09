@@ -10,10 +10,10 @@ const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
 
 <BaseLayout title="Archive" current="archive" description={`The last ${ARCHIVE_DAYS} days of collected GenAI news.`} showFooter>
   <h1 class="headline text-4xl sm:text-6xl">Archive</h1>
-  <p class="mt-3 text-ink-muted dark:text-[#a1a1a6]">The last {ARCHIVE_DAYS} days. Pick a day to browse and filter that day's news. Papers are in <a href={href("papers")} class="font-medium text-brand-600 hover:underline dark:text-brand-400">Paper Trail</a>.</p>
+  <p class="mt-3 text-base font-medium text-slate-900">The last {ARCHIVE_DAYS} days. Pick a day to browse and filter that day's news. Papers are in <a href={href("papers")} class="font-bold text-[#1a00d9] hover:underline">Paper Trail</a>.</p>
 
   <div class="mt-8 grid gap-3">
-    {days.length === 0 && <p class="card p-6 text-ink-muted">Nothing collected yet.</p>}
+    {days.length === 0 && <p class="card p-6 font-medium text-slate-800">Nothing collected yet.</p>}
     {days.map((day) => {
       const news = day.items.filter(isFeedItem);
       const bySource = Object.entries(
@@ -23,13 +23,13 @@ const digestByDate = Object.fromEntries(loadDigests().map((d) => [d.date, d]));
       return (
         <div class="card flex flex-col gap-3 p-5 sm:flex-row sm:items-center">
           <a href={href(`day/${day.date}`)} class="group sm:w-72">
-            <p class="font-semibold group-hover:text-brand-600 dark:group-hover:text-brand-400">{formatDay(day.date)}</p>
-            <p class="text-sm text-ink-muted dark:text-[#a1a1a6]">{news.length} news items · {day.runs.length} {day.runs.length === 1 ? "run" : "runs"}</p>
+            <p class="font-bold text-slate-950 group-hover:text-[#1a00d9]">{formatDay(day.date)}</p>
+            <p class="text-sm font-semibold text-slate-800">{news.length} news items · {day.runs.length} {day.runs.length === 1 ? "run" : "runs"}</p>
           </a>
           <div class="flex flex-1 flex-wrap gap-2">
             {bySource.slice(0, 8).map(([id, n]) => (
-              <span class="pill border-slate-200 text-ink-muted dark:border-white/15 dark:text-[#a1a1a6]">
-                <span class="text-ink dark:text-white" set:html={icons[id] ?? ""}></span>
+              <span class="pill border-slate-300 font-semibold text-slate-800 bg-white">
+                <span class="text-slate-950" set:html={icons[id] ?? ""}></span>
                 {n}
               </span>
             ))}

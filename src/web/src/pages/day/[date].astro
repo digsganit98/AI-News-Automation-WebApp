@@ -21,8 +21,8 @@ const items = sortNewestFirst(news).map(toFeedItem);
 ---
 
 <BaseLayout title={formatDay(day.date)} current="archive">
-  <a href={href("archive")} class="text-sm font-medium text-brand-600 hover:underline dark:text-brand-400">← Archive</a>
+  <a href={href("archive")} class="text-sm font-bold text-[#1a00d9] hover:underline">← Archive</a>
   <h1 class="headline mt-3 text-4xl sm:text-6xl">{formatDay(day.date)}</h1>
-  <p class="mb-8 mt-2 text-ink-muted dark:text-[#a1a1a6]">{news.length} news items from {day.runs.length} collection {day.runs.length === 1 ? "run" : "runs"}.</p>
+  <p class="mb-8 mt-2 text-base font-medium text-slate-900">{news.length} news items from {day.runs.length} collection {day.runs.length === 1 ? "run" : "runs"}.</p>
   <NewsFeed client:load items={items} sources={toFeedSources(sources)} icons={iconMap(sources)} groups={GROUPS} buildTime={day.updatedAt} />
 </BaseLayout>
