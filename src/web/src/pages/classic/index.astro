@@ -1,0 +1,91 @@
+---
+// Classic UI route
+import NewsFeed from "../../components/NewsFeed";
+import StoryCard from "../../components/StoryCard.astro";
+import ClassicLayout from "../../layouts/ClassicLayout.astro";
+import {
+  GROUPS, formatDay, href, iconMap, isFeedItem, loadDays, loadSources, loadTopStories, sortNewestFirst,
+  toFeedItem, toFeedSources,
+} from "../../lib/siteData";
+
+const days = loadDays();
+const sources = loadSources();
+const latest = days[0];
+const items = sortNewestFirst(days.slice(0, 2).flatMap((d) => d.items).filter(isFeedItem)).map(toFeedItem);
+const newsToday = latest?.items.filter(isFeedItem).length ?? 0;
+const buildTime = new Date().toISOString();
+const topStories = loadTopStories(2).slice(0, 9);
+---
+
+<ClassicLayout title="Latest (Classic UI)" current="home" showFooter>
+  <section class="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+   <div class="text-center sm:text-left">
+    <p class="glass mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-ink dark:text-white">
+      <span class="relative flex size-2"><span class="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex size-2 rounded-full bg-emerald-500"></span></span>
+      Live · updates every 3 hours
+    </p>
+    <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">Today in<br />Generative AI.</h1>
+    <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
+      New models, tools, cloud features and real-world uses: from AI labs, cloud platforms, Hacker News, Reddit, YouTube and newsletters, every 3 hours.
+    </p>
+    {latest && <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
+   </div>
+
+   <aside class="flex shrink-0 flex-col items-center gap-2 lg:mt-3 lg:items-end" aria-label="At a glance">
+    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+      <div>
+        <p class="eyebrow !text-[10px]">News today</p>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
+      </div>
+      <p class="text-xl font-semibold tracking-[-0.03em]">{newsToday}</p>
+    </div>
+    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
+      <div>
+        <p class="eyebrow !text-[10px]">Last update</p>
+        <p class="text-[11px] text-slate-500 dark:text-slate-400" data-local-time={latest?.updatedAt ?? ""}></p>
+      </div>
+      <p class="text-xl font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
+    </div>
+   </aside>
+  </section>
+
+  {topStories.length > 0 && (
+    <section class="mb-14">
+      <div class="mb-5 flex flex-wrap items-end justify-between gap-2">
+        <h2 class="text-3xl font-semibold">Top stories</h2>
+        <p class="text-sm text-ink-muted dark:text-[#a1a1a6]">Picked, grouped and ranked by the AI agents</p>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {topStories.map((story) => <StoryCard story={story} />)}
+      </div>
+    </section>
+  )}
+
+  <div class="mb-5 flex flex-wrap items-end justify-between gap-2">
+    <h2 class="text-3xl font-semibold">{topStories.length > 0 ? "Everything collected" : "Latest news"}</h2>
+    <a href={href("papers")} class="text-sm font-medium text-brand-600 hover:underline dark:text-brand-400">Research papers are in Paper Trail →</a>
+  </div>
+  {items.length > 0 ? (
+    <NewsFeed client:load items={items} sources={toFeedSources(sources)} icons={iconMap(sources)} groups={GROUPS} buildTime={buildTime} live />
+  ) : (
+    <div class="card px-6 py-16 text-center">
+      <p class="text-lg font-semibold">No news collected yet</p>
+      <p class="mt-2 text-slate-500">The first scheduled run will fill this page within 3 hours.</p>
+    </div>
+  )}
+
+  <script is:inline>
+    const rel = (t) => {
+      const m = Math.round((Date.now() - new Date(t).getTime()) / 60000);
+      return m < 1 ? "just now" : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.floor(m / 60)} h ago` : `${Math.floor(m / 1440)} d ago`;
+    };
+    const tick = () => {
+      document.querySelectorAll("[data-relative]").forEach((el) => { if (el.dataset.relative) el.textContent = rel(el.dataset.relative); });
+    };
+    document.querySelectorAll("[data-local-time]").forEach((el) => {
+      if (el.dataset.localTime) el.textContent = new Date(el.dataset.localTime).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+    });
+    tick();
+    setInterval(tick, 30000);
+  </script>
+</ClassicLayout>
