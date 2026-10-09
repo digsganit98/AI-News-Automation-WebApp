@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-10",
+  "stories": [
+    {
+      "id": "amazon-bedrock-adds-support-for-openai-reasoning-ea623c",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "Amazon Bedrock adds support for OpenAI reasoning summaries and TwelveLabs Pegasus 1.5",
+      "summary": "Amazon Bedrock now allows developers to request human-readable summaries of reasoning processes for OpenAI models. It also integrates TwelveLabs Pegasus 1.5 to generate time-coded metadata for video analysis libraries.",
+      "whyItMatters": "These additions expand the functional capabilities and transparency tools available to developers building applications on Amazon Bedrock.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-shares-architectural-patterns-for-postman-ag-66eb0f",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "AWS shares architectural patterns for Postman Agent Mode and updates management tools",
+      "summary": "Postman detailed how it utilizes Amazon Bedrock to power Agent Mode for millions of developers with a focus on context management. Additionally, Amazon SageMaker Unified Studio introduced support for custom CloudFormation blueprints.",
+      "whyItMatters": "Sharing production architecture patterns helps teams scale complex agentic workflows and customize their cloud environments efficiently.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-releases-ml-drift-for-high-performance-on-c3700b",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "Google releases ML Drift for high-performance on-device AI inference",
+      "summary": "The Google AI Edge Team has launched ML Drift, an open-source GPU compute engine built to execute AI models directly on browsers, servers, and mobile devices. The framework focuses on improving local execution speed while supporting data privacy and offline functionality.",
+      "whyItMatters": "Efficient on-device compute engines lower latency and protect user privacy by running models locally without relying on continuous cloud connectivity.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://github.com/google-ai-edge/ml-drift"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": "https://github.com/google-ai-edge/ml-drift",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tencent-introduces-youtu-parsing-omni-for-struct-238aee",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "Tencent introduces Youtu-Parsing-Omni for structured document and media processing",
+      "summary": "Tencent has released Youtu-Parsing-Omni, a compact multimodal model designed to extract and structure text, layout elements, charts, and audio from diverse inputs. The tool converts unstructured files into organized data for easier downstream processing.",
+      "whyItMatters": "Compact multimodal parsers make it easier for organizations to digitize and extract insights from mixed document and media archives.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://huggingface.co/tencent/Youtu-Parsing-Omni"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": "https://huggingface.co/tencent/Youtu-Parsing-Omni",
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-agents-assist-in-uncovering-historical-record-563276",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "AI agents assist in uncovering historical records and scientific discoveries",
+      "summary": "Engineers are using AI agents to sift through millions of historical archives and meteorological logs, leading to the identification of lost meteorite reports and forgotten ecological data. This work builds on prior automated searches that successfully located rare historical observations.",
+      "whyItMatters": "Automated document search pipelines accelerate historical and scientific research by parsing massive archives that would take humans years to review.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "asana-reports-efficiency-gains-using-openai-mode-90995f",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "Asana reports efficiency gains using OpenAI models in browser automation tests",
+      "summary": "Asana reported significant cost and speed improvements when testing browser agents powered by OpenAI models within development workflows. The company plans to leverage these performance gains to deliver more advanced agent capabilities to customers.",
+      "whyItMatters": "Demonstrating large cost and speed reductions in automated browser tests highlights the increasing viability of production web agents.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/asana-browser-agent"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-research-introduces-code-only-as-policy-and-ff2438",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "New research introduces Code-Only-as-Policy and ViSkill frameworks for robotic and visual agents",
+      "summary": "Recent studies present Code-Only-as-Policy, which uses sensor-tracking code instead of runtime vision-language models for robot decision making, and ViSkill, which helps visual agents store and reuse successful interaction strategies.",
+      "whyItMatters": "These methods improve the efficiency and reliability of physical and visual agents by reducing runtime reliance on heavy models and enabling skill retention.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.12369"
+        },
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.12403"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.12369",
+        "code": "https://github.com/ZJU-REAL/ViSkill",
+        "model": null,
+        "demo": "https://etmcode-bit.github.io/"
+      }
+    },
+    {
+      "id": "anthropic-updates-usage-policy-to-restrict-abusi-836ea7",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "Anthropic updates usage policy to restrict abusive interactions with Claude models",
+      "summary": "Anthropic announced that sustained and needless abusive or cruel behavior toward its Claude models will constitute a violation of its usage policy starting November 12. The update has prompted varied industry discussions regarding training data quality and the perception of AI systems.",
+      "whyItMatters": "Policy updates addressing user behavior toward models highlight the evolving social norms and moderation frameworks surrounding conversational AI deployment.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.businessinsider.com/anthropic-claude-ban-chatbot-abuse-what-smart-people-are-saying-2026-10"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "arena-raises-200-million-in-series-b-funding-at-66a844",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "Arena raises $200 million in Series B funding at a $3.1 billion valuation",
+      "summary": "Arena, the crowdsourced AI model ranking platform that started at UC Berkeley, secured a $200 million Series B round led by Lightspeed Venture Partners and Khosla Ventures. The company aims to provide neutral third-party evaluations as static benchmarks become less reliable.",
+      "whyItMatters": "Significant funding will help expand neutral benchmarking services for AI models across the industry.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "odyssey-launches-odyssey-3-world-model-for-robot-ed6b4c",
+      "createdAt": "2026-10-09T21:14:34.203400+00:00",
+      "headline": "Odyssey launches Odyssey-3 world model for robot, vehicle and game control",
+      "summary": "Odyssey released Odyssey-3, a world model that gives machines a general understanding of their environment before learning specific tasks. The model demonstrated control of robot arms, cars, drones and video games, achieving top scores on several physics and simulation benchmarks.",
+      "whyItMatters": "A versatile world model can accelerate the development of autonomous systems across many domains.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/odyssey-3-world-model-robots-humanoids-cars-drones"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-09T21:14:41.001155+00:00"
+}

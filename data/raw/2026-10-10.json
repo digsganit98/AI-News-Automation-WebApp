@@ -1,0 +1,641 @@
+{
+  "date": "2026-10-10",
+  "runs": [
+    {
+      "runAt": "2026-10-09T21:04:09.745877+00:00",
+      "newItems": 29,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.763730Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.805914Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.806379Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.806689Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.806859Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807041Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807195Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807335Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807467Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807600Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807734Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807792Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.807834Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.808071Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.808119Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.808267Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.808408Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.808684Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-09T21:04:09.808819Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.808946Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.809095Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.809296Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.809452Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.809593Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.810232Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.810404Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.810568Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-09T21:04:09.810621Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "publishedAt": "2026-10-09T07:00:00Z",
+      "excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "author": null,
+      "extra": {},
+      "id": "90995f7dbc9c2674",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Impactful scheduling for GPU clusters",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "publishedAt": "2026-10-09T15:20:29Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "43ef54e74d276082",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+      "url": "https://huggingface.co/papers/2610.12369",
+      "publishedAt": "2026-10-09T00:00:00Z",
+      "excerpt": "Most robot policies keep a model in the control loop: a VLA maps observations to actions, and an Agent Harness, such as Agent-as-Policy or Harness VLA queries a VLM for decision making at run time. We propose a different view: the embodied world is an Embodied Turing Machine, whose tape is the robot and environment state and rules are the policy. If this state can be represented accurately, the decision making can be written entirely in code. We therefore propose Code-Only-as-Policy (COAP):…",
+      "author": "Kairui Hu, Siyuan Hu, Fangzhou Hong, Zhaoxi Chen, Ziwei Liu",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": "https://etmcode-bit.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.12369"
+      },
+      "id": "ff2438c2c29ba53a",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+      "url": "https://huggingface.co/papers/2610.12403",
+      "publishedAt": "2026-10-09T00:00:00Z",
+      "excerpt": "Skill-augmented agents improve sample efficiency by distilling successful trajectories into reusable strategies. Yet most existing approaches remain text-centric, linearizing spatial layouts and action-state correspondences into language that loses critical geometric structure. Recent efforts have begun incorporating visual evidence, but construct and update skills separately from policy optimization, leaving their mutual improvement underexplored. We propose ViSkill, a visual-native skill…",
+      "author": "Hongxing Li, Dingming Li, Yixin Li, Yong Du, Wenqi Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/ZJU-REAL/ViSkill",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.12403"
+      },
+      "id": "8ca89c8ffeaad4f7",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock now supports reasoning summaries for OpenAI models",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+      "publishedAt": "2026-10-09T17:44:00Z",
+      "excerpt": "Amazon Bedrock now supports the reasoning.summary parameter for OpenAI models through the Responses API. This capability lets you request a human-readable summary of a model’s reasoning alongside its response, helping you understand its approach to complex tasks such as coding, analysis, and multi-step problem solving. Reasoning summaries give developers additional context for evaluating responses, debugging applications, and showing users how a model approached a request. The summary is…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "c780c1f332034095",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-custom-tooling-blueprints/",
+      "publishedAt": "2026-10-09T08:00:00Z",
+      "excerpt": "Amazon SageMaker Unified Studio now supports custom Tooling blueprints, giving domain administrators the ability to define the foundation of every project by using their own AWS CloudFormation templates. Administrators can tailor project environments to meet organization-specific requirements, such as IAM role names that comply with company naming standards or custom permissions boundaries instead of AWS managed policies. Amazon SageMaker Unified Studio administrators start by authoring a…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "8a48c1e7bdbe0002",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "TwelveLabs Pegasus 1.5 model now available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/twelve-labs-pegasus-1-5-aws/",
+      "publishedAt": "2026-10-09T05:32:00Z",
+      "excerpt": "Amazon Bedrock now supports TwelveLabs Pegasus 1.5, a video-to-text model that generates structured, time-coded metadata from video. Until now, finding a moment in a large video library meant knowing where to look before you could ask about it. Pegasus 1.5 reads an entire video and labels what happens and when, turning footage into data your applications can query. You define what matters to your business, such as editorial segments, speaker changes, sports plays, or brand appearances, and…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "0deeee753f10c47e",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "ICYMI: What landed for AI builders in September 2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+      "publishedAt": "2026-10-09T15:38:39Z",
+      "excerpt": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.",
+      "author": "Prachi Mishra",
+      "extra": {},
+      "id": "07862ce6a3faf1ca",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
+      "publishedAt": "2026-10-09T15:35:02Z",
+      "excerpt": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amazon Bedrock at scale.",
+      "author": "Srinivas Kini",
+      "extra": {},
+      "id": "dd106deebac2ad6f",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "ChatGPT Explained: What It Is, How It Works, and How to Use It Effectively",
+      "url": "https://thegrowthledger1.medium.com/chatgpt-explained-what-it-is-how-it-works-and-how-to-use-it-effectively-0a35c4de9cd8?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-09T19:23:56Z",
+      "excerpt": "Introduction Continue reading on Medium »",
+      "author": "The Growth Ledger",
+      "extra": {},
+      "id": "88c963ae0ce7bc7e",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "5 Ways to Turn One Product Into More Short-Form Content",
+      "url": "https://medium.com/@xhush4/5-ways-to-turn-one-product-into-more-short-form-content-e23904d28fc9?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-09T18:36:01Z",
+      "excerpt": "One product should not equal one video. Continue reading on Medium »",
+      "author": "Marketing in the modern era",
+      "extra": {},
+      "id": "0ba07f9311804f28",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Large Language Models (LLMs) Actually Work: A Simple Guide for Beginners",
+      "url": "https://medium.com/@jbangar/how-large-language-models-llms-actually-work-a-simple-guide-for-beginners-e4425c79c4e4?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-09T18:17:29Z",
+      "excerpt": "Learn how ChatGPT, Claude, and Gemini work, from tokens and transformers to AI training, reasoning, and real-world applications. Continue reading on Medium »",
+      "author": "Jaidev Bangar",
+      "extra": {},
+      "id": "fcd15bc1720666ac",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Digital Marketing in 2026 and Beyond: Real Results, AI Search, and the Future of Business Growth",
+      "url": "https://tarunpsparmar.medium.com/digital-marketing-trends-2026-46a9f2a50aa6?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-09T18:06:53Z",
+      "excerpt": "The next phase of digital marketing will reward businesses that understand customer intent, build trust, and measure revenue instead of… Continue reading on Medium »",
+      "author": "Tarun Pratap Singh Parmar",
+      "extra": {},
+      "id": "a3696e7316df87e1",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "8 GPT Image 2.5 Workflows for Social Media Content",
+      "url": "https://medium.com/@henrichstenn/8-gpt-image-2-5-workflows-for-social-media-content-c5a2e323644d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-09T15:01:02Z",
+      "excerpt": "GPT Image 2.5 can produce a striking image in one step. Its value grows when a team can repeat the work: define the job, keep references… Continue reading on Medium »",
+      "author": "Henrich the growth expert",
+      "extra": {},
+      "id": "acfb88a1b50afc1d",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "publishedAt": "2026-10-09T17:02:31Z",
+      "excerpt": "",
+      "author": "tosh",
+      "extra": {
+        "points": 152,
+        "comments": 126,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50023450"
+      },
+      "id": "04902b83f5b9f295",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The super intelligence shit is a humiliation ritual for OpenAI",
+      "url": "https://bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z",
+      "publishedAt": "2026-10-09T15:18:59Z",
+      "excerpt": "",
+      "author": "doener",
+      "extra": {
+        "points": 83,
+        "comments": 77,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50021763"
+      },
+      "id": "592496c5dbdf66ec",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Court throws out killer's sentence after judge said he loved AI video of victim",
+      "url": "https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
+      "publishedAt": "2026-10-09T14:14:08Z",
+      "excerpt": "",
+      "author": "rbanffy",
+      "extra": {
+        "points": 67,
+        "comments": 72,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50020856"
+      },
+      "id": "bd09a73d35990048",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "publishedAt": "2026-10-09T11:36:20Z",
+      "excerpt": "",
+      "author": "piratebroadcast",
+      "extra": {
+        "points": 65,
+        "comments": 30,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50019056"
+      },
+      "id": "066510f0a2f23074",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "GitHub - google-ai-edge/ml-drift: GPU-Accelerated AI/ML Inference",
+      "url": "https://github.com/google-ai-edge/ml-drift",
+      "publishedAt": "2026-10-09T15:50:37Z",
+      "excerpt": "Blog Post : ML Drift: Next-Gen GPU AI/ML Inference at the Edge - Google Developers Blog The Google AI Edge Team is excited to announce the open-source release of ML Drift , our high-performance, cross-platform, on-device GPU compute engine specifically built for on-device AI/ML inference, under the Apache 2.0 license. By abstracting hardware and low-level API complexities of on-device GPUs across OpenGL ES, OpenCL, Metal, and WebGPU, ML Drift empowers developers to build real-time, interactive…",
+      "author": "/u/pmttyji",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/"
+      },
+      "id": "c3700b7f2b2ca390",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Qwen/Qwen-Image-2.1-Turbo · Hugging Face",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "publishedAt": "2026-10-09T13:28:14Z",
+      "excerpt": "",
+      "author": "/u/chocofoxy",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x1ldef/qwenqwenimage21turbo_hugging_face/"
+      },
+      "id": "7941af6584c4cea5",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Seattle Becomes First City to Stop Grocery Stores from Using AI Based Personal Data to Set Prices - Office of the Mayor",
+      "url": "https://wilson.seattle.gov/2026/09/23/seattle-becomes-first-city-to-stop-grocery-stores-from-using-ai-based-personal-data-to-set-prices/",
+      "publishedAt": "2026-10-09T12:59:23Z",
+      "excerpt": "",
+      "author": "/u/SnoozeDoggyDog",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x1kpmv/seattle_becomes_first_city_to_stop_grocery_stores/"
+      },
+      "id": "8fa5fcbb425b7856",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "tencent/Youtu-Parsing-Omni · Hugging Face",
+      "url": "https://huggingface.co/tencent/Youtu-Parsing-Omni",
+      "publishedAt": "2026-10-09T12:03:32Z",
+      "excerpt": "Youtu-Parsing-Omni is a compact (5B) omni-modal parsing model. Given a single input — a document page, a natural image, a chart / flowchart, a geometry figure, an audio clip or an audio-visual video — it produces one structured JSON envelope that covers both perception (layout elements, text, tables, formulas, bounding boxes, timestamps, ASR, OCR, acoustic events, camera motion) and cognition (captions, narratives, reports). The output family is selected by the task prompt ( --task in the…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/"
+      },
+      "id": "238aeed3d7f2b1a2",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Odyssey-3 world model controls robots, cars and drones from one base - The Next Web",
+      "url": "https://thenextweb.com/news/odyssey-3-world-model-robots-humanoids-cars-drones",
+      "publishedAt": "2026-10-08T16:21:29Z",
+      "excerpt": "Odyssey has launched Odyssey-3, a world model that the Palo Alto AI lab says can control robot arms and humanoids, drive a car, fly drones and play video games. Odyssey says its new model gives machines a general understanding of the world before they learn a specific task. > “Odyssey-3 is a big step toward a single intelligence that can understand and operate in the world around us,” said Oliver Cameron, Odyssey’s co-founder and chief executive. Odyssey-3 Pro scored 66.1 on the video-to-video…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.613
+      },
+      "id": "ed6b4ca1304be529",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic Wants to Ban Chatbot Abuse: What Smart People Are Saying - Business Insider",
+      "url": "https://www.businessinsider.com/anthropic-claude-ban-chatbot-abuse-what-smart-people-are-saying-2026-10",
+      "publishedAt": "2026-10-09T11:58:11Z",
+      "excerpt": "The AI frontier lab said that, starting November 12, it will treat \"sustained and needless abusive or cruel behavior\" toward its models as a violation of its usage policy. But critics said the new rule risks treating an AI chatbot too much like a person, while supporters said it could still make sense even if Claude is not conscious. Still, he said that people should consider what kind of interactions models are exposed to during training and use. \"Even if you don't believe AI is conscious — I…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.141
+      },
+      "id": "3ca9b44d5601c627",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic bans 'cruel' behavior against its Claude AI - Yahoo Tech",
+      "url": "https://tech.yahoo.com/ai/claude/articles/anthropic-bans-cruel-behavior-against-222309145.html",
+      "publishedAt": "2026-10-08T22:23:09Z",
+      "excerpt": "Anthropic on Thursday moved to bar users from treating its Claude AI system with needless cruelty, amid a growing philosophical debate over whether artificial intelligence can be conscious. The San Francisco-based AI lab updated its usage policy to include \"a prohibition on sustained and needless abusive or cruel behavior toward our models.\". The updated policy does not explicitly cite so-called \"model welfare,\" the idea that AI systems might deserve types of protection usually reserved for…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.115
+      },
+      "id": "c615681dd775827e",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "publishedAt": "2026-10-08T18:19:45Z",
+      "excerpt": "Arena, which originated in 2023 as a research project at UC Berkeley that crowdsourced rankings of AI models, has raised a $200 million Series B round at a $3.1 billion valuation, it said on Thursday. This comes after the company said it reached $100 million in annualized run-rate revenue in June. Arena previously announced a $150 million Series A in January at a $1.7 billion post-money valuation. At the time, its annualized revenue was $30 million, it said. In September of last year, it…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.103
+      },
+      "id": "ee0909605c2b45f1",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Y Combinator’s Paul Graham Sees an Opening for Startups to Take on Amazon Thanks to 1 Recent Decision",
+      "url": "https://www.inc.com/aaron-mok/y-combinators-paul-graham-sees-an-opening-for-startups-to-take-on-amazon-thanks-to-1-recent-decision/91417319",
+      "publishedAt": "2026-10-09T18:34:32Z",
+      "excerpt": "Startups building AI assistants are gaining traction, too. Instinct had more than 100,000 users by mid-September and raised $1 billion later that month at a $10 billion valuation, just a month after raising $250 million. Agentic AI startups worldwide had attracted $2.8 billion in venture funding by May 2025, according to Dealroom data published by Prosus. [...] Looking to start an AI company? Y Combinator cofounder Paul Graham has some unsolicited inspiration.\n\nEarlier this week, the investor…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.663
+      },
+      "id": "d3eff8782d4fa1c2",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "SNAP strains, youth baseball's class divide, and Meta's bug bounty : The Indicator from Planet Money - NPR",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5995635/snap-strains-youth-baseballs-class-divide-and-metas-bug-bounty",
+      "publishedAt": "2026-10-09T00:00:00Z",
+      "excerpt": "* Keyboard shortcuts for audio player. **SNAP strains, youth baseball's class divide, and Meta's bug bounty : The Indicator from Planet Money** **This week our top indicators include changes to the funding model for SNAP, private equity’s influence on youth baseball and Meta’s attempt to find flaws in its brand new AI assistant. **Connect with The Indicator from Planet Money**. –Find the Planet Money book. –Find the Planet Money game, Sell Me A Sasquatch, and other merch at the NPR Shop!…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.136
+      },
+      "id": "0e951c6a14f5419b",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+      "publishedAt": "2026-10-08T14:00:00Z",
+      "excerpt": "Zach Yadegari, the teen co-founder of calorie tracking app Cal AI, has launched Persona, a new AI agent startup, and already raised $10 million. The deal was big enough to convince Yadegari and his co-founders to sell the company after it had pulled in over $30 million in annual revenue in under two years, MyFitnessPal told TechCrunch at the time. Yadegari and his co-founders originally went to work for their new owner, continuing development on Cal AI, but he left the bigger company in June,…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.097
+      },
+      "id": "724f7ef3ebe4aa6a",
+      "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-09T21:04:09.745877+00:00"
+}
