@@ -1,0 +1,399 @@
+{
+  "date": "2026-10-11",
+  "runs": [
+    {
+      "runAt": "2026-10-10T20:11:36.186014+00:00",
+      "newItems": 12,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.198849Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.231276Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.231541Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.231760Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.231875Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.231982Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232083Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232181Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232275Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232370Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232501Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232548Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232578Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232753Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232784Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232885Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.232985Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.233196Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-10T20:11:36.233297Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.233394Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.233506Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.233662Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.233764Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.233861Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.234330Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.234468Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.234589Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-10T20:11:36.234623Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "publishedAt": "2026-10-10T14:04:11Z",
+      "excerpt": "Inside Standard Bots&#8217; AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
+      "author": "Richard MacManus",
+      "extra": {},
+      "id": "06d39cf072ff31d8",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Agent Design Patterns: A Field Guide",
+      "url": "https://medium.com/@_ashutoshtiwari_/ai-agent-design-patterns-a-field-guide-27492b68816f?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T19:24:44Z",
+      "excerpt": "11 Oct 2026 Continue reading on Medium »",
+      "author": "Ashutosh Tiwari",
+      "extra": {},
+      "id": "fac698abd6999072",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Best AI for Writing Essays and Papers in 2026 (Done Safely)",
+      "url": "https://medium.com/@smophyai/best-ai-for-writing-essays-and-papers-in-2026-done-safely-4be22a1963af?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T19:01:01Z",
+      "excerpt": "By Kamil Kępiński, founder of SmophyAI Continue reading on Medium »",
+      "author": "SmophyAI",
+      "extra": {},
+      "id": "309b1d73433f5bde",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Day AI Started Making Movies: How Higgsfield Is Changing Content Creation in 2026",
+      "url": "https://medium.com/@raazmuhammed0089/the-day-ai-started-making-movies-how-higgsfield-is-changing-content-creation-in-2026-3d71ac867cde?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T18:22:11Z",
+      "excerpt": "Imagine creating a cinematic advertisement, a dramatic movie scene, or a professional-looking social media video without a camera crew, an… Continue reading on Medium »",
+      "author": "Raazmuhammed",
+      "extra": {},
+      "id": "845f094e921844ed",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "RAG Is an Architecture Decision, Not a Default",
+      "url": "https://medium.com/@divyanshsrivastavaju/rag-is-an-architecture-decision-not-a-default-b46b4d8987fa?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T17:45:30Z",
+      "excerpt": "Many RAG projects are solving the wrong problem. Five cases where extraction, SQL, search or long context beat retrieval. Continue reading on Medium »",
+      "author": "Divyansh Srivastava",
+      "extra": {},
+      "id": "398eb1fdeb117c48",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Running Veo 3.1, Kling 3.0 and Seedance 2.0 side by side: what a 10-second clip actually costs",
+      "url": "https://medium.com/@mobilinadeveloper/running-veo-3-1-kling-3-0-and-seedance-2-0-side-by-side-what-a-10-second-clip-actually-costs-02b35edbf0b0?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T17:21:33Z",
+      "excerpt": "Most “which AI video model is best” posts compare output quality and stop there. The question I kept getting from people who actually ship… Continue reading on Medium »",
+      "author": "Osman Söylemez",
+      "extra": {},
+      "id": "2b3cfdd06f005a3b",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "publishedAt": "2026-10-10T14:46:16Z",
+      "excerpt": "",
+      "author": "bhrlady",
+      "extra": {
+        "points": 53,
+        "comments": 61,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50033517"
+      },
+      "id": "fb63cd8aa5546acf",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Computer scientist David Silver: ‘Where are we going without AI?’",
+      "url": "https://www.ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828?shareType%3Dnongift=",
+      "publishedAt": "2026-10-10T15:07:52Z",
+      "excerpt": "Computer scientist David Silver: ‘Where are we going without AI?’t Summary FT Lunch with David Silver (AlphaGo/AlphaZero lead) on his new lab, Ineffable Intelligence Silver led DeepMind's game-playing breakthroughs and has now left Google to start Ineffable, which raised $1.1B at a ~$5.1B valuation (Sequoia, Lightspeed, Nvidia, Google, plus UK government money). It's the largest seed round in European history, for a company with no product yet. His thesis: today's chatbots are capped because…",
+      "author": "/u/Bobbie_Sacamano",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x2hl29/computer_scientist_david_silver_where_are_we/"
+      },
+      "id": "7fd2fd92edef7ade",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Anthropic cut live internet access from every internal eval after a review found its agents exploiting websites and bypassing restrictions",
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "publishedAt": "2026-10-10T14:54:41Z",
+      "excerpt": "",
+      "author": "/u/lulzxdxdxd",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x2h9it/anthropic_cut_live_internet_access_from_every/"
+      },
+      "id": "6cd6f5cc677d305a",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Levels of AI Explained: From Narrow AI to AGI and ASI",
+      "url": "https://datanorth.ai/blog/the-different-levels-of-ai-narrow-ai-agi-and-asi",
+      "publishedAt": "2026-10-09T09:17:23Z",
+      "excerpt": "There is no broad scientific consensus that AGI has been reached. In 2023, Microsoft researchers argued that GPT-4 “could reasonably be viewed as an early (yet still incomplete) version” of AGI. Others point to gaps that benchmark scores miss. The International AI Safety Report 2026, published in February, describes capabilities as “jagged”. Leading systems may excel at some difficult tasks while failing at simpler ones. Examples include counting objects in an image and recovering from basic…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.351
+      },
+      "id": "565687b402cf94d9",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Build Your First MCP Server in Python (Stateless Spec Edition) - KDnuggets",
+      "url": "https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition",
+      "publishedAt": "2026-10-09T20:00:00Z",
+      "excerpt": "The Model Context Protocol changed in an important way this summer. With the 2026-07-28 MCP specification, the protocol core is now stateless: modern clients no longer need to establish a protocol session before making requests, and servers no longer rely on `Mcp-Session-Id` for ordinary requests. That makes MCP servers much easier to scale behind normal HTTP infrastructure. [...] Now the model sees and passes:\n\n```\nbasket_id\n```\n\nexplicitly.\n\nThe MCP maintainers specifically recommend this…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.716
+      },
+      "id": "045aeff171121886",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting - WIRED",
+      "url": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
+      "publishedAt": "2026-10-09T19:28:49Z",
+      "excerpt": "In headline after headline this year, American book publishers have appeared to be fighting back against generative AI, from suing Google for copyright infringement to canceling books by authors suspected of using LLMs. But behind the scenes, at least three of the Big Five US book publishers—HarperCollins, Simon & Schuster, and Hachette—have been quietly incorporating AI tools into their publishing processes without public disclosures or author consent. According to interviews with more than…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.036
+      },
+      "id": "0b514fc332871c5b",
+      "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-10T20:11:36.186014+00:00"
+}
