@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-09T21:04:09.810621Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-10T01:49:56.086467+00:00",
+      "newItems": 19,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.099454Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.133549Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.133861Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134088Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134207Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134317Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134422Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134521Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134642Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134743Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134842Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134885Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.134914Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.135080Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.135110Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.135211Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.135312Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.135683Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-10T01:49:56.135843Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.135955Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.136053Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.136213Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.136317Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.136414Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.136914Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.137038Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.137155Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-10T01:49:56.137187Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -635,7 +865,283 @@
       },
       "id": "724f7ef3ebe4aa6a",
       "collectedAt": "2026-10-09T21:04:09.745877+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "publishedAt": "2026-10-10T00:31:26Z",
+      "excerpt": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+      "author": null,
+      "extra": {},
+      "id": "acc65b95cb5138c3",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "interconnects",
+      "sourceName": "Interconnects",
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "publishedAt": "2026-10-09T21:33:47Z",
+      "excerpt": "I&#8217;ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn&#8217;t really know why I doubted it.",
+      "author": "Nathan Lambert",
+      "extra": {},
+      "id": "2affe4da8255287e",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Improve Your AI Art by Giving It Actual Sketches to Work With",
+      "url": "https://medium.com/tanda-ai-art-library/improve-your-ai-art-by-giving-it-actual-sketches-to-work-with-b6f91a2bd233?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T01:28:28Z",
+      "excerpt": "You don’t have to know how to draw. A rough sketch, stick figure, or scribble on your phone can sometimes explain what you want better… Continue reading on TandA AI Art Library »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "6900bb70c78289bc",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI mistranslated mathematics into code for its Navier-Stokes proof",
+      "url": "https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/",
+      "publishedAt": "2026-10-09T21:25:09Z",
+      "excerpt": "",
+      "author": "danielmorozoff",
+      "extra": {
+        "points": 55,
+        "comments": 5,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50026734"
+      },
+      "id": "b23e6974f2ebbd00",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Why are coding agents so dumb?",
+      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "publishedAt": "2026-10-09T14:21:31Z",
+      "excerpt": "",
+      "author": "mtlynch",
+      "extra": {
+        "points": 75,
+        "comments": 75,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50020947"
+      },
+      "id": "87dcf9a5de47a874",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Introducing Microsoft-Decision-1, our model for fast decision-making",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "publishedAt": "2026-10-09T22:32:47Z",
+      "excerpt": "",
+      "author": "/u/Greedyanda",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x1z0um/introducing_microsoftdecision1_our_model_for_fast/"
+      },
+      "id": "b38064f80336dfc1",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI Could Allow For 3-Day Workweeks And Single-Income Households, Bezos Claims",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/10/08/jeff-bezos-claims-ai-could-allow-for-3-day-workweeks-and-one-income-families/",
+      "publishedAt": "2026-10-09T20:11:28Z",
+      "excerpt": "This is something I've been saying for a long time. But it's interesting that it's coming from the slavemaster general himself... ​​​",
+      "author": "/u/Singularity-42",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x1vo9t/ai_could_allow_for_3day_workweeks_and/"
+      },
+      "id": "717fbcd6c55a11ed",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "RobotX AI Launches Its First Robot Brain, Xmind, Ahead of TechCrunch Disrupt 2026 - AiThority",
+      "url": "https://aithority.com/machine-learning/robotx-ai-launches-its-first-robot-brain-xmind-ahead-of-techcrunch-disrupt-2026/",
+      "publishedAt": "2026-10-09T11:47:46Z",
+      "excerpt": "Artificial Intelligence | News | Insights | AiThority. AiThority - Artificial Intelligence | News | Insights | AiThority. # RobotX AI Launches Its First Robot Brain, Xmind, Ahead of TechCrunch Disrupt 2026. RobotX AI, a robotics technology company focused on robot intelligence and deployment, today announced the launch of Xmind, its first robot brain. By integrating robotic hardware, artificial intelligence, and application development, the company helps customers incorporate robots into their…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.117
+      },
+      "id": "1dca5a11a7fc7d1d",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Andreessen Horowitz Backs Jev Maker at $7.5 Billion Value - Bloomberg.com",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/andreessen-horowitz-backs-jev-maker-at-7-5-billion-value",
+      "publishedAt": "2026-10-09T21:04:52Z",
+      "excerpt": "# Andreessen Horowitz Backs Jev Maker at $7.5 Billion Value. ## Takeaways by Bloomberg AISubscribe. TypeSafe AI, the startup behind Jev, a new artificial intelligence model that went viral after it launched only a few weeks ago, has raised about $870 million at a $7.5 billion valuation in a financing led by Andreessen Horowitz. The deal came together just weeks after the Jev launch video went viral, which TypeSafe co-founder Diogo Almeida said led to a surge of interest in the company from…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.115
+      },
+      "id": "76c21f58fe67657e",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Fox News AI Newsletter: 7 key midterm states put tech boom in focus - Fox News",
+      "url": "https://www.foxnews.com/tech/fox-news-ai-newsletter-7-key-midterm-states-put-tech-boom-focus",
+      "publishedAt": "2026-10-08T18:42:20Z",
+      "excerpt": "* #### The best defense against high-tech AI scams is low-tech skepticism, expert warns. * #### Fox News AI Newsletter: The neighborhood on the edge of America's tech frontier. ### Welcome to Fox News’ Artificial Intelligence newsletter with the latest AI technology advancements. MIND GAMES: A top official at the Department of War discussed how artificial intelligence is playing a role in war readiness strategy, and said foreign adversaries are carrying out \"psyop\" operations to fuel the…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.096
+      },
+      "id": "3c45bf747489b105",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Become 'bionic' with AI — make it your friend, expert says - Fox News",
+      "url": "https://www.foxnews.com/video/6406504644112",
+      "publishedAt": "2026-10-09T00:22:48Z",
+      "excerpt": "Log in to comment on videos and join in on the fun. Watch the live stream of Fox News and full episodes. Reduce eye strain and focus on the content that matters. # Become 'bionic' with AI — make it your friend, expert says. Invest America founder Brad Gerstner discusses how kids should view artificial intelligence and the launch of Trump Accounts on 'The Ingraham Angle.'. Invest America founder Brad Gerstner discusses how kids should view artificial intelligence, its growing role in their…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.071
+      },
+      "id": "19ab55cfacca6b33",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Best Tech Stocks To Buy Now For 2026 - Forbes",
+      "url": "https://www.forbes.com/advisor/investing/best-tech-stocks/",
+      "publishedAt": "2026-10-09T01:07:00Z",
+      "excerpt": "# 'Content-Type must be 'application/json' - when setting charset #2333. I'm using the https://github.com/modelcontextprotocol/csharp-sdk for MCP integration and when sending the initial POST it adds the Content-Type as \"application/json; charset=utf-8\" and the server replies with. 'Content-Type must be 'application/json'. Remote version of Github MCP Server. * this problem is affecting usage of Github MCP on azure foundry agents. > object: agent.version id: name: version: \"62\" description: \"\"…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.493
+      },
+      "id": "5c772bf44770754e",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "ChatGPT for Financial Services: what’s included, delayed and shareable - OpenTools",
+      "url": "https://opentools.ai/news/chatgpt-financial-services-data-access-delays-sharing",
+      "publishedAt": "2026-10-08T23:41:06Z",
+      "excerpt": "OpenAI's DevDay MCP Events launch lets a plugin start a ChatGPT workflow when its server reports a relevant change. # ChatGPT for Financial Services: what’s included, delayed and shareable. ChatGPT’s finance plan includes selected data with delays, monthly limits and source‑specific sharing rules. The financial‑data plan applies to the whole workspace. OpenAI’s September 10 launch brings selected financial datasets into a dedicated ChatGPT plan for institutions, with GPT‑6 Astra handling…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.125
+      },
+      "id": "6bc3b24b664a4857",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "This Udacity AI Course Is 50% Off Right Now, but the Deal Ends Tonight - CNET",
+      "url": "https://www.cnet.com/deals/udacity-claude-nanodegree-prime-day-deal/",
+      "publishedAt": "2026-10-08T18:50:46Z",
+      "excerpt": "# This Udacity AI Course Is 50% Off Right Now, but the Deal Ends Tonight. You can start learning production AI for as little as $106 a month with this offer, if you hurry. Sneha is a sub-editor turned commerce writer with a love for all things digital.… Read full bio. **Save 50%:** Udacity is running a 50% off flash sale on its Claude-focused production AI program, which drops the usual monthly $249 price to $125. If you want to commit for longer, the four-month prepay option is only $106 per…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.068
+      },
+      "id": "b80fcdf25d86b001",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft Teams With Target, Expands 'UCP' For Loyalty 04/21/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/414467/microsoft-teams-with-target-expands-ucp-for-loy.html",
+      "publishedAt": "2026-10-09T22:42:56Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Become a free MediaPost member now to read this article. # Microsoft Teams With Target, Expands 'UCP' For Loyalty. Advertising on Tuesday introduced general availability in the U.S. for Universal Commerce Protocol (UCP) feeds in Microsoft Merchant Center to…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.041
+      },
+      "id": "807b167bdb3ef618",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "To Pick The Right Medical LLM, First Assess Your Readiness - Clinical Leader",
+      "url": "https://www.clinicalleader.com/doc/to-pick-the-right-medical-llm-first-assess-your-readiness-0001",
+      "publishedAt": "2026-10-09T05:08:09Z",
+      "excerpt": "Medical large language models (LLMs) are being evaluated across clinical development for tasks involving protocols, investigator brochures, clinical study reports, safety narratives, scientific literature, and regulatory documents. FDA and EMA guidance also emphasizes that AI used in drug development should have a clearly defined context of use, risk-based performance assessment, appropriate data governance, and life cycle management.13. *Sources: WHO, Ethics and governance of artificial…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.122
+      },
+      "id": "871481828e664b90",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The AI Invasion Has Come for Mathematics (opinion) - Inside Higher Ed",
+      "url": "https://www.insidehighered.com/opinion/views/2026/10/09/ai-invasion-has-come-mathematics-opinion",
+      "publishedAt": "2026-10-09T07:00:00Z",
+      "excerpt": "# The AI Invasion Has Come for Mathematics. Must mathematicians resign themselves to a future in which we are mere advisers to the LLMs and their corporate overlords? The sudden onslaught of AI-generated proofs, some resolving old and very high-profile questions, appears to mathematicians as very much like an occupation by a foreign power. Like any occupying force, it is grabbing the low-hanging fruit and in time will move on; it has no interest in developing the local economy or in…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.068
+      },
+      "id": "f7940b36b48f9e4c",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Lean SuperIntelligence (LSI) Closes Initial Financing and Announces First Self-Improving, On-Premise, Lean Cybersecurity Models Beyond Mythos™ - PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/lean-superintelligence-lsi-closes-initial-financing-and-announces-first-self-improving-on-premise-lean-cybersecurity-models-beyond-mythos-302903760.html",
+      "publishedAt": "2026-10-09T17:39:00Z",
+      "excerpt": "PALO ALTO, Calif., Oct. 9, 2026 /PRNewswire/ -- **Lean SuperIntelligence (LSI) is the first AI lab to build self-improving offense and defense security LLMs that enable enterprises to stay ahead of attackers without renting out their data to the cloud. Inside LSI's Cyber World Models, every attack the offense finds becomes a lesson for the defense, and every defense that holds forces the offense to find a new path, so both models keep getting better on customers' own data. **Founded by the…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.046
+      },
+      "id": "5532b4e1c1beb558",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "publishedAt": "2026-10-09T21:41:29Z",
+      "excerpt": "# The maker of non-text AI model Jev valued at $7.5B just weeks after launch. TypeSafe AI, the developer of Jev, a new type of AI model that gained rapid popularity after launching just a few weeks ago, has raised $870 million at a $7.5 billion valuation. The startup claims that a third of Fortune 500 companies are already using the model, a remarkably swift adoption by enterprises. Jev is based on a transformer architecture, but it is not a large language model (LLM). It doesn’t output text,…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.035
+      },
+      "id": "b0e83be7355ca090",
+      "collectedAt": "2026-10-10T01:49:56.086467+00:00"
     }
   ],
-  "updatedAt": "2026-10-09T21:04:09.745877+00:00"
+  "updatedAt": "2026-10-10T01:49:56.086467+00:00"
 }
