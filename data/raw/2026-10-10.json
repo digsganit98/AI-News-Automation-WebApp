@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-10T02:16:31.232693Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-10T13:53:44.943946+00:00",
+      "newItems": 14,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.955286Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.979974Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980197Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980388Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980481Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980565Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980643Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980719Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980789Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980860Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980930Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980963Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.980985Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981109Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981132Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981207Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981279Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981449Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-10T13:53:44.981526Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981596Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981665Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981779Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981854Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.981926Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.982268Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.982374Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.982462Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-10T13:53:44.982487Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1385,7 +1615,205 @@
       },
       "id": "010fdd661cd255af",
       "collectedAt": "2026-10-10T02:16:31.169185+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "publishedAt": "2026-10-10T06:45:57Z",
+      "excerpt": "Wow.",
+      "author": null,
+      "extra": {},
+      "id": "a77859e4336cb4a4",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Integrated Safety Architecture for Suppressing Over-Immersion and Restoring Cognitive Agency in…",
+      "url": "https://pomji.medium.com/integrated-safety-architecture-for-suppressing-over-immersion-and-restoring-cognitive-agency-in-8ad37afafc3a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T13:22:37Z",
+      "excerpt": "Author: 歩夢慈 (Pomji) 音偈 -Onge- Publication date: 2026–10–10 Japanese version: https://note.com/pomji/n/n9603bf78f6e9 Continue reading on Medium »",
+      "author": "Pomji (歩夢慈)",
+      "extra": {},
+      "id": "8e0b2bbd2f5b0ee9",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Beyond Traditional SEO: How to Prepare Your Website for Generative AI Search Engines",
+      "url": "https://medium.com/@ragdban/beyond-traditional-seo-how-to-prepare-your-website-for-generative-ai-search-engines-c7c7b4ca976c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T12:32:13Z",
+      "excerpt": "Search is undergoing its most radical transformation since the inception of the PageRank algorithm. With the rise of AI Overviews… Continue reading on Medium »",
+      "author": "Ragheb Shaman Al-Ghadban",
+      "extra": {},
+      "id": "71c8f213c9fad6c7",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Transformers: How Does ChatGPT Actually Work?",
+      "url": "https://medium.com/@adityaamaniphone/transformers-how-does-chatgpt-actually-work-3670e4404aa8?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T11:35:12Z",
+      "excerpt": "AI is now being used in almost every field, and honestly, that’s what keeps me hooked. The more I learn about it, the more curious I get… Continue reading on Medium »",
+      "author": "Adityaamaniphone",
+      "extra": {},
+      "id": "e3b213fe3ecd1ba0",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI in 2026: The Race Has Moved Beyond Chatbots",
+      "url": "https://ai.plainenglish.io/ai-in-2026-the-race-has-moved-beyond-chatbots-b3568afe661d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T11:27:54Z",
+      "excerpt": "Continue reading on Artificial Intelligence in Plain English »",
+      "author": "Sonia Akther",
+      "extra": {},
+      "id": "0c9d6bc78474a77d",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "url": "https://github.com/rociiu/talorys",
+      "publishedAt": "2026-10-10T10:52:09Z",
+      "excerpt": "",
+      "author": "rociiu",
+      "extra": {
+        "points": 77,
+        "comments": 34,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50031614"
+      },
+      "id": "6b75dae75d979d91",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Rewriting Prime Agent in Rust",
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+      "publishedAt": "2026-10-09T23:06:25Z",
+      "excerpt": "",
+      "author": "piotrgrabowski",
+      "extra": {
+        "points": 57,
+        "comments": 18,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50027694"
+      },
+      "id": "2054ab2914fe8042",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "publishedAt": "2026-10-09T17:42:12Z",
+      "excerpt": "",
+      "author": "matt_d",
+      "extra": {
+        "points": 147,
+        "comments": 39,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50024090"
+      },
+      "id": "4d5a1b14f2871c7d",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "publishedAt": "2026-10-09T14:56:13Z",
+      "excerpt": "",
+      "author": "jsomers",
+      "extra": {
+        "points": 124,
+        "comments": 39,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50021410"
+      },
+      "id": "0d21a1081175f009",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "NVIDIA reportedly discontinuing RTX 5090, GB202 GPUs to be reserved for RTX PRO series",
+      "url": "https://videocardz.com/newz/nvidia-reportedly-discontinuing-rtx-5090-gb202-gpus-to-be-reserved-for-rtx-pro-series",
+      "publishedAt": "2026-10-10T10:20:08Z",
+      "excerpt": "No.....",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x2bt6r/nvidia_reportedly_discontinuing_rtx_5090_gb202/"
+      },
+      "id": "df7a20f77d087bff",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI agents like Muse can shop for you. Here's what that means for retail stocks - CNBC",
+      "url": "https://www.cnbc.com/investingclub/2026/10/09/ai-agents-could-soon-shop-for-consumers-what-it-means-for-retail-stocks.html",
+      "publishedAt": "2026-10-09T14:06:43Z",
+      "excerpt": "These new AI agents layered on top, think of them like the body , can now autonomously perform tasks for users, including shopping. This evolution from generative AI (which creates something for you) to agentic AI (an agent that does something for you) raises questions for many companies and their investors. Goldman Sachs described the potential transition as moving from \"search and shop\" to \"delegate and approve.\" Today's AI shopping tools are still largely used for product discovery and…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.308
+      },
+      "id": "9e385965dcf40762",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft tries to spark new life into Windows - The Verge",
+      "url": "https://www.theverge.com/tech/1008801/microsoft-windows-surface-event-hybrid-ai-notepad",
+      "publishedAt": "2026-10-09T17:00:00Z",
+      "excerpt": "Instead, Windows 11 feels like it’s here to stay, forming the foundation for Microsoft’s next big ambition: transforming Windows into an agentic OS. At a Windows and Surface event this week, Microsoft laid out its plan to bring AI agents to Windows, including hybrid intelligence that lets Windows take advantage of free local models instead of expensive cloud ones. It was so similar that when he mentioned the security, identity, and management aspects of Microsoft’s platform for securing…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.203
+      },
+      "id": "b401d39e611dc497",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amazon Bedrock | Artificial Intelligence",
+      "url": "https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock",
+      "publishedAt": "2026-10-09T15:38:39Z",
+      "excerpt": "Search\n\nAn abstract image\nAn abstract image\nAn abstract image\nan abstract illustration\n\nAWS is the world's most comprehensive cloud, enabling organizations to accelerate innovation, reduce costs, and scale more efficiently\n\nMigrate to modernize → Modernize to unlock data → unlock data to run AI\n\nGet started with one of these featured services or browse all\n\nalt\nalt [...] alt\nalt\n\nFrom startups to enterprises, find AWS solutions scaled to your needs. Access tailored resources, pricing models,…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.273
+      },
+      "id": "98af48debbe73e63",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Generative AI in Retail: Use Cases, Benefits & Examples",
+      "url": "https://www.straive.com/blogs/generative-ai-in-retail",
+      "publishedAt": "2026-10-09T08:38:55Z",
+      "excerpt": "Real-world examples of generative AI include Amazon’s Rufus shopping assistant, Walmart’s event-based semantic search, Carrefour’s Hopla grocery meal-planning concierge, and Zalando’s conversational fashion assistant. These enterprise systems help shoppers discover products in a conversational way while reducing friction throughout the path to purchase.\n\nHow can generative AI improve the retail customer experience? [...] Generative AI in retail refers to algorithmic architectures that generate…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.441
+      },
+      "id": "9ab9f115bf431558",
+      "collectedAt": "2026-10-10T13:53:44.943946+00:00"
     }
   ],
-  "updatedAt": "2026-10-10T02:16:31.169185+00:00"
+  "updatedAt": "2026-10-10T13:53:44.943946+00:00"
 }
