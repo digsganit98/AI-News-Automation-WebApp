@@ -1,0 +1,432 @@
+{
+  "date": "2026-10-12",
+  "runs": [
+    {
+      "runAt": "2026-10-11T20:26:11.067002+00:00",
+      "newItems": 14,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.084869Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.125714Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.126120Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.126415Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.126589Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.126758Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.126953Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.127126Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.127286Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.127443Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.127600Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.127663Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.127708Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.127976Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.128026Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.128188Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.128348Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.128638Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-11T20:26:11.128821Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.128986Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.129143Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.129367Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.129527Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.129684Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.130331Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.130518Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.130699Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-11T20:26:11.130752Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "LLM Evals: Why Your AI Application Needs More Than a Good Prompt",
+      "url": "https://medium.com/@vishesh73/llm-evals-why-your-ai-application-needs-more-than-a-good-prompt-63ed70aec90a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T20:02:21Z",
+      "excerpt": "Building an application with an LLM has become easier than ever. Continue reading on Medium »",
+      "author": "Vishesh Saxena",
+      "extra": {},
+      "id": "97b630a302895f83",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Text-to-Video vs Image-to-Video: Which Works Better in 2026?",
+      "url": "https://medium.com/@smophyai/text-to-video-vs-image-to-video-which-works-better-in-2026-df42683d0145?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T19:01:01Z",
+      "excerpt": "By Kamil Kępiński, founder of SmophyAI Continue reading on Medium »",
+      "author": "SmophyAI",
+      "extra": {},
+      "id": "dafee365e403a55d",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Did Vibe Coding Kill Software Engineering?",
+      "url": "https://medium.com/@yaroslav.yaroslav.0901/did-vibe-coding-kill-software-engineering-2e6ae66eb696?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T18:12:13Z",
+      "excerpt": "From machine instructions to AI agents. Why the principles of engineering still apply. Continue reading on Medium »",
+      "author": "Yaroslav Yaroslav",
+      "extra": {},
+      "id": "68b7aa687c91931c",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Photograph That Was Never Taken",
+      "url": "https://medium.com/illumination/the-photograph-that-was-never-taken-64078fd703be?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T16:45:56Z",
+      "excerpt": "Generative AI opened four separate doors into an election. Two of them attack your eyes. Two of them attack your sense of who else is in… Continue reading on ILLUMINATION »",
+      "author": "Emilio Ferrara",
+      "extra": {},
+      "id": "9b3593f6ca3a4dc7",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+      "publishedAt": "2026-10-11T11:03:21Z",
+      "excerpt": "",
+      "author": "Bluestein",
+      "extra": {
+        "points": 66,
+        "comments": 19,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50041873"
+      },
+      "id": "6dfdcb7ef0a20519",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "publishedAt": "2026-10-11T10:47:21Z",
+      "excerpt": "",
+      "author": "giuliomagnifico",
+      "extra": {
+        "points": 60,
+        "comments": 69,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50041765"
+      },
+      "id": "2ecde3f57bd91ef1",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Shock and awe — Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications — Autodesk tools and other subscription-based services may come next",
+      "url": "https://www.tomshardware.com/software/microsoft-office/creator-of-free-adobe-clones-unveils-open-source-microsoft-office-excel-powerpoint-and-word-replications-autodesk-tools-and-other-subscription-based-services-may-come-next",
+      "publishedAt": "2026-10-11T16:58:04Z",
+      "excerpt": "",
+      "author": "/u/exophades",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/"
+      },
+      "id": "8a1336eecbc35745",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Whistle: speech to text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "publishedAt": "2026-10-11T15:55:27Z",
+      "excerpt": "",
+      "author": "/u/namanyayg",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x3bpfl/whistle_speech_to_text_in_169_mb/"
+      },
+      "id": "f9a7f01f513e16ea",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Shock and awe — Solo developer rebuilds Adobe Creative Suite in Rust using Claude, releases it free to all — targets 100% parity in one month despite piracy claims and safety warnings",
+      "url": "https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings",
+      "publishedAt": "2026-10-11T15:04:28Z",
+      "excerpt": "",
+      "author": "/u/exophades",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x3agvw/shock_and_awe_solo_developer_rebuilds_adobe/"
+      },
+      "id": "8b3dad4b108f7d4d",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "GTA 5, Modern Warfare 2, Halo, and many other games have been ported to browser thanks to the power of AI reverse-engineering",
+      "url": "https://www.destructoid.com/vibe-coded-games-in-browsers/",
+      "publishedAt": "2026-10-11T13:51:55Z",
+      "excerpt": "",
+      "author": "/u/Nider001",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x38qz0/gta_5_modern_warfare_2_halo_and_many_other_games/"
+      },
+      "id": "a9037cdd67d8de50",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Here’s why RTX 5090 costs $5,000: AI firms are buying gaming GPUs by the pallet",
+      "url": "https://videocardz.com/newz/heres-why-rtx-5090-costs-5000-ai-firms-are-buying-gaming-gpus-by-the-pallet",
+      "publishedAt": "2026-10-11T13:08:43Z",
+      "excerpt": "",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x37tg6/heres_why_rtx_5090_costs_5000_ai_firms_are_buying/"
+      },
+      "id": "4eaa4c2cc4e56111",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Jeff Bezos says AI will deliver a 3-day work week — while Amazon cuts 30,000 jobs",
+      "url": "https://fortune.com/2026/10/09/amazon-billioniare-jeff-bezos-predicts-three-day-workweek-single-income-households-thanks-to-ai/",
+      "publishedAt": "2026-10-11T12:02:52Z",
+      "excerpt": "",
+      "author": "/u/lulzxdxdxd",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x36hoz/jeff_bezos_says_ai_will_deliver_a_3day_work_week/"
+      },
+      "id": "e3d2392ef032c6da",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI’s quiet safety gatekeepers are stepping into the spotlight",
+      "url": "https://www.cnbc.com/2026/10/11/ais-quiet-safety-gatekeepers-are-stepping-into-the-spotlight.html",
+      "publishedAt": "2026-10-11T11:00:01Z",
+      "excerpt": "Anthropic acknowledged the complexity in a blog post last month, as it announced it will embed employees from Faculty, Accenture's specialist AI business, to test safeguards and assess whether models will behave in line with human values. Anthropic said that \"given the importance and urgency of this work,\" it will fund Accenture's contributions directly. [...] It's a conversation that Amodei kicked off In his viral essay last month, when he called for a \"slower pace\" in advanced model…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.328
+      },
+      "id": "1509d3d26ab55bf1",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "A timeline of developments in AI safety since the attack on Hugging Face - ABC News",
+      "url": "https://www-cdn.abcnews.com/Technology/wireStory/timeline-developments-ai-safety-attack-hugging-face-137161979",
+      "publishedAt": "2026-10-11T01:00:00Z",
+      "excerpt": "The San Francisco-based company said it was delaying the release of a new model, called GPT-6.1 Astra, out of safety concerns voiced by its researchers. The company said the model had demonstrated leaps in completing tasks, but OpenAI needed to balance that capability against unauthorized behavior. “We have an extremely high bar in terms of safety and alignment,” said Saachi Jain, OpenAI’s head of safety systems.\n\n## Popular Reads\n\n## Hurricane Isaias: At least 4 dead as Isaias downgraded",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.164
+      },
+      "id": "76459339ca1ff6d7",
+      "collectedAt": "2026-10-11T20:26:11.067002+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-11T20:26:11.067002+00:00"
+}
