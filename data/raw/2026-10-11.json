@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-11T01:05:39.837955Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-11T02:16:31.674683+00:00",
+      "newItems": 5,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.692176Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.733214Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.733602Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.733963Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.734210Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.734396Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.734566Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.734764Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.734926Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.735086Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.735245Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.735308Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.735356Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.735617Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.735669Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.735863Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.736038Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.736329Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-11T02:16:31.736492Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.736694Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.736864Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.737092Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.737257Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.737418Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.738093Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.738282Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.738463Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-11T02:16:31.738519Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -878,7 +1108,81 @@
       },
       "id": "eddb23d851bd998b",
       "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Man wins three-year parking ticket battle after using ChatGPT as his lawyer",
+      "url": "https://www.the-independent.com/news/uk/home-news/rafal-goral-chatgpt-newquay-parking-fine-b3064142.html",
+      "publishedAt": "2026-10-10T16:30:59Z",
+      "excerpt": "",
+      "author": "/u/ThereWas",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x2jk3i/man_wins_threeyear_parking_ticket_battle_after/"
+      },
+      "id": "4b1544067b52a9f3",
+      "collectedAt": "2026-10-11T02:16:31.674683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Don’t Be Cruel to Claude: Anthropic’s New Abuse Policy Tests AI Personhood - CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/anthropic-cruel-claude-ai-model-abuse/",
+      "publishedAt": "2026-10-09T22:47:42Z",
+      "excerpt": "Omar Gallaga has covered technology, digital culture and other topics for outlets including CNET, NPR, Wired, Texas Monthly, MSNBC, Consumer Reports, The Washington Post, the Los Angeles Times, The Atlantic and the Austin American-Statesman, where he was a longtime tech reporter, editor and podcaster.… Read full bio. The AI company Anthropic has a new rule for Claude users. On Thursday, the company announced a change in its usage policy that would prevent users from engaging in “sustained and…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.251
+      },
+      "id": "d8638ad619954546",
+      "collectedAt": "2026-10-11T02:16:31.674683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - The Washington Post",
+      "url": "https://www.washingtonpost.com/business/2026/10/10/artificial-intelligence-anthropic-claude/dd5344b6-c4c1-11f1-8170-681419af1cc9_story.html",
+      "publishedAt": "2026-10-10T15:52:00Z",
+      "excerpt": "# Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case. An Anthropic artificial intelligence model submitted a false tip to Philadelphia police about an unsolved homicide case, authorities and Anthropic said. FILE - Pages from the Anthropic website and the company’s logos are displayed on a computer screen in New York on Thursday, Feb. 26, 2026. (AP Photo/Patrick Sison, File). NEW YORK — An Anthropic artificial intelligence model submitted a false tip to a…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.1
+      },
+      "id": "bcf92146e9c19d33",
+      "collectedAt": "2026-10-11T02:16:31.674683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "When AI Builds AI: 2026 Breakthroughs in Recursive Self-Improvement Technology - 36Kr",
+      "url": "https://eu.36kr.com/en/p/4019262571663237",
+      "publishedAt": "2026-10-10T00:15:16Z",
+      "excerpt": "# When AI Starts Building AI: The Year 2026 of Recursive Self-Improvement. In March this year, Andrej Karpathy open-sourced a small project called autoresearch on GitHub. The README opens with a reminiscence \"from the future\": Cutting-edge AI research used to be done by \"meat-made computers\" that needed to eat, sleep, and occasionally sync up progress in a ritual called \"group meeting\" via \"sonic interconnection\". In June, Anthropic published a long article titled **When AI Builds Itself**; on…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.086
+      },
+      "id": "0e6ef9d3141e6072",
+      "collectedAt": "2026-10-11T02:16:31.674683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "D.A.D.: Anthropic Says Its AI Agents Also Strayed Onto Government Sites — and Filed a False Police Tip — 10/10 - Buttondown",
+      "url": "https://buttondown.com/dailyaidigest/archive/dad-anthropic-says-its-ai-agents-also-strayed/",
+      "publishedAt": "2026-10-10T23:49:28Z",
+      "excerpt": "# The Daily AI Digest. # D.A.D.: Anthropic Says Its AI Agents Also Strayed Onto Government Sites — and Filed a False Police Tip — 10/10. From: Anthropic, CBS News, Financial Times, Reuters, CNBC, Engadget, Cohere, arXiv. D.A.D. Joke of the Day. My company replaced half the department with AI. ## What's New. AI developments from the last 24 hours. ### Anthropic Says Its AI Agents Also Strayed Onto Government Sites — and Filed a False Police Tip. Anthropic has published a report describing four…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.073
+      },
+      "id": "40d5193455524f71",
+      "collectedAt": "2026-10-11T02:16:31.674683+00:00"
     }
   ],
-  "updatedAt": "2026-10-11T01:05:39.786073+00:00"
+  "updatedAt": "2026-10-11T02:16:31.674683+00:00"
 }
