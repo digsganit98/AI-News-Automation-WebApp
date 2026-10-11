@@ -920,6 +920,236 @@
           "checkedAt": "2026-10-11T07:27:03.149462Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-11T14:16:39.170063+00:00",
+      "newItems": 7,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.187419Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.226446Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.226717Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.227043Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.227230Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.227402Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.227566Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.227735Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.227898Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228087Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228247Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228304Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228349Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228584Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228631Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228788Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.228946Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.229238Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-11T14:16:39.229399Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.229556Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.229707Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.229928Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.230117Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.230277Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.230859Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.231092Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.231280Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-11T14:16:39.231334Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1569,7 +1799,97 @@
       },
       "id": "2b15a9a23d06baaa",
       "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI for Java Developers: A 4-Step Learning Path",
+      "url": "https://medium.com/@boobathi.ayyasamy/generative-ai-for-java-developers-a-4-step-learning-path-49d1fbd4e540?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T13:19:59Z",
+      "excerpt": "Every few weeks a Java developer in my circle asks me the same question: where do I start with generative AI? Most of what you find online… Continue reading on Medium »",
+      "author": "Boobathi Ayyasamy",
+      "extra": {},
+      "id": "115a994a85ab4937",
+      "collectedAt": "2026-10-11T14:16:39.170063+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Real Cost of AI Video in 2026: What Credit Systems Hide",
+      "url": "https://medium.com/@smophyai/the-real-cost-of-ai-video-in-2026-what-credit-systems-hide-3f2e17027a03?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T13:01:02Z",
+      "excerpt": "By Kamil Kępiński, founder of SmophyAI Continue reading on Medium »",
+      "author": "SmophyAI",
+      "extra": {},
+      "id": "94a9eae0670b605c",
+      "collectedAt": "2026-10-11T14:16:39.170063+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Turn Information Overload Into Actionable Insights With AI",
+      "url": "https://cybernerdie.medium.com/how-to-turn-information-overload-into-actionable-insights-with-ai-c8d777f0362d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T12:08:50Z",
+      "excerpt": "Turn scattered notes, messages and documents into useful insights, without mistaking a polished summary for evidence. Continue reading on Medium »",
+      "author": "Joshua Idunnu Paul",
+      "extra": {},
+      "id": "2dd72d504cb013b5",
+      "collectedAt": "2026-10-11T14:16:39.170063+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Prototype to Production-Designing the Kartmind AI Support Agent",
+      "url": "https://medium.com/@thisisamanpanchal/from-prototype-to-production-designing-the-kartmind-ai-support-agent-28f17a0ea308?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T11:41:03Z",
+      "excerpt": "A practical guide to designing an AI support agent that is fast, safe, and affordable enough for production. Continue reading on Medium »",
+      "author": "Aman Panchal",
+      "extra": {},
+      "id": "57e0d09b83c58c40",
+      "collectedAt": "2026-10-11T14:16:39.170063+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why AI Token Costs Broke the 2026 Budget: Agent Loops, Shadow Spend and a Forecast With No Range",
+      "url": "https://medium.com/@harsh.v2001/ai-token-costs-agent-loops-shadow-spend-82192e51a598?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T11:37:03Z",
+      "excerpt": "Per-token prices fell. Enterprise bills still overran. The causes are architectural, and so are the fixes. Continue reading on Medium »",
+      "author": "Harsh Vardhan",
+      "extra": {},
+      "id": "dff69989bbe47729",
+      "collectedAt": "2026-10-11T14:16:39.170063+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic asks users to stop being mean to Claude",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "publishedAt": "2026-10-11T01:17:22Z",
+      "excerpt": "",
+      "author": "alex_young",
+      "extra": {
+        "points": 50,
+        "comments": 51,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50038865"
+      },
+      "id": "4a7e19c37d45b051",
+      "collectedAt": "2026-10-11T14:16:39.170063+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "China to launch initiative to boost employment amid AI advances",
+      "url": "https://english.news.cn/20261010/fd100e83ec944eb5b7e00c3b70936155/c.html",
+      "publishedAt": "2026-10-10T23:21:39Z",
+      "excerpt": "",
+      "author": "/u/yogthos",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x2t07p/china_to_launch_initiative_to_boost_employment/"
+      },
+      "id": "4bad9ba831a496ad",
+      "collectedAt": "2026-10-11T14:16:39.170063+00:00"
     }
   ],
-  "updatedAt": "2026-10-11T07:27:03.099899+00:00"
+  "updatedAt": "2026-10-11T14:16:39.170063+00:00"
 }
