@@ -690,6 +690,236 @@
           "checkedAt": "2026-10-11T02:16:31.738519Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-11T07:27:03.099899+00:00",
+      "newItems": 11,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.112817Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.145820Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.146101Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.146363Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.146489Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.146601Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.146706Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.146808Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.146906Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147000Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147095Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147138Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147167Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147362Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147393Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147500Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147602Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.147911Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-11T07:27:03.148088Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.148207Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.148337Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.148491Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.148593Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.148694Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.149164Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.149308Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.149429Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-11T07:27:03.149462Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1182,7 +1412,164 @@
       },
       "id": "40d5193455524f71",
       "collectedAt": "2026-10-11T02:16:31.674683+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: canberkkkkkk/ema-lightning",
+      "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 347,
+        "trendingScore": 316,
+        "task": "text-to-speech"
+      },
+      "id": "554777b3f10687cd",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Weekly Insight: When Disclosure Becomes the Rulebook, Oct 4–10, 2026",
+      "url": "https://medium.com/@writingwithai/weekly-insight-when-disclosure-becomes-the-rulebook-oct-4-10-2026-74f8ec127828?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T04:29:02Z",
+      "excerpt": "Edited by SoloEnt Team with Grok bot Continue reading on Medium »",
+      "author": "WritingwithAI",
+      "extra": {},
+      "id": "0302572f69bf80ed",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Manusia Menciptakan AI, tetapi Mampukah Manusia Mengendalikannya?",
+      "url": "https://medium.com/@junadhitalk/manusia-menciptakan-ai-tetapi-mampukah-manusia-mengendalikannya-6602d69592eb?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T03:29:01Z",
+      "excerpt": "Junadhi, Akademisi Bidang Informatika Continue reading on Medium »",
+      "author": "Junadhi Sakha",
+      "extra": {},
+      "id": "c12581d570d2c346",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Track Your Business's AI Search Visibility Over Time",
+      "url": "https://medium.com/@scorivra/how-to-track-your-businesss-ai-search-visibility-over-time-cbe31807338c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T03:00:03Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "Scorivra",
+      "extra": {},
+      "id": "801a193b50dcc692",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "publishedAt": "2026-10-11T02:02:38Z",
+      "excerpt": "",
+      "author": "davikr",
+      "extra": {
+        "points": 78,
+        "comments": 58,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50039092"
+      },
+      "id": "821afa65ec965089",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "publishedAt": "2026-10-11T00:08:31Z",
+      "excerpt": "",
+      "author": "ojosilva",
+      "extra": {
+        "points": 61,
+        "comments": 116,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50038383"
+      },
+      "id": "f72cb823d93cd3ce",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Be careful fam - New RTX 4090 fakes hit the market, with GPUs and memory almost indistinguishable from real chips",
+      "url": "https://videocardz.com/newz/new-rtx-4090-fakes-hit-the-market-with-gpus-and-memory-almost-indistinguishable-from-real-chips",
+      "publishedAt": "2026-10-11T03:21:02Z",
+      "excerpt": "Be careful out there of deals now. If it’s too good to be true…",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xniv/be_careful_fam_new_rtx_4090_fakes_hit_the_market/"
+      },
+      "id": "e1c2772eb5b9e78d",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AMD Reportedly Raises GDDR6 Prices for Board Partners",
+      "url": "https://www.techpowerup.com/353584/amd-reportedly-raises-gddr6-prices-for-board-partners",
+      "publishedAt": "2026-10-11T03:02:30Z",
+      "excerpt": "Is an AMD price incoming as well? Nvidia just discontinued the 5090 in favor of RTX Pros",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x2xatx/amd_reportedly_raises_gddr6_prices_for_board/"
+      },
+      "id": "b457da98e00d908a",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AppLovin Corporation (APP) Investors With Substantial Losses Have Opportunity to Lead Class Action Lawsuit - NewMediaWire",
+      "url": "https://www.newmediawire.com/news/applovin-corporation-app-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-7090511",
+      "publishedAt": "2026-10-10T17:07:02Z",
+      "excerpt": "# AppLovin Corporation (APP) Investors With Substantial Losses Have Opportunity to Lead Class Action Lawsuit. * **Investor Action:** Contact Kessler Topaz Meltzer & Check, LLP (www.ktmc.com) for recovery options. RADNOR, PA - October 10, 2026 (NEWMEDIAWIRE) - Kessler Topaz Meltzer & Check, LLP (www.ktmc.com), a nationally recognized securities litigation law firm, informs investors that a securities fraud class action lawsuit has been filed against AppLovin Corporation (AppLovin) (NASDAQ: APP)…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.073
+      },
+      "id": "e051bfd777ce3e90",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI is creating a 'human premium' for art made by people. But will it hold? - BBC",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "publishedAt": "2026-10-10T23:18:16Z",
+      "excerpt": "# AI is creating a 'human premium' for art made by people. A few weeks back, in a former bank building that's now a music venue in Falmouth, Cornwall, I was DJ-ing at a night I run called Rave Machine. If you were out dancing, would it matter to you if a DJ was, well, not really DJing? It's a question that generative AI - the type of AI that creates content - is asking of us all. I mention all of this because that experience in Falmouth connects to a far broader question: whether we actually…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.068
+      },
+      "id": "a3ab2bb084c5484e",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Doctors and nurses, not AI, must perform medicine under new state law - East Bay Times",
+      "url": "https://www.eastbaytimes.com/2026/10/10/california-ai-health-care-law-medical-decisions/",
+      "publishedAt": "2026-10-10T11:00:33Z",
+      "excerpt": "## A new law signed by Gov. Gavin Newsom preserves clinicians’ independent judgment, as nurses raise safety concerns and doctors lean on generative AI products. Michelle Gutierrez Vo, a registered nurse at Kaiser Permanente in Fremont and a president of the California Nurses Association labor union, said nurses are widely concerned that hospital administrators are replacing their functions with generative AI tools or algorithm-based devices, to the detriment of patients. In emails, Elissa…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.04
+      },
+      "id": "2b15a9a23d06baaa",
+      "collectedAt": "2026-10-11T07:27:03.099899+00:00"
     }
   ],
-  "updatedAt": "2026-10-11T02:16:31.674683+00:00"
+  "updatedAt": "2026-10-11T07:27:03.099899+00:00"
 }
