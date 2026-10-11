@@ -230,6 +230,236 @@
           "checkedAt": "2026-10-10T20:11:36.234623Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-11T01:05:39.786073+00:00",
+      "newItems": 18,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.800638Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.833982Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.834273Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.834515Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.834650Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.834782Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.834913Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835037Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835165Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835275Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835384Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835428Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835461Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835640Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835676Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835793Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.835905Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.836196Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-11T01:05:39.836423Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.836603Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.836729Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.836904Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.837020Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.837171Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.837641Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.837780Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.837914Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-11T01:05:39.837955Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -393,7 +623,262 @@
       },
       "id": "0b514fc332871c5b",
       "collectedAt": "2026-10-10T20:11:36.186014+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+      "url": "https://www.latent.space/p/nyc2026",
+      "publishedAt": "2026-10-10T22:07:17Z",
+      "excerpt": "Tomorrow and Tuesday. If you see this you&#8217;re in!",
+      "author": null,
+      "extra": {},
+      "id": "45bc2fccc930f517",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generating Tabular Data Without Memorizing It: How DiffICL Escapes the Quality–Privacy Trap",
+      "url": "https://medium.com/@ai4medical/generating-tabular-data-without-memorizing-it-how-difficl-escapes-the-quality-privacy-trap-994ce2b29615?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-11T00:49:22Z",
+      "excerpt": "Tabular data synthesis has a few core goals: the generated data should be high quality, useful for downstream tasks, and it shouldn’t leak… Continue reading on Medium »",
+      "author": "ComfyAI",
+      "extra": {},
+      "id": "555198b63b464798",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Built an AI Concierge for 11 Restaurant Brands. Here’s How It Works (and What Broke)",
+      "url": "https://medium.com/@ahmedfayazwahab/i-built-an-ai-concierge-for-11-restaurant-brands-heres-how-it-works-and-what-broke-a8e75c3eb926?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T22:25:58Z",
+      "excerpt": "A chatbot that answers from real restaurant data instead of guessing, running on serverless AWS. Continue reading on Medium »",
+      "author": "Ahmedfayazwahab",
+      "extra": {},
+      "id": "ea55130df352e005",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Marketing and Storytelling in 2026: Why AI Search Rewards Brands With a Real Story",
+      "url": "https://medium.com/@startboxmarketingagency/marketing-and-storytelling-in-2026-why-ai-search-rewards-brands-with-a-real-story-2082b9816b7c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T21:55:49Z",
+      "excerpt": "Your brand story is not what you wrote on your About page. It’s what Google, ChatGPT and Perplexity say about you when a stranger asks. Continue reading on Medium »",
+      "author": "Startboxmarketingagency",
+      "extra": {},
+      "id": "f5a8dc0dc2bfd980",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Eight ways to count tokens before you send them, ranked by how far each drifts",
+      "url": "https://ai.plainenglish.io/eight-ways-to-count-tokens-before-you-send-them-ranked-by-how-far-each-drifts-8bd1ce5dbf0b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T21:44:08Z",
+      "excerpt": "Measured across 1.17 million characters of prose, TypeScript, lockfile JSON and four languages: where each pre-flight count lands against… Continue reading on Artificial Intelligence in Plain English »",
+      "author": "Purvanshparmar",
+      "extra": {},
+      "id": "c8bf5c67ca33dcfe",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Is Generative AI? A Technical Deep Dive Into How It Actually Works",
+      "url": "https://theanalyticsai.medium.com/what-is-generative-ai-a-technical-deep-dive-into-how-it-actually-works-4d382702bc32?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-10T21:15:17Z",
+      "excerpt": "From neural networks and Transformers to LLM training, RAG, and AI agents. Continue reading on Medium »",
+      "author": "TheAnalytics.AI",
+      "extra": {},
+      "id": "692c28039762ce9f",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "publishedAt": "2026-10-10T18:48:35Z",
+      "excerpt": "",
+      "author": "arkj",
+      "extra": {
+        "points": 114,
+        "comments": 81,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50035886"
+      },
+      "id": "83b3ab4d460bec14",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "publishedAt": "2026-10-10T09:30:03Z",
+      "excerpt": "",
+      "author": "DeepLogin",
+      "extra": {
+        "points": 54,
+        "comments": 6,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50031156"
+      },
+      "id": "4488adb0885fa294",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Recent AI models struggled to match a human algorithmic innovation",
+      "url": "https://epoch.ai/publications/innovationeval",
+      "publishedAt": "2026-10-09T22:14:40Z",
+      "excerpt": "",
+      "author": "merksittich",
+      "extra": {
+        "points": 73,
+        "comments": 55,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50027257"
+      },
+      "id": "19ef2b55f63c8bf0",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Five months treating bugs like patients and coding agents like a medical team",
+      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+      "publishedAt": "2026-10-09T15:26:33Z",
+      "excerpt": "",
+      "author": "rafiss",
+      "extra": {
+        "points": 52,
+        "comments": 23,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50021899"
+      },
+      "id": "75178faab54c2df1",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Claude Opus 5.5 decompiles a PS2-era game overnight, and hundreds of them now run in browser tabs",
+      "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
+      "publishedAt": "2026-10-10T23:57:43Z",
+      "excerpt": "",
+      "author": "/u/lulzxdxdxd",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/"
+      },
+      "id": "fef6a1067447f2c7",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "A timeline of developments in AI safety since the attack on Hugging Face - ABC News",
+      "url": "https://abcnews.com/Technology/wireStory/timeline-developments-ai-safety-attack-hugging-face-137161979",
+      "publishedAt": "2026-10-10T19:00:00Z",
+      "excerpt": "The San Francisco-based company said it was delaying the release of a new model, called GPT-6.1 Astra, out of safety concerns voiced by its researchers. The company said the model had demonstrated leaps in completing tasks, but OpenAI needed to balance that capability against unauthorized behavior. “We have an extremely high bar in terms of safety and alignment,” said Saachi Jain, OpenAI’s head of safety systems.\n\n## Popular Reads",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.179
+      },
+      "id": "40e9f67a0f473191",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Launch YC: Maritime: Fully managed cloud for running AI agents at scale | Y Combinator",
+      "url": "https://www.ycombinator.com/launches/VQm-maritime-fully-managed-cloud-for-running-ai-agents-at-scale",
+      "publishedAt": "2026-10-09T19:00:00Z",
+      "excerpt": "Running billions of agents will require infrastructure that lets developers give each one a persistent computer and manage entire fleets with ease. We’re building Maritime to make that possible, so any startup can launch an agent product, give every customer their own agent, and scale it to millions in no time.\n\nWhat Maritime does\n\nMaritime gives every agent a persistent computer and manages the infrastructure around it: [...] Home›Launches›Maritime\n\n13\n\n# Maritime: Fully managed cloud for…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.794
+      },
+      "id": "2266abebc60e40de",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Launch YC: Sona8: AI voice agents surveying employees about their work | Y Combinator",
+      "url": "https://www.ycombinator.com/launches/VMv-sona8-ai-voice-agents-surveying-employees-about-their-work",
+      "publishedAt": "2026-10-09T18:00:00Z",
+      "excerpt": "Home›Launches›Sona8\n\n41\n\n# Sona8: AI voice agents surveying employees about their work\n\nThe context layer for AI automation, starting with what employees say\n\nAnton Hantel\n\nSona8\n\n#hr\\_tech#infrastructure#conversational\\_ai#artificial\\_intelligence\n\nTL;DR: Sona8 is building the context layer for AI automation tools, starting with AI voice surveys of employees. Corporate development, transformation and consulting teams use Sona8 to find out how to improve or automate processes. [...] Team\n\n…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.757
+      },
+      "id": "dcfedb8dd5710f59",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Instinct was the buzziest AI agent around — can it survive Muse? - The Verge",
+      "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+      "publishedAt": "2026-10-09T14:00:00Z",
+      "excerpt": "# Instinct was the buzziest AI agent around — can it survive Muse? Instinct AI is an impressive assistant, but the pressure from OpenAI and Meta is officially on. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. With Big Tech players suddenly in the mix, it was looking dubious that the startup’s buzzy launch could keep it ahead of the competition. While OpenAI and Meta build AI products for a range of…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.057
+      },
+      "id": "4c734c05fb41a55c",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’ - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "publishedAt": "2026-10-10T22:10:17Z",
+      "excerpt": "# Satya Nadella says we should assume all AI models are ‘compromised’. Microsoft’s CEO calls for putting an ‘emergency brake’ on AI. In a lengthy post on X, Microsoft’s CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a “set of nested black boxes” whose advice and actions we simply accept or reject. He calls for building a more transparent system where models can be…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.043
+      },
+      "id": "4c640ca9263a8638",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "WPP, Kyndryl Expand Their Partnership 10/12/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418631/wpp-kyndryl-expand-their-partnership.html",
+      "publishedAt": "2026-10-09T14:21:57Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. # Become a free MediaPost member now to read this article. Subscribe to *MediaPost Agency Daily*. WPP and IT services company Kyndryl are expanding their relationship so that each company. With the expanded pact, WPP becomes Kyndryl's preferred global…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.368
+      },
+      "id": "777d02ddfa5b6e6f",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Weekly Rundown: Nextech taps Assort Health, EliseAI for agentic AI; Elsevier rolls out clinical AI tool for nurses - Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/health-tech/weekly-rundown-hhs-awards-15m-ai-projects-arcadia-launches-portfolio-solutions",
+      "publishedAt": "2026-10-09T19:00:00Z",
+      "excerpt": "# Weekly Rundown: Nextech taps Assort Health, EliseAI for agentic AI; Elsevier rolls out clinical AI tool for nurses. Solera Health Department of Health and Human Services (HHS) Arcadia Elsevier. ### Nextech teams up with Assort Health, EliseAI for agentic AI tools. Nextech is partnering with Assort Health and EliseAI to integrate agentic AI tools into its specialty electronic health record (EHR) platform. Through the partnerships, Nextech clients now have a choice of two AI patient access…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.243
+      },
+      "id": "eddb23d851bd998b",
+      "collectedAt": "2026-10-11T01:05:39.786073+00:00"
     }
   ],
-  "updatedAt": "2026-10-10T20:11:36.186014+00:00"
+  "updatedAt": "2026-10-11T01:05:39.786073+00:00"
 }
