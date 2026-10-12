@@ -162,7 +162,7 @@ The site is static, so an article is added with a pull request. It takes about t
 4. Checks run on the pull request (file type, size, content policy) and comment with anything to fix.
 5. A reviewer merges it. The HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
 
-The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py) and the workflow in [`.github/workflows/hubUploads.yml`](.github/workflows/hubUploads.yml). Published articles are public, because the repository is.
+The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py) and the workflow in [`.github/workflows/hubUploads.yml`](.github/workflows/hubUploads.yml). Published articles are public, because the repository is. Files are stored in this repository (`src/web/public/hub/`); uploads are refused once that folder passes 300 MB, at which point the files should move to a separate content repository or Git LFS.
 
 ## Preview a branch on GitHub Pages
 

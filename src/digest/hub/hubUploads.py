@@ -32,6 +32,9 @@ SOURCES_FILE = ROOT / "config" / "sources.yaml"
 
 SUFFIXES = {".html", ".pdf"}
 MAX_BYTES = 5 * 1024 * 1024
+# Articles live in this repository, so keep the folder small. Past this, move the files to a
+# separate content repository or Git LFS (only each article's `file` path would change).
+MAX_FOLDER_BYTES = 300 * 1024 * 1024
 REQUIRED = ("title", "team", "author")
 
 # Tags that run code, embed other pages, submit data or change the page's address.
@@ -117,6 +120,16 @@ def checkUpload(files: list[Path], details: dict[str, str]) -> list[str]:
         problems.append(f"{path.name}: larger than {MAX_BYTES // (1024 * 1024)} MB.")
     elif suffix == ".pdf" and not path.read_bytes().startswith(b"%PDF-"):
         problems.append(f"{path.name}: this isn't a real PDF file.")
+    used = (
+        sum(f.stat().st_size for f in SITE_FILES.glob("*") if f.is_file())
+        if SITE_FILES.exists()
+        else 0
+    )
+    if used + path.stat().st_size > MAX_FOLDER_BYTES:
+        problems.append(
+            f"The Hub's file folder is full ({used // (1024 * 1024)} MB of "
+            f"{MAX_FOLDER_BYTES // (1024 * 1024)} MB). Ask a maintainer to make room."
+        )
     for key in REQUIRED:
         if not details.get(key):
             problems.append(f"Add a '{key.title()}:' line to the pull request description.")

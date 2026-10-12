@@ -72,3 +72,14 @@ def test_publishWritesSiteFileAndDetails(tmp_path: Path, monkeypatch):
     assert "<script" not in (tmp_path / "site" / "rag.html").read_text()
     saved = json.loads((tmp_path / "data" / "rag.json").read_text())
     assert saved == record and saved["tags"] == ["RAG", "latency"] and saved["format"] == "html"
+
+
+def test_checkRefusesWhenTheHubFolderIsFull(tmp_path: Path, monkeypatch):
+    site = tmp_path / "site"
+    site.mkdir()
+    (site / "old.pdf").write_bytes(b"%PDF-" + b"0" * 100)
+    monkeypatch.setattr(hubUploads, "SITE_FILES", site)
+    monkeypatch.setattr(hubUploads, "MAX_FOLDER_BYTES", 150)
+    new = tmp_path / "new.html"
+    new.write_text("<p>" + "x" * 100 + "</p>")
+    assert any("folder is full" in p for p in checkUpload([new], DETAILS))
