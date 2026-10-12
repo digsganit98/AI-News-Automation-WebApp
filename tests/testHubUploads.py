@@ -83,3 +83,24 @@ def test_checkRefusesWhenTheHubFolderIsFull(tmp_path: Path, monkeypatch):
     new = tmp_path / "new.html"
     new.write_text("<p>" + "x" * 100 + "</p>")
     assert any("folder is full" in p for p in checkUpload([new], DETAILS))
+
+
+def test_publishKeepsDomainCloudAndVertical(tmp_path: Path, monkeypatch):
+    monkeypatch.setattr(hubUploads, "SITE_FILES", tmp_path / "site")
+    monkeypatch.setattr(hubUploads, "DATA_DIR", tmp_path / "data")
+    src = tmp_path / "notes.pdf"
+    src.write_bytes(b"%PDF-1.7 test")
+    details = {**DETAILS, "domain": "GenAI", "cloud": "AWS", "vertical": "BFSI"}
+    record = publishUpload(src, details)
+    assert (record["techDomain"], record["cloudPlatform"], record["industryVertical"]) == (
+        "GenAI",
+        "AWS",
+        "BFSI",
+    )
+    assert (tmp_path / "site" / "notes.pdf").exists() and record["format"] == "pdf"
+
+
+def test_wordFilesAreNotAccepted(tmp_path: Path):
+    word = tmp_path / "report.docx"
+    word.write_bytes(b"PK")
+    assert any("only .html and .pdf" in p for p in checkUpload([word], DETAILS))

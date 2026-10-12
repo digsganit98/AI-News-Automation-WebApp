@@ -7,6 +7,7 @@ import path from "node:path";
 import YAML from "yaml";
 import type { FeedItem, FeedSource } from "../components/NewsFeed";
 import type { Paper } from "../components/PaperTrail";
+import { HUB_FORMATS, type HubFormat } from "./hubTypes";
 
 export const repoRoot = path.resolve(process.env.DIGEST_ROOT ?? path.join(process.cwd(), "..", ".."));
 export const timeZone = process.env.DIGEST_TIMEZONE ?? "Asia/Kolkata";
@@ -245,7 +246,7 @@ export function toFeedSources(sources: SourceInfo[]): FeedSource[] {
 // itself (an .html or .pdf file) in src/web/public/hub/. The R&D Hub page lists them.
 
 export const HUB_SOURCE_ID = "rd-hub";
-export const HUB_FORMATS = ["html", "pdf"] as const;
+export { HUB_FORMATS } from "./hubTypes";
 
 export interface HubArticle {
   id: string;
@@ -254,7 +255,10 @@ export interface HubArticle {
   author: string;
   team: string;
   tags: string[];
-  format: (typeof HUB_FORMATS)[number];
+  format: HubFormat;
+  techDomain?: string;
+  cloudPlatform?: string;
+  industryVertical?: string;
   file: string; // file name inside src/web/public/hub/
   publishedAt: string;
   featured?: boolean;

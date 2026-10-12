@@ -9,6 +9,9 @@ Team: Platform Team
 Author: Priya N.
 Tags: RAG, latency
 Summary: One or two sentences on what the article shows.
+Domain: GenAI
+Cloud: AWS
+Vertical: BFSI
 ```
 
 Checks run on the pull request and say what to fix. When a reviewer merges it, the article is

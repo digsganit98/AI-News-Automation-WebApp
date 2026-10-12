@@ -43,7 +43,7 @@ Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research 
 | Page | What it's for |
 |---|---|
 | **Latest** | One page for **news and research papers**, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then everything collected. A switch picks **All**, **News** or **Research papers**, with search and filters. The research view adds a **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
-| **R&D Hub** | Articles written by our own teams (HTML or PDF, up to 5 MB), with search and filters. Uploading is a small **Upload** button at the top right, not the page. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
+| **R&D Hub** | The team's article feed, laid out like the R&D Ideas page: search, a **Table / Cards** switch, filters for **tech domain, cloud / platform, industry vertical and format**, and a count with *Reset filters*. Articles can be **HTML or PDF**. Uploading is quiet: an **Upload to SharePoint** button at the top right (it opens the team's SharePoint folder), and a smaller *or add through GitHub* route. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
 | **Sources** (feed icon, top right) | A small pop-up listing the sources that worked in the latest check, grouped. Failing ones aren't listed. |
 | **How it works** (gear icon, top right) | The architecture, the agents and their LLMs. |
 | **Archive** (calendar icon, top right) | The news from the last 5 days, each day browsable and filterable. |
@@ -147,10 +147,14 @@ You can also add them to Claude Desktop or Claude Code: the server command is `u
 
 ## Add an article to the R&D Hub
 
-The site is static, so an article is added with a pull request. It takes about two minutes:
+An article is one **`.html` or `.pdf`** file, up to 5 MB.
 
-1. On the R&D Hub page, click **Upload** (top right). Fill in the details and click *Copy details & continue on GitHub*.
-2. On the GitHub page that opens, drop in **one `.html` or `.pdf` file** (up to 5 MB) and choose *Create a new branch and start a pull request*.
+**Put it in SharePoint.** The **Upload to SharePoint** button on the Hub opens the team's folder (its address is `HUB_SHAREPOINT_URL` in [`config/app.env`](config/app.env)). Files there are not copied to the website by themselves: the feed only lists articles that are in this repository, so someone adds them with the GitHub route below.
+
+**Or add it through GitHub** (the site is static, so a file reaches it as a pull request):
+
+1. On the R&D Hub page, click *or add through GitHub*, choose the file, fill in the details and click *Copy details & open GitHub*.
+2. On the GitHub page that opens, drop in the same file and choose *Create a new branch and start a pull request*.
 3. Paste the copied lines into the pull request description:
    ```
    Title: How we cut RAG latency 40%
@@ -158,9 +162,12 @@ The site is static, so an article is added with a pull request. It takes about t
    Author: Priya N.
    Tags: RAG, latency
    Summary: One or two sentences on what the article shows.
+   Domain: GenAI
+   Cloud: AWS
+   Vertical: BFSI
    ```
 4. Checks run on the pull request (file type, size, content policy) and comment with anything to fix.
-5. A reviewer merges it. The HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
+5. A reviewer merges it. HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
 
 The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py) and the workflow in [`.github/workflows/hubUploads.yml`](.github/workflows/hubUploads.yml). Published articles are public, because the repository is. Files are stored in this repository (`src/web/public/hub/`); uploads are refused once that folder passes 300 MB, at which point the files should move to a separate content repository or Git LFS.
 

@@ -1,7 +1,8 @@
 """R&D Hub uploads: check an article added to hub/inbox, then publish it to the site.
 
-An article is one .html or .pdf file (up to 5 MB) added in a pull request, with its details
-(Title, Team, Author, Tags, Summary) in the pull request description. On the pull request,
+An article is one .html or .pdf file (up to 5 MB) added in a pull request, with its
+details (Title, Team, Author, Tags, Summary, Domain, Cloud, Vertical) in the pull request
+description. On the pull request,
 `check` explains what to fix. After the merge, `publish` cleans the file and writes
   src/web/public/hub/<slug>.<html|pdf>   the article itself
   data/hub/<slug>.json                   its details, read by the website
@@ -42,7 +43,9 @@ DROP_TAGS = ["script", "iframe", "frame", "frameset", "object", "embed", "applet
 # Attributes that load something from another page. Links keep their href; the rest don't.
 LOAD_ATTRS = {"src", "poster", "data", "srcset", "action", "formaction", "background"}
 CSS_RISK = re.compile(r"url\s*\(|@import|expression\s*\(|javascript:", re.IGNORECASE)
-DETAIL_LINE = re.compile(r"^\s*[-*]?\s*(title|team|author|tags|summary)\s*:\s*(.+?)\s*$", re.I)
+DETAIL_LINE = re.compile(
+    r"^\s*[-*]?\s*(title|team|author|tags|summary|domain|cloud|vertical)\s*:\s*(.+?)\s*$", re.I
+)
 
 
 def parseDetails(text: str) -> dict[str, str]:
@@ -161,6 +164,9 @@ def publishUpload(path: Path, details: dict[str, str], now: datetime | None = No
         "author": details["author"],
         "team": details["team"],
         "tags": tags,
+        "techDomain": details.get("domain", "Other"),
+        "cloudPlatform": details.get("cloud", "Other"),
+        "industryVertical": details.get("vertical", "Cross-industry"),
         "format": suffix.lstrip("."),
         "file": target.name,
         "publishedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),

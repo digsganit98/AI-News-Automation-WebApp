@@ -1,18 +1,20 @@
 ---
 // GenAI R&D Hub: articles written by our own teams. Uploading is a small button, not the page.
-import HubArticles, { type HubCard } from "../components/HubArticles";
+import HubArticles from "../components/HubArticles";
+import type { HubCard } from "../lib/hubTypes";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { href, loadHubArticles } from "../lib/siteData";
 
 const articles = loadHubArticles();
 const cards: HubCard[] = articles.map((a) => ({
   id: a.id, title: a.title, summary: a.summary, author: a.author, team: a.team, tags: a.tags,
-  format: a.format, url: href(`hub/${a.file}`), publishedAt: a.publishedAt,
+  format: a.format, techDomain: a.techDomain ?? "Other", cloudPlatform: a.cloudPlatform ?? "Other",
+  industryVertical: a.industryVertical ?? "Cross-industry", url: href(`hub/${a.file}`), publishedAt: a.publishedAt,
 }));
-const featuredId = articles.find((a) => a.featured)?.id;
 const teams = new Set(articles.map((a) => a.team)).size;
 const authors = new Set(articles.map((a) => a.author)).size;
 const uploadUrl = process.env.HUB_UPLOAD_URL ?? process.env.PROJECT_URL ?? "";
+const sharePointUrl = process.env.HUB_SHAREPOINT_URL ?? uploadUrl;
 ---
 
 <BaseLayout title="R&D Hub" current="hub" description="Experiments, findings and lessons written by our own GenAI teams.">
@@ -21,7 +23,7 @@ const uploadUrl = process.env.HUB_UPLOAD_URL ?? process.env.PROJECT_URL ?? "";
       <p class="glass mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-ink dark:text-white">Written by our teams</p>
       <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">GenAI<br />R&amp;D Hub.</h1>
       <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
-        Experiments, findings and lessons from folks across the company, in one place.
+        Experiments, findings and write-ups from folks across the company: HTML and PDF articles in one searchable feed.
       </p>
     </div>
     <aside class="flex shrink-0 flex-col items-center gap-2 lg:mt-3 lg:items-end" aria-label="At a glance">
@@ -36,5 +38,5 @@ const uploadUrl = process.env.HUB_UPLOAD_URL ?? process.env.PROJECT_URL ?? "";
     </aside>
   </section>
 
-  <HubArticles client:load articles={cards} featuredId={featuredId} uploadUrl={uploadUrl} />
+  <HubArticles client:load articles={cards} sharePointUrl={sharePointUrl} uploadUrl={uploadUrl} />
 </BaseLayout>
