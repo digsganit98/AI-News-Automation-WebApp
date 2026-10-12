@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-12",
+  "stories": [
+    {
+      "id": "rsi-anything-framework-enables-recursive-self-im-5093d0",
+      "createdAt": "2026-10-12T02:18:56.530379+00:00",
+      "headline": "RSI-Anything framework enables recursive self-improvement with world models",
+      "summary": "Researchers presented RSI-Anything, a framework that uses predictive world models to let AI systems improve their own policies and workflows without heavy external feedback. The approach showed notable gains in code repair, GUI navigation, and scientific planning tasks.",
+      "whyItMatters": "It demonstrates a path toward more autonomous AI systems that can iteratively enhance their performance.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.13912"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.13912",
+        "code": "https://github.com/Gen-Verse/RSI-Anything",
+        "model": "https://huggingface.co/datasets/Gen-Verse/RSI-Anything",
+        "demo": null
+      }
+    },
+    {
+      "id": "soloq-offers-calibration-free-quantization-for-d-ef2073",
+      "createdAt": "2026-10-12T02:18:56.530379+00:00",
+      "headline": "SoloQ offers calibration-free quantization for diffusion language models",
+      "summary": "SoloQ is a new technique that compresses diffusion language models without needing calibration data, cutting peak memory usage by up to 2.6 times and speeding inference by over two times while keeping accuracy. This addresses the high resource demands of diffusion models.",
+      "whyItMatters": "It makes large diffusion language models more practical to deploy on limited hardware.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.07121"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.07121",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-12T02:22:00.289865+00:00"
+}

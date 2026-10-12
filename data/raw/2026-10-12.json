@@ -460,6 +460,236 @@
           "checkedAt": "2026-10-12T01:26:56.091512Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-12T02:16:33.402117+00:00",
+      "newItems": 6,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.419677Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.461133Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.461514Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.461802Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.461981Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.462155Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.462375Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.462556Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.462724Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.462887Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.463047Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.463107Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.463155Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.463420Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.463470Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.463629Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.463791Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.464168Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-12T02:16:33.464444Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.464678Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.464886Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.465115Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.465280Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.465488Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.466114Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.466342Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.466548Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-12T02:16:33.466614Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -723,7 +953,98 @@
       },
       "id": "0c3b4f20febb4f27",
       "collectedAt": "2026-10-12T01:26:56.024791+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "url": "https://huggingface.co/papers/2610.13912",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "excerpt": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anything that uses predictive world models to guide action and learning-data selection. Observed feedback drives policy or workflow improvement and conditional world-model adaptation, while component and compatibility checks…",
+      "author": "Taoyong Cui, Pinxian Zeng, Wanghan Xu, Hao Xiao, Shuhan Xue, Qiang Gao, Wanli Ouyang, Pheng Ann Heng, Zhenfei Yin, Yingcheng Wu, Ling Yang",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/Gen-Verse/RSI-Anything",
+        "projectPage": "https://huggingface.co/datasets/Gen-Verse/RSI-Anything",
+        "arxivUrl": "https://arxiv.org/abs/2610.13912"
+      },
+      "id": "5093d044c925491f",
+      "collectedAt": "2026-10-12T02:16:33.402117+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.07121",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "excerpt": "Diffusion large language models dLLMs) have emerged as a promising alternative to autoregressive language models through bidirectional diffusion-based token generation. However, their growing model sizes and high inference costs make efficient deployment challenging: full-sequence denoising repeatedly invokes compute-intensive forward passes, while block-diffusion models additionally introduce a memory-intensive KV-cache. Low-bit weight-activation quantization is therefore attractive, yet…",
+      "author": "Donghyun Lee, Arkapravo Ghosh, Varun Manjunath, Bumjoon Kyle Rhee, Hyunho Kook, Shiting Xiao, Youngeun Kim, Priyadarshini Panda",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.07121"
+      },
+      "id": "ef2073169a763e34",
+      "collectedAt": "2026-10-12T02:16:33.402117+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Camera Motion Prompts for AI Image-to-Video: A Practical Cheat Sheet",
+      "url": "https://medium.com/@sora2hub/camera-motion-prompts-for-ai-image-to-video-a-practical-cheat-sheet-171a99f78b88?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-12T01:31:54Z",
+      "excerpt": "Most weak image-to-video clips fail for the same reason: the prompt describes the picture again instead of describing the movement. The… Continue reading on Medium »",
+      "author": "Sora2hub",
+      "extra": {},
+      "id": "bcaf8f99b1d05b31",
+      "collectedAt": "2026-10-12T02:16:33.402117+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "I compared the iPhone 18 Pro and iPhone 17 — how much of an upgrade is the new model? - TechRadar",
+      "url": "https://www.techradar.com/phones/iphone/iphone-18-pro-vs-iphone-17",
+      "publishedAt": "2026-10-10T17:00:00Z",
+      "excerpt": "Get daily news, weekly deals and the week’s top tech stories. Earn badges as you explore news, deals, reviews, guides and more. Sign up with your email below to instantly access member features, newsletters and exclusive Insider perks. By submitting your information, you confirm you are aged 16 or over, have read our Privacy Policy and agree to the Terms & Conditions. Explore ways to get more involved as a member. News, deals, reviews, guides and more…. News, deals, reviews, guides and more on…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.038
+      },
+      "id": "f2c5d2de5cf55c3e",
+      "collectedAt": "2026-10-12T02:16:33.402117+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How Can We Manage Identity Access for AI Agents? - GovTech",
+      "url": "https://www.govtech.com/blogs/lohrmann-on-cybersecurity/how-can-we-manage-identity-access-for-ai-agents",
+      "publishedAt": "2026-10-11T09:01:00Z",
+      "excerpt": "# How Can We Manage Identity Access for AI Agents? Do you know who — and what — is on your network? In this case, the \"what\" and \"they\" mentioned could be an AI agent or two — or even hundreds. Identity and access management (IAM) has been a core component of cybersecurity for decades, even as technology has changed. But one major new aspect of this challenge includes predictions that AI agents that will soon outnumber humans in certain areas. \"Every AI agent needs a verifiable identity, a…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.186
+      },
+      "id": "8cc6c188363fe15b",
+      "collectedAt": "2026-10-12T02:16:33.402117+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How Can We Manage Identity Access for AI Agents? - Security Boulevard",
+      "url": "https://securityboulevard.com/2026/10/how-can-we-manage-identity-access-for-ai-agents/",
+      "publishedAt": "2026-10-11T09:01:00Z",
+      "excerpt": "# How Can We Manage Identity Access for AI Agents? Do you know who — and what — is on your network? In this case, the “what” and “they” mentioned could be an AI agent or two — or even hundreds. Identity and access management (IAM) has been a core component of cybersecurity for decades, even as technology has changed. Diving deeper into this huge challenge, VentureBeat recently declared that “AI agents need more than access control — they need identity at runtime“:. “Every AI agent needs a…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.165
+      },
+      "id": "0dfd9b5a549c6734",
+      "collectedAt": "2026-10-12T02:16:33.402117+00:00"
     }
   ],
-  "updatedAt": "2026-10-12T01:26:56.024791+00:00"
+  "updatedAt": "2026-10-12T02:16:33.402117+00:00"
 }
