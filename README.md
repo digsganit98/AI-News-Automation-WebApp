@@ -8,11 +8,11 @@
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
-Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. News and research papers sit together on one page, and teams can share their own write-ups in the **R&D Hub**. It runs for free on GitHub, even when your computer is off.
+Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. News and research papers sit together on one page, and teams can share their own write-ups in the **R&D Hub**. It runs for free on GitHub, even when your computer is off.
 
 | At a glance | |
 |---|---|
-| Sources | **28**, all in English: 11 labs and research blogs, 4 cloud platforms, arXiv, Hacker News, Reddit, YouTube, 5 newsletters and blogs, web search. |
+| Sources | **34**, all in English: 11 labs and research blogs, 6 cloud and data platforms (AWS, Azure, Google Cloud, Databricks, Snowflake), arXiv, Hacker News, Reddit, YouTube, 9 newsletters and blogs (Substack and others), web search. |
 | Updates | Every **3 hours**; daily edition **on the site by 09:30 IST** |
 | AI agents | **9**: 6 scouts, an analyst, a writer and an editor (built with LangGraph) |
 | LLM calls | About **80–100 a day**, hard cap **150** (all free tiers: Groq and Google Gemini) |
@@ -50,7 +50,7 @@ Each page has one job: news and research on Latest, team write-ups in the R&D Hu
 
 ## How it works
 
-![Architecture: 28 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
+![Architecture: 34 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
 
 **Every 3 hours** a GitHub Actions job:
 
