@@ -164,6 +164,26 @@ sources:
     url: ${GOOGLE_CLOUD_AI_FEED_URL}
     maxItems: 8
 
+  # Multi-cloud data and AI platforms: they run on AWS, Azure and Google Cloud alike.
+  # Their feeds also carry customer stories and press, so only AI titles are kept.
+  - id: databricks
+    name: Databricks
+    type: rss
+    group: cloud
+    icon: databricks
+    url: ${DATABRICKS_BLOG_FEED_URL}
+    maxItems: 6
+    titleFilter: *cloudAiOnly
+
+  - id: snowflake
+    name: Snowflake
+    type: rss
+    group: cloud
+    icon: snowflake
+    url: ${SNOWFLAKE_BLOG_FEED_URL}
+    maxItems: 6
+    titleFilter: *cloudAiOnly
+
   # --- Research papers (arXiv publishes ~450 a day: keep a few on core GenAI topics) ---
   - id: arxiv
     name: arXiv (cs.AI, cs.CL)
@@ -208,6 +228,38 @@ sources:
     group: newsletters
     icon: substack
     url: ${AHEAD_OF_AI_FEED_URL}
+    maxItems: 3
+
+  - id: ai-snake-oil
+    name: AI Snake Oil
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${AI_SNAKE_OIL_FEED_URL}
+    maxItems: 3
+
+  - id: the-sequence
+    name: The Sequence
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${THE_SEQUENCE_FEED_URL}
+    maxItems: 3
+
+  - id: one-useful-thing
+    name: One Useful Thing
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${ONE_USEFUL_THING_FEED_URL}
+    maxItems: 3
+
+  - id: bens-bites
+    name: Ben's Bites
+    type: rss
+    group: newsletters
+    icon: substack
+    url: ${BENS_BITES_FEED_URL}
     maxItems: 3
 
   - id: medium-genai

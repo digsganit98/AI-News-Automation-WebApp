@@ -1,0 +1,46 @@
+---
+// The small sources icon in the header: a popover listing the sources that worked in the
+// latest check (failing or unconfigured ones aren't listed), grouped, with a health dot.
+import { GROUPS, iconSvg, loadDays, loadSources } from "../lib/siteData";
+
+const sources = loadSources();
+const lastRun = loadDays()[0]?.runs.at(-1);
+const healthById = Object.fromEntries((lastRun?.health ?? []).map((h) => [h.source, h]));
+const working = sources.filter((s) => s.enabled && healthById[s.id]?.ok);
+const grouped = Object.entries(GROUPS)
+  .map(([g, label]) => ({ label, list: working.filter((s) => s.group === g) }))
+  .filter((g) => g.list.length > 0);
+const enabled = sources.filter((s) => s.enabled).length;
+---
+
+<details id="sourcesMenu" class="relative">
+  <summary class="nav-link relative grid size-9 cursor-pointer list-none place-items-center !px-0 [&::-webkit-details-marker]:hidden" aria-label={`Sources: ${working.length} working`} title={`Sources: ${working.length} working`}>
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1.2"></circle></svg>
+    <span class="absolute right-1.5 top-1.5 size-2 rounded-full bg-emerald-500 ring-2 ring-white/70 dark:ring-black/40" aria-hidden="true"></span>
+  </summary>
+  <div class="glass absolute right-[-60px] top-11 z-40 max-h-[70vh] w-[340px] max-w-[88vw] overflow-y-auto rounded-3xl p-4 text-[13px] sm:right-0">
+    <p class="font-semibold">{working.length} of {enabled} sources working</p>
+    <p class="mb-2 text-ink-muted dark:text-[#a1a1a6]">
+      Checked every 3 hours.
+      {lastRun && <span> Last check <time data-local-time={lastRun.runAt}>{lastRun.runAt}</time>.</span>}
+    </p>
+    {grouped.map((g) => (
+      <section class="mt-3">
+        <h3 class="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6]">{g.label}</h3>
+        <div class="flex flex-wrap gap-1.5">
+          {g.list.map((s) => (
+            <span class="pill border-slate-200/80 bg-white/40 text-ink dark:border-white/15 dark:bg-white/5 dark:text-white">
+              <span class="inline-flex" set:html={iconSvg(s.icon, 14)}></span>{s.name}
+            </span>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</details>
+
+<script is:inline>
+  document.querySelectorAll("#sourcesMenu [data-local-time]").forEach((el) => {
+    el.textContent = new Date(el.dataset.localTime).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+  });
+</script>

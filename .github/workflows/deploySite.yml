@@ -1,15 +1,21 @@
 # Builds the website (src/web) from the latest data and publishes it on GitHub Pages.
 #
 # Runs:  after every news-pipeline run (called from newsPipeline.yml),
-#        when website code, data or config change on main,
+#        when website code, data or config change on main (or on a preview branch),
 #        or by hand from the Actions tab.
+#
+# Branch previews: the live site always comes from main. Each branch listed in PREVIEW_BRANCHES
+# below is also built (with main's newest data) and published beside it at
+#   <site>/preview/<branch>/
+# so a redesign can be viewed on GitHub Pages before it is merged. Remove a branch from the
+# list (or delete the branch) and its preview disappears at the next deploy.
 #
 # One-time setup: Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
 name: Deploy website
 
 on:
   push:
-    branches: [main]
+    branches: [main, v2-search-hub]
     paths:
       - "src/web/**"
       - "data/**"
@@ -51,6 +57,33 @@ jobs:
       - name: Build
         working-directory: src/web
         run: npm run build
+
+      - name: Build branch previews
+        env:
+          PREVIEW_BRANCHES: v2-search-hub
+        run: |
+          set -e
+          base=$(grep '^SITE_BASE_PATH=' config/app.env | cut -d= -f2)
+          for branch in $PREVIEW_BRANCHES; do
+            if ! git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
+              echo "No branch $branch, skipping its preview"
+              continue
+            fi
+            git fetch --depth 1 origin "$branch"
+            dir="$RUNNER_TEMP/preview-$(echo "$branch" | tr '/' '-')"
+            git worktree add --force "$dir" FETCH_HEAD
+            # The branch's code with main's newest data (the branch's own data is old).
+            rm -rf "$dir/data"
+            cp -r data "$dir/data"
+            (
+              cd "$dir/src/web"
+              npm ci
+              SITE_BASE_PATH="$base/preview/$branch" PREVIEW_LABEL="$branch" npm run build
+            )
+            mkdir -p "src/web/dist/preview/$branch"
+            cp -r "$dir/src/web/dist/." "src/web/dist/preview/$branch/"
+            echo "Preview built: $base/preview/$branch/"
+          done
 
       - uses: actions/configure-pages@v5
 

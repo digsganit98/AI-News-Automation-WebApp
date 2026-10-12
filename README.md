@@ -8,11 +8,11 @@
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
-Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. Every morning, **on the site by 09:30 IST**, they also write the **Daily Digest**: three short opinion takes on what's happening in GenAI. It runs for free on GitHub, even when your computer is off.
+Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. News and research papers sit together on one page, and teams can share their own write-ups in the **R&D Hub**. It runs for free on GitHub, even when your computer is off.
 
 | At a glance | |
 |---|---|
-| Sources | **28**, all in English: 11 labs and research blogs, 4 cloud platforms, arXiv, Hacker News, Reddit, YouTube, 5 newsletters and blogs, web search. |
+| Sources | **34**, all in English: 11 labs and research blogs, 6 cloud and data platforms (AWS, Azure, Google Cloud, Databricks, Snowflake), arXiv, Hacker News, Reddit, YouTube, 9 newsletters and blogs (Substack and others), web search. |
 | Updates | Every **3 hours**; daily edition **on the site by 09:30 IST** |
 | AI agents | **9**: 6 scouts, an analyst, a writer and an editor (built with LangGraph) |
 | LLM calls | About **80–100 a day**, hard cap **150** (all free tiers: Groq and Google Gemini) |
@@ -29,6 +29,8 @@ Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research 
 - [How we keep the AI honest](#how-we-keep-the-ai-honest)
 - [Responsible AI](#responsible-ai)
 - [Use it](#use-it)
+- [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub)
+- [Preview a branch on GitHub Pages](#preview-a-branch-on-github-pages)
 - [Run your own copy](#run-your-own-copy)
 - [Configuration](#configuration)
 - [Project structure](#project-structure)
@@ -40,18 +42,17 @@ Every 3 hours, GenAI Daily reads 28 sources (AI labs, cloud platforms, research 
 
 | Page | What it's for |
 |---|---|
-| **Latest** | The live **news** dashboard, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then every news item collected, with filters and search. |
-| **Daily Digest** | The morning briefing, **live by 09:30 IST**: three short, AI-written opinion **takes** on the day's biggest themes, one per card. Each card gives a one-line verdict, then *What happened · Our take · Watch for*, and links to the stories it's based on. Swipe, use the arrow keys or the buttons; the deck ends with "You're all caught up". About 2 minutes, fact-checked by the editor. It shows no story cards: the news itself lives on Latest. (It's also what the daily email will send.) |
-| **Paper Trail** | Every GenAI **research paper** from the last 14 days, from arXiv, Hugging Face Daily Papers, and anywhere else one turns up (Hacker News, web search, agent stories), merged into one card per paper. A **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), search, "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. Works without API keys. |
-| **Sources** | The sources that worked in the latest check (failing ones aren't listed). |
-| **How it works** | The architecture, the agents and their LLMs. |
+| **Latest** | One page for **news and research papers**, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then everything collected. A switch picks **All**, **News** or **Research papers**, with search and filters. The research view adds a **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
+| **R&D Hub** | The team's article feed, laid out like the R&D Ideas page: search, a **Table / Cards** switch, filters for **tech domain, cloud / platform, industry vertical and format**, and a count with *Reset filters*. Articles can be **HTML or PDF**. Uploading is quiet: an **Upload to SharePoint** button at the top right (it opens the team's SharePoint folder), and a smaller *or add through GitHub* route. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
+| **Sources** (feed icon, top right) | A small pop-up listing the sources that worked in the latest check, grouped. Failing ones aren't listed. |
+| **How it works** (gear icon, top right) | The architecture, the agents and their LLMs. |
 | **Archive** (calendar icon, top right) | The news from the last 5 days, each day browsable and filterable. |
 
-Each page has one job: news on Latest, papers on Paper Trail, the morning edition on Daily Digest, history in the Archive. Light and dark mode, and it works on phones.
+Each page has one job: news and research on Latest, team write-ups in the R&D Hub, history in the Archive. The morning Daily Digest page was removed; the writer and editor agents still prepare the edition for future use (such as email). Light and dark mode, and it works on phones.
 
 ## How it works
 
-![Architecture: 28 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
+![Architecture: 34 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
 
 **Every 3 hours** a GitHub Actions job:
 
@@ -109,7 +110,7 @@ GenAI Daily covers AI that advances people. These rules are enforced in code and
 - **Checked three times.** (1) At collection, a block list (`blockedTerms` in [`config/sources.yaml`](config/sources.yaml)) drops matching items from every source before any AI or page sees them. (2) Every agent prompt includes the policy ([`contentPolicy.md`](src/digest/agents/prompts/contentPolicy.md)). (3) Before anything is saved, code checks what the AI wrote: a story that breaks the policy is removed, and an edition that does is withheld. The website applies the block list once more to everything it shows.
 - **English only, in plain, correct English.** Items in other languages are dropped at collection (`englishOnly` in `config/sources.yaml`). Everything the AI writes is tidied in code before it's saved: long dashes (—) between clauses become proper punctuation, odd hyphen characters are fixed, and empty bullet points or paragraphs are removed. The prompts ask for the same.
 - **Only reviewed content is published.** Raw web-search results are never shown; they reach the site only as a story an AI agent reviewed. Raw feeds come from known sources only.
-- **Transparent.** AI-written content is labelled (the Daily Digest is marked "AI-written opinion"), every story links to its original sources, and every AI call is logged in Langfuse.
+- **Transparent.** AI-written content is labelled , every story links to its original sources, and every AI call is logged in Langfuse.
 - **Grounded and fact-checked.** The AI can't invent links, and an editor agent checks every edition against the original articles (see above).
 - **Privacy.** No personal data is collected or stored; the site has no accounts, tracking or ads. (The planned email list will store only an email address, outside this public repo.)
 - **Human in charge.** The policy, block list and prompts are plain files anyone can read and change; a missing or withheld edition alerts the owner by email.
@@ -143,6 +144,39 @@ npx @modelcontextprotocol/inspector uv run digest mcp
 ```
 
 You can also add them to Claude Desktop or Claude Code: the server command is `uv --directory <repo folder> run digest mcp`.
+
+## Add an article to the R&D Hub
+
+An article is one **`.html` or `.pdf`** file, up to 5 MB.
+
+**Put it in SharePoint.** The **Upload to SharePoint** button on the Hub opens the team's folder (its address is `HUB_SHAREPOINT_URL` in [`config/app.env`](config/app.env)). Files there are not copied to the website by themselves: the feed only lists articles that are in this repository, so someone adds them with the GitHub route below.
+
+**Or add it through GitHub** (the site is static, so a file reaches it as a pull request):
+
+1. On the R&D Hub page, click *or add through GitHub*, choose the file, fill in the details and click *Copy details & open GitHub*.
+2. On the GitHub page that opens, drop in the same file and choose *Create a new branch and start a pull request*.
+3. Paste the copied lines into the pull request description:
+   ```
+   Title: How we cut RAG latency 40%
+   Team: Platform Team
+   Author: Priya N.
+   Tags: RAG, latency
+   Summary: One or two sentences on what the article shows.
+   Domain: GenAI
+   Cloud: AWS
+   Vertical: BFSI
+   ```
+4. Checks run on the pull request (file type, size, content policy) and comment with anything to fix.
+5. A reviewer merges it. HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
+
+The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py) and the workflow in [`.github/workflows/hubUploads.yml`](.github/workflows/hubUploads.yml). Published articles are public, because the repository is. Files are stored in this repository (`src/web/public/hub/`); uploads are refused once that folder passes 300 MB, at which point the files should move to a separate content repository or Git LFS.
+
+## Preview a branch on GitHub Pages
+
+The live site always comes from `main`. Branches listed in `PREVIEW_BRANCHES` in [`.github/workflows/deploySite.yml`](.github/workflows/deploySite.yml) are also built, with `main`'s newest data, and published beside it at
+`<site address>/preview/<branch>/` (for example `https://digsganit98.github.io/AI-News-Automation-WebApp/preview/v2-search-hub/`). A yellow bar on those pages says they're a preview.
+
+If the deploy is refused with "branch is not allowed to deploy", open *Settings → Environments → github-pages* and add the branch under *Deployment branches*. Remove a branch from the list once it's merged.
 
 ## Run your own copy
 
@@ -188,15 +222,17 @@ src/digest/        Python pipeline (camelCase module names)
   collectors/        one file per source type (RSS, web page, Hacker News, YouTube, Hugging Face, web search, Gmail)
   agents/            LangGraph graph, scouts, analyst, writer/editor, prompts/, LLM router and budget
   evaluation/        the grounding eval (`digest eval`)
+  hub/               R&D Hub upload checks and publishing
   monitoring/        Langfuse tracing
   newsToolsServer.py MCP server with the read-only news tools
 src/web/           website (Astro + Tailwind + Preact, Apple "Liquid Glass" style)
 evals/             the eval test set
 tests/             automated tests (no network, no LLM calls)
-data/              collected news, stories and digests (public)
+data/              collected news, stories and digests, and R&D Hub articles' details (public)
+hub/inbox/         where a new R&D Hub article is added in a pull request (see hub/README.md)
 state/             pipeline memory: seen items, daily LLM usage, feed cache
 docs/              setup guides and the architecture diagram (+ editable .drawio)
-.github/workflows/ newsPipeline (every 3 h) · deploySite · ci · evaluateAgents
+.github/workflows/ newsPipeline (every 3 h) · deploySite (with branch previews) · hubUploads · ci · evaluateAgents
 ```
 
 ## Troubleshooting

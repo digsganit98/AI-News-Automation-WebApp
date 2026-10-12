@@ -15,7 +15,7 @@ export function getStaticPaths() {
 
 const { day } = Astro.props as { day: DayFile };
 const sources = loadSources();
-// News only: that day's papers are in Paper Trail.
+// News only: papers are on the Latest page (Research papers).
 const news = day.items.filter(isFeedItem);
 const items = sortNewestFirst(news).map(toFeedItem);
 ---

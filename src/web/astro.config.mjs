@@ -9,10 +9,14 @@ const repoRoot = path.resolve(process.env.DIGEST_ROOT ?? path.join(process.cwd()
 dotenv.config({ path: path.join(repoRoot, ".env"), quiet: true });
 dotenv.config({ path: path.join(repoRoot, "config", "app.env"), quiet: true });
 
+const base = (process.env.SITE_BASE_PATH ?? "").replace(/\/$/, "");
+
 export default defineConfig({
   site: process.env.SITE_URL,
   base: process.env.SITE_BASE_PATH,
   trailingSlash: "ignore",
+  // Pages that were merged away keep working for old bookmarks.
+  redirects: { "/digest": `${base}/`, "/papers": `${base}/?view=papers`, "/sources": `${base}/` },
   integrations: [preact()],
   vite: {
     plugins: [tailwindcss()],
