@@ -5,6 +5,7 @@ Commands
   collect   fetch every enabled source and save data/raw/<date>.json
   run       collect, then run the AI agents (scouts and analyst turn new items into stories)
   eval      score how well the agents stick to their sources (uses real LLM calls)
+  email     send each person the stories they asked for, through Gmail
   mcp       start the MCP server (stdio) that exposes the news tools to agents
 """
 
@@ -197,6 +198,28 @@ def commandEval(_: argparse.Namespace) -> int:
     return 0 if report.score >= PASS_SCORE else 1
 
 
+def commandEmail(args: argparse.Namespace) -> int:
+    from digest.mailer.recipients import RecipientsError
+    from digest.mailer.runMailer import runEmailDigest
+
+    try:
+        outcome = runEmailDigest(
+            dryRun=args.dryRun,
+            onlyTo=args.to,
+            previewDir=Path(args.previewDir) if args.previewDir else None,
+        )
+    except RecipientsError as e:
+        print(f"Email digest skipped: {e}")
+        return 1
+    summary = outcome.markdown(args.dryRun)
+    print(summary)
+    for path in outcome.previews:
+        print(f"Preview: {path}")
+    writeGithubSummary(summary)
+    # Fail only when sending was attempted and nothing got through.
+    return 1 if outcome.failed and not outcome.sent else 0
+
+
 def commandMcp(_: argparse.Namespace) -> int:
     from digest.newsToolsServer import runServer
 
@@ -243,6 +266,13 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("eval", help="score the agents on the saved test set").set_defaults(
         func=commandEval
     )
+    mail = sub.add_parser("email", help="send the email digest through Gmail")
+    mail.add_argument(
+        "--dry-run", dest="dryRun", action="store_true", help="select and render, send nothing"
+    )
+    mail.add_argument("--to", help="send only to this address (a test mail; not logged as sent)")
+    mail.add_argument("--preview-dir", dest="previewDir", help="also write each email as HTML here")
+    mail.set_defaults(func=commandEmail)
     sub.add_parser("mcp", help="start the MCP news-tools server").set_defaults(func=commandMcp)
 
     args = parser.parse_args(argv)

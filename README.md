@@ -30,6 +30,7 @@ Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud and data platforms, 
 - [How we keep the AI honest](#how-we-keep-the-ai-honest)
 - [Responsible AI](#responsible-ai)
 - [Use it](#use-it)
+- [Email digest](#email-digest)
 - [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub)
 - [Run your own copy](#run-your-own-copy)
 - [Configuration](#configuration)
@@ -76,7 +77,7 @@ If a model is busy or out of quota, the next one in [`config/agents.yaml`](confi
 
 ## GitHub Actions
 
-There are five workflows in [`.github/workflows/`](.github/workflows/):
+There are six workflows in [`.github/workflows/`](.github/workflows/):
 
 | Workflow | When it runs | What it does |
 |---|---|---|
@@ -84,6 +85,7 @@ There are five workflows in [`.github/workflows/`](.github/workflows/):
 | **Deploy website** (`deploySite.yml`) | After each pipeline run, and when site code, data or config change on `main` | Builds the site and publishes it on GitHub Pages. It can also build a branch preview (see below) |
 | **R&D Hub uploads** (`hubUploads.yml`) | When a pull request or a merge touches `hub/inbox/` | Checks an uploaded article, and after the merge publishes it |
 | **CI** (`ci.yml`) | On every pull request and push to `main` | Lint, format check and tests |
+| **Email digest** (`emailDigest.yml`) | By hand for now (the daily schedule is ready to switch on) | Sends each person the stories they asked for, through Gmail. See [Email digest](#email-digest) |
 | **Evaluate agents** (`evaluateAgents.yml`) | By hand only | Scores the agents on the test set (about 10 LLM calls) |
 
 The daily morning edition, its backup timer and the Daily Digest page were removed: the agents now only turn news and papers into stories.
@@ -128,6 +130,7 @@ cp .env.example .env                  # then add your keys (see below)
 uv run digest collect --dry-run       # collect news and print it (saves nothing)
 uv run digest run --dry-run           # collect + AI agents (needs LLM keys)
 uv run digest eval                    # score the agents on the test set
+uv run digest email --dry-run         # choose and render the emails, send nothing
 uv run pytest                         # run the tests (no network, no LLM calls)
 
 cd src/web && npm install && npm run dev
@@ -141,6 +144,26 @@ npx @modelcontextprotocol/inspector uv run digest mcp
 ```
 
 You can also add them to Claude Desktop or Claude Code: the server command is `uv --directory <repo folder> run digest mcp`.
+
+## Email digest
+
+Sends each person an email with the stories that match what they asked for. It uses the same
+Gmail account as the newsletter inbox (an app password), so it costs nothing. The plan and the
+next steps (an AI-written intro per person) are in [docs/emailAgentPlan.md](docs/emailAgentPlan.md).
+
+1. **Add the secrets** `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD` and `EMAIL_RECIPIENTS`. The repository is public, so addresses live only in the secret, never in a file. `EMAIL_RECIPIENTS` is a JSON list:
+
+   ```json
+   [{"name": "Priya", "email": "priya@example.com", "categories": ["Agentic Systems"],
+     "clouds": ["AWS", "Cross-cloud"], "verticals": ["BFSI"], "minImportance": 3, "maxStories": 6}]
+   ```
+
+   Leave `categories`, `clouds` or `verticals` empty (or out) to get everything. Set `"enabled": false` to pause someone.
+2. **Preview locally.** `uv run digest email --dry-run --preview-dir emailPreview` writes each email as an HTML file and sends nothing.
+3. **Send yourself one.** `uv run digest email --to you@example.com`, or run the **Email digest** workflow with `to` set. A test mail is not counted as sent.
+4. **Switch it on.** Un-comment the `schedule:` lines in `emailDigest.yml` (09:00 IST by default).
+
+Nobody gets the same story twice: `state/emailSent.json` keeps a short salted hash per person, not the address. To stop receiving the email, reply STOP and the person is removed from `EMAIL_RECIPIENTS`.
 
 ## Add an article to the R&D Hub
 
@@ -183,7 +206,8 @@ It takes about 15 minutes, and everything is free.
    | `GEMINI_API_KEY` | fallback model | <https://aistudio.google.com/apikey> |
    | `TAVILY_API_KEY` | the web-search scout | <https://tavily.com> |
    | `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` | monitoring (optional) | <https://cloud.langfuse.com> |
-   | `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD` | newsletters (optional) | [docs/gmailInboxSetup.md](docs/gmailInboxSetup.md) |
+   | `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD` | newsletters and the email digest (optional) | [docs/gmailInboxSetup.md](docs/gmailInboxSetup.md) |
+   | `EMAIL_RECIPIENTS` | email digest (optional): who gets it and what they want | [Email digest](#email-digest) |
    | `YOUTUBE_API_KEY` | backup when YouTube's feed is down (optional) | Google Cloud Console |
 
 5. In [`config/app.env`](config/app.env), set `SITE_URL`, `SITE_BASE_PATH`, `PROJECT_URL`, `HUB_UPLOAD_URL` and `HUB_SHAREPOINT_URL` to your own.
@@ -213,6 +237,7 @@ src/digest/        Python pipeline (camelCase module names)
   agents/            LangGraph graph, scouts, analyst, prompts/, LLM router and budget
   evaluation/        the grounding eval (`digest eval`)
   hub/               R&D Hub upload checks and publishing
+  mailer/            email digest: recipients, story selection, rendering, Gmail sending
   monitoring/        Langfuse tracing
   newsToolsServer.py MCP server with the read-only news tools
 src/web/           website (Astro + Tailwind + Preact, "Liquid Glass" style)
@@ -222,7 +247,7 @@ data/              collected news and stories, and R&D Hub article details (publ
 hub/inbox/         where a new R&D Hub article is added in a pull request (see hub/README.md)
 state/             pipeline memory: seen items, daily LLM usage, feed cache
 docs/              setup guides and the architecture diagram (+ editable .drawio)
-.github/workflows/ newsPipeline · deploySite · hubUploads · ci · evaluateAgents
+.github/workflows/ newsPipeline · deploySite · hubUploads · emailDigest · ci · evaluateAgents
 ```
 
 ## Troubleshooting
