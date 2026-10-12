@@ -29,6 +29,8 @@ Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research 
 - [How we keep the AI honest](#how-we-keep-the-ai-honest)
 - [Responsible AI](#responsible-ai)
 - [Use it](#use-it)
+- [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub)
+- [Preview a branch on GitHub Pages](#preview-a-branch-on-github-pages)
 - [Run your own copy](#run-your-own-copy)
 - [Configuration](#configuration)
 - [Project structure](#project-structure)
@@ -41,7 +43,7 @@ Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research 
 | Page | What it's for |
 |---|---|
 | **Latest** | One page for **news and research papers**, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then everything collected. A switch picks **All**, **News** or **Research papers**, with search and filters. The research view adds a **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
-| **R&D Hub** | Articles written by our own teams (HTML or PDF), with search and filters. Uploading is a small **Upload** button at the top right, not the page: it opens a pop-up that adds the file on GitHub as a pull request. Checks run, a reviewer merges it, and it appears here and in Latest. Published articles are public, because the repo is. Articles are small files in `data/hub/` (details) and `src/web/public/hub/` (the file). |
+| **R&D Hub** | Articles written by our own teams (HTML or PDF, up to 5 MB), with search and filters. Uploading is a small **Upload** button at the top right, not the page. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
 | **Sources** (feed icon, top right) | A small pop-up listing the sources that worked in the latest check, grouped. Failing ones aren't listed. |
 | **How it works** (gear icon, top right) | The architecture, the agents and their LLMs. |
 | **Archive** (calendar icon, top right) | The news from the last 5 days, each day browsable and filterable. |
@@ -143,6 +145,32 @@ npx @modelcontextprotocol/inspector uv run digest mcp
 
 You can also add them to Claude Desktop or Claude Code: the server command is `uv --directory <repo folder> run digest mcp`.
 
+## Add an article to the R&D Hub
+
+The site is static, so an article is added with a pull request. It takes about two minutes:
+
+1. On the R&D Hub page, click **Upload** (top right). Fill in the details and click *Copy details & continue on GitHub*.
+2. On the GitHub page that opens, drop in **one `.html` or `.pdf` file** (up to 5 MB) and choose *Create a new branch and start a pull request*.
+3. Paste the copied lines into the pull request description:
+   ```
+   Title: How we cut RAG latency 40%
+   Team: Platform Team
+   Author: Priya N.
+   Tags: RAG, latency
+   Summary: One or two sentences on what the article shows.
+   ```
+4. Checks run on the pull request (file type, size, content policy) and comment with anything to fix.
+5. A reviewer merges it. The HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
+
+The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py) and the workflow in [`.github/workflows/hubUploads.yml`](.github/workflows/hubUploads.yml). Published articles are public, because the repository is.
+
+## Preview a branch on GitHub Pages
+
+The live site always comes from `main`. Branches listed in `PREVIEW_BRANCHES` in [`.github/workflows/deploySite.yml`](.github/workflows/deploySite.yml) are also built, with `main`'s newest data, and published beside it at
+`<site address>/preview/<branch>/` (for example `https://digsganit98.github.io/AI-News-Automation-WebApp/preview/v2-search-hub/`). A yellow bar on those pages says they're a preview.
+
+If the deploy is refused with "branch is not allowed to deploy", open *Settings → Environments → github-pages* and add the branch under *Deployment branches*. Remove a branch from the list once it's merged.
+
 ## Run your own copy
 
 It takes about 15 minutes, and everything is free.
@@ -187,15 +215,17 @@ src/digest/        Python pipeline (camelCase module names)
   collectors/        one file per source type (RSS, web page, Hacker News, YouTube, Hugging Face, web search, Gmail)
   agents/            LangGraph graph, scouts, analyst, writer/editor, prompts/, LLM router and budget
   evaluation/        the grounding eval (`digest eval`)
+  hub/               R&D Hub upload checks and publishing
   monitoring/        Langfuse tracing
   newsToolsServer.py MCP server with the read-only news tools
 src/web/           website (Astro + Tailwind + Preact, Apple "Liquid Glass" style)
 evals/             the eval test set
 tests/             automated tests (no network, no LLM calls)
-data/              collected news, stories and digests (public)
+data/              collected news, stories and digests, and R&D Hub articles' details (public)
+hub/inbox/         where a new R&D Hub article is added in a pull request (see hub/README.md)
 state/             pipeline memory: seen items, daily LLM usage, feed cache
 docs/              setup guides and the architecture diagram (+ editable .drawio)
-.github/workflows/ newsPipeline (every 3 h) · deploySite · ci · evaluateAgents
+.github/workflows/ newsPipeline (every 3 h) · deploySite (with branch previews) · hubUploads · ci · evaluateAgents
 ```
 
 ## Troubleshooting

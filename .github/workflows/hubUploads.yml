@@ -1,0 +1,108 @@
+# R&D Hub uploads. An article is one .html or .pdf file added to hub/inbox/ in a pull request,
+# with Title / Team / Author / Tags / Summary lines in the pull request description.
+#
+#   On the pull request  -> "check":   file type, size, HTML safety and the content policy,
+#                                      with the result posted on the pull request
+#   After the merge      -> "publish": the HTML is cleaned, the file and its details are saved
+#                                      for the site, and the website is republished
+name: R&D Hub uploads
+
+on:
+  pull_request:
+    paths:
+      - "hub/inbox/**"
+  push:
+    branches: [main]
+    paths:
+      - "hub/inbox/**"
+
+concurrency:
+  group: hub-uploads-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Check the upload
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          printf '%s\n' "$PR_BODY" > "$RUNNER_TEMP/details.txt"
+          set +e
+          uv run python -m digest.hub.hubUploads check --details-file "$RUNNER_TEMP/details.txt" | tee "$RUNNER_TEMP/result.txt"
+          status=${PIPESTATUS[0]}
+          cat "$RUNNER_TEMP/result.txt" >> "$GITHUB_STEP_SUMMARY"
+          # Comment on the pull request (pull requests from forks can't be commented on; the
+          # job summary above still has the result).
+          gh pr comment "${{ github.event.pull_request.number }}" --body-file "$RUNNER_TEMP/result.txt" || true
+          exit $status
+
+  publish:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # to commit the published article
+    concurrency:
+      group: news-pipeline # shares the pipeline's lock so the two never push at the same time
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Find the pull request description
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/commits/${{ github.sha }}/pulls" --jq '.[0].body // ""' > "$RUNNER_TEMP/details.txt"
+
+      - name: Publish the article
+        run: |
+          if ! ls hub/inbox/* > /dev/null 2>&1; then
+            echo "Nothing in hub/inbox to publish"
+            exit 0
+          fi
+          uv run python -m digest.hub.hubUploads publish --details-file "$RUNNER_TEMP/details.txt"
+
+      - name: Save to the repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/hub src/web/public/hub hub/inbox
+          if git diff --cached --quiet; then
+            echo "No changes to save"
+            exit 0
+          fi
+          git commit -m "hub: publish article"
+          git pull --rebase origin main
+          git push
+
+  deploy:
+    needs: publish
+    uses: ./.github/workflows/deploySite.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
