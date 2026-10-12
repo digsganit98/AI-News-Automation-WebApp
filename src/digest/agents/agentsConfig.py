@@ -28,10 +28,8 @@ class ModelChoice(BaseModel):
 
 class Budget(BaseModel):
     dailyCallCap: int = 100
-    dailyEditionReserve: int = 25
     maxItemsPerScout: int = 25
     maxArticlesPerScout: int = 3
-    maxStoriesForWriter: int = 12
 
 
 class ScoutSpec(BaseModel):

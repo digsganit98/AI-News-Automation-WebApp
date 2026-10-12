@@ -120,7 +120,7 @@ def traceRun(
 
 
 def observeAgent(name: str, input: Any = None):
-    """A span for one agent step (scout, analyst, writer/editor)."""
+    """A span for one agent step (scout, analyst)."""
     client = langfuseClient()
     if client is None:
         return nullcontext(None)

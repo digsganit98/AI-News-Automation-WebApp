@@ -15,13 +15,11 @@ const agents = [
   { name: "Scout · X", when: "every 3 h", llm: "Qwen 3.8 27B · Groq", job: "Checks posts from curated AI researchers and founders." },
   { name: "Scout · Web search", when: "every 3 h", llm: "Qwen 3.8 27B · Groq", job: "Searches news sites and lab blogs without feeds (YC, Coimbatore too) for fresh GenAI articles." },
   { name: "Analyst", when: "every 3 h", llm: "gpt-oss-120b · Groq", job: "Scores, categorizes and groups stories; compares with the last 7 days." },
-  { name: "Writer", when: "by 09:30 IST", llm: "Gemini Flash", job: "Drafts the morning edition: three short takes on the day's biggest themes (not shown on the site)." },
-  { name: "Editor", when: "by 09:30 IST", llm: "gpt-oss-120b · Groq", job: "Fact-checks every claim against the sources; one revision round." },
 ];
 const stats = [
   { value: "30", label: "sources" },
-  { value: "9", label: "AI agents" },
-  { value: "~80–100", label: "LLM calls a day" },
+  { value: "7", label: "AI agents" },
+  { value: "~60–90", label: "LLM calls a day" },
   { value: "150", label: "daily call cap" },
   { value: "8×", label: "updates a day" },
   { value: "$0", label: "running cost" },
@@ -52,7 +50,7 @@ const stats = [
     </div>
   </section>
 
-  <section class="mt-12 grid gap-6 lg:grid-cols-2">
+  <section class="mt-12 grid gap-6">
     <div class="card p-6">
       <h2 class="text-xl font-semibold">Every 3 hours</h2>
       <ol class="mt-3 list-decimal space-y-1.5 pl-5 text-ink-muted dark:text-[#a1a1a6]">
@@ -60,22 +58,13 @@ const stats = [
         <li>Clean links and remove anything seen in the last 30 days</li>
         <li>Scout agents research the important items</li>
         <li>The analyst scores and groups stories</li>
-        <li>This site is rebuilt with the latest news</li>
-      </ol>
-    </div>
-    <div class="card p-6">
-      <h2 class="text-xl font-semibold">Every morning, by 09:30 IST</h2>
-      <ol class="mt-3 list-decimal space-y-1.5 pl-5 text-ink-muted dark:text-[#a1a1a6]">
-        <li>Everything from the 3-hourly run</li>
-        <li>The writer drafts three short opinion takes</li>
-        <li>The editor checks each claim against the sources</li>
-        <li>The edition is saved, ready for future uses such as email</li>
+        <li>This site is rebuilt with the latest news and research papers</li>
       </ol>
     </div>
   </section>
 
   <section class="mt-12">
-    <h2 class="text-2xl font-semibold">The 9 AI agents</h2>
+    <h2 class="text-2xl font-semibold">The 7 AI agents</h2>
     <p class="mt-1 text-sm text-slate-500 dark:text-slate-400">Built with LangGraph. The order they run in is fixed in code, so LLM usage stays predictable. Every call is traced in Langfuse.</p>
     <div class="card mt-4 overflow-x-auto">
       <table class="w-full min-w-[640px] text-left text-sm">
@@ -95,7 +84,7 @@ const stats = [
       </table>
     </div>
     <p class="mt-3 text-sm text-slate-500 dark:text-slate-400">
-      About 11 LLM calls per 3-hourly update and ~16 for the morning edition: roughly 80–100 a day, capped at 150. All on free tiers (Groq and Google Gemini).
+      About 8–11 LLM calls per 3-hourly update: roughly 60–90 a day, capped at 150. All on free tiers (Groq and Google Gemini).
     </p>
   </section>
 
@@ -107,7 +96,7 @@ const stats = [
       <li><b>Checked three times.</b> A block list at collection, the policy in every AI prompt, and a final code check before anything is published.</li>
       <li><b>Only reviewed content.</b> Raw web-search results are never shown; they appear only as stories an AI agent reviewed.</li>
       <li><b>Transparent.</b> AI-written content is labelled, every story links to its sources, and every AI call is logged.</li>
-      <li><b>Grounded.</b> The AI can't invent links, and an editor agent fact-checks each edition against the original articles.</li>
+      <li><b>Grounded.</b> The AI can't invent links, and every number in a story is checked against its source.</li>
       <li><b>Private.</b> No accounts, tracking, ads or personal data.</li>
     </ul>
   </section>

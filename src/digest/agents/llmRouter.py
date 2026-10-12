@@ -31,7 +31,7 @@ from digest.monitoring.langfuseTracing import endGeneration, observeGeneration
 log = logging.getLogger(__name__)
 SchemaT = TypeVar("SchemaT", bound=BaseModel)
 
-TEMPERATURE = {"writer": 0.7}  # everyone else: 0.2 (factual work)
+TEMPERATURE: dict[str, float] = {}  # every agent: 0.2 (factual work)
 DEFAULT_MAX_OUTPUT = 3000
 PROMPT_WRAPPER_TOKENS = 100  # "Reply with only a JSON object..." + a safety margin
 MAX_WAIT_SECONDS = 45  # longer waits (e.g. a daily quota) mean: move on to the next model

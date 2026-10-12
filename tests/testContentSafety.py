@@ -6,9 +6,8 @@ from datetime import UTC, datetime
 from types import SimpleNamespace
 
 import pytest
-from conftest import makeTakes
 
-from digest.agents.agentModels import DigestDraft, Story
+from digest.agents.agentModels import Story
 from digest.agents.promptKit import PROMPT_DIR, loadPrompt
 from digest.dataModels import RawItem
 from digest.processing.contentSafety import blockedPattern, dropBlocked, guardOutput, isBlocked
@@ -81,28 +80,13 @@ def story(sid: str, headline: str) -> Story:
     )
 
 
-def edition(takeText: str):
-    return SimpleNamespace(
-        digest=DigestDraft(headline="H", dek="D", tldr=["t"], intro="I"),
-        takes=makeTakes(takeText),
-        stories=[story("ok", "A new open model")],
-    )
-
-
 def testWhatTheAiWroteIsCheckedBeforeSaving():
     outcome = SimpleNamespace(
         stories=[story("ok", "A new open model"), story("bad", "Explicit images spread online")],
-        edition=edition("A calm, constructive paragraph."),
     )
     removed = guardOutput(outcome, POLICY)
     assert [s.id for s in outcome.stories] == ["ok"]
-    assert outcome.edition is not None and removed == ["Explicit images spread online"]
-
-
-def testAnEditionThatBreaksThePolicyIsWithheld():
-    outcome = SimpleNamespace(stories=[], edition=edition("This glorifies a massacre."))
-    guardOutput(outcome, POLICY)
-    assert outcome.edition is None
+    assert removed == ["Explicit images spread online"]
 
 
 def testEveryAgentPromptCarriesTheContentPolicy():

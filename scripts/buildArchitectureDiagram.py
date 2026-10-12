@@ -218,7 +218,7 @@ CONTAINERS = [
         766,
         822,
         "GitHub Actions",
-        "every 3 h · daily edition by 09:30 IST · runs with your PC off",
+        "every 3 h · runs with your PC off",
         icon="githubactions",
         fill="#F1F8FF",
         stroke="#2088FF",
@@ -230,12 +230,12 @@ CONTAINERS = [
         486,
         732,
         "AI agents · LangGraph",
-        "9 agents · run order fixed in code",
+        "7 agents · run order fixed in code",
         icon="langgraph",
         fill="#FFFFFF",
         stroke="#7FC8FF",
     ),
-    Container("outputs", 1106, 92, 510, 822, "Outputs", "website · monitoring · email"),
+    Container("outputs", 1106, 92, 510, 822, "Outputs", "website · R&D Hub · monitoring"),
 ]
 
 SOURCES = [
@@ -353,32 +353,6 @@ NODES = [
         GPT_OSS,
         "#1F2328",
     ),
-    Node(
-        "writer",
-        846,
-        540,
-        200,
-        96,
-        "Writer",
-        "3 opinion takes · by 09:30 IST",
-        [],
-        "built",
-        GEMINI,
-        "#8E75B2",
-    ),
-    Node(
-        "editor",
-        846,
-        716,
-        200,
-        96,
-        "Editor",
-        "fact-checks vs sources",
-        [],
-        "built",
-        GPT_OSS,
-        "#1F2328",
-    ),
     Node("llms", 600, 684, 200, 206, "Free LLM providers", "", [], None),
     Node(
         "data",
@@ -387,7 +361,7 @@ NODES = [
         220,
         96,
         "data/ in the repo",
-        "raw items · stories · digests",
+        "raw items · stories",
         ["github"],
         "built",
     ),
@@ -398,25 +372,11 @@ NODES = [
         220,
         110,
         "Website",
-        "Latest every 3 h · daily\ndigest · paper trail",
+        "Latest: news and papers\nR&D Hub · every 3 h",
         ["globe", "astro"],
         "built",
     ),
-    Node(
-        "email", 1126, 690, 220, 96, "Daily email", "09:30 IST · once a day", ["gmail"], "planned"
-    ),
-    Node("readers", 1390, 430, 206, 110, "Readers", "web + inbox", ["readers"]),
-    Node(
-        "worker",
-        1390,
-        690,
-        206,
-        96,
-        "Subscriptions",
-        "Cloudflare Worker + D1",
-        ["cloudflareworkers", "database"],
-        "planned",
-    ),
+    Node("readers", 1390, 430, 206, 110, "Readers", "on the web", ["readers"]),
     Node(
         "langfuse",
         1126,
@@ -443,34 +403,11 @@ EDGES = [
         labelPos=(572, 580),
     ),
     Edge([(800, 339), (846, 339)], "scoutCloud", "analyst"),
-    Edge([(946, 408), (946, 540)], "analyst", "writer", "09:30 IST only", dashed=True),
-    Edge([(946, 636), (946, 716)], "writer", "editor"),
-    Edge(
-        [(846, 780), (826, 780), (826, 600), (846, 600)],
-        "editor",
-        "writer",
-        "revise",
-        dashed=True,
-        labelAt=1,
-    ),
     Edge(
         [(996, 312), (996, 258), (1126, 258)], "analyst", "data", "stories · every 3 h", labelAt=1
     ),
-    Edge(
-        [(1046, 744), (1094, 744), (1094, 298), (1126, 298)],
-        "editor",
-        "data",
-        "daily digest",
-        labelPos=(1094, 376),
-    ),
     Edge([(1236, 322), (1236, 430)], "data", "website", "build & deploy"),
-    Edge([(1046, 780), (1126, 780)], "editor", "email", "09:30 IST", dashed=True),
     Edge([(1346, 478), (1390, 478)], "website", "readers"),
-    Edge(
-        [(1346, 712), (1366, 712), (1366, 516), (1390, 516)], "email", "readers", "inbox", labelAt=1
-    ),
-    Edge([(1493, 540), (1493, 690)], "readers", "worker", "subscribe"),
-    Edge([(1390, 760), (1346, 760)], "worker", "email", "list"),
     Edge([(1086, 852), (1126, 852)], "actions", "langfuse", "traces"),
 ]
 
@@ -609,9 +546,6 @@ def buildSvg(icons: dict[str, Icon]) -> str:
         svgText(1272, 46, "next phases", 11, 400, MUTED),
         '<path d="M1400 42 L1440 42" stroke="#59636E" stroke-width="1.6" marker-end="url(#arrow)"/>',
         svgText(1446, 46, "every 3 h", 11, 400, MUTED),
-        '<path d="M1510 42 L1550 42" stroke="#59636E" stroke-width="1.6" stroke-dasharray="6 4" '
-        'marker-end="url(#arrow)"/>',
-        svgText(1556, 46, "09:30 IST", 11, 400, MUTED),
     ]
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" '
@@ -630,8 +564,7 @@ def buildSvg(icons: dict[str, Icon]) -> str:
         svgText(
             24,
             70,
-            "Every 3 h: collect → scouts → analyst → Latest dashboard.   "
-            "By 09:30 IST: writer + editor → daily digest (3 takes) and one email.",
+            "Every 3 h: collect → scouts → analyst → Latest (news and research papers).",
             12.5,
             400,
             MUTED,

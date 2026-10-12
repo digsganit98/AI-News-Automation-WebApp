@@ -19,19 +19,14 @@ providers:
 
 budget:
   dailyCallCap: 150                # hard limit on LLM calls per day (IST); Groq allows 1,000 per model
-  dailyEditionReserve: 25          # calls kept free for the 09:30 IST edition
   maxItemsPerScout: 25             # newest items a scout looks at per run
   maxArticlesPerScout: 3           # full articles a scout may read per run
-  maxStoriesForWriter: 12          # most important stories the writer sees (the digest shows 5);
-                                   # 12 keeps its request inside Groq's 8k tokens/minute
 
 # Longest answer each agent may write (tokens). Groq counts this against the
 # per-minute limit, so keep input + this under `tokensPerMinute`.
 maxOutputTokens:
   scout: 2500
   analyst: 4500
-  writer: 2500                     # real answers are ~300-1,000 tokens
-  editor: 2000
 
 models:
   scout:                           # 4 scouts, every 3 hours
@@ -39,13 +34,6 @@ models:
     - { provider: gemini, model: gemini-3.5-flash-lite }
     - { provider: groq, model: openai/gpt-oss-20b, reasoningEffort: low }
   analyst:                         # every 3 hours
-    - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
-    - { provider: gemini, model: gemini-3.5-flash-lite }
-  writer:                          # by 09:30 IST: summary + 3 takes (Gemini Flash allows ~20 calls/day free)
-    - { provider: gemini, model: gemini-3.8-flash }
-    - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
-    - { provider: gemini, model: gemini-3.5-flash-lite }   # last resort: its own, much larger quota
-  editor:                          # 09:30 IST: fact-check
     - { provider: groq, model: openai/gpt-oss-120b, reasoningEffort: low }
     - { provider: gemini, model: gemini-3.5-flash-lite }
 

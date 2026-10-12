@@ -4,19 +4,19 @@
 [![News pipeline](https://github.com/digsganit98/AI-News-Automation-WebApp/actions/workflows/newsPipeline.yml/badge.svg)](https://github.com/digsganit98/AI-News-Automation-WebApp/actions/workflows/newsPipeline.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**All the new things in Generative AI, in one place, written up by AI agents that check their sources.**
+**The latest Generative AI news and research papers in one place, picked and summarised by AI agents that check their sources.**
 
 **🌐 Live site: <https://digsganit98.github.io/AI-News-Automation-WebApp/>**
 
-Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what's genuinely new and write it up in plain language. News and research papers sit together on one page, and teams can share their own write-ups in the **R&D Hub**. It runs for free on GitHub, even when your computer is off.
+Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud and data platforms, research papers, Hacker News, Reddit, YouTube, newsletters and web search). AI agents keep what is genuinely new and write it up in plain language. News and research papers sit together on one page, and teams can share their own write-ups in the **R&D Hub**. It runs for free on GitHub, even when your computer is off.
 
 | At a glance | |
 |---|---|
-| Sources | **34**, all in English: 11 labs and research blogs, 6 cloud and data platforms (AWS, Azure, Google Cloud, Databricks, Snowflake), arXiv, Hacker News, Reddit, YouTube, 9 newsletters and blogs (Substack and others), web search. |
-| Updates | Every **3 hours**; daily edition **on the site by 09:30 IST** |
-| AI agents | **9**: 6 scouts, an analyst, a writer and an editor (built with LangGraph) |
-| LLM calls | About **80–100 a day**, hard cap **150** (all free tiers: Groq and Google Gemini) |
-| Quality | Links are checked in code, the editor checks facts against the original articles, and the test set scores **100/100** |
+| Sources | **34**, all in English: 9 AI labs, 5 research sources (arXiv, Hugging Face), 6 cloud and data platforms (AWS, Azure, Google Cloud, Databricks, Snowflake), Hacker News and Reddit, YouTube, 9 newsletters (Substack and others), web search |
+| Updates | Every **3 hours** |
+| AI agents | **7**: 6 scouts and 1 analyst, built with LangGraph (the X scout is switched off until an X source is added, so 6 work today) |
+| LLM calls | About **60–90 a day**, hard cap **150**, all on free tiers (Groq and Google Gemini) |
+| Quality | Links are checked in code, every number is checked against its source, and the test set scores **100/100** |
 | Monitoring | Every LLM call and every run is traced and scored in **Langfuse** |
 | Cost | **$0** |
 
@@ -26,11 +26,11 @@ Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research 
 
 - [What you get](#what-you-get)
 - [How it works](#how-it-works)
+- [GitHub Actions](#github-actions)
 - [How we keep the AI honest](#how-we-keep-the-ai-honest)
 - [Responsible AI](#responsible-ai)
 - [Use it](#use-it)
 - [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub)
-- [Preview a branch on GitHub Pages](#preview-a-branch-on-github-pages)
 - [Run your own copy](#run-your-own-copy)
 - [Configuration](#configuration)
 - [Project structure](#project-structure)
@@ -40,80 +40,76 @@ Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud platforms, research 
 
 ## What you get
 
-| Page | What it's for |
+| Page | What it is for |
 |---|---|
-| **Latest** | One page for **news and research papers**, updated every 3 hours: the **Top stories** picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then everything collected. A switch picks **All**, **News** or **Research papers**, with search and filters. The research view adds a **paper of the day**, a **research pulse** chart of what researchers are working on (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
-| **R&D Hub** | The team's article feed, laid out like the R&D Ideas page: search, a **Table / Cards** switch, filters for **tech domain, cloud / platform, industry vertical and format**, and a count with *Reset filters*. Articles can be **HTML or PDF**. Uploading is quiet: an **Upload to SharePoint** button at the top right (it opens the team's SharePoint folder), and a smaller *or add through GitHub* route. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
-| **Sources** (feed icon, top right) | A small pop-up listing the sources that worked in the latest check, grouped. Failing ones aren't listed. |
-| **How it works** (gear icon, top right) | The architecture, the agents and their LLMs. |
-| **Archive** (calendar icon, top right) | The news from the last 5 days, each day browsable and filterable. |
+| **Latest** | News and research papers on one page, updated every 3 hours. It starts with **Top stories**, picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then everything collected. A switch picks **All**, **News** or **Research papers**, with search and filters. The research view adds a **paper of the day**, a **research pulse** chart (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
+| **R&D Hub** | The team's article feed. Search, a **Table / Cards** switch, and filters for tech domain, cloud / platform, industry vertical and format. Articles are **HTML or PDF**. Uploading is a small button at the top right, not the page. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
+| **Archive** (calendar icon) | The news from the last 5 days, each day browsable and filterable. |
+| **Sources** (feed icon) | A small pop-up listing the sources that worked in the latest check, grouped. Failing ones are not listed. |
+| **How it works** (gear icon) | The architecture, the agents and the models they use. |
 
-Each page has one job: news and research on Latest, team write-ups in the R&D Hub, history in the Archive. The morning Daily Digest page was removed; the writer and editor agents still prepare the edition for future use (such as email). Light and dark mode, and it works on phones.
+Each page has one job: news and research on Latest, team write-ups in the R&D Hub, history in the Archive. There is light and dark mode, and it works on phones.
 
 ## How it works
 
-![Architecture: 34 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 9 LangGraph agents read-only tools. Scouts run on Qwen via Groq, the analyst and editor on gpt-oss-120b via Groq, and the writer on Gemini Flash. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
+![Architecture: 34 sources feed Python collectors on GitHub Actions. After removing duplicates, an MCP server gives 7 LangGraph agents read-only tools. Scouts run on Qwen via Groq and the analyst on gpt-oss-120b via Groq. Results are saved to the repo, published to the website every 3 hours, and traced in Langfuse.](docs/images/architecture.svg)
 
-**Every 3 hours** a GitHub Actions job:
+Every 3 hours one GitHub Actions job does this:
 
-1. **Collects** new posts from all sources and removes anything seen before. Tutorial videos, ads and non-AI cloud news are filtered out by title.
-2. **Scouts** (6 AI agents, one per source group) decide what's real news and read the full article for the most important items, using the MCP `fetchArticle` tool.
-3. **The analyst** merges the same news from different sources into one story, checks it against the last 7 days, and sorts and scores it.
-4. **The website** is rebuilt with the new stories.
+1. **Collect.** New posts are fetched from all sources and anything seen before is removed. Tutorial videos, ads and non-AI cloud news are filtered out by title.
+2. **Scouts** (one AI agent per source group) decide what is real news and read the full article for the most important items, using the MCP `fetchArticle` tool.
+3. **Analyst** merges the same news from different sources into one story, compares it with the last 7 days, then sorts and scores it.
+4. **Save and publish.** The data is committed to the repo and the website is rebuilt.
 
-**Every morning, finished before 09:30 IST,** it also runs:
-
-5. **The writer**, which drafts the day's summary and three short opinion takes (a verdict, what happened, the take, what to watch; about 100 words each).
-6. **The editor**, which re-reads the original articles and fact-checks both. The writer fixes anything flagged, once.
-
-| Agent | LLM (free tier) | Runs |
+| Agent | Model (free tier) | Job |
 |---|---|---|
-| 6 scouts: labs & research · cloud & platforms · community · video, newsletters & blogs · X · web search | Qwen 3.8 27B on Groq | every 3 h |
-| Analyst | gpt-oss-120b on Groq | every 3 h |
-| Writer | Gemini Flash (backups: gpt-oss-120b, then Gemini Flash-Lite) | daily, by 09:30 IST |
-| Editor | gpt-oss-120b on Groq | daily, by 09:30 IST |
+| 6 scouts: labs & research · cloud & platforms · community · video, newsletters & blogs · X · web search | Qwen 3.8 27B on Groq | Pick the real news from each source group |
+| Analyst | gpt-oss-120b on Groq | Merge, score and rank stories |
 
-**Polite to the sites it reads.** Requests to the same site take turns with a gap (2 seconds; 4 seconds for arXiv, which asks for at least 3 and one connection at a time). arXiv's feed changes once a day, so it's re-checked at most every 6 hours with an "only if changed" request, and a site's `Retry-After` is honoured. Set per-site gaps with `HOST_SPACING_OVERRIDES` in `config/app.env`.
+If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over (Gemini Flash-Lite is the last fallback). Every request is sized to fit every model in its chain, including Groq's 8,000 tokens a minute, and a daily budget keeps calls within the free tiers.
 
-If a model is busy or out of quota, the next one in [`config/agents.yaml`](config/agents.yaml) takes over. Every request is sized to fit **every** model in its chain, including Groq's 8,000 tokens a minute: the writer drops its least important stories, and the editor shortens the original articles it checks until the request fits. So when Gemini is busy, Groq can always write and check the edition. A daily budget keeps calls within the free tiers and saves 25 calls for the morning edition.
+**Polite to the sites it reads.** Requests to the same site take turns with a gap (2 seconds; 4 seconds for arXiv). arXiv's feed changes once a day, so it is re-checked at most every 6 hours with an "only if changed" request, and a site's `Retry-After` is honoured. Set per-site gaps with `HOST_SPACING_OVERRIDES` in `config/app.env`.
 
-**Edition on time.** GitHub often starts scheduled runs 30 minutes to 2 hours late, or skips them. So the edition isn't tied to one slot: an attempt runs every 15 minutes from 07:35 to 09:05 IST (7 in all). The first one GitHub actually starts writes the edition (about 10 minutes), and the rest see it's done and stop at once, with no LLM calls. Any other run after 07:30 IST that finds no edition writes it too.
+**One failure never stops the rest.** Each source, LLM call, agent and batch fails on its own. Whatever was collected is always saved and published, even if the agents crash.
 
-**You hear about problems.** Each source, LLM call, agent and batch fails on its own without stopping the rest, and whatever was collected is always saved and published, even if the agents crash. If an attempt from 09:00 IST still ends with no edition, the run fails on purpose, so GitHub emails you (Settings → Notifications → Actions on your GitHub account).
+**Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout.
 
-GitHub may still skip every morning attempt when it's busy (it did on 27–28 September). **For a guaranteed 09:30, add a free outside timer:**
+## GitHub Actions
 
-1. Create a fine-grained GitHub token for this repository only, with **Actions: Read and write**.
-2. On [cron-job.org](https://cron-job.org), add a daily job at **07:45 IST** (and a backup at 08:30) that sends:
-   - `POST https://api.github.com/repos/<you>/<repo>/actions/workflows/newsPipeline.yml/dispatches`
-   - headers `Authorization: Bearer <token>` and `Accept: application/vnd.github+json`
-   - body `{"ref": "main", "inputs": {"mode": "editionIfMissing"}}`
+There are five workflows in [`.github/workflows/`](.github/workflows/):
 
-Manual starts like this aren't delayed the way schedules are, and `editionIfMissing` does nothing if the edition is already out.
+| Workflow | When it runs | What it does |
+|---|---|---|
+| **News pipeline** (`newsPipeline.yml`) | Every 3 hours, or by hand | Collects, runs the agents, saves data, republishes the site |
+| **Deploy website** (`deploySite.yml`) | After each pipeline run, and when site code, data or config change on `main` | Builds the site and publishes it on GitHub Pages. It can also build a branch preview (see below) |
+| **R&D Hub uploads** (`hubUploads.yml`) | When a pull request or a merge touches `hub/inbox/` | Checks an uploaded article, and after the merge publishes it |
+| **CI** (`ci.yml`) | On every pull request and push to `main` | Lint, format check and tests |
+| **Evaluate agents** (`evaluateAgents.yml`) | By hand only | Scores the agents on the test set (about 10 LLM calls) |
 
-**Source Type** (research log): **Directed** means official labs, research and cloud sources. **Emergent** means spotted on Hacker News, Reddit, YouTube or newsletters. **AI-assisted** means found by the web-search scout (news sites, lab blogs without feeds, YC and Coimbatore news).
+The daily morning edition, its backup timer and the Daily Digest page were removed: the agents now only turn news and papers into stories.
+
+**Preview a branch on GitHub Pages.** The live site always comes from `main`. A branch named in `PREVIEW_BRANCHES` in `deploySite.yml` is also built, with `main`'s newest data, and published at `<site address>/preview/<branch>/`, with a yellow "Preview" bar. The list is empty by default. If a deploy is refused with "branch is not allowed to deploy", add the branch under *Settings → Environments → github-pages → Deployment branches*.
 
 ## How we keep the AI honest
 
-- **Real articles only.** From Reddit, Hacker News and web search, only items that link to a proper article, announcement or paper get through: a Reddit post becomes the article it links to, and text-only threads, screenshots, tweets and social posts are dropped (the list of discussion sites is `notArticleHosts` in `config/sources.yaml`). The scouts also drop rumours and claims whose only source is a forum post.
-- **The AI can't invent links.** Agents refer to items by number (`i1`, `i2`…); the code attaches every URL. Any link that isn't in the collected data is removed and counted as a "hallucination catch".
-- **The editor checks the original,** not a summary: it re-fetches the source article for every story the takes and the summary use.
-- **Scraped text is treated as data.** It's fenced off, so instructions hidden in a web page are ignored.
-- **A test set measures it.** `uv run digest eval` runs the real agents on 20 saved cases, including tutorials to drop, fake claims, two prompt-injection traps and a planted wrong number. It scores 6 checks (keep/drop accuracy, numbers found in the source, duplicates merged, traps ignored, no invented links, editor catches the error). The current score is **100/100**.
-- **Everything is visible in Langfuse:** each run, each agent and each LLM call, with tokens and errors, plus scores such as stories, failed calls, editor approval and hallucination catches.
+- **Real articles only.** From Reddit, Hacker News and web search, only items that link to a proper article, announcement or paper get through. Text-only threads, screenshots, tweets and social posts are dropped (the list of discussion sites is `notArticleHosts` in `config/sources.yaml`). The scouts also drop rumours whose only source is a forum post.
+- **The AI cannot invent links.** Agents refer to items by number (`i1`, `i2`…); the code attaches every URL. Any link that is not in the collected data is removed and counted as a "hallucination catch".
+- **Scraped text is treated as data.** It is fenced off, so instructions hidden in a web page are ignored.
+- **A test set measures it.** `uv run digest eval` runs the real agents on 20 saved cases, including tutorials to drop, fake claims and two prompt-injection traps. It scores 5 checks: keep/drop accuracy, numbers found in the source, duplicates merged, traps ignored and no invented links.
+- **Everything is visible in Langfuse.** Each run, each agent and each LLM call is traced with tokens and errors, plus scores such as stories, failed calls and hallucination catches.
 
 ## Responsible AI
 
 GenAI Daily covers AI that advances people. These rules are enforced in code and in every AI prompt, not left to chance:
 
 - **Content policy.** No sexual or explicit content, nothing racist, sexist, misogynistic, hateful or anti-religious, and nothing that promotes violence, weapons, terrorism or self-harm. No gossip, outrage bait or fear-mongering.
-- **Checked three times.** (1) At collection, a block list (`blockedTerms` in [`config/sources.yaml`](config/sources.yaml)) drops matching items from every source before any AI or page sees them. (2) Every agent prompt includes the policy ([`contentPolicy.md`](src/digest/agents/prompts/contentPolicy.md)). (3) Before anything is saved, code checks what the AI wrote: a story that breaks the policy is removed, and an edition that does is withheld. The website applies the block list once more to everything it shows.
-- **English only, in plain, correct English.** Items in other languages are dropped at collection (`englishOnly` in `config/sources.yaml`). Everything the AI writes is tidied in code before it's saved: long dashes (—) between clauses become proper punctuation, odd hyphen characters are fixed, and empty bullet points or paragraphs are removed. The prompts ask for the same.
-- **Only reviewed content is published.** Raw web-search results are never shown; they reach the site only as a story an AI agent reviewed. Raw feeds come from known sources only.
-- **Transparent.** AI-written content is labelled , every story links to its original sources, and every AI call is logged in Langfuse.
-- **Grounded and fact-checked.** The AI can't invent links, and an editor agent checks every edition against the original articles (see above).
-- **Privacy.** No personal data is collected or stored; the site has no accounts, tracking or ads. (The planned email list will store only an email address, outside this public repo.)
-- **Human in charge.** The policy, block list and prompts are plain files anyone can read and change; a missing or withheld edition alerts the owner by email.
+- **Checked three times.** (1) At collection, a block list (`blockedTerms` in [`config/sources.yaml`](config/sources.yaml)) drops matching items from every source before any AI or page sees them. (2) Every agent prompt includes the policy ([`contentPolicy.md`](src/digest/agents/prompts/contentPolicy.md)). (3) Before anything is saved, code checks what the AI wrote and removes any story that breaks the policy. The website applies the block list once more to everything it shows, and R&D Hub uploads go through the same check.
+- **English only, in plain English.** Items in other languages are dropped at collection (`englishOnly` in `config/sources.yaml`). What the AI writes is tidied in code before saving: long dashes between clauses become proper punctuation, odd hyphens are fixed, and empty bullets are removed.
+- **Only reviewed content is published.** Raw web-search results are never shown; they reach the site only as a story an AI agent reviewed.
+- **Transparent.** Every story links to its original sources, and every AI call is logged in Langfuse.
+- **Grounded.** The AI cannot invent links, and every number in a story is checked against its source.
+- **Privacy.** No personal data is collected or stored. The site has no accounts, tracking or ads.
+- **Human in charge.** The policy, block list and prompts are plain files anyone can read and change.
 
 The block list is strict on purpose: it can also drop neutral news that uses a listed word (for example research on bias in AI). Edit the list to change that.
 
@@ -132,6 +128,7 @@ cp .env.example .env                  # then add your keys (see below)
 uv run digest collect --dry-run       # collect news and print it (saves nothing)
 uv run digest run --dry-run           # collect + AI agents (needs LLM keys)
 uv run digest eval                    # score the agents on the test set
+uv run pytest                         # run the tests (no network, no LLM calls)
 
 cd src/web && npm install && npm run dev
 # open http://localhost:4321/AI-News-Automation-WebApp/
@@ -169,14 +166,7 @@ An article is one **`.html` or `.pdf`** file, up to 5 MB.
 4. Checks run on the pull request (file type, size, content policy) and comment with anything to fix.
 5. A reviewer merges it. HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
 
-The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py) and the workflow in [`.github/workflows/hubUploads.yml`](.github/workflows/hubUploads.yml). Published articles are public, because the repository is. Files are stored in this repository (`src/web/public/hub/`); uploads are refused once that folder passes 300 MB, at which point the files should move to a separate content repository or Git LFS.
-
-## Preview a branch on GitHub Pages
-
-The live site always comes from `main`. Branches listed in `PREVIEW_BRANCHES` in [`.github/workflows/deploySite.yml`](.github/workflows/deploySite.yml) are also built, with `main`'s newest data, and published beside it at
-`<site address>/preview/<branch>/` (for example `https://digsganit98.github.io/AI-News-Automation-WebApp/preview/v2-search-hub/`). A yellow bar on those pages says they're a preview.
-
-If the deploy is refused with "branch is not allowed to deploy", open *Settings → Environments → github-pages* and add the branch under *Deployment branches*. Remove a branch from the list once it's merged.
+The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py). Published articles are public, because the repository is. Files are stored in this repository (`src/web/public/hub/`); uploads are refused once that folder passes 300 MB, at which point the files should move to a separate content repository or Git LFS.
 
 ## Run your own copy
 
@@ -190,20 +180,20 @@ It takes about 15 minutes, and everything is free.
    | Secret | Needed for | Get it free at |
    |---|---|---|
    | `GROQ_API_KEY` | the AI agents | <https://console.groq.com/keys> |
-   | `GEMINI_API_KEY` | the writer, and fallback | <https://aistudio.google.com/apikey> |
+   | `GEMINI_API_KEY` | fallback model | <https://aistudio.google.com/apikey> |
    | `TAVILY_API_KEY` | the web-search scout | <https://tavily.com> |
    | `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` | monitoring (optional) | <https://cloud.langfuse.com> |
    | `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD` | newsletters (optional) | [docs/gmailInboxSetup.md](docs/gmailInboxSetup.md) |
    | `YOUTUBE_API_KEY` | backup when YouTube's feed is down (optional) | Google Cloud Console |
 
-5. In [`config/app.env`](config/app.env), set `SITE_URL`, `SITE_BASE_PATH` and `PROJECT_URL` to your own GitHub account and repository.
+5. In [`config/app.env`](config/app.env), set `SITE_URL`, `SITE_BASE_PATH`, `PROJECT_URL`, `HUB_UPLOAD_URL` and `HUB_SHAREPOINT_URL` to your own.
 6. **Actions → News pipeline → Run workflow.** Your site goes live at `https://<you>.github.io/<repo>/`.
 
 Anything whose key is missing is simply skipped. Without any LLM keys, for example, the site still shows everything collected.
 
 ## Configuration
 
-| File | What's in it |
+| File | What is in it |
 |---|---|
 | [`config/app.env`](config/app.env) | Every URL and non-secret setting (committed to git) |
 | [`config/sources.yaml`](config/sources.yaml) | The sources: add or pause one without code; `titleFilter` and `maxItems` keep busy feeds small |
@@ -220,19 +210,19 @@ Priority when the same setting is in several places: environment variable or Git
 config/            app.env · sources.yaml · agents.yaml
 src/digest/        Python pipeline (camelCase module names)
   collectors/        one file per source type (RSS, web page, Hacker News, YouTube, Hugging Face, web search, Gmail)
-  agents/            LangGraph graph, scouts, analyst, writer/editor, prompts/, LLM router and budget
+  agents/            LangGraph graph, scouts, analyst, prompts/, LLM router and budget
   evaluation/        the grounding eval (`digest eval`)
   hub/               R&D Hub upload checks and publishing
   monitoring/        Langfuse tracing
   newsToolsServer.py MCP server with the read-only news tools
-src/web/           website (Astro + Tailwind + Preact, Apple "Liquid Glass" style)
+src/web/           website (Astro + Tailwind + Preact, "Liquid Glass" style)
 evals/             the eval test set
 tests/             automated tests (no network, no LLM calls)
-data/              collected news, stories and digests, and R&D Hub articles' details (public)
+data/              collected news and stories, and R&D Hub article details (public)
 hub/inbox/         where a new R&D Hub article is added in a pull request (see hub/README.md)
 state/             pipeline memory: seen items, daily LLM usage, feed cache
 docs/              setup guides and the architecture diagram (+ editable .drawio)
-.github/workflows/ newsPipeline (every 3 h) · deploySite (with branch previews) · hubUploads · ci · evaluateAgents
+.github/workflows/ newsPipeline · deploySite · hubUploads · ci · evaluateAgents
 ```
 
 ## Troubleshooting
@@ -240,11 +230,11 @@ docs/              setup guides and the architecture diagram (+ editable .drawio
 | Problem | Fix |
 |---|---|
 | A source shows ❌ | Other sources still run. `429` usually clears by the next run. `404` means the feed URL in `config/app.env` has changed. |
-| "Skipped: no LLM API keys" / no stories or digest on the site | The keys in your `.env` only work on your computer. The scheduled runs need them as **GitHub secrets** too: Settings → Secrets and variables → Actions → add `GROQ_API_KEY` and `GEMINI_API_KEY`. |
-| No digest today | First check the `GROQ_API_KEY` / `GEMINI_API_KEY` secrets. Every run after 07:30 IST writes the edition if today's is still missing (see *Edition on time*). If the models were busy or out of quota, the run summary and Langfuse show why. To make it now: Actions → News pipeline → Run workflow → `dailyEdition`, or locally `uv run digest run --mode dailyEdition --backlog-hours 24` (the backlog option also gives the agents items that earlier runs collected but never analysed). |
+| "Skipped: no LLM API keys" / no stories on the site | The keys in your `.env` only work on your computer. The scheduled runs need them as **GitHub secrets** too: Settings → Secrets and variables → Actions → add `GROQ_API_KEY` and `GEMINI_API_KEY`. |
 | Website shows 404 | Turn on Pages: **Settings → Pages → Source: GitHub Actions**. |
 | `npm` not found | Install Node.js 20+ and add it to your `PATH`. |
 | Scheduled runs stopped | GitHub pauses schedules after 60 days without activity. Re-enable the workflow in the Actions tab. |
+| A Hub upload check fails | Open the comment on the pull request: it lists what to fix (file type, size, missing Title / Team / Author line, or wording flagged by the content policy). |
 
 ## Contributing
 

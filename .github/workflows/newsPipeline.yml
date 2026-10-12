@@ -1,18 +1,7 @@
 # The news pipeline. Runs on GitHub's servers, so your computer can be off.
 #
-#   Every 3 hours  -> "update":       collect new items; scout + analyst agents turn them into
-#                                     stories; the website is republished
-#   by 09:30 IST   -> "dailyEdition": the same, then the writer and editor agents produce the
-#                                     daily digest + op-ed (and, in Phase 4, one email)
-#
-# The edition must be on the site by 09:30 IST, but GitHub often starts scheduled runs 30 min to
-# 2 h late, or skips them. So the edition isn't tied to one slot:
-#   - an attempt every 15 minutes from 07:35 to 09:05 IST (7 in all, off the busy :00/:30
-#     marks); the first one GitHub actually starts writes the edition, and
-#     the rest see it's done and stop straight away (no LLM calls, no deploy)
-#   - any other run from 07:30 IST on that finds no edition for today writes it (catch-up)
-#   - an optional outside timer (e.g. cron-job.org) can start "editionIfMissing" on the minute;
-#     see "Edition on time" in the README
+# Every 3 hours: collect new news and research papers from the sources in config/sources.yaml,
+# let the scout and analyst agents turn them into stories, save the data, and republish the site.
 #
 # The agents need GROQ_API_KEY and/or GEMINI_API_KEY secrets; without them they're skipped and the
 # site shows the plain collected feed.
@@ -21,16 +10,9 @@ name: News pipeline
 on:
   schedule:
     # Times are UTC. IST = UTC + 5:30, and India has no daylight saving, so these never shift.
-    - cron: "5,20,35,50 2 * * *" # 07:35, 07:50, 08:05, 08:20 IST: daily edition attempts
-    - cron: "5,20,35 3 * * *" # 08:35, 08:50, 09:05 IST: more attempts, in case GitHub is late
-    - cron: "30 1,7,10,13,16,19,22 * * *" # 07:00, 13:00, 16:00, 19:00, 22:00, 01:00, 04:00 IST
+    - cron: "30 0,3,6,9,12,15,18,21 * * *" # 06:00, 09:00, 12:00 ... 03:00 IST, every 3 hours
   workflow_dispatch: # "Run workflow" button in the Actions tab
     inputs:
-      mode:
-        description: "update = stories only; dailyEdition = (re)write today's digest; editionIfMissing = write it only if today's is missing"
-        type: choice
-        options: [update, dailyEdition, editionIfMissing]
-        default: update
       dryRun:
         description: "Dry run: collect and print, but don't save anything"
         type: boolean
@@ -47,44 +29,17 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    outputs:
-      mode: ${{ steps.mode.outputs.mode }}
     steps:
       - uses: actions/checkout@v5
 
-      - name: Decide which run this is
-        id: mode
-        env:
-          SCHEDULE: ${{ github.event.schedule }}
-          CHOSEN: ${{ inputs.mode }}
-        run: |
-          today=$(TZ=Asia/Kolkata date +%F)
-          now=$(TZ=Asia/Kolkata date +%H%M)
-          done=$([ -f "data/digests/$today.json" ] && echo yes || echo no)
-          case "$SCHEDULE" in "5,20,35,50 2 * * *" | "5,20,35 3 * * *") attempt=yes ;; *) attempt=no ;; esac
-          if [ "$CHOSEN" = "dailyEdition" ]; then
-            mode=dailyEdition # asked for by hand: always (re)write it
-          elif [ "$attempt" = yes ] || [ "$CHOSEN" = "editionIfMissing" ]; then
-            if [ "$done" = yes ]; then mode=skip; else mode=dailyEdition; fi
-          elif [ -z "$CHOSEN" ] && [ "$now" -ge 730 ] && [ "$done" = no ]; then
-            mode=dailyEdition # catch-up: the edition attempts were late or skipped
-          else
-            mode=update
-          fi
-          echo "mode=$mode" >> "$GITHUB_OUTPUT"
-          echo "Mode: $mode ($now IST)"
-
       - uses: astral-sh/setup-uv@v6
-        if: ${{ steps.mode.outputs.mode != 'skip' }} # today's edition is already out
         with:
           enable-cache: true
 
       - name: Install
-        if: ${{ steps.mode.outputs.mode != 'skip' }} # today's edition is already out
         run: uv sync --frozen
 
       - name: Collect news and run the AI agents
-        if: ${{ steps.mode.outputs.mode != 'skip' }} # today's edition is already out
         env:
           # Optional secrets; anything that needs a missing one is skipped.
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
@@ -95,11 +50,11 @@ jobs:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
           LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
-        run: uv run digest run --mode ${{ steps.mode.outputs.mode }} ${{ inputs.dryRun && '--dry-run' || '' }}
+        run: uv run digest run ${{ inputs.dryRun && '--dry-run' || '' }}
 
       # always(): even if the agents crash, the news already collected is saved and published.
       - name: Save collected data to the repo
-        if: ${{ always() && !inputs.dryRun && steps.mode.outcome == 'success' && steps.mode.outputs.mode != 'skip' }}
+        if: ${{ always() && !inputs.dryRun }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -107,25 +62,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing new to save."
           else
-            git commit -m "data: ${{ steps.mode.outputs.mode }} $(TZ=Asia/Kolkata date '+%F %H:%M IST')"
+            git commit -m "data: update $(TZ=Asia/Kolkata date '+%F %H:%M IST')"
             git pull --rebase
             git push
-          fi
-
-      # Fails the run (so GitHub emails you) when an attempt from 09:00 IST ends with no edition.
-      # Earlier attempts only warn: the next attempt tries again.
-      - name: Check today's edition is out
-        if: ${{ always() && !inputs.dryRun && steps.mode.outputs.mode == 'dailyEdition' }}
-        run: |
-          today=$(TZ=Asia/Kolkata date +%F)
-          now=$(TZ=Asia/Kolkata date +%H%M)
-          if [ -f "data/digests/$today.json" ]; then
-            echo "Today's edition is out."
-          elif [ "$now" -lt 900 ]; then
-            echo "::warning::No edition yet at $now IST; the next attempt will try again."
-          else
-            echo "::error::No daily edition for $today at $now IST. The run summary and Langfuse show why."
-            exit 1
           fi
 
   # Rebuild and publish the website with the data just collected.
@@ -133,11 +72,9 @@ jobs:
   website:
     needs: collect
     # Publish whatever was saved, even if part of the collect job failed.
-    if: ${{ always() && !inputs.dryRun && needs.collect.outputs.mode != '' && needs.collect.outputs.mode != 'skip' }}
+    if: ${{ always() && !inputs.dryRun }}
     uses: ./.github/workflows/deploySite.yml
     permissions:
       contents: read
       pages: write
       id-token: write
-
-  # Phase 4: an `email` job that runs only when needs.collect.outputs.mode == 'dailyEdition'.

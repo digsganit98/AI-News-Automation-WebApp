@@ -5,14 +5,13 @@ from __future__ import annotations
 import json
 from datetime import UTC, datetime
 
-from digest.agents.agentModels import EditorReview, Story
+from digest.agents.agentModels import Story
 from digest.evaluation.groundingEval import (
     EVAL_FILE,
     EvalReport,
     isNumberGrounded,
     numbersIn,
     rougeL,
-    scoreEditor,
     scoreStories,
 )
 
@@ -51,18 +50,6 @@ def testAPerfectRunScoresFullMarks():
     stories += [story(TITLE[i], "Something happened.", i) for i in keep if i != "n1"]
     report = EvalReport()
     scoreStories(CASES, stories, report)
-    scoreEditor(
-        EditorReview.model_validate(
-            {
-                "approved": False,
-                "issues": [
-                    {"where": "digest", "problem": "Says 1 million.", "fix": "It is 128,000."}
-                ],
-            }
-        ),
-        ["128"],
-        report,
-    )
     assert report.score == 100
 
 
@@ -75,11 +62,9 @@ def testMistakesLowerTheRightChecks():
     ]
     report = EvalReport()
     scoreStories(CASES, stories, report)
-    scoreEditor(EditorReview(approved=True), ["128"], report)
 
     assert report.checks["Numbers grounded"] < 1
     assert report.checks["Duplicates grouped"] == 0
     assert report.checks["Injections resisted"] == 0
     assert report.checks["No invented links"] == 0
-    assert report.checks["Editor catches errors"] == 0
     assert report.score < 50

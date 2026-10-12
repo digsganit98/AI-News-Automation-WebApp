@@ -3,7 +3,7 @@
 Commands
   sources   list the configured sources
   collect   fetch every enabled source and save data/raw/<date>.json
-  run       collect, then run the AI agents (stories every run; digest + takes in dailyEdition mode)
+  run       collect, then run the AI agents (scouts and analyst turn new items into stories)
   eval      score how well the agents stick to their sources (uses real LLM calls)
   mcp       start the MCP server (stdio) that exposes the news tools to agents
 """
@@ -95,9 +95,7 @@ def agentSummary(outcome, traceUrl: str | None = None) -> str:
     lines = [
         "## AI agents",
         "",
-        f"**{len(outcome.stories)} stories**"
-        + (", digest + takes written" if outcome.edition else "")
-        + f", {len(outcome.calls)} LLM calls.",
+        f"**{len(outcome.stories)} stories**" + f", {len(outcome.calls)} LLM calls.",
         "",
         "| Agent | Model | Result | Tokens in / out |",
         "|---|---|---|---|",
@@ -127,14 +125,9 @@ def scoreRun(trace, result: CollectionResult, outcome) -> None:
     trace.score("llmCalls", len(outcome.calls))
     trace.score("llmCallsFailed", sum(not c.ok for c in outcome.calls))
     trace.score("hallucinationCatches", totalCatches(), "links/sources removed by grounding checks")
-    if outcome.edition:
-        trace.score("editorApproved", outcome.edition.review.approved)
-        trace.score("editorIssues", len(outcome.edition.review.issues))
-        trace.score("originalsChecked", outcome.edition.originalsChecked)
     trace.output(
         {
             "stories": [f"[{s.importance}] {s.headline}" for s in outcome.stories],
-            "digest": outcome.edition.digest.headline if outcome.edition else None,
             "errors": outcome.errors,
         }
     )
@@ -144,11 +137,11 @@ def commandRun(args: argparse.Namespace) -> int:
     from digest.agents.runAgents import runAgents
     from digest.monitoring.langfuseTracing import traceRun
     from digest.publish.saveDataFiles import digestDate, readRecentItems
-    from digest.publish.saveStories import saveEdition, saveStories
+    from digest.publish.saveStories import saveStories
 
-    tags = [args.mode] + (["dryRun"] if args.dryRun else [])
+    tags = ["update"] + (["dryRun"] if args.dryRun else [])
     session = digestDate(datetime.now(UTC)).isoformat()
-    with traceRun("news-pipeline", tags, {"mode": args.mode}, session) as trace:
+    with traceRun("news-pipeline", tags, {}, session) as trace:
         result, seen = collectNewItems(args)
         if not args.dryRun:
             saveCollected(result, seen, args)
@@ -158,7 +151,7 @@ def commandRun(args: argparse.Namespace) -> int:
             backlog = readRecentItems(args.backlogHours, datetime.now(UTC))
             agentItems += [i for i in backlog if i.id not in known]
             print(f"Agents get {len(agentItems)} items ({len(agentItems) - len(known)} backlog)")
-        outcome = asyncio.run(runAgents(agentItems, args.mode, saveUsage=not args.dryRun))
+        outcome = asyncio.run(runAgents(agentItems, saveUsage=not args.dryRun))
         # House style (no long dashes, no empty bullets) and the content policy, checked in
         # code on what the AI wrote, before anything is saved.
         tidyOutcome(outcome)
@@ -173,20 +166,10 @@ def commandRun(args: argparse.Namespace) -> int:
     if args.dryRun:
         for s in outcome.stories:
             print(f"- [{s.category} · {s.importance}] {s.headline}\n  {s.summary}")
-        if outcome.edition:
-            print(f"\n# {outcome.edition.digest.headline}\n{outcome.edition.digest.dek}")
-            for take in outcome.edition.takes.takes:
-                print(f"\n## [{take.theme}] {take.title}\n{take.verdict}\n{take.take}")
         return 0
 
     if path := saveStories(outcome.stories):
         print(f"Saved {path}")
-    if outcome.edition:
-        models: dict[str, int] = {}
-        for c in outcome.calls:
-            if c.ok:
-                models[c.model] = models.get(c.model, 0) + 1
-        print(f"Saved {saveEdition(outcome.edition, models)}")
     return 0 if any(h.ok for h in result.health) else 1
 
 
@@ -248,12 +231,6 @@ def main(argv: list[str] | None = None) -> int:
 
     run = sub.add_parser("run", help="collect, then run the AI agents")
     addCollectOptions(run)
-    run.add_argument(
-        "--mode",
-        choices=["update", "dailyEdition"],
-        default="update",
-        help="update = stories only (every 3 h); dailyEdition = also digest + takes (09:30 IST)",
-    )
     run.add_argument(
         "--backlog-hours",
         dest="backlogHours",
