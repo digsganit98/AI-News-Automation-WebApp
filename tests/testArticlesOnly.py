@@ -91,31 +91,3 @@ async def testArticlesOnlyAppliesPerSource():
 
     counts = {h.source: h.items for h in result.health}
     assert counts == {"reddit": 1, "other": 4}
-
-
-def testEditionLeavesOutStoriesBackedOnlyByThreads(monkeypatch):
-    from datetime import UTC, datetime
-
-    from digest.agents import runAgents
-    from digest.agents.agentModels import Story
-
-    def story(sid: str, *urls: str) -> Story:
-        return Story(
-            id=sid,
-            createdAt=datetime.now(UTC).isoformat(),
-            headline=sid,
-            summary="S.",
-            category="Research",
-            importance=3,
-            sources=[{"name": "x", "url": u} for u in urls],
-        )
-
-    monkeypatch.setattr(runAgents, "storiesForEdition", lambda: [])
-    stories = [
-        story("gossip", "https://www.reddit.com/r/singularity/comments/1/x/"),
-        story("tweet", "https://x.com/someone/status/1"),
-        story("article", "https://openai.com/index/new-model"),
-        story("threadAndArticle", "https://www.reddit.com/r/a/1", "https://example.com/news"),
-    ]
-    kept = {s.id for s in runAgents.mergeForEdition(stories)}
-    assert kept == {"article", "threadAndArticle"}

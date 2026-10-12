@@ -6,17 +6,13 @@ import json
 from datetime import UTC, datetime
 
 import pytest
-from conftest import makeTakes
 
 from digest.agents import runAgents as runAgentsModule
 from digest.agents.agentModels import (
     AnalystReport,
-    DigestDraft,
-    EditorReview,
     ScoutBrief,
     ScoutTriage,
     Story,
-    TakesDraft,
 )
 from digest.agents.agentsConfig import Budget, loadAgentsConfig
 from digest.agents.llmBudget import LlmBudget
@@ -24,7 +20,7 @@ from digest.agents.llmRouter import LlmRouter, LlmUnavailableError
 from digest.agents.runAgents import runAgents
 from digest.agents.scoutAgent import runScout
 from digest.dataModels import RawItem
-from digest.publish.saveStories import saveEdition, saveStories
+from digest.publish.saveStories import saveStories
 
 NOW = datetime.now(UTC)
 
@@ -169,7 +165,6 @@ def triageKeepAll(user: str) -> ScoutTriage:
 @pytest.fixture
 def noSavedStories(monkeypatch):
     monkeypatch.setattr(runAgentsModule, "loadRecentStories", lambda days: [])
-    monkeypatch.setattr(runAgentsModule, "storiesForEdition", lambda: [])
 
 
 async def testUpdateRunProducesGroundedStoriesOnly(noSavedStories):
@@ -182,64 +177,19 @@ async def testUpdateRunProducesGroundedStoriesOnly(noSavedStories):
     router = FakeRouter(
         {ScoutTriage: triageKeepAll, ScoutBrief: scoutNotes, AnalystReport: analystAnswer}
     )
-    result = await runAgents(items, "update", router=router, fetchArticle=lambda url: None)
+    result = await runAgents(items, router=router, fetchArticle=lambda url: None)
 
-    assert result.ran and result.edition is None  # no writer outside the 09:30 edition
+    assert result.ran
     assert [s.headline for s in result.stories] == ["OpenAI launches GPT-6"]
     assert len(result.stories[0].sources) == 2  # one story, both sources
     scoutsAsked = [a for a in router.asked if a[1] == "ScoutTriage"]
     assert len(scoutsAsked) == 2  # labs + community scouts; video and X had nothing
 
 
-async def testDailyEditionWritesDigestAndRevisesOnce(noSavedStories):
-    items = [item("a", "openai", "GPT-6 launches", "https://openai.com/gpt-6")]
-    digest = DigestDraft(
-        headline="GPT-6 arrives",
-        dek="A big day.",
-        tldr=["GPT-6 is out."],
-        intro="Today OpenAI...",
-        topStoryIds=["does-not-exist"],
-    )
-    takes = makeTakes()
-    fixedDigest = digest.model_copy(update={"headline": "OpenAI releases GPT-6"})
-    router = FakeRouter(
-        {
-            ScoutTriage: triageKeepAll,
-            ScoutBrief: scoutNotes,
-            AnalystReport: analystAnswer,
-            DigestDraft: [digest, fixedDigest],
-            TakesDraft: takes,
-            EditorReview: EditorReview.model_validate(
-                {
-                    "approved": False,
-                    "issues": [{"where": "digest", "problem": "Hype.", "fix": "Be factual."}],
-                }
-            ),
-        }
-    )
-
-    async def fetchOriginal(url: str) -> dict:
-        return {"text": "ORIGINAL ARTICLE: GPT-6 ships in three sizes."}
-
-    result = await runAgents(items, "dailyEdition", router=router, fetchArticle=fetchOriginal)
-
-    edition = result.edition
-    assert edition is not None and edition.revised
-    assert edition.digest.headline == "OpenAI releases GPT-6"
-    assert edition.digest.topStoryIds == [result.stories[0].id]  # unknown id replaced
-    # only the flagged piece (the digest) is revised, once; the takes are left alone
-    assert [a[1] for a in router.asked].count("DigestDraft") == 2
-    assert [a[1] for a in router.asked].count("TakesDraft") == 1
-    editorPrompt = next(a[2] for a in router.asked if a[1] == "EditorReview")
-    assert "original articles" in editorPrompt  # the editor checks the source, not a summary
-    assert "GPT-6 ships in three sizes" in editorPrompt
-    assert edition.originalsChecked == 1
-
-
 async def testNoApiKeysSkipsAgents(monkeypatch):
     for key in ("GROQ_API_KEY", "GEMINI_API_KEY"):
         monkeypatch.setenv(key, "")
-    result = await runAgents([], "update")
+    result = await runAgents([])
     assert not result.ran and "API keys" in result.skippedReason
 
 
@@ -264,14 +214,14 @@ class FakeChat:
         return type("Msg", (), {"content": content, "usage_metadata": usage})()
 
 
-def makeRouter(monkeypatch, tmp_path, outcomes: dict[str, object], mode="update", cap=100):
+def makeRouter(monkeypatch, tmp_path, outcomes: dict[str, object], cap=100):
     monkeypatch.setenv("GROQ_API_KEY", "test-key")
     monkeypatch.setenv("GEMINI_API_KEY", "test-key")
     config = loadAgentsConfig()
     config.budget.dailyCallCap = cap
     for provider in config.providers.values():
         provider.tokensPerMinute = None  # no pacing waits in tests
-    router = LlmRouter(config, LlmBudget(config.budget, mode, tmp_path / "llmUsage.json"))
+    router = LlmRouter(config, LlmBudget(config.budget, tmp_path / "llmUsage.json"))
     monkeypatch.setattr(
         router, "_chat", lambda agent, choice, maxOutput=None: FakeChat(outcomes[choice.model])
     )
@@ -296,29 +246,19 @@ async def testRouterFallsBackToTheNextModel(monkeypatch, tmp_path):
     assert router.budget.usage["calls"] == 1  # the failed request never reached a model
 
 
-async def testBudgetKeepsCallsForTheDailyEdition(monkeypatch, tmp_path):
-    # cap 30, reserve 25: 3-hourly updates may use only 5 calls
-    router = makeRouter(monkeypatch, tmp_path, {"qwen/qwen3.8-27b": ScoutTriage()}, cap=30)
+async def testBudgetCapStopsFurtherCalls(monkeypatch, tmp_path):
+    router = makeRouter(monkeypatch, tmp_path, {"qwen/qwen3.8-27b": ScoutTriage()}, cap=5)
     for _ in range(5):
         await router.structured("scout", ScoutTriage, "s", "u")
     with pytest.raises(LlmUnavailableError, match="budget"):
         await router.structured("scout", ScoutTriage, "s", "u")
-    router.budget.save()
-
-    edition = makeRouter(
-        monkeypatch,
-        tmp_path,
-        {"openai/gpt-oss-120b": EditorReview(approved=True)},
-        mode="dailyEdition",
-        cap=30,
-    )
-    assert edition.budget.remaining() == 25  # the reserve is still there at 09:30
+    assert router.budget.remaining() == 0
 
 
 # ------------------------------------------------------------------ saving
 
 
-def testStoriesAndEditionAreSaved(tmp_path):
+def testStoriesAreSaved(tmp_path):
     story = Story(
         id="gpt-6-abc123",
         createdAt=NOW.isoformat(),
@@ -330,29 +270,6 @@ def testStoriesAndEditionAreSaved(tmp_path):
     )
     path = saveStories([story, story], tmp_path / "stories")
     assert len(json.loads(path.read_text(encoding="utf-8"))["stories"]) == 1  # no duplicates
-
-    from digest.agents.writerAgent import Edition
-
-    edition = Edition(
-        DigestDraft(headline="H", dek="D", tldr=["T"], intro="I", topStoryIds=[story.id]),
-        makeTakes(storyIds=[story.id]),
-        EditorReview(approved=True),
-        False,
-        [story],
-    )
-    saved = json.loads(
-        saveEdition(edition, {"gemini/gemini-3.8-flash": 2}, tmp_path / "digests").read_text(
-            encoding="utf-8"
-        )
-    )
-    assert saved["digest"]["headline"] == "H" and saved["stories"][story.id]["importance"] == 5
-    assert [t["theme"] for t in saved["takes"]] == ["Models", "Policy"] and "opEd" not in saved
-    assert saved["editor"] == {
-        "approved": True,
-        "issuesFound": 0,
-        "revised": False,
-        "originalsChecked": 0,
-    }
 
 
 async def testPacerWaitsWhenTheMinuteIsFull(monkeypatch):

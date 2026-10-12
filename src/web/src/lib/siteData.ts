@@ -298,51 +298,6 @@ export interface Story {
   createdAt: string;
 }
 
-/** One short opinion piece of the daily edition. */
-export interface Take {
-  theme: string;
-  title: string;
-  verdict: string;
-  whatHappened: string;
-  take: string;
-  watchFor: string;
-  basedOnStoryIds: string[];
-}
-
-/** One card of the Daily Digest deck: a take, or an older edition's single op-ed. */
-export interface DigestCard {
-  theme: string;
-  title: string;
-  verdict: string;
-  whatHappened?: string;
-  take?: string;
-  watchFor?: string;
-  paragraphs?: string[]; // older editions: the op-ed's text
-  basedOn: Story[];
-}
-
-export function digestCards(edition: DigestFile): DigestCard[] {
-  const based = (ids: string[]) => ids.map((id) => edition.stories[id]).filter(Boolean).slice(0, 2);
-  if (edition.takes?.length) {
-    return edition.takes.map(({ basedOnStoryIds, ...take }) => ({ ...take, basedOn: based(basedOnStoryIds) }));
-  }
-  const opEd = edition.opEd;
-  return opEd
-    ? [{ theme: "Opinion", title: opEd.title, verdict: opEd.dek, paragraphs: opEd.paragraphs.filter((p) => p.trim()), basedOn: based(opEd.basedOnStoryIds) }]
-    : [];
-}
-
-export interface DigestFile {
-  date: string;
-  createdAt: string;
-  digest: { headline: string; dek: string; tldr: string[]; intro: string; topStoryIds: string[] };
-  takes?: Take[]; // three short opinion pieces (editions from 30 Sep 2026 on)
-  opEd?: { title: string; dek: string; paragraphs: string[]; basedOnStoryIds: string[] }; // older editions
-  stories: Record<string, Story>;
-  editor: { approved: boolean; issuesFound: number; revised: boolean };
-  models: Record<string, number>;
-}
-
 function readDatedFiles<T>(folder: string): T[] {
   const dir = path.join(repoRoot, "data", folder);
   if (!fs.existsSync(dir)) return [];
@@ -364,18 +319,6 @@ export function loadTopStories(days = 2): Story[] {
 }
 
 const storyText = (s: Story) => `${s.headline} ${s.summary} ${s.whyItMatters}`;
-
-/** Editions whose text breaks the content policy are never shown (the pipeline also checks). */
-export function loadDigests(): DigestFile[] {
-  return readDatedFiles<DigestFile>("digests").filter(
-    (d) =>
-      !isBlocked(
-        [d.digest.headline, d.digest.dek, d.digest.intro, ...d.digest.tldr,
-          ...digestCards(d).flatMap((c) => [c.theme, c.title, c.verdict, c.whatHappened ?? "", c.take ?? "", c.watchFor ?? "", ...(c.paragraphs ?? [])]),
-          ...Object.values(d.stories).map(storyText)].join(" "),
-      ),
-  );
-}
 
 export const IMPORTANCE_LABEL: Record<number, string> = {
   5: "Major", 4: "Significant", 3: "Worth knowing", 2: "Niche", 1: "Minor",

@@ -15,7 +15,7 @@ name: Deploy website
 
 on:
   push:
-    branches: [main, v2-search-hub]
+    branches: [main]
     paths:
       - "src/web/**"
       - "data/**"
@@ -60,7 +60,7 @@ jobs:
 
       - name: Build branch previews
         env:
-          PREVIEW_BRANCHES: v2-search-hub
+          PREVIEW_BRANCHES: "" # e.g. "my-redesign" (space separated)
         run: |
           set -e
           base=$(grep '^SITE_BASE_PATH=' config/app.env | cut -d= -f2)

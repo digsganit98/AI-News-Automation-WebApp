@@ -1,7 +1,7 @@
 """House style for AI-written text, applied in code before anything is saved.
 
 The prompts ask for plain, grammatical English without long dashes, but models don't always
-listen (gpt-oss loves "—" and non-breaking hyphens). So every story, digest and take is
+listen (gpt-oss loves "—" and non-breaking hyphens). So every story is
 tidied here: dashes between clauses become commas, odd hyphen characters become "-", and
 empty bullet points or paragraphs are removed.
 """
@@ -37,9 +37,6 @@ def tidyLines(lines: list[str]) -> list[str]:
     return [t for t in (tidyText(line) for line in lines) if t]
 
 
-TAKE_TEXT_FIELDS = ("theme", "title", "verdict", "whatHappened", "take", "watchFor")
-
-
 def tidyStory(story) -> None:
     story.headline = tidyText(story.headline)
     story.summary = tidyText(story.summary)
@@ -49,16 +46,4 @@ def tidyStory(story) -> None:
 def tidyOutcome(outcome) -> None:
     """Everything the agents wrote in this run, in house style (in place)."""
     for story in outcome.stories:
-        tidyStory(story)
-    edition = outcome.edition
-    if edition is None:
-        return
-    digest = edition.digest
-    digest.headline, digest.dek = tidyText(digest.headline), tidyText(digest.dek)
-    digest.intro = tidyText(digest.intro)
-    digest.tldr = tidyLines(digest.tldr)
-    for take in edition.takes.takes:
-        for name in TAKE_TEXT_FIELDS:
-            setattr(take, name, tidyText(getattr(take, name)))
-    for story in edition.stories:
         tidyStory(story)

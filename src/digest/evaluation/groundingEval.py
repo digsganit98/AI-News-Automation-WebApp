@@ -1,6 +1,6 @@
 """`uv run digest eval`: how well do the agents stick to the sources?
 
-Runs the real scouts, analyst and editor on the saved test set (evals/groundingSet.json,
+Runs the real scouts and analyst on the saved test set (evals/groundingSet.json,
 invented companies, so nothing can come from the model's memory) and scores:
 
   1. Keep/drop accuracy      real news kept, tutorials / ads / off-topic dropped
@@ -8,7 +8,6 @@ invented companies, so nothing can come from the model's memory) and scores:
   3. Duplicates grouped      one event from two sources becomes one story
   4. Injections resisted     no trace of instructions hidden in scraped pages
   5. No invented links       every URL in the output was in the input
-  6. Editor catches errors   a planted wrong number is flagged against the original
 
 Plus ROUGE-L between each summary and its source (information only: a very high value
 means the summary copies the source too closely).
@@ -25,14 +24,12 @@ from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
 
-from digest.agents.agentModels import DigestDraft, EditorReview, ScoutNote, Story, Take, TakesDraft
+from digest.agents.agentModels import ScoutNote, Story
 from digest.agents.agentsConfig import loadAgentsConfig
 from digest.agents.analystAgent import runAnalyst
 from digest.agents.llmBudget import LlmBudget
 from digest.agents.llmRouter import LlmRouter
-from digest.agents.promptKit import loadPrompt, untrusted
 from digest.agents.scoutAgent import runScout
-from digest.agents.writerAgent import drafts, storiesForPrompt
 from digest.dataModels import RawItem
 from digest.envSettings import REPO_ROOT
 
@@ -170,15 +167,6 @@ def scoreStories(cases: list[dict], stories: list[Story], report: EvalReport) ->
     )
 
 
-def scoreEditor(review: EditorReview, mustMention: list[str], report: EvalReport) -> None:
-    issuesText = " ".join(f"{i.problem} {i.fix}" for i in review.issues)
-    caught = not review.approved and all(m in issuesText for m in mustMention)
-    report.checks["Editor catches errors"] = 1.0 if caught else 0.0
-    report.details["Editor catches errors"] = (
-        "flagged the planted wrong number" if caught else "missed the planted wrong number"
-    )
-
-
 # ------------------------------------------------------------------ running
 
 
@@ -202,7 +190,7 @@ async def runGroundingEval(
     config = loadAgentsConfig()
     if router is None:  # separate budget file: the eval never eats the pipeline's daily budget
         usage = Path(tempfile.gettempdir()) / "genaiDigestEvalUsage.json"
-        router = LlmRouter(config, LlmBudget(config.budget, "dailyEdition", usage))
+        router = LlmRouter(config, LlmBudget(config.budget, usage))
 
     texts = {c["url"]: c.get("fullText") or c.get("excerpt", "") for c in cases}
 
@@ -219,36 +207,4 @@ async def runGroundingEval(
 
     result = EvalReport(stories=stories)
     scoreStories(cases, stories, result)
-
-    planted = data["plantedError"]
-    case = next(c for c in cases if c["id"] == planted["caseId"])
-    story = Story(
-        id="planted",
-        createdAt=datetime.now(UTC).isoformat(),
-        headline=case["title"],
-        summary=case["excerpt"],
-        category="New Model Release",
-        importance=4,
-        sources=[{"name": case["sourceName"], "url": case["url"]}],
-    )
-    take = Take(
-        theme="Open models",
-        title="Open models keep getting better",
-        verdict="Open reasoning models are improving fast.",
-        whatHappened="Open reasoning models are improving.",
-        take="I think that helps builders, and it matters.",
-        watchFor="Watch for the next open releases.",
-        basedOnStoryIds=["planted"],
-    )
-    takes = TakesDraft(takes=[take, take])
-    originals = [{"storyId": "planted", "url": case["url"], "text": case["fullText"]}]
-    review = await router.structured(
-        "editor",
-        EditorReview,
-        loadPrompt("editor"),
-        f"{untrusted(storiesForPrompt([story]), 'stories')}\n\n"
-        f"{untrusted(originals, 'original articles')}\n\n"
-        f"{untrusted(drafts(DigestDraft(**planted['digest']), takes), 'drafts')}",
-    )
-    scoreEditor(review, planted["mustMention"], result)
     return result

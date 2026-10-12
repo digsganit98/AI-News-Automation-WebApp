@@ -1,6 +1,6 @@
 # Set up the Gmail inbox for newsletters
 
-The digest reads newsletters (TLDR AI, The Rundown AI, Superhuman AI, AlphaSignal) from a Gmail inbox. Later, the same account sends the daily digest email.
+The digest reads newsletters (TLDR AI, The Rundown AI, Superhuman AI, AlphaSignal) from a Gmail inbox.
 
 **Use a new Gmail account just for this project, not your personal one.** The password you'll create gives access to the whole mailbox.
 

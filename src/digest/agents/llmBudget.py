@@ -1,7 +1,6 @@
 """Daily LLM call budget, kept in state/llmUsage.json.
 
-Every call is counted. 3-hourly updates may use the budget only up to
-`dailyCallCap - dailyEditionReserve`, so the 09:30 IST edition always has calls left.
+Every call is counted, and runs stop once `dailyCallCap` calls are used.
 The count resets each day (in the digest's timezone).
 """
 
@@ -22,9 +21,8 @@ class BudgetExceededError(RuntimeError):
 
 
 class LlmBudget:
-    def __init__(self, budget: Budget, mode: str, path: Path = USAGE_FILE):
+    def __init__(self, budget: Budget, path: Path = USAGE_FILE):
         self.budget = budget
-        self.mode = mode
         self.path = path
         today = digestDate(datetime.now(UTC)).isoformat()
         usage = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
@@ -42,8 +40,7 @@ class LlmBudget:
 
     @property
     def limit(self) -> int:
-        cap = self.budget.dailyCallCap
-        return cap if self.mode == "dailyEdition" else cap - self.budget.dailyEditionReserve
+        return self.budget.dailyCallCap
 
     def remaining(self) -> int:
         return max(0, self.limit - self.usage["calls"])
@@ -51,7 +48,7 @@ class LlmBudget:
     def check(self) -> None:
         if self.remaining() <= 0:
             raise BudgetExceededError(
-                f"Daily LLM budget used up: {self.usage['calls']}/{self.limit} calls ({self.mode})"
+                f"Daily LLM budget used up: {self.usage['calls']}/{self.limit} calls"
             )
 
     def record(self, agent: str, model: str, tokensIn: int = 0, tokensOut: int = 0) -> None:

@@ -22,11 +22,9 @@ from digest.agents.llmBudget import LlmBudget
 from digest.agents.llmRouter import CallRecord, LlmRouter
 from digest.agents.newsGraph import GraphDeps, buildNewsGraph, splitItemsByScout
 from digest.agents.scoutAgent import FetchArticle
-from digest.agents.writerAgent import Edition
 from digest.dataModels import RawItem
 from digest.envSettings import env
-from digest.processing.articleFilter import isOnHost
-from digest.publish.saveStories import loadRecentStories, storiesForEdition
+from digest.publish.saveStories import loadRecentStories
 from digest.sourcesConfig import loadConfig
 
 log = logging.getLogger(__name__)
@@ -36,7 +34,6 @@ log = logging.getLogger(__name__)
 class AgentRunResult:
     ran: bool
     stories: list[Story] = field(default_factory=list)
-    edition: Edition | None = None
     errors: list[str] = field(default_factory=list)
     calls: list[CallRecord] = field(default_factory=list)
     skippedReason: str = ""
@@ -88,46 +85,31 @@ def sourceTypeFor(story: Story, urlGroup: dict[str, str]) -> str:
     return "AI-assisted" if "webSearch" in groups else "Emergent"
 
 
-def mergeForEdition(runStories: list[Story]) -> list[Story]:
-    """Today's edition covers this run's stories plus those from the last ~30 hours.
-
-    A story whose only sources are discussion threads or social posts (a Reddit thread about a
-    screenshot, a tweet) is left out: the edition rests on proper articles.
-    """
-    hosts = loadConfig().settings.notArticleHosts
-    byId = {s.id: s for s in storiesForEdition()}
-    byId.update({s.id: s for s in runStories})
-    backed = [s for s in byId.values() if not all(isOnHost(src.url, hosts) for src in s.sources)]
-    return sorted(backed, key=lambda s: (-s.importance, s.createdAt))
-
-
 async def runAgents(
     items: list[RawItem],
-    mode: str,
     config: AgentsConfig | None = None,
     router: LlmRouter | None = None,
     fetchArticle: FetchArticle | None = None,
     saveUsage: bool = True,
 ) -> AgentRunResult:
     config = config or loadAgentsConfig()
-    router = router or LlmRouter(config, LlmBudget(config.budget, mode))
+    router = router or LlmRouter(config, LlmBudget(config.budget))
     if not router.isAvailable():
         return AgentRunResult(
             False, skippedReason="no LLM API keys set (GROQ_API_KEY / GEMINI_API_KEY)"
         )
-    if not items and mode != "dailyEdition":
+    if not items:
         return AgentRunResult(False, skippedReason="no new items")
 
     resetGroundingStats()
     groupOf = {s.id: s.opt("group", "") for s in loadConfig().sources}
     state = {
-        "mode": mode,
         "itemsByScout": splitItemsByScout(items, config, groupOf),
         "recentStories": loadRecentStories(7),
     }
 
     async def run(fetch: FetchArticle) -> dict:
-        deps = GraphDeps(config, router, fetch, mergeForEdition)
+        deps = GraphDeps(config, router, fetch)
         return await buildNewsGraph(deps).ainvoke(state)
 
     if fetchArticle is not None:
@@ -144,7 +126,6 @@ async def runAgents(
     return AgentRunResult(
         True,
         stories=final.get("stories", []),
-        edition=final.get("edition"),
         errors=final.get("errors", []),
         calls=router.calls,
         grounding=dict(groundingStats),
