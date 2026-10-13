@@ -764,7 +764,223 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-introduces-consumption-based-pricing-for-ama-aff79a",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "AWS Introduces Consumption-Based Pricing for Amazon Bedrock AgentCore Short-Term Memory",
+      "summary": "Amazon has updated the pricing for short-term memory in Bedrock AgentCore to charge based on data usage rather than a flat rate per event. This change allows developers to pay in proportion to the amount of data their agents ingest, retrieve, and store, which typically results in lower costs for small-payload workloads.",
+      "whyItMatters": "Consumption-based pricing helps developers lower operational costs for small-payload agent workloads.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-benchmark-tests-intuitive-visual-reasoning-i-e92a54",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "New Benchmark Tests Intuitive Visual Reasoning in AI Models",
+      "summary": "Researchers have introduced a new benchmark called Humanity's Sixth Sense to evaluate how well multimodal AI models can perceive implicit information in scenes, such as predicting future movements or identifying social dynamics. The study aims to measure a model's ability to make quick, intuitive judgments similar to human perception.",
+      "whyItMatters": "This benchmark helps developers measure and improve how multimodal models handle intuitive visual reasoning.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.08966"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.08966",
+        "code": null,
+        "model": null,
+        "demo": "https://labs.scale.com/blog/introducing-humanitys-sixth-sense"
+      }
+    },
+    {
+      "id": "study-finds-coding-agent-benchmarks-should-match-e12569",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "Study Finds Coding Agent Benchmarks Should Match Real-World Workflows",
+      "summary": "A new study analyzing thousands of real software engineering sessions argues that current benchmarks for coding AI agents do not accurately reflect how developers actually work. The researchers propose a method called SWE-TaskFlow to adjust existing benchmarks so they better match the complex, multi-step nature of real-world coding tasks.",
+      "whyItMatters": "Aligning benchmarks with actual developer workflows allows for more accurate evaluation of coding agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09633"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09633",
+        "code": "https://github.com/JetBrains-Research/SWE-TaskFlow-Generation-Public",
+        "model": null,
+        "demo": "https://huggingface.co/datasets/JetBrains-Research/SWE-TaskFlow-SWE-Bench-Pro"
+      }
+    },
+    {
+      "id": "research-questions-whether-biological-ai-models-f07999",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "Research Questions Whether Biological AI Models Actually Use Their Inputs",
+      "summary": "A new paper investigates whether biological reasoning models, which combine large language models with biological data, truly use that specific data to make decisions. The study tests six models across DNA, protein, and single-cell data to verify if their high benchmark scores are driven by the biological inputs or other factors.",
+      "whyItMatters": "Verifying input usage ensures that biological AI models rely on actual data rather than shortcuts.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.00898"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.00898",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-to-add-200-jobs-and-build-second-applied-123a12",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "OpenAI to Add 200 Jobs and Build Second Applied AI Lab in Dublin",
+      "summary": "OpenAI is expanding its presence in Ireland by adding 200 roles in Dublin and constructing a new applied AI lab at its EU headquarters. This move brings the company's planned hiring in Ireland to 450 positions.",
+      "whyItMatters": "This expansion increases OpenAI's research and application footprint within the European Union.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/openai-dublin-applied-ai-lab"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amd-unveils-helion-rack-server-for-agentic-ai-wo-0b5d5f",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "AMD Unveils Helion Rack Server for Agentic AI Workloads",
+      "summary": "AMD has introduced the Helion data center rack server, a reference design intended to help partners build systems for agentic AI tasks. The server can be configured with AMD EPYC CPUs or a combination of CPUs and Instinct MI350P GPUs to handle various enterprise workloads.",
+      "whyItMatters": "New hardware reference designs provide enterprise infrastructure tailored specifically for agentic AI workloads.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://finance.yahoo.com/technology/article/amd-launches-helion-rack-server-for-agentic-ai-132423849.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "researchers-identify-repeat-after-me-vulnerabili-c8536b",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "Researchers Identify Repeat-After-Me Vulnerability in Six AI Agent Frameworks",
+      "summary": "A team of researchers demonstrated that six popular AI agent frameworks can be tricked into executing attacker-controlled tool calls by prompting the model to repeat specific text. The study also reported finding verified security bugs in 118 open-source Model Context Protocol servers.",
+      "whyItMatters": "Highlighting framework vulnerabilities helps developers secure agent tools against prompt injection attacks.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.csoonline.com/article/4233811/researchers-bypass-6-ai-agent-frameworks-with-a-simple-repeat-after-me-prompt.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-in-talks-to-acquire-ai-startup-decart-2facda",
+      "createdAt": "2026-10-13T02:48:06.173084+00:00",
+      "headline": "Amazon in Talks to Acquire AI Startup Decart",
+      "summary": "Amazon is reportedly in negotiations to acquire Decart AI, an artificial intelligence startup, in a deal that could be valued at approximately $7 billion. The Wall Street Journal reported that the purchase could be finalized soon if the talks progress.",
+      "whyItMatters": "Major cloud providers continue to invest heavily in specialized AI startups through large acquisitions.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-12T19:25:15.912319+00:00"
+  "updatedAt": "2026-10-13T02:48:10.398629+00:00"
 }
