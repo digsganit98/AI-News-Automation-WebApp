@@ -50,7 +50,8 @@ def test_selectionFollowsPreferencesAndRanksByImportance():
         story("a", 2),
         story("b", 5),
         story("c", 4, category="Research"),
-        story("d", 4, cloudPlatform="GCP"),
+        # Same importance as "c" but newer, so it ranks first: importance, then recency.
+        story("d", 4, cloudPlatform="GCP", createdAt="2026-10-12T09:00:00+00:00"),
     ]
     person = Recipient(email="a@x.com", categories=["agentic systems"], clouds=["AWS"])
     assert [s["id"] for s in selectStories(stories, person)] == ["b", "a"]
