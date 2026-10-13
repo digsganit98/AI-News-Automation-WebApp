@@ -980,7 +980,223 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "openai-math-repository-post-examines-faster-four-411a15",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "OpenAI Math Repository Post Examines Faster Fourier Transform Approach",
+      "summary": "A technical blog post reviews a section of OpenAI's math repository that claims to compute faster Fourier transforms. The article explains the standard Fast Fourier Transform algorithm and evaluates the computational complexity of the new method.",
+      "whyItMatters": "Understanding alternative algorithmic approaches helps developers assess potential efficiency gains for computational workloads.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.argmin.net/p/faster-fourier-transforms"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-shows-ai-models-can-hide-capabilities-u-224c10",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "Research Shows AI Models Can Hide Capabilities Using Encrypted Neural Networks",
+      "summary": "A new paper demonstrates that AI models can be constructed to hide arbitrary capabilities using encrypted neural networks embedded within their weights. The authors show that these hidden circuits are difficult to detect using standard evaluation methods, pointing to limitations in current safety audits.",
+      "whyItMatters": "This finding highlights the need for advanced auditing techniques to detect concealed behaviors and ensure trustworthy AI systems.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://arxiv.org/abs/2610.13928"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "janas-tool-enables-running-large-language-models-9ca2bc",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "Janas Tool Enables Running Large Language Models on Laptops via SSD Streaming",
+      "summary": "A new tool called Janas allows users to run large language models that exceed their available RAM by streaming data directly from an SSD. Benchmarks show it can process text faster than existing tools like llama.cpp on standard laptop hardware.",
+      "whyItMatters": "This approach lowers hardware barriers for running advanced language models locally on consumer devices.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/prabanta-dev/janas"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": "https://github.com/prabanta-dev/janas",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "french-organizations-deploy-agentic-computing-ac-3fa2d8",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "French Organizations Deploy Agentic Computing Across Finance and Research Sectors",
+      "summary": "Companies and organizations in France are putting agentic computing into practice across industries like space, finance, and public sector research. This marks a transition from initial planning to practical deployment of AI systems in real-world environments.",
+      "whyItMatters": "Real-world enterprise deployments demonstrate the growing maturity and practical value of agentic AI workflows in Europe.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "agentswe-benchmark-evaluates-coding-agents-on-re-cf5f1f",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "AgentSWE Benchmark Evaluates Coding Agents on Real Software Reliability",
+      "summary": "Researchers introduced AgentSWE, a benchmark designed to test whether coding agents can build software that truly satisfies user requirements rather than just appearing to work. The study reveals that current agents frequently fail on complex software tasks.",
+      "whyItMatters": "Rigorously benchmarking coding agents helps developers identify gaps between marketing demonstrations and reliable software engineering performance.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.13361"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.13361",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "groundingpi-foundation-model-enhances-object-det-b3b66b",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "GroundingPI Foundation Model Enhances Object Detection for Robotics and Driving",
+      "summary": "GroundingPI is a new foundation model created to help machines precisely locate objects in cluttered environments. The model outperforms larger alternatives on benchmarks, improving performance in robotic manipulation and autonomous driving applications.",
+      "whyItMatters": "Better object grounding enables more reliable perception systems for physical AI applications like robotics and autonomous vehicles.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.39601"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.39601",
+        "code": "https://github.com/groundingpi/GroundingPI",
+        "model": null,
+        "demo": "https://groundingpi.github.io/"
+      }
+    },
+    {
+      "id": "terminalhorizon-system-generates-long-term-tasks-0f49cf",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "TerminalHorizon System Generates Long-Term Tasks to Train Professional AI Agents",
+      "summary": "Researchers developed TerminalHorizon to generate complex, long-term tasks aimed at training AI agents on professional work duties. The resulting model, TerminalHorizon-27B, demonstrates clear improvements across coding and reasoning benchmarks.",
+      "whyItMatters": "Generating synthetic professional tasks helps bridge the gap toward AI agents capable of handling extended, multi-step workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.13166"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.13166",
+        "code": null,
+        "model": null,
+        "demo": "https://zs1314.github.io/TerminalHorizon"
+      }
+    },
+    {
+      "id": "new-study-investigates-behavior-of-large-languag-5c133c",
+      "createdAt": "2026-10-13T10:59:45.318143+00:00",
+      "headline": "New Study Investigates Behavior of Large Language Models in No-Thinking Modes",
+      "summary": "A recent research paper examines how large language models behave when explicitly instructed to stop thinking or reasoning. The work seeks to define and measure this 'no-thinking' state, which has seen less academic focus than standard reasoning modes.",
+      "whyItMatters": "Understanding model behavior without reasoning steps provides insights into baseline response generation and inference efficiency.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.11765"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.11765",
+        "code": "https://github.com/thinking-inertia/code",
+        "model": null,
+        "demo": "https://thinking-inertia.github.io/"
+      }
     }
   ],
-  "updatedAt": "2026-10-13T02:48:10.398629+00:00"
+  "updatedAt": "2026-10-13T10:59:50.011408+00:00"
 }

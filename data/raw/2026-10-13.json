@@ -556,6 +556,284 @@
           "checkedAt": "2026-10-13T02:39:40.141862Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-13T10:53:21.765734+00:00",
+      "newItems": 30,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1287,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.783454Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.824472Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.824879Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.825166Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.825340Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.825521Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.825686Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.825875Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826041Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826204Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826365Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826429Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826477Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826717Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826767Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.826953Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.827114Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.827267Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.827419Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.827711Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-13T10:53:21.827907Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.828142Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.828307Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.828471Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-13T10:53:21.828632Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.828814Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.828980Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.829142Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.829300Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.829522Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.830175Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.830364Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.830550Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-13T10:53:21.830602Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2132,7 +2410,461 @@
       },
       "id": "0b5d5fd8c74ea17f",
       "collectedAt": "2026-10-13T02:39:40.077082+00:00"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA (generative AI)",
+      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "publishedAt": "2026-10-13T05:00:31Z",
+      "excerpt": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application.  France’s progress sits on deliberate groundwork.  The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
+      "author": "Nat Ives",
+      "extra": {},
+      "id": "8f872270b5d9a3f4",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
+      "url": "https://huggingface.co/papers/2609.36616",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records. Generating plausible past appearances requires restoring changed structures while preserving persistent scene content. We construct VIGOR-his, a decade-spanning cross-view dataset containing 43,653 location-level quadruplets across 11 cities on three continents. Its automated pipeline performs spatial pairing, consistency screening, change classification, and the…",
+      "author": "Hanwen Lu, Jun He, Mingjia Yang, Hao Wei, Jinhao Huang, Yi Lin, Xiang Zhang",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/LuHanwen67/CrossTimeEdit-release",
+        "projectPage": "https://luhanwen67.github.io/CrossTimeEdit-release/",
+        "arxivUrl": "https://arxiv.org/abs/2609.36616"
+      },
+      "id": "73e76eb28cd3819e",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
+      "url": "https://huggingface.co/papers/2610.09326",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These dependencies may not be explicitly stated in any individual input, but emerge only when the source, rendered history, and new viewer intent are considered jointly. Existing interactive video generation…",
+      "author": "Bingxuan Li, Yiwen Song, Xueqing Wu, Yanzhou Pan, Yang Li, Kuang Su, Jingyun Liu, Sebastian Ko, Huan Zhang, Tong Zhang, Nanyun Peng, Tomas Pfister, Yale Song",
+      "extra": {
+        "upvotes": 30,
+        "githubRepo": "https://github.com/vis-ground/code",
+        "projectPage": "https://vis-ground.github.io",
+        "arxivUrl": "https://arxiv.org/abs/2610.09326"
+      },
+      "id": "a16080aaffa0dd3f",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+      "url": "https://huggingface.co/papers/2610.13361",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a benchmark for agent software engineering spanning three stages of the agent development lifecycle:…",
+      "author": "Jiahao Wang, Hongjin Qian, Yuyang Hu, Jiajun Zhang, Zheng Liu",
+      "extra": {
+        "upvotes": 95,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.13361"
+      },
+      "id": "cf5f1f2c45521eed",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "GroundAnything: Reconciling Parallel Decoding with Precise Visual Grounding at Flash Speed",
+      "url": "https://huggingface.co/papers/2609.39600",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Autoregressive (AR) grounding models serialize spatial predictions, introducing sequential latency and imposing a causal order on output tokens. We view grounding as visual evidence extraction: objects, locations, and spatial relations are jointly constrained by the image and query, yet their dependencies do not imply an intrinsic left-to-right generation order. This distinction makes bidirectional diffusion a natural fit, allowing spatial hypotheses to emerge in parallel and be jointly…",
+      "author": "Qize Yu, Lianrui Fan, Bowen Ping, Xini Ding, Zetian Song, Junbo Niu, Kaixuan Wang, Tianxing Chen, Yue Chen, Minghua He, Yuran Wang, Jie Huang, Haojun Zhang, Min Chen, Hao Li, Wenxuan Song, Ruihai Wu, Xianming Liu, Shilong Liu, Shuchang Zhou, Ping Luo, Shiyu Huang",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": "https://github.com/groundingpi/GroundAnything",
+        "projectPage": "https://groundingpi.github.io/groundanything/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39600"
+      },
+      "id": "1d7491c7333acd4f",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives",
+      "url": "https://huggingface.co/papers/2609.39601",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop control. Yet vision-language-action (VLA) and world-action models (WAMs) take perception from general-purpose vision-language and video-generation backbones, which still fail in these settings. We introduce GroundingPI, a 4B grounding foundation model that generates points and boxes as quantized coordinates in a shared…",
+      "author": "Qize Yu, Lianrui Fan, Boyu Chen, Jiaqi Liang, Xini Ding, Yue Chen, Zetian Song, Yuran Wang, Yi Zou, Kaixuan Wang, Tianxing Chen, Wenxuan Song, Bohan Zhou, Mingleyang Li, Siqiao Huang, Yuqi Ye, Caigao Jiang, Wei Wei, Ruihai Wu, Hang Zhang, Yixiao Ge, Shuchang Zhou, Shilong Liu, Xianming Liu, Ping Luo, Shiyu Huang",
+      "extra": {
+        "upvotes": 131,
+        "githubRepo": "https://github.com/groundingpi/GroundingPI",
+        "projectPage": "https://groundingpi.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2609.39601"
+      },
+      "id": "b3b66b6d55125070",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "url": "https://huggingface.co/papers/2610.13166",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon trajectories capture these agentic behavioral patterns and their connections within a single…",
+      "author": "Shun Zou, Ziyu Ma, Yi Zou, Yong Wang, Lin Chen, Zehui Chen, Guanhua Chen, Xiangxiang Chu, Feng Zhao",
+      "extra": {
+        "upvotes": 86,
+        "githubRepo": null,
+        "projectPage": "https://zs1314.github.io/TerminalHorizon",
+        "arxivUrl": "https://arxiv.org/abs/2610.13166"
+      },
+      "id": "0f49cf0012fc2d39",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+      "url": "https://huggingface.co/papers/2609.33304",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history and append it to the policy's context, implicitly assuming that experience relevant to a task remains useful for each decision within it. We find that this help is largely spent at the first decision: retrieved history strongly improves the opening step of an episode, yet…",
+      "author": "Fuyao Zhang, Xuan Wang, Zherui Li, Jiaming Zhang, Longtao Huang, Wei Yang Bryan Lim",
+      "extra": {
+        "upvotes": 29,
+        "githubRepo": "https://github.com/fyzhang1/ExpActivator",
+        "projectPage": "https://fyzhang1.github.io/ExpActivator/",
+        "arxivUrl": "https://arxiv.org/abs/2609.33304"
+      },
+      "id": "d57823d5abaa3c7c",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+      "url": "https://huggingface.co/papers/2610.11765",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinking modes may still emit reasoning, while long traces may contain filler rather than genuine…",
+      "author": "Dianqiao Lei, Kevin Qinghong Lin, Pan Lu, Philip Torr, James Zou",
+      "extra": {
+        "upvotes": 63,
+        "githubRepo": "https://github.com/thinking-inertia/code",
+        "projectPage": "https://thinking-inertia.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.11765"
+      },
+      "id": "5c133c4f16190848",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+      "url": "https://huggingface.co/papers/2610.13832",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language Models (LVLMs) proactively think in the same way? We term this ability Active Spatial Mentalization (ASM), an intrinsic component of visual intelligence that remains substantially underdeveloped in current LVLMs. To bridge this gap, we introduce SpatialASM, a scalable framework…",
+      "author": "Yuhong Liu, Shenxi Wu, Junyi Chi, Beichen Zhang, Xuanlang Dai, Jiaqi Wang, Yuhang Zang, Dahua Lin",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/InternLM/SpatialASM",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.13832"
+      },
+      "id": "94e823f51cf0e3a2",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Multi-Stream Attention Residuals",
+      "url": "https://huggingface.co/papers/2610.13630",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "excerpt": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the sequence axis, we introduce Multi-Stream Attention Residuals (MSAR), an extension of AttnRes that generalizes this mechanism to multi-head depth attention, yielding substantial performance gains with minimal additional overhead. MSAR draws stream diversity from sequence…",
+      "author": "Xiaohan Qin, Xiangdong Zhang, Tuo Dai, Sunan Zou, Huaijin Wu, Yebin Yang, Zhuo Xia, Lin Yao, Yuliang Liu, Junchi Yan",
+      "extra": {
+        "upvotes": 32,
+        "githubRepo": "https://github.com/jianke0604/MSAR",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.13630"
+      },
+      "id": "7113d82ef4a5d496",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 389,
+        "trendingScore": 343,
+        "task": "text-to-image"
+      },
+      "id": "6ce717e451df7aac",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "publishedAt": "2026-10-13T09:37:04Z",
+      "excerpt": "MSL&#8217;s emergence as a frontier lab is finally complete.",
+      "author": null,
+      "extra": {},
+      "id": "a2c304623a61d6cf",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Building Enterprise Agentic AI: Choosing Between LangGraph, AutoGen and Microsoft Agent Framework",
+      "url": "https://medium.com/@deepak.pec.2004/building-enterprise-agentic-ai-choosing-between-langgraph-autogen-and-microsoft-agent-framework-90560ccb2feb?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-13T09:34:05Z",
+      "excerpt": "Introduction Continue reading on Medium »",
+      "author": "Deepak Pec",
+      "extra": {},
+      "id": "4403f9d13b2c713a",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Reactive Operations to Agentic SRE: How AI Agents Can Transform Incident Management",
+      "url": "https://medium.com/@deepak.pec.2004/from-reactive-operations-to-agentic-sre-how-ai-agents-can-transform-incident-management-d447ad7db899?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-13T09:30:03Z",
+      "excerpt": "Introduction Continue reading on Medium »",
+      "author": "Deepak Pec",
+      "extra": {},
+      "id": "3a878aeec721be79",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Can Make Every Idea Look Expensive Before It Earns the Right",
+      "url": "https://medium.com/ai-made-practical/ai-can-make-every-idea-look-expensive-before-it-earns-the-right-41eb12226a74?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-13T09:11:02Z",
+      "excerpt": "Imagine two entrepreneurs. Continue reading on AI Made Practical »",
+      "author": "AI Tool Steps",
+      "extra": {},
+      "id": "41c0becee4103e2e",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Choose AI Filmmaking or Faceless YouTube With a One-Weekend CapCut and Kling Pilot",
+      "url": "https://medium.com/@Authority_Edge/how-to-choose-ai-filmmaking-or-faceless-youtube-with-a-one-weekend-capcut-and-kling-pilot-e04880f53cec?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-13T08:14:28Z",
+      "excerpt": "Most new AI creators do not fail because the tools are hard. They fail because they spend three weeks hopping between lanes — a film short… Continue reading on Medium »",
+      "author": "Authority Edge",
+      "extra": {},
+      "id": "11ba4af8604c914d",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Do larger context windows solve the memory problem?",
+      "url": "https://medium.com/@fahimulhaq/do-larger-context-windows-solve-the-memory-problem-5464a78ef116?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-13T08:09:07Z",
+      "excerpt": "A larger context window fixes one failure mode. Overflow. Continue reading on Medium »",
+      "author": "Fahim ul Haq",
+      "extra": {},
+      "id": "0980aa10e70b8460",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "publishedAt": "2026-10-13T05:57:32Z",
+      "excerpt": "",
+      "author": "novaRom",
+      "extra": {
+        "points": 89,
+        "comments": 93,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50067356"
+      },
+      "id": "bd9d9b4f5d97ff06",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "publishedAt": "2026-10-13T02:46:43Z",
+      "excerpt": "",
+      "author": "mochomocha",
+      "extra": {
+        "points": 148,
+        "comments": 104,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50065932"
+      },
+      "id": "a9dd5c536426e41f",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI models can provably hide arbitrary capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "publishedAt": "2026-10-13T02:07:08Z",
+      "excerpt": "",
+      "author": "sbulaev",
+      "extra": {
+        "points": 214,
+        "comments": 112,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50065692"
+      },
+      "id": "224c102190be4dc2",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "publishedAt": "2026-10-13T00:11:04Z",
+      "excerpt": "",
+      "author": "bherbruck",
+      "extra": {
+        "points": 68,
+        "comments": 13,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50064840"
+      },
+      "id": "68185f838dbfd510",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: An experimental pattern-first DAW that supports MCP",
+      "url": "https://github.com/andrewfader/blokkily",
+      "publishedAt": "2026-10-12T23:21:12Z",
+      "excerpt": "",
+      "author": "androsynth89",
+      "extra": {
+        "points": 60,
+        "comments": 28,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50064438"
+      },
+      "id": "8a465f85258e9ca1",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "publishedAt": "2026-10-12T22:05:43Z",
+      "excerpt": "",
+      "author": "khalidkhair",
+      "extra": {
+        "points": 153,
+        "comments": 52,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50063717"
+      },
+      "id": "9ca2bcd34e5443c6",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Anthropic anti-distillation measures may have reduced data harvest by 90-99%",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "publishedAt": "2026-10-13T07:02:35Z",
+      "excerpt": "",
+      "author": "/u/Proper_Actuary2907",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x4pv24/anthropic_antidistillation_measures_may_have/"
+      },
+      "id": "fcf6e421796d75ad",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Stanford scientists found a way to regrow cartilage and stop arthritis",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261005011249.htm",
+      "publishedAt": "2026-10-13T03:16:13Z",
+      "excerpt": "",
+      "author": "/u/lulzxdxdxd",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x4lxks/stanford_scientists_found_a_way_to_regrow/"
+      },
+      "id": "edb826b5417b814b",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic warns AI models could soon copy themselves across home devices - CNBC",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html",
+      "publishedAt": "2026-10-13T08:27:20Z",
+      "excerpt": "Anthropic said Monday that small AI models are \"months away\" from developing the capabilities needed to replicate themselves across internet-connected devices in the home, marking the latest warning from the frontier lab about the technology's potential safety risks. Anthropic described how AI models could potentially infiltrate internet-connected devices, such as smart ovens or Android TV boxes, and use their computing power to run themselves and spread to other devices, without relying on…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.177
+      },
+      "id": "332d5f4737164d40",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Why Coimbatore Is Emerging as a Strong Destination for Data Science Careers - DataMites Offical Blog",
+      "url": "https://datamites.com/blog/why-coimbatore-is-emerging-as-a-strong-destination-for-data-science-careers",
+      "publishedAt": "2026-10-12T16:43:09Z",
+      "excerpt": "### The Role of Local Technology Companies\n\nCoimbatore’s expanding tech sector includes IT firms, startups, and software companies offering roles in data analytics, business intelligence, and machine learning. Students can research data science companies in Coimbatore, track vacancies, and build practical projects to improve their job prospects.\n\nRefer to these articles: [...] For learners looking to develop industry-relevant skills, DataMites Institute offers programmes in Data Science,…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.488
+      },
+      "id": "dcb6f7cad4b088ae",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Startups are betting on AI to predict the future - The Hindu",
+      "url": "https://www.thehindu.com/sci-tech/technology/startups-are-betting-on-ai-to-predict-the-future/article71573682.ece",
+      "publishedAt": "2026-10-12T04:24:28Z",
+      "excerpt": "Live Now\n\nNews   India   World   States   Cities\n\nIsrael-US strikes on Iran   Delimitation   Ground Zero   Spotlight\n\nnewsletterimg\n\nThe View From India Looking at World Affairs from the Indian perspective.SEE ALL NEWSLETTERS\n\n States   Cities \n\nEntertainment\n\nEntertainment   Art   Dance   Movies   Music   Reviews   Theatre\n\nnewsletterimg\n\nFirst Day First Show News and reviews from the world of cinema and streaming.SEE ALL NEWSLETTERS\n\nOpinion [...] AFP\n\nSEE ALL  Remove\n\nThe most advanced…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.153
+      },
+      "id": "5850a5368443325c",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Micron stock drops on China CXMT denser memory chip news - Quartz",
+      "url": "https://qz.com/micron-stock-falls-cxmt-memory-chip-101226",
+      "publishedAt": "2026-10-12T17:33:26Z",
+      "excerpt": "ChangXin Memory Technologies plans to release a server memory chip with a 4F square design by year-end, rattling memory stocks globally. Micron$MU Technology stock fell Monday after China's ChangXin Memory Technologies announced progress on a new chip design that can pack more data onto a single chip. According to the South China Morning Post, which cited a company statement, CXMT President Cao Kanyu told attendees at a Shanghai industry event over the weekend that the company intends to…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.022
+      },
+      "id": "a8e08b2dfa25d256",
+      "collectedAt": "2026-10-13T10:53:21.765734+00:00"
     }
   ],
-  "updatedAt": "2026-10-13T02:39:40.077082+00:00"
+  "updatedAt": "2026-10-13T10:53:21.765734+00:00"
 }
