@@ -43,8 +43,8 @@ Every 3 hours, GenAI Daily reads 34 sources (AI labs, cloud and data platforms, 
 
 | Page | What it is for |
 |---|---|
-| **Latest** | News and research papers on one page, updated every 3 hours. It starts with **Top stories**, picked and ranked by the agents (plain-English summary, "why it matters", sources, "Go deeper" links), then everything collected. A switch picks **All**, **News** or **Research papers**, with search and filters. The research view adds a **paper of the day**, a **research pulse** chart (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
-| **R&D Hub** | The team's article feed. Search, a **Table / Cards** switch, and filters for tech domain, cloud / platform, industry vertical and format. Articles are **HTML or PDF**. Uploading is a small button at the top right, not the page. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
+| **Latest** | News and research papers on one page, updated every 3 hours. One search and filter bar sits at the top and applies to both sub-tabs: **Top stories** (picked and ranked by the agents, with a plain-English summary, sources and "Go deeper" links) and **Everything collected**. Each tab shows its top 3, and **Show X more stories** reveals the rest. Inside Everything collected, a switch picks **All**, **News** or **Research papers**. The research view adds a **paper of the day**, a **research pulse** chart (tap a theme to filter), a "with code" filter, links to paper, PDF, code and project, one-click **BibTeX**, and a **reading list** saved in your browser that you can export as `.bib`. The research log (*Date · Researcher · Idea / Topic · Summary · Tech Domain · Cloud / Platform · Industry Vertical · Source Type · Link*) downloads as **CSV**. |
+| **R&D Hub** | The team's article feed. Search, a **Table / Cards** switch, and filters for tech domain, cloud / platform, industry vertical and format. Articles are **HTML or PDF**. **Upload to SharePoint** is a small button in the control bar, not the page. See [Add an article to the R&D Hub](#add-an-article-to-the-rd-hub). |
 | **Archive** (calendar icon) | The news from the last 5 days, each day browsable and filterable. |
 | **Sources** (feed icon) | A small pop-up listing the sources that worked in the latest check, grouped. Failing ones are not listed. |
 | **How it works** (gear icon) | The architecture, the agents and the models they use. |
@@ -169,13 +169,12 @@ Nobody gets the same story twice: `state/emailSent.json` keeps a short salted ha
 
 An article is one **`.html` or `.pdf`** file, up to 5 MB.
 
-**Put it in SharePoint.** The **Upload to SharePoint** button on the Hub opens the team's folder (its address is `HUB_SHAREPOINT_URL` in [`config/app.env`](config/app.env)). Files there are not copied to the website by themselves: the feed only lists articles that are in this repository, so someone adds them with the GitHub route below.
+**Put it in SharePoint.** The **Upload to SharePoint** button on the Hub opens the team's folder (its address is `HUB_SHAREPOINT_URL` in [`config/app.env`](config/app.env)). Files there are not copied to the website by themselves: the feed only lists articles that are in this repository, so someone adds them with a pull request (the site no longer has a GitHub button; this is a maintainer route):
 
-**Or add it through GitHub** (the site is static, so a file reaches it as a pull request):
+**Add it with a pull request** (the site is static, so a file reaches it as a pull request):
 
-1. On the R&D Hub page, click *or add through GitHub*, choose the file, fill in the details and click *Copy details & open GitHub*.
-2. On the GitHub page that opens, drop in the same file and choose *Create a new branch and start a pull request*.
-3. Paste the copied lines into the pull request description:
+1. Add the file under `hub/inbox/` on a new branch and open a pull request.
+2. Put these lines in the pull request description:
    ```
    Title: How we cut RAG latency 40%
    Team: Platform Team
@@ -186,8 +185,8 @@ An article is one **`.html` or `.pdf`** file, up to 5 MB.
    Cloud: AWS
    Vertical: BFSI
    ```
-4. Checks run on the pull request (file type, size, content policy) and comment with anything to fix.
-5. A reviewer merges it. HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
+3. Checks run on the pull request (file type, size, content policy) and comment with anything to fix.
+4. A reviewer merges it. HTML is cleaned (scripts, embeds and outside loads removed), the article is saved, and the site is republished. It then shows in the R&D Hub and in Latest.
 
 The code is in [`src/digest/hub/hubUploads.py`](src/digest/hub/hubUploads.py). Published articles are public, because the repository is. Files are stored in this repository (`src/web/public/hub/`); uploads are refused once that folder passes 300 MB, at which point the files should move to a separate content repository or Git LFS.
 

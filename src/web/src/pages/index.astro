@@ -1,10 +1,9 @@
 ---
 // Home: the Latest dashboard, refreshed by every 3-hourly run.
 import LatestFeed from "../components/LatestFeed";
-import StoryCard from "../components/StoryCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
-  GROUPS, HUB_SOURCE_ID, PAPER_DAYS, formatDay, href, hubToFeedItem, iconMap, isFeedItem, loadDays, loadHubArticles,
+  CATEGORY_STYLE, GROUPS, HUB_SOURCE_ID, IMPORTANCE_LABEL, PAPER_DAYS, formatDay, href, hubToFeedItem, iconMap, isFeedItem, loadDays, loadHubArticles,
   loadPapers, loadSources, loadTopStories, paperToFeedItem, sortNewestFirst, toFeedItem, toFeedSources,
 } from "../lib/siteData";
 
@@ -22,63 +21,54 @@ const feedSources = [...toFeedSources(sources), { id: HUB_SOURCE_ID, name: "R&D 
 const feedGroups = hubItems.length > 0 ? { ...GROUPS, hub: "R&D Hub" } : GROUPS;
 const buildTime = new Date().toISOString();
 // The analyst's stories from today and yesterday, most important first.
-const topStories = loadTopStories(2).slice(0, 9);
+const topStories = loadTopStories(2).slice(0, 9); // the tab shows 3 and "Show X more stories" reveals the rest
 ---
 
 <BaseLayout title="Latest" current="home" showFooter description="The latest Generative AI news and research papers from 34 sources, updated every 3 hours.">
-  <section class="mb-12 flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
-   <div class="text-center sm:text-left">
-    <p class="glass mb-5 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-ink dark:text-white">
-      <span class="relative flex size-2"><span class="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex size-2 rounded-full bg-emerald-500"></span></span>
-      Live · updates every 3 hours
-    </p>
-    <h1 class="headline text-5xl leading-[1.05] sm:text-7xl">Today in<br />Generative AI.</h1>
-    <p class="mt-5 max-w-2xl text-xl leading-relaxed text-ink-muted dark:text-[#a1a1a6]">
-      New models, tools, cloud features, research papers and real-world uses: from AI labs, cloud platforms, arXiv, Hacker News, Reddit, YouTube and newsletters, every 3 hours.
-    </p>
-    {latest && <p class="mt-2 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
-   </div>
+  {/* Hero: headline and date on the left; the Live pill and three stats on the right as one 2x2
+      block of equally sized tiles, so the hero is only as tall as the headline. */}
+  <section class="mb-4 flex flex-wrap items-center justify-between gap-4">
+    <div class="text-center sm:text-left">
+      {/* 54px on sm+ is the old 72px (sm:text-7xl) reduced by 25%; 36px on phones, down from 48px. */}
+      <h1 class="headline text-4xl leading-[1.05] sm:text-[54px] md:whitespace-nowrap">Today in Generative AI.</h1>
+      {latest && <p class="mt-1 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
+    </div>
 
-   <aside class="flex shrink-0 flex-col items-center gap-2 lg:mt-3 lg:items-end" aria-label="At a glance">
-    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
-      <div>
-        <p class="eyebrow !text-[10px]">News today</p>
-        <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
+    <aside class="grid w-full max-w-[470px] shrink-0 grid-cols-2 gap-1.5" aria-label="At a glance">
+      <div class="card kpi flex h-11 items-center gap-2.5 px-4 text-xs font-semibold whitespace-nowrap">
+        <span class="relative flex size-2"><span class="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex size-2 rounded-full bg-emerald-500"></span></span>
+        Live · updates every 3 hours
       </div>
-      <p class="text-xl font-semibold tracking-[-0.03em]">{newsToday}</p>
-    </div>
-    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
-      <div>
-        <p class="eyebrow !text-[10px]">Papers · {PAPER_DAYS} days</p>
-        <p class="text-[11px] text-slate-500 dark:text-slate-400">{papersWithCode} with code</p>
+      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+        <div class="leading-tight">
+          <p class="eyebrow !text-[10px]">News today</p>
+          <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
+        </div>
+        <p class="text-lg font-semibold tracking-[-0.03em]">{newsToday}</p>
       </div>
-      <p class="text-xl font-semibold tracking-[-0.03em]">{papers.length}</p>
-    </div>
-    <div class="card kpi flex w-72 items-center justify-between gap-4 px-4 py-2">
-      <div>
-        <p class="eyebrow !text-[10px]">Last update</p>
-        <p class="text-[11px] text-slate-500 dark:text-slate-400" data-local-time={latest?.updatedAt ?? ""}></p>
+      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+        <div class="leading-tight">
+          <p class="eyebrow !text-[10px]">Papers · {PAPER_DAYS} days</p>
+          <p class="text-[11px] text-slate-500 dark:text-slate-400">{papersWithCode} with code</p>
+        </div>
+        <p class="text-lg font-semibold tracking-[-0.03em]">{papers.length}</p>
       </div>
-      <p class="text-xl font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
-    </div>
-   </aside>
+      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+        <div class="leading-tight">
+          <p class="eyebrow !text-[10px]">Last update</p>
+          <p class="text-[11px] text-slate-500 dark:text-slate-400" data-local-time={latest?.updatedAt ?? ""}></p>
+        </div>
+        <p class="text-lg font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
+      </div>
+    </aside>
   </section>
 
-  {topStories.length > 0 && (
-    <section class="mb-14">
-      <div class="mb-5 flex flex-wrap items-end justify-between gap-2">
-        <h2 class="text-3xl font-semibold">Top stories</h2>
-        <p class="text-sm text-ink-muted dark:text-[#a1a1a6]">Picked, grouped and ranked by the AI agents</p>
-      </div>
-      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {topStories.map((story) => <StoryCard story={story} />)}
-      </div>
-    </section>
-  )}
-
-  {items.length > 0 || papers.length > 0 ? (
+  {items.length > 0 || papers.length > 0 || topStories.length > 0 ? (
     <LatestFeed
       client:load
+      stories={topStories}
+      categoryStyle={CATEGORY_STYLE}
+      importanceLabel={IMPORTANCE_LABEL}
       news={items}
       papers={papers}
       paperItems={papers.map(paperToFeedItem)}
