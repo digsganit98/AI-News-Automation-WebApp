@@ -1,0 +1,70 @@
+# Sends the email digest through Gmail.
+#
+# Needs these repository secrets: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, EMAIL_RECIPIENTS (a JSON
+# list, see docs/emailAgentPlan.md). With no schedule yet, run it by hand from the Actions tab:
+# first with "dryRun" ticked, then once with "to" set to your own address.
+name: Email digest
+
+on:
+  workflow_dispatch:
+    inputs:
+      dryRun:
+        description: "Dry run: choose and render the emails, but send nothing"
+        type: boolean
+        default: true
+      to:
+        description: "Send only to this address (a test mail). Leave empty to send to everyone."
+        type: string
+        default: ""
+  # Turn the schedule on once a test mail looks right. Times are UTC: 03:30 UTC is 09:00 IST.
+  # schedule:
+  #   - cron: "30 3 * * *"
+
+permissions:
+  contents: write # to save state/emailSent.json
+
+concurrency:
+  group: email-digest
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen
+
+      - name: Send the email digest
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+          DRY_RUN: ${{ inputs.dryRun }}
+          SEND_TO: ${{ inputs.to }}
+        run: |
+          args=""
+          if [ "$DRY_RUN" = "true" ]; then args="$args --dry-run"; fi
+          if [ -n "$SEND_TO" ]; then args="$args --to $SEND_TO"; fi
+          uv run digest email $args
+
+      # A test mail (--to) and a dry run never change the log, so this only commits real sends.
+      - name: Save who has been sent what
+        if: ${{ always() && inputs.dryRun != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/emailSent.json
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "state: email digest sent $(TZ=Asia/Kolkata date '+%F %H:%M IST')"
+            git pull --rebase
+            git push
+          fi
