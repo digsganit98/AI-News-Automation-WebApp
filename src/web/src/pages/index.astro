@@ -3,7 +3,7 @@
 import LatestFeed from "../components/LatestFeed";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
-  CATEGORY_STYLE, GROUPS, HUB_SOURCE_ID, IMPORTANCE_LABEL, PAPER_DAYS, formatDay, href, hubToFeedItem, iconMap, isFeedItem, loadDays, loadHubArticles,
+  CATEGORY_STYLE, HUB_SOURCE_ID, IMPORTANCE_LABEL, PAPER_DAYS, formatDay, href, hubToFeedItem, iconMap, isFeedItem, loadDays, loadHubArticles,
   loadPapers, loadSources, loadTopStories, paperToFeedItem, sortNewestFirst, toFeedItem, toFeedSources,
 } from "../lib/siteData";
 
@@ -18,7 +18,6 @@ const papers = loadPapers(PAPER_DAYS);
 const papersWithCode = papers.filter((p) => p.links.code).length;
 const hubItems = loadHubArticles().map(hubToFeedItem);
 const feedSources = [...toFeedSources(sources), { id: HUB_SOURCE_ID, name: "R&D Hub", group: "hub" }];
-const feedGroups = hubItems.length > 0 ? { ...GROUPS, hub: "R&D Hub" } : GROUPS;
 const buildTime = new Date().toISOString();
 // The analyst's stories from today and yesterday, most important first.
 const topStories = loadTopStories(2).slice(0, 9); // the tab shows 3 and "Show X more stories" reveals the rest
@@ -27,38 +26,38 @@ const topStories = loadTopStories(2).slice(0, 9); // the tab shows 3 and "Show X
 <BaseLayout title="Latest" current="home" showFooter description="The latest Generative AI news and research papers from 34 sources, updated every 3 hours.">
   {/* Hero: headline and date on the left; the Live pill and three stats on the right as one 2x2
       block of equally sized tiles, so the hero is only as tall as the headline. */}
-  <section class="mb-4 flex flex-wrap items-center justify-between gap-4">
+  <section class="mb-6 mt-2 flex flex-wrap items-center justify-between gap-5">
     <div class="text-center sm:text-left">
       {/* 54px on sm+ is the old 72px (sm:text-7xl) reduced by 25%; 36px on phones, down from 48px. */}
       <h1 class="headline text-4xl leading-[1.05] sm:text-[54px] md:whitespace-nowrap">Today in Generative AI.</h1>
       {latest && <p class="mt-1 text-sm text-slate-500 dark:text-slate-400">{formatDay(latest.date)}</p>}
     </div>
 
-    <aside class="grid w-full max-w-[470px] shrink-0 grid-cols-2 gap-1.5" aria-label="At a glance">
-      <div class="card kpi flex h-11 items-center gap-2.5 px-4 text-xs font-semibold whitespace-nowrap">
+    <aside class="grid w-full max-w-[500px] shrink-0 grid-cols-2 gap-2.5" aria-label="At a glance">
+      <div class="card kpi kpi-tint flex h-[52px] items-center gap-2.5 px-[18px] text-xs font-semibold whitespace-nowrap [--t:#10b981]">
         <span class="relative flex size-2"><span class="absolute inline-flex size-full animate-ping rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex size-2 rounded-full bg-emerald-500"></span></span>
         Live · updates every 3 hours
       </div>
-      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+      <div class="card kpi kpi-tint flex h-[52px] items-center justify-between gap-3 px-[18px] [--t:#0a84ff]">
         <div class="leading-tight">
           <p class="eyebrow !text-[10px]">News today</p>
           <p class="text-[11px] text-slate-500 dark:text-slate-400">{latest?.runs.length ?? 0} collection {(latest?.runs.length ?? 0) === 1 ? "run" : "runs"}</p>
         </div>
-        <p class="text-lg font-semibold tracking-[-0.03em]">{newsToday}</p>
+        <p class="text-xl font-bold tracking-[-0.03em]">{newsToday}</p>
       </div>
-      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+      <div class="card kpi kpi-tint flex h-[52px] items-center justify-between gap-3 px-[18px] [--t:#bf5af2]">
         <div class="leading-tight">
           <p class="eyebrow !text-[10px]">Papers · {PAPER_DAYS} days</p>
           <p class="text-[11px] text-slate-500 dark:text-slate-400">{papersWithCode} with code</p>
         </div>
-        <p class="text-lg font-semibold tracking-[-0.03em]">{papers.length}</p>
+        <p class="text-xl font-bold tracking-[-0.03em]">{papers.length}</p>
       </div>
-      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+      <div class="card kpi kpi-tint flex h-[52px] items-center justify-between gap-3 px-[18px] [--t:#ff9f0a]">
         <div class="leading-tight">
           <p class="eyebrow !text-[10px]">Last update</p>
           <p class="text-[11px] text-slate-500 dark:text-slate-400" data-local-time={latest?.updatedAt ?? ""}></p>
         </div>
-        <p class="text-lg font-semibold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
+        <p class="text-xl font-bold tracking-[-0.03em]" data-relative={latest?.updatedAt ?? ""}>–</p>
       </div>
     </aside>
   </section>
@@ -75,7 +74,6 @@ const topStories = loadTopStories(2).slice(0, 9); // the tab shows 3 and "Show X
       hubItems={hubItems}
       sources={feedSources}
       icons={{ ...iconMap(sources), [HUB_SOURCE_ID]: iconMap([{ id: HUB_SOURCE_ID, name: "", type: "", group: "hub", icon: "", enabled: true }])[HUB_SOURCE_ID] }}
-      groups={feedGroups}
       buildTime={buildTime}
       csvUrl={href("papers.csv")}
     />

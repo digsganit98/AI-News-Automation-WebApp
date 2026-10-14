@@ -19,16 +19,16 @@ const sharePointUrl = process.env.HUB_SHAREPOINT_URL ?? process.env.HUB_UPLOAD_U
 
 <BaseLayout title="R&D Hub" current="hub" description="Experiments, findings and lessons written by our own GenAI teams.">
   {/* Hero: one-line headline (54px on sm+, the old 72px reduced by 25%) and two equal stat tiles. */}
-  <section class="mb-4 flex flex-wrap items-center justify-between gap-4">
+  <section class="mb-6 mt-2 flex flex-wrap items-center justify-between gap-5">
     <h1 class="headline text-center text-4xl leading-[1.05] sm:text-left sm:text-[54px] md:whitespace-nowrap">GenAI R&amp;D Hub.</h1>
-    <aside class="grid w-full max-w-[470px] shrink-0 grid-cols-2 gap-1.5" aria-label="At a glance">
-      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+    <aside class="grid w-full max-w-[500px] shrink-0 grid-cols-2 gap-2.5" aria-label="At a glance">
+      <div class="card kpi kpi-tint flex h-[52px] items-center justify-between gap-3 px-[18px] [--t:#0a84ff]">
         <div class="leading-tight"><p class="eyebrow !text-[10px]">Articles</p><p class="text-[11px] text-slate-500 dark:text-slate-400">from {teams} {teams === 1 ? "team" : "teams"}</p></div>
-        <p class="text-lg font-semibold tracking-[-0.03em]">{articles.length}</p>
+        <p class="text-xl font-bold tracking-[-0.03em]">{articles.length}</p>
       </div>
-      <div class="card kpi flex h-11 items-center justify-between gap-3 px-4">
+      <div class="card kpi kpi-tint flex h-[52px] items-center justify-between gap-3 px-[18px] [--t:#ff375f]">
         <div class="leading-tight"><p class="eyebrow !text-[10px]">Contributors</p></div>
-        <p class="text-lg font-semibold tracking-[-0.03em]">{authors}</p>
+        <p class="text-xl font-bold tracking-[-0.03em]">{authors}</p>
       </div>
     </aside>
   </section>

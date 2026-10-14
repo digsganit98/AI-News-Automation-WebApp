@@ -1,6 +1,6 @@
 // Latest: one shared search/filter bar above two sub-tabs.
-//   Top stories           the analyst's ranked stories (filtered, first 3 shown)
-//   Everything collected  news, research papers and R&D Hub articles (filtered, first 3 shown)
+//   Top stories           the analyst's ranked stories (filtered, first 4 shown)
+//   Everything collected  news, research papers and R&D Hub articles (filtered, first 4 shown)
 // A "Show X more stories" button reveals the rest of whichever tab is open.
 // Inside Everything collected, a small switch picks All, News or Research papers. Research
 // papers shows the Paper Trail view, which has its own search, so the shared bar hides there.
@@ -24,18 +24,17 @@ interface Props {
   hubItems: FeedItem[];
   sources: FeedSource[];
   icons: Record<string, string>;
-  groups: Record<string, string>;
   buildTime: string;
   csvUrl: string;
 }
 
 const KINDS: [Kind, string][] = [["all", "All"], ["news", "News"], ["papers", "Research papers"]];
-const FIRST = 3; // how many items each tab shows before "Show X more"
+const FIRST = 4; // how many items each tab shows before "Show X more" (a 2 x 2 grid)
 // Everything collected can hold hundreds of glass cards; revealing them all at once makes the
 // page heavy, so each click adds a batch. The button label still shows how many are left.
 const BATCH = 24;
 
-export default function LatestFeed({ stories, categoryStyle, importanceLabel, news, papers, paperItems, hubItems, sources, icons, groups, buildTime, csvUrl }: Props) {
+export default function LatestFeed({ stories, categoryStyle, importanceLabel, news, papers, paperItems, hubItems, sources, icons, buildTime, csvUrl }: Props) {
   const now = useNow(buildTime);
   const [tab, setTab] = useState<Tab>("top");
   const [kind, setKind] = useState<Kind>("all");
@@ -54,19 +53,12 @@ export default function LatestFeed({ stories, categoryStyle, importanceLabel, ne
     try { history.replaceState(null, "", k === "all" ? location.pathname : `?view=${k}`); } catch {}
   };
 
-  // Lookups: source id -> group, and source name -> id (stories only carry source NAMES).
-  const groupOf = useMemo(() => Object.fromEntries(sources.map((s) => [s.id, s.group])), [sources]);
+  // Lookup: source name -> id (stories only carry source NAMES).
   const idByName = useMemo(() => Object.fromEntries(sources.map((s) => [s.name, s.id])), [sources]);
 
   const allItems = useMemo(() => [...news, ...paperItems, ...hubItems], [news, paperItems, hubItems]);
 
-  // The filter bar only offers groups and sources that exist somewhere in either list.
-  const presentGroups = useMemo(
-    () => Object.keys(groups).filter((g) =>
-      allItems.some((i) => groupOf[i.source] === g) ||
-      stories.some((s) => s.sources.some((x) => groupOf[idByName[x.name]] === g))),
-    [allItems, stories, groups, groupOf, idByName],
-  );
+  // The filter bar only offers sources that exist somewhere in either list.
   const presentSources = useMemo(
     () => sources.filter((s) => allItems.some((i) => i.source === s.id) || stories.some((st) => st.sources.some((x) => x.name === s.name))),
     [allItems, stories, sources],
@@ -78,18 +70,16 @@ export default function LatestFeed({ stories, categoryStyle, importanceLabel, ne
     () => stories.filter((s) => {
       const ids = s.sources.map((x) => idByName[x.name]);
       return (
-        (!filter.group || ids.some((id) => groupOf[id] === filter.group)) &&
         (!filter.source || ids.includes(filter.source)) &&
         matchesQuery(`${s.headline} ${s.summary} ${s.whyItMatters} ${s.sources.map((x) => x.name).join(" ")}`, filter.query) &&
         inRange(s.createdAt, filter.range, now)
       );
     }),
-    [stories, filter, now, groupOf, idByName],
+    [stories, filter, now, idByName],
   );
 
   // Everything collected: same filters, then the chosen sort.
   const matchItem = (i: FeedItem) =>
-    (!filter.group || groupOf[i.source] === filter.group) &&
     (!filter.source || i.source === filter.source) &&
     matchesQuery(`${i.title} ${i.excerpt} ${i.sourceName}`, filter.query) &&
     inRange(i.time, filter.range, now);
@@ -98,9 +88,9 @@ export default function LatestFeed({ stories, categoryStyle, importanceLabel, ne
     return filter.sort === "newest"
       ? list.sort((a, b) => b.time.localeCompare(a.time))
       : list.sort((a, b) => signal(b) - signal(a));
-  }, [kind, news, allItems, filter, now, groupOf]);
-  const filteredAllCount = useMemo(() => allItems.filter(matchItem).length, [allItems, filter, now, groupOf]);
-  const filteredNewsCount = useMemo(() => news.filter(matchItem).length, [news, filter, now, groupOf]);
+  }, [kind, news, allItems, filter, now]);
+  const filteredAllCount = useMemo(() => allItems.filter(matchItem).length, [allItems, filter, now]);
+  const filteredNewsCount = useMemo(() => news.filter(matchItem).length, [news, filter, now]);
 
   const onFilter = (next: typeof filter) => {
     setFilter(next);
@@ -119,15 +109,15 @@ export default function LatestFeed({ stories, categoryStyle, importanceLabel, ne
     <div>
       {/* 1. Shared search and filters: drive both tabs. Hidden on the Paper Trail, which has its own. */}
       {!onPapers && (
-        <div class="mb-3">
-          <FilterBar value={filter} onChange={onFilter} groups={groups} presentGroups={presentGroups}
+        <div class="mb-4">
+          <FilterBar value={filter} onChange={onFilter}
             presentSources={presentSources} searchHint="Search news, papers and articles…" live />
         </div>
       )}
 
       {/* 2. Sub-tabs (counts follow the filters) and, inside Everything, the All / News / Papers switch */}
-      <div class="mb-3 flex flex-wrap items-center justify-between gap-2">
-        <div class="glass-nav flex p-1" role="group" aria-label="Section">
+      <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <div class="glass-nav tabs-accent flex p-1" role="group" aria-label="Section">
           <button type="button" class={segment} aria-pressed={tab === "top"} onClick={() => setTab("top")}>
             Top stories <span class="opacity-60">{visibleStories.length}</span>
           </button>
@@ -138,7 +128,7 @@ export default function LatestFeed({ stories, categoryStyle, importanceLabel, ne
         {tab === "top" ? (
           <p class="text-sm text-ink-muted dark:text-[#a1a1a6]">Picked, grouped and ranked by the AI agents</p>
         ) : (
-          <div class="glass-nav flex p-1" role="group" aria-label="What to show">
+          <div class="glass-nav tabs-accent flex p-1" role="group" aria-label="What to show">
             {KINDS.map(([k, label]) => (
               <button key={k} type="button" class={segment} aria-pressed={kind === k} onClick={() => pickKind(k)}>
                 {label} <span class="opacity-60">{counts[k]}</span>
@@ -164,13 +154,13 @@ export default function LatestFeed({ stories, categoryStyle, importanceLabel, ne
         </div>
       ) : (
         <>
-          <div class="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          <div class="grid gap-4 md:grid-cols-2">
             {tab === "top"
               ? visibleStories.slice(0, shown.top).map((s) => <StoryCard key={s.id} story={s} categoryStyle={categoryStyle} importanceLabel={importanceLabel} />)
               : visibleItems.slice(0, shown.all).map((i) => <FeedCard key={i.id} i={i} icons={icons} now={now} live />)}
           </div>
           {left > 0 && (
-            <div class="mt-4 flex justify-center">
+            <div class="mt-6 flex justify-center">
               <button type="button" class="chip !px-5 !py-2" onClick={showMore}>
                 Show {left} more {left === 1 ? "story" : "stories"}
               </button>

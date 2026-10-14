@@ -237,6 +237,12 @@
       hover:text-slate-900 active:scale-90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/50
       dark:text-slate-400 dark:hover:bg-white/10 dark:hover:text-white;
   }
+  /* Accent for the Latest sub-tabs: the chosen segment fills with the blue-to-violet gradient. */
+  .tabs-accent .segment[aria-pressed="true"] {
+    background: linear-gradient(135deg, #0a84ff, #bf5af2);
+    color: #fff;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 6px 16px -6px rgba(109, 40, 217, 0.7);
+  }
   /* Small link capsule: Paper · PDF · Code. */
   .link-capsule {
     @apply inline-flex items-center gap-1 rounded-full bg-black/[0.04] px-2.5 py-1 text-xs font-medium text-brand-600
@@ -261,8 +267,8 @@
 
 /* Apple-style headline: large, tight, with a subtle gradient. */
 .headline {
-  @apply bg-gradient-to-b from-ink to-[#434346] bg-clip-text font-semibold tracking-[-0.035em] text-transparent
-    dark:from-white dark:to-[#a1a1a6];
+  @apply bg-gradient-to-br from-ink from-30% to-[#6d28d9] bg-clip-text font-semibold tracking-[-0.035em] text-transparent
+    dark:from-white dark:to-[#bf5af2];
 }
 .eyebrow {
   @apply text-[13px] font-semibold uppercase tracking-[0.08em] text-ink-muted dark:text-[#a1a1a6];
@@ -276,6 +282,14 @@
   --glass-blur: 14px;
   border-radius: 9999px;
   opacity: 0.9;
+}
+/* Tinted stat tile: set the hue with --t (for example class "kpi-tint [--t:#10b981]"). */
+.kpi-tint {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--t) 28%, transparent), color-mix(in srgb, var(--t) 8%, transparent)),
+    linear-gradient(180deg, var(--glass-sheen) 0%, transparent 42%),
+    var(--glass-fill);
+  opacity: 1;
 }
 .dark .kpi {
   --glass-fill: rgba(70, 120, 255, 0.07);
