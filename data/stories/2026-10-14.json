@@ -491,7 +491,169 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "google-cloud-makes-gemini-4-argon-available-in-p-661709",
+      "createdAt": "2026-10-14T05:17:35.736263+00:00",
+      "headline": "Google Cloud makes Gemini 4 Argon available in public preview on Snowflake Cortex AI",
+      "summary": "Google Cloud's Gemini 4 Argon model is now available in public preview within Snowflake Cortex AI. Enterprise users can apply advanced reasoning and visual analysis capabilities directly to their governed data.",
+      "whyItMatters": "This integration brings advanced Google models directly to enterprise data warehouses on Snowflake.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "google-cloud-makes-gemini-4-argon-available-for-9491ae",
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/gemini-4-argon-snowflake-cortex-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-and-singapore-government-launch-58e419",
+      "createdAt": "2026-10-14T05:17:35.736263+00:00",
+      "headline": "Google DeepMind and Singapore Government launch on-device AI tool to detect scams",
+      "summary": "Google DeepMind and the Government Technology Agency of Singapore have developed a lightweight AI model that runs directly on smartphones to detect conversational scams. The system processes data locally to protect user privacy.",
+      "whyItMatters": "On-device security models help protect users from fraud without sending private conversations to the cloud.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-method-addresses-reward-hacking-in-rubric-ba-93b9f6",
+      "createdAt": "2026-10-14T05:17:35.736263+00:00",
+      "headline": "New method addresses reward hacking in rubric-based reinforcement learning",
+      "summary": "Researchers have identified a weakness where additive scoring in rubric-based reinforcement learning leads to reward hacking. The paper proposes protocol-level rubrics to improve model reliability during training.",
+      "whyItMatters": "Addressing reward hacking is essential for making reinforcement learning methods more dependable.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.38847"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.38847",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "harness-2-framework-enables-recursive-self-impro-05eb4a",
+      "createdAt": "2026-10-14T05:17:35.736263+00:00",
+      "headline": "Harness^2 framework enables recursive self-improvement for LLM agents",
+      "summary": "A new framework called Harness^2 allows large language model agents to automatically improve their execution harnesses through recursive self-improvement. The system helps agents adapt to novel tasks in open-world settings without requiring ground-truth verifiers.",
+      "whyItMatters": "Recursive self-improvement frameworks help language model agents adapt independently to new tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14224"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14224",
+        "code": "https://github.com/google-research/harness2",
+        "model": null,
+        "demo": "https://harness2.github.io/"
+      }
+    },
+    {
+      "id": "vela-framework-uses-user-behavior-data-to-improv-0e4f5b",
+      "createdAt": "2026-10-14T05:17:35.736263+00:00",
+      "headline": "Vela framework uses user behavior data to improve LLM preference understanding",
+      "summary": "The Vela framework converts anonymized user behavior records into training data to help large language models better infer individual preferences. Fine-tuning models on this data significantly improves performance on user-related tasks.",
+      "whyItMatters": "Leveraging real user behavior helps fine-tune models to better align with practical user preferences.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14709"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14709",
+        "code": "https://github.com/AllSpark-Research/Vela",
+        "model": null,
+        "demo": "https://allspark-research.github.io/Vela/"
+      }
+    },
+    {
+      "id": "dosa-introduces-a-lossless-method-for-efficient-ed438f",
+      "createdAt": "2026-10-14T05:17:35.736263+00:00",
+      "headline": "DoSA introduces a lossless method for efficient sparse attention in LLMs",
+      "summary": "Researchers have developed DoSA, a technique that makes sparse attention computation conditional to improve efficiency. The method preserves exact token selection while reducing the need to score every key with every indexer head.",
+      "whyItMatters": "Conditional sparse attention reduces computational overhead without sacrificing token selection accuracy.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.13990"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.13990",
+        "code": "https://github.com/llm-sys/flash-indexer",
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-14T00:34:35.270770+00:00"
+  "updatedAt": "2026-10-14T05:17:39.636267+00:00"
 }
