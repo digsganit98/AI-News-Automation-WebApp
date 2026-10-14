@@ -1,0 +1,767 @@
+{
+  "date": "2026-10-15",
+  "runs": [
+    {
+      "runAt": "2026-10-14T21:51:42.692662+00:00",
+      "newItems": 34,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1292,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.710361Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.752602Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.752958Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.753277Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.753464Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.753637Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.753803Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.753965Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.754126Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.754314Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 24,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.754479Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.754541Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.754590Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.754832Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.754880Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.755042Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.755204Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.755390Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.755547Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.755834Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-14T21:51:42.755998Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.756223Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.756450Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.756615Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-14T21:51:42.756773Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.756935Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.757092Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.757272Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.757438Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.757658Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.758327Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.758524Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.758707Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-14T21:51:42.758761Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "publishedAt": "2026-10-14T12:00:00Z",
+      "excerpt": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "author": null,
+      "extra": {},
+      "id": "24cc989c02dbc2a2",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Pristine Models",
+      "url": "https://huggingface.co/papers/2610.14091",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "excerpt": "Training on broad, unfiltered data enables high-quality image generation, but can also teach models concepts that should not be generated; restricting the training data ensures safety, but reduces quality because examples containing unsafe concepts also provide useful knowledge that is not itself unsafe. Existing approaches largely address this trade-off post hoc through concept unlearning, which can lead to catastrophic forgetting as the number of concepts to remove grows. We instead ask…",
+      "author": "Anirudh Sundara Rajan, Krishna Kumar Singh, Richard Zhang, Yong Jae Lee",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://anisundar18.github.io/PristineModels.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.14091"
+      },
+      "id": "0fb4a2d4c3ddc78c",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "What Really Works for Universal Multimodal Embeddings? A Controlled Study of Contrastive Training Strategies",
+      "url": "https://huggingface.co/papers/2610.15035",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "excerpt": "Contrastive learning has become the standard paradigm for multimodal representation learning, aligning semantically matched pairs while separating mismatched ones in a shared embedding space. Although various contrastive training strategies have been proposed across negative selection, batch construction, and gradient modulation, their actual effectiveness under controlled, reproducible conditions remains poorly understood. This motivates a fundamental question: Do sophisticated contrastive…",
+      "author": "Duo Li, Haojun Pan, Zuhao Yang, Xintong Wang, Chengfu Huo, Shijian Lu, Liang Ding",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/alibaba-multimodal-industrial-ai/UME-Recipes",
+        "projectPage": "https://huggingface.co/alibaba-multimodal-industrial-ai/UME-Recipes",
+        "arxivUrl": "https://arxiv.org/abs/2610.15035"
+      },
+      "id": "b77dcb22c04711b9",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker Studio simplifies getting started for new AI/ML builders with social sign-in",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/",
+      "publishedAt": "2026-10-14T17:00:00Z",
+      "excerpt": "Amazon SageMaker Studio now lets new customers sign up with their Google, GitHub, or Apple credentials and land inside a fully configured Studio environment - no traditional AWS account setup, no credit card, and no console navigation required. Previously, new customers who discovered a model on Hugging Face or an AWS product page had to complete a multi-step AWS account creation process, provide a credit card, navigate the AWS Console to find SageMaker AI, configure an environment, and set up…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "97390ce21691f6b9",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "Power real-time applications and agents with Document Intelligence",
+      "url": "https://www.databricks.com/blog/power-real-time-applications-and-agents-document-intelligence",
+      "publishedAt": "2026-10-14T20:00:00Z",
+      "excerpt": "At Databricks, our enterprise customers receive millions of documents every single...",
+      "author": null,
+      "extra": {},
+      "id": "e898730d85f6b707",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "Everyone's adopting AI agents. Almost no one can prove the ROI. Here's why",
+      "url": "https://www.databricks.com/blog/everyones-adopting-ai-agents-almost-no-one-can-prove-roi-heres-why",
+      "publishedAt": "2026-10-13T18:41:48Z",
+      "excerpt": "Amber Roberts, Staff Technical Marketing Manager at Databricks, has spent the last...",
+      "author": null,
+      "extra": {},
+      "id": "32b750ede6e8e909",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "publishedAt": "2026-10-14T21:40:52Z",
+      "excerpt": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+      "author": "Richard MacManus",
+      "extra": {},
+      "id": "f992f00e022a5af8",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "publishedAt": "2026-10-14T20:35:09Z",
+      "excerpt": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+      "author": "Brandon Anderson",
+      "extra": {},
+      "id": "b6bc6eaa39157467",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "ai-snake-oil",
+      "sourceName": "AI Snake Oil",
+      "title": "Steering AI Beyond Automation",
+      "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+      "publishedAt": "2026-10-14T19:56:44Z",
+      "excerpt": "A Research Agenda and Plan for Action",
+      "author": "Arvind Narayanan",
+      "extra": {},
+      "id": "b5bf2a8338b1fa40",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Fastest Way to Use AI in 2026: Why AI Aggregators Replaced Single Model Tools",
+      "url": "https://medium.com/@smophyai/the-fastest-way-to-use-ai-in-2026-why-ai-aggregators-replaced-single-model-tools-49fd111a4122?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-14T19:01:01Z",
+      "excerpt": "By Kamil Kępiński, founder of SmophyAI Continue reading on Medium »",
+      "author": "SmophyAI",
+      "extra": {},
+      "id": "9de324a5a7cf01b2",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Advanced Multimodal Retrieval-Augmented Generation (RAG) Using Gemini Platforms",
+      "url": "https://medium.com/@shekh.abdullah78692/advanced-multimodal-retrieval-augmented-generation-rag-using-gemini-platforms-875506e441fd?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-14T17:46:46Z",
+      "excerpt": "Imagine asking your AI assistant to analyze a complex blueprint, a financial chart, or a product mockup, only for it to reply, “Sorry, I… Continue reading on Medium »",
+      "author": "Shekh Abdullah Ayubi",
+      "extra": {},
+      "id": "83443be1ae2b7243",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "RAG, Search, and SEO: How Retrieval Can Improve Search Strategy",
+      "url": "https://piyushkrsoni.medium.com/rag-search-and-seo-how-retrieval-can-improve-search-strategy-8e63940badd2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-14T17:40:34Z",
+      "excerpt": "How better context can make AI-assisted SEO more useful, more accurate, and far less generic Continue reading on Medium »",
+      "author": "Piyush Kumar Soni",
+      "extra": {},
+      "id": "92cd6bdb62b2606b",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Edit an Existing 3D Model with AI Without Starting Over",
+      "url": "https://medium.com/@wyx09142003/how-to-edit-an-existing-3d-model-with-ai-without-starting-over-d40e34c80e70?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-14T17:26:58Z",
+      "excerpt": "Generating a 3D model is only the beginning. The harder task often comes next: changing one part without losing everything that already… Continue reading on Medium »",
+      "author": "Wyx",
+      "extra": {},
+      "id": "ffe6260768094369",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Preparing for the 2026 US midterms",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "publishedAt": "2026-10-14T23:59:59Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "18177a36d83526b9",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "url": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "publishedAt": "2026-10-14T20:30:54Z",
+      "excerpt": "",
+      "author": "sunshowers",
+      "extra": {
+        "points": 143,
+        "comments": 44,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50094694"
+      },
+      "id": "d91ead6950e7810d",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "publishedAt": "2026-10-14T18:32:52Z",
+      "excerpt": "",
+      "author": "smartmic",
+      "extra": {
+        "points": 208,
+        "comments": 159,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50092664"
+      },
+      "id": "f6cba501345f0b73",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Neckbeard – A DevOps/platform/SRE plugin for your agent",
+      "url": "https://github.com/bealesh/neckbeard",
+      "publishedAt": "2026-10-14T17:45:34Z",
+      "excerpt": "",
+      "author": "bealesh",
+      "extra": {
+        "points": 54,
+        "comments": 40,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50091794"
+      },
+      "id": "87d81e4c6bad2202",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "publishedAt": "2026-10-14T17:45:23Z",
+      "excerpt": "",
+      "author": "latexr",
+      "extra": {
+        "points": 776,
+        "comments": 372,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+      },
+      "id": "7aff82cf50e7c250",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Linus Torvalds's first LLM-assisted patch series",
+      "url": "https://lwn.net/Articles/1100449/",
+      "publishedAt": "2026-10-14T16:55:07Z",
+      "excerpt": "",
+      "author": "janvdberg",
+      "extra": {
+        "points": 109,
+        "comments": 92,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50090842"
+      },
+      "id": "b0e702832e00df4e",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Has AI tells",
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+      "publishedAt": "2026-10-14T16:52:42Z",
+      "excerpt": "",
+      "author": "7777777phil",
+      "extra": {
+        "points": 53,
+        "comments": 46,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50090799"
+      },
+      "id": "be4141aad3c26827",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Why do LLM pelicans look like this?",
+      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "publishedAt": "2026-10-14T16:33:34Z",
+      "excerpt": "",
+      "author": "pcwelder",
+      "extra": {
+        "points": 147,
+        "comments": 128,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50090443"
+      },
+      "id": "3d3aec967750f992",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "inclusionAI/Ling-3.1-flash · Hugging Face",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "publishedAt": "2026-10-14T15:11:14Z",
+      "excerpt": "With 560B total parameters, 25B active parameters per token, and a 1M-token context window , wait what? 3.0 was just 127B",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/"
+      },
+      "id": "5241da4e264a9022",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Epic Games Store vibecoded - Now twice as fast as steam when it used to be much slower",
+      "url": "https://store.epicgames.com/news/epic-games-launcher-preview",
+      "publishedAt": "2026-10-14T14:42:38Z",
+      "excerpt": "",
+      "author": "/u/Charuru",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x5t1y6/epic_games_store_vibecoded_now_twice_as_fast_as/"
+      },
+      "id": "53addcb2b53ad1e4",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Peter Thiel Escalates War on AI Critics, Accuses Obama and The Pope of Exploiting Public Fears to ‘Boost Their Own Popularity’",
+      "url": "https://www.yahoo.com/news/politics/articles/peter-thiel-escalates-war-ai-023006830.html",
+      "publishedAt": "2026-10-14T08:11:33Z",
+      "excerpt": "",
+      "author": "/u/beingmodest",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x5lkkg/peter_thiel_escalates_war_on_ai_critics_accuses/"
+      },
+      "id": "06fce9ae00d05af3",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Is 'Attention' the Essence of Intelligence?",
+      "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+      "publishedAt": "2026-10-14T04:38:09Z",
+      "excerpt": "",
+      "author": "/u/TMWNN",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x5i5zn/is_attention_the_essence_of_intelligence/"
+      },
+      "id": "d4d127d43b809dae",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google’s Demis Hassabis Puts Hopeful Spin on AI’s Environmental Impact - CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/international-ai-summit-demis-hassabis-climate/",
+      "publishedAt": "2026-10-14T13:39:46Z",
+      "excerpt": "Macy is a writer on the AI Team. Google DeepMind chair and co-founder Demis Hassabis took the main stage at the International AI Summit in Dublin, Ireland, on Wednesday morning to speak to global ministers, media and delegates about innovations in science and math, frontier AI and – taking a hopeful tack – the potential for AI to address climate issues. “I actually think with the help of AI, that’s what’s going to end up giving us the technology to tackle the climate question,” he said. In…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.098
+      },
+      "id": "29ba840ccc073f48",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "LTTS launches AI native EI lab for manufacturing and operations - tele.net",
+      "url": "https://tele.net.in/national-news/ltts-launches-ai-native-ei-lab-for-manufacturing-and-operations-12674176",
+      "publishedAt": "2026-10-14T05:06:41Z",
+      "excerpt": "# LTTS launches AI native EI lab for manufacturing and operations. L&T Technology Services (LTTS) has inaugurated its artificial intelligence (AI) native EI Lab for digital manufacturing in Bengaluru, an experiential environment where customers and partners can see AI-native manufacturing, digital twins and autonomous systems working together across the lifecycles. The EI Lab extends LTTS’ Engineering Intelligence charter to the manufacturing shop floor. Through live and scenario-based…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.091
+      },
+      "id": "34e721d710e7c785",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Scimplify raises $25M to expand AI-powered materials production beyond China - mezha.net",
+      "url": "https://mezha.net/eng/news/mezha-1cf1a3388554a4ca5909f6f5/",
+      "publishedAt": "2026-10-14T12:31:40Z",
+      "excerpt": "In the midterm ad wars, Republicans spend more to get less. The barriers to realizing AI’s promise in health care. The Bengaluru-based startup is valued at $250 million after the investment, according to a person familiar with the transaction, up from $150 million after its $40 million Series B in March 2025. About 90% of its manufacturing currently takes place in India, but the startup plans to expand its production network to the U.S. and Japan over the next year to attract more customers…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.132
+      },
+      "id": "5ef9e9e92a368339",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Israeli AI startup Zenzap emerges from stealth with $44 million in funding - Ynetnews",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/s111r10njgx",
+      "publishedAt": "2026-10-14T15:24:13Z",
+      "excerpt": "## Founded in 2022, Zenzap offers a secure platform where employees and AI agents collaborate, automate tasks and access thousands of business tools; serving thousands of organizations, the startup plans global expansion and further product development. Israeli artificial intelligence startup Zenzap has emerged from stealth with $44 million in total funding, led jointly by Bessemer Venture Partners and Lightspeed Venture Partners, with participation from The Garage. The company has developed a…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.124
+      },
+      "id": "a7ff0d99c35a6ed7",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "publishedAt": "2026-10-14T11:00:00Z",
+      "excerpt": "As manufacturers across industries strive to reduce their reliance on Chinese suppliers, Indian startup Scimplify has raised $25 million to expand its AI-powered approach to producing specialty chemicals and critical materials, with semiconductors, defense and energy emerging as key growth markets. The round values the Bengaluru-based startup at $250 million after the investment, according to a person familiar with the transaction, up from $150 million after a $40 million Series B round in…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.12
+      },
+      "id": "9931ca009c408084",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Disney strikes $20-million deal for Character.ai’s assets as AI startup files for bankruptcy - Los Angeles Times",
+      "url": "https://www.latimes.com/business/story/2026-10-13/disney-strikes-20-million-deal-for-character-ais-assets-as-ai-startup-files-for-bankruptcy",
+      "publishedAt": "2026-10-13T21:34:51Z",
+      "excerpt": "# Disney strikes $20-million deal for Character.ai’s assets as AI startup files for bankruptcy. See more from the L.A. Times in Google Search. Character.ai, a California startup that has faced lawsuits over allegations that chatbots created on its platform harmed the mental health of teens and led to copyright issues, filed for Chapter 11 bankruptcy. An artificial intelligence startup is under fire for allegedly releasing chatbots that harmed the mental health of young people. Character.ai…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.116
+      },
+      "id": "af4fc393096f4ac9",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Radware Introduces Model Context Protocol (MCP) Server Protection to Help Secure the Integration Layer of Agentic AI",
+      "url": "https://finance.yahoo.com/technology/ai/articles/radware-introduces-model-context-protocol-100000534.html",
+      "publishedAt": "2026-10-14T09:00:00Z",
+      "excerpt": "This is a paid press release. Contact the press release distributor directly with any inquiries.\n\nGlobeNewswire\n\n# Radware Introduces Model Context Protocol (MCP) Server Protection to Help Secure the Integration Layer of Agentic AI\n\nRadware Ltd.\n\n6 min read\n\n RDWR\n\n  -0.94%\n\nRadware Ltd.\n\nRadware Ltd.\n\n \n\nNew solution helps organizations secure MCP servers against protocol-specific attacks, DDoS and abuse while providing visibility and governance across MCP deployments [...] To learn more,…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.807
+      },
+      "id": "89d302c4a9b9e3a5",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The frontier doesn’t come with a playbook - The Drum",
+      "url": "https://www.thedrum.com/opinion/the-frontier-doesn-t-come-with-a-playbook",
+      "publishedAt": "2026-10-14T16:09:30Z",
+      "excerpt": "**B2B marketers know LLMs are changing how buyers find them, yet most are holding out for a playbook that doesn't exist. In the latest instalment of Certainty is the Enemy of Growth, Chris Bagnall argues that waiting for proof is the costliest bet going.**. Most B2B organizations’ marketing teams are looking at LLM optimization strategies and have already decided to, at the very least, start testing them at the consideration/decision stages of the content/influence funnel. But not many B2B…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.096
+      },
+      "id": "12a3405c541e74f9",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "New gene editing system offers promising CRISPR alternative - BioTechniques",
+      "url": "https://www.biotechniques.com/genetic-engineering/new-gene-editing-system-offers-promising-crispr-alternative/",
+      "publishedAt": "2026-10-14T09:00:46Z",
+      "excerpt": "**A new engineered gene editing system, proven in bacteria and with promise for use in plants, animals and humans, addresses some of the limitations of current gene editing tools with the hope of improving their applications for research, for better crops or to treat diseases.**. The new system increases the accuracy of the payload’s placement, reducing the chance that it will be inserted in the wrong location, which can be an issue in CRISPR-Cas systems and can lead to complications in a…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.017
+      },
+      "id": "a7a4777d367150dc",
+      "collectedAt": "2026-10-14T21:51:42.692662+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-14T21:51:42.692662+00:00"
+}
