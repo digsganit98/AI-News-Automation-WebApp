@@ -1,4 +1,4 @@
-// Shared filter bar (search, group chips, source, time range, sort) used by the Latest page
+// Shared filter bar (search, source, time range, sort) used by the Latest page
 // and the day pages. The filter state lives in the parent, so one bar can drive several lists
 // (on Latest: the Top stories list and the Everything collected list).
 import type { FeedSource } from "./NewsFeed";
@@ -15,7 +15,6 @@ export type Range = "all" | "3" | "24"; // "3" and "24" are hours, the same valu
 export type Sort = "newest" | "discussed";
 
 export interface FilterState {
-  group: string | null; // a group chip such as "AI labs"; null means All
   source: string; // a source id; "" means all sources
   query: string; // free-text search
   range: Range;
@@ -23,7 +22,7 @@ export interface FilterState {
 }
 
 // The "nothing filtered" state: the starting point and what "Clear filters" returns to.
-export const NO_FILTER: FilterState = { group: null, source: "", query: "", range: "all", sort: "newest" };
+export const NO_FILTER: FilterState = { source: "", query: "", range: "all", sort: "newest" };
 
 /** True when `iso` falls inside the chosen range ("all" keeps everything). `now` is in ms. */
 export const inRange = (iso: string, range: Range, now: number) =>
@@ -38,19 +37,17 @@ export const matchesQuery = (text: string, query: string) => {
 interface BarProps {
   value: FilterState;
   onChange: (next: FilterState) => void;
-  groups: Record<string, string>; // group id -> label, e.g. labs -> "AI labs"
-  presentGroups: string[]; // only the groups that actually have items, so no dead chips
   presentSources: FeedSource[]; // only the sources that actually have items
   searchHint?: string;
   live?: boolean; // the Latest page also offers the "last 3 / 24 hours" range
 }
 
-export function FilterBar({ value, onChange, groups, presentGroups, presentSources, searchHint = "Search titles and summaries…", live = false }: BarProps) {
+export function FilterBar({ value, onChange, presentSources, searchHint = "Search titles and summaries…", live = false }: BarProps) {
   // Change one field and keep the rest, so each control only has to say what it changed.
   const set = (patch: Partial<FilterState>) => onChange({ ...value, ...patch });
-  // Compact layout (see the approved ui-refresh mockup): search row first, chips under it.
+  // One clean row (approved v2 mockup): the group chips were removed, so only search + dropdowns.
   return (
-    <div class="card flex flex-col gap-2 !rounded-[22px] p-3">
+    <div class="card flex flex-col gap-2 !rounded-[24px] p-3.5">
       <div class="grid gap-2 sm:grid-cols-[1fr_auto_auto_auto]">
         <label class="relative">
           <span class="sr-only">Search</span>
@@ -61,9 +58,7 @@ export function FilterBar({ value, onChange, groups, presentGroups, presentSourc
         <select class="field !py-2" aria-label="Source" value={value.source}
           onChange={(e) => set({ source: (e.target as HTMLSelectElement).value })}>
           <option value="">All sources</option>
-          {/* When a group chip is active, only that group's sources are offered. */}
           {presentSources
-            .filter((s) => !value.group || s.group === value.group)
             .map((s) => <option key={s.id} value={s.id}>{s.name}</option>)}
         </select>
         {live && (
@@ -79,19 +74,6 @@ export function FilterBar({ value, onChange, groups, presentGroups, presentSourc
           <option value="newest">Newest first</option>
           <option value="discussed">Most discussed</option>
         </select>
-      </div>
-      <div class="flex flex-wrap items-center gap-1.5">
-        <button type="button" class="chip !px-3 !py-1 !text-[12.5px]" aria-pressed={value.group === null} onClick={() => set({ group: null })}>
-          All
-        </button>
-        {presentGroups.map((g) => (
-          // Clicking the active chip again clears it; picking a group also resets the source,
-          // because the old source may not belong to the new group.
-          <button type="button" key={g} class="chip !px-3 !py-1 !text-[12.5px]" aria-pressed={value.group === g}
-            onClick={() => set({ group: value.group === g ? null : g, source: "" })}>
-            {groups[g]}
-          </button>
-        ))}
       </div>
     </div>
   );

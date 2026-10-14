@@ -33,7 +33,6 @@ interface Props {
   items: FeedItem[];
   sources: FeedSource[];
   icons: Record<string, string>;
-  groups: Record<string, string>;
   buildTime: string;
   live?: boolean; // the Latest page: offers "last 3 h / 24 h" and "New" badges
   searchHint?: string;
@@ -64,10 +63,15 @@ export function useNow(buildTime: string): number {
   return now;
 }
 
+// A soft hue per kind so the feed is not one flat blue: news blue, papers violet, Hub amber.
+const KIND_HUE: Record<string, string> = { news: "#0a84ff", paper: "#bf5af2", hub: "#ff9f0a" };
+
 export function FeedCard({ i, icons, now, live }: { i: FeedItem; icons: Record<string, string>; now: number; live: boolean }) {
   const isNew = live && i.collectedAt && now - new Date(i.collectedAt).getTime() < 3 * HOUR;
   return (
-    <article class="card group relative flex flex-col p-4 transition duration-300 hover:-translate-y-1">
+    <article class="card group relative flex flex-col overflow-hidden px-5 py-4 transition duration-300 hover:-translate-y-1">
+      <span aria-hidden="true" class="pointer-events-none absolute inset-0 opacity-[0.13]"
+        style={{ background: `linear-gradient(135deg, ${KIND_HUE[i.kind ?? "news"]}, transparent 60%)` }} />
       <div class="mb-2 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
         <span class="glass-tile grid size-7 place-items-center !rounded-lg"
           dangerouslySetInnerHTML={{ __html: icons[i.source] ?? "" }} />
@@ -103,15 +107,10 @@ export function FeedCard({ i, icons, now, live }: { i: FeedItem; icons: Record<s
   );
 }
 
-export default function NewsFeed({ items, sources, icons, groups, buildTime, live = false, searchHint = "Search titles and summaries…" }: Props) {
+export default function NewsFeed({ items, sources, icons, buildTime, live = false, searchHint = "Search titles and summaries…" }: Props) {
   const now = useNow(buildTime);
   const [filter, setFilter] = useState(NO_FILTER);
 
-  const groupOf = useMemo(() => Object.fromEntries(sources.map((s) => [s.id, s.group])), [sources]);
-  const presentGroups = useMemo(
-    () => Object.keys(groups).filter((g) => items.some((i) => groupOf[i.source] === g)),
-    [items, groups, groupOf],
-  );
   const presentSources = useMemo(
     () => sources.filter((s) => items.some((i) => i.source === s.id)),
     [items, sources],
@@ -120,7 +119,6 @@ export default function NewsFeed({ items, sources, icons, groups, buildTime, liv
   const visible = useMemo(() => {
     const list = items.filter(
       (i) =>
-        (!filter.group || groupOf[i.source] === filter.group) &&
         (!filter.source || i.source === filter.source) &&
         matchesQuery(`${i.title} ${i.excerpt} ${i.sourceName}`, filter.query) &&
         inRange(i.time, filter.range, now),
@@ -128,12 +126,12 @@ export default function NewsFeed({ items, sources, icons, groups, buildTime, liv
     return filter.sort === "newest"
       ? list.sort((a, b) => b.time.localeCompare(a.time))
       : list.sort((a, b) => signal(b) - signal(a));
-  }, [items, filter, now, groupOf]);
+  }, [items, filter, now]);
 
   return (
     <section aria-label="News feed">
       <div class="mb-6">
-        <FilterBar value={filter} onChange={setFilter} groups={groups} presentGroups={presentGroups}
+        <FilterBar value={filter} onChange={setFilter}
           presentSources={presentSources} searchHint={searchHint} live={live} />
       </div>
 
