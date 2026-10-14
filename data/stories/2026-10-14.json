@@ -1004,7 +1004,493 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "google-cloud-adds-cost-management-controls-for-b-5633cc",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Google Cloud adds cost management controls for BigQuery generative AI functions",
+      "summary": "Google Cloud has introduced token-based cost management for BigQuery generative AI functions. Administrators can now set daily quotas at project and user levels to control spending on tasks like text classification and sentiment analysis.",
+      "whyItMatters": "This feature provides necessary financial governance for enterprises deploying generative AI at scale within data warehouses.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-nemo-gym-optimizes-ai-agent-reliability-f-84c048",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "NVIDIA NeMo Gym optimizes AI agent reliability for chip design workflows",
+      "summary": "NVIDIA has released a guide on using NeMo Gym to improve the reliability of AI agents in complex chip design workflows. The tool helps mitigate the generation of plausible but incorrect artifacts.",
+      "whyItMatters": "Improving agent reliability is critical for deploying autonomous workflows in high-precision engineering domains.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amp-integrates-openai-models-and-sign-in-authent-a0e0fe",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Amp integrates OpenAI models and sign-in authentication to expand agent capabilities",
+      "summary": "Amp is using OpenAI models, including GPT-6 Astra and GPT-Live-1, to extend AI agent functionality beyond basic code generation. The company also integrated Sign in with ChatGPT for user authentication.",
+      "whyItMatters": "Broadening agent applications beyond coding helps integrate advanced AI capabilities into everyday user workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/amp-beyond-coding"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "third-moment-research-demonstrates-system-runnin-e18154",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Third Moment Research demonstrates system running 10,000 AI agents for over 36 hours",
+      "summary": "AI lab Third Moment Research ran 10,000 agents for more than 36 hours using GPT-6 Astra and GPT-6.1 Sol models. The agents were built to handle multi-day tasks and improve through continued execution.",
+      "whyItMatters": "This demonstration showcases the feasibility of orchestrating massive multi-agent systems over extended operational periods.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/third-moment-research"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "last-secure-code-benchmark-evaluates-security-vu-885d1d",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Last Secure Code Benchmark evaluates security vulnerabilities in AI-generated code",
+      "summary": "Researchers introduced a test suite of 450 tasks based on 150 real vulnerabilities to assess the security of code written by AI agents. Results show that even top-performing models produced secure code in only 25.1% of tasks.",
+      "whyItMatters": "Highlighting security flaws in generated code emphasizes the need for better evaluation and guardrails before deployment.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14766"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14766",
+        "code": "https://github.com/alibaba/last-secure-code-benchmark",
+        "model": null,
+        "demo": "https://last-secure-code-benchmark.github.io/"
+      }
+    },
+    {
+      "id": "augustus-vision-language-action-model-unifies-ge-d85826",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "AUGUstus vision-language-action model unifies generation for autonomous driving",
+      "summary": "AUGUstus is a new vision-language-action model designed for end-to-end autonomous driving. It unifies generation and scene understanding to better handle complex long-tail driving scenarios.",
+      "whyItMatters": "Unifying perception and action in a single model addresses key limitations in current autonomous vehicle architectures.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.16985"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.16985",
+        "code": "https://github.com/haha-yuki-haha/AUGUstus",
+        "model": null,
+        "demo": "https://augustus-ad.github.io/"
+      }
+    },
+    {
+      "id": "emho-method-optimizes-embodied-agent-harnesses-u-4d809d",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "EMHO method optimizes embodied agent harnesses using experience traces",
+      "summary": "EMHO allows agent harnesses that control planning and tool use to improve directly from experience traces. The approach optimizes the surrounding operational infrastructure rather than tuning the underlying model parameters.",
+      "whyItMatters": "Optimizing agent harnesses offers a lightweight pathway to improve overall system performance without retraining core models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.08432"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.08432",
+        "code": null,
+        "model": null,
+        "demo": "https://hyunjung00.github.io/emho/"
+      }
+    },
+    {
+      "id": "apex-technique-enables-extreme-compression-for-d-1ba22b",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "APEX technique enables extreme compression for diffusion models",
+      "summary": "APEX pairs a hierarchical approach with asynchronous prefix denoising to manage the trade-off between reconstruction quality and generation difficulty. The technique reduces the number of latent tokens required to run diffusion models efficiently.",
+      "whyItMatters": "Extreme compression helps lower the computational overhead and cost of deploying generative visual models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.12843"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.12843",
+        "code": "https://github.com/DavidDinkevich/APEX",
+        "model": null,
+        "demo": "https://daviddinkevich.github.io/APEX/"
+      }
+    },
+    {
+      "id": "longr-uses-reinforcement-learning-to-improve-lon-79cd87",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "LongR uses reinforcement learning to improve long-context reasoning in language models",
+      "summary": "LongR applies reinforcement learning with dense utility rewards to enhance the reasoning capabilities of large language models in long-context scenarios. The method supports rigorous deduction for tasks like long-dialogue understanding and structured data analysis.",
+      "whyItMatters": "Enhancing long-context processing helps models maintain logical consistency across extensive inputs.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2602.05758"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2602.05758",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "lifesearch-benchmark-evaluates-deep-research-age-d0a901",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "LifeSearch benchmark evaluates deep research agents on real-world productivity tasks",
+      "summary": "Researchers introduced LifeSearch to test deep research agents on real-world life and productivity challenges. This benchmark addresses gaps in existing evaluations that rely heavily on academic or synthetic scenarios.",
+      "whyItMatters": "Practical benchmarks ensure that AI research aligns with tasks required in everyday human productivity environments.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.18092"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.18092",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "latent-world-action-model-improves-gui-navigatio-30b0e8",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Latent World Action Model improves GUI navigation for AI agents",
+      "summary": "The Latent World Action Model is designed to enhance how AI agents interact with graphical user interfaces. It avoids the high computational costs of predicting future screens in pixel-space world models.",
+      "whyItMatters": "Efficient world models simplify the execution of complex desktop and browser automation tasks by AI agents.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14228"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14228",
+        "code": "https://github.com/sjyu001/latent2world",
+        "model": null,
+        "demo": "https://hchoi256.github.io/projects/latent2world/"
+      }
+    },
+    {
+      "id": "worldrecon-framework-reconstructs-3d-meshes-from-f7f33b",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "WorldRecon framework reconstructs 3D meshes from large-scale unposed images",
+      "summary": "WorldRecon is a framework for generating complete, high-quality 3D meshes of large-scale scenes from multiple unposed images. It focuses on grounding geometry accurately while plausibly filling in obscured surfaces.",
+      "whyItMatters": "Automating detailed 3D scene reconstruction accelerates digital twin creation and virtual environment generation.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.18846"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.18846",
+        "code": "https://github.com/kszpxxzmc/WorldRecon",
+        "model": null,
+        "demo": "https://kszpxxzmc.github.io/WorldRecon-website/"
+      }
+    },
+    {
+      "id": "epic-games-develops-new-launcher-using-generativ-9c64e8",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Epic Games develops new launcher using generative AI-assisted coding",
+      "summary": "Epic Games announced that its latest version of the Epic Games Launcher was built using generative AI coding assistance. The company utilized this workflow as part of its ongoing efforts to integrate AI tools into software development.",
+      "whyItMatters": "This adoption highlights how major software companies are incorporating AI-assisted coding into production workflows.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.ign.com/articles/we-vibe-coded-a-new-epic-games-launcher-epics-new-store-app-was-built-using-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "major-tech-companies-announce-ai-focused-hardwar-632678",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Major tech companies announce AI-focused hardware for the holiday season",
+      "summary": "Apple, Amazon, and Microsoft have introduced new hardware devices featuring integrated generative AI capabilities for home use. These products include upgraded personal assistants and faster on-device processors.",
+      "whyItMatters": "Consumer electronics are increasingly shipping with dedicated on-device AI features to drive holiday adoption.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.cnbc.com/2026/10/14/tech-giants-race-to-get-ai-gadgets-on-shelves-for-holiday-rush.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "harbor-raises-10-million-to-provide-risk-assessm-f43839",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "Harbor raises $10 million to provide risk assessment and insurance for AI agents",
+      "summary": "Startup Harbor has launched with $10 million in seed funding to help businesses manage operational and security risks tied to AI agents. The company offers a platform to measure these risks and provides insurance coverage against agent failures.",
+      "whyItMatters": "Insurance and risk management products are emerging to address the liabilities associated with autonomous AI systems in business environments.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.insurancejournal.com/news/national/2026/10/13/888747.htm"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "sbs-and-nvidia-launch-sovereign-ai-platform-for-edad60",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "SBS and NVIDIA launch sovereign AI platform for core banking systems",
+      "summary": "SBS has partnered with NVIDIA to launch the SBS AI Foundation, a sovereign AI platform designed for banking infrastructure. The platform enables financial institutions to deploy generative and agentic AI without transferring sensitive data off-premise.",
+      "whyItMatters": "Sovereign AI infrastructure allows highly regulated industries like banking to adopt advanced models while maintaining strict data privacy.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://fintechmagazine.com/news/how-sbs-and-nvidia-bring-sovereign-ai-into-core-banking"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "american-express-introduces-framework-to-secure-aba4e2",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "American Express introduces framework to secure AI agent transactions",
+      "summary": "American Express has launched the Intent Intelligence Framework to stop AI agents from making unauthorized customer purchases. The system captures and authenticates user intent before an agent completes a transaction.",
+      "whyItMatters": "Security frameworks for purchase intent help prevent unintended financial transactions as autonomous shopping agents grow more common.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "uob-and-aws-sign-agreement-to-expand-hybrid-clou-634fea",
+      "createdAt": "2026-10-14T17:35:18.211822+00:00",
+      "headline": "UOB and AWS sign agreement to expand hybrid cloud and AI capabilities",
+      "summary": "United Overseas Bank has signed a memorandum of understanding with Amazon Web Services to scale its hybrid cloud architecture. The collaboration centers on improving data analytics and building AI-powered customer engagement tools.",
+      "whyItMatters": "Financial institutions continue to partner with cloud providers to modernize data pipelines and deploy customer-facing AI applications.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.fintechfutures.com/bankingtech/uob-aws-mou-cloud-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-14T12:22:55.561513+00:00"
+  "updatedAt": "2026-10-14T17:35:48.154850+00:00"
 }
