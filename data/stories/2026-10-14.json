@@ -278,7 +278,220 @@
         "model": null,
         "demo": "https://xyz9911.github.io/mavln/"
       }
+    },
+    {
+      "id": "aws-agent-registry-adds-support-for-custom-metad-8795a8",
+      "createdAt": "2026-10-14T00:34:29.928227+00:00",
+      "headline": "AWS Agent Registry adds support for custom metadata",
+      "summary": "AWS has updated its Agent Registry to allow organizations to add custom metadata to their records. This feature helps teams better manage and discover large numbers of AI agents and related resources.",
+      "whyItMatters": "Custom metadata improves resource organization and discoverability for large-scale enterprise deployments of AI agents.",
+      "category": "Framework/Tooling",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-and-anchor-browser-enable-ai-agents-to-make-e1297e",
+      "createdAt": "2026-10-14T00:34:29.928227+00:00",
+      "headline": "AWS and Anchor Browser enable AI agents to make autonomous payments",
+      "summary": "AWS and Anchor Browser have developed a solution that allows AI agents to automatically pay for web resources and APIs using the x402 protocol. The system uses Amazon Bedrock AgentCore to manage budgets and sign transactions without exposing sensitive wallet credentials.",
+      "whyItMatters": "Enabling secure, autonomous microtransactions allows AI agents to independently access and pay for required web services.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-introduces-gemini-4-argon-for-ro-471508",
+      "createdAt": "2026-10-14T00:34:29.928227+00:00",
+      "headline": "Google DeepMind introduces Gemini 4 Argon for robotics and enterprise workflows",
+      "summary": "Google DeepMind has introduced Gemini 4 Argon, a model designed to improve physical understanding, spatial reasoning, and code generation. The model is now globally available via API for enterprise tasks and achieved an 87% score on the Embodied Reasoning benchmark.",
+      "whyItMatters": "This release brings advanced spatial reasoning and improved physical intelligence to developers building robotics and complex enterprise applications.",
+      "category": "New Model Release",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-pr-opd-method-improves-reinforcement-learnin-afcd57",
+      "createdAt": "2026-10-14T00:34:29.928227+00:00",
+      "headline": "New PR-OPD method improves reinforcement learning for language model agents",
+      "summary": "Researchers proposed PR-OPD, a technique that helps language model agents learn more effectively by aligning internal representations during training. The method improved performance on benchmark tasks like ALFWorld and WebShop compared to standard reinforcement learning approaches.",
+      "whyItMatters": "Better internal alignment during reinforcement learning helps language model agents perform complex interactive tasks more reliably.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2609.36642"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2609.36642",
+        "code": "https://github.com/balibata/PR-OPD",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-launches-muse-and-wonder-frontier-ai-models-519f27",
+      "createdAt": "2026-10-14T00:34:29.928227+00:00",
+      "headline": "Meta launches Muse and Wonder frontier AI models",
+      "summary": "Meta has introduced the Muse and Wonder family of AI models designed to handle professional domains and complex tasks. The models are available via subscription services and aim to compete directly with leading frontier systems.",
+      "whyItMatters": "Meta's new models expand its commercial offerings in the frontier AI space for professional and everyday tasks.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.euronews.com/2026/10/13/meta-launches-new-most-capable-ai-models-heres-what-to-know-about-them"
+        },
+        {
+          "name": "Web search",
+          "url": "https://www.cnet.com/tech/services-and-software/meta-muse-and-wonder-ai-models/"
+        },
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/meta-muse-wonder-frontier-eu"
+        },
+        {
+          "name": "Web search",
+          "url": "https://www.cnbc.com/2026/10/12/meta-muse-wonder-ai-model-agent.html"
+        },
+        {
+          "name": "Web search",
+          "url": "https://www.axios.com/2026/10/12/meta-new-ai-models-anthropic-openai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "neurips-introduces-short-non-technical-overviews-8ee7d2",
+      "createdAt": "2026-10-14T00:34:29.928227+00:00",
+      "headline": "NeurIPS introduces short non-technical overviews for research papers",
+      "summary": "NeurIPS is asking authors to write short, non-technical overviews of their research to help a broader audience understand AI advancements. The conference will also provide science communication training in Sydney.",
+      "whyItMatters": "Clear summaries make complex machine learning research more accessible to non-specialist readers and the broader public.",
+      "category": "Methodology",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://blog.neurips.cc/2026/10/12/making-ai-science-more-accessible-at-neurips"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "sam-altman-says-ai-reduces-startup-creation-time-428ea3",
+      "createdAt": "2026-10-14T00:34:29.928227+00:00",
+      "headline": "Sam Altman says AI reduces startup creation time from months to minutes",
+      "summary": "Altman argues that generative AI is cutting the time and capital needed to turn ideas into products. He predicts a massive surge in new businesses as a result.",
+      "whyItMatters": "Lower barriers could dramatically increase the rate of innovation and entrepreneurship.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Sam Altman",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.trendingtopics.eu/altman-startup-17-minutes-codex"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-13T19:33:59.747806+00:00"
+  "updatedAt": "2026-10-14T00:34:35.270770+00:00"
 }
