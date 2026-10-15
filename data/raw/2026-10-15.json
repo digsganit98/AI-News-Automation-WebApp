@@ -556,6 +556,284 @@
           "checkedAt": "2026-10-15T04:58:40.552777Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-15T11:52:28.859379+00:00",
+      "newItems": 22,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1293,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.876893Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.917755Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 876,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.918148Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.918460Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 89,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.918639Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.918813Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.919007Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.919175Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.919338Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.919501Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.919664Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.919727Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.919775Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.920042Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.920093Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.920258Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.920421Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.920581Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.920737Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.921051Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-15T11:52:28.921218Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.921450Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.921613Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.921771Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-15T11:52:28.921953Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.922137Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.922297Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.922456Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.922614Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.922834Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.923499Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.923688Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.923872Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-15T11:52:28.923925Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1656,7 +1934,324 @@
       },
       "id": "52977f2cb7962e1c",
       "collectedAt": "2026-10-15T04:58:40.489864+00:00"
+    },
+    {
+      "source": "nvidia",
+      "sourceName": "NVIDIA (generative AI)",
+      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+      "publishedAt": "2026-10-15T05:00:12Z",
+      "excerpt": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",
+      "author": "Linda Malm",
+      "extra": {},
+      "id": "9ff90121ae16c33f",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "url": "https://huggingface.co/papers/2610.19698",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "excerpt": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challenging when scenario information is distributed across multiple files. Existing rule-reasoning benchmarks typically represent scenarios using only a few factual statements, simplifying the identification and application of relevant rules. To address this gap, this paper introduces RuleTrek, a multi-domain benchmark for…",
+      "author": "Chenhao Yuan, Bohan Yu, Yinhao Xu, Chao Yin, Chenxi Zhou, Zhaoxuan Wang, Shuwen Xu, Shaoping Huang, Haolin Ren, Jiaxiang Liu, Yao Xu, Jun Zhao, Kang Liu",
+      "extra": {
+        "upvotes": 54,
+        "githubRepo": "https://github.com/yuan247/RuleTrek",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.19698"
+      },
+      "id": "c591fa196b644d62",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+      "url": "https://huggingface.co/papers/2610.15542",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "excerpt": "Language models are becoming infrastructure, and infrastructure built in the open, by public institutions, on documented data, is the alternative to dependence on a few providers; Apertus shows this is viable at scale. Apertus 1.5 extends the fully open Apertus family from text to multimodal reasoning. Continued pretraining of the Apertus 1.0 models, on 4T additional tokens for the 8B and 2T for the 70B, adds image and audio understanding and extends the context window fourfold to 262,144…",
+      "author": "Project Apertus, Yixuan Xu, Yassine Turki, Vinko Sabolčec, Valentina Pyatkin, Tommy Chu, Sven Najem-Meyer, Sean F. Carroll, Robert Smith, Raphael Kreft, Oscar Alessandro Tazza, Oleg Lavrovsky, Nicola Irmiger, Matteo Santelmo, Marian Schneider, Juan García Giraldo, Hanna Yukhymenko, Eduard Ďurech, Davit Melikidze, Dani Tamayo, Bettina Messmer, Aryan Ahadinia, Anunay Yadav, Allen Huang, Ahmad Fraij, Alessandro Bombarda, Alex Padula, Alexander Hägele, Alexander Sternfeld, Anna Hedström, Anna Kosovskaia, Arthur Wuhrmann, Arundhati Balasubramaniam, Badr Al Mahouri, Barna Pasztor, Bartosz Szostakiewicz, Bich Ngoc Doan, Bryan Schmid, Burak Sezen, Camille Challier, Clément Charmillot, Dana Shayakhmetova, Daniel Perruchoud, David Brüggemann, David Isztl, Elia Palme, Emma Anastassova, Fabian Bösch, Faruk Zahiragić, Fawzi Roberto Mohamed, Fiona Panicali, Florian Kolly, Flynn Guerra, Francesco Monti, Frederike Lübeck, Gennaro Oliva, Haofeng Yang, Haoliang Shang, Helen El Khoury, Henrique Mendonça, Jannis Vamvas, Jérome Landolt, Jessica Lam, Jingchun Xiao, Jonathan Coles, Joshua Oyebanji, Khanh Nguyen, Konstantinos Pitas, Lasse B. Strand, Li Mi, Loïc Deslarzes, Lorenzo Baggi, Lorenzo Noci, Luca Baumann, Luca Sartori, Lukas Drescher, Marco De Negri, Marco Passerini, Mark Klein, Marko Stojanovic, Martin Majsec, Matin Ansaripour, Mattea Busato, Mauro Pellonara, Max Neuwinger, Michael Graber, Michal Tešnar, Michelle Wastl, Miguel Gila, Mikolaj Boronski, Morgane Magnin, Moritz Reihs, Mukhammadali Sayfiddinov, Nathan Ranchin, Nicolas Cuveillier, Oscar Wohlfahrt, Qianqian Zou, Rada Kamysheva, Rita Sevastjanova, Roman Machacek, Sebastian Keller, Simon Matrenok, Simon Pierre, Stefano Schuppli, Suei-Wen Chen, Szabina Horváth-Mikulas, Taliesin Perez, Thilo Spinner, Thomas Kleine Buening, Tim Robinson, Tymoteusz Kwiecinski, Vilém Zouhar, Vinzenz Thoma, Xiaozhe Yao, Yannick Metz, Yuhei Fukuhara, Yusif Askari, Zixuan Chen, Alexander Ilic, Ana Klimovic, Andreas Krause, Andrei Kucharavy, Elliott Ash, Joost VandeVondele, Martin Rajman, Mennatallah El-Assady, Thomas Schulthess, Timo Kehrer, Torsten Hoefler, Antoine Bosselut, Martin Jaggi, Imanol Schlag",
+      "extra": {
+        "upvotes": 28,
+        "githubRepo": null,
+        "projectPage": "https://www.apertus-ai.org/",
+        "arxivUrl": "https://arxiv.org/abs/2610.15542"
+      },
+      "id": "2df304d73331ee5a",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Cortex: Consolidating Context into Parametric Memory",
+      "url": "https://huggingface.co/papers/2610.20399",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "excerpt": "Context can improve large language model performance, but these gains may be lost after context removal. Inspired by biological systems consolidation, we formulate Memory Consolidation (MC) as internalizing these gains while preserving non-target capabilities, connecting context-specified editing, skill learning, and behavioral steering under a common objective. We introduce a five-task-family testbed measuring consolidation and retention under single, batch, and sequential updates. We propose…",
+      "author": "Jintian Zhang, Feng He, Xinnian Liang, Ziwen Xu, Haoming Xu, Haojing Huang, Shuangzhi Wu, Ningyu Zhang",
+      "extra": {
+        "upvotes": 52,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.20399"
+      },
+      "id": "8df939ac951edf5f",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate",
+      "url": "https://huggingface.co/papers/2610.04781",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "excerpt": "In an image latent space, the embeddings of high-resolution, natural, and sharp images form a manifold. Degradation of high-resolution images pushes their embeddings off this manifold. Real-world super-resolution (SR) then becomes the task of mapping the degraded embedding back onto this manifold --- not anywhere on the manifold, but to the point that preserves what the input still carries, both its semantics and pixel details. Every published method implements this mapping in a…",
+      "author": "Wanzhou Lei, Cuifeng Shen, Yanjin He, Maohua Li, Hua Yuan, Per-Olof Persson, Tao Lan, Kan Liu, Hanlin Tang",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.04781"
+      },
+      "id": "6214516aa4976829",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+      "url": "https://huggingface.co/papers/2610.20344",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "excerpt": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark that evaluates long-horizon harness engineering directly. In Stage 1, a build model operating…",
+      "author": "Yuyao Ge, Shenghua Liu, Peizhong Gao, Chendi Ge, Chenxu Liu, Yiwei Wang, Lingrui Mei, Baolong Bi, Jiayu Yao, Jiafeng Guo, Xueqi Cheng",
+      "extra": {
+        "upvotes": 72,
+        "githubRepo": "https://github.com/YuyaoGe/doc2harness",
+        "projectPage": "https://geyuyao.com/doc2harness/",
+        "arxivUrl": "https://arxiv.org/abs/2610.20344"
+      },
+      "id": "b66e042db7cf9249",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.19789",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "excerpt": "Self-distillation in agentic reinforcement learning has produced a growing number of methods. However, existing evaluations often reuse published baseline scores under differing experimental conditions, provide few direct comparisons among contemporaneous methods, and give limited attention to training stability and computational cost. These limitations obscure the source of reported gains and the practical strengths and weaknesses of competing methods. Costly agent training further motivates…",
+      "author": "Linhao Zhong, Bozhen Fang, Xuehao Wang, Duochao Shi, Zekai Luo, Guangming Yao, Yi Yuan, Hao Chen, Jingdong Chen, Chunhua Shen",
+      "extra": {
+        "upvotes": 40,
+        "githubRepo": "https://github.com/aim-uofa/Self-Distillation-AgentRL",
+        "projectPage": "https://aim-uofa.github.io/Self-Distillation-AgentRL/",
+        "arxivUrl": "https://arxiv.org/abs/2610.19789"
+      },
+      "id": "03d61c47f286dd59",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Snowflake and Orange Business: Sovereign AI for France",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-orange-business-sovereign-ai-france",
+      "publishedAt": "2026-10-15T19:58:00Z",
+      "excerpt": "Snowflake and Orange Business collaborate to deliver sovereign data and AI capabilities on trusted French infrastructure for regulated industries.",
+      "author": "Seth Youssef, Kunal Kapoor",
+      "extra": {},
+      "id": "8d60db139fee5e2c",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+      "url": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+      "publishedAt": "2026-10-15T10:08:08Z",
+      "excerpt": "Sandboxes are all you need.",
+      "author": null,
+      "extra": {},
+      "id": "7908d899cb3e3fcc",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "RAG-Powered Anomaly Detection for Manufacturing: Someone Has to Read Every Batch Record First?",
+      "url": "https://medium.com/@masihkarimialavijeh/rag-powered-anomaly-detection-for-manufacturing-someone-has-to-read-every-batch-record-first-e81e872ab33a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-15T11:23:56Z",
+      "excerpt": "At 6 p.m., Maria’s shift ends. At 6:05, the deviation lands: a batch out of spec. Everyone on the floor knows what that means: stay late… Continue reading on Medium »",
+      "author": "Masih Karimi",
+      "extra": {},
+      "id": "6a2c10203586e1fe",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI for Azure Data Engineers | Free Live Demo",
+      "url": "https://medium.com/@uvamsik2/generative-ai-for-azure-data-engineers-free-live-demo-e79465c7c83c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-15T11:01:58Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "Uvamsik",
+      "extra": {},
+      "id": "6d78b5437225d7fa",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI Model Size Tradeoffs: Leave Room Beyond the Weights",
+      "url": "https://medium.com/@brolly-academy/generative-ai-model-size-tradeoffs-leave-room-beyond-the-weights-eb6f8f76fc60?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-15T10:58:06Z",
+      "excerpt": "Understand parameter counts, memory estimates, and why a model that loads may still struggle to serve your workload. Continue reading on Medium »",
+      "author": "Brolly academy",
+      "extra": {},
+      "id": "b6992f55108eeebb",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Denoising to Generation",
+      "url": "https://aiadvances.org/from-denoising-to-generation-28e19c802054?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-15T10:39:57Z",
+      "excerpt": "How the most powerful image generators came from solving a much easier problem. Continue reading on AI Advances »",
+      "author": "Michael Zakhary",
+      "extra": {},
+      "id": "8db9145d20f86f1c",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Agentic AI Course in Hyderabad: Build an Agent with Clear Boundaries",
+      "url": "https://medium.com/@brolly-academy/agentic-ai-course-in-hyderabad-build-an-agent-with-clear-boundaries-76959c31a570?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-15T10:34:50Z",
+      "excerpt": "A practical project brief for learners: define the task, limit the tools, and make the stopping point visible. Continue reading on Medium »",
+      "author": "Brolly academy",
+      "extra": {},
+      "id": "51f50353848c7bb1",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI was great until it was not",
+      "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+      "publishedAt": "2026-10-15T08:18:38Z",
+      "excerpt": "",
+      "author": "JohnHammersley",
+      "extra": {
+        "points": 87,
+        "comments": 62,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50100791"
+      },
+      "id": "dad987a1f1a7751c",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Stepfun Step-5-Preview released! (600B/27B-1M Context)",
+      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-BF16",
+      "publishedAt": "2026-10-15T06:04:04Z",
+      "excerpt": "Step 5 Preview is StepFun's flagship model for agentic work. It delivers frontier-level performance across software engineering and professional knowledge work, with particular strength in finance.",
+      "author": "/u/ResearchCrafty1804",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x6dx5x/stepfun_step5preview_released_600b27b1m_context/"
+      },
+      "id": "f170ab6c6c3271f2",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "A New Report Sheds Light on the Secretive Race to Build Self-Improving AI",
+      "url": "https://time.com/article/2026/10/14/recursive-self-improvement-AI-report/",
+      "publishedAt": "2026-10-14T19:34:17Z",
+      "excerpt": "tl;dr The Recursive Self-Improvement Race * The Core Threat: Recursive self-improvement (RSI) occurs when AI systems take over the process of enhancing their own capabilities. Labs like Anthropic and OpenAI warn this could trigger an uncontrollable intelligence explosion, fundamentally marking the point of human obsolescence. * The Gladstone AI Report: Published by Gladstone AI and based on insider accounts from top labs, the report reveals that major AI companies are actively automating the…",
+      "author": "/u/sourdub",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x60swm/a_new_report_sheds_light_on_the_secretive_race_to/"
+      },
+      "id": "eb170898b27f35dd",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Warning Over High-Risk Security Vulnerabilities in Widely Used LLM Gat - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/high-risk-vulnerabilities-llm-tool/",
+      "publishedAt": "2026-10-15T11:30:00Z",
+      "excerpt": "Infosecurity Magazine Home » News » Warning Over High-Risk Vulnerabilities in Widely Used LLM Gateway Tool. # Warning Over High-Risk Vulnerabilities in Widely Used LLM Gateway Tool. High-risk cybersecurity vulnerabilities have been uncovered in a widely deployed large language model (LLM) gateway tool used by organizations to connect their AI applications to AI software providers including OpenAI, Google and Anthropic. The two vulnerabilities, tracked as CVE-2026-35029 and CVE-2026-59823,…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.198
+      },
+      "id": "3af279b9e7365d71",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AmEx Releases Agentic Payment Standard That Declines Rogue AI Purchases Pre-Checkout - Tech Times",
+      "url": "https://www.techtimes.com/articles/329043/20261015/amex-releases-agentic-payment-standard-that-declines-rogue-ai-purchases-pre-checkout.htm",
+      "publishedAt": "2026-10-15T06:25:41Z",
+      "excerpt": "American Express published an open technical specification on October 13 that does something no standard payment token can: it binds a consumer's purchase authorization to the specific constraints of that purchase — the merchant, the budget ceiling, the product specifications — and makes that binding cryptographically verifiable at every stage of the transaction, including before an AI agent reaches a merchant's checkout. The Intent Intelligence Framework, now available through AmEx's Agentic…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.461
+      },
+      "id": "86631c6f2dac66e5",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "publishedAt": "2026-10-14T18:23:46Z",
+      "excerpt": "YouTube Music announced Wednesday the rollout of a new labeling system aimed at improving transparency around songs created with the help of generative AI. Now listeners will be able to easily identify tracks created using AI, including those involved in composition and vocals. Clicking on this label provides additional information about the specific role of AI in the track’s creation. YouTube said it collaborated with various music partners and deployed its own detection tools to identify…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.664
+      },
+      "id": "877cbcbdbb3b8ad6",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "YouTube Music rolls out AI transparency labels as streaming platforms grapple with synthetic content - news.lavx.hu",
+      "url": "https://news.lavx.hu/article/youtube-music-rolls-out-ai-transparency-labels-as-streaming-platforms-grapple-with-synthetic-content",
+      "publishedAt": "2026-10-15T02:07:00Z",
+      "excerpt": "# YouTube Music rolls out AI transparency labels as streaming platforms grapple with synthetic content. YouTube Music launched a three-tier labeling system Wednesday to identify tracks created with generative AI, extending the labels to the main YouTube app as competitors adopt their own approaches to AI-generated music. YouTube Music introduced a new labeling system Wednesday that tells listeners when generative AI played a role in a song's creation. The platform worked with music partners…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.556
+      },
+      "id": "ea7ab274149765a1",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Eight states sue OpenAI over ChatGPT’s alleged harms to users - NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/openai-sued-eight-states-alleged-harm-chatgpt-rcna603614",
+      "publishedAt": "2026-10-14T23:18:31Z",
+      "excerpt": "# Eight states sue OpenAI over ChatGPT’s alleged harms to users. Kansas Attorney General Kris Kobach said states “are not going to hold our breath” for federal legislation to keep AI companies in check. Eight states sue OpenAI claiming ChatGPT harms children. Eight states sued OpenAI on Wednesday, accusing it of deceiving parents about the safety of ChatGPT. The coordinated lawsuits — filed individually in Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana — target the…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.517
+      },
+      "id": "202794af8ca3ecf1",
+      "collectedAt": "2026-10-15T11:52:28.859379+00:00"
     }
   ],
-  "updatedAt": "2026-10-15T04:58:40.489864+00:00"
+  "updatedAt": "2026-10-15T11:52:28.859379+00:00"
 }
