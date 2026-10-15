@@ -891,7 +891,443 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "visko-and-google-cloud-deploy-real-time-world-mo-ce6d97",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "Visko and Google Cloud deploy real-time world model on TPUs",
+      "summary": "AI startup Visko worked with Google Cloud engineers to deploy its Orbis live world model on Cloud TPUs. The collaboration achieved a production-ready pipeline that renders video and audio at 1.07x playback speed within 30 days.",
+      "whyItMatters": "It demonstrates that complex real-time world models can achieve high-speed inference on cloud tensor processing units.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-introduces-trust-in-depth-framework-for-ente-363411",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "AWS introduces Trust in Depth framework for enterprise AI agents",
+      "summary": "AWS proposed a layered approach called Trust in Depth to help enterprises manage autonomous AI agents. The framework allows agents to act independently for verifiable tasks while keeping human oversight for critical decisions.",
+      "whyItMatters": "It offers organizations a structured approach to balance agent autonomy with operational safety.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "simons-foundation-anthropic-and-openai-launch-in-2702a2",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "Simons Foundation, Anthropic, and OpenAI launch initiative for AI in mathematics",
+      "summary": "The Simons Foundation partnered with Anthropic and OpenAI to commit 15 million dollars to help mathematicians adapt to artificial intelligence. The funding will support workshops and initiatives for evaluating AI-assisted results and establishing collective standards.",
+      "whyItMatters": "It brings together philanthropic and industry leaders to address the methodological impacts of AI on academic research.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-releases-nemotron-3-5-super-vl-multimodal-e6d413",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "NVIDIA releases Nemotron 3.5 Super VL multimodal model family",
+      "summary": "NVIDIA released the Nemotron 3.5 Super VL model family for reasoning, coding, and document understanding. The mixture-of-experts model features 120 billion total parameters and supports context lengths up to 1 million tokens.",
+      "whyItMatters": "It provides enterprise developers with a large open multimodal model for complex workflows involving text, images, and video.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16"
+        },
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-develops-local-version-of-mai-code-1-1-b8b26c",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "Microsoft develops local version of MAI Code 1.1 Flash",
+      "summary": "Microsoft AI developed a local version of MAI Code 1.1 Flash, which is a coding-optimized mixture-of-experts model. The model contains 137 billion total parameters with 6.8 billion active parameters for efficient local execution.",
+      "whyItMatters": "It expands options for running large code-generation models locally on hardware with active parameter routing.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://github.com/ggml-org/llama.cpp/pull/29778"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mistral-ai-launches-timestral-time-series-foreca-b8a896",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "Mistral AI launches Timestral time-series forecasting models",
+      "summary": "Mistral AI released Timestral, a family of time-series foundation models available in four sizes ranging from 5 million to 209 million parameters. The models perform probabilistic forecasting on CPUs and rank first on public benchmarks.",
+      "whyItMatters": "It brings efficient foundation model techniques directly to time-series prediction and CPU-based deployments.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/timestral/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-adds-support-for-black-forest-labs-3733c7",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "Hugging Face adds support for Black Forest Labs FLUX.3 Image Klein",
+      "summary": "Hugging Face integrated FLUX.3 Image Klein into its Diffusers library for text-to-image generation and editing. A distilled version of the model generates high-resolution images in roughly two seconds on high-end hardware.",
+      "whyItMatters": "It makes advanced image generation and layout control features easily accessible to developers via standard library integrations.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/flux-3"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "researchers-identify-thinking-leakage-in-reinfor-1ad459",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "Researchers identify thinking leakage in reinforcement learning for LLMs",
+      "summary": "A new study evaluates whether performance gains in hybrid reasoning models trained via reinforcement learning in no-think mode stem from thinking leakage rather than genuine improvements. The paper analyzes how chat-template tokens influence model reasoning during training.",
+      "whyItMatters": "It highlights potential evaluation pitfalls and artifact influences when training models with hybrid reasoning techniques.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14270"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14270",
+        "code": "https://github.com/WenxuanZhu1103/think-leakage",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "swarmrsi-introduces-recursive-self-improvement-f-a18858",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "SwarmRSI introduces recursive self-improvement for scientific agent swarms",
+      "summary": "A new research paper introduces SwarmRSI, a method allowing multi-agent swarms to combine evidence and implementations from different research directions. This approach guides subsequent experiments to improve capabilities over time.",
+      "whyItMatters": "It proposes a structured method for automated agent teams to iteratively enhance their own scientific research processes.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20431"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20431",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-method-removes-responder-noise-from-grpo-for-689dc9",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "New method removes responder noise from GRPO for LLM recommenders",
+      "summary": "Researchers proposed a technique to address responder noise in reinforcement learning for recommendation systems. The method handles multiple valid replies in user threads instead of treating a single selected reply as absolute ground truth.",
+      "whyItMatters": "It improves the training quality of recommendation models that rely on user feedback loops with diverse valid responses.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.17771"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.17771",
+        "code": "https://github.com/LiXin97/ReMaRk",
+        "model": null,
+        "demo": "https://lixin.ai/ReMaRk/"
+      }
+    },
+    {
+      "id": "progagent-framework-helps-language-models-orches-946217",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "ProgAgent framework helps language models orchestrate tools over long horizons",
+      "summary": "A new framework called ProgAgent uses programmatic training to help large language models orchestrate diverse tools across long-horizon workflows. It addresses issues like context rot by improving how agents manage tool responses and maintain coherence.",
+      "whyItMatters": "It offers a programmatic solution to maintain stability and context during complex multi-step agent operations.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14774"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14774",
+        "code": "https://github.com/hkust-nlp/ProgAgent",
+        "model": null,
+        "demo": "https://llleoli.github.io/ProgAgent"
+      }
+    },
+    {
+      "id": "new-benchmark-tau-emotion-bench-tests-llm-agent-bfe001",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "New benchmark tau-Emotion-Bench tests LLM agent reliability under user emotional variation",
+      "summary": "Researchers have introduced a new benchmark called tau-Emotion-Bench to evaluate how language model agents perform during long-horizon tasks when interacting with emotionally varying users. The study highlights that existing evaluations often assume cooperative users, leaving the impact of emotional fragility on agent reliability understudied.",
+      "whyItMatters": "This benchmark addresses a crucial gap in testing how AI agents handle realistic, emotionally complex human interactions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.19560"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.19560",
+        "code": "https://github.com/sahsaeedi/tau-emotion-bench",
+        "model": null,
+        "demo": "https://tau-emotion-bench.github.io/"
+      }
+    },
+    {
+      "id": "skillmarker-watermarking-technique-verifies-owne-98452f",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "SkillMarker watermarking technique verifies ownership of AI agent skills",
+      "summary": "Researchers have developed SkillMarker, a watermarking technique designed to protect the intellectual property of AI agent skills. The method allows creators to verify ownership and trace the source of leaked operational procedures or domain expertise.",
+      "whyItMatters": "It provides a traceable way to protect proprietary agent capabilities and intellectual property in commercial deployments.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.15725"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.15725",
+        "code": "https://github.com/fuxi-ailabs/SkillMarker",
+        "model": null,
+        "demo": "https://fuxi-ailabs.github.io/SkillMarker/"
+      }
+    },
+    {
+      "id": "pitchbook-launches-ai-assistant-and-data-integra-485ef6",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "PitchBook launches AI assistant and data integration for investors",
+      "summary": "PitchBook announced two new features at TechCrunch Disrupt: an AI assistant that automates repeatable workflows and a data integration that allows investors to access PitchBook's proprietary market intelligence within their own AI systems. The tools aim to streamline market research and investment analysis workflows.",
+      "whyItMatters": "Financial analysts can now integrate proprietary market intelligence directly into custom AI workflows.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.financialcontent.com/article/bizwire-2026-10-14-pitchbook-launches-an-agentic-platform-assistant-and-new-pitchbook-data-mcp-to-meet-investors-rapidly-evolving-workflow-needs"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "onaudience-introduces-model-context-protocol-int-939705",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "OnAudience introduces Model Context Protocol integration for audience planning",
+      "summary": "OnAudience launched a new Model Context Protocol integration that connects AI assistants to its audience data. The tool allows media teams to create and activate ad audiences through natural language conversations.",
+      "whyItMatters": "It simplifies ad audience targeting by letting media professionals use conversational natural language interfaces.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.adweek.com/adweek-wire/onaudience-launches-onaudience-mcp-bringing-audience-data-directly-into-agentic-advertising-workflows/?itm_source=homepage&itm_medium=adweek-wire-edge&itm_campaign=1"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "pluto-security-emerges-from-stealth-with-42-mill-1feb57",
+      "createdAt": "2026-10-15T17:26:18.450402+00:00",
+      "headline": "Pluto Security emerges from stealth with $42 million in funding",
+      "summary": "Israeli startup Pluto Security has emerged from stealth with $42 million in funding to help companies manage security risks from workplace AI tools. The company reports protecting over 1 million endpoints across 40 enterprise customers.",
+      "whyItMatters": "It highlights the rising demand for dedicated security and risk management solutions as workplace AI tool adoption grows.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.ynetnews.com/business/article/hj6nn1asze"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-15T11:59:57.057922+00:00"
+  "updatedAt": "2026-10-15T17:26:27.419167+00:00"
 }
