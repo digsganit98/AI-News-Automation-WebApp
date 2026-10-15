@@ -270,7 +270,358 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "databricks-introduces-predictive-ai-functions-in-44c7eb",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Databricks introduces Predictive AI Functions in beta",
+      "summary": "Databricks has released Predictive AI Functions in beta to let analysts run forecasting, anomaly detection, and driver analysis through SQL or dashboards. The built-in capabilities allow users to perform advanced analytics without managing underlying infrastructure or specialized machine learning expertise.",
+      "whyItMatters": "This makes advanced forecasting and anomaly detection directly accessible to SQL users within their existing data workflows.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Databricks",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/unlock-powerful-insights-and-forecasts-predictive-ai-functions"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-reduces-qwen-model-fine-tuning-time-b-1c3ae6",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Databricks reduces Qwen model fine-tuning time by six times",
+      "summary": "Databricks demonstrated a performance optimization that cuts the fine-tuning time of the Qwen 27B model by six times on its AI runtime. The process successfully reduced the training duration for a fixed dataset from over seven hours down to one hour and seventeen minutes.",
+      "whyItMatters": "Significantly faster fine-tuning lowers the computational cost and time barrier for customizing large open-source language models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Databricks",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "lfm2-5-24b-a2b-reasoning-model-released-for-on-d-c099e6",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "LFM2.5-24B-A2B reasoning model released for on-device agents",
+      "summary": "A new 24-billion parameter reasoning model with 2 billion active parameters has been released for fast, private on-device agents. It incorporates an expanded context window and reinforcement learning to improve answer quality.",
+      "whyItMatters": "Efficient small-footprint reasoning models enable advanced local AI capabilities on resource-constrained hardware.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "comfyui-version-0-40-0-adds-local-asset-export-a-d5925b",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "ComfyUI version 0.40.0 adds local asset export and video metadata extraction",
+      "summary": "ComfyUI version 0.40.0 has been released with updates that include a local asset export API, camera information nodes, and video metadata extraction. The update also brings performance improvements tailored for low VRAM hardware.",
+      "whyItMatters": "These tools expand workflow flexibility and performance for developers running local generative media pipelines.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.40.0"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-study-explores-orchestrating-coding-agents-f-ac1b33",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "New study explores orchestrating coding agents for automated scientific discovery",
+      "summary": "Researchers published a paper detailing a system that coordinates multiple coding agents to execute computational research tasks. The framework is designed to autonomously write code, run experiments, and analyze results.",
+      "whyItMatters": "Multi-agent coordination approaches can accelerate the execution of complex, multi-step scientific and computational workflows.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.18933"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-introduces-reinforcement-learning-method-f-85feab",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Study introduces reinforcement learning method for automated prompt writing",
+      "summary": "A new paper presents a technique called RLPE that uses reinforcement learning to help large language models generate effective prompts for specific tasks. This method is designed to minimize the manual effort required to design high-quality prompts.",
+      "whyItMatters": "Automating prompt creation improves model output reliability while reducing manual engineering overhead.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.19062"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "player-1-agent-learns-video-game-navigation-from-69f890",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Player-1 agent learns video game navigation from synthetic experience",
+      "summary": "Tencent ARC released Player-1, a computer-use agent designed to navigate visually complex video game environments. The model learns to execute keyboard and mouse actions by training on synthetic experiences.",
+      "whyItMatters": "Training on synthetic experience offers a scalable path for developing agents that interact with complex graphical user interfaces.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20584"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20584",
+        "code": "https://github.com/TencentARC/Player-1",
+        "model": null,
+        "demo": "https://player-1-project.github.io/"
+      }
+    },
+    {
+      "id": "atas-framework-improves-spatial-and-temporal-con-662c81",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "ATAS framework improves spatial and temporal consistency in agentic video generation",
+      "summary": "Researchers introduced the Any Time, Any Space framework to help video generation agents maintain spatial and temporal consistency across different shots. The system relies on scene and event memories to keep locations and events coherent throughout a generated story.",
+      "whyItMatters": "Maintaining consistency across shots is a major challenge for generating coherent, long-form video content with AI.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20571"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20571",
+        "code": "https://github.com/ziplab/ATAS",
+        "model": null,
+        "demo": "https://lhmd.top/atas/"
+      }
+    },
+    {
+      "id": "block-adopts-openai-technology-to-accelerate-sec-7d10f0",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Block adopts OpenAI technology to accelerate security threat investigations",
+      "summary": "Financial technology company Block is using OpenAI technology to enhance its security operations. The AI-enabled system enables the security team to investigate potential threats and propose remediation patches in minutes.",
+      "whyItMatters": "Integrating generative AI into security workflows can drastically reduce the time needed to analyze and patch vulnerabilities.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/block-ai-powered-security"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "fish-audio-releases-drama-3-text-to-speech-model-ec1b0e",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Fish Audio releases Drama 3 text-to-speech model for multi-character dialogue",
+      "summary": "Fish Audio has launched Drama 3, a text-to-speech model built to generate dialogue with up to 16 distinct characters. The model supports voice cloning and natural language control, and is available for deployment via SGLang-Omni.",
+      "whyItMatters": "Multi-character voice generation simplifies the production of complex audio dramas and multi-speaker content.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Trending Models",
+          "url": "https://huggingface.co/fishaudio/drama-3"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": "https://huggingface.co/fishaudio/drama-3",
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-commits-significant-capital-to-ai-infrastru-241a00",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Meta commits significant capital to AI infrastructure development",
+      "summary": "Mark Zuckerberg stated that Meta committed to spending hundreds of billions of dollars on infrastructure for its artificial intelligence products last year. The heavy investment moves forward despite ongoing uncertainty regarding the timing of commercial returns.",
+      "whyItMatters": "Massive capital expenditures by major tech firms highlight the extreme hardware demands of scaling frontier AI systems.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.latimes.com/business/story/2026-10-14/zuckerberg-says-meta-bet-up-to-200-billion-on-ai-without-knowing-if-it-would-work"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-introduces-muse-wonder-models-featuring-per-b69edc",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Meta introduces Muse Wonder models featuring persistent memory for AI agents",
+      "summary": "Meta launched the Muse Wonder and Muse Wonder Full models, incorporating Active Memory to retain context across conversations and Active Focus to help agents recover from errors. The standard model is available via the Meta Model API, while the more capable version is offered to Muse Code subscribers.",
+      "whyItMatters": "Persistent memory and error recovery features are critical for building reliable, long-running enterprise AI agents.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://inews.zoombangla.com/muse-wonder-meta-persistent-memory-ai-agents/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "fastlane-launches-senna-ai-agent-for-end-to-end-b4add2",
+      "createdAt": "2026-10-15T05:10:10.292646+00:00",
+      "headline": "Fastlane launches Senna AI agent for end-to-end marketing campaigns",
+      "summary": "Sydney-based Fastlane introduced Senna, an AI-powered marketing agent that can research, create, and run campaigns from start to finish. The tool aims to automate the full marketing workflow for businesses.",
+      "whyItMatters": "Automating complete marketing processes can reduce costs and speed up campaign execution for companies.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://markets.businessinsider.com/news/stocks/fastlane-launches-ai-marketing-platform-that-researches-creates-and-runs-campaigns-end-to-end-1036623162"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-14T22:04:17.021208+00:00"
+  "updatedAt": "2026-10-15T05:10:18.226831+00:00"
 }
