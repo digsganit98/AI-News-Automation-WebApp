@@ -1235,7 +1235,204 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "google-cloud-shares-evaluation-framework-and-des-debbc6",
+      "createdAt": "2026-10-16T16:57:08.602320+00:00",
+      "headline": "Google Cloud shares evaluation framework and design patterns for AI agents",
+      "summary": "Google Cloud has published guidance on evaluation engineering and design patterns for complex, high-compute AI agents in biotechnology. The resources aim to help developers build reliable systems that handle long-running processes like protein folding.",
+      "whyItMatters": "Structured evaluation and specialized design patterns are essential for deploying reliable AI agents in high-stakes scientific domains.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/"
+        },
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-explores-using-llms-for-malware-triag-2552be",
+      "createdAt": "2026-10-16T16:57:08.602320+00:00",
+      "headline": "Databricks explores using LLMs for malware triage in npm packages",
+      "summary": "Databricks researchers have published a study on injecting domain knowledge into large language models to help detect and triage malware in npm packages. The method addresses rising supply chain attacks targeting software package registries.",
+      "whyItMatters": "Applying language models to software supply chain security helps defend against increasingly sophisticated package registry attacks.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "reflection-ai-releases-beam-a-501-billion-parame-90b226",
+      "createdAt": "2026-10-16T16:57:08.602320+00:00",
+      "headline": "Reflection AI releases Beam, a 501-billion parameter open-weight model for coding",
+      "summary": "Reflection AI has launched Beam, a 501-billion parameter open-source model designed for coding and long-horizon agentic tasks under an Apache 2.0 license. AWS has also added deployment support for the model on Amazon SageMaker JumpStart.",
+      "whyItMatters": "The release of very large open-weight models provides developers with powerful tools for building autonomous coding assistants and complex agents.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/reflection-beam"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "specagent-technique-uses-smaller-models-for-rout-5e2c1d",
+      "createdAt": "2026-10-16T16:57:08.602320+00:00",
+      "headline": "SpecAgent technique uses smaller models for routine steps in agent tasks",
+      "summary": "Researchers introduced SpecAgent, a method allowing smaller models to handle routine tool-call steps while a larger model verifies the results. This approach improves efficiency for AI agents executing complex, multi-step workflows.",
+      "whyItMatters": "Optimizing workload distribution between large and small models can significantly reduce the computational cost of running AI agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.21463"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.21463",
+        "code": "https://github.com/LARK-AI-Lab/SpecAgent",
+        "model": null,
+        "demo": "https://lark-ai-lab.github.io/specagent.github.io/"
+      }
+    },
+    {
+      "id": "cern-and-mistral-partner-to-build-foundation-mod-d150d5",
+      "createdAt": "2026-10-16T16:57:08.602320+00:00",
+      "headline": "CERN and Mistral partner to build foundation model for particle physics",
+      "summary": "CERN and Mistral have signed a statement of intent to develop a Large Physics Model trained on simulated Large Hadron Collider data. The model will assist researchers in reconstructing and identifying particles during physics experiments.",
+      "whyItMatters": "Domain-specific foundation models can accelerate data analysis and discovery in specialized scientific fields like high-energy physics.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/cern-mistral-large-physics-model"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-releases-three-new-open-models-for-ai-age-b76c2c",
+      "createdAt": "2026-10-16T16:57:08.602320+00:00",
+      "headline": "Nvidia releases three new open models for AI agent development",
+      "summary": "Nvidia has expanded its Nemotron family by releasing three new open models aimed at helping organizations build various AI agents. The release supports the growing ecosystem of open-weight tools for enterprise agent workflows.",
+      "whyItMatters": "Expanding the availability of specialized open models gives enterprises more flexibility when building custom multi-agent systems.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.wsj.com/cio-journal/nvidia-meta-and-apple-unveil-new-open-models-501d4173"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "proof-launches-x401-protocol-for-ai-agent-identi-b63db0",
+      "createdAt": "2026-10-16T16:57:08.602320+00:00",
+      "headline": "Proof launches x401 protocol for AI agent identity verification",
+      "summary": "Proof has introduced the x401 protocol and an agent identity wallet to provide verified legal identity and signed transaction authorization for AI agents. The system supports major AI platforms with pay-per-use verification options.",
+      "whyItMatters": "Establishing secure identity and transaction protocols is critical as autonomous AI agents begin executing real-world commercial actions.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://fintechmagazine.com/globenewswire/3381718"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-16T11:49:36.505850+00:00"
+  "updatedAt": "2026-10-16T16:57:34.335877+00:00"
 }
