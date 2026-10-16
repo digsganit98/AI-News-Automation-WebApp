@@ -1,0 +1,663 @@
+{
+  "date": "2026-10-17",
+  "runs": [
+    {
+      "runAt": "2026-10-16T21:28:54.693237+00:00",
+      "newItems": 27,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1297,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.704705Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.731906Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 880,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732146Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732350Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732452Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732546Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732631Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732710Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732788Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732868Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732945Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.732981Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733007Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733140Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733164Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733246Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733352Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733435Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733508Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733680Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-16T21:28:54.733758Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733879Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.733958Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.734033Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-16T21:28:54.734107Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.734183Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.734257Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.734345Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.734421Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.734534Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.734918Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.735014Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.735104Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-16T21:28:54.735130Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "excerpt": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "author": null,
+      "extra": {},
+      "id": "9db4940a53f86840",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+      "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
+      "publishedAt": "2026-10-16T17:00:00Z",
+      "excerpt": "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...",
+      "author": "Elizabeth Goodman",
+      "extra": {},
+      "id": "b365342473574312",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Nemotron 3.5 Super VL model now available on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-10-16T17:59:00Z",
+      "excerpt": "NVIDIA's Nemotron 3.5 Super VL is now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. This vision-language model from the Nemotron 3.5 family accepts images, video, and text as input and generates text, enabling customers to deploy multimodal AI solutions on AWS infrastructure. Nemotron 3.5 Super VL is designed for document intelligence, GUI understanding, video question answering, and multimodal agentic applications. It pairs a…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "3b6b85c81106ab13",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Beam model by Reflection is now available on Amazon SageMaker JumpStart and AWS Trainium",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/",
+      "publishedAt": "2026-10-16T16:00:00Z",
+      "excerpt": "Beam, the first open weight model offered by US-based Reflection, is now available in Amazon SageMaker JumpStart, the model hub in Amazon SageMaker AI. According to Beam, they operate at the frontier of open weight models in its class, with strong performance across reasoning, coding, and agentic benchmarks. With it, customers can now build advanced coding agents and automated workflows on a frontier open weight model while keeping control of their data and infrastructure and adapting the…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "42200690b98b1f60",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-16T20:48:16Z",
+      "excerpt": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production.",
+      "author": "Rui Li",
+      "extra": {},
+      "id": "c22ce4d9c5995d4a",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Feedback Loops: Corrective vs. Harmful Cycles",
+      "url": "https://medium.com/@palak_26149/ai-feedback-loops-corrective-vs-harmful-cycles-840bcf43d204?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-16T20:28:14Z",
+      "excerpt": "An AI feedback loop is the process of feeding an AI system’s outcomes, the corrections, ratings, and errors it produces in the real world… Continue reading on Medium »",
+      "author": "Palak",
+      "extra": {},
+      "id": "ea4daedd179d5acf",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Meta’s Muse Image Thinks Before It Draws.",
+      "url": "https://marcbazemore.medium.com/metas-muse-image-thinks-before-it-draws-04c10bf9ad39?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-16T18:20:36Z",
+      "excerpt": "Three months after launch: what Meta’s first agentic image model actually does, what’s still “coming soon,” and how I’d advise a business… Continue reading on Medium »",
+      "author": "Marc Bazemore",
+      "extra": {},
+      "id": "7a91a9f1088d8364",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Do AI Developers Have Carte Blanche Rights to Train Using Copyrighted Material?",
+      "url": "https://medium.com/@rosen.len/do-ai-developers-have-carte-blanche-rights-to-train-using-copyrighted-material-7919b85d97a9?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-16T18:04:15Z",
+      "excerpt": "Please welcome back Lila Warren as a regular guest contributor to the 21st Century Tech Blog. Lila’s topic today takes on the copyright… Continue reading on Medium »",
+      "author": "Len Rosen",
+      "extra": {},
+      "id": "a80dbca856fcae9d",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Monitoring Databricks Genie: Usage, Performance, and Cost",
+      "url": "https://medium.com/@ankity09/monitoring-databricks-genie-usage-performance-and-cost-b3d98a8821b4?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-16T17:45:26Z",
+      "excerpt": "How a Genie Agent owner can review questions, trace slow SQL behind an answer, read usage cost honestly, and set budgets with group… Continue reading on Medium »",
+      "author": "Ankit Yadav",
+      "extra": {},
+      "id": "c7642e0dbe69d389",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Turn a NightCafe Challenge Theme Into an Original Image Idea",
+      "url": "https://medium.com/prompt-odyssey/how-to-turn-a-nightcafe-challenge-theme-into-an-original-image-idea-24d1534ac594?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-16T17:22:44Z",
+      "excerpt": "A practical way to move from a broad theme to a scene with a clear visual story. Continue reading on Prompt Odyssey »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "763cea4cacab64de",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "publishedAt": "2026-10-16T19:04:47Z",
+      "excerpt": "",
+      "author": "pretext",
+      "extra": {
+        "points": 117,
+        "comments": 113,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50122951"
+      },
+      "id": "7fd7e06ab2f4b840",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "publishedAt": "2026-10-16T18:55:59Z",
+      "excerpt": "",
+      "author": "ahlCVA",
+      "extra": {
+        "points": 419,
+        "comments": 174,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+      },
+      "id": "9ec937773b41d922",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM",
+      "publishedAt": "2026-10-16T18:32:35Z",
+      "excerpt": "",
+      "author": "Anon84",
+      "extra": {
+        "points": 113,
+        "comments": 31,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50122431"
+      },
+      "id": "0342f39befa10261",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "publishedAt": "2026-10-16T18:11:42Z",
+      "excerpt": "",
+      "author": "JumpCrisscross",
+      "extra": {
+        "points": 143,
+        "comments": 42,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50122112"
+      },
+      "id": "c415b9915f6a314b",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "publishedAt": "2026-10-16T18:00:18Z",
+      "excerpt": "",
+      "author": "pretext",
+      "extra": {
+        "points": 61,
+        "comments": 11,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50121939"
+      },
+      "id": "9d010c1314ee292d",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "publishedAt": "2026-10-16T17:08:38Z",
+      "excerpt": "",
+      "author": "speckx",
+      "extra": {
+        "points": 304,
+        "comments": 280,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50121179"
+      },
+      "id": "2425f3153984e15e",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "publishedAt": "2026-10-16T15:55:40Z",
+      "excerpt": "",
+      "author": "magoghm",
+      "extra": {
+        "points": 161,
+        "comments": 62,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50119991"
+      },
+      "id": "f0a5f325be5a6595",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Jailbroken PS5s can now run local AI models at over 100+ tokens per second — fork of PS5LM goes native, hijacks the CPU, and accesses the GPU and more RAM",
+      "url": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-local-ai-models-at-over-100-tokens-per-second-fork-of-ps5lm-goes-native-and-accesses-gpu-and-more-ram",
+      "publishedAt": "2026-10-16T18:44:23Z",
+      "excerpt": "",
+      "author": "/u/ControlCAD",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x7ofj6/jailbroken_ps5s_can_now_run_local_ai_models_at/"
+      },
+      "id": "a4a0754661eff119",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Texas sued after glitch delays almost 600,000 voter registrations",
+      "url": "https://www.theguardian.com/us-news/2026/oct/15/texas-glitch-delay-voter-registrations",
+      "publishedAt": "2026-10-16T15:45:03Z",
+      "excerpt": "",
+      "author": "/u/IndependentCoast3974",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x7jopt/texas_sued_after_glitch_delays_almost_600000/"
+      },
+      "id": "5391d3fe8b839e64",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "reflection/Beam-1.0-501B-A23B · Hugging Face",
+      "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+      "publishedAt": "2026-10-16T13:23:33Z",
+      "excerpt": "Beam is an open model built by Reflection. Beam takes text as input and generates text as output. This release includes the instruction-tuned model in BF16, FP8, and NVFP4 numerics. Beam uses a sparse mixture-of-experts (MoE) architecture with 501B total parameters and 23B active parameters. It supports a context window of 1M tokens and was developed predominantly for English. Primary capabilities Token-efficient reasoning: Reaches comparable solution quality to leading open models using…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/"
+      },
+      "id": "b9cfc91e3ee25a73",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "OpenMOSS releases MOSS-Image",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "publishedAt": "2026-10-16T12:30:53Z",
+      "excerpt": "There's also a base model. As all OpenMoss releases, they're Apache licensed. Wonder how this compares to Qwen Image 2.1 and Flux Klein 3.",
+      "author": "/u/ilintar",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ey7i/openmoss_releases_mossimage/"
+      },
+      "id": "17421902b2166874",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "OpenAI reveals 19 AI misalignment incidents. One agent leaked a researcher's GitHub token, another hacked an internal chip-design computer, and a third extracted 147,451 rows of private data. The danger is no longer just what AI says, but what it can do autonomously.",
+      "url": "https://alignment.openai.com/misalignment-reports/",
+      "publishedAt": "2026-10-16T07:17:31Z",
+      "excerpt": "",
+      "author": "/u/141_1337",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x79lue/openai_reveals_19_ai_misalignment_incidents_one/"
+      },
+      "id": "89bcd30756202066",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio - Apple Machine Learning Research",
+      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "publishedAt": "2026-10-15T21:00:00Z",
+      "excerpt": "We evaluate three frontier-class models (Table 1) spanning a wide range of sizes (in billions of parameters, B): the newly released Muse Spark Open (816 B), Mistral Medium 3.5 (128 B), and Qwen 3.8 (27 B). Muse Spark Open is a mixture of experts (MoE) model, which keeps only a fraction of its experts — and thus parameters — active, reducing compute at inference, and it is evaluated in NVFP4 precision. Mistral Medium 3.5 and Qwen 3.8 are dense architectures, where all parameters are active at…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.626
+      },
+      "id": "98e6a11f87f3c75f",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Model Release Statistics (2026): Launch Cadence by Lab | BenchLM.ai",
+      "url": "https://benchlm.ai/stats/model-releases",
+      "publishedAt": "2026-10-16T07:00:00Z",
+      "excerpt": "Every number on this page is generated from BenchLM's live dataset and refreshed with each data update. Link any statistic directly using its anchor, or cite the page as:\n\n`BenchLM.ai, \"LLM Statistics\" (October 16, 2026), \n\n## Questions\n\n### How many AI models were released in the last year?\n\nBenchLM tracked 291 notable AI model releases in the 12 months ending 2026-10-16 — roughly one every 1 days.\n\n### What share of new AI models are open-weight?",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.437
+      },
+      "id": "5fdc95056c20465e",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI in Advertising Examples: 7 Real Campaigns and Practical Lessons | Flova",
+      "url": "https://www.flova.ai/en/blogs/video-tips/using-ai-in-advertising",
+      "publishedAt": "2026-10-16T05:00:00Z",
+      "excerpt": "Coca-Cola used generative AI as the core creative engine in two distinct campaigns. The company launched Create Real Magic in March 2023, inviting digital creatives to generate original work with brand-provided archive elements, including the contour bottle, Spencerian-script logo, Santa, and Polar Bear. Coca-Cola said the platform, built for it by OpenAI and Bain & Company, combined GPT-4 and DALL·E; artists could submit work for the opportunity to be featured on Coca-Cola digital billboards",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.691
+      },
+      "id": "dcba5e19d8478cdd",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Kling AI Showcases Kling 4.0 at Advertising Week New York as Generative AI Video Moves Toward Enterprise Production",
+      "url": "https://news.marketersmedia.com/kling-ai-showcases-kling-40-at-advertising-week-new-york-as-generative-ai-video-moves-toward-enterprise-production/89206351",
+      "publishedAt": "2026-10-16T05:00:00Z",
+      "excerpt": "The session, “The New Production Engine: Powering Creativity at Scale with Kling AI,” opened with the launch film for Kling 4.0, its latest video generation model. Zheru Liu, Head of Partnerships, North America, at Kling AI, was joined by Mathieu Albrand, Director of AI Strategy & Innovation at WPP, and Elissa Levine, Principal, Corporate Partnerships at Adobe. The discussion brought together diverse perspectives on AI model development, creative platforms and campaign execution. [...] “For…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.661
+      },
+      "id": "7762cb5b09cf885a",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Artificial Intelligence - AI Update, October 16, 2026: AI News and Views From the Past Week",
+      "url": "https://www.marketingprofs.com/opinions/2026/56192/ai-update-october-16-2026-ai-news-and-views-from-the-past-week",
+      "publishedAt": "2026-10-16T17:00:00Z",
+      "excerpt": "Google expands AI content licensing program to CNN, Axios, and hundreds of news publishers. Google has expanded its AI news licensing program, adding CNN, the Financial Times, Axios, and other publishers to an initiative now encompassing more than 400 publications worldwide. Participating organizations grant Google additional content rights for developing generative AI features and receive compensation under agreements whose financial terms remain undisclosed. Google says the resulting [...]…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.55
+      },
+      "id": "5edad39a29783b44",
+      "collectedAt": "2026-10-16T21:28:54.693237+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-16T21:28:54.693237+00:00"
+}
