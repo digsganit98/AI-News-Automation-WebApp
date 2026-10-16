@@ -209,7 +209,709 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "amazon-bedrock-agentcore-web-search-expands-to-n-f2264c",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Amazon Bedrock AgentCore Web Search expands to new regions",
+      "summary": "Amazon has made the Web Search tool for Bedrock AgentCore available in four additional AWS regions, including US East, US West, Asia Pacific, and AWS GovCloud. This managed tool allows AI agents to access current web information to improve the accuracy of their responses.",
+      "whyItMatters": "Expanding regional availability helps developers deploy web-connected AI agents closer to their target markets while meeting local infrastructure requirements.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "prism-framework-introduces-new-method-for-design-061036",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "PRISM framework introduces new method for designing multi-agent AI systems",
+      "summary": "Researchers introduced PRISM, a framework designed to structure communication within multi-agent systems. The method aims to improve how large language model agents collaborate to solve complex problems.",
+      "whyItMatters": "Better communication structures can improve the overall efficiency and collaborative problem-solving capabilities of multi-agent networks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20628"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20628",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meddex-ai-system-analyzes-medical-reports-using-635fb4",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "MeddeX AI system analyzes medical reports using LLaMA-3 and Gemini Vision",
+      "summary": "A new system called MeddeX uses LLaMA-3 and Gemini Vision to help analyze medical reports. It is designed to provide evidence-backed insights to reduce the time and burden on clinical professionals.",
+      "whyItMatters": "Automated and evidence-backed analysis tools can help reduce administrative strain on healthcare professionals.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20632"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20632",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-method-improves-claim-verification-efficienc-677612",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "New method improves claim verification efficiency in retrieval-augmented generation",
+      "summary": "Researchers proposed a method to verify claims in retrieval-augmented generation more efficiently. The approach uses a non-generative verifier to handle simple checks before escalating to a larger language model when necessary.",
+      "whyItMatters": "Reducing unnecessary calls to large language models lowers compute costs and latency for factual verification tasks.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20634"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20634",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-explores-permutation-diffusion-in-language-ac6584",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Study explores permutation diffusion in language models for ranking tasks",
+      "summary": "A new paper studies how language models can handle permutation generation tasks. The research examines three different parameterizations of diffusion models to improve ranking and assignment accuracy.",
+      "whyItMatters": "Improving permutation generation enhances the capability of language models to manage complex ranking and ordering tasks.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20635"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20635",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "abridgekv-technique-compresses-long-reasoning-in-2105b8",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "AbridgeKV technique compresses long reasoning in AI model memory caches",
+      "summary": "Researchers developed AbridgeKV, a technique to compress long reasoning processes into the memory cache of AI models. This approach aims to reduce the memory usage associated with extended chain-of-thought decoding.",
+      "whyItMatters": "Memory compression helps manage the high resource consumption required for extended reasoning steps in modern language models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20641"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20641",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "cots-method-improves-latent-reasoning-in-large-l-bb773c",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "CoTS method improves latent reasoning in large language models",
+      "summary": "A new method called CoTS improves latent reasoning in large language models by replacing standard text tokens with continuous embeddings. This preserves alternative reasoning paths during processing.",
+      "whyItMatters": "Enabling models to maintain multiple reasoning paths in latent space can lead to more robust and accurate conclusions.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20642"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20642",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "realtimebench-evaluates-ai-agents-in-continuousl-5a4c85",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "RealtimeBench evaluates AI agents in continuously changing environments",
+      "summary": "Researchers introduced RealtimeBench, a benchmark with 180 tasks to evaluate AI agents in continuously changing environments. The test measures how well agents can act correctly within strict time constraints.",
+      "whyItMatters": "Standardized benchmarks for dynamic environments help developers measure the practical reliability and speed of AI agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20665"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20665",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-paper-proposes-evaluation-methods-for-ai-mod-4f5a3d",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "New paper proposes evaluation methods for AI models past benchmark saturation",
+      "summary": "A new paper addresses the challenge of evaluating AI models when standard benchmarks reach perfect scores. The research proposes methods to maintain the utility of evaluations for safety and policy decisions.",
+      "whyItMatters": "Finding alternative evaluation strategies is essential as top-tier models continue to saturate traditional performance tests.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.20667"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20667",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-and-iit-madras-release-2-8-trillion-token-ba4e73",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "NVIDIA and IIT Madras release 2.8 trillion tokens of open data for Indian languages",
+      "summary": "NVIDIA and IIT Madras have introduced a dataset containing approximately 2.8 trillion tokens across 22 Indian languages. The release includes an open, GPU-accelerated pipeline that allows developers to generate similar synthetic data for their own projects.",
+      "whyItMatters": "Providing large-scale multilingual datasets and generation pipelines supports the development of localized AI applications for underserved languages.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "worldcast-system-explores-visual-generation-for-901863",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "WorldCast system explores visual generation for predicting world states",
+      "summary": "Researchers have developed WorldCast, a system that integrates multimodal context to synthesize visual outputs depicting how the world might evolve. The project aims to characterize the capabilities of generative systems in forecasting changes based on observations.",
+      "whyItMatters": "Advancing predictive visual generation helps evaluate how well multimodal systems understand physical dynamics and future scenarios.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20731"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20731",
+        "code": "https://github.com/teal024/WorldCast",
+        "model": null,
+        "demo": "https://teal024.github.io/WorldCast/"
+      }
+    },
+    {
+      "id": "commercegen-studio-framework-generates-commercia-e7bfd9",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "CommerceGen-Studio framework generates commercial-grade product images",
+      "summary": "A new framework called CommerceGen-Studio has been presented for creating commercial-grade main images for e-commerce products. The system uses a three-stage pipeline involving information extraction, semantic rewriting, and multi-condition generation.",
+      "whyItMatters": "Structured pipelines tailored for e-commerce can streamline asset creation and improve the visual consistency of online product listings.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20603"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20603",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "deltastreamer-framework-improves-streaming-video-be92a2",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "DeltaStreamer framework improves streaming video understanding for AI agents",
+      "summary": "Researchers proposed DeltaStreamer, an agentic framework designed to understand streaming video by mimicking human observation and memory retention. The system retains evidence from video streams to answer future queries more effectively.",
+      "whyItMatters": "This framework helps video understanding systems maintain context over long streams without losing historical evidence.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.19849"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.19849",
+        "code": "https://github.com/BBBBchan/DeltaStreamer",
+        "model": null,
+        "demo": "https://github.com/BBBBchan/DeltaStreamer"
+      }
+    },
+    {
+      "id": "routing-policy-optimization-aligns-visual-genera-20a71e",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Routing Policy Optimization aligns visual generators with reinforcement learning",
+      "summary": "A new optimization method called Routing Policy Optimization aligns visual generators with reward signals. The approach reduces reinforcement learning computational costs by avoiding stochasticity found in traditional score-function methods.",
+      "whyItMatters": "It provides a more stable and efficient way to align visual generation models using reinforcement learning.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22282"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22282",
+        "code": null,
+        "model": null,
+        "demo": "https://velox-world.com/rpo/"
+      }
+    },
+    {
+      "id": "velox-uses-spatial-memory-to-improve-efficiency-84003c",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Velox uses spatial memory to improve efficiency in video world models",
+      "summary": "The Velox project introduces a method for video world models that uses spatial memory to retain visual context during long rollouts. This approach aims to make interactive video simulation more responsive and efficient.",
+      "whyItMatters": "Efficient spatial memory retention makes interactive video generation faster and more practical for complex simulations.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22311"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22311",
+        "code": null,
+        "model": null,
+        "demo": "https://velox-world.com/velox/"
+      }
+    },
+    {
+      "id": "dynamic-band-splitting-technique-enhances-audio-bd5953",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Dynamic band splitting technique enhances audio source separation",
+      "summary": "Researchers developed a dynamic band splitting technique for audio source separation models that adapts frequency band boundaries. The method preserves fine spectral structure while keeping computational costs manageable.",
+      "whyItMatters": "It improves audio processing quality while maintaining high computational efficiency.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14993"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14993",
+        "code": "https://github.com/JusperLee/Dynamic-Band-Splitting",
+        "model": null,
+        "demo": "https://cslikai.cn/Dynamic-Band-Splitting/"
+      }
+    },
+    {
+      "id": "infovis-tool-enables-unified-generation-and-edit-f038c6",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "InfoVis tool enables unified generation and editing of presentation slides",
+      "summary": "InfoVis is a new tool that allows for the generation and editing of presentation slides within a single canvas. It combines accurate text rendering, instruction following, and aesthetic design to handle complex slide creation tasks.",
+      "whyItMatters": "It streamlines automated presentation creation by integrating design, text, and editing onto a single canvas.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.16784"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.16784",
+        "code": "https://github.com/VectorSpaceLab/InfoVis",
+        "model": null,
+        "demo": "https://vectorspacelab.github.io/InfoVis/"
+      }
+    },
+    {
+      "id": "vira-evaluates-the-impact-of-visual-representati-795404",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "ViRA evaluates the impact of visual representations on autonomous driving",
+      "summary": "Researchers introduced ViRA, a testing tool to determine whether advanced visual foundation models actually improve end-to-end autonomous driving systems. The study clarifies when these representations lead to better driving outcomes.",
+      "whyItMatters": "It establishes clearer links between visual foundation models and real-world safety and performance in autonomous vehicles.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09695"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09695",
+        "code": "https://github.com/OpenDriveLab/ViRA",
+        "model": null,
+        "demo": "https://opendrivelab.com/ViRA/"
+      }
+    },
+    {
+      "id": "simvta-improves-driving-models-using-simulation-1a6ab2",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "SimVTA improves driving models using simulation-grounded video alignment",
+      "summary": "A new method called SimVTA helps driving world action models learn from simulated data to improve path planning. It addresses limitations in real driving logs by accounting for alternative routes rather than only the path actually driven.",
+      "whyItMatters": "It allows autonomous driving models to train on unchosen paths using simulation data, improving decision-making flexibility.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.13781"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.13781",
+        "code": "https://github.com/OpenDriveLab/SimVTA",
+        "model": null,
+        "demo": "https://opendrivelab.com/SimVTA/"
+      }
+    },
+    {
+      "id": "3dcodeverse-ecosystem-enables-ai-agents-to-creat-3a5586",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "3DCodeVerse ecosystem enables AI agents to create editable 3D content",
+      "summary": "Researchers released 3DCodeVerse, an ecosystem enabling coding agents to generate and verify 3D content through executable code. The system includes a large dataset of 3D code and an automated evaluation harness that refines programs without human intervention.",
+      "whyItMatters": "It automates the generation and self-correction of editable 3D assets using code-based agent workflows.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22341"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22341",
+        "code": "https://github.com/gaoypeng/3dcodeverse",
+        "model": null,
+        "demo": "https://3dcodeverse.com/"
+      }
+    },
+    {
+      "id": "edgewise-reduces-cloud-inference-costs-for-long-105598",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "EdgeWise reduces cloud inference costs for long-horizon AI agents",
+      "summary": "NVIDIA researchers proposed EdgeWise, a method allowing complex AI agents to run on local devices by selectively delegating only difficult steps to cloud models. This approach lowers the high inference costs of utilizing frontier models for every step.",
+      "whyItMatters": "It significantly reduces the cost barrier of deploying long-horizon AI agents by optimizing local versus cloud execution.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.17560"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.17560",
+        "code": null,
+        "model": null,
+        "demo": "https://research.nvidia.com/labs/lpr/edge-wise/"
+      }
+    },
+    {
+      "id": "intern-decision-introduces-efficient-multimodal-91fed3",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Intern-Decision introduces efficient multimodal decision-making for interactive agents",
+      "summary": "Researchers introduced Intern-Decision, a family of small multimodal models designed to make quick decisions among a finite set of actions. By avoiding free-form text generation, the system reduces latency and simplifies environment integration.",
+      "whyItMatters": "It lowers latency for interactive AI agents by substituting free-form text generation with structured action selection.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22131"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22131",
+        "code": "https://github.com/InternLM/Intern-Decision",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "terminal-rsi-framework-brings-recursive-self-imp-26eb7f",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Terminal-RSI framework brings recursive self-improvement to terminal agents",
+      "summary": "A new framework called Terminal-RSI helps terminal agents improve their performance by recursively rewriting verified trajectories and refining their policies. The method uses critic-inheriting techniques to convert partial progress into complete task resolution.",
+      "whyItMatters": "It provides a structured way for terminal agents to self-improve and solve complex command-line tasks autonomously.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22192"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22192",
+        "code": null,
+        "model": null,
+        "demo": "https://jyyang26.github.io/terminal-rsi/"
+      }
+    },
+    {
+      "id": "scope-uses-reinforcement-learning-to-optimize-pr-8a8a36",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "SCOPE uses reinforcement learning to optimize prompts for text-to-image generation",
+      "summary": "Researchers developed SCOPE, a method that uses reinforcement learning to improve text-to-image generation by rewriting prompts. Unlike methods applying single signals to individual tokens, SCOPE explicitly accounts for objects, counts, and spatial relations.",
+      "whyItMatters": "It enhances text-to-image generation accuracy by optimizing prompts for complex relational and compositional requirements.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22264"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22264",
+        "code": "https://github.com/MAC-AutoML/SCOPE",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "orbia-benchmark-introduced-to-assess-3d-consiste-ec802a",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Orbia benchmark introduced to assess 3D consistency in AI-generated videos",
+      "summary": "The Orbia benchmark evaluates whether AI-generated videos maintain a consistent three-dimensional world rather than just producing appealing frames. It fills gaps in existing tests that focus only on selected geometric properties or rely on vision-language models for judgment.",
+      "whyItMatters": "Consistent 3D representation is crucial for realistic video generation and downstream applications.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20693"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20693",
+        "code": "https://github.com/worldbench/orbia",
+        "model": null,
+        "demo": "https://orbia-bench.github.io"
+      }
+    },
+    {
+      "id": "speculative-forcing-method-speeds-up-autoregress-842413",
+      "createdAt": "2026-10-16T04:56:37.183141+00:00",
+      "headline": "Speculative Forcing method speeds up autoregressive video generation",
+      "summary": "Speculative Forcing allows certain tokens in video generation to be finalized early, skipping later refinement steps while preserving output quality. The technique reduces computation time significantly across various video generation tasks.",
+      "whyItMatters": "Faster video generation makes high-quality AI video creation more practical and cost-effective.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22347"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22347",
+        "code": "https://github.com/naver-ai/speculative-forcing",
+        "model": null,
+        "demo": "https://speculative-forcing.github.io/"
+      }
     }
   ],
-  "updatedAt": "2026-10-15T21:43:36.364232+00:00"
+  "updatedAt": "2026-10-16T04:56:49.175455+00:00"
 }
