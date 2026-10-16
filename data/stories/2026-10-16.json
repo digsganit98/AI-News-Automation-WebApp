@@ -911,7 +911,331 @@
         "model": null,
         "demo": "https://speculative-forcing.github.io/"
       }
+    },
+    {
+      "id": "fde-gym-benchmark-evaluates-ai-agents-on-forward-3adc55",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "FDE-Gym benchmark evaluates AI agents on forward-deployed engineering tasks",
+      "summary": "Researchers introduced FDE-Gym, a new benchmark designed to test AI agents on ambiguous tasks faced by forward-deployed engineers in live customer environments. The system evaluates how well models clarify requirements and uncover unstated constraints.",
+      "whyItMatters": "This benchmark provides a realistic way to assess agent reliability in messy, real-world customer support and engineering workflows.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22350"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22350",
+        "code": "https://github.com/deeplethe/fde-gym",
+        "model": null,
+        "demo": "https://fde-gym.com/paper"
+      }
+    },
+    {
+      "id": "mai-gym-open-platform-provides-reinforcement-lea-9ada2e",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "MAI-Gym open platform provides reinforcement learning environment for GUI agents",
+      "summary": "MAI-Gym is a new open platform that lets developers train and evaluate AI agents for mobile and computer interfaces. It uses reinforcement learning to address the high cost and scarcity of realistic interface tasks.",
+      "whyItMatters": "It lowers the barrier to entry for developing interactive computer-use agents by providing a unified training ground.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20939"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20939",
+        "code": "https://github.com/Tongyi-MAI/MAI-Gym",
+        "model": null,
+        "demo": "https://tongyi-mai.github.io/MAI-Gym/"
+      }
+    },
+    {
+      "id": "opengcua-open-stack-enables-generalist-computer-7c3a54",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "OpenGCUA open stack enables generalist computer use through vision and code execution",
+      "summary": "OpenGCUA combines visual observation with code execution to let AI models perform tasks directly on computers. The framework allows models to choose their own interaction methods, improving overall efficiency and task performance.",
+      "whyItMatters": "It advances generalist computer-use capabilities by combining visual grounding with flexible code execution.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22200"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22200",
+        "code": "https://github.com/Tongyi-MAI/OpenGCUA",
+        "model": null,
+        "demo": "https://tongyi-mai.github.io/OpenGCUA/"
+      }
+    },
+    {
+      "id": "waypoint-opd-distillation-method-improves-small-dd5f2c",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "Waypoint-OPD distillation method improves small model reasoning in math and coding",
+      "summary": "A new method called Waypoint-OPD helps smaller AI models learn from larger teacher models by tracking behavioral changes during reinforcement learning. This approach boosts reasoning capabilities in mathematics and coding with minimal extra computation.",
+      "whyItMatters": "It offers an efficient way to transfer advanced reasoning skills from large models to smaller, more deployable ones.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.21601"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.21601",
+        "code": "https://github.com/hhhbxloveai/WaypointOPD",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mlexpert-model-provides-autonomous-machine-learn-fd947e",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "MLExpert model provides autonomous machine learning engineering capabilities",
+      "summary": "MLExpert is a generalist agentic model designed to autonomously develop and improve machine learning systems. It represents a step toward recursive self-improvement by handling end-to-end machine learning engineering tasks independently.",
+      "whyItMatters": "It demonstrates how AI agents can take over complex, iterative development tasks in data science.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22344"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22344",
+        "code": "https://github.com/InternScience/MLExpert",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mosaic-framework-brings-reinforcement-learning-t-f09ee7",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "Mosaic framework brings reinforcement learning to multi-session AI agents",
+      "summary": "Mosaic is a new agentic reinforcement learning framework that supports trajectories spanning multiple sessions. It moves past single-context limitations to enable more complex and long-running agent behaviors.",
+      "whyItMatters": "It expands the operational scope of AI agents beyond single-session interactions into persistent workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22174"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22174",
+        "code": "https://github.com/LARK-AI-Lab/Mosaic",
+        "model": null,
+        "demo": "https://lark-ai-lab.github.io/Mosaic/"
+      }
+    },
+    {
+      "id": "self-evolving-agent-harness-uses-evolutionary-op-7b6527",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "Self-Evolving Agent Harness uses evolutionary optimization to improve AI scaffolding",
+      "summary": "A new framework allows AI agents to optimize their own prompts and workflows without modifying model weights. The system uses feedback-driven revisions and evolutionary strategies to improve performance over time.",
+      "whyItMatters": "It provides a reliable mechanism for improving agent behavior through external scaffolding adjustments rather than expensive retraining.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.18813"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.18813",
+        "code": "https://github.com/zgcagi/Harness-RSI",
+        "model": null,
+        "demo": "https://zgcagi.github.io/Harness-RSI/"
+      }
+    },
+    {
+      "id": "rota-bench-benchmark-tests-3d-spatial-reasoning-1e47cd",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "RoTA-Bench benchmark tests 3D spatial reasoning in vision-language models",
+      "summary": "RoTA-Bench evaluates whether vision-language models can convert 2D visual observations into accurate 3D understandings. The benchmark tests an AI's ability to infer object geometry and refine actions in interactive 3D environments.",
+      "whyItMatters": "It addresses a key limitation in current vision models by testing precise spatial and geometric reasoning.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.17665"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.17665",
+        "code": "https://github.com/MAC-AutoML/RoTA-Bench",
+        "model": null,
+        "demo": "https://www.modelscope.cn/studios/san2333333/rotabench-anon?mode=full&app_path=%2Fportal"
+      }
+    },
+    {
+      "id": "baidu-s-unlimited-ocr-model-appears-on-hugging-f-1cf885",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "Baidu's Unlimited-OCR model appears on Hugging Face trending list",
+      "summary": "Baidu's Unlimited-OCR model has recently trended on Hugging Face. Specific technical details or performance metrics were not provided in the release notes.",
+      "whyItMatters": "It highlights active open releases in optical character recognition from major industry providers.",
+      "category": "New Model Release",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Trending Models",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nasa-researchers-develop-tool-routed-llm-assista-039725",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "NASA researchers develop tool-routed LLM assistant for air traffic management",
+      "summary": "A NASA Ames Research Center study describes an LLM system that answers aviation questions by routing them through validated expert tools and live data sources. This design reduces hallucinations to support air traffic professionals.",
+      "whyItMatters": "It demonstrates a safety-first architectural pattern for deploying language models in high-stakes operational environments.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://bioengineer.org/nasa-built-ai-assistant-taps-verified-aviation-tools-to-cut-hallucination-risk/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "faa-explores-ownership-stake-in-air-traffic-ai-p-3d0f29",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "FAA explores ownership stake in air traffic AI partner Air Space Intelligence",
+      "summary": "The Federal Aviation Administration is working to acquire an ownership stake in Air Space Intelligence. The private company is central to ongoing efforts to modernize the United States air traffic control system.",
+      "whyItMatters": "It shows a direct public sector investment in private AI infrastructure providers for critical national systems.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.politico.com/news/2026/10/15/faa-stake-ai-company-01121671"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "orange-logic-implements-model-context-protocol-s-8033ab",
+      "createdAt": "2026-10-16T11:49:24.148498+00:00",
+      "headline": "Orange Logic implements Model Context Protocol server for AI application access",
+      "summary": "Orange Logic has deployed a Model Context Protocol server to allow AI applications like Claude and Gemini to connect directly to its systems. Users can now query digital assets using natural language across software platforms.",
+      "whyItMatters": "It enables seamless cross-platform data retrieval for enterprise asset management using standard AI protocols.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://developer.orangelogic.com/reference/model-context-protocol"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-16T04:56:49.175455+00:00"
+  "updatedAt": "2026-10-16T11:49:36.505850+00:00"
 }
