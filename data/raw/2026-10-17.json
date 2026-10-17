@@ -1112,6 +1112,284 @@
           "checkedAt": "2026-10-17T11:02:32.840756Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-17T15:48:12.310273+00:00",
+      "newItems": 6,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1299,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.327930Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.370279Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 880,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.370643Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.370932Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.371130Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.371311Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.371478Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.371646Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.371822Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.371989Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.372176Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.372240Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.372288Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.372534Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.372583Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.372746Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.372910Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.373072Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.373258Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.373648Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-17T15:48:12.373901Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.374249Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.374431Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.374599Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-17T15:48:12.374764Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.374922Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.375083Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.375298Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.375464Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.375689Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.376344Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.376537Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.376724Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-17T15:48:12.376777Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1971,7 +2249,88 @@
       },
       "id": "4ea4ebdfa33392c9",
       "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "interconnects",
+      "sourceName": "Interconnects",
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "publishedAt": "2026-10-17T14:06:54Z",
+      "excerpt": "US open weights are back!",
+      "author": "Nathan Lambert",
+      "extra": {},
+      "id": "2524f385929c5deb",
+      "collectedAt": "2026-10-17T15:48:12.310273+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Open Weight vs Open Source AI Models: Check the Release, Not the Label",
+      "url": "https://medium.com/@brolly-academy/open-weight-vs-open-source-ai-models-check-the-release-not-the-label-652838df5bbb?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T12:30:37Z",
+      "excerpt": "Check the release, not the label. Continue reading on Medium »",
+      "author": "Brolly academy",
+      "extra": {},
+      "id": "a0650637a2d61722",
+      "collectedAt": "2026-10-17T15:48:12.310273+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Nvidia has officially confirmed that the 5090 is not discontinued and will continue shipping.",
+      "url": "https://www.4gamers.com.tw/news/detail/82699/nvidia-says-geforce-rtx-5090-is-not-eol",
+      "publishedAt": "2026-10-17T12:18:00Z",
+      "excerpt": "During a post-event interview at the RTX Spark Launch Party: Taipei on October 16, 2026, Nvidia's Senior Vice President of Personal Computing, Jeff Fisher , explicitly debunked the recent discontinuation rumors.",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x88txd/nvidia_has_officially_confirmed_that_the_5090_is/"
+      },
+      "id": "e13543bcbadeacff",
+      "collectedAt": "2026-10-17T15:48:12.310273+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "DeepSeek 4.1 Flash 1017 Incoming? --> DeepSeek users report a possible V4.1-Flash-1017 refresh across its API",
+      "url": "https://runtimewire.com/article/deepseek-users-report-a-possible-v4-1-flash-1017-refresh-across-its-api",
+      "publishedAt": "2026-10-17T05:34:11Z",
+      "excerpt": "Was waiting for this. Edit: And it just dropped: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/"
+      },
+      "id": "c383278c60cd4d95",
+      "collectedAt": "2026-10-17T15:48:12.310273+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "The debt-fueled AI boom is cracking",
+      "url": "https://www.axios.com/2026/10/16/wall-street-limit-ai-spending-debt",
+      "publishedAt": "2026-10-16T16:47:11Z",
+      "excerpt": "",
+      "author": "/u/slippery",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lcdu/the_debtfueled_ai_boom_is_cracking/"
+      },
+      "id": "10da81fc4276b35d",
+      "collectedAt": "2026-10-17T15:48:12.310273+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Best LLMs for AI Agents (October 2026) — Ranked by Benchmark Data | BenchLM.ai",
+      "url": "https://benchlm.ai/best/agents",
+      "publishedAt": "2026-10-16T11:00:00Z",
+      "excerpt": "Agent loops burn tokens fast, so effective cost matters more than list price. Check the price-vs-performance view and the provider pricing hubs for cached-input rates — caching discounts of up to 90% dominate agent economics because loops resend the same context every step.\n\n## Explore More\n\nLast updated: October 16, 2026\n\n### Know when it’s worth switching models\n\nThe model to choose, the cheaper alternative, and the release we would wait on.\n\nRead a sample issue\n\nJoin 5,600+ readers.",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.292
+      },
+      "id": "f21dbc408ba48739",
+      "collectedAt": "2026-10-17T15:48:12.310273+00:00"
     }
   ],
-  "updatedAt": "2026-10-17T11:02:32.788631+00:00"
+  "updatedAt": "2026-10-17T15:48:12.310273+00:00"
 }
