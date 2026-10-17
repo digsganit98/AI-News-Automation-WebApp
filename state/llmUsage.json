@@ -1,18 +1,20 @@
 {
   "byAgent": {
-    "analyst": 1,
-    "scout": 4
+    "analyst": 2,
+    "scout": 9
   },
   "byModel": {
     "gemini/gemini-3.5-flash-lite": 1,
-    "groq/qwen/qwen3.8-27b": 4
+    "groq/openai/gpt-oss-120b": 1,
+    "groq/qwen/qwen3.8-27b": 9
   },
-  "calls": 5,
+  "calls": 11,
   "date": "2026-10-18",
   "tokensByModel": {
     "gemini/gemini-3.5-flash-lite": 3605,
-    "groq/qwen/qwen3.8-27b": 5720
+    "groq/openai/gpt-oss-120b": 2618,
+    "groq/qwen/qwen3.8-27b": 10637
   },
-  "tokensIn": 8205,
-  "tokensOut": 1120
+  "tokensIn": 15316,
+  "tokensOut": 1544
 }
