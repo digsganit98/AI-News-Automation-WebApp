@@ -1,0 +1,481 @@
+{
+  "date": "2026-10-18",
+  "runs": [
+    {
+      "runAt": "2026-10-17T20:48:06.732994+00:00",
+      "newItems": 14,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1299,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.746005Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.779934Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 880,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.780221Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.780439Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.780557Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.780665Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.780770Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.780868Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.780989Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781095Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781196Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781239Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781270Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781441Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781471Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781572Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781669Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781766Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.781863Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.782104Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-17T20:48:06.782210Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.782368Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.782475Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.782572Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-17T20:48:06.782667Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.782761Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.782856Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.782972Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.783075Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.783230Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.783719Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.783846Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.783989Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-17T20:48:06.784024Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI crawlers get in, but they can’t tell who you are: what 120 Polish company websites reveal",
+      "url": "https://medium.com/@jaroslaw.zagajewski/ai-crawlers-get-in-but-they-cant-tell-who-you-are-what-120-polish-company-websites-reveal-957ba2eb31ec?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T20:26:28Z",
+      "excerpt": "A one-day technical audit across clinics, law firms, software houses and manufacturers. The bottleneck isn’t access. It’s identity. Continue reading on Medium »",
+      "author": "Jarosław Zagajewski",
+      "extra": {},
+      "id": "847654f48f5b3b07",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Between Speed and Quality Part 1: The Promise of Higher Productivity and Lower Costs",
+      "url": "https://medium.com/@walid.hisham991/ai-between-speed-and-quality-part-1-the-promise-of-higher-productivity-and-lower-costs-dd1658f76a37?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T18:20:25Z",
+      "excerpt": "In a brief discussion I had with Eng. Ramy AlSharqawi on LinkedIn, we touched on an important topic that inspired me to explore it more… Continue reading on Medium »",
+      "author": "Walid Hisham",
+      "extra": {},
+      "id": "d4326d5a88f6d2ce",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Retrieval-Augmented Generation (RAG): How AI Connects With External Knowledge",
+      "url": "https://medium.com/@shrirangesh/retrieval-augmented-generation-rag-how-ai-connects-with-external-knowledge-855985f5ea5c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T18:08:54Z",
+      "excerpt": "Discover how RAG works, explore its key techniques, and learn how AI uses external knowledge to power smarter, more reliable real-world… Continue reading on Medium »",
+      "author": "Shrirangesh Anandaraj",
+      "extra": {},
+      "id": "20bfe7469afb18c0",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The state of enterprise AI, late 2026: what the reports agree on, and where they contradict each…",
+      "url": "https://medium.com/@flk.brauer/the-state-of-enterprise-ai-late-2026-what-the-reports-agree-on-and-where-they-contradict-each-23981811bbf2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T17:38:47Z",
+      "excerpt": "A hypothetical board meeting. Four people quote four reports, all of them correctly: Continue reading on Medium »",
+      "author": "Dr. Falk Brauer",
+      "extra": {},
+      "id": "45a76cbc388c4d5e",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Turning Messy Engineering Docs into a Permission-Aware AI Assistant",
+      "url": "https://medium.com/@pawanbmsce146/turning-messy-engineering-docs-into-a-permission-aware-ai-assistant-39c42b451ecd?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T17:00:35Z",
+      "excerpt": "How we built a hybrid-RAG agent on Google ADK, Postgres + pgvector, and Outline — with two pipelines, per-user access control, and an… Continue reading on Medium »",
+      "author": "pawan kushwaha",
+      "extra": {},
+      "id": "eb3c4b29c600821c",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI discloses four more rogue incidents",
+      "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+      "publishedAt": "2026-10-17T16:31:12Z",
+      "excerpt": "",
+      "author": "DASD",
+      "extra": {
+        "points": 109,
+        "comments": 122,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50132502"
+      },
+      "id": "28fe2bff247ebcf4",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "publishedAt": "2026-10-17T16:04:23Z",
+      "excerpt": "",
+      "author": "DeepLogin",
+      "extra": {
+        "points": 132,
+        "comments": 52,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50132278"
+      },
+      "id": "fa796824301f11c6",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI stole cryptocurrency to fulfil coding task.. (GPT 5.6 Sol)",
+      "url": "https://www.independent.co.uk/tech/security/openai-crypto-ethereum-chatgpt-b3068163.html",
+      "publishedAt": "2026-10-17T14:22:53Z",
+      "excerpt": "Everyone knows about the OpenAI agent swarm hacking Hugging Face by now, but TIL that their LLMs have graduated to thieving cryptocurrency: Apparently GPT 5.6 Sol was tasked with updating a crypto application & publishing smart contracts, but it was not given the crypto funds needed to achieve this.. So, it stole those funds, allegedly using recovery phrases to rinse crypto wallets.. And it did so after going through an internal process of querying the ethics of such theft - before coming up…",
+      "author": "/u/DukeRedWulf",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x8bhno/ai_stole_cryptocurrency_to_fulfil_coding_task_gpt/"
+      },
+      "id": "609726d4f19e0d8f",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Putin envoy says Russia and US are discussing joint deals including on data centres",
+      "url": "https://www.reuters.com/world/dmitriev-says-russian-wealth-fund-will-work-with-us-payment-diesel-deal-2026-10-16/",
+      "publishedAt": "2026-10-17T07:14:31Z",
+      "excerpt": "",
+      "author": "/u/esporx",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1x83tcj/putin_envoy_says_russia_and_us_are_discussing/"
+      },
+      "id": "0f5d6c2d32d9e592",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Physical AI Lab Nature Will Unveils Natura-1, First General Foundation Model for the Physical World",
+      "url": "https://finance.yahoo.com/technology/ai/articles/physical-ai-lab-nature-unveils-155500761.html",
+      "publishedAt": "2026-10-16T16:00:00Z",
+      "excerpt": "SAN FRANCISCO, CA / ACCESS Newswire / October 16, 2026 / Nature Will, a physical AI lab dedicated to building physical AGI, today announced the launch of Natura-1, a 50-billion-parameter physical general foundation model for dexterous hand control and zero-shot instruction following in advanced robotics applications. Pre-trained on over 1 million hours of egocentric human data, the Natura-1 combines instruction following with the ability to manipulate to changing task conditions and sustained…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.69
+      },
+      "id": "c29b9ea726f39ad2",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Self Labs Launches Agent Vault as Banks Lock AI Agents Out of Accounts - Startup Fortune",
+      "url": "https://startupfortune.com/self-labs-launches-agent-vault-as-banks-lock-ai-agents-out-of-accounts/",
+      "publishedAt": "2026-10-16T17:15:36Z",
+      "excerpt": "# Self Labs Launches Agent Vault as Banks Lock AI Agents Out of Accounts. Self Labs built it after acquiring Loam, the agentic-workflow startup run by Uber's former AI chief, in April. *Agent Vault went live on October 15, built on the bet that AI agents will eventually need to log into accounts and pay on a person's behalf. It's a credential and payments layer that lets AI agents sign into accounts and complete purchases on a person's behalf, without the agent ever seeing the underlying card…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.29
+      },
+      "id": "b948fb81c8da7ba5",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "RapidCanvas raises $29M to build and run AI apps for enterprises - The Next Web",
+      "url": "https://thenextweb.com/news/rapidcanvas-29m-series-b-enterprise-ai",
+      "publishedAt": "2026-10-16T18:17:17Z",
+      "excerpt": "RapidCanvas, which pairs an AI agent platform with its own engineers to build business apps for companies, raised a $29M Series B led by Vertex Ventures SEA & India, with Hitachi Ventures joining. It will hire in the US, Brazil, and India. Austin-based RapidCanvas has raised $29M in Series B funding to grow its business of building and running AI apps for companies, the startup said on Friday. Vertex Ventures SEA & India led the round, and Hitachi Ventures joined. The round brings…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.2
+      },
+      "id": "69bfc266067ddb70",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amjad Masad at TechCrunch Disrupt outlines self-driving company vision - NewsBytes",
+      "url": "https://www.newsbytesapp.com/news/business/amjad-masad-at-techcrunch-disrupt-outlines-self-driving-company-vision/tldr",
+      "publishedAt": "2026-10-16T13:52:30Z",
+      "excerpt": "# Amjad Masad at TechCrunch Disrupt outlines self-driving company vision. At *TechCrunch* Disrupt, Replit CEO and co-founder Amjad Masad talked about a future where \"self-driving company\" use AI to handle boring, repetitive tasks, leaving people free to focus on creative and strategic work. He sees tools like Replit's AI as a big step toward making work more interesting and less tedious. ### Replit AI sorts tickets, checks code. Masad shared that Replit's AI agents already help by sorting out…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.155
+      },
+      "id": "c642d5001b09d613",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Websites are closing their doors to AI agents - The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "publishedAt": "2026-10-17T13:00:00Z",
+      "excerpt": "OpenAI, Meta, and Google want AI agents to do everything for you. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. In recent weeks, users of services like Meta’s Muse, xAI’s Grok, OpenAI’s Dots, and Instinct have reported blocks preventing their AI agents from performing tasks across top websites. Perplexity responded by pointing out that…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.141
+      },
+      "id": "f155d49d3345aeb5",
+      "collectedAt": "2026-10-17T20:48:06.732994+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-17T20:48:06.732994+00:00"
+}
