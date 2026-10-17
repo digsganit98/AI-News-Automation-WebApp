@@ -834,6 +834,284 @@
           "checkedAt": "2026-10-17T04:47:52.874330Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-17T11:02:32.788631+00:00",
+      "newItems": 13,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1299,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.801775Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.836629Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 880,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.836980Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837224Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837344Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837456Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837562Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837662Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837761Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837860Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.837956Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838000Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838032Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838214Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838246Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838352Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838452Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838547Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838642Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.838866Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-17T11:02:32.838969Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839121Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839240Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839336Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-17T11:02:32.839428Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839523Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839616Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839710Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839805Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.839951Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.840473Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.840603Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.840723Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-17T11:02:32.840756Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1515,7 +1793,185 @@
       },
       "id": "d7bf717f456345e7",
       "collectedAt": "2026-10-17T04:47:52.809565+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "author": null,
+      "extra": {},
+      "id": "4a2f3ca18eb9cee6",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "publishedAt": "2026-10-17T07:47:38Z",
+      "excerpt": "a quiet day lets us pilot a new show",
+      "author": null,
+      "extra": {},
+      "id": "dc3d830e0a0da473",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Choose the Right LLM for Your Use Case (and Survive When It’s Retired)",
+      "url": "https://medium.com/@shivammiglani09/how-to-choose-the-right-llm-for-your-use-case-and-survive-when-its-retired-8a63f7f2e007?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T10:08:08Z",
+      "excerpt": "The question I get every single week Continue reading on Medium »",
+      "author": "Shivammiglani",
+      "extra": {},
+      "id": "3eada86b0d706180",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Can AI Save You One Hour a Week? Here’s How to Find Out",
+      "url": "https://cybernerdie.medium.com/can-ai-save-you-one-hour-a-week-heres-how-to-find-out-0609e4314d89?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T07:54:22Z",
+      "excerpt": "The first AI response might arrive in seconds. The real test is how long it takes to finish the job properly. Continue reading on Medium »",
+      "author": "Joshua Idunnu Paul",
+      "extra": {},
+      "id": "c63f76ac139c7143",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Brand x PR Field Note: When It Starts to Write…",
+      "url": "https://medium.com/@nancymulligan183917/brand-x-pr-field-note-when-it-starts-to-write-a6d9a7f433cf?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T06:31:02Z",
+      "excerpt": "Reflections on language, judgment, and working in PR with AI. Continue reading on Medium »",
+      "author": "Mulligan",
+      "extra": {},
+      "id": "7d917ac1c55a4170",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Generative AI Is Changing Education and Learning",
+      "url": "https://generativeaimasters.medium.com/how-generative-ai-is-changing-education-and-learning-4c67c57e5605?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T06:10:08Z",
+      "excerpt": "Ask any teacher or student today whether they have used an AI tool for schoolwork, and the answer is almost always yes. Tools like ChatGPT… Continue reading on Medium »",
+      "author": "Generative AI masters",
+      "extra": {},
+      "id": "3dd67343232bd19a",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Open video with sound is a render job, not a chat: what Kandinsky 6.0’s own timings say",
+      "url": "https://medium.com/@inferencekey/open-video-with-sound-is-a-render-job-not-a-chat-what-kandinsky-6-0s-own-timings-say-700157bddbc2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-17T05:33:48Z",
+      "excerpt": "A 5-second Pro clip takes about five minutes on the fastest GPU in the table, and the card with the most memory is not the quickest. Continue reading on Medium »",
+      "author": "InferenceKey",
+      "extra": {},
+      "id": "59052ce114f1984c",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "publishedAt": "2026-10-17T08:37:46Z",
+      "excerpt": "",
+      "author": "theanonymousone",
+      "extra": {
+        "points": 165,
+        "comments": 35,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50129121"
+      },
+      "id": "1fd6dd971a81f8a5",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "publishedAt": "2026-10-17T08:21:25Z",
+      "excerpt": "",
+      "author": "theykk",
+      "extra": {
+        "points": 180,
+        "comments": 76,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+      },
+      "id": "9b13d6a721a0c270",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "publishedAt": "2026-10-17T04:36:53Z",
+      "excerpt": "",
+      "author": "albinstman",
+      "extra": {
+        "points": 89,
+        "comments": 38,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50127979"
+      },
+      "id": "0913988ccbedf140",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "How to make System 1 LLMs show System 2 competencies?",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+      "publishedAt": "2026-10-16T14:16:34Z",
+      "excerpt": "",
+      "author": "porridgeraisin",
+      "extra": {
+        "points": 51,
+        "comments": 25,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50118662"
+      },
+      "id": "192b815aaef74bfd",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Physical AI Lab Nature Will Unveils Natura-1, First General Foundation Model for the Physical World",
+      "url": "https://www.bignewsnetwork.com/news/279379568/physical-ai-lab-nature-will-unveils-natura-1-first-general-foundation-model-for-the-physical-world",
+      "publishedAt": "2026-10-16T16:00:00Z",
+      "excerpt": "SAN FRANCISCO, CA / ACCESS Newswire / October 16, 2026 / Nature Will, a physical AI lab dedicated to building physical AGI, today announced the launch of Natura-1, a 50-billion-parameter physical general foundation model for dexterous hand control and zero-shot instruction following in advanced robotics applications. Pre-trained on over 1 million hours of egocentric human data, the Natura-1 combines instruction following with the ability to manipulate to changing task conditions and sustained…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.69
+      },
+      "id": "4559a3970e5f235f",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "A Robot Version of the \"GPT-3 Moment\"? A Thorough Explanation of GEN-1.5, Which Learns New Tasks with Just Seconds of Demonstration｜アイドリ | AI-Driven Lab",
+      "url": "https://note.com/ai_driven/n/nc8c7d66d25b8?hl=en",
+      "publishedAt": null,
+      "excerpt": "Until now, teaching a robot a new task required a massive amount of trial-and-error data. However, on August 19, 2026, the Silicon Valley robotics company Generalist AI made an announcement that shook that premise. The new model, \"GEN-1.5,\" can perform the same task just 3 to 12 seconds after a human or robot shows it a demonstration. Moreover, there is no additional training (gradient updates) involved. Since this announcement has barely been introduced in Japan, let's make sure to grasp the…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.646
+      },
+      "id": "4ea4ebdfa33392c9",
+      "collectedAt": "2026-10-17T11:02:32.788631+00:00"
     }
   ],
-  "updatedAt": "2026-10-17T04:47:52.809565+00:00"
+  "updatedAt": "2026-10-17T11:02:32.788631+00:00"
 }
