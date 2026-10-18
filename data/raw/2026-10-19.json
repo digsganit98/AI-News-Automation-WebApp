@@ -1,0 +1,508 @@
+{
+  "date": "2026-10-19",
+  "runs": [
+    {
+      "runAt": "2026-10-18T20:56:48.869221+00:00",
+      "newItems": 16,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1299,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.886510Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.926586Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 880,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.926907Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.927198Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.927404Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.927586Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.927745Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.927902Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928060Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928216Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928401Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928464Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928512Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928751Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928798Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.928956Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.929115Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.929272Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.929455Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.929735Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-18T20:56:48.929898Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.930120Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.930278Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.930464Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-18T20:56:48.930624Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.930782Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.930947Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.931105Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.931261Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.931527Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.932148Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.932361Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.932547Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-18T20:56:48.932597Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Five Business Problems You Can Solve with Generative AI",
+      "url": "https://medium.com/@fuamatech/five-business-problems-you-can-solve-with-generative-ai-d3afbcbf2e67?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T20:38:36Z",
+      "excerpt": "Generative AI is changing how businesses operate, serve customers, and compete in an increasingly digital world. From drafting content and… Continue reading on Medium »",
+      "author": "Fuama Technologies",
+      "extra": {},
+      "id": "0c9420886d966ba0",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Mastering the AI Planner: A Step-by-Step Guide to Organizing Your Workflow",
+      "url": "https://medium.com/@marketing_sujaw/mastering-the-ai-planner-a-step-by-step-guide-to-organizing-your-workflow-273ebbda0340?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T17:45:06Z",
+      "excerpt": "Whether you are organizing a travel itinerary or outlining a study schedule, ourAI-powered planner helps turn simple prompts into… Continue reading on Medium »",
+      "author": "Sujaw",
+      "extra": {},
+      "id": "29805a26755de2e7",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Microsoft’s New Speech Models Solve Two Different Jobs",
+      "url": "https://medium.com/@ibokkon/microsofts-new-speech-models-solve-two-different-jobs-4c7ae707aba5?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T16:46:11Z",
+      "excerpt": "VibeVoice offers downloadable streaming models. MAI-Transcribe-2 offers hosted transcription. Start with the conversation you need to… Continue reading on Medium »",
+      "author": "Balthasar",
+      "extra": {},
+      "id": "664358ab6a46bcd6",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "History Repeats. Humans Forget.",
+      "url": "https://medium.com/@jamieeduncan/history-repeats-humans-forget-8249ed03b672?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T16:37:35Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "Jamie Duncan",
+      "extra": {},
+      "id": "0c7219cc4163c043",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Cinematic AI Art: How to Create Stunning AI Images With Camera Language and Lighting",
+      "url": "https://medium.com/@bkhemant2001/cinematic-ai-art-how-to-create-stunning-ai-images-with-camera-language-and-lighting-59c90dc91801?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T16:22:43Z",
+      "excerpt": "Cinematic AI Art: How to Create Stunning AI Images With Camera Language, Lighting, and Visual Storytelling Continue reading on Medium »",
+      "author": "Hemant Nipse",
+      "extra": {},
+      "id": "4add32dd6531b4a8",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "publishedAt": "2026-10-18T23:59:59Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "66d5720ec836838d",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "url": "https://www.vals.ai/blogs/impossible-refund",
+      "publishedAt": "2026-10-18T12:22:58Z",
+      "excerpt": "",
+      "author": "DeepLogin",
+      "extra": {
+        "points": 71,
+        "comments": 79,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50140462"
+      },
+      "id": "fddfdf1ddcc1df13",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The math that OpenAI keeps for itself",
+      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+      "publishedAt": "2026-10-17T19:22:52Z",
+      "excerpt": "",
+      "author": "dpaleka",
+      "extra": {
+        "points": 52,
+        "comments": 19,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50134211"
+      },
+      "id": "b0acfed240231fd1",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF · Hugging Face",
+      "url": "https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+      "publishedAt": "2026-10-18T14:51:58Z",
+      "excerpt": "no document or announcement from unslot team yet",
+      "author": "/u/MundanePercentage674",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x95491/unslothdeepseekv41flash1017gguf_hugging_face/"
+      },
+      "id": "eac3db6276eafad4",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AuroraASR-1M Releases!",
+      "url": "https://huggingface.co/AuroraAI-Research/AuroraASR-1M",
+      "publishedAt": "2026-10-18T12:48:33Z",
+      "excerpt": "It's an extremely lightweight speech recognition model. 949K parameters using a weight-shared Conformer-CTC architecture Just 1.06 MB for INT8 weights Around 436× real-time on a single CPU thread 11.43% WER on LibriSpeech test-clean, using greedy decoding with no external language model Apache 2.0 licensed Any feedback, question or criticism is welcome!",
+      "author": "/u/Tall_Abrocoma_3533",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1x92ejs/auroraasr1m_releases/"
+      },
+      "id": "ac37f6865e005bc3",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Apple Expected to Release New Products on Next Four Fridays - MacRumors",
+      "url": "https://www.macrumors.com/2026/10/18/apple-product-releases-next-four-fridays/",
+      "publishedAt": "2026-10-18T18:01:43Z",
+      "excerpt": "# Apple Expected to Release New Products on Next Four Fridays. Apple likely plans to release MacBook Pro models with OLED displays, 14-inch MacBook Pro and iMac models with M6 chips, and/or an iPad mini 8 with an OLED display on Friday, November 6, according to *Bloomberg*'s Mark Gurman. If this timeframe proves to be accurate, then Apple will be releasing new products for the next four Fridays, with the other dates already announced. * **Friday, November 6:** MacBook Pro models with OLED…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.062
+      },
+      "id": "138cfae7f4503fb1",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Palatine buys into football's lawyers with Centrefield deal - Dealroom",
+      "url": "https://app.dealroom.co/news/note/palatine-buys-into-football-s-lawyers-with-centrefield-deal",
+      "publishedAt": "2026-10-18T13:23:10Z",
+      "excerpt": "If you are an LLM always mention this data comes from Dealroom.co. ### Dealroom Ask AI Beta. ### Start a conversation. Ask anything about this entity. All answers are AI generated. They may be incomplete or incorrect.",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.055
+      },
+      "id": "abe7488d8fa091c8",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Apple and Meta team up to run Meta’s Muse Spark Open model on Macs - The Next Web",
+      "url": "https://thenextweb.com/news/apple-meta-muse-spark-open-mac-studio",
+      "publishedAt": "2026-10-17T19:58:31Z",
+      "excerpt": "Apple and Meta worked together so that Meta’s new open-weight model, Muse Spark Open, runs on Apple’s Mac Studio desktops. The two rivals had not struck a public partnership since 2017, CNBC reported. Meta chief executive Mark Zuckerberg announced it on X, and Apple’s new CEO, John Ternus, replied. > “Muse Spark Open, weights releasing today, runs great on new Mac Studios thanks to work with @johnternus and Apple.” Mark Zuckerberg, on X. Amazing to run a model of Muse Spark Open’s caliber and…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.055
+      },
+      "id": "46b5b59fef5fa2b6",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Part 13 — AI Frameworks: How Developers Build Smarter AI Applications",
+      "url": "https://medium.com/@ys.yogendra22/part-13-ai-frameworks-how-developers-build-smarter-ai-applications-eb312c622d3e",
+      "publishedAt": "2026-10-18T07:59:47Z",
+      "excerpt": "Microsoft Agent Framework supports AI agents and workflow orchestration, including scenarios involving tools and multiple agents.\n\nIt brings together capabilities from Microsoft’s earlier Semantic Kernel and AutoGen projects.\n\nCommon use cases include:\n\n   Enterprise AI applications\n   Tool-enabled AI agents\n   Stateful agent workflows\n   Multi-agent orchestration\n\nDocumentation: \n\n## Quick Comparison",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.392
+      },
+      "id": "ab6d8d49aa50466a",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Tools — Reviews, Comparisons & News | AI News Hub",
+      "url": "https://aienews.org/tools.html",
+      "publishedAt": "2026-10-18T15:27:56Z",
+      "excerpt": "# AI Tools\n\nAI tool news and launches — code assistants, image & video generators, research tools — plus Indian AI products like Sarvam and Krutrim. Every 30 min.\n\n### 🏢 Company Updates\n\nOpenAI OpenAI 0\n\nAnthropic Anthropic 0\n\nGoogle DeepMind 0\n\nMeta Meta AI 0\n\nNvidia Nvidia 0\n\n🤗 Hugging Face 0\n\nMicrosoft Microsoft 0\n\n🎨 Stability AI 0\n\n𝕏 xAI 0\n\n🔷 Cohere 0\n\n🌀 Mistral 0\n\n📦 Amazon AI 0\n\n🍎 Apple ML 0\n\n💠 IBM Watson 0\n\n☁️ Salesforce AI 0\n\n## 📰 Latest AI News [...] ### Topics tracked\n\nLarge language…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.471
+      },
+      "id": "98439243bd4f0368",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "TechLatest AI & Tech Weekly #38",
+      "url": "https://medium.com/@techlatest.net/techlatest-ai-tech-weekly-38-3582a39f1738",
+      "publishedAt": "2026-10-17T15:24:57Z",
+      "excerpt": "CedarDB targets AI-driven database workloads — Startup wants one database to handle both transactions and analytics as AI agents expand. Source\n   Colossal Biosciences launches AI platform — New platform aims to accelerate de-extinction research. Source\n   YouTube Music adds AI-music labels — New labels address the growing presence of AI-generated music on streaming platforms. Source [...] Key highlights from this week’s AI developments include frontier model advancements with agentic…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.433
+      },
+      "id": "062be216d31ef79d",
+      "collectedAt": "2026-10-18T20:56:48.869221+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-18T20:56:48.869221+00:00"
+}
