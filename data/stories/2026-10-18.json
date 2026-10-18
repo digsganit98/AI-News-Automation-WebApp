@@ -135,7 +135,88 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "deepseek-adds-search-and-fetch-apis-for-live-web-870d9f",
+      "createdAt": "2026-10-18T11:36:12.280464+00:00",
+      "headline": "DeepSeek adds Search and Fetch APIs for live web access",
+      "summary": "DeepSeek released two new APIs that let AI agents search the web and retrieve page content as Markdown. The service costs $0.75 per 1,000 successful requests and uses the same authentication as the main DeepSeek API.",
+      "whyItMatters": "It enables developers to build agents that can browse the internet in real time.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://api-docs.deepseek.com/guides/search/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "sphinx-git-hook-quizzes-developers-on-ai-generat-d3c35d",
+      "createdAt": "2026-10-18T11:36:12.280464+00:00",
+      "headline": "Sphinx Git hook quizzes developers on AI-generated code changes",
+      "summary": "Sphinx is an open-source Git hook that pauses code pushes and asks developers questions about the logic of AI-generated modifications. It works with many coding agents and Git setups to ensure code is understood before shipping.",
+      "whyItMatters": "It helps prevent accidental deployment of flawed AI-written code.",
+      "category": "Framework/Tooling",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://sphinx-six-theta.vercel.app/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "llama-cpp-pull-request-speeds-up-low-bit-quantiz-0960e0",
+      "createdAt": "2026-10-18T11:36:12.280464+00:00",
+      "headline": "Llama.cpp pull request speeds up low-bit quantization inference",
+      "summary": "A new pull request to the Llama.cpp project adds faster matrix-vector multiplication for low-bit quantization formats such as Q2_K and Q3_K. The change should noticeably speed up models that use these compression types.",
+      "whyItMatters": "It improves performance for developers running quantized LLMs on limited hardware.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://github.com/ggml-org/llama.cpp/pull/30517"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-17T23:20:59.488564+00:00"
+  "updatedAt": "2026-10-18T11:36:15.230937+00:00"
 }
