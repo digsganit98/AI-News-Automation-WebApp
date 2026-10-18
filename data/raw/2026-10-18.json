@@ -556,6 +556,284 @@
           "checkedAt": "2026-10-17T23:17:39.002373Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-18T04:54:15.255203+00:00",
+      "newItems": 6,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1299,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.272645Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.312277Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 880,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.312623Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.312910Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.313081Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.313247Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.313407Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.313590Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.313756Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.313911Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314066Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314125Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314171Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314408Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314455Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314637Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314798Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.314950Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.315101Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.315389Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-18T04:54:15.315573Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.315802Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.315960Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.316113Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-18T04:54:15.316269Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.316426Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.316633Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.316806Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.316964Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.317184Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.317820Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.318006Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.318186Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-18T04:54:15.318238Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -848,7 +1126,88 @@
       },
       "id": "a55964dc0aaf7a54",
       "collectedAt": "2026-10-17T23:17:38.962631+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: black-forest-labs/flux-3-image-klein",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 459,
+        "trendingScore": 426,
+        "task": "image-to-image"
+      },
+      "id": "93fa5d2ce7d0da34",
+      "collectedAt": "2026-10-18T04:54:15.255203+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Much Does It Cost to Add AI to Your App in 2026?",
+      "url": "https://thebughex.medium.com/how-much-does-it-cost-to-add-ai-to-your-app-in-2026-f5da52d96087?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T04:16:26Z",
+      "excerpt": "The short answer: two bills, and one of them never stops Continue reading on Medium »",
+      "author": "The BugHex",
+      "extra": {},
+      "id": "71106b3ca24de494",
+      "collectedAt": "2026-10-18T04:54:15.255203+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Before You Spend More NightCafe Credits, Diagnose the Image",
+      "url": "https://medium.com/tanda-ai-art-library/before-you-spend-more-nightcafe-credits-diagnose-the-image-4c2477ab6cf1?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T01:49:23Z",
+      "excerpt": "How I learned to separate a weak concept, composition problems, unclear instructions, and generation variability before trying again. Continue reading on TandA AI Art Library »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "2851823bf9466f40",
+      "collectedAt": "2026-10-18T04:54:15.255203+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Ran MiniMax H3 Locally on One RTX 4090. Here Is What Actually Works",
+      "url": "https://medium.com/@omkamal/i-ran-minimax-h3-locally-on-one-rtx-4090-here-is-what-actually-works-eb6ecfead1d9?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-18T00:44:39Z",
+      "excerpt": "Seven model setups, twelve eye-haze experiments, a cloned voice and a two-minute talking video, all measured on my own desk Continue reading on Medium »",
+      "author": "OmarEbnElKhattab Hosney",
+      "extra": {},
+      "id": "d683fe72a82a1896",
+      "collectedAt": "2026-10-18T04:54:15.255203+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Shanghai AI Lab’s Shusheng-S2 helps develop a proof for a decades-old problem in chaos theory",
+      "url": "https://goodnewsdigest.app/stories/human-ai-team-reports-proof-for-a-decades-old-chaos-puzzle-3df02243",
+      "publishedAt": "2026-10-17T09:20:37Z",
+      "excerpt": "",
+      "author": "/u/cjami",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1x85tq7/shanghai_ai_labs_shushengs2_helps_develop_a_proof/"
+      },
+      "id": "68a22b371583075b",
+      "collectedAt": "2026-10-18T04:54:15.255203+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Enterprise Startups funded by Y Combinator (YC) 2026 | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/industry/enterprise",
+      "publishedAt": "2026-10-17T09:00:00Z",
+      "excerpt": "Ontora\n\n  P2026\n\n   • Active • 3 employees • San Francisco\n\n  Ontora is an AI Agent that interviews every employee to map how work actually gets done and identify bottlenecks. Consultants spend months doing this manually; Ontora does it in hours.\n\n  enterprise\n\n  robotic-process-automation\n\n  ai](/companies/ontora) [Visibl Semiconductors\n\n  Visibl Semiconductors\n\n  W2026\n\n   • Active • 2 employees • San Francisco [...] Adaptional is building agentic AI for insurance claims. Claims are 75% of…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.729
+      },
+      "id": "c20cc7940a12f6d5",
+      "collectedAt": "2026-10-18T04:54:15.255203+00:00"
     }
   ],
-  "updatedAt": "2026-10-17T23:17:38.962631+00:00"
+  "updatedAt": "2026-10-18T04:54:15.255203+00:00"
 }
