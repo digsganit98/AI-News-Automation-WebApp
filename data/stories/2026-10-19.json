@@ -405,7 +405,439 @@
         "model": null,
         "demo": "https://ethannju.github.io/carryon/"
       }
+    },
+    {
+      "id": "deepseek-releases-v4-1-flash-1017-max-open-weigh-c875e8",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "DeepSeek releases V4.1 Flash 1017 Max open-weight model with 1 million token context",
+      "summary": "DeepSeek has released V4.1 Flash 1017 (Max), an open-weight model that supports text and image inputs alongside a 1 million token context window. The model achieves a processing speed of 225 tokens per second with competitive pricing.",
+      "whyItMatters": "It offers developers a high-speed, long-context open-weight option for multimodal workloads.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-completes-first-phase-of-prometheus-gigawat-ad0fcc",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Meta completes first phase of Prometheus gigawatt-scale supercluster",
+      "summary": "Meta has finished the first phase of its Prometheus supercluster in Ohio, which was used to train its new Muse foundational models. The infrastructure features closed-loop liquid cooling and is designed to scale to approximately one million GPUs.",
+      "whyItMatters": "Gigawatt-scale infrastructure represents a major step forward for training next-generation foundational models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Meta Engineering (ML)",
+          "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "xiaomi-lens-0-model-improves-fine-grained-image-c651cf",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Xiaomi-Lens-0 model improves fine-grained image understanding using visual masks",
+      "summary": "Xiaomi-Lens-0 is a 4-billion parameter multimodal model that predicts visual masks from its internal representations to better understand specific regions within images. The model outperforms its base architecture on referring comprehension and segmentation tasks.",
+      "whyItMatters": "It enhances how vision-language models reason about specific image regions using internal latents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23279"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23279",
+        "code": "https://github.com/SeerRay-Lab/Xiaomi-Lens-0",
+        "model": null,
+        "demo": "https://seerray-lab.github.io/Xiaomi-Lens-0"
+      }
+    },
+    {
+      "id": "livemacebench-evaluates-persistent-llm-agents-in-e6bd36",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "LiveMACEBench evaluates persistent LLM agents in live financial markets",
+      "summary": "Researchers introduced LiveMACEBench, a benchmark that tests persistent LLM agents in live financial markets to assess capabilities beyond final outcomes. The study analyzes decision traces over 30 days to highlight gaps between actual performance and underlying skills.",
+      "whyItMatters": "It provides a rigorous way to test the real-world reliability of financial AI agents over extended periods.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09872"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09872",
+        "code": "https://github.com/RaymondVoldemortFu/LiveMACE",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "scene-designer-generates-and-critiques-3d-indoor-fe7762",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Scene-Designer generates and critiques 3D indoor scenes from text",
+      "summary": "Scene-Designer is a new approach for generating complete and usable 3D indoor scenes from natural language descriptions. The system focuses on design intelligence, allowing it to create high-quality scenes and critique their quality more effectively than general-purpose models.",
+      "whyItMatters": "It automates the creation of coherent 3D environments from simple text descriptions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23121"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23121",
+        "code": "https://github.com/ZJU-OmniAI/Scene-Designer",
+        "model": null,
+        "demo": "https://zju-omniai.github.io/Scene-Designer/"
+      }
+    },
+    {
+      "id": "rap-dataset-benchmarks-automated-paper-to-poster-f0546a",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "RAP dataset benchmarks automated paper-to-poster generation",
+      "summary": "The RAP dataset provides a benchmark for evaluating how well AI models can convert academic papers into conference posters. This task tests a model's ability to summarize content, apply visual design, and implement code simultaneously.",
+      "whyItMatters": "It establishes a standardized evaluation for multimodal generative tasks involving academic communication.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23230"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23230",
+        "code": "https://github.com/VincentHancoder/RAP",
+        "model": null,
+        "demo": "https://reconstruct-a-poster.github.io/"
+      }
+    },
+    {
+      "id": "lexical-reference-frames-offer-method-for-interp-00db03",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Lexical Reference Frames offer method for interpreting language model internal states",
+      "summary": "Researchers proposed Lexical Reference Frames, a method for interpreting the internal states of language models by using their native vocabulary semantics. This approach aims to read model states more accurately than existing methods that use fixed lenses or treat states as point clouds.",
+      "whyItMatters": "It improves interpretability techniques for understanding what language models represent internally.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22169"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22169",
+        "code": "https://github.com/jianguda/lexframe",
+        "model": null,
+        "demo": "https://jianguda.github.io/blogs/lexframe/"
+      }
+    },
+    {
+      "id": "study-explores-how-vision-language-models-can-ex-687201",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Study explores how vision-language models can explore 3D space from single images",
+      "summary": "A new study investigates how vision-language models can learn to actively explore 3D environments using only single images at a time. This approach preserves the model's native visual encoding rather than relying on multi-view inputs or pre-computed 3D representations.",
+      "whyItMatters": "It brings VLM spatial exploration closer to human-like perception without requiring multi-view data.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.21783"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.21783",
+        "code": null,
+        "model": null,
+        "demo": "https://williamium3000.github.io/act3d/"
+      }
+    },
+    {
+      "id": "officetown-framework-simulates-professional-orga-fc264c",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "OfficeTown framework simulates professional organizations for AI agents",
+      "summary": "OfficeTown is a generative simulation framework that creates professional organizations where AI agents handle tasks and accumulate context over time. The system is designed to help agents develop intelligence by working with files and software tools in a realistic professional setting.",
+      "whyItMatters": "It enables researchers to test multi-agent collaboration in complex, long-term workplace simulations.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23194"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23194",
+        "code": null,
+        "model": null,
+        "demo": "https://officeintelligence.github.io/"
+      }
+    },
+    {
+      "id": "scipivot-benchmark-evaluates-scientific-judgment-5d9ad5",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "SciPiVot benchmark evaluates scientific judgment in AI research agents",
+      "summary": "Researchers introduced SciPiVot, a benchmark designed to evaluate how well large language model agents make critical scientific decisions during autonomous research. The tool addresses the challenge of assessing open-ended judgment in long-running experiments.",
+      "whyItMatters": "It helps measure and improve the reasoning and decision-making capabilities of autonomous science agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.21082"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.21082",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "bridgewam-method-improves-action-prediction-in-w-b821b0",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "BridgeWAM method improves action prediction in world models",
+      "summary": "A new method called BridgeWAM uses latent bridge queries to connect video and action experts in World Action Models. This approach improves the selection of relevant visual features for action prediction compared to previous dense attention methods.",
+      "whyItMatters": "It enhances the efficiency and accuracy of world models used for video and action forecasting.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14746"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14746",
+        "code": "https://github.com/jxfang04/BridgeWAM-code",
+        "model": null,
+        "demo": "https://bridgewam.github.io/Bridge-Wam-show/"
+      }
+    },
+    {
+      "id": "study-examines-attribute-object-binding-in-visio-a7c6cb",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Study examines attribute-object binding in vision-language models",
+      "summary": "Researchers investigated how vision-language models handle the relationship between attributes and objects in retrieval tasks. The study highlights the need for embeddings to capture not just which concepts are present, but also how they are connected.",
+      "whyItMatters": "It identifies key limitations in how VLMs bind visual attributes to objects during retrieval.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22602"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22602",
+        "code": "https://github.com/Netanel-Tamir/Stuck-On-Shuffle",
+        "model": null,
+        "demo": "https://stuck-on-shuffle.github.io/"
+      }
+    },
+    {
+      "id": "research-explores-how-image-generation-expands-m-6c2558",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Research Explores How Image Generation Expands Model Knowledge",
+      "summary": "A new protocol called Knowledge Transfer Probing tests whether training unified multimodal models to generate images helps them learn visual information not found in text. The study provides a controlled way to measure this knowledge expansion.",
+      "whyItMatters": "It gives researchers a reliable method to track how multimodal training improves a model's internal understanding of visual data.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.21459"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.21459",
+        "code": "https://github.com/kevinlllee/Knowledge-Transfer-Probing",
+        "model": null,
+        "demo": "https://kevinlllee.github.io/Knowledge-Transfer-Probing/"
+      }
+    },
+    {
+      "id": "new-metric-tracks-the-path-of-llm-predictions-0375b0",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "New Metric Tracks the Path of LLM Predictions",
+      "summary": "Researchers introduced Belief-Trajectory Energy, a measure that characterizes how large language models revise their predictions across different layers. This approach allows for observation of the internal process leading to a final output, rather than just the result.",
+      "whyItMatters": "Understanding the internal trajectory of model layers helps developers diagnose how language models arrive at specific conclusions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.05114"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.05114",
+        "code": null,
+        "model": null,
+        "demo": "https://yingjiahao14.github.io/BTE-web/"
+      }
+    },
+    {
+      "id": "speculative-sampling-enhances-interactive-video-5c1f41",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "Speculative Sampling Enhances Interactive Video Generation",
+      "summary": "A new technique uses speculative sampling to improve interactive video generation by utilizing larger chunks of data. This method improves video quality and GPU efficiency while keeping the increase in sampling time modest.",
+      "whyItMatters": "It optimizes GPU resource usage while maintaining high fidelity for interactive video generation tasks.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20556"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20556",
+        "code": "https://github.com/Yubo-Shankui/SpeculativeSampling",
+        "model": null,
+        "demo": "https://yubo-shankui.github.io/speculative_sampling/"
+      }
+    },
+    {
+      "id": "dlite-accelerates-inference-for-agentic-ai-workl-f4e9ac",
+      "createdAt": "2026-10-19T13:52:07.040828+00:00",
+      "headline": "DLite Accelerates Inference for Agentic AI Workloads",
+      "summary": "DLite is a history-free speculative decoding method designed to speed up large language model inference for agentic tasks. It addresses the challenges posed by long and continuously evolving contexts in these workloads.",
+      "whyItMatters": "It directly targets the latency bottlenecks common in long-context agentic workflows.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23787"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23787",
+        "code": "https://github.com/SJTU-DAI-Sys/DLite",
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-19T05:08:12.842227+00:00"
+  "updatedAt": "2026-10-19T13:52:15.609605+00:00"
 }
