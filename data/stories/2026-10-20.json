@@ -1,0 +1,415 @@
+{
+  "date": "2026-10-20",
+  "stories": [
+    {
+      "id": "snowflake-adds-decision-fast-to-cortex-ai-for-re-d05aef",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "Snowflake adds Decision Fast to Cortex AI for real-time data routing",
+      "summary": "Snowflake has added Decision Fast to its Cortex AI platform, allowing users to classify, score, and route data in real time. Developers can access these capabilities using SQL or a REST API.",
+      "whyItMatters": "It enables organizations to build real-time data workflows and decision logic directly inside their data warehouse.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-decision-fast-low-latency-ai-decisions"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "twelvelabs-pegasus-1-5-video-model-launches-on-a-d400a6",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "TwelveLabs Pegasus 1.5 video model launches on Amazon Bedrock",
+      "summary": "Amazon Bedrock now offers TwelveLabs Pegasus 1.5, a video language model that converts long-form video into structured, timestamped metadata. The update includes new features for video segmentation and multimodal prompting with reference images.",
+      "whyItMatters": "It gives developers managed access to advanced video understanding capabilities for search and analysis.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-vllm-features-improve-inference-speed-with-p-83ef29",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "New vLLM features improve inference speed with push-based and bi-directional KV transfer",
+      "summary": "Recent updates to the vLLM inference engine introduce push-based and bi-directional key-value transfer methods. These improvements reduce the time to the first token and allow prefill and decode nodes to reuse computed context across conversation turns.",
+      "whyItMatters": "Optimizing key-value cache transfers significantly reduces latency and resource overhead for large language model inference.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-outlines-methods-to-audit-llm-evalu-a540d1",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "Google Cloud outlines methods to audit LLM evaluators for bias",
+      "summary": "A Google Cloud blog post discusses how large language models used as judges can carry subjective biases, such as favoring verbose responses. The article suggests three methods to audit these AI evaluators to ensure they are objective.",
+      "whyItMatters": "Auditing AI judges helps maintain reliability and fairness when language models are used to evaluate other systems.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "snowflake-builds-ai-agent-to-automatically-fix-b-5351e8",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "Snowflake builds AI agent to automatically fix broken data pipelines",
+      "summary": "Snowflake's data team created an AI agent that diagnoses pipeline failures and opens a proposed fix in under 16 minutes on average. The agent investigates logs and code to identify root causes, while a human still reviews and approves the final changes.",
+      "whyItMatters": "Automating initial diagnosis of pipeline errors reduces maintenance overhead for data engineering teams.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-agent-fixes-data-pipeline-failures"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "cern-and-mistral-sign-partnership-to-develop-ai-bfe3d8",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "CERN and Mistral sign partnership to develop AI foundation models for science",
+      "summary": "CERN and Mistral have signed a statement of intent to collaborate on developing foundation models for scientific discovery, with an initial focus on high-energy physics. The partnership aims to create a Large Physics Model trained on data from the Large Hadron Collider.",
+      "whyItMatters": "Applying advanced foundation models to particle physics data could accelerate analysis and discovery in scientific research.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-research-releases-harness2-for-recursive-a6f637",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "Google Research releases Harness2 for recursive agent optimization",
+      "summary": "Google Research has introduced Harness2, a framework that optimizes the system surrounding AI agents, such as prompts and tools, without changing the underlying model weights. The tool uses a recursive process to refine agent performance on unseen tasks.",
+      "whyItMatters": "Optimizing agent scaffolding independently of model weights provides a systematic way to improve agent reliability.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/google-research/harness2"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-introduces-genrecs-tokenization-for-ad-reco-5bcc76",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "Meta introduces GenRecs Tokenization for ad recommendation systems",
+      "summary": "Meta has developed a new data representation called GenRecs Tokenization that allows its ad recommendation system to use large language models to understand ad content and user preferences. This approach has resulted in a 0.35% increase in conversions for advertisers across various platforms.",
+      "whyItMatters": "It demonstrates a practical integration of language models into large-scale commercial recommendation systems.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Meta Engineering (ML)",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-improves-ai-agent-reliability-using-a-thin-5641e4",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "Meta improves AI agent reliability using a thin orchestrator design",
+      "summary": "Meta engineers found that reducing the responsibilities of a central AI agent to routing tasks and enforcing checks, while delegating domain-specific reasoning to specialized agents, improved efficiency and accuracy in data pipelines.",
+      "whyItMatters": "A modular architecture with a minimal central coordinator helps manage complex multi-agent workflows effectively.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Meta Engineering (ML)",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "torchneuron-plugin-simplifies-running-hugging-fa-9dbc0d",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "TorchNeuron plugin simplifies running Hugging Face models on AWS Trainium",
+      "summary": "TorchNeuron is a new PyTorch plugin that enables native support for AWS Trainium chips, allowing developers to use standard Hugging Face libraries directly without specialized compiler-like configurations. The tool is set to enter public beta in October 2026.",
+      "whyItMatters": "It lowers the barrier to entry for training and deploying popular open models on custom hardware accelerators.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/hf-torchneuron"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "omnixref-framework-enables-multi-reference-video-f41a1e",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "OmniXRef framework enables multi-reference video editing",
+      "summary": "Researchers have introduced OmniXRef, a framework that allows for video editing by combining text instructions, image references for appearance, and video references for camera movement. This unified approach aims to make creative intent in video editing more flexible and precise.",
+      "whyItMatters": "Combining text, image, and video modalities offers finer control over generative video editing tasks.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22744"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22744",
+        "code": null,
+        "model": null,
+        "demo": "https://oliver-cong02.github.io/OmniXRef.github.io/"
+      }
+    },
+    {
+      "id": "consistent-distribution-matching-enables-data-fr-620942",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "Consistent Distribution Matching Enables Data-Free Diffusion Model Distillation",
+      "summary": "A new technique called Consistent Distribution Matching allows diffusion models to undergo distillation for faster inference without needing curated training data. The method helps student models learn directly from teacher dynamics to enable efficient one-step or few-step image generation.",
+      "whyItMatters": "This approach removes the bottleneck of curated training data when optimizing diffusion models for faster generation.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.09221"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.09221",
+        "code": "https://github.com/felix-yuxiang/CDMD",
+        "model": null,
+        "demo": "https://consistentdmd.github.io/"
+      }
+    },
+    {
+      "id": "opmd-framework-extends-language-model-distillati-cf4f8b",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "OPMD Framework Extends Language Model Distillation to Intermediate Computations",
+      "summary": "The OPMD framework improves on-policy distillation by supervising both the final output of a student model and the intermediate computations that produce those predictions. This approach aims to transfer more comprehensive knowledge from teacher models to student models.",
+      "whyItMatters": "Supervising intermediate steps allows student models to capture richer internal reasoning patterns from their teachers.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14022"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14022",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "lev-introduces-looped-decision-models-for-adapti-7e5172",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "LEV Introduces Looped Decision Models for Adaptive Reasoning Depth",
+      "summary": "LEV is a new approach to decision models that allows them to adjust their computational depth based on the complexity of the question instead of using a fixed processing amount for every input. This enables the model to answer simple questions quickly while spending more time on complex tasks.",
+      "whyItMatters": "Adaptive reasoning depth helps balance processing efficiency and response quality based on input complexity.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20951"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20951",
+        "code": "https://github.com/OpenLAIR/lev",
+        "model": null,
+        "demo": "https://openlair.github.io/lev/"
+      }
+    },
+    {
+      "id": "llms-drive-an-explosion-of-custom-firmware-and-h-0e9709",
+      "createdAt": "2026-10-19T20:51:39.452858+00:00",
+      "headline": "LLMs Drive an Explosion of Custom Firmware and Hacks for Music Hardware",
+      "summary": "Large language models are enabling hobbyists to quickly create custom firmware and hacks for hardware synthesizers, samplers, and grooveboxes. Devices from brands like Yamaha, Korg, Roland, and Elektron have gained new capabilities through this AI-assisted development.",
+      "whyItMatters": "AI assistance lowers the barrier to entry for creating specialized software and hardware modifications.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-19T20:51:47.916616+00:00"
+}
