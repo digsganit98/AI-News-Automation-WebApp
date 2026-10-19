@@ -81,7 +81,331 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "researchers-propose-structured-authority-injecti-532115",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "Researchers propose Structured Authority Injection protocol for persistent control in LLM agents",
+      "summary": "A new method called Structured Authority Injection allows human operators to issue binding directives to LLM agents. The approach ensures these directives persist across different planning cycles to close a control gap in multi-agent systems.",
+      "whyItMatters": "It establishes a structured way to maintain human oversight over autonomous agent workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.22373"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "prime-framework-introduces-verifiable-reasoning-c83a12",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "PRIME framework introduces verifiable reasoning for LLM agents",
+      "summary": "A new framework named PRIME helps LLM agents verify that their reasoning is grounded in evidence. It checks records against organizational requirements to determine if tasks like vulnerability reports are ready for investigation.",
+      "whyItMatters": "Verifiable reasoning steps help reduce errors and improve reliability in automated workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.22426"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "frozen-16-megabyte-vocabulary-technique-reduces-590003",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "Frozen 16 megabyte vocabulary technique reduces small language model size",
+      "summary": "Researchers introduced a frozen 16 megabyte vocabulary designed for small and ternary language models. This technique addresses the issue that vocabulary embeddings often constitute the largest part of a model parameters and file size.",
+      "whyItMatters": "Reducing vocabulary footprint helps deploy smaller language models more efficiently on resource-constrained hardware.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.22428"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hierarchical-planning-method-translates-natural-00c203",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "Hierarchical planning method translates natural language to cyber-physical system commands",
+      "summary": "A new hierarchical planning method uses large language models to convert natural language commands into executable control plans for cyber-physical systems. The system addresses gaps where generated plans might misinterpret or omit critical details required for real-world execution.",
+      "whyItMatters": "It bridges the gap between high-level text instructions and reliable physical control execution.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.22441"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "author-in-the-loop-system-uses-ai-agents-to-audi-e0f555",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "Author-in-the-loop system uses AI agents to audit machine learning paper reproducibility",
+      "summary": "Researchers presented an author-in-the-loop system that uses AI agents to audit the reproducibility of machine learning papers. The process makes author declarations explicit inputs to the agent investigation to ensure a shared understanding of expected results.",
+      "whyItMatters": "Automated auditing assists academic venues in checking reproducibility standards efficiently.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.22465"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openmobile-2-open-source-mobile-agent-combines-g-58a7fd",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "OpenMobile-2 open-source mobile agent combines GUI actions with app-native tool calls",
+      "summary": "OpenMobile-2 is a near-frontier mobile agent trained on diverse simulated apps and large-scale data. It achieves strong benchmark results and demonstrates promising transfer to real-device mobile use by combining graphical user interface actions with app-native tool calls.",
+      "whyItMatters": "It advances the capability of open-source models to operate across various mobile application interfaces.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.14157"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.14157",
+        "code": "https://github.com/OpenMobile2/OpenMobile2-Code",
+        "model": null,
+        "demo": "https://os-copilot.github.io/OpenMobile2-Home/"
+      }
+    },
+    {
+      "id": "physclosurebench-evaluates-ai-agents-on-expert-p-37799d",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "PhysClosureBench evaluates AI agents on expert physics research tasks",
+      "summary": "PhysClosureBench is a new benchmark consisting of 50 expert-verified research tasks in physics. It evaluates whether AI agents can organize scientific investigations that lead to well-supported conclusions.",
+      "whyItMatters": "Domain-specific benchmarks help measure the actual scientific reasoning limits of modern AI agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.21767"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.21767",
+        "code": "https://github.com/uncertainty2019/PhysClosureBench",
+        "model": null,
+        "demo": "https://uncertainty2019.github.io/PhysClosureBench/"
+      }
+    },
+    {
+      "id": "hexashell-harness-tests-vision-language-model-ag-328ae6",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "HexaShell harness tests vision language model agents on physical robot manipulation",
+      "summary": "HexaShell is a thin harness that allows vision language model agents to control robots by translating their commands into executable actions. The system explores the limits of coding agents when applied to physical robot manipulation rather than computer tasks.",
+      "whyItMatters": "It provides an evaluation pathway for testing software-oriented language agents in physical environments.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23479"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23479",
+        "code": "https://github.com/HexaFuture/HexaShell",
+        "model": null,
+        "demo": "https://hexafuture.ai/home/"
+      }
+    },
+    {
+      "id": "bizbench-evaluates-ai-agents-on-complex-long-hor-8a3f8e",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "BizBench evaluates AI agents on complex long-horizon business operations",
+      "summary": "Researchers introduced BizBench, a new evaluation tool designed to test how well AI agents handle long and complex business operations. The benchmark focuses on checking the validity of intermediate steps rather than just the final result to reflect challenges like conflicting policies.",
+      "whyItMatters": "Step-by-step verification benchmarks help prepare AI systems for messy corporate environments.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.20424"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.20424",
+        "code": "https://github.com/ant-intl/BizAgentBench",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "into-the-unknown-benchmark-tests-ai-agents-on-op-c92cb6",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "Into the Unknown benchmark tests AI agents on open scientific research problems",
+      "summary": "A new benchmark called Into the Unknown tasks AI agents with writing follow-up research papers based on existing scientific work. The project was developed in collaboration with scientists at US Department of Energy national laboratories to test agents on open scientific problems.",
+      "whyItMatters": "It tests the creative and exploratory capabilities of AI agents in real scientific research scenarios.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.19159"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.19159",
+        "code": "https://github.com/prometheus-eval/into-the-unknown",
+        "model": null,
+        "demo": "https://prometheus-eval.github.io/into-the-unknown/viewer/#/"
+      }
+    },
+    {
+      "id": "tree-aware-posterior-distillation-improves-reinf-36981e",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "Tree-Aware Posterior Distillation improves reinforcement learning for long-term AI tasks",
+      "summary": "Researchers proposed a technique called Tree-Aware Posterior Distillation to help AI agents learn from long sequences of actions. The method addresses the difficulty of assigning credit for specific steps in long-horizon tasks by improving the training process for large language models.",
+      "whyItMatters": "Better credit assignment helps reinforcement learning models handle multi-step workflows more effectively.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23181"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23181",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "carryon-framework-reduces-token-usage-for-long-h-eb5fc3",
+      "createdAt": "2026-10-19T05:08:05.991951+00:00",
+      "headline": "CarryOn framework reduces token usage for long-horizon AI agents using reusable task objects",
+      "summary": "A new system called CarryOn organizes AI agent context around reusable task objects rather than full interaction histories. This approach improved performance on complex benchmarks while significantly reducing the total number of tokens used by the agents.",
+      "whyItMatters": "Reducing token overhead makes running long-horizon agent tasks more efficient and cost-effective.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.18784"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.18784",
+        "code": null,
+        "model": null,
+        "demo": "https://ethannju.github.io/carryon/"
+      }
     }
   ],
-  "updatedAt": "2026-10-18T23:30:45.359432+00:00"
+  "updatedAt": "2026-10-19T05:08:12.842227+00:00"
 }
