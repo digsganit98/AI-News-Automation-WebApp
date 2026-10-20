@@ -1007,7 +1007,331 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "snowflake-launches-horizon-context-in-public-pre-6cc4dd",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Snowflake launches Horizon Context in public preview",
+      "summary": "Snowflake introduced Horizon Context in public preview to ground artificial intelligence in business context using 18 metadata connectors. The tool features steward permissions and description propagation to help artificial intelligence systems better understand specific organizational data.",
+      "whyItMatters": "It helps enterprises integrate artificial intelligence safely by grounding models in governed, structured business data.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/horizon-context-business-knowledge-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-introduces-agent-memory-for-ai-agents-137fd7",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Databricks introduces Agent Memory for AI agents",
+      "summary": "Databricks launched Agent Memory in Beta on its Agent Bricks platform to help artificial intelligence agents retain facts, preferences, and workflows. The architecture improves agent performance and reduces token usage by 31 percent in internal benchmarks.",
+      "whyItMatters": "Memory persistence is essential for scaling artificial intelligence agents across complex, multi-step business workflows.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/introducing-agent-memory-databricks"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-gpt-models-become-available-on-amazon-bed-4f8bcb",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "OpenAI GPT models become available on Amazon Bedrock in Canada",
+      "summary": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock through cross-region inference. This allows users in Canada Central and Canada West to use these models while keeping data processed in North America.",
+      "whyItMatters": "It expands regional access to frontier models while respecting local data processing requirements for enterprises.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-polly-generative-engine-upgraded-with-new-116408",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Amazon Polly Generative engine upgraded with new voices and languages",
+      "summary": "Amazon upgraded the Polly Generative engine with a new model that generates more natural and accurate speech. The update introduces 14 new voices across nine locales along with support for two new languages.",
+      "whyItMatters": "It enhances the natural quality and localization options for text-to-speech applications.",
+      "category": "New Model Release",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mistral-releases-voxtral-3-voice-agent-sdk-835e67",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Mistral releases Voxtral 3 voice agent SDK",
+      "summary": "Mistral introduced Voxtral 3, a software development kit for building real-time voice agents that support over 50 languages. The system combines transcription, emotional speech synthesis, and tool integration for use in virtual assistants and contact centers.",
+      "whyItMatters": "It provides developers with open tools to build multilingual voice agents with emotional synthesis capabilities.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/voxtral-3/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-research-addresses-long-horizon-task-complet-6f09dd",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "New research addresses long-horizon task completion for AI agents",
+      "summary": "A new research paper titled Interlock addresses the challenge of artificial intelligence agents failing to complete multi-step tasks by maintaining relationships between evidence pieces. The work focuses on shifting from local correctness to full task completion in complex environments.",
+      "whyItMatters": "It tackles a core reliability bottleneck preventing artificial intelligence agents from finishing complex, multi-step workflows.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.19686"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.19686",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-reports-success-in-blocking-model-dist-7f4270",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Anthropic reports success in blocking model distillation attacks",
+      "summary": "Anthropic implemented new methods to reduce the effectiveness of distillation attacks on its Claude models, claiming a 90 to 99 percent reduction in harvested data. The company states that these attacks let other firms replicate frontier capabilities without safeguards.",
+      "whyItMatters": "Defending against distillation protects proprietary frontier model capabilities and safety standards.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/distillation-defenses"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-previews-model-hardware-standard-for-a-e8e744",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Anthropic previews Model Hardware Standard for AI agents",
+      "summary": "Anthropic is sharing a research preview of the Model Hardware Standard, a specification that allows artificial intelligence agents to safely operate physical equipment like microscopes and robotic arms. The standard aims to reduce hardware integration time in labs and manufacturing from weeks to hours.",
+      "whyItMatters": "It bridges digital software agents with physical lab and manufacturing hardware.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "us-and-china-introduce-new-regulatory-measures-f-34b84e",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "US and China introduce new regulatory measures for open-weight AI models",
+      "summary": "China's Ministry of Commerce proposed a policy requiring pre-approval to share frontier artificial intelligence models internationally, while the US Department of Homeland Security issued an order restricting DeepSeek from federal procurement. These actions highlight growing government oversight of open-source artificial intelligence.",
+      "whyItMatters": "Increasing regulatory measures on open models reflect geopolitical tensions surrounding artificial intelligence technology.",
+      "category": "Policy & Safety",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Interconnects",
+          "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "llm-d-1-0-released-for-production-scale-ai-infer-8a14a9",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "llm-d 1.0 released for production-scale AI inference",
+      "summary": "Contributors announced the release of llm-d 1.0, a Kubernetes-native open-source framework for deploying large language model inference across various clouds and accelerators. The release aims to make artificial intelligence infrastructure more reliable and cost-effective for enterprise production environments.",
+      "whyItMatters": "It offers infrastructure teams a standardized, cross-cloud tool for managing production inference workloads.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-foundry-adds-scheduled-agents-and-gpt-c5b752",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Microsoft Foundry adds scheduled agents and GPT-6 models",
+      "summary": "Microsoft updated its Foundry platform with Routines, a feature allowing developers to schedule artificial intelligence agents to run automatically on timers or specific events. The update also includes an expanded lineup of GPT-6 models and agent management tools.",
+      "whyItMatters": "It enables autonomous background workflows and expands model choices for enterprise developers.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Azure",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://visualstudiomagazine.com/articles/2026/10/19/microsoft-foundry-update-brings-scheduled-ai-agents-smarter-tool-use-and-gpt-6-models.aspx"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "generative-ai-market-shifts-focus-toward-busines-9badc0",
+      "createdAt": "2026-10-20T17:34:33.947146+00:00",
+      "headline": "Generative AI market shifts focus toward business workflows",
+      "summary": "The global generative artificial intelligence market is projected to grow as businesses transition from simple chatbots to systems that integrate with existing software and automate complex workflows. This shift emphasizes the need for tools that handle multi-step business processes while keeping data accurate.",
+      "whyItMatters": "It highlights the broader enterprise trend toward workflow automation over consumer chat applications.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.coherentmarketinsights.com/blog/information-and-communication-technology/generative-ai-market-trends-from-content-to-workflows-2717"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-20T12:07:47.372455+00:00"
+  "updatedAt": "2026-10-20T17:35:45.337762+00:00"
 }

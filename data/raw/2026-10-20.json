@@ -1112,6 +1112,284 @@
           "checkedAt": "2026-10-20T11:56:15.631410Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-20T17:25:09.856010+00:00",
+      "newItems": 59,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1301,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.859822Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.887391Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 886,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.887611Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.887811Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 91,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.887936Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888040Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888131Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888219Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888304Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888388Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888470Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888508Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888534Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888685Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888714Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888806Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.888912Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.889004Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.889093Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.889363Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-20T17:25:09.889520Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890094Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890220Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890323Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-20T17:25:09.890415Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890500Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890588Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890670Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890759Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.890911Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.891345Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.891463Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.891569Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-20T17:25:09.891599Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -2747,7 +3025,770 @@
       },
       "id": "1cb5223c44bd3f8b",
       "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "publishedAt": "2026-10-20T10:00:00Z",
+      "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "author": null,
+      "extra": {},
+      "id": "b3fcb2e42d321123",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "publishedAt": "2026-10-20T16:09:19Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "ca293d8533a3487d",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "94e7f4f5c0e52bb7",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "84cd8d44e9825e73",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "2596ff929aeef557",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "mistral",
+      "sourceName": "Mistral AI",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "publishedAt": "2026-10-20T12:00:22Z",
+      "excerpt": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.",
+      "author": null,
+      "extra": {},
+      "id": "afe5d96a9d4684fb",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "title": "Called to serve: Tech, research, and positive impact",
+      "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+      "publishedAt": "2026-10-20T16:00:00Z",
+      "excerpt": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post Called to serve: Tech, research, and positive impact appeared first on Microsoft Research .",
+      "author": "Weishung Liu, Chris White",
+      "extra": {},
+      "id": "5cfb05484559629f",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
+      "url": "https://huggingface.co/papers/2610.22328",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Image editing models produce impressive results for individual edits, but their quality often deteriorates over multiple editing turns. Each editing turn introduces small distribution shifts that accumulate over successive edits, creating a gap between the input distributions encountered during the editor's original training and multi-turn inference. We introduce a training scheme that makes multi-turn image editing stable under this accumulating distribution shift. A key is to force the…",
+      "author": "Sara Dorfman, Nir Goren, Gal Barak, Daniel Cohen-Or, Or Patashnik",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": "https://saradorfman1.github.io/ACEdit/",
+        "arxivUrl": "https://arxiv.org/abs/2610.22328"
+      },
+      "id": "f96074fa72ecc21c",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
+      "url": "https://huggingface.co/papers/2606.31876",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Safety in Multimodal Large Language Models (MLLMs) depends on unsafe multimodal data for post-training alignment or activation steering. However, such data is hard to collect, must be gathered anew for each modality, and its collection and distribution raise ethical and legal concerns. In this work, we relax this constraint and investigate whether textual refusal directions, extracted directly from the LLM backbone, generalize across modalities (i.e., image, video). Preliminary findings…",
+      "author": "Moreno D&#39;Incà, Nicu Sebe, Massimiliano Mancini",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/Moreno98/MARS",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2606.31876"
+      },
+      "id": "70fc0f1ae2f90050",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
+      "url": "https://huggingface.co/papers/2610.16782",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Industrial manipulation in flexible manufacturing, e.g., high-mix, low-volume (HMLV) electronics assembly, requires robot policies to adapt to changing products and production conditions. Such settings impose industrial process constraints, including product variants, moving material flows, finite execution windows, and tight geometric tolerances. However, existing evaluation frameworks do not systematically capture these constraints when assessing generalist robot policies. To address this…",
+      "author": "Ming Shin Cindy Sung, Duan Leijiahao, Haoxiang Wang, Boning Tan, Liangna Fu, Chao Tan, Yafu Li, Yulong Chen, Chaoqun Wan, Zhen Huang, Shuxian Liang, Xian-Sheng Hua",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/IAIE-PhysicalAI/LIBERO-Industry",
+        "projectPage": "https://iaie-physicalai.github.io/LIBERO-Industry/",
+        "arxivUrl": "https://arxiv.org/abs/2610.16782"
+      },
+      "id": "0bd51de7509d5bc8",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Interlock: From Local Correctness to Task Completion in Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2610.19686",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Large language model agents increasingly undertake long-horizon tasks in complex environments characterized by fragmented evidence, partially completed states, and dependencies across resources and artifacts. Existing agents may satisfy individual requirements while failing to maintain these relationships, producing locally correct but incomplete outcomes. These failures arise because task completion depends on relationships among environmental evidence, consequential decisions, and required…",
+      "author": "Linji Hao, Yanji He, Zihan Wang, Hansi Yang, Jiayuan Zhang, Hongyan Hao, Qi Gu, Yan Feng, Han Wu",
+      "extra": {
+        "upvotes": 32,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.19686"
+      },
+      "id": "6f09dd01ef3ed7c4",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Polly Generative engine upgraded with more natural speech, 14 new voices, and 2 new languages",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/polly-generative/",
+      "publishedAt": "2026-10-20T15:32:00Z",
+      "excerpt": "Today, we are introducing a new model behind the Amazon Polly Generative engine that delivers more natural-sounding, accurate speech output with low latency. With this upgrade, you get access to an enhanced voice portfolio with higher overall quality, 14 new voices across nine locales, and two new languages—Hindi and Finnish—now generally available on the Generative engine for the first time. New voices include Kenneth and Nate (US English), Russell and Curtis (Australian English), Kiara and…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "9d805a9eba89d02a",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
+      "publishedAt": "2026-10-20T16:42:53Z",
+      "excerpt": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
+      "author": "Roopesh Ramklass",
+      "extra": {},
+      "id": "753fc98bb47cb9f3",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Discover tools at runtime with AWS Agent Registry",
+      "url": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/",
+      "publishedAt": "2026-10-20T16:22:24Z",
+      "excerpt": "Hardcoded tool wiring breaks down as an agent's catalog grows from a handful of tools to hundreds. This post walks through a runtime Discover, Instantiate, Execute loop built on AWS Agent Registry, where an orchestrator discovers MCP servers and A2A agents through semantic search at runtime instead of compiling every tool at build time.",
+      "author": "Vibhu Pareek",
+      "extra": {},
+      "id": "402f87a8f5c1ffb0",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Securing AI agent identity with X.509 PKI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/",
+      "publishedAt": "2026-10-20T16:03:48Z",
+      "excerpt": "Learn how to secure multi-agent AI systems with cryptographic identity using Keyfactor EJBCA and AWS services. This reference architecture combines signed request envelopes, user-signed delegation assertions, RFC 8693 audience-scoped tokens, and real-time OCSP revocation to prove agent identity and prevent request forgery across agent-to-agent and MCP tool calls.",
+      "author": "Deepakkumar Sharma",
+      "extra": {},
+      "id": "e5f6d3284f597c04",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-20T15:57:57Z",
+      "excerpt": "Learn how Eon replaced per-tool credentials and local MCP processes across AWS, GCP, and Azure with a single authenticated Amazon Bedrock AgentCore gateway, giving more than 100 developers and autonomous agents unified access to production investigation and cutting new-engineer onboarding from two days to two minutes.",
+      "author": "Dor Shaboy",
+      "extra": {},
+      "id": "441fb3c5749df7f5",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-20T15:39:04Z",
+      "excerpt": "Build a governed semantic layer for agentic AI on AWS with the Denodo Platform and Amazon Bedrock AgentCore. It federates Amazon Aurora, Amazon Redshift, and an on-premises PostgreSQL database into a single customer 360 view an agent queries in VQL, with identity propagation and row- and column-level access control enforced at the semantic layer.",
+      "author": "Suntosh Murthy",
+      "extra": {},
+      "id": "9b29e0f65dbe9ce7",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-20T15:36:39Z",
+      "excerpt": "The third post in our semantic-layer series builds a customer 360 across Amazon Redshift and Amazon Aurora with Strategy Mosaic, exposes it to a Strands agent on Amazon Bedrock AgentCore through the Mosaic MCP server, and enforces per-user row and column security end-to-end.",
+      "author": "Zhili Cheng",
+      "extra": {},
+      "id": "31ded39c9d23707e",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-20T15:33:54Z",
+      "excerpt": "The third post in our semantic-layer series builds a governed customer 360 model on Amazon Redshift with AtScale, then exposes it to a Strands agent on Amazon Bedrock AgentCore through the AtScale MCP server. Identity propagation, RBAC, row security, and full query audit are enforced at the semantic layer, not the prompt.",
+      "author": "Frank Lapolito",
+      "extra": {},
+      "id": "bedc00d59bfc6b97",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "MemCurrent: Designing Persistent Memory for Production Agents",
+      "url": "https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents",
+      "publishedAt": "2026-10-20T18:15:47Z",
+      "excerpt": "AI tools have made it easy to vibe code agents. Building and maintaining an enterprise...",
+      "author": null,
+      "extra": {},
+      "id": "3d618d4b64837529",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "Introducing Agent Memory on Databricks",
+      "url": "https://www.databricks.com/blog/introducing-agent-memory-databricks",
+      "publishedAt": "2026-10-20T17:26:56Z",
+      "excerpt": "Today we're introducing agent memory on Agent Bricks, Databricks' agent developer...",
+      "author": null,
+      "extra": {},
+      "id": "d47e7e241109b737",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "CustomerLake enters Beta: Leading enterprises going live with the Agentic CDP",
+      "url": "https://www.databricks.com/blog/customerlake-beta",
+      "publishedAt": "2026-10-19T22:22:13Z",
+      "excerpt": "Today, we’re excited to share a major CustomerLake milestone:&nbsp;Campaign Agents is...",
+      "author": null,
+      "extra": {},
+      "id": "d277eb5fb5a7a489",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Horizon Context: Put Business Knowledge to Work for AI",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/horizon-context-business-knowledge-ai",
+      "publishedAt": "2026-10-20T19:58:00Z",
+      "excerpt": "Horizon Context is in public preview with 18 metadata connectors, steward permissions and description propagation to ground AI in business context.",
+      "author": "Shinji Kim, Danielle Kucera",
+      "extra": {},
+      "id": "1b59db98f81b8c88",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "interconnects",
+      "sourceName": "Interconnects",
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "publishedAt": "2026-10-20T17:04:21Z",
+      "excerpt": "Western open models strike back",
+      "author": "Florian Brand",
+      "extra": {},
+      "id": "064ad9927d51a30c",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "one-useful-thing",
+      "sourceName": "One Useful Thing",
+      "title": "30 Months on the Exponential (in Charts)",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+      "publishedAt": "2026-10-20T15:57:59Z",
+      "excerpt": "My new book is out today... what happened since the last one",
+      "author": "Ethan Mollick",
+      "extra": {},
+      "id": "ecfa38b3d9901c2e",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "bens-bites",
+      "sourceName": "Ben's Bites",
+      "title": "How I built my ‘everything’ app",
+      "url": "https://www.bensbites.com/p/how-i-built-my-everything-app",
+      "publishedAt": "2026-10-20T13:02:28Z",
+      "excerpt": "AI can customise your home devices, like your TV",
+      "author": null,
+      "extra": {},
+      "id": "3bc1b8aca540bf2c",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "If you cannot define what your brand should mean, how can you measure whether artificial…",
+      "url": "https://medium.com/@wilbert_20655/if-you-cannot-define-what-your-brand-should-mean-how-can-you-measure-whether-artificial-9ad08fddfead?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T15:49:42Z",
+      "excerpt": "Companies are investing considerable resources in artificial intelligence. Marketing departments are experimenting with AI-generated… Continue reading on Medium »",
+      "author": "KVD",
+      "extra": {},
+      "id": "dea0f8e11e924f01",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Can an AI Coworker Dig Through Your Slack and Gmail for You? I Tried It With Databricks Genie One.",
+      "url": "https://medium.com/@avenvector/can-an-ai-coworker-dig-through-your-slack-and-gmail-for-you-i-tried-it-with-databricks-genie-one-786da50a83ac?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T15:24:47Z",
+      "excerpt": "14 lookups to answer one customer email, and the time it almost made me contradict myself Continue reading on Medium »",
+      "author": "Anand Trivedi",
+      "extra": {},
+      "id": "3acab7db0778bc77",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "12 TikTok Hooks for Product Videos That Do Not Feel Like Ads",
+      "url": "https://medium.com/@henrichstenn/12-tiktok-hooks-for-product-videos-that-do-not-feel-like-ads-09e4793bd567?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T15:01:02Z",
+      "excerpt": "A product video can feel like an ad before it gives someone a reason to watch. Continue reading on Medium »",
+      "author": "Henrich the growth expert",
+      "extra": {},
+      "id": "fd6757ec07cf4934",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Runway’s CEO Says AI Can Replace Actors. AI Films Keep Borrowing Famous Faces.",
+      "url": "https://medium.com/all-my-circuits/runways-ceo-says-ai-can-replace-actors-ai-films-keep-borrowing-famous-faces-37a01c87c809?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T14:35:55Z",
+      "excerpt": "Cristóbal Valenzuela told a visual effects conference that AI replacing actors is “already happening in a way.” Continue reading on All My Circuits »",
+      "author": "Aaron Harme",
+      "extra": {},
+      "id": "fc0b4626ea4367c3",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Check Your Website SEO for Free: A Step-by-Step Guide",
+      "url": "https://medium.com/@scorivra/how-to-check-your-website-seo-for-free-a-step-by-step-guide-761984ffe1ce?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T12:03:27Z",
+      "excerpt": "Learn how to check your website SEO for free, identify technical issues, and review SEO, AEO, GEO, and local search readiness step by step. Continue reading on Medium »",
+      "author": "Scorivra",
+      "extra": {},
+      "id": "ce4d00192b0bae32",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Announcements",
+      "url": "https://www.anthropic.com/news/announcements",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "f7f4b09850be07cd",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Partnerships",
+      "url": "https://www.anthropic.com/news/partnerships",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "8abc011979e3d51d",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Product",
+      "url": "https://www.anthropic.com/news/product",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "3b519427db83a8aa",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Policy",
+      "url": "https://www.anthropic.com/news/policy",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "932805ef3b32be3c",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Safeguards",
+      "url": "https://www.anthropic.com/news/safeguards",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "f1be5a7a9a1b7222",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Strengthening our defenses against distillation attacks",
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "8441dda466a0cda9",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Security",
+      "url": "https://www.anthropic.com/news/security",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "2ce0bd482bd75e5e",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Partnering with Accenture on embedded evaluation",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "879ba832b5d6e4eb",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Introducing the Life Sciences Verification Program",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "819f22112f1be3fa",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "eae94dc05bee8b9f",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Improving our alignment and security efforts",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "f69a0bdc6c671a98",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "1673cfd4c00e7608",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Expanding our support for scientists",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "d8566decaa8e36d6",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "e27a749f1c8ddbc6",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "How Claude’s text watermark works",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "8c71320492095111",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "publishedAt": "2026-10-20T13:06:22Z",
+      "excerpt": "",
+      "author": "robtherobber",
+      "extra": {
+        "points": 192,
+        "comments": 104,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50165801"
+      },
+      "id": "6a01ce2d8f264031",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Pocket TTS which supports voice cloning is now just 1.9 million parameters",
+      "url": "https://kyutai.org/blog/2026-10-20-pocket-tts-small/",
+      "publishedAt": "2026-10-20T14:59:15Z",
+      "excerpt": "",
+      "author": "/u/Affectionate_Hat_585",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xauekr/pocket_tts_which_supports_voice_cloning_is_now/"
+      },
+      "id": "b17e1b1593951789",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap — the bossman makes use of AI tooling himself after issuing clear pro-AI directives",
+      "url": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
+      "publishedAt": "2026-10-20T14:39:44Z",
+      "excerpt": "",
+      "author": "/u/theimposingshadow",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xatwpw/linus_torvalds_posts_his_first_aiassisted_patch/"
+      },
+      "id": "b2622be66d5a434b",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "ornith-ai/Ornith-1.5-122B (Qwen finetune)",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+      "publishedAt": "2026-10-20T14:19:07Z",
+      "excerpt": "from Ornith: Ornith-1.5-122B Chirp Chirp! 🐦 We are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement. Ornith-1.5 extends Ornith-1.0 (which was developed on top of Qwen3.5 and Gemma4 with additional continued pretraining, mid-training, and post-training) by expanding the self-improvement loop from scaffold and rollout optimization to jointly optimizing task generation, scaffold construction, and solution rollouts. Rather than relying on a…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xatebw/ornithaiornith15122b_qwen_finetune/"
+      },
+      "id": "961c19e76e6ab3da",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Waymo's robotaxis had 95% fewer serious crashes than humans. Now it plans a fleet of 20,000 cars",
+      "url": "https://maccus.fr/en/waymo-robotaxis-serious-crashes/",
+      "publishedAt": "2026-10-20T13:09:37Z",
+      "excerpt": "Waymo's safety hub now covers 271 million driverless miles: 0.01 serious-injury crashes per million miles, against 0.21 for the human benchmark in the same areas. An independent IIHS study on older data (2021-2024, about 50 million miles) found 81% fewer injury crashes, though Austin came out slightly worse than human drivers. Semafor now reports Waymo wants to go from about 4,000 cars to 20,000 by the end of 2027, funded by a $5 billion loan.",
+      "author": "/u/Anen-o-me",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xarq3w/waymos_robotaxis_had_95_fewer_serious_crashes/"
+      },
+      "id": "919da0fe0adfb48b",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "publishedAt": "2026-10-19T21:06:33Z",
+      "excerpt": "",
+      "author": "/u/ResultBackground2450",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xa944i/we_were_looking_at_it_wrong_the_explosive_claim/"
+      },
+      "id": "92c294f17fe5c809",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "llm-d 1.0 Advances Open, Cost-Efficient AI Inference for Production Scale",
+      "url": "https://www.prnewswire.com/news-releases/llm-d-1-0-advances-open-cost-efficient-ai-inference-for-production-scale-302913429.html",
+      "publishedAt": "2026-10-20T12:00:00Z",
+      "excerpt": "SAN JOSE, Calif., Oct. 20, 2026 /PRNewswire/ -- Today, llm-d project contributors announced the release of llm-d 1.0, a major milestone for the open source project designed to help organizations deploy and scale large language model inference more efficiently across modern infrastructure. Founded in 2025 by Red Hat, IBM (NYSE: IBM), Google Cloud, CoreWeave and NVIDIA, and now governed by the Cloud Native Computing Foundation (CNCF), llm-d plays a key role in the open foundation for enterprises…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.801
+      },
+      "id": "36ca7659dc33344d",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "There is no moat for LLM giants | Constellation Research",
+      "url": "https://www.constellationr.com/insights/news/there-no-moat-llm-giants",
+      "publishedAt": "2026-10-20T09:00:00Z",
+      "excerpt": "Inception launched Mercury 3, a large language model that uses diffusion to match mid-level models from Anthropic and OpenAI, Cloudflare announced a new set of System One models, and MiniMax M3.1 Flash was released on the open model front. [...] Data to Decisions\n\nInception launched Mercury 3, a large language model that uses diffusion to match mid-level models from Anthropic and OpenAI, Cloudflare announced a new set of System One models, a...\n\nLarry Dignan\n\nInsights News\n\nOctober 19,…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.694
+      },
+      "id": "d40fbc96837ccf5b",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "llm-d 1.0 hardens open-source AI inference for production - IBM Research",
+      "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
+      "publishedAt": "2026-10-20T12:00:00Z",
+      "excerpt": "Today at the PyTorch Conference North America, llm-d project contributors are announcing llm-d 1.0, a major milestone for open-source AI infrastructure. A Kubernetes-native distributed inference serving network, llm-d makes it possible to deploy inference stacks for any model, on any accelerator, in any cloud. [...] The release signals that llm-d has moved beyond demonstrating individual performance techniques and is ready to support the realities of production: sustained efficiency under many…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.642
+      },
+      "id": "8a14a92d09a13dfe",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft Foundry Update Brings Scheduled AI Agents, Smarter Tool Use and GPT-6 Models -- Visual Studio Magazine",
+      "url": "https://visualstudiomagazine.com/articles/2026/10/19/microsoft-foundry-update-brings-scheduled-ai-agents-smarter-tool-use-and-gpt-6-models.aspx",
+      "publishedAt": "2026-10-19T19:00:00Z",
+      "excerpt": "Microsoft also updated its Foundry software development kits (SDKs) for Python, JavaScript/TypeScript, .NET and Java, adding capabilities related to Insights, voice agents, routines and other features. The September .NET Azure.AI.Projects 3.0 release line remains in beta.\n\nDevelopers using the Azure Developer CLI should also check for breaking changes in the Foundry extensions, including revised configuration requirements for agent deployments and changes to deployment commands. [...] Foundry…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.685
+      },
+      "id": "c5b7528309be9b6f",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Open Source AI Agent Framework: Choose the Right Layer",
+      "url": "https://form.io/open-source-ai-agent-framework",
+      "publishedAt": "2026-10-20T11:35:06Z",
+      "excerpt": "OpenAI Agents SDK is a lower-friction choice for teams that want agents, tools, handoffs, guardrails, tracing, and structured outputs without adopting a heavier orchestration runtime.\n\nLlamaIndex and Haystack are relevant for document-heavy workflows where retrieval, knowledge, and RAG quality carry the hardest problem. [...] OpenAI Agents SDK fits lighter SDK-driven builds. Microsoft Agent Framework fits many Microsoft-stack teams. Form.io UAG fits governed Form.io workflows that agents need…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.643
+      },
+      "id": "3c4a8fe13b852f70",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Generative AI Market Trends From Content To Workflows",
+      "url": "https://www.coherentmarketinsights.com/blog/information-and-communication-technology/generative-ai-market-trends-from-content-to-workflows-2717",
+      "publishedAt": "2026-10-19T16:00:00Z",
+      "excerpt": "Adobe: On April 20, 2026, Adobe announced CX Enterprise Coworker, designed to orchestrate customer-experience workflows across fragmented data and content systems. Its planned capabilities include monitoring signals, recommending next actions and executing experiences across channels with human oversight. The development applies generative and agentic AI to a defined business process: customer engagement. [...] Google Cloud: On April 22, 2026, Google introduced the Gemini Enterprise Agent…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.667
+      },
+      "id": "17fc97d1d8105513",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "New LF Research Survey Shows Generative AI Cuts Open Source Coding Time in Half, but 25% of Incoming Pull Requests are Considered AI Slop",
+      "url": "https://www.prnewswire.com/news-releases/new-lf-research-survey-shows-generative-ai-cuts-open-source-coding-time-in-half-but-25-of-incoming-pull-requests-are-considered-ai-slop-302913843.html",
+      "publishedAt": "2026-10-20T13:00:00Z",
+      "excerpt": "Linux Foundation Launches BUILD Foundation to Sustain Large-Scale, Multi-Language Build and Test Systems\n\n### Linux Foundation Launches BUILD Foundation to Sustain Large-Scale, Multi-Language Build and Test Systems\n\nThe Linux Foundation, the nonprofit organization enabling mass innovation through open source, today announced the operational launch of the BUILD... [...] RALEIGH, N.C., Oct. 20, 2026 /PRNewswire/ -- All Things Open 2026 – The Linux Foundation, the nonprofit organization enabling…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.576
+      },
+      "id": "e79666198201cd2a",
+      "collectedAt": "2026-10-20T17:25:09.856010+00:00"
     }
   ],
-  "updatedAt": "2026-10-20T11:56:15.583683+00:00"
+  "updatedAt": "2026-10-20T17:25:09.856010+00:00"
 }
