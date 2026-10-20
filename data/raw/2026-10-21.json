@@ -1,0 +1,591 @@
+{
+  "date": "2026-10-21",
+  "runs": [
+    {
+      "runAt": "2026-10-20T21:47:02.231876+00:00",
+      "newItems": 23,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1302,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.237103Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.273033Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 886,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.273390Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.273674Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 91,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.273838Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274022Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274175Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274338Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274487Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274629Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274779Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274837Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.274880Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.275140Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.275186Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.275332Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.275476Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.275615Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.275753Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.276051Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-20T21:47:02.276201Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.276344Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.277203Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.277352Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-20T21:47:02.277495Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.277638Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.277776Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.277939Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.278087Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.278291Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.278867Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.279076Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.279245Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-20T21:47:02.279293Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "author": null,
+      "extra": {},
+      "id": "dbaa902542534b3a",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "publishedAt": "2026-10-20T18:17:47Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "4eb9f7080b11166e",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: OpenMOSS-Team/MOSS-Image-Base",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 432,
+        "trendingScore": 409,
+        "task": "text-to-image"
+      },
+      "id": "84db187a27572ffd",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Structured outputs for Claude models available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+      "publishedAt": "2026-10-20T14:00:00Z",
+      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models across both the bedrock-runtime and the bedrock-mantle endpoint. Whether you call Claude through boto3 and the bedrock-runtime APIs or through the Messages API and the bedrock-mantle endpoint, you can now receive schema-compliant JSON responses that conform to a defined structure, without custom parsing, retry logic, or post-processing. With structured outputs for Claude on Amazon Bedrock, you can automate reliable,…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "4aeab5bded72bbbc",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
+      "publishedAt": "2026-10-20T21:14:10Z",
+      "excerpt": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.",
+      "author": "Kevin Shabahang",
+      "extra": {},
+      "id": "65f689d035704c2c",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Work management context for AI agents with Smartsheet MCP on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+      "publishedAt": "2026-10-20T17:59:07Z",
+      "excerpt": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live work management data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
+      "author": "Galina Jordanowa",
+      "extra": {},
+      "id": "209f0f415bceb89a",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-20T17:52:50Z",
+      "excerpt": "Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitoring, procurement, and email. This post shows how Amazon Bedrock AgentCore exposes those systems as a governed tool layer, and how Amazon Quick turns them into one conversational experience for business users, with a deploy-it-yourself walkthrough.",
+      "author": "Vineet Kachhawaha",
+      "extra": {},
+      "id": "bf3eb719b179efc5",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
+      "publishedAt": "2026-10-20T17:48:27Z",
+      "excerpt": "Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide between supervised fine-tuning (SFT) and reinforcement learning with GRPO. SFT took reasoning-language accuracy from 22% to 100%, and GRPO added measurable gains where headroom existed.",
+      "author": "Mijanur Palash",
+      "extra": {},
+      "id": "80e6bced4c1b925f",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
+      "publishedAt": "2026-10-20T17:34:04Z",
+      "excerpt": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
+      "author": "Urvish Saraiya",
+      "extra": {},
+      "id": "d42536b869033e81",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity/",
+      "publishedAt": "2026-10-20T16:00:00Z",
+      "excerpt": "Whether you are iterating on a quick bug fix or planning a complex migration, different tasks call for different models. In keeping with Google Cloud's commitment to an open ecosystem and to give developers the right model for every job, Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity for Google Cloud customers. Claude Opus 5.5 is built for complex work while Claude Sonnet 5.5 is a faster, lower-cost complement. Once enabled by an administrator, developers can…",
+      "author": "Rich Hyndman",
+      "extra": {},
+      "id": "60641de70bf65852",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "url": "https://www.latent.space/p/sfcompute2",
+      "publishedAt": "2026-10-20T19:31:57Z",
+      "excerpt": "From GPU trading to physical settlement, independent markets, and programmable compute",
+      "author": null,
+      "extra": {},
+      "id": "977d926a0cb6cc70",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Teaching a CPU voice to sound like Spain, and why we stopped training early",
+      "url": "https://medium.com/@inferencekey/teaching-a-cpu-voice-to-sound-like-spain-and-why-we-stopped-training-early-c6a2ad85d5d1?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T20:32:59Z",
+      "excerpt": "We fine-tuned Kyutai’s Pocket TTS for Castilian Spanish. The best version came from training less, and from listening ourselves. Continue reading on Medium »",
+      "author": "InferenceKey",
+      "extra": {},
+      "id": "1e38a1cc87fb6c88",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "An AI Assistant with Red Lines, Powered by Amazon Bedrock Guardrails",
+      "url": "https://medium.com/@oguzhanhiziroglu/an-ai-assistant-with-red-lines-powered-by-amazon-bedrock-guardrails-7412321bad8d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T20:21:07Z",
+      "excerpt": "Hello everyone. I’m excited to share a new blog post with you. This time, we’re diving into the realm of “Responsible AI” and taking a… Continue reading on Medium »",
+      "author": "Oğuzhan Hızıroğlu",
+      "extra": {},
+      "id": "c8027b33ce8e2885",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "A Zero-Trust Data Architecture for Autonomous AI Agents",
+      "url": "https://medium.com/@dappilig/a-zero-trust-data-architecture-for-autonomous-ai-agents-f25de3db32a7?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T19:14:19Z",
+      "excerpt": "During a recent deployment, my team was finalizing the architecture of an autonomous AI procurement agent for a major industrial… Continue reading on Medium »",
+      "author": "Dappilig",
+      "extra": {},
+      "id": "117a1916ee7810cc",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Agents: How Autonomous AI Systems Work",
+      "url": "https://medium.com/@shrirangesh/ai-agents-how-autonomous-ai-systems-work-e014ff920b18?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T17:29:30Z",
+      "excerpt": "Explore how AI agents plan, make decisions, use tools, and automate complex tasks, along with their types, real-world applications… Continue reading on Medium »",
+      "author": "Shrirangesh Anandaraj",
+      "extra": {},
+      "id": "fea98031a5484059",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic logged net loss of over $80B in first half of 2026",
+      "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
+      "publishedAt": "2026-10-20T20:09:46Z",
+      "excerpt": "",
+      "author": "throwa356262",
+      "extra": {
+        "points": 52,
+        "comments": 18,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50171966"
+      },
+      "id": "60f7f9822d209527",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "On AI writing",
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "publishedAt": "2026-10-20T19:55:11Z",
+      "excerpt": "",
+      "author": "dbolkunov",
+      "extra": {
+        "points": 51,
+        "comments": 12,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50171771"
+      },
+      "id": "01ef80d499c58cc3",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "publishedAt": "2026-10-20T17:48:29Z",
+      "excerpt": "",
+      "author": "artninja1988",
+      "extra": {
+        "points": 57,
+        "comments": 26,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50170021"
+      },
+      "id": "5b545cfdb4253717",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "publishedAt": "2026-10-20T15:48:26Z",
+      "excerpt": "",
+      "author": "4gateftw",
+      "extra": {
+        "points": 152,
+        "comments": 181,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50168190"
+      },
+      "id": "a87757c6fb3632f0",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "\"I have to stop this\": Retired professor arrested for blocking delivery robots she says are taking human jobs",
+      "url": "https://www.techspot.com/news/114268-have-stop-retired-professor-arrested-blocking-delivery-robots.html",
+      "publishedAt": "2026-10-20T14:14:25Z",
+      "excerpt": "",
+      "author": "/u/IndependentCoast3974",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xata1o/i_have_to_stop_this_retired_professor_arrested/"
+      },
+      "id": "4170218881407ba1",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
+      "url": "https://www.heistberlin.com/news/afd-leak-what-421-179-hacked-emails-show-about-the-german-far-right/",
+      "publishedAt": "2026-10-20T14:12:57Z",
+      "excerpt": "",
+      "author": "/u/IndependentCoast3974",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xat8qq/afd_leak_what_421179_hacked_emails_show_about_the/"
+      },
+      "id": "6ea303129eb99c3f",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Google DeepMind says four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own — AI team died 605 times on Easy difficulty and ran up an estimated $520 in tokens",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens",
+      "publishedAt": "2026-10-20T12:18:10Z",
+      "excerpt": "",
+      "author": "/u/ControlCAD",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xaqlya/google_deepmind_says_four_ai_agents_beat/"
+      },
+      "id": "865643480fce5848",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Citrini Therapeutics - Citrini Research",
+      "url": "https://www.citriniresearch.com/p/citrini-therapeutics",
+      "publishedAt": "2026-10-20T12:00:00Z",
+      "excerpt": "Naturally, I did what anyone in this situation would do and spam called anyone in my contact list who worked at an AI lab. I pitched Sholto Douglas at Anthropic with a simple proposal:\n\n> “Hey, everyone is worried that AI is going to take people’s jobs and generally lead to a bad time. I would really love to see the other side of it. You know, the one where AI could help humanity.”\n\nA few introductions to members of the Anthropic Life Sciences team10 and we had a plan.",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.353
+      },
+      "id": "180fee555d7f4367",
+      "collectedAt": "2026-10-20T21:47:02.231876+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-20T21:47:02.231876+00:00"
+}
