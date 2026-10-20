@@ -629,7 +629,169 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "deepseek-banned-from-u-s-federal-civilian-agenci-73e349",
+      "createdAt": "2026-10-20T05:13:48.124304+00:00",
+      "headline": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "summary": "A new Department of Homeland Security order has prohibited the use of the DeepSeek AI model by U.S. federal civilian agencies. The action follows earlier restrictions placed on the model across various government frameworks.",
+      "whyItMatters": "This policy action formalizes government restrictions on the use of specific foreign artificial intelligence models within civilian infrastructure.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "us-department-of-homeland-security-bans-deepseek-6fe6d2",
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "gardenbench-benchmark-evaluates-daily-performanc-7fd32d",
+      "createdAt": "2026-10-20T05:13:48.124304+00:00",
+      "headline": "GardenBench benchmark evaluates daily performance changes in large language models",
+      "summary": "Researchers introduced GardenBench, a benchmark consisting of 11 test suites designed to evaluate Large Language Models. The system uses lightweight queries to document day-to-day changes in model performance over time.",
+      "whyItMatters": "Frequent benchmarking helps developers track subtle performance regressions or improvements in rapidly updating language models.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.23866"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-how-reasoning-processes-affect-ll-6ac70c",
+      "createdAt": "2026-10-20T05:13:48.124304+00:00",
+      "headline": "Study examines how reasoning processes affect LLM agent vulnerability to prompt injections",
+      "summary": "A new study explores how LLM agents reading untrusted content can be hijacked by prompt injections. The research challenges the assumption that a single test run determines whether an agent follows an injection, highlighting the role of internal reasoning processes.",
+      "whyItMatters": "Understanding how reasoning mechanisms interact with malicious inputs is critical for building more secure autonomous agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.24048"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openvlharness-framework-integrates-persistent-me-83434c",
+      "createdAt": "2026-10-20T05:13:48.124304+00:00",
+      "headline": "OpenVLHarness framework integrates persistent memory for multimodal visual agents",
+      "summary": "OpenVLHarness is a new framework that improves multimodal reasoning by integrating persistent memory and heterogeneous tool interfaces. Evaluated across 22 benchmarks, the system improves average scores over baselines without tools.",
+      "whyItMatters": "Adding persistent memory and flexible tool access helps multimodal agents execute complex real-world visual tasks more reliably.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.26860"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.26860",
+        "code": "https://github.com/uclanlp/OpenVLHarness",
+        "model": null,
+        "demo": "https://openvlharness.github.io/"
+      }
+    },
+    {
+      "id": "coworkenv-synthesizes-training-environments-for-faa845",
+      "createdAt": "2026-10-20T05:13:48.124304+00:00",
+      "headline": "CoworkEnv synthesizes training environments for long-horizon AI coworkers",
+      "summary": "CoworkEnv is a framework for synthesizing executable training environments for AI coworkers that coordinate tools and handle multi-turn interactions. The method uses workflow-guided task construction to train compact models and improve benchmark performance.",
+      "whyItMatters": "Synthetic multi-turn environments provide scalable ways to train models for complex, long-horizon collaborative tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.24960"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.24960",
+        "code": "https://github.com/HKUST-KnowComp/CoworkEnv",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "self-hpo-framework-optimizes-coding-agent-polici-9c3a7d",
+      "createdAt": "2026-10-20T05:13:48.124304+00:00",
+      "headline": "Self-HPO framework optimizes coding agent policies and interaction harnesses recursively",
+      "summary": "Self-HPO is a recursive framework that alternates between optimizing a coding agent's policy and its interaction harness. This approach improves the average resolve rate of the Qwen3.5-35B-A3B model across multiple coding benchmarks.",
+      "whyItMatters": "Co-optimizing both the agent policy and its execution environment provides a path toward self-improving coding assistants.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22791"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22791",
+        "code": "https://github.com/MSR-Orchard/Self-HPO",
+        "model": null,
+        "demo": "https://weizhepei.com/blog/self-hpo/"
+      }
     }
   ],
-  "updatedAt": "2026-10-20T00:40:12.570967+00:00"
+  "updatedAt": "2026-10-20T05:13:51.899488+00:00"
 }
