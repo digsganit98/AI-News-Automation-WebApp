@@ -834,6 +834,284 @@
           "checkedAt": "2026-10-20T05:10:27.527245Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-20T11:56:15.583683+00:00",
+      "newItems": 31,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1300,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.588924Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.625197Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 883,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.625562Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.625836Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.625994Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.626173Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.626328Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.626474Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.626616Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.626757Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.626899Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.626956Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.627000Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.627260Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.627309Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.627458Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.627606Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.627744Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.627882Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.628176Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-20T11:56:15.628330Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.628475Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.629313Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.629465Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-20T11:56:15.629611Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.629754Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.629892Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.630033Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.630200Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.630412Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.630981Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.631188Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.631362Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-20T11:56:15.631410Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1993,7 +2271,483 @@
       },
       "id": "d2321eb5a0cf03d8",
       "collectedAt": "2026-10-20T05:10:27.495387+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "3eb18e5ff7f2a0ef",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+      "url": "https://huggingface.co/papers/2610.26663",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Robotic value models assess task execution from visual observations and instructions, providing feedback for policy learning and execution monitoring. However, existing evaluations cover only selected aspects of execution understanding, leaving the reliability of value feedback insufficiently tested. We introduce RoboValue, a fine-grained sim-and-real benchmark for unified evaluation of robotic value models. Its framework evaluates four complementary capability dimensions through shared…",
+      "author": "Shengbang Liu, Zhengye Du, Zhilong Wan, Honghao Su, Chenxiang Xia, Chang Ge, Jinyang Xiao, Nan Wang, Zhipeng Hu, Huining Yuan, Shu&#39;ang Yu, Yue Chen, Tianxing Chen, Chuankang Li, Maoqing Yao, Wenbo Ding, Yu Wang, Guanghui Ren, Chao Yu",
+      "extra": {
+        "upvotes": 21,
+        "githubRepo": "https://github.com/RoboValue-Benchmark/RoboValue",
+        "projectPage": "https://robovalue-benchmark.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.26663"
+      },
+      "id": "7992bf817613766c",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MemT-1.0: Towards Memory-Native Evolution",
+      "url": "https://huggingface.co/papers/2610.26825",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism within each turn. We further introduce Mixture-of-Storage to scale native memory capacity.…",
+      "author": "Zhiyu Li, Zeyu Zhang, Linyun Liu, Yiwei Bu, Chenyang Xi, Xichong Zhang, Yi Yu, Yu Yu, Zhichen Liu, Yuxiao Yi, Chunyu Li, Haoran Liu, Zhenkai Ding, Le Zhou, Juncheng Zhang, Boyu Chen, Zehao Lin, Guorui Li, Renyu Fu, Ji Li, Youyang Xia, Jiajun Shen, Harvey Li, Jingsong Zhou, Helan Hu, Tong Shen, Tianxiao Xu, Chenye Han, Weijie Li, Zhongquan Zhou, Hongming Xu, Yuekeng Li, Erenkai Zhu, Peng Yu, Wenhao Li, Jingyi Kang, Xixuan Hao, Xuzhou Zhu, Can Chen, Jiawei Liu, Chen Jiang, Tao Jiang, Fangwei Xiang, Zepeng Yao, Kai Chen, Guang Yang, Mingfei Lu, Chunhui Li, Zhengxuan Jiang, Bo Tang, Shiyu Zhan, Yihang Sun, Jie Chu, Wenjun Xiong, Zhenxiang Hua, Chen Lin, Detong Su, Dongyu Deng, Qiuping Ding, Guofeng Ding, Si Chen, Guohua Wen, Xu Chen, Zhi-Qin John Xu, Ying-Cong Chen, Ningyu Zhang, Haofen Wang, Muning Wen, Haotian Chen, Wentao Zhang, Xuanhe Zhou, Rita Zhang, Junchi Yan, Feiyu Xiong",
+      "extra": {
+        "upvotes": 128,
+        "githubRepo": "https://github.com/MemTensor/MemT-1.0",
+        "projectPage": "https://huggingface.co/collections/MemTensor/memt-1",
+        "arxivUrl": "https://arxiv.org/abs/2610.26825"
+      },
+      "id": "dd65d743e8de1cb2",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "url": "https://huggingface.co/papers/2610.26848",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget. The analysis of experimental results motivates the Physical Barrel Hypothesis: different capabilities may…",
+      "author": "Zekai Li, Jiayi Yu, Jinlu Zhang, Luyang Niu, Zekun Qi, Jun Zheng, Xuchuan Chen, Dairu Liu, Yintianrun Zhang, He Wang, Li Yi",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": null,
+        "projectPage": "https://physrsi-eval.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.26848"
+      },
+      "id": "225c94476d37f6f4",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "FineSplat: Fine Patches, Local Groups, Detailed Splats",
+      "url": "https://huggingface.co/papers/2610.25011",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Feed-forward 3D Gaussian Splatting (3DGS) promises instant scene reconstruction with high-quality novel-view synthesis. Yet, fine-grained geometry and appearance remain difficult to recover, motivating us to revisit how feed-forward models represent, aggregate, and refine detailed visual information. We introduce FineSplat, a feed-forward 3DGS framework built around fine-grained image patches. Since global multi-view attention becomes prohibitively expensive at such high token resolutions, we…",
+      "author": "Hyebin Kim, Hwasik Jeong, Joonhyuk Park, Gyeongjin Kang, Jungwoo Kim, Younghyun Kim, Eunbyung Park",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/hyebinny/FineSplat",
+        "projectPage": "https://hyebinny.github.io/FineSplat/",
+        "arxivUrl": "https://arxiv.org/abs/2610.25011"
+      },
+      "id": "a495f984cf6802ca",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Kronecker Delta Rule for Long Context Linear Attention",
+      "url": "https://huggingface.co/papers/2610.26834",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously stored information compared with delta-rule updates, making it particularly well suited for…",
+      "author": "Anamaria-Roberta Hartl, Levente Zólyomi, Michael List, Günter Klambauer, Sebastian Böck, Sepp Hochreiter",
+      "extra": {
+        "upvotes": 20,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.26834"
+      },
+      "id": "db23866db953e17b",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
+      "url": "https://huggingface.co/papers/2610.23986",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Recent advances in multimodal large language models (MLLMs) have enabled them to act as autonomous agents, creating and editing 3D models via code or direct software manipulation. In practical workflows, these models must infer object shapes, materials, spatial layouts, and lighting from diverse references while strictly following instructions to reconstruct, modify, or design 3D content. However, existing benchmarks provide limited coverage of such open-ended requests across real-world…",
+      "author": "Xinyu Fang, Yuchi Wang, Weihao Yu, Rongyao Fang, Zhaohai Li, Zhixun Li, Tiancheng Gu, Xilin Wei, Yuhang Zang, Hongsheng Li, Dahua Lin, Guofeng Zhang, Shuai Bai, Zhibo Yang, Dayiheng Liu",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/QwenLM/BlenderWorld",
+        "projectPage": "https://blenderworld.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.23986"
+      },
+      "id": "35f02cb60661b456",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+      "url": "https://huggingface.co/papers/2610.26824",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we extend MRL with a parameter-derived spectral basis organized with feature importance. SpecMRL otherwise…",
+      "author": "Zhongxin Chen, Songhao Wu, Heng Cui, Cong Li, Xiao Zhou, Rui Yan",
+      "extra": {
+        "upvotes": 51,
+        "githubRepo": "https://github.com/CentreChen/Spec-MRL",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.26824"
+      },
+      "id": "89a3ab6342f1b45c",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Evidence-First Agentic Verification",
+      "url": "https://huggingface.co/papers/2610.17724",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Long-horizon, semi-verifiable agentic tasks often rely on rubric-based evaluation, but the evidence needed to assess these tasks can be spread across the environment state and the execution trace. A judge may overlook this evidence or accept unsupported claims, including an agent's own reports of success. When rubric verdicts serve as reinforcement-learning rewards, such errors can reinforce undesirable behavior. We introduce Sauron, an evidence-first agentic verifier that investigates both…",
+      "author": "Reza Sanayei, Razvan-Gabriel Dumitru, Sunjie Hou, MohammadHossein Rezaei, Haris Riaz, Robert Vacareanu, Minglai Yang, Ying Liu, Mihai Surdeanu, Daniel Yue Zhang",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/rsanayei/Sauron",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.17724"
+      },
+      "id": "45f83d17a3225026",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+      "url": "https://huggingface.co/papers/2610.06830",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting memory processing toward runtime adaptation, but typically specialize in particular operations or fixed processing schemes, leaving flexible control over…",
+      "author": "Haozhen Zhang, Haodong Yue, Quanyu Long, Jianzhu Bao, Qingyuan Liu, Tao Feng, Bohan Liu, Weida Liang, Wenya Wang",
+      "extra": {
+        "upvotes": 19,
+        "githubRepo": "https://github.com/ViktorAxelsen/MemPilot",
+        "projectPage": "https://viktoraxelsen.github.io/MemPilot/",
+        "arxivUrl": "https://arxiv.org/abs/2610.06830"
+      },
+      "id": "866a3270579d969d",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+      "url": "https://huggingface.co/papers/2610.25950",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and adapt as it evolves. To address this gap, we introduce AdaExploreBench, a benchmark for proactive exploration and test-time adaptation in evolving environments. By instantiating environmental…",
+      "author": "Rui Wang, Zishen Lai, Jiayu Liu, Cheng Qian, Jeonghwan Kim, Heng Wang, Xuejun Zhang, Jiateng Liu, Bingxuan Li, Shujin Wu, Qing Zong, Tianshi Zheng, Chunyang Li, Qihan Lin, Chen Li, Dadi Guo, Xiusi Chen, Yangqiu Song",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": "https://github.com/HKUST-KnowComp/AdaExploreBench",
+        "projectPage": "https://hkust-knowcomp.github.io/AdaExploreBench/",
+        "arxivUrl": "https://arxiv.org/abs/2610.25950"
+      },
+      "id": "f2fd85ddc0e1b150",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.22332",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and limited in diversity, whereas egocentric human videos capture diverse interactions but lack robot actions and differ in embodiment and appearance. We introduce AffordanceWAM, an affordance-aware generative World Action Model that represents object-centric spatiotemporal…",
+      "author": "Jiadi You, Qize Yu, Yue Chen, Minghong Cai, Zhide Zhong, Yuran Wang, Bowen Ping, Jiaqi Liang, Zhenhao Shen, Haodong Yan, Yinchuan Li, Ruihai Wu, Xiaojuan Qi, Yingcong Chen",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": "https://github.com/Skywalker-yqz/AffordanceWAM",
+        "projectPage": "https://skywalker-yqz.github.io/AffordanceWAM/",
+        "arxivUrl": "https://arxiv.org/abs/2609.22332"
+      },
+      "id": "a1565be71d1c908d",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+      "url": "https://huggingface.co/papers/2610.26549",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We introduce HOLI-WORLD, an integrated ecosystem connecting experience capture, world representation,…",
+      "author": "Hao Li, Xiyuan Zheng, Yuanyuan Gao, Yalun Dai, Xinhao Ji, Xuan-Li Chen, Jing Zhao, Fangzhou Hong, Zhaoxi Chen, Ziwei Liu",
+      "extra": {
+        "upvotes": 65,
+        "githubRepo": "https://github.com/Ropedia/holi-world",
+        "projectPage": "https://ropedia.github.io/holi-world",
+        "arxivUrl": "https://arxiv.org/abs/2610.26549"
+      },
+      "id": "fc9bd501158f10d4",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "State World Models: Execute the Rules, Generate the Pixels",
+      "url": "https://huggingface.co/papers/2610.26811",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Existing world models can generate action-conditioned video from a single image. Many focus on camera movement, allowing users to explore the generated scene. However, navigation alone does not ensure that an action follows persistent rules when its outcome depends on state that is invisible in the current frame. We present Stateful Harness, a framework that separates world evolution from video rendering to support stateful and rule-governed interaction. It maintains an evolving world state…",
+      "author": "Chan Yan Ki, Yanran Zhang, Wenzhao Zheng, Xiaofeng Wang, Zheng Zhu, Lei Chen, Jie Zhou, Jiwen Lu",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/Zhangyr2022/StateWorldModel",
+        "projectPage": "https://ivg-yanranzhang.github.io/StateWorldModel/",
+        "arxivUrl": "https://arxiv.org/abs/2610.26811"
+      },
+      "id": "ffe24ee9e30f356e",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
+      "url": "https://huggingface.co/papers/2610.26851",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga. We decompose the task…",
+      "author": "Sheng-Wei Zhang, Hsi-An Chen, Yan-Ting Liou, Chih-Hsuan Chen, Shih-Chen Tseng, Yu-Lun Liu",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": "https://github.com/annchenn/Manga2Animate",
+        "projectPage": "https://annchenn.github.io/Manga2Animate/",
+        "arxivUrl": "https://arxiv.org/abs/2610.26851"
+      },
+      "id": "e7fbe55a81d2edce",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Think Visually Across Space and Time: Grounded Reasoning for Video Segmentation",
+      "url": "https://huggingface.co/papers/2610.25090",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Video Reasoning Segmentation (VRS) requires a model to identify an implicitly described target and predict its pixel-level mask trajectory, while resolving the spatial relations and temporal events that determine the answer. Text-only Chain-of-Thought (CoT) can explain a target choice without making the underlying visual references explicit, leaving a video reference gap between linguistic inference and the evidence distributed across frames. We introduce Temporal Chain of Video Primitives…",
+      "author": "Junwei Wen, Deshui Miao, Guangming Lu, Ming-Hsuan Yang, Xin Li, Wenjie Pei",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.25090"
+      },
+      "id": "993904d1d64bf688",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "DeOverlay: A Benchmark and Source-Anchored Flow for Video Overlay Removal",
+      "url": "https://huggingface.co/papers/2610.26081",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "excerpt": "Video overlay removal aims to recover scenes obscured by subtitles, titles, and logos while preserving surrounding content. Existing methods use temporal propagation or source-conditioned generation, but can leave residual overlays and distort scene structure when useful source information is obscured. We propose DeOverlay, a source-anchored flow model that reconstructs the clean video from the source latent with fixed source guidance. Specifically, we train a shared velocity network along…",
+      "author": "Deshui Miao, Yuhang Ma, Shaoyong Jia, Wenzhao Gao, Yue Zhang, Shaohui Jiao, Xin Li",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": "https://yahooo-m.github.io/DVTE-Bench/",
+        "arxivUrl": "https://arxiv.org/abs/2610.26081"
+      },
+      "id": "9f4e97ed6487bbdd",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "azure-blog",
+      "sourceName": "Azure Blog",
+      "title": "Designing for sovereign AI: A shared foundation from edge to cloud",
+      "url": "https://azure.microsoft.com/en-us/blog/designing-for-sovereign-ai-a-shared-foundation-from-edge-to-cloud/",
+      "publishedAt": "2026-10-19T19:00:00Z",
+      "excerpt": "A flexible sovereign architecture allows organizations to place each workload in the right environment, apply the controls it requires, and maintain consistency. The post Designing for sovereign AI: A shared foundation from edge to cloud appeared first on Microsoft Azure Blog .",
+      "author": "Alistair Speirs",
+      "extra": {},
+      "id": "630e178266bc2a3e",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Introducing Gemini for government services",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/",
+      "publishedAt": "2026-10-20T10:00:00Z",
+      "excerpt": "Earlier this month at Gemini at Work, we introduced the Gemini agent: a single, universal agent for work. It answers your questions, handles your knowledge work, creates your images and media, and writes and runs code. You give it objectives, not instructions, and come back to finished work. It plans the work, uses skills and tools, connects to your systems, and has the security, administration, and governance your organization requires. Every industry runs on knowledge a general model does…",
+      "author": "Thomas Kurian",
+      "extra": {},
+      "id": "4c65221d768c53cb",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
+      "publishedAt": "2026-10-20T05:21:52Z",
+      "excerpt": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they&#8217;re not going to be in super wide use just yet.",
+      "author": null,
+      "extra": {},
+      "id": "4d5d66fe73afb35f",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Stop Hallucinations from Reaching Your Customers in a Generative AI App",
+      "url": "https://medium.com/@vivasoftltd/prevent-ai-hallucinations-a8b8521ba19a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T11:14:11Z",
+      "excerpt": "Wrong answers from an AI app rarely look wrong. Here is how to build one that checks itself before it speaks. Continue reading on Medium »",
+      "author": "Vivasoft Limited",
+      "extra": {},
+      "id": "7e9e952997d2c862",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Explained from Scratch: From the Turing Test to Generative AI",
+      "url": "https://medium.com/@dibikadahal/ai-explained-from-scratch-from-the-turing-test-to-generative-ai-6f02bac734c1?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T10:19:17Z",
+      "excerpt": "Every week there’s a new headline about AI, and it’s easy to feel like everyone else already understands it. I felt that way too, so I… Continue reading on Medium »",
+      "author": "Dibika Dahal",
+      "extra": {},
+      "id": "3ba4ca334ff5b1c8",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Stop Reviewing the Render. Review the Decision.",
+      "url": "https://medium.com/@udit.rawat03/stop-reviewing-the-render-review-the-decision-c114ff561526?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-20T08:22:24Z",
+      "excerpt": "Better creative review starts by defining the choice, what is fixed, and what happens after approval. Continue reading on Medium »",
+      "author": "Udit Rawat",
+      "extra": {},
+      "id": "7ee0b1f26b11a8c4",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "DeepSeek just open-sourced its inference engine",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "publishedAt": "2026-10-20T09:08:54Z",
+      "excerpt": "",
+      "author": "ggcr",
+      "extra": {
+        "points": 556,
+        "comments": 198,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50163277"
+      },
+      "id": "79e072c528493212",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "An AI agent says it has authored a breakthrough new result in external graph theory. \"It constructed explicit regular graphs with girth (8/5) log n, the first improvement in 38 years, and a leap towards the theoretical maximum.\"",
+      "url": "https://www.doubleai.com/papers/girth85.pdf",
+      "publishedAt": "2026-10-20T07:23:32Z",
+      "excerpt": "",
+      "author": "/u/Regular_Post9884",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xallxv/an_ai_agent_says_it_has_authored_a_breakthrough/"
+      },
+      "id": "e376e0980af064b4",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI (Artificial Intelligence) Startups funded by Y Combinator (YC) in Los Angeles that are currently hiring 2026 | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/industry/ai/los-angeles/hiring",
+      "publishedAt": "2026-10-19T18:00:00Z",
+      "excerpt": "MindFort is building fully autonomous AI agents powered by their in-house models that can find, exploit, and patch complex vulnerabilities in web applications at massive scale. MindFort agents use the same principles as human penetration testers to understand their target and figure out the best ways to work together to exploit it. We can do fully autonomous AI web pentesting and bring offensive security to teams out numbered. While security teams were already behind with legacy tools and…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.798
+      },
+      "id": "151da03bd25406c0",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Context.dev raises $9M led by General Catalyst to give AI agents the live web through one API | Dealroom News",
+      "url": "https://dealroom.co/news/163967-context-dev-raises-9m-led-by-general-catalyst-to-give-ai-agents-the-live",
+      "publishedAt": "2026-10-19T19:09:33Z",
+      "excerpt": "What's the deal? Context.dev, the Y Combinator Summer 2026 startup selling one API for live web data, has raised $9M, founder and CEO Yahia Bakour announced on X on 19 October. General Catalyst led the financing, with Orange CollectiveDealroom has a profile for this one. Try Dealroom → and Robinhood VenturesDealroom has a profile for this one. Try Dealroom → participating. The company has not disclosed the round type or valuation. [...] Where it came from: The company started as Brand.dev, an…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.72
+      },
+      "id": "e510410955ba91a1",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Launch YC: Theo - The site-builder and engine that gets your business found | Y Combinator",
+      "url": "https://www.ycombinator.com/launches/W36-theo-the-site-builder-and-engine-that-gets-your-business-found",
+      "publishedAt": "2026-10-19T15:00:00Z",
+      "excerpt": "Home›Launches›Theo\n\n14\n\n# Theo - The site-builder and engine that gets your business found\n\nSearch is changing. The days of getting 30 pages of Google results (that you never scroll through anyway) are over. Today, AI agents give customers three choices. Max. Theo helps make sure your business is one of them.\n\nMiles Pines\n\nTheo\n\n#ai#smb#seo\n\nWHAT IS THEO?",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.701
+      },
+      "id": "9c491d042514cda4",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "DHS to ban DeepSeek from federal civilian agencies - CyberScoop",
+      "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
+      "publishedAt": "2026-10-19T15:27:20Z",
+      "excerpt": "# DHS to ban DeepSeek from federal civilian agencies. The order cites national security concerns, including sending data to servers in China, the potential malware and the overall risk to federal IT systems. The Department of Homeland Security is banning the use of Chinese AI model DeepSeek and its affiliates by civilian federal agencies. The notice, set to publish Tuesday in the Federal Register, cites the Federal Acquisition Supply Chain Act and a review by the Federal Acquisition Security…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.26
+      },
+      "id": "9d47aa9b7912ac9d",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "US bans DeepSeek AI from government use as tech tension with China continues - BBC",
+      "url": "https://www.bbc.com/news/articles/cjkgeq0k1wevo",
+      "publishedAt": "2026-10-19T18:21:54Z",
+      "excerpt": "# US bans DeepSeek AI from government use as tech tension with China continues. The US has ordered all artificial intelligence (AI) technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security (DHS) has banned all use of DeepSeek within civilian government agencies, and any technology built with the aid of its AI models. As a powerful AI model that is open source - meaning it is free to access and less expensive to use - DeepSeek has…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.216
+      },
+      "id": "49a8ea85ba1e7217",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "DeepSeek AI Faces Ban From Federal Networks Over Data Security Concerns (Oct 19, 2026) - VitalLaw.com",
+      "url": "https://www.vitallaw.com/news/deepseek-ai-faces-ban-from-federal-networks-over-data-security-concerns/cspd01397740af369a471fbe64e30815f69c44",
+      "publishedAt": "2026-10-20T01:40:26Z",
+      "excerpt": "+ DeepSeek AI Faces Ban From Federal Networks Over Data Security Concerns. # Cybersecurity Policy Report, DeepSeek AI Faces Ban From Federal Networks Over Data Security Concerns, (Oct 19, 2026). The order from the Department of Homeland Security also requires the removal of any existing DeepSeek technology from civilian federal networks, effective immediately. The order, signed by Homeland Security Secretary Markwayne Mullin in July and appended to the *Federal Register*notice, found that…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.205
+      },
+      "id": "1cb5223c44bd3f8b",
+      "collectedAt": "2026-10-20T11:56:15.583683+00:00"
     }
   ],
-  "updatedAt": "2026-10-20T05:10:27.495387+00:00"
+  "updatedAt": "2026-10-20T11:56:15.583683+00:00"
 }
