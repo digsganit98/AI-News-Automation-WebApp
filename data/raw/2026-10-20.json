@@ -278,6 +278,284 @@
           "checkedAt": "2026-10-19T20:40:10.317080Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-20T00:29:43.331934+00:00",
+      "newItems": 18,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1300,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.336635Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.370650Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 882,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.370988Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.371253Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 90,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.371435Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.371575Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.371702Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.371821Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.371936Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372050Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372161Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372212Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372249Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372466Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372507Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372636Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372762Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372876Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.372987Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.373348Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-20T00:29:43.373653Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.374529Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.374729Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.374874Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-20T00:29:43.375003Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.375125Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.375247Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.375394Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.375521Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.375705Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.376241Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.376408Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.376610Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-20T00:29:43.376659Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -790,7 +1068,252 @@
       },
       "id": "2b1f8cc39feb3c24",
       "collectedAt": "2026-10-19T20:40:10.232954+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "publishedAt": "2026-10-19T12:00:00Z",
+      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "author": null,
+      "extra": {},
+      "id": "7a364f356aab4946",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
+      "url": "https://huggingface.co/papers/2610.21046",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "excerpt": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate what a paper says. We introduce ReviewFact, a benchmark that labels such factual errors in review comments under one definition across NLP, machine learning, and the natural sciences, and that measures cost and latency alongside accuracy. A frontier LLM checks comments well but must read the whole paper for each check, while cheap decision models, which score whether a statement…",
+      "author": "Dingjie Song, Zhiling Yan, Ziqian Zhang, Yuxuan Zhang, Lichao Sun",
+      "extra": {
+        "upvotes": 26,
+        "githubRepo": "https://github.com/OpenLAIR/PremiseCheck",
+        "projectPage": "https://openlair.github.io/premisecheck/",
+        "arxivUrl": "https://arxiv.org/abs/2610.21046"
+      },
+      "id": "ace989a1248c7b4b",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Grok 4.7 is now available on Amazon Bedrock in AWS GovCloud (US)",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-grok-4-7-govcloud/",
+      "publishedAt": "2026-10-19T13:00:00Z",
+      "excerpt": "Amazon Bedrock now supports SpaceXAI Grok 4.7, a frontier model built for coding, agentic tasks, and knowledge work in AWS GovCloud (US). Grok 4.7 builds on Grok 4.6 with better mixed-document handling, more dependable repo-scale coding with planning and error recovery, and enhanced browser-use agents for form fills and portal navigation. Get started with Grok 4.7 in the Amazon Bedrock console or programmatically through supported Amazon Bedrock APIs. For information about supported AWS…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "40609a70c2f2c94d",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "publishedAt": "2026-10-19T23:32:19Z",
+      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "author": "Anshika Saxena",
+      "extra": {},
+      "id": "ea83f0dd69c5142c",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
+      "publishedAt": "2026-10-19T22:39:24Z",
+      "excerpt": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
+      "author": "Hazim Qudah",
+      "extra": {},
+      "id": "87cd33ee12bd9f5e",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+      "publishedAt": "2026-10-19T21:14:44Z",
+      "excerpt": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face deep link integration.",
+      "author": "Vamsi Goparaju",
+      "extra": {},
+      "id": "4bf843f5f5fd2876",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "How HP Is Building an AI-Ready CDP with Databricks CustomerLake",
+      "url": "https://www.databricks.com/blog/hp-ai-ready-cdp-databricks-customerlake",
+      "publishedAt": "2026-10-20T00:01:41Z",
+      "excerpt": "At Data + AI Summit 2026,&nbsp;Luis Alonso, Global Head of Data Strategy &amp; Engineering...",
+      "author": null,
+      "extra": {},
+      "id": "bea3b2b63a313089",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Choose an LLM Fine-Tuning Service in 2026",
+      "url": "https://medium.com/@nexustwistedmatrix/how-to-choose-an-llm-fine-tuning-service-in-2026-84188b171a27?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-19T23:59:41Z",
+      "excerpt": "A practical guide to evaluating model support, training data, QLoRA and PEFT methods, privacy, evaluation, and model ownership. Continue reading on Medium »",
+      "author": "Abdelkader Sakri",
+      "extra": {},
+      "id": "65dcad0649373b19",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "TeleRAG: Efficient Retrieval-Augmented Generation Inference with Lookahead Retrieval",
+      "url": "https://medium.com/@dragonif01/telerag-efficient-retrieval-augmented-generation-inference-with-lookahead-retrieval-8b94a53a39a8?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-19T23:42:31Z",
+      "excerpt": "Authors: Chien-Yu Lin, Keisuke Kamahori, Yiyu Liu, et al. (University of Washington; correspondence: Baris Kasikci) Continue reading on Medium »",
+      "author": "Roni Fitriandi Sinaga",
+      "extra": {},
+      "id": "c67c7d91ecffdcca",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Secret to Studio-Quality AI Music: Master Your Prompts with This Generator",
+      "url": "https://medium.com/@broy32/the-secret-to-studio-quality-ai-music-master-your-prompts-with-this-generator-e4c3609fc06e?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-19T23:14:12Z",
+      "excerpt": "A comprehensive guide to structuring prompts for Suno, Udio, and Flowmusic to avoid muddy or robotic outputs. Continue reading on Medium »",
+      "author": "Broy",
+      "extra": {},
+      "id": "5e38c1b79a93b986",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The US orders every civilian agency to rip out DeepSeek, even tools built on it",
+      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+      "publishedAt": "2026-10-19T18:41:10Z",
+      "excerpt": "",
+      "author": "jacquesm",
+      "extra": {
+        "points": 58,
+        "comments": 32,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50156189"
+      },
+      "id": "475b3a1f72c16107",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Norwegian undersea cable builder pitches 2,800-mile transatlantic data link between Canada and Europe to bypass the US — Canadian majority partner sought to help fund and build new $620 million fiber connection to reduce reliance on American routes",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/norwegian-undersea-cable-builder-pitches-2-800-mile-transatlantic-data-link-between-canada-and-europe-to-bypass-the-us-canadian-majority-partner-sought-to-help-fund-and-build-new-usd620-million-fiber-connection-to-reduce-reliance-on-american-routes",
+      "publishedAt": "2026-10-19T20:47:36Z",
+      "excerpt": "",
+      "author": "/u/Ok-Conversation3213",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xa8lp0/norwegian_undersea_cable_builder_pitches_2800mile/"
+      },
+      "id": "2b1e3edf8305e438",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Apple-Meta Collaboration Creates Game-Changing Ad Creative Team 10/19/2026 - MediaPost",
+      "url": "https://www.mediapost.com/publications/article/418802/apple-meta-collaboration-creates-game-changing-ad.html?edition=144190",
+      "publishedAt": "2026-10-19T12:54:22Z",
+      "excerpt": "Subscribe today to gain access to every *Research Intelligencer* article we publish as well as the exclusive daily newsletter, full access to *The MediaPost Cases*, first-look research and daily insights from Joe Mandese, Editor in Chief. open AI model designed to run on Mac computers. The announcement was made on Thursday and accompanied a video from Alexandr Wang, chief AI officer and founder of Meta Superintelligence Lab. In an X post he wrote \"Why 2026 won't be like 1984.\". Wang's creative…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.26
+      },
+      "id": "3af864a55b635667",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Emil Michael says export controls can keep AI labs in line - The Next Web",
+      "url": "https://thenextweb.com/news/emil-michael-export-controls-ai-labs-anthropic-the-information",
+      "publishedAt": "2026-10-19T14:13:25Z",
+      "excerpt": "Emil Michael says the US government can use export controls on AI companies that do not cooperate with it. He made the case in a video interview with Amir Efrati and Leo Schwartz of The Information, which reported it on Monday. Michael spoke the day after the first full meeting of the White House’s new AI task force, the Super Intelligence Force. As a vice chair, he is responsible for the government’s relationship with the labs and for how they report incidents. ## Export controls as a stick.…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.173
+      },
+      "id": "dbe05974e04aaed1",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Trump Admin Bans DeepSeek From Federal Agencies - Gizmodo",
+      "url": "https://gizmodo.com/trump-admin-bans-deepseek-from-federal-agencies-2000827670",
+      "publishedAt": "2026-10-19T21:41:06Z",
+      "excerpt": "The Department of Homeland Security just banned the use of DeepSeek’s technology across much of the federal government. In a notice posted on Monday, the DHS ordered federal civilian agencies like the Department of State to remove any products from the Chinese AI lab DeepSeek, and any third-party services that rely on DeepSeek AI models. The administration fears that this sensitive data collected by DeepSeek could then be transferred to the Chinese government. The Chinese AI lab caused mayhem…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.125
+      },
+      "id": "6fe6d2b8340c7cd8",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "publishedAt": "2026-10-19T15:37:09Z",
+      "excerpt": "The Nemotron 3.5 Super VL is a large, 120-billion-parameter model geared for agents used by the enterprise. “Any organization that wants to run agents on Nvidia infrastructure now has an open, optimized model for their tier without having to choose between capability and deployability,” Nvidia’s vice president of Open Models and Software, Kari Briski, wrote in the blog post announcing these models. While such claims are standard whenever a major tech company announces a new model, Nvidia has…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.105
+      },
+      "id": "c33a66b4df035b2b",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’ - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "publishedAt": "2026-10-19T22:04:28Z",
+      "excerpt": "Microsoft on Monday introduced new security features designed to protect enterprises from the growing threat of AI agents. Perhaps the most notable addition is Guardian Agents, a new feature intended to monitor the AI agents a company uses. Guardian Agents is part of Project Perception, a product introduced in June. But lately, Microsoft CEO Satya Nadella has been warning that the AI enemy may be the very agents enterprises have deployed and are paying for, much like a rogue human employee,…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.099
+      },
+      "id": "0e19bec78e364455",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Launch YC: Veeza AI (F26) — AI tourist visa agent for people with weak passports | Y Combinator",
+      "url": "https://www.ycombinator.com/launches/VrY-veeza-ai-f26-ai-tourist-visa-agent-for-people-with-weak-passports",
+      "publishedAt": "2026-10-19T16:00:00Z",
+      "excerpt": "Home›Launches›Veeza AI\n\n58\n\n# Veeza AI (F26) — AI tourist visa agent for people with weak passports\n\nPick your destination. We'll handle everything else.\n\nAly Moursy\n\nVeeza AI\n\n#ai#aiops#consumer\n\nTL;DR Veeza AI helps people with weak passports get tourist visas. Upload your passport, and our computer-use agents verify your documents, fill in all the forms and book your visa appointment.\n\nThe problem [...] About 5 billion people have weak passports. We estimate the Global South files 200…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.77
+      },
+      "id": "f80b7873309fa4ee",
+      "collectedAt": "2026-10-20T00:29:43.331934+00:00"
     }
   ],
-  "updatedAt": "2026-10-19T20:40:10.232954+00:00"
+  "updatedAt": "2026-10-20T00:29:43.331934+00:00"
 }
