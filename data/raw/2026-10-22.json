@@ -1,0 +1,678 @@
+{
+  "date": "2026-10-22",
+  "runs": [
+    {
+      "runAt": "2026-10-21T21:52:45.667041+00:00",
+      "newItems": 28,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1310,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.672214Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.707137Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 888,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.707450Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.707717Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.707932Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708090Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708241Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708389Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708531Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708670Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708840Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708898Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.708942Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.709163Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.709206Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.709350Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.709492Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.709630Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.709789Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.710053Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-21T21:52:45.710236Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.710382Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.711183Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.711336Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-21T21:52:45.711479Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.711620Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.711793Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.711947Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.712100Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.712301Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.712893Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.713065Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.713229Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-21T21:52:45.713276Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "url": "https://openai.com/index/att-legal",
+      "publishedAt": "2026-10-21T17:00:00Z",
+      "excerpt": "AT&amp;T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "author": null,
+      "extra": {},
+      "id": "4ab93569e260b2b0",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "excerpt": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "author": null,
+      "extra": {},
+      "id": "b2deaf97c98cf0ff",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "publishedAt": "2026-10-21T18:26:30Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "7104bc51c29585cc",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "publishedAt": "2026-10-21T17:35:36Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "354f89a6c7dbf10c",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+      "url": "https://huggingface.co/papers/2610.27327",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "excerpt": "Coding agents can answer analytical questions over a data lake by discovering, cleaning, and joining the relevant data. However, they discard this work after each question and redo it from scratch for the next one. Tool evolution, which automatically builds and refines reusable tools across tasks, is a natural fit for this repetition. Since a ground-truth label for a data-lake question requires an expert to solve it first, we consider the unsupervised setting. We propose TEAL (Tool Evolution…",
+      "author": "Yuqing Yang, Yurong Liu, Deqing Fu, Manav Garg, Sravan Babu Bodapati, Fatma Ozcan, Alon Y. Halevy, Jiani Zhang",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.27327"
+      },
+      "id": "5a146159e9606b8a",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "HarnessRL: Co-Evolving Policies with a Just-in-Time Training Harness for Open-Ended RL",
+      "url": "https://huggingface.co/papers/2610.26426",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "excerpt": "Rubric-based reinforcement learning (RL) trains policies for open-ended generation with natural-language criteria as rewards, but these rewards can become ineffective as training progresses. We identify two failure modes. Under non-discriminative rewards, scores collapse to uniformly low or high values due to insufficient exploration or a mismatch between task difficulty and policy capability. Under spurious rewards, higher scores do not correspond to better responses. Both reflect a training…",
+      "author": "Xiaoqiang Wang, Ting-En Lin, Yuchuan Wu, Pinyi Zhang, Caixin Kang, Ling Li, Bingxue Qiu, Jieping Ye, Yongbin Li, Bang Liu",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.26426"
+      },
+      "id": "6d7a347d77ac3b84",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+      "url": "https://huggingface.co/papers/2610.27435",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "excerpt": "Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate through actions and context, creating a gap between capability and reliable execution. We present RiseHarness, a framework for iteratively improving agent harnesses with model weights fixed. It focuses on flipping tasks with both successful and failed runs under the same configuration, using successful runs as references for failure analysis. RiseHarness combines agent…",
+      "author": "Ruhan Wang, Yucheng Shi, Zongxia Li, Junyao Yang, Zhongzhi Li, Yue Yu, Haitao Mi, Dongruo Zhou, Leoweiliang",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.27435"
+      },
+      "id": "d2b6da55f226bc59",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon WorkSpaces simplifies secure AI agent access to enterprise cloud desktops with less infrastructure to operate and manage",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/workspaces-ai-agents-oauth-connection-management",
+      "publishedAt": "2026-10-20T17:00:00Z",
+      "excerpt": "WorkSpaces for AI agents now handles authentication and desktop connections as part of the managed Model Context Protocol (MCP) service, so you can connect agents to governed cloud desktops, removing the need to write custom code. This makes it easy to use WorkSpaces with any client that supports MCP. Connecting an agent to a desktop previously required you to manage presession requirements; generate, invoke, and rotate streaming URLs manually, adding complexity every time a session expired.…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "38329cb038dc7011",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Adaptive agentic intelligence framework using Strands Agents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
+      "publishedAt": "2026-10-21T21:23:26Z",
+      "excerpt": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.",
+      "author": "Nitin Eusebius",
+      "extra": {},
+      "id": "d841fc8b370bc211",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Train Qwen3 on AWS Trainium with torchtitan",
+      "url": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
+      "publishedAt": "2026-10-21T20:00:22Z",
+      "excerpt": "Train Qwen3 on AWS Trainium with torchtitan three ways on a single trn2.48xlarge: the Hugging Face Transformers v5 modeling backend, torchtitan's native Qwen3, and NKI mixture-of-experts kernels. The same torchrun launcher and config structure work unchanged across all three paths, including loading and saving published Hugging Face safetensors.",
+      "author": "Josh Longenecker",
+      "extra": {},
+      "id": "ff2a2ed5c2250c2f",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
+      "publishedAt": "2026-10-21T19:19:50Z",
+      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
+      "author": "Rick Whitted",
+      "extra": {},
+      "id": "33738f7743b5e180",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Startup Spotlight: Dust’s Multi-Model AI Platform",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/startup-spotlight-dust",
+      "publishedAt": "2026-10-21T19:58:00Z",
+      "excerpt": "Dust Co-Founder and CTO Stanislas Polu explains the vision behind Dust and how it helps companies own their AI by enabling control over agentic traces.",
+      "author": "Snowflake",
+      "extra": {},
+      "id": "591dda91b81f616a",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What It Takes to Make a RAG Assistant Work",
+      "url": "https://pub.towardsai.net/what-it-takes-to-make-a-rag-assistant-work-df494ebc2c78?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-21T19:01:01Z",
+      "excerpt": "“Who can authorize an Atlas Analytics pipeline rollback?” Continue reading on Towards AI »",
+      "author": "Anwar",
+      "extra": {},
+      "id": "4853ea89c930a870",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Gemini 4 Argon for Customer Support: Benchmark Results",
+      "url": "https://medium.com/@palak_26149/gemini-4-argon-for-customer-support-benchmark-results-ac1a43de4b0f?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-21T17:36:06Z",
+      "excerpt": "IrisAgent now supports Gemini 4 Argon, Google’s newest model, in two settings: low thinking and high thinking. Continue reading on Medium »",
+      "author": "Palak",
+      "extra": {},
+      "id": "4891487ffee4919b",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Google staff resign in backlash over its AI contracts with military",
+      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+      "publishedAt": "2026-10-21T19:14:21Z",
+      "excerpt": "",
+      "author": "saikatsg",
+      "extra": {
+        "points": 56,
+        "comments": 2,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50186043"
+      },
+      "id": "b949a9351a025e91",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Duet",
+      "url": "https://claude.com/product/claude-duet",
+      "publishedAt": "2026-10-21T19:14:01Z",
+      "excerpt": "",
+      "author": "kuberwastaken",
+      "extra": {
+        "points": 206,
+        "comments": 178,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50186037"
+      },
+      "id": "5dbb54a005401fc7",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Rust off Rails: The opinionated web stack for the AI era",
+      "url": "https://rustoffrails.org/",
+      "publishedAt": "2026-10-21T16:34:16Z",
+      "excerpt": "",
+      "author": "mike1o1",
+      "extra": {
+        "points": 66,
+        "comments": 73,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50183727"
+      },
+      "id": "e457dd30d82516e0",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Oblivion Remastered Mod Built Using Claude AI Boosts FPS By Over 40% And Drastically Reduces Stuttering Without Sacrificing Visual Quality",
+      "url": "https://wccftech.com/oblivion-remastered-mod-built-using-claude-ai-boosts-fps-by-over-40-and-drastically-reduces-stuttering-without-sacrificing-visual-quality/",
+      "publishedAt": "2026-10-21T19:27:31Z",
+      "excerpt": "",
+      "author": "/u/PikaPikaDude",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xbwun6/oblivion_remastered_mod_built_using_claude_ai/"
+      },
+      "id": "a6ca975a8f2cf5b7",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Amazing free 3090 speedup hack, verified works 15% PP, 5% TG for free",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "publishedAt": "2026-10-21T18:19:42Z",
+      "excerpt": "I saw this today on X and decided to try it, I havent seen it posted here yet. I ran it on a single 3090 benchmarked it with qwen 3.8 27B before and after the optimization and saw these results: Observed prompt-processing throughput improved 22–30% ; generation speed improved 1–5% . All tests passed without GPU errors. Edit: Keep in mind performance gains can be higher, my 3090 is power limited to 230 watts including during my tests",
+      "author": "/u/Striking_Luck_886",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xbuzj5/amazing_free_3090_speedup_hack_verified_works_15/"
+      },
+      "id": "8acda1e9f09f4448",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Six months later, the best AI costs 20× less",
+      "url": "https://www.modelcompare.ai/blog/ai-model-prices-over-time",
+      "publishedAt": "2026-10-21T16:37:26Z",
+      "excerpt": "To the folks that think AI is too expensive and needs to be subsidized forever to make sense.",
+      "author": "/u/Tgoc",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xbs5ay/six_months_later_the_best_ai_costs_20_less/"
+      },
+      "id": "0503faf26dacf250",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Websites taken down worldwide as critical PHP cyber-security update issued",
+      "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+      "publishedAt": "2026-10-21T16:01:36Z",
+      "excerpt": "",
+      "author": "/u/MurkyRaspberry9610",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xbr5ia/websites_taken_down_worldwide_as_critical_php/"
+      },
+      "id": "f25e8e27f6a346bb",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI to bring AI models to Google's cloud, in further expansion beyond Microsoft - CNBC",
+      "url": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html",
+      "publishedAt": "2026-10-21T12:00:02Z",
+      "excerpt": "OpenAI will make its artificial intelligence models available for developers through Google's cloud, following years of competition between the two companies. That's critical as the ChatGPT creator looks to build its business beyond its consumer roots, and the move puts OpenAI's models on all three of the top cloud infrastructure providers. Now Google is getting its shot, bringing OpenAI's GPT products to its cloud's model garden and Antigravity coding tool in the coming weeks. \"Google Cloud's…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.41
+      },
+      "id": "031f9309a56a4d5a",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push - Reuters",
+      "url": "https://www.reuters.com/business/retail-consumer/openai-sell-its-top-models-google-cloud-latest-enterprise-push-2026-10-21/",
+      "publishedAt": "2026-10-21T12:01:36Z",
+      "excerpt": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. # OpenAI to sell its top models on Google Cloud in latest enterprise push. Oct 21 (Reuters) - OpenAI will make its frontier artificial intelligence models and Codex coding agent available through Google Cloud in the coming weeks, the companies said on Wednesday, deepening ties ​between two rivals and underscoring how major cloud providers are becoming key…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.101
+      },
+      "id": "77c946986ff01f3e",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Launch YC: Horizontal: AI agents that run factory operations end-to-end | Y Combinator",
+      "url": "https://www.ycombinator.com/launches/W8z-horizontal-ai-agents-that-run-factory-operations-end-to-end",
+      "publishedAt": "2026-10-21T15:00:00Z",
+      "excerpt": "Home›Launches›horizontal.\n\n2\n\n# Horizontal: AI agents that run factory operations end-to-end\n\nTaking over the daily work that keeps a plant running.\n\nNiklas Marxer\n\nhorizontal.\n\n#automation#industrial#manufacturing\n\nHorizontal (YC F26) is building autonomous factory operations, one agent at a time. [...] The founders Niklas Marxer and Jakob Hermeler are mechanical engineers who met doing robotics research at Stanford. Together they have built and deployed agentic AI in demanding environments…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.795
+      },
+      "id": "48f6c9dec7006a31",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Launch YC: Armorer Labs: Continuous security verification for AI agents in regulated industries | Y Combinator",
+      "url": "https://www.ycombinator.com/launches/W5k-armorer-labs-continuous-security-verification-for-ai-agents-in-regulated-industries",
+      "publishedAt": "2026-10-21T14:00:00Z",
+      "excerpt": "Home›Launches›Armorer Labs\n\n8\n\n# Armorer Labs: Continuous security verification for AI agents in regulated industries\n\nContinuous security verification for AI agents in regulated industries\n\nDaniel Begimher\n\nArmorer Labs\n\n#ai#devsecops#cybersecurity#developer\\_tools\n\nArmorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production. [...] Stop collecting findings. Start closing them without interrupting the business.\n\nBook a demo:  ·…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.793
+      },
+      "id": "1df97599058eb110",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "China says US' DeepSeek ban disregards Xi-Trump consensus - Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/china-says-us-banning-deepseek-government-it-systems-disregards-consensus-2026-10-20/",
+      "publishedAt": "2026-10-20T13:52:56Z",
+      "excerpt": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. ## Browse Markets. BEIJING, Oct 20 (Reuters) - China's commerce ministry on Tuesday criticised a US government order banning Chinese AI model DeepSeek from federal agency IT systems, saying ​it harmed Chinese firms' interests and disregarded understandings reached by the countries' ‌leaders. The ​US Homeland Security Department on Monday ordered the removal of…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.236
+      },
+      "id": "f9421f10c0933b7a",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "publishedAt": "2026-10-20T13:07:24Z",
+      "excerpt": "The U.S. has ordered federal civilian agencies to stop purchasing services and products developed by Chinese AI startup DeepSeek and remove them from government IT systems over national security concerns tied to the Chinese AI startup’s operations in China, according to the Department of Homeland Security. The DHS raised concerns about DeepSeek’s handling of user data, warning that sensitive information from US government users could potentially be accessible to Chinese authorities under…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.233
+      },
+      "id": "3309b6ce15f483d4",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Dell Technologies Advances Enterprise Agentic AI from the Deskside to Data Center with NVIDIA :: Dell Technologies, Inc. (DELL)",
+      "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1659/dell-technologies-advances-enterprise-agentic-ai-from-the-deskside-to-data-center-with-nvidia",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "excerpt": "Scaling agentic AI at the deskside: Dell Deskside Agentic AI expands with validated reference templates that scale autonomous AI from a single developer to enterprise-wide deployments of 1,000 or more systems\n Deploying purpose-built infrastructure: New modular data centers and compute platforms give organizations the performance and flexibility to scale AI capacity [...] the hardware, AI models and software stack needed to run agentic use cases including agentic coding, agentic VSS, NVIDIA…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.816
+      },
+      "id": "583802796167810c",
+      "collectedAt": "2026-10-21T21:52:45.667041+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-21T21:52:45.667041+00:00"
+}
