@@ -243,7 +243,196 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "amazon-bedrock-guardrails-adds-standard-tier-for-aa71cc",
+      "createdAt": "2026-10-21T05:13:31.289101+00:00",
+      "headline": "Amazon Bedrock Guardrails adds Standard tier for contextual grounding checks",
+      "summary": "Amazon Bedrock Guardrails now includes a Standard tier for contextual grounding checks. This update helps detect and filter model hallucinations by verifying that responses rely on provided reference sources.",
+      "whyItMatters": "It gives organizations a more cost-effective way to ensure their generative AI applications remain accurate and grounded in factual data.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-bedrock-advanced-prompt-optimization-intr-c373f5",
+      "createdAt": "2026-10-21T05:13:31.289101+00:00",
+      "headline": "Amazon Bedrock Advanced Prompt Optimization introduces prompt shortening",
+      "summary": "Amazon Bedrock Advanced Prompt Optimization now provides an optional setting to shorten prompts. The feature reduces prompt length while preserving the evaluation performance of the underlying models.",
+      "whyItMatters": "Shorter prompts help lower latency and token costs without sacrificing the quality of model outputs.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "navalia-framework-improves-ai-agents-in-financia-87e93c",
+      "createdAt": "2026-10-21T05:13:31.289101+00:00",
+      "headline": "Navalia framework improves AI agents in financial analysis",
+      "summary": "Researchers introduced Navalia, a system that helps AI agents perform complex financial tasks by generating verifiable training data from corporate reports. The underlying model demonstrates improved evidence integration and long-term task execution across multiple benchmarks.",
+      "whyItMatters": "It addresses the challenge of building reliable AI agents capable of executing complex multi-step reasoning in specialized domains like finance.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.26887"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.26887",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "sage-a1-5-mixture-of-experts-model-released-for-3d0e5d",
+      "createdAt": "2026-10-21T05:13:31.289101+00:00",
+      "headline": "Sage-A1.5 mixture-of-experts model released for long-horizon scientific problem solving",
+      "summary": "Sage-A1.5 is a 35B mixture-of-experts model built to handle multi-step tasks by organizing work and revising strategies during execution. It incorporates task delegation and verification capabilities to support collaborative scientific research.",
+      "whyItMatters": "Open foundational models with native long-horizon planning capabilities help accelerate automated scientific discovery and complex problem-solving.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.28578"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.28578",
+        "code": "https://github.com/InternScience/Agents-A1",
+        "model": null,
+        "demo": "https://alpha-innovator.github.io/Sage-A1.5/"
+      }
+    },
+    {
+      "id": "focusgui-adapter-improves-gui-agent-accuracy-thr-87427b",
+      "createdAt": "2026-10-21T05:13:31.289101+00:00",
+      "headline": "FocusGUI adapter improves GUI agent accuracy through dynamic evidence selection",
+      "summary": "FocusGUI is a lightweight adapter that helps graphical user interface agents focus on relevant visual evidence by dynamically selecting context. The approach improves action accuracy without requiring fine-tuning of the primary model.",
+      "whyItMatters": "It prevents errors from compounding in user interface automation by filtering out irrelevant visual and contextual noise.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.26203"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.26203",
+        "code": "https://github.com/fyzhang1/FocusGUI",
+        "model": null,
+        "demo": "https://fyzhang1.github.io/FocusGUI/"
+      }
+    },
+    {
+      "id": "mmenterprise-bench-evaluates-enterprise-ai-agent-ba000a",
+      "createdAt": "2026-10-21T05:13:31.289101+00:00",
+      "headline": "MMEnterprise-Bench evaluates enterprise AI agents on evolving multimodal records",
+      "summary": "MMEnterprise-Bench is a new evaluation framework designed to test AI agents on workplace tasks involving changing multimodal records. It measures how effectively agents handle information that is updated, corrected, and shared across various documents and channels.",
+      "whyItMatters": "Realistic benchmarks are essential for measuring how enterprise AI agents handle messy, dynamic real-world office communication environments.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.27911"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.27911",
+        "code": "https://github.com/mlvlab/MMEnterprise-Bench",
+        "model": null,
+        "demo": "https://mlvlab.github.io/MMEnterprise-Bench/"
+      }
+    },
+    {
+      "id": "decision-models-emerge-as-a-new-ai-category-for-9636a1",
+      "createdAt": "2026-10-21T05:13:31.289101+00:00",
+      "headline": "Decision models emerge as a new AI category for single-step typed data processing",
+      "summary": "A new class of AI tools called decision models has gained traction, offering single-step typed decisions from data. These models operate in an intermediate layer between traditional large language models and classic machine learning pipelines.",
+      "whyItMatters": "They offer a structured middle ground for enterprise workflows that require deterministic, typed outputs rather than open-ended text generation.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.kai-waehner.de/blog/2026/10/20/how-decision-models-became-a-new-ai-category-after-jev"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-20T21:52:31.934010+00:00"
+  "updatedAt": "2026-10-21T05:13:35.601962+00:00"
 }
