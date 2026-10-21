@@ -432,7 +432,293 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "google-cloud-adds-openai-models-to-its-model-gar-b9e698",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "Google Cloud adds OpenAI models to its model garden",
+      "summary": "Google Cloud has integrated OpenAI models into its model garden. This provides enterprise customers with access to leading closed-source large language models through a single platform.",
+      "whyItMatters": "It allows enterprise users to select and swap between different models without maintaining multiple vendor contracts.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-announces-general-availability-of-ai-d05396",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "Databricks announces general availability of AI Runtime",
+      "summary": "Databricks has released its AI Runtime, offering fully managed GPU infrastructure within the platform. Organizations can train foundation models on proprietary data without managing standalone hardware.",
+      "whyItMatters": "Managed infrastructure reduces operational complexity and improves security for enterprise foundation model training.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/ai-runtime-generally-available"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-showcases-local-ai-hardware-and-security-0b1d73",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "NVIDIA showcases local AI hardware and security tools at GTC Berlin",
+      "summary": "NVIDIA presented local hardware options like RTX Spark and DGX Spark alongside infrastructure security tools such as Confidential Bare Metal and Sentry. These additions aim to secure and support autonomous AI agent workflows across environments.",
+      "whyItMatters": "Expanding security architecture helps prevent bypass incidents and data exposure during autonomous task execution.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
+        },
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/"
+        },
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/"
+        },
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/"
+        },
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-explores-evolving-interfaces-for-comput-5eed28",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "Research explores evolving interfaces for computer-use agents",
+      "summary": "A new paper analyzes the performance limits of computer-use agents when interacting with traditional human user interfaces. The study discusses how adaptive interface design can make automated tasks more efficient.",
+      "whyItMatters": "Improving agent interfaces reduces inefficient interactions, such as redundant typing steps in spreadsheet software.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.28601"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.28601",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "specter-accelerates-mixture-of-experts-inference-c8f1f4",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "Specter accelerates Mixture-of-Experts inference via quantization",
+      "summary": "Researchers introduced Specter, an inference system that uses quantization and speculative offloading to reduce memory bottlenecks in Mixture-of-Experts models. The method limits latency caused by data transfers between accelerators and host memory.",
+      "whyItMatters": "It improves inference efficiency for large Mixture-of-Experts models constrained by hardware memory limits.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2511.14102"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2511.14102",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "coevo-rsi-addresses-component-mismatch-in-recurs-a557cc",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "CoEvo-RSI addresses component mismatch in recursive self-improving agents",
+      "summary": "A new study investigates the execution scaffold mismatch in recursive self-improving agents where the framework evolves faster than the underlying model. Researchers propose a co-evolution technique to align these components.",
+      "whyItMatters": "Proper alignment between model capabilities and execution scaffolds is essential for stable self-improvement loops.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.25078"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.25078",
+        "code": "https://github.com/SuJQ0722/CoEvo-RSI",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "s-agent-2-0-improves-spatial-reasoning-using-3d-521f06",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "S-Agent 2.0 improves spatial reasoning using 3D perception tools",
+      "summary": "Researchers introduced S-Agent 2.0, a system that enhances spatial reasoning by allowing visual language models to gather evidence through 3D perception tools. This agentic approach helps models evaluate object locations and relationships.",
+      "whyItMatters": "It enables visual language models to better understand spatial layouts and physical movements.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.28354"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.28354",
+        "code": "https://github.com/Ropedia/S-Agent-2.0",
+        "model": null,
+        "demo": "https://ropedia.github.io/S-Agent-2.0"
+      }
+    },
+    {
+      "id": "matrix-game-4-0-generates-real-time-playable-gam-585419",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "Matrix-Game 4.0 generates real-time playable game worlds using video models",
+      "summary": "Matrix-Game 4.0 separates game logic from visual generation to build interactive game environments. It uses a lightweight rule engine alongside an autoregressive video renderer to maintain performance on a single GPU.",
+      "whyItMatters": "It demonstrates efficient real-time rendering of interactive environments using video generation models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.27999"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.27999",
+        "code": null,
+        "model": null,
+        "demo": "https://matrix-game-v4-0.github.io/page/"
+      }
+    },
+    {
+      "id": "u-s-department-of-homeland-security-bans-deepsee-e3de09",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "U.S. Department of Homeland Security bans DeepSeek products from civilian agency IT systems",
+      "summary": "The DHS ordered civilian agencies to remove DeepSeek models and related services over concerns about data transfers to China and security vulnerabilities. The ban applies to all DeepSeek offerings used in agency networks.",
+      "whyItMatters": "It highlights growing regulatory scrutiny of foreign AI vendors and potential supply-chain risks.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.insurancejournal.com/news/national/2026/10/20/889633.htm"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tata-consultancy-services-launches-industrial-in-a33f4b",
+      "createdAt": "2026-10-21T12:20:25.156883+00:00",
+      "headline": "Tata Consultancy Services launches Industrial Intelligence Foundry for agentic AI",
+      "summary": "TCS introduced an industrial intelligence foundry aimed at helping manufacturing enterprises scale agentic AI deployments. The offering is designed to streamline operations and accelerate new product development.",
+      "whyItMatters": "It brings enterprise-grade agentic AI capabilities to the industrial sector, potentially boosting productivity.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.consultancy.uk/news/45908/tcs-offers-industrial-intelligence-foundry-to-boost-agentic-ai-scaling-for-enterprises"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-21T05:13:35.601962+00:00"
+  "updatedAt": "2026-10-21T12:20:38.006569+00:00"
 }
