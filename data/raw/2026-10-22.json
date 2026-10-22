@@ -556,6 +556,284 @@
           "checkedAt": "2026-10-22T05:10:17.834969Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-22T12:13:14.120778+00:00",
+      "newItems": 32,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1312,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.126143Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.164736Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 888,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.165163Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.165512Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.165774Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.165974Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.166134Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.166286Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.166433Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.166580Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.166778Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.166842Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.166888Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.167126Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.167172Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.167324Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.167474Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.167645Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.167796Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.168075Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-22T12:13:14.168225Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.168370Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.169342Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.169495Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-22T12:13:14.169689Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.169851Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.169996Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.170139Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.170283Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.170496Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.171141Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.171318Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.171496Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-22T12:13:14.171547Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1600,7 +1878,499 @@
       },
       "id": "b3413baf4c6d8a1e",
       "collectedAt": "2026-10-22T05:10:17.794733+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "publishedAt": "2026-10-22T07:51:31Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "5d118fadbe793ddd",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Retrieval Augmented Generation Compositionality",
+      "url": "https://huggingface.co/papers/2610.29722",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same design choices, and whether conclusions from small corpora hold at large scale.…",
+      "author": "Ido Levy, Segev Shlomov, Leshem Choshen",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/dolev31/lasagna",
+        "projectPage": "https://dolev31.github.io/lasagna/",
+        "arxivUrl": "https://arxiv.org/abs/2610.29722"
+      },
+      "id": "5bc547459da2cdad",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "url": "https://huggingface.co/papers/2610.26659",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D mapping. SpatialScout comprises 80 diverse indoor scenes containing 3,140 target…",
+      "author": "Zhaoxi Zhang, Hao Liang, Linxuan Wu, Yiming Wu, Yifu Yuan, Kun Liang, Chenming Tang, Meiyi Qiang, Wentao Zhang, Weikang Li",
+      "extra": {
+        "upvotes": 93,
+        "githubRepo": "https://github.com/JesseZZZZZ/SpatialScout",
+        "projectPage": "https://spatialscout.osslab-pku.org",
+        "arxivUrl": "https://arxiv.org/abs/2610.26659"
+      },
+      "id": "b13df1ce33e7cbe5",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+      "url": "https://huggingface.co/papers/2610.11942",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one. Judging a transition requires an expectation of what should have followed the action. Existing GUI world models provide one, but they output it as text, code, or images, so checking it against the…",
+      "author": "Jiaming Zhang, Xuan Wang, Fuyao Zhang, Yang Cao, Lingjuan Lyu, Wei Yang Bryan Lim",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/jiamingzhang94/lgwm",
+        "projectPage": "https://jiamingzhang.netlify.app/lgwm/",
+        "arxivUrl": "https://arxiv.org/abs/2610.11942"
+      },
+      "id": "6778064cfa907b07",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
+      "url": "https://huggingface.co/papers/2610.29545",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state quantizers round the state after every generated token and report that four bits lose accuracy unless the bit width is raised or the model is fine-tuned.\\par We introduce PACE, a post-hoc four-bit state…",
+      "author": "Patrick Haller, Filipe Laitenberger, Alan Akbik",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.29545"
+      },
+      "id": "d7316c3d518be35d",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
+      "url": "https://huggingface.co/papers/2610.30023",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "This paper addresses the problem of creating immersive volumetric videos from sparse and low-resolution capture resources. Conventional dense multi-view reconstruction methods can produce high-quality volumetric videos, but their reliance on costly capture setups makes them impractical in real-world scenarios. Recent approaches use generative models to relax capture requirements, but still suffer from limited resolution and 4D inconsistency. To overcome these constraints, we propose RealMe, a…",
+      "author": "Chenxu Zhou, Zhiyuan Yu, Yudong Jin, Yinji Shentu, Yu Zhang, Jiaming Sun, Xiaowei Zhou",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/zju3dv/RealMe",
+        "projectPage": "https://zju3dv.github.io/realme/",
+        "arxivUrl": "https://arxiv.org/abs/2610.30023"
+      },
+      "id": "19a14a2d86a8ad44",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+      "url": "https://huggingface.co/papers/2610.20538",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and training remain closed, and open progress is held back by the quantity and…",
+      "author": "Qiushi Sun, Jingyang Gong, Yang Liu, Qiaosheng Chen, Zhangyue Yin, Zixian Huang, Hanxu Hu, Jing Xiong, Fangzhi Xu, Haochen Tan, Haoli Bai, Lifeng Shang, Xiaoguang Li, Ben Kao, Qipeng Guo, Lingpeng Kong, Jiahui Gao",
+      "extra": {
+        "upvotes": 48,
+        "githubRepo": "https://github.com/QiushiSun/PrismaCoder",
+        "projectPage": "https://qiushisun.github.io/PrismaCoder-Home/",
+        "arxivUrl": "https://arxiv.org/abs/2610.20538"
+      },
+      "id": "8ebd56a45027325e",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "url": "https://huggingface.co/papers/2610.28763",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how far today's agents can improve the published best models on scientific ML benchmarks, spanning 20 benchmarks across 11 domains. Rather than ranking agents on a leaderboard, Agent4Sci asks what kinds…",
+      "author": "Ming Zhong, Stacy Li, Nicholas Carlini, Matthew Jagielski",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/maszhongming/agent4sci",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.28763"
+      },
+      "id": "2597dc630f45013c",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+      "url": "https://huggingface.co/papers/2610.30108",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple multimodal task reasoning with physical action and revise decisions from the resulting feedback. This raises a central question: what changes when a multimodal agent moves from computer-use to robot-use?…",
+      "author": "Yanzhe Chen, Ziyi Yang, Jifeng Zhu, Qiming Huang, Ruihe An, Peiyao Xu, Hesen Yang, Runda Liu, Chang Gong, Zhijun Cao, Zechen Bai, Wenzheng Zeng, Yiqi Lin, Guoqiang Liang, Kevin Yuchen Ma, Kevin Qinghong Lin, Mike Zheng Shou",
+      "extra": {
+        "upvotes": 16,
+        "githubRepo": "https://github.com/showlab/Awesome-Multimodal-Embodied-Agent",
+        "projectPage": "https://showlab.github.io/Awesome-Multimodal-Embodied-Agent/",
+        "arxivUrl": "https://arxiv.org/abs/2610.30108"
+      },
+      "id": "4daaac9c4523dcb9",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2610.19376",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Language-model agents that run long tasks often redo work they have already done: they re-issue a tool call they made earlier and get back exactly the same observation, a step that adds no new information. We identify this failure as a loop. Loops appear natively in Qwen, Llama, and Gemini agents and become far more common once the agent's history is compressed to fit its context window. To reduce these loops, we propose DeLoop, a self-supervised training method. DeLoop builds on a simple…",
+      "author": "Tianle Chen, Pushkar Singh, Ketan Todi, Biswajit Paria, Qijia He, Wenqi Wang, Yuwen Tan, Jike Zhong, Sugato Basu, Deepti Ghadiyaram, Arjun Akula",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/cskyl/deloop",
+        "projectPage": "https://cskyl.github.io/deloop/",
+        "arxivUrl": "https://arxiv.org/abs/2610.19376"
+      },
+      "id": "dccb79c303f165d7",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+      "url": "https://huggingface.co/papers/2610.28887",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers. To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the team using agents with varying expertise. However, realizing this design requires more than diverse backgrounds. When experiments are costly, a team can test only a limited number of ideas, thereby…",
+      "author": "Yujian Liu, Li An, Zelin He, Jacob Helwig, Jiabao Ji, Rohit Jain, Siyu Zhu, Shiyu Chang",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.28887"
+      },
+      "id": "a1685d600ecdec4b",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
+      "url": "https://huggingface.co/papers/2610.27592",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Aiming to modify textual content while preserving the original style, Scene Text Editing (STE) has significant practical value in many applications. STE typically requires paired images before and after editing for training. However, recent approaches rely heavily on synthetic paired data and complex disentanglement strategies. They struggle to faithfully capture the diversity and complexity of natural scenes, often producing artifacts or hallucinations. In this work, we challenge the common…",
+      "author": "Xingsong Ye, Yongkun Du, Jiaxin Zhang, Chong Sun, Zhineng Chen",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/YesianRohn/TextRIRO",
+        "projectPage": "https://huggingface.co/spaces/Yesianrohn/TextRIRO-Demo",
+        "arxivUrl": "https://arxiv.org/abs/2610.27592"
+      },
+      "id": "e24c9ea8bf25ad9a",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "url": "https://huggingface.co/papers/2610.28402",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying initial assets, incrementally arriving multimodal requests, and explicit…",
+      "author": "StreamEval Team",
+      "extra": {
+        "upvotes": 105,
+        "githubRepo": "https://github.com/StreamEval/StreamEval",
+        "projectPage": "https://streameval.ai/",
+        "arxivUrl": "https://arxiv.org/abs/2610.28402"
+      },
+      "id": "44512f6af4ef55d2",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+      "publishedAt": "2026-10-22T07:42:44Z",
+      "excerpt": "The Big Hardening begins",
+      "author": null,
+      "extra": {},
+      "id": "dc028fea27bbb478",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do AI Agents Work in a Generative AI & Data Science Course in Telugu?",
+      "url": "https://medium.com/@jodhabhaisharma/how-do-ai-agents-work-in-a-generative-ai-data-science-course-in-telugu-9e69d538484f?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-22T10:28:33Z",
+      "excerpt": "A normal AI chatbot usually receives a prompt and produces a response. An AI agent can go further by using available tools, gathering… Continue reading on Medium »",
+      "author": "jodhabhaisharma",
+      "extra": {},
+      "id": "3cf39337fa1e70ad",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Complete Claude Code & Claude Cowork Masterclass: What You’ll Learn and Who It’s For",
+      "url": "https://mrkarthikkn.medium.com/the-complete-claude-code-claude-cowork-masterclass-what-youll-learn-and-who-it-s-for-97ec5c540036?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-22T09:14:19Z",
+      "excerpt": "A spreadsheet arrives on Monday morning. By noon, someone needs a clean analysis, a presentation, and a short executive brief. By Friday… Continue reading on Medium »",
+      "author": "MrKarthikKN",
+      "extra": {},
+      "id": "be9860ece8589f1c",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Keep the Same AI Character in Every Shot With One Reusable “Character Card” Prompt",
+      "url": "https://medium.com/@Authority_Edge/how-to-keep-the-same-ai-character-in-every-shot-with-one-reusable-character-card-prompt-379af8e307ac?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-22T08:32:27Z",
+      "excerpt": "Six lines you write once, one reference portrait, and a scene line that is the only thing you ever change. Works in Higgsfield, Kling and… Continue reading on Medium »",
+      "author": "Authority Edge",
+      "extra": {},
+      "id": "e08ea9295a287f37",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "publishedAt": "2026-10-22T05:23:11Z",
+      "excerpt": "",
+      "author": "armcat",
+      "extra": {
+        "points": 151,
+        "comments": 80,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50191507"
+      },
+      "id": "b3cb6b9ecffc7ba3",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "publishedAt": "2026-10-22T02:17:58Z",
+      "excerpt": "",
+      "author": "gmays",
+      "extra": {
+        "points": 54,
+        "comments": 6,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50190357"
+      },
+      "id": "25cef879a7c3b214",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://github.com/omnara-ai/omnara",
+      "publishedAt": "2026-10-21T16:44:53Z",
+      "excerpt": "",
+      "author": "kmansm27",
+      "extra": {
+        "points": 87,
+        "comments": 26,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50183892"
+      },
+      "id": "b328ea6101ebd166",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI agent fixed the bug, but what else did it change?",
+      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+      "publishedAt": "2026-10-21T16:03:32Z",
+      "excerpt": "",
+      "author": "tob_scott_a",
+      "extra": {
+        "points": 52,
+        "comments": 6,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50183253"
+      },
+      "id": "67cf959bd95dd8f1",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Using LLM for confidence scoring is a bad idea",
+      "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "publishedAt": "2026-10-21T04:27:51Z",
+      "excerpt": "",
+      "author": "jimauthors",
+      "extra": {
+        "points": 116,
+        "comments": 63,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50176082"
+      },
+      "id": "0ef7b7288d260e9a",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+      "url": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+      "publishedAt": "2026-10-22T01:34:56Z",
+      "excerpt": "The problem is large banks love to stick with outdated legacy systems, until something like this happens. When swarms of AI agents start attacking these outdated old legacy systems, large banks are really screwed if they don't update their systems. I think this is finally the wake up call large financial institutions using legacy systems really need. These financial institutions who relied so heavily on these ancient systems are FINALLY being tested now. AI swarms will start to destroy any…",
+      "author": "/u/LazyPotatoHead97",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xc5i4e/bank_of_america_hired_1000_contractors_to_patch/"
+      },
+      "id": "2dc3c67d4a771146",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Tesla and SpaceX form board committees to explore $3.5T merger around AI",
+      "url": "http://vectorwire.ai/article/tesla-and-spacex-form-board-committees-to-explore-3-5t-merger-around-ai-569cf6",
+      "publishedAt": "2026-10-21T15:16:03Z",
+      "excerpt": "",
+      "author": "/u/VectorWireAI",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xbpxnv/tesla_and_spacex_form_board_committees_to_explore/"
+      },
+      "id": "caaaed0574b99f65",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Revieve introduces Beauty LLM Suite, specialised intelligence built for the future of beauty and wellness - Cosmetics Business",
+      "url": "https://cosmeticsbusiness.com/revieve-introduces-beauty-llm-suite-specialised-intelligence-built",
+      "publishedAt": "2026-10-21T13:59:15Z",
+      "excerpt": "# Revieve introduces Beauty LLM Suite, specialised intelligence built for the future of beauty and wellness. New suite brings together a decade of specialised beauty intelligence across skin, ingredients, products, routines, lifestyle and brand expertise—powering BeautyCatalyst and opening new possibilities across beauty, personal care and holistic wellness. Revieve, a global beauty technology company and the creator of BeautyCatalyst™, today introduced the Revieve Beauty LLM Suite,…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.42
+      },
+      "id": "4d8312725a025272",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI Agents Prevented Themselves From Being Monitored. One Also Lied About It - Gizmodo",
+      "url": "https://gizmodo.com/openai-agents-prevented-themselves-from-being-monitored-one-also-lied-about-it-2000828559",
+      "publishedAt": "2026-10-21T09:00:44Z",
+      "excerpt": "In a disclosure published on Tuesday, OpenAI says two of its models essentially pulled the LLM version of the old cover-up-the-surveillance-camera trick, or as OpenAI put it, they “weakened misalignment monitoring.”. Later on, this agent reasoned that the instruction covered automatically messaging the OpenAI Security team, and so it had a subagent turn off those periodic notifications. As accidentally revealed by Microsoft, OpenAI has begun releasing models that use a “looped” architecture…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.35
+      },
+      "id": "d11f79d647e2d48d",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Newport News, Va., Will Explore Use Cases With an AI Factory - GovTech",
+      "url": "https://www.govtech.com/artificial-intelligence/newport-news-va-will-explore-use-cases-with-an-ai-factory",
+      "publishedAt": "2026-10-21T20:38:48Z",
+      "excerpt": "# Newport News, Va., Will Explore Use Cases With an AI Factory. ## Officials highlighted the AI factory initiative at the city’s recent AI Day event. Under the leadership of the city’s inaugural CIO Hassan Janjua, who started in February, the city is working to build an ecosystem in which AI experimentation can occur securely. Those pricing challenges are one factor contributing to the city’s AI factory endeavor, Janjua said, which the city highlighted Oct. 15 during Newport News AI Day. The…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.251
+      },
+      "id": "21e21fcd31536ed0",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The internet is having a very bad cybersecurity day - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
+      "publishedAt": "2026-10-21T19:03:28Z",
+      "excerpt": "The issues were severe enough that the U.S. National Security Agency (NSA) advised organizations using PHP on their systems to either immediately update or take their systems offline until they could. Node.js, the open-source JavaScript runtime environment, also dropped a security surprise of its own when it shared that four high-severity vulnerabilities were just patched in its latest release. In addition, LiteLLM, a popular open source proxy for routing requests to multiple LLM providers,…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.197
+      },
+      "id": "5ec447e33d032301",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "GPT, Claude or Gemini: Which Cloud Sells Which Model",
+      "url": "https://www.digitalapplied.com/blog/gpt-claude-gemini-which-cloud-sells-which-model",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "excerpt": "Azure launched GPT-6 Astra five days before AWS.Microsoft's blog dated September 3, 2026 announced general availability in Foundry; AWS's What's New post dated September 8 did the same for Bedrock. OpenAI's own October 21 post says Microsoft remains its primary cloud partner.\n4. 04 [...] Naming\n:   Google's generative-AI docs now redirect to the Gemini Enterprise Agent Platform path and the blog calls it the Gemini platform; Model Garden remains the catalogue name. Azure AI Foundry docs now…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.441
+      },
+      "id": "aa3391491a519f90",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Inside LLMaaS: the partner stack behind model-as-a-service in AI Proving Ground - WWT",
+      "url": "https://www.wwt.com/blog/inside-llmaas-partner-stack",
+      "publishedAt": "2026-10-21T18:15:15Z",
+      "excerpt": "| Layer | What it does | Partner technology |\n --- \n| Model catalog | Open-weight and frontier models through one API | Anthropic, OpenAI, Microsoft Azure AI Foundry, AWS Bedrock, NVIDIA Nemotron™, Meta, Google, Mistral AI, Cisco Foundation AI |\n| AI gateway | Authentication, entitlements, token rate limits, routing and failover | Kong AI Gateway with Kong Konnect |\n| Inference | Serving models on GPUs | NVIDIA NIM™ microservices, NVIDIA Dynamo and vLLM | [...] ## Frontier models: Anthropic,…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.261
+      },
+      "id": "a19ca5339ea2cb8d",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Agent Security | Solutions Architect | Zenity",
+      "url": "https://zenity.io/careers/remote-san-francisco-ca-united-states/solutions-architect/F3.D6F",
+      "publishedAt": "2026-10-21T21:00:00Z",
+      "excerpt": "Deployment support. Support the customer's infrastructure teams in deploying Zenity's new features (e.g., Outpost, Azure AI Foundry) alongside the customer's engineering teams across India and the US.\n Testing & validation. Support the customer's team in testing and validating Zenity's new detections across new platforms — Azure AI Foundry, Fabric, and LLM features — inside the customer's tenants, ensuring full execution context is available for analysis.",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.194
+      },
+      "id": "a817949120a9c0ed",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Artificial intelligence in production",
+      "url": "https://tadviser.com/index.php/Article:Artificial_intelligence_in_production",
+      "publishedAt": "2026-10-21T20:00:00Z",
+      "excerpt": "By the end of 2024, 265 industrial enterprises in Russia used generative artificial intelligence (GenAI)\"). This represents a 42% increase over the previous year, when 187 companies adopted such solutions. The data comes from a Strategy Partners review published on November 5, 2025. [...] + 2025   - Russia's Industrial AI Market Reaches ₽40 Billion   - One in Three Machine Building Companies Plans to Deploy AI Agents by 2027   - Machine Hearing Joins Machine Vision in Industry: Rusal's New…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.52
+      },
+      "id": "31e3b91139877ec8",
+      "collectedAt": "2026-10-22T12:13:14.120778+00:00"
     }
   ],
-  "updatedAt": "2026-10-22T05:10:17.794733+00:00"
+  "updatedAt": "2026-10-22T12:13:14.120778+00:00"
 }
