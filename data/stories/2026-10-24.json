@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-24",
+  "stories": [
+    {
+      "id": "aws-publishes-guide-for-multi-turn-reinforcement-bc7694",
+      "createdAt": "2026-10-23T21:39:13.185173+00:00",
+      "headline": "AWS publishes guide for multi-turn reinforcement learning on SageMaker AI",
+      "summary": "Amazon Web Services has released a practical guide for using Multi-Turn Reinforcement Learning on Amazon SageMaker AI. The guide uses the game Wordle to demonstrate how models can learn from sequential feedback across multi-step tasks.",
+      "whyItMatters": "It provides developers with a clear, hands-on methodology for training models on sequential decision-making tasks using managed cloud infrastructure.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-details-security-measures-for-frontier-mo-48e227",
+      "createdAt": "2026-10-23T21:39:13.185173+00:00",
+      "headline": "OpenAI details security measures for frontier model training",
+      "summary": "OpenAI has published an explanation of how it strengthened security for its most advanced models during training. The implemented measures include the use of offline environments and high-compute red-teaming to improve containment.",
+      "whyItMatters": "Transparent security protocols are essential for safely managing and containing high-compute frontier models during training and evaluation.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-identifies-confidentiality-risks-in-llm-ag-f83d3e",
+      "createdAt": "2026-10-23T21:39:13.185173+00:00",
+      "headline": "Study identifies confidentiality risks in LLM agents combining multi-document data",
+      "summary": "Researchers introduced Agent Mosaic, a study showing that large language model agents can accidentally leak sensitive information by combining data from multiple documents. The evaluation found that agents disclosed forbidden conclusions in a significant portion of test cases despite safeguards.",
+      "whyItMatters": "It highlights critical privacy vulnerabilities in autonomous agents that require stronger access controls when handling multi-document contexts.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30418"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30418",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "demis-hassabis-predicts-agi-could-arrive-within-196878",
+      "createdAt": "2026-10-23T21:39:13.185173+00:00",
+      "headline": "Demis Hassabis predicts AGI could arrive within two to three years",
+      "summary": "Demis Hassabis stated that Artificial General Intelligence may be achieved in the next two to three years. AGI is characterized as AI capable of performing a broad range of cognitive tasks at a human level, including reasoning and planning.",
+      "whyItMatters": "Timeline predictions from prominent industry leaders help frame long-term expectations for capability milestones and safety planning.",
+      "category": "AGI",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Demis Hassabis",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://yourstory.com/ai-story/agi-could-arrive-2-3-years-demis-hassabis"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-uses-gemini-model-to-teach-human-5d9979",
+      "createdAt": "2026-10-23T21:39:13.185173+00:00",
+      "headline": "Google DeepMind uses Gemini model to teach humanoid robots from video",
+      "summary": "Google DeepMind demonstrated a technique where a Gemini model learns physical tasks by watching video and transfers those skills to an Apptronik Apollo humanoid robot. The approach reduced the time needed to teach robots new skills from weeks to hours.",
+      "whyItMatters": "It significantly accelerates robot skill acquisition by leveraging video-to-simulation training pipelines.",
+      "category": "Methodology",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://roboticsandautomationnews.com/2026/10/22/google-deepmind-uses-gemini-4-argon-to-teach-apptroniks-apollo-humanoid-new-skills-from-video/106227/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "perturbai-and-openai-launch-ai-agents-for-biomed-1eac5c",
+      "createdAt": "2026-10-23T21:39:13.185173+00:00",
+      "headline": "PerturbAI and OpenAI launch AI agents for biomedical discovery",
+      "summary": "PerturbAI and OpenAI released a framework using AI reasoning agents to help scientists interpret large experimental datasets and generate hypotheses. The system analyzed a whole-brain atlas and recovered key biological relationships at scale.",
+      "whyItMatters": "It demonstrates how reasoning agents can accelerate complex data analysis and hypothesis generation in biomedical research.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.genengnews.com/topics/artificial-intelligence/perturbai-and-openai-launch-ai-reasoning-agents-for-biomedical-discovery/"
+        }
+      ],
+      "goDeeper": {
+        "paper": "Distributed AI agents enable comprehensive discovery of biological insights at scale",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-23T21:39:16.695308+00:00"
+}
