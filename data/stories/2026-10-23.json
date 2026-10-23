@@ -695,7 +695,304 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "openai-and-poland-s-nask-partner-on-ai-safety-re-15c1f8",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "OpenAI and Poland's NASK partner on AI safety research",
+      "summary": "OpenAI and Poland's National Research Institute of Computer Science (NASK) have launched a partnership to collaborate on AI safety, security, and technical research. The joint effort aims to strengthen safeguards and support a more resilient digital ecosystem.",
+      "whyItMatters": "This partnership fosters international collaboration to improve safety safeguards and technical research for digital ecosystems.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "iquest-q1-open-source-model-released-for-agentic-f680fc",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "IQuest-Q1 open-source model released for agentic coding",
+      "summary": "Researchers have released IQuest-Q1, a large open-source foundation model designed for agentic coding and general tasks. The model uses a sparse Mixture-of-Experts architecture with 320 billion total parameters and 15 billion active parameters.",
+      "whyItMatters": "It provides the open-source community with a high-capacity model tailored for complex coding and agent workflows.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30949"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30949",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "wevisone-vl-vision-language-model-unifies-object-e0ece0",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "WeVisOne-VL vision-language model unifies object and pixel-level perception",
+      "summary": "Tencent has introduced WeVisOne-VL, a vision-language model that combines object-level and pixel-level perception using structured next-token prediction. The system supports multiple visual tasks with greater reliability for fine-grained details.",
+      "whyItMatters": "It improves the reliability and precision of vision-language models across diverse fine-grained visual tasks.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31329"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31329",
+        "code": "https://github.com/Tencent/WeVisOne-VL",
+        "model": null,
+        "demo": "https://tencent.github.io/WeVisOne-VL"
+      }
+    },
+    {
+      "id": "routeweaver-system-dynamically-selects-and-coord-96c88d",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "RouteWeaver system dynamically selects and coordinates multiple language models",
+      "summary": "Researchers have developed RouteWeaver, a system that dynamically selects and coordinates different language models for various tasks instead of using fixed execution patterns. This approach enables more adaptable routing of model calls.",
+      "whyItMatters": "Dynamic model routing optimizes task performance and resource allocation across multiple specialized language models.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.19705"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.19705",
+        "code": "https://github.com/LaughKing/RouteWeaver",
+        "model": null,
+        "demo": "https://laughking.github.io/RouteWeaver/"
+      }
+    },
+    {
+      "id": "new-technique-enables-real-time-voice-agents-to-c3e163",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "New technique enables real-time voice agents to reason while listening",
+      "summary": "A new research paper introduces a technique for real-time voice agents to perform reasoning and tool execution while the user is still speaking. The method reduces waiting times by processing actionable information before the user finishes their request.",
+      "whyItMatters": "It significantly reduces latency and improves conversational fluidity for real-time voice assistants.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.26233"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.26233",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "researchers-study-recursive-self-improvement-mec-2a76e5",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "Researchers study recursive self-improvement mechanisms for physical AI",
+      "summary": "A new paper examines how AI systems can improve the process by which they improve through recursive self-improvement. The study focuses on applying these learning mechanisms safely to physical robots across trial iterations.",
+      "whyItMatters": "Understanding recursive self-improvement in physical systems is an important step toward autonomous and adaptive robotics.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.29677"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.29677",
+        "code": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
+        "model": null,
+        "demo": "https://physical2rsi.github.io"
+      }
+    },
+    {
+      "id": "study-finds-simple-rag-can-outperform-complex-ag-996382",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "Study finds simple RAG can outperform complex agentic memory systems",
+      "summary": "Researchers investigated whether complex agentic memory systems are always necessary for long-term conversation understanding. Their study suggests that a naive Retrieval-Augmented Generation baseline using dense retrieval and reranking performs surprisingly well.",
+      "whyItMatters": "It demonstrates that simpler retrieval methods can match or exceed the effectiveness of complex memory architectures for long-term contexts.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30755"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30755",
+        "code": "https://github.com/Litmeb/RAW-RAG",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-benchmark-evaluates-ai-agents-on-video-cente-45f855",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "New benchmark evaluates AI agents on video-centered research tasks",
+      "summary": "Researchers have introduced a new benchmark for evaluating deep research agents that focus on source videos. The test requires agents to identify research questions from a video, retrieve external evidence, and synthesize the findings into a report.",
+      "whyItMatters": "It provides a standardized way to test the multimodal research and synthesis capabilities of advanced AI agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31158"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31158",
+        "code": "https://github.com/marinero4972/OmniDR-Bench",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "lala-world-model-enables-language-conditioned-ro-1d7cbb",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "LaLa-World model enables language-conditioned robot planning with lower costs",
+      "summary": "Researchers introduced LaLa-World, a system that uses natural language to describe actions and visual changes, allowing robots to learn from diverse sources like simulations and real-world trajectories. The model matches existing video generation performance while lowering training costs and speeding up inference.",
+      "whyItMatters": "It offers an efficient and cost-effective approach for language-conditioned robot planning and learning.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.27851"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.27851",
+        "code": "https://github.com/junha1125/LaLa-World",
+        "model": null,
+        "demo": "https://june-page.github.io/lala-world/"
+      }
+    },
+    {
+      "id": "verifierbench-tests-ai-agent-self-verification-t-221f50",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "VerifierBench tests AI agent self-verification tool generation",
+      "summary": "A new benchmark called VerifierBench evaluates how well AI agents can create executable tools to check the validity of their own outputs. The study focuses on the capacity of agents to write verifiers that correctly accept valid solutions and reject invalid ones.",
+      "whyItMatters": "Self-verification capabilities are crucial for ensuring reliable task execution and data filtering in autonomous AI agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.28679"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.28679",
+        "code": "https://github.com/DwanZhang-AI/verifier-suite",
+        "model": null,
+        "demo": "https://verifierbench.github.io/"
+      }
+    },
+    {
+      "id": "canva-unveils-craft-in-house-image-generation-mo-f6f7af",
+      "createdAt": "2026-10-23T12:02:22.193911+00:00",
+      "headline": "Canva unveils Craft in-house image generation model",
+      "summary": "Canva has introduced Craft, an advanced image generation model developed by its in-house research lab. The release positions Canva as a developer of proprietary foundation models for visual creation.",
+      "whyItMatters": "It marks a strategic expansion for design platforms building proprietary in-house generative foundation models.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.canva.com/newsroom/news/canva-craft"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-23T05:18:15.129041+00:00"
+  "updatedAt": "2026-10-23T12:03:28.006264+00:00"
 }
