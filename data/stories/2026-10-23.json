@@ -992,7 +992,142 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "bayer-crop-science-launches-agentic-decision-eng-6fc2c0",
+      "createdAt": "2026-10-23T17:28:10.462351+00:00",
+      "headline": "Bayer Crop Science launches Agentic Decision Engine on Amazon Bedrock",
+      "summary": "Bayer Crop Science has developed a multi-agent platform called the Agentic Decision Engine using Amazon Bedrock AgentCore. The system allows researchers to query machine learning workflows using natural language and resolves about 80 percent of questions without engineer intervention.",
+      "whyItMatters": "It demonstrates how multi-agent architectures on enterprise cloud platforms can automate routine technical support and scale internal research operations.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "filmflow-framework-converts-natural-language-int-bf7522",
+      "createdAt": "2026-10-23T17:28:10.462351+00:00",
+      "headline": "FilmFlow framework converts natural language into 3D virtual cinematography trajectories",
+      "summary": "Researchers introduced FilmFlow, an agentic framework that translates natural language instructions and reference videos into executable camera trajectories for 3D scenes. The system uses specialized agents to plan and refine camera movements and performs well on the CinemaBench benchmark.",
+      "whyItMatters": "This approach streamlines 3D virtual film production by automating camera work through descriptive text and video inputs.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30753"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30753",
+        "code": null,
+        "model": null,
+        "demo": "https://visionary-laboratory.github.io/Filmflow/"
+      }
+    },
+    {
+      "id": "anygamerenderer-transforms-blocky-ai-generated-g-906c0f",
+      "createdAt": "2026-10-23T17:28:10.462351+00:00",
+      "headline": "AnyGameRenderer transforms blocky AI-generated game footage into high-fidelity visuals",
+      "summary": "A new video-to-video generative model called AnyGameRenderer converts low-quality game footage produced by AI coding agents into high-fidelity graphics. The tool maintains original layouts, camera movements, and entity timings while adding detailed visuals.",
+      "whyItMatters": "It bridges the gap between rapid prototyping via AI coding agents and the need for polished visual assets in game development.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31466"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31466",
+        "code": "https://github.com/AlayaLab/AnyGameRenderer",
+        "model": null,
+        "demo": "https://alaya-lab.github.io/AnyGameRenderer/"
+      }
+    },
+    {
+      "id": "agentvqa-benchmark-evaluates-vision-language-mod-d47688",
+      "createdAt": "2026-10-23T17:28:10.462351+00:00",
+      "headline": "AgentVQA benchmark evaluates vision-language models on realistic agentic tasks",
+      "summary": "Researchers released AgentVQA, an offline benchmark for testing vision-language models across web, robotics, video, games, and spatial planning tasks. The evaluation revealed that top models achieved only 58.5 percent accuracy, primarily due to difficulties in tracking visual states and spatial relationships.",
+      "whyItMatters": "It provides a rigorous evaluation tool to identify specific spatial and visual reasoning flaws in current vision-language agent models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31494"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31494",
+        "code": "https://github.com/zlab-princeton/AgentVQA",
+        "model": null,
+        "demo": "https://zlab-princeton.github.io/AgentVQA"
+      }
+    },
+    {
+      "id": "ai-models-solve-long-standing-mathematical-probl-6c7366",
+      "createdAt": "2026-10-23T17:28:10.462351+00:00",
+      "headline": "AI models solve long-standing mathematical problems including unit distance and cycle double cover conjectures",
+      "summary": "Artificial intelligence models have recently solved several open mathematical problems, such as finding a counterexample to Erdős's unit distance conjecture and proving the Cycle Double Cover problem. Researchers are analyzing success patterns to determine which problem categories AI can address next.",
+      "whyItMatters": "It marks a practical shift for AI from pattern recognition to generating novel proofs and solutions for complex, long-standing mathematical challenges.",
+      "category": "Research",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/ai-is-getting-good-at-math/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-23T12:03:28.006264+00:00"
+  "updatedAt": "2026-10-23T17:29:09.147259+00:00"
 }
