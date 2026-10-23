@@ -224,7 +224,478 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-agentcore-gateway-adds-model-api-support-and-3339e6",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "AWS AgentCore Gateway adds model API support and fallback routing",
+      "summary": "Amazon has updated its Bedrock AgentCore Gateway to support the InvokeModel and InvokeModelWithResponseStream APIs. This update also introduces model fallback routing, allowing developers to direct existing Bedrock SDK integrations through the gateway for more flexible inference traffic management.",
+      "whyItMatters": "It gives developers more flexible inference traffic management and simpler integration paths for Bedrock models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "empirical-study-measures-the-communication-overh-7cb665",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Empirical study measures the communication overhead of AI agent handshakes",
+      "summary": "Researchers conducted an empirical study on the communication protocols used by AI agents. The work focuses on the initial handshake process, where agents identify each other and establish a session before exchanging useful information.",
+      "whyItMatters": "Understanding handshake overhead helps developers optimize multi-agent communication efficiency.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30151"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30151",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-paper-compares-cli-and-mcp-integration-metho-034f91",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "New paper compares CLI and MCP integration methods for AI agents",
+      "summary": "A new paper compares two methods for allowing AI agents to interact with external systems like files and APIs. The study analyzes the differences between using Command Line Interfaces and the Model Context Protocol.",
+      "whyItMatters": "It provides architectural guidance on how AI agents interface with external software tools.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30157"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30157",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tauindianbankbench-evaluates-conversational-ai-a-454928",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "TauIndianBankBench evaluates conversational AI agents in Indian banking",
+      "summary": "Researchers introduced TauIndianBankBench, a new evaluation framework for conversational AI agents. The benchmark tests whether language model assistants can correctly follow bank rules and perform tasks such as blocking a card.",
+      "whyItMatters": "It provides a domain-specific evaluation tool to test agent compliance with complex financial rules.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30161"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30161",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "fusioneval-benchmark-assesses-model-fusion-for-l-19437d",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "FusionEval benchmark assesses model fusion for large language models",
+      "summary": "A new benchmark called FusionEval assesses the process of combining multiple expert models into a single large language model. The study aims to provide better coverage of reasoning and tool use, areas where previous evaluations were limited.",
+      "whyItMatters": "It helps measure the effectiveness of combining expert models into unified architectures.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30162"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30162",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-error-repetition-in-llm-game-play-9944eb",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Study examines error repetition in LLM game players",
+      "summary": "Researchers investigated whether large language models tend to repeat actions that previously failed in a game setting. The study builds on findings that recording failed tool calls can cause smaller models to repeat the same errors.",
+      "whyItMatters": "It sheds light on how models handle past mistakes during iterative problem solving.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30205"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30205",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aql-lite-framework-improves-continual-pretrainin-226766",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "AQL-Lite framework improves continual pretraining for Arabic language models",
+      "summary": "Researchers introduced AQL-Lite, a framework designed to make continual pretraining of Arabic large language models more efficient. The method addresses challenges related to noisy web data and dialectal variation while reducing resource costs.",
+      "whyItMatters": "It lowers the resource barrier for training regional and dialect-specific language models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30344"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30344",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-explores-self-rewarded-moral-argumentat-507da8",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Research explores self-rewarded moral argumentation in large language models",
+      "summary": "A study examines how training language models to reward good moral arguments affects their decision-making. The research finds that while this approach makes models more decisive, it can also make them more pliable in their judgments.",
+      "whyItMatters": "It highlights potential trade-offs in alignment techniques that reward argumentative compliance.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30349"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30349",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "route-and-generate-framework-adapts-reasoning-ef-d4c948",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Route-and-Generate framework adapts reasoning effort in language models",
+      "summary": "Researchers proposed a hierarchical training framework called Route-and-Generate to help large language models manage their reasoning. The system allows models to adaptively decide how much complex reasoning to apply based on the difficulty of the task.",
+      "whyItMatters": "It offers a way to dynamically scale computational effort based on task complexity.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.30351"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30351",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "deep-fusion-memory-introduces-chunk-level-parame-9e7224",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Deep Fusion Memory introduces chunk-level parametric memory for LLMs",
+      "summary": "Researchers have proposed a new method called Deep Fusion Memory that allows large language models to store and use external knowledge without the high costs of real-time retrieval or the risk of forgetting existing data.",
+      "whyItMatters": "It addresses the trade-off between retrieval overhead and catastrophic forgetting in language models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.25100"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.25100",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "opends-world-benchmark-evaluates-deep-search-age-c78b9c",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "OpenDS-World benchmark evaluates deep search agents on the live web",
+      "summary": "A new benchmark called OpenDS-World tests how well AI agents can perform multi-step research on the live internet. The best-performing model achieved 39.0% accuracy, while human evaluators achieved 21.1% accuracy on the same tasks.",
+      "whyItMatters": "It provides a rigorous standard for evaluating autonomous web research capabilities.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30181"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30181",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "factor-aware-predictive-learning-improves-cinema-aabb50",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Factor-Aware Predictive Learning improves cinematic video generation",
+      "summary": "A new approach uses multimodal large language models to improve cinematic video generation by allowing for better control over characters, scenes, and camera movements from limited inputs.",
+      "whyItMatters": "It enhances precise control over generative video outputs through structured multimodal inputs.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30926"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30926",
+        "code": "https://github.com/Songlin1998/ShotVerse2.0",
+        "model": null,
+        "demo": "https://shotverse.github.io/fapl/"
+      }
+    },
+    {
+      "id": "cross-layer-expert-sharing-architecture-reduces-bf6652",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Cross-layer expert sharing architecture reduces storage and retrieval overhead in mixture-of-experts models",
+      "summary": "A new neural network architecture shares expert parameters across different layers to improve efficiency as models scale. This approach reduces storage requirements and speeds up retrieval during inference.",
+      "whyItMatters": "Optimizing mixture-of-experts models helps lower the hardware costs and memory overhead required to serve large language models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.27598"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.27598",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "code2video-compass-benchmark-evaluates-code-base-69486e",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "Code2Video-Compass benchmark evaluates code-based video generation",
+      "summary": "A new evaluation benchmark tests how accurately multimodal large language models translate temporal and visual requirements into executable code. The benchmark covers text-to-video, image-to-video, and video-to-video generation tasks.",
+      "whyItMatters": "Standardized benchmarks help developers measure and improve the reliability of video generation models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.28416"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.28416",
+        "code": "https://github.com/code2video-compass/Code2Video-Compass",
+        "model": null,
+        "demo": "https://code2video-compass.github.io"
+      }
+    },
+    {
+      "id": "thinkingbox-uses-database-grading-to-generate-re-95eb69",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "ThinkingBox uses database grading to generate reinforcement learning rewards for AI agents",
+      "summary": "A new post-training method called ThinkingBox automates reinforcement learning feedback using database verification systems. This technique helps train AI agents by grading their output directly against structured databases.",
+      "whyItMatters": "Automating reward generation makes it easier to scale reinforcement learning for complex agentic workflows.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "european-financial-institutions-and-retailers-ad-8eb5c1",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "European financial institutions and retailers adopt open-weight models for production infrastructure",
+      "summary": "Financial and retail organizations in Europe are deploying open-weight models on local infrastructure using NVIDIA accelerated computing. Companies report significant cost reductions and improved control over proprietary intelligence.",
+      "whyItMatters": "Enterprise adoption of open models demonstrates a practical path for organizations to lower inference costs while maintaining data sovereignty.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/"
+        },
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/"
+        },
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/"
+        },
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-expands-cosmos-platform-with-new-tools-an-381130",
+      "createdAt": "2026-10-23T05:18:07.262132+00:00",
+      "headline": "NVIDIA expands Cosmos platform with new tools and blueprints for physical AI world models",
+      "summary": "NVIDIA has updated its Cosmos platform with simulation checkpoints, training tools, and cloud-native data factory blueprints. These resources help developers generate synthetic data and build world models for autonomous systems and robotics.",
+      "whyItMatters": "Providing standardized synthetic data tools accelerates the development and testing of physical AI and autonomous vehicles.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-22T21:57:32.048615+00:00"
+  "updatedAt": "2026-10-23T05:18:15.129041+00:00"
 }
