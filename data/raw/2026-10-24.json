@@ -556,6 +556,284 @@
           "checkedAt": "2026-10-24T04:52:36.813797Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-24T11:23:13.421138+00:00",
+      "newItems": 11,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1318,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.424909Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.453220Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 890,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.453490Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.453698Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.453808Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.453906Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.453996Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454083Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454200Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454290Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454375Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454414Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454442Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454594Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454621Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454711Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454798Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454884Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.454969Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.455185Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-24T11:23:13.455281Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.455366Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.455989Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.456084Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-24T11:23:13.456189Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.456276Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.456359Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.456443Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.456527Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.456658Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.457100Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.457238Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.457349Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-24T11:23:13.457379Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1067,7 +1345,153 @@
       },
       "id": "64ed59a132eda417",
       "collectedAt": "2026-10-24T04:52:36.767912+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.31198",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "excerpt": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific evaluation metrics. Building on these findings, we introduce T 2Quant, a task and time-aware…",
+      "author": "Ofek Avivi, Eliron Rahimi, Avi Mendelson, Chaim Baskin",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/OfekAvivi/T2Quant",
+        "projectPage": "https://t2quant.ofekavivi.com/",
+        "arxivUrl": "https://arxiv.org/abs/2610.31198"
+      },
+      "id": "de0cdef672fa0381",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
+      "publishedAt": "2026-10-24T07:18:29Z",
+      "excerpt": "We have Fable at home... or so we are being told by paid shills",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "c1ad71a16e1f5eab",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "ahead-of-ai",
+      "sourceName": "Ahead of AI",
+      "title": "Building Reasoning Models from the Ground Up: A Video Course",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "publishedAt": "2026-10-24T11:14:32Z",
+      "excerpt": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+      "author": "Sebastian Raschka, PhD",
+      "extra": {},
+      "id": "d1a3b4fa5d93fb49",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Beyond the AI Demo: How Enterprise AI Architects Turn GenAI Experiments into Production Systems",
+      "url": "https://medium.com/@shivamcharan11/beyond-the-ai-demo-how-enterprise-ai-architects-turn-genai-experiments-into-production-systems-3ebc5e1fb4ac?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T09:29:45Z",
+      "excerpt": "Beyond the AI Demo: How Enterprise AI Architects Turn GenAI Experiments into Production Systems Continue reading on Medium »",
+      "author": "Shivam charan",
+      "extra": {},
+      "id": "5569723b64cec7d2",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Canva Craft Learned From Templates, Not Photos. That Choice Explains the Whole Model",
+      "url": "https://samarthmn.medium.com/canva-craft-learned-from-templates-not-photos-that-choice-explains-the-whole-model-0ebab63b0c00?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T08:44:16Z",
+      "excerpt": "Canva’s first in-house image model plans the layout before it draws, so what it makes can become a layered design you keep editing. Continue reading on Medium »",
+      "author": "SAMARTH MN",
+      "extra": {},
+      "id": "1d55f672aa301d37",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Does AI Give Different Answers to the Same Question? Sampling and Temperature Explained",
+      "url": "https://cybernerdie.medium.com/why-does-ai-give-different-answers-to-the-same-question-sampling-and-temperature-explained-af580d219106?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T08:36:27Z",
+      "excerpt": "The same prompt can produce different results. Here’s how AI sampling works, what temperature changes, and when consistency matters. Continue reading on Medium »",
+      "author": "Joshua Idunnu Paul",
+      "extra": {},
+      "id": "1dc1dfa1a9a21275",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Do You Say Please to AI? The Hidden Cost of Those Extra Words",
+      "url": "https://medium.com/womenintechnology/do-you-say-please-to-ai-the-hidden-cost-of-those-extra-words-c851afc4833c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T08:16:01Z",
+      "excerpt": "Recently, I completed the Generative and Agentic AI programme at the University of Oxford. I had the opportunity to go deeper into how… Continue reading on Women in Technology »",
+      "author": "Sithumini",
+      "extra": {},
+      "id": "96ece93a319f7fa0",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Is Context Engineering for Generative AI Models?",
+      "url": "https://medium.com/@kalyanvisualpath/what-is-context-engineering-for-generative-ai-models-8904d8efb8bd?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T07:33:09Z",
+      "excerpt": "Introduction Continue reading on Medium »",
+      "author": "Kalyanvisualpath",
+      "extra": {},
+      "id": "a9f09533cc1e5083",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "publishedAt": "2026-10-23T19:31:36Z",
+      "excerpt": "",
+      "author": "njx",
+      "extra": {
+        "points": 56,
+        "comments": 47,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50214185"
+      },
+      "id": "a8f2132df5b8b6a6",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Strata now supports Qwen 3.6 35B",
+      "url": "https://github.com/Niko1221/Strata/blob/main/docs/QWEN36.md",
+      "publishedAt": "2026-10-23T17:44:20Z",
+      "excerpt": "Tried it on a build for gfx906(mi50 16gb) and ran worse than llamacpp on decode speed.",
+      "author": "/u/JsThiago5",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xdktmz/strata_now_supports_qwen_36_35b/"
+      },
+      "id": "9ccbd4f9ed23d477",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What is an LLM | How a large language model works, how LLMs are trained with machine learning and examples | Founderz",
+      "url": "https://founderz.com/blog/what-is-an-llm",
+      "publishedAt": "2026-10-23T16:36:09Z",
+      "excerpt": "The first LLM technology built on transformers appeared in 2018, a year after Google’s paper. In June, OpenAI published its first GPT model, which combined transformers with unsupervised pre-training, according to OpenAI’s announcement. In October, Google released BERT, a model built to understand text. [...] Published:\n\nAn LLM, or large language model, is an artificial intelligence (AI) model that understands and generates human language. It learns from vast amounts of data and answers a…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.559
+      },
+      "id": "e13159768e5aad2e",
+      "collectedAt": "2026-10-24T11:23:13.421138+00:00"
     }
   ],
-  "updatedAt": "2026-10-24T04:52:36.767912+00:00"
+  "updatedAt": "2026-10-24T11:23:13.421138+00:00"
 }

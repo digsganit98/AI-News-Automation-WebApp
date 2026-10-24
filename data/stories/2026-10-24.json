@@ -243,7 +243,34 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "t2quant-framework-boosts-efficiency-of-diffusion-de0cde",
+      "createdAt": "2026-10-24T11:26:29.188383+00:00",
+      "headline": "T2Quant framework boosts efficiency of diffusion language models",
+      "summary": "Researchers introduced T2Quant, a method that optimizes data precision in diffusion language models during their iterative steps. The technique keeps accuracy high while using the same computational resources.",
+      "whyItMatters": "It makes diffusion language models faster and cheaper to run, expanding their practical use.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31198"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31198",
+        "code": "https://github.com/OfekAvivi/T2Quant",
+        "model": null,
+        "demo": "https://t2quant.ofekavivi.com/"
+      }
     }
   ],
-  "updatedAt": "2026-10-24T04:56:00.973071+00:00"
+  "updatedAt": "2026-10-24T11:26:30.937864+00:00"
 }
