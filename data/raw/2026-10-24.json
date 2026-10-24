@@ -834,6 +834,284 @@
           "checkedAt": "2026-10-24T11:23:13.457379Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-24T16:09:26.415719+00:00",
+      "newItems": 11,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1318,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.420692Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.455081Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 890,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.455342Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.455601Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.455757Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.455938Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.456086Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.456231Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.456373Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.456537Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.456679Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.456733Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.456807Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.457039Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.457085Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.457230Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.457373Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.457508Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.457641Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.457974Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-24T16:09:26.458212Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.459030Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.459209Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.459364Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-24T16:09:26.459513Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.459655Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.459820Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.459965Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.460110Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.460314Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.460875Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.461047Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.461210Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-24T16:09:26.461256Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1491,7 +1769,156 @@
       },
       "id": "e13159768e5aad2e",
       "collectedAt": "2026-10-24T11:23:13.421138+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Refining Prompts with the ART Framework",
+      "url": "https://helloimnirmala.medium.com/refining-prompts-with-the-art-framework-3825c67adcc7?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T15:50:58Z",
+      "excerpt": "Better prompts lead to better AI responses. The ART framework helps you turn vague instructions into clear, actionable prompts. Continue reading on Medium »",
+      "author": "Nirmala M",
+      "extra": {},
+      "id": "25ea31f9570ecf98",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Make Any Presentation with AI in 10 Minutes (12 Use Cases, the Right Tools, and Copy and…",
+      "url": "https://medium.com/codetodeploy/how-to-make-any-presentation-with-ai-in-10-minutes-12-use-cases-the-right-tools-and-copy-and-f3f623d6cedf?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T12:51:30Z",
+      "excerpt": "Most people open an AI tool, type a topic, and get a generic deck. Continue reading on CodeToDeploy »",
+      "author": "Vruddhi Shah",
+      "extra": {},
+      "id": "64e8b8a8be716e5e",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI for Beginners: Start With the Fundamentals",
+      "url": "https://medium.com/@w3genaitraining/generative-ai-for-beginners-start-with-the-fundamentals-13bc90625f27?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T12:33:55Z",
+      "excerpt": "# Generative AI for Beginners: Start With the Fundamentals Continue reading on Medium »",
+      "author": "W3 Gen AI Training",
+      "extra": {},
+      "id": "9611e3d898c12642",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Closing a Support Ticket Is Only Half the Battle: An Autonomous Verification Architecture",
+      "url": "https://medium.com/@yusufmertkan.koyuncu/why-closing-a-support-ticket-is-only-half-the-battle-an-autonomous-verification-architecture-a6c33cb17eef?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T12:12:52Z",
+      "excerpt": "Bridging the gap between technician closing notes and ground-truth physical network performance without human intervention. Continue reading on Medium »",
+      "author": "Yusufmertkan Koyuncu",
+      "extra": {},
+      "id": "05166aa4b916ea5c",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "I Wasn’t Trying to Build a Personal AI OS",
+      "url": "https://medium.com/@Y_K_shine/i-wasnt-trying-to-build-a-personal-ai-os-69eaf58d2800?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-24T11:41:12Z",
+      "excerpt": "Today, I am experimenting with a personal environment where AI can help me think, use relevant information, and move work forward. I think… Continue reading on Medium »",
+      "author": "shine",
+      "extra": {},
+      "id": "8cd400a3fd0ce1c6",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "publishedAt": "2026-10-24T11:18:54Z",
+      "excerpt": "",
+      "author": "TangerineDream",
+      "extra": {
+        "points": 73,
+        "comments": 28,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50220204"
+      },
+      "id": "8ef9c99c3688bb78",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Boston Dynamics employees petition to cancel $1.3M Spot robot sale to ICE",
+      "url": "http://vectorwire.ai/article/boston-dynamics-employees-petition-to-cancel-1-3m-spot-robot-sale-to-ice-6ae86e",
+      "publishedAt": "2026-10-24T10:59:13Z",
+      "excerpt": "",
+      "author": "/u/VectorWireAI",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xe5pqg/boston_dynamics_employees_petition_to_cancel_13m/"
+      },
+      "id": "09e8425c71079bc1",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "The RTX 5090 Isn't Gone, It's In Chinese Labs, Where Technicians Rip Off Its Die And 32GB VRAM For AI Servers",
+      "url": "https://wccftech.com/the-discontinued-rtx-5090s-are-entering-chinese-labs-where-they-are-turned-into-ai-gpus/",
+      "publishedAt": "2026-10-24T07:09:11Z",
+      "excerpt": "",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xe1zsr/the_rtx_5090_isnt_gone_its_in_chinese_labs_where/"
+      },
+      "id": "c8dbbe384ea18734",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "CoE on green skills, Applied AI opened - The Hindu",
+      "url": "https://www.thehindu.com/news/cities/Hyderabad/coe-on-green-skills-applied-ai-opened/article71617390.ece",
+      "publishedAt": "2026-10-23T18:29:18Z",
+      "excerpt": "On the occasion, eight MoUs were signed between 1M1B and industry partners WindStream Energy Technologies, SCL Lifesciences, Emball’ISO India Packaging, Vimta Labs, Knowvation Learnings, CIEL HR Services, Arah Infotech and MSys Inc. Also, an #AIForMyCity challenge was launched to encourage youth to develop AI-powered solutions to real-world problems.\n\nPublished - October 23, 2026 11:59 pm IST\n\n Copy link\n Email\n Facebook\n Twitter\n Telegram\n LinkedIn\n WhatsApp\n Reddit\n\nSEE ALL  Remove\n\n0 / 0…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.404
+      },
+      "id": "6c0797b0c0edb560",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What Is Model Context Protocol? | TrueFoundry",
+      "url": "https://www.truefoundry.com/glossary/mcp",
+      "publishedAt": "2026-10-23T14:00:00Z",
+      "excerpt": "The Model Context Protocol is an open standard that specifies how AI applications exchange context with external systems. It defines two roles: MCP clients, which are the AI applications, and MCP servers, which expose tools, data resources, and prompt templates. The protocol standardizes how a client discovers and uses what a server offers. [...] # What Is Model Context Protocol and How Does It Work?\n\nAshish Dubey\n\nMarketing Leader\n\nPublished:\n\nOctober 23, 2026\n\nUpdated:\n\nOctober 23,…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.655
+      },
+      "id": "b43ad4c0d3e1f01e",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Daily Papers - Hugging Face",
+      "url": "https://huggingface.co/papers?q=implicit+prompts",
+      "publishedAt": "2026-10-23T15:00:00Z",
+      "excerpt": "Reasoning is a fundamental component for achieving language understanding.\nAmong the multiple types of reasoning, conditional reasoning, the ability to\ndraw different conclusions depending on some condition, has been understudied\nin large language models (LLMs). Recent prompting methods, such as chain of\nthought, have significantly improved LLMs on reasoning tasks. Nevertheless,\nthere is still little understanding of what triggers reasoning abilities in [...] Prompt engineering is an essential…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.79
+      },
+      "id": "a8f2e064a91f0a56",
+      "collectedAt": "2026-10-24T16:09:26.415719+00:00"
     }
   ],
-  "updatedAt": "2026-10-24T11:23:13.421138+00:00"
+  "updatedAt": "2026-10-24T16:09:26.415719+00:00"
 }
