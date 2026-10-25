@@ -834,6 +834,284 @@
           "checkedAt": "2026-10-25T05:03:30.262117Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-25T11:53:35.230005+00:00",
+      "newItems": 10,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1318,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.233913Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.262879Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 890,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.263165Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.263372Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.263486Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.263590Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.263687Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.263780Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.263911Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264013Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 37,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264104Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264146Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264173Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264330Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264357Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264448Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264539Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264626Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264709Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.264945Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-25T11:53:35.265042Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.265131Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.265768Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.265896Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-25T11:53:35.266009Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.266105Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.266190Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.266277Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.266369Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.266504Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.266970Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.267090Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.267197Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-25T11:53:35.267227Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1111,7 +1389,140 @@
       },
       "id": "08ec2c42fefb98a4",
       "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "interconnects",
+      "sourceName": "Interconnects",
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "publishedAt": "2026-10-25T11:49:00Z",
+      "excerpt": "#20",
+      "author": "Nathan Lambert",
+      "extra": {},
+      "id": "36a01b353c30be0a",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From a Campus Trash Bin to a Bachelor’s Degree",
+      "url": "https://medium.com/@khoirulanam1604/from-a-campus-trash-bin-to-a-bachelors-degree-d77dc0e96413?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T09:32:03Z",
+      "excerpt": "What my undergraduate thesis at Universitas Gadjah Mada taught me about real problems, patience, and being wrong Continue reading on Medium »",
+      "author": "Khoirul Anam",
+      "extra": {},
+      "id": "698a6d62e07ba47d",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Dot Products and Cosine Similarity: How AI Measures Similarity",
+      "url": "https://kjaganathan.medium.com/dot-products-and-cosine-similarity-how-ai-measures-similarity-b4b22ce87025?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T08:58:04Z",
+      "excerpt": "Understanding the mathematics behind Machine Learning and Generative AI, one concept at a time. Continue reading on Medium »",
+      "author": "Karthick Jaganathan",
+      "extra": {},
+      "id": "17d8eec5eeb6cd66",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Are LLM Parameters? Understanding 7B Models, RAM, Quantization, and Ollama",
+      "url": "https://medium.com/@rrbadam/what-are-llm-parameters-understanding-7b-models-ram-quantization-and-ollama-76284332ca3d?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T08:13:54Z",
+      "excerpt": "You do not need to be an AI researcher to understand what makes a language model large, why it needs memory, or how to run one on your own… Continue reading on Medium »",
+      "author": "Rajes Reddy",
+      "extra": {},
+      "id": "4e02fbb26cacbc0e",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Vectors, Norms, and Normalization: The Mathematics Behind Embeddings",
+      "url": "https://kjaganathan.medium.com/vectors-norms-and-normalization-the-mathematics-behind-embeddings-b3acc20ab7d9?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T07:25:40Z",
+      "excerpt": "Understanding the mathematics behind Machine Learning and Generative AI, one concept at a time. Continue reading on Medium »",
+      "author": "Karthick Jaganathan",
+      "extra": {},
+      "id": "b42449806b9aaf4e",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "‘Bespoke’ mRNA vaccine significantly reduces risk of melanoma recurrence or death, clinical trial shows | First successful phase 3 trial of mRNA cancer vaccine",
+      "url": "https://www.theguardian.com/society/2026/oct/23/mrna-vaccine-melanoma-cancer-breakthrough-australia",
+      "publishedAt": "2026-10-25T04:36:41Z",
+      "excerpt": "",
+      "author": "/u/Competitive_Travel16",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xet21r/bespoke_mrna_vaccine_significantly_reduces_risk/"
+      },
+      "id": "48fdd73608a3b760",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "CMP170HX inspiration unlocks 30x/40x also, up to 2X Prefill speedup --> NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too",
+      "url": "https://wccftech.com/nvidia-rtx-30-40-gpus-get-faster-in-ai-llms-with-new-unlock-tool-but-prices-surge-too/",
+      "publishedAt": "2026-10-24T22:16:55Z",
+      "excerpt": "Your move everyone, buy, sell, but hurry...",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xelhpj/cmp170hx_inspiration_unlocks_30x40x_also_up_to_2x/"
+      },
+      "id": "8a28c64b62ea9ad9",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Toward AGI: How AI Can Move Beyond Tasks to the Real World | Video | ichongqing",
+      "url": "https://www.ichongqing.info/2026/10/25/toward-agi-how-ai-can-move-beyond-tasks-to-the-real-world-video",
+      "publishedAt": "2026-10-25T02:04:56Z",
+      "excerpt": "AGI remains a long-term research goal, with no universally agreed timeline for its realization. China's AI industry and Chongqing's research initiatives, manufacturing capabilities and urban applications provide settings for exploring how these elements can work together.\n\nSHARE TO SOCIAL MEDIA;)\n\nTwitter Facebook LinkedIn Wechat Weibo cancel;)\n\n RELATED ARTICLES;)\n MORE FROM AUTHOR;)\n\nMUST READ\n\n\n\n     \n\nNew Era, New Journey, New Chongqing [...] At the conference, Wang Hui, vice…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.504
+      },
+      "id": "8b7167d6239c0a69",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Artificial Intelligence | Siebel School of Computing and Data Science | Illinois",
+      "url": "https://siebelschool.illinois.edu/research/areas/artificial-intelligence",
+      "publishedAt": "2026-10-24T11:00:00Z",
+      "excerpt": "AI faculty are playing key roles in two $20 million AI institutes recently funded by the National Science Foundation and the U.S. Department of Agriculture’s National Institute of Food and Agriculture. The AI Institute for Future Agricultural Resilience, Management, and Sustainability (AIFARMS), led by Vikram Adve from CS, features Romit Chowdhary as Associate Director of Research, with other investigators including Alexander Schwing, Katherine Driggs-Campbell, Indranil Gupta, Kris Hauser,",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.146
+      },
+      "id": "cabd08411789f893",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "As the US and China form AI blocs, countries are increasingly torn between them",
+      "url": "https://www.newindianexpress.com/amp/story/lifestyle/tech/2026/Oct/25/as-the-us-and-china-form-ai-blocs-countries-are-increasingly-torn-between-them",
+      "publishedAt": "2026-10-25T05:00:00Z",
+      "excerpt": "+ Ahmedabad + Bengaluru + Bhopal + Bhubaneswar + Chandigarh + Chennai + Coimbatore + Delhi + Guwahati + Hyderabad + Jaipur + Kochi + Kolkata + Lucknow + Mumbai + Patna + Thiruvananthapuram + Vijayawada + Vizag < Opinion Explainer Business Sports > + Sport News + Cricket + Asian Games 2026 < Good News Entertainment > + Entertainment News + Review < Lifestyle > [...] U.S. AI firms are bringing investments to other countries like Singapore, where Anthropic is setting up its latest Asia office.…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.232
+      },
+      "id": "d7362f564fe62dfc",
+      "collectedAt": "2026-10-25T11:53:35.230005+00:00"
     }
   ],
-  "updatedAt": "2026-10-25T05:03:30.215599+00:00"
+  "updatedAt": "2026-10-25T11:53:35.230005+00:00"
 }
