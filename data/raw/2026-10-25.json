@@ -556,6 +556,284 @@
           "checkedAt": "2026-10-24T23:30:58.016868Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-25T05:03:30.215599+00:00",
+      "newItems": 8,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1318,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.220524Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.255957Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 890,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.256317Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.256591Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.256750Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.256902Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257073Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257221Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257360Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257496Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 36,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257633Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257690Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257732Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.257950Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.258032Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.258202Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.258348Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.258488Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.258623Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.258887Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-25T05:03:30.259085Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.259239Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.260015Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.260170Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-25T05:03:30.260311Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.260453Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.260589Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.260727Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.260866Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.261094Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-10-25T05:03:30.261669Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.261843Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.262060Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-25T05:03:30.262117Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -720,7 +998,120 @@
       "extra": {},
       "id": "695680f303d8de11",
       "collectedAt": "2026-10-24T23:30:57.980843+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Cognitive Debt: The Silent Killer Hiding in AI-Generated Code",
+      "url": "https://medium.com/@chandrachandrapati/cognitive-debt-the-silent-killer-hiding-in-ai-generated-code-bdc9a528f951?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T04:47:20Z",
+      "excerpt": "AI can write code in seconds. But when your business-critical application breaks at 2 a.m., can anyone on your team explain what broke… Continue reading on Medium »",
+      "author": "Giri",
+      "extra": {},
+      "id": "d73dd52f58557496",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Language Changes What AI Search Cites",
+      "url": "https://mdabdulahadrobin.medium.com/how-language-changes-what-ai-search-cites-9620b8f3bdfc?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T02:07:10Z",
+      "excerpt": "Ask an AI search engine a question in English. Then ask the same question in another language. Continue reading on Medium »",
+      "author": "Md. Abdul Ahad Robin",
+      "extra": {},
+      "id": "eb6b080f244bbc10",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Thirty seconds is a scene, not a clip: how to structure a Seedance 2.5 story",
+      "url": "https://medium.com/@kling4ai-production/thirty-seconds-is-a-scene-not-a-clip-how-to-structure-a-seedance-2-5-story-d3f311d0492c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T01:55:41Z",
+      "excerpt": "Beats, density, continuity anchors and extension planning for ByteDance’s longer one-take video model Continue reading on Medium »",
+      "author": "Kling4 AI",
+      "extra": {},
+      "id": "02b2e2f909df4142",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "publishedAt": "2026-10-25T01:33:49Z",
+      "excerpt": "",
+      "author": "gmays",
+      "extra": {
+        "points": 57,
+        "comments": 18,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50227356"
+      },
+      "id": "c35e0b6aa8bd30fa",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "publishedAt": "2026-10-24T23:11:54Z",
+      "excerpt": "",
+      "author": "gnabgib",
+      "extra": {
+        "points": 259,
+        "comments": 264,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50226419"
+      },
+      "id": "283aef7b5aec7f9e",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI 'hallucinations' in court filings show signs of slowdown, but judges still sound alarms - Reuters",
+      "url": "https://www.reuters.com/legal/government/ai-hallucinations-court-filings-show-signs-slowdown-judges-still-sound-alarms-2026-10-23/",
+      "publishedAt": "2026-10-23T20:06:05Z",
+      "excerpt": "Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv. ## Browse World. ## Browse Business. ## Browse Legal. WASHINGTON, Oct 23 (Reuters) - New instances of \"hallucinations\" and other AI-generated errors in court filings fell in the second and third quarters of 2026, according to new research, indicating that lawyers and other users may be taking greater precautions or ​that newer generative AI models could be less prone to mistakes. In the meantime,…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.057
+      },
+      "id": "4ea0eeb5df0a79d7",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "'I drank from the chalice of blood': indie dev scrubs his game of AI-generated voice lines, having previously described the technology as 'anti-human and anti-art' - PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/i-drank-from-the-chalice-of-blood-indie-dev-scrubs-his-game-of-ai-generated-voice-lines-having-previously-described-the-technology-as-anti-human-and-anti-art/",
+      "publishedAt": "2026-10-24T14:30:20Z",
+      "excerpt": "recently admitted to using generative AI in his ecosocialist satire while also referring to the technology as \"a technofascist, anti-human and anti-art project.\" Now, the developer has removed several AI generated voice lines from the game, following a backlash to his use of the very technology which the game lampoons. Pedercini admitted that his original blog \"was not a good post,\" and that he thought \"nobody would read it\", before claiming that his AI disclosure resulted in \"more insults…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.041
+      },
+      "id": "bc75af43c1d151d6",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Developer Of ‘Ecosocialist’ Game Future? No Thanks! Offers Refunds After Using AI Despite Calling It ‘Technofascist’ - Kotaku",
+      "url": "https://kotaku.com/developer-of-ecosocialist-game-future-no-thanks-offers-refunds-after-using-ai-despite-calling-it-technofascist-2000749158",
+      "publishedAt": "2026-10-23T20:30:36Z",
+      "excerpt": "You’d think that an “ecosocialist utopia” game made by a prominent leftist game developer who developed it “with locally sourced talent and minimal involvement from capitalists, marketers, or profiteers” would be free of generative AI, right? In a blog post this week (thanks, *Rock Paper Shotgun*), Pedercini confirmed that the game includes AI-generated content, including two text-to-speech voices and two music loops generated with Suno, despite later writing that “AI is a technofascist,…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.04
+      },
+      "id": "08ec2c42fefb98a4",
+      "collectedAt": "2026-10-25T05:03:30.215599+00:00"
     }
   ],
-  "updatedAt": "2026-10-24T23:30:57.980843+00:00"
+  "updatedAt": "2026-10-25T05:03:30.215599+00:00"
 }
