@@ -1112,6 +1112,284 @@
           "checkedAt": "2026-10-25T11:53:35.267227Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-25T16:39:59.153562+00:00",
+      "newItems": 9,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1318,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.158855Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.194601Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 890,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.194966Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.195275Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.195442Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.195600Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.195755Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.195898Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196070Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196239Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 37,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196383Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196439Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196484Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196705Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196750Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.196892Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.197064Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.197249Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.197395Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.197755Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-25T16:39:59.197990Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.198803Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.198967Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.199146Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-25T16:39:59.199296Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.199437Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.199576Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.199716Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.199856Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.200110Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.200689Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.200864Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.201028Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-25T16:39:59.201119Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1522,7 +1800,127 @@
       },
       "id": "d7362f564fe62dfc",
       "collectedAt": "2026-10-25T11:53:35.230005+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 18379,
+        "trendingScore": 316,
+        "task": "image-text-to-text"
+      },
+      "id": "6c64301c09e02d7e",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Ontology Development in the Age of Generative AI: From Automated Modeling to Explainable Enterprise…",
+      "url": "https://medium.com/@RajeshGupta-/ontology-development-in-the-age-of-generative-ai-from-automated-modeling-to-explainable-enterprise-d3884038ea2f?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T16:01:25Z",
+      "excerpt": "How AI-assisted semantic engineering, competency questions, evidence-driven validation, and human expertise can transform ontology… Continue reading on Medium »",
+      "author": "Rajesh  Kumar Gupta",
+      "extra": {},
+      "id": "9dba775ce2200605",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Demo to Production: How to Make Your RAG System Production-Ready",
+      "url": "https://medium.com/@atharva.kulkarni2427/from-demo-to-production-how-to-make-your-rag-system-production-ready-cda0a3e68f5e?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T15:51:17Z",
+      "excerpt": "You built a RAG prototype in an afternoon. It answered three test questions perfectly. Then real users showed up, and it started missing… Continue reading on Medium »",
+      "author": "Atharva Kulkarni",
+      "extra": {},
+      "id": "104bc8ab3be9880e",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Inference Cost and Gross Margin: Two Scenarios for 2027 and the Signal That Picks One",
+      "url": "https://medium.com/@syed_ali/ai-inference-cost-and-gross-margin-two-scenarios-for-2027-and-the-signal-that-picks-one-9a3db02292c5?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T15:38:16Z",
+      "excerpt": "Inference cost decides the margin of AI video, and its two inputs are moving in opposite directions: list prices per second keep falling… Continue reading on Medium »",
+      "author": "Syed Ali",
+      "extra": {},
+      "id": "47bd525daead7fa1",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Google Is Replacing Gems With Skills. Here’s What Gemini Users Need to Know.",
+      "url": "https://bysoyeb.medium.com/google-is-replacing-gems-with-skills-heres-what-gemini-users-need-to-know-291d8de60582?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T15:06:35Z",
+      "excerpt": "Your saved instructions are moving into everyday chats. Here’s the timeline, what transfers, and what deserves a backup. Continue reading on Medium »",
+      "author": "Soyeb",
+      "extra": {},
+      "id": "378fa6ebbc5b1f66",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Benchmarking Response Formats in LangChain Agents: ProviderStrategy vs. ToolStrategy",
+      "url": "https://medium.com/@tuncayyaylali/benchmarking-response-formats-in-langchain-agents-providerstrategy-vs-toolstrategy-a54b13f5c202?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-25T14:30:51Z",
+      "excerpt": "When building autonomous agents with LangChain, extracting structured, validated data (like a Pydantic model) is usually a non-negotiable… Continue reading on Medium »",
+      "author": "Tuncay YAYLALI",
+      "extra": {},
+      "id": "f1c6cdc6e529781c",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "publishedAt": "2026-10-25T09:51:17Z",
+      "excerpt": "",
+      "author": "thunderbong",
+      "extra": {
+        "points": 93,
+        "comments": 26,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50229827"
+      },
+      "id": "ed849a13eb4199aa",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Nanbeige/Nanbeige4.3-33B · Hugging Face",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "publishedAt": "2026-10-25T12:01:34Z",
+      "excerpt": "Stronger than Qwen3.8-27B across a range of benchmarks. but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B). It'll distilled into their 3B small models, maybe other sizes too.",
+      "author": "/u/Mysterious_Finish543",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/"
+      },
+      "id": "7deb0a380978d16f",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "publishedAt": "2026-10-25T06:26:59Z",
+      "excerpt": "",
+      "author": "/u/Resident-Fall4351",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xeuxt5/forced_to_pick_groks_ai_model_chooses_republicans/"
+      },
+      "id": "e4ac1d3f295acd60",
+      "collectedAt": "2026-10-25T16:39:59.153562+00:00"
     }
   ],
-  "updatedAt": "2026-10-25T11:53:35.230005+00:00"
+  "updatedAt": "2026-10-25T16:39:59.153562+00:00"
 }
