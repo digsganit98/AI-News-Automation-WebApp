@@ -1,0 +1,621 @@
+{
+  "date": "2026-10-27",
+  "runs": [
+    {
+      "runAt": "2026-10-26T20:39:56.731652+00:00",
+      "newItems": 25,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1322,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.734903Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.764172Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 890,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.764558Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.764867Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.764994Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765086Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765171Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765248Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765345Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765427Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765501Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765544Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765569Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765752Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765782Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765864Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.765939Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.766013Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.766083Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.766281Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-26T20:39:56.766359Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.766431Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.767321Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.767402Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-26T20:39:56.767479Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.767553Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.767635Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.767709Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.767783Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.767902Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.768314Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.768413Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.768505Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-26T20:39:56.768531Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "publishedAt": "2026-10-26T10:00:00Z",
+      "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "author": null,
+      "extra": {},
+      "id": "64d59b55a8fb8666",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "publishedAt": "2026-10-26T07:00:00Z",
+      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "author": null,
+      "extra": {},
+      "id": "eb7708c5f537ab79",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "publishedAt": "2026-10-26T07:00:00Z",
+      "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "author": null,
+      "extra": {},
+      "id": "8f2f08b6e197805b",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "excerpt": "Bringing fast and capable computer use to everyone",
+      "author": null,
+      "extra": {},
+      "id": "1758535ac6be3e6b",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "meta-engineering",
+      "sourceName": "Meta Engineering (ML)",
+      "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+      "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+      "publishedAt": "2026-10-26T16:00:07Z",
+      "excerpt": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster. Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running [...] Read More... The post Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up,…",
+      "author": "",
+      "extra": {},
+      "id": "9401fe00400266b3",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+      "url": "https://huggingface.co/papers/2610.32770",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "excerpt": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reasoning demonstrations. We push supervision to the limit: guided solely by coarse, high-level topic…",
+      "author": "Leon Sick, Lukas Hoyer, Yannick Strümpler, Christian Reisswig, Timo Ropinski, Federico Tombari",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.32770"
+      },
+      "id": "ad5140263098ffd0",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "DraMaze: A Multi-Agent Pipeline with Future-Aware Memory for Diverse Microdrama Script Generation",
+      "url": "https://huggingface.co/papers/2610.32002",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "excerpt": "The rapid growth of microdramas has increased demand for high-quality script production. Long-form microdrama script generation with LLMs requires both diverse plot progression and long-range narrative coherence. Our observations reveal that candidate continuations increasingly concentrate on fewer narrative mechanisms as generation progresses, while conventional retrieval may reinforce trope reuse and overlook historical information essential to future plots. To address these challenges, we…",
+      "author": "Siyang He, Qiqi Wang, Fan Liu, Yuncheng Huang, Pengfei Xu, Xi Chen, Ziwei He, Xipeng Qiu",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.32002"
+      },
+      "id": "3ae7623c907e0f17",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "FLOMSS: Generative Music Source Separation by Flow Matching",
+      "url": "https://huggingface.co/papers/2610.17821",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "excerpt": "Music source separation (MSS) has been conventionally addressed by discriminative methods. Recently, flow matching has emerged as a strong generative paradigm for modeling complex data distributions, with successful applications across diverse domains. These advances motivate us to systematically investigate flow matching for MSS in a four-source (Vocals, Bass, Drums, Other) setting in full-band stereo. Specifically, we investigate prediction targets, flow paths, single-source versus…",
+      "author": "Shuyang Cui, Zhi Zhong, Keisuke Toyama, Koichi Saito, Qiyu Wu, Yukara Ikemiya, Junghyun Koo, Kin Wai Cheuk, Woosung Choi, Giorgio Fabbro, Wei-Hsiang Liao, Shusuke Takahashi, Yuki Mitsufuji",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": "https://ik4sumii.github.io/FLOMSS/",
+        "arxivUrl": "https://arxiv.org/abs/2610.17821"
+      },
+      "id": "7fb3076e94a038a2",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 337,
+        "trendingScore": 319,
+        "task": "text-generation"
+      },
+      "id": "e6e48b4f44868421",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "OpenAI GPT-6.1 Terra is now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
+      "publishedAt": "2026-10-26T18:27:00Z",
+      "excerpt": "Today, AWS announces the general availability of OpenAI GPT-6.1 Terra on Amazon Bedrock. GPT-6.1 Terra expands the GPT-6 family with a balance of capability, speed, and cost efficiency for everyday workloads. As the newest model in the Terra line, GPT-6.1 Terra combines detailed visual reasoning, accurate computer use, and improved factuality and natural writing over GPT-5.6 Terra, for complex workflows. In OpenAI’s Agents’ Last Exam evaluation, it scored 15 percentage points higher than…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "c7498dd5644029b2",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3/",
+      "publishedAt": "2026-10-26T17:56:58Z",
+      "excerpt": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
+      "author": "Kiowa Jackson",
+      "extra": {},
+      "id": "8ed93bec790144d5",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/",
+      "publishedAt": "2026-10-26T17:27:20Z",
+      "excerpt": "Every time an agent takes a step, it re-reads its entire context before acting. Here is how prompt caching for OpenAI models on Amazon Bedrock lets your agent remember, cutting input cost and latency without resending the same tools, instructions, and history every turn.",
+      "author": "Claudio Mazzoni",
+      "extra": {},
+      "id": "0f715e1693d7c6b7",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+      "publishedAt": "2026-10-26T17:15:14Z",
+      "excerpt": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed as a single CDK application.",
+      "author": "Prabhakar Chandrasekaran",
+      "extra": {},
+      "id": "e5e4c3ae2b7984fd",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
+      "url": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+      "publishedAt": "2026-10-26T16:00:00Z",
+      "excerpt": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, and deploy microservices at machine-speed only find their CI/CD pipelines blo cked even faster as security friction scales. To help you get ahead of agentic-era Identity and Access Management, today we’re introducing IAM Helper. This suite of intelligent, agent-facing building blocks can automate…",
+      "author": "Surekha Balla",
+      "extra": {},
+      "id": "1aebd7e4d2fd3535",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "Building live intelligence: Databricks AI Search supports Streaming Tables, Materialized Views, and Managed tables using Iceberg",
+      "url": "https://www.databricks.com/blog/building-live-intelligence-databricks-ai-search-supports-streaming-tables-materialized-views",
+      "publishedAt": "2026-10-26T18:03:59Z",
+      "excerpt": "AI Search now natively supports&nbsp;Streaming Tables, Materialized Views, and Managed...",
+      "author": null,
+      "extra": {},
+      "id": "560fbec0053e24df",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Is GEO vs SEO? Choosing an AI Visibility Service Without Buying an Acronym",
+      "url": "https://medium.com/@guaranteedseoservices/what-is-geo-vs-seo-choosing-an-ai-visibility-service-without-buying-an-acronym-fb08507b0432?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-26T20:17:50Z",
+      "excerpt": "What is GEO vs SEO when three proposals land on your desk? Compare the work and the measurement, not the labels. Continue reading on Medium »",
+      "author": "guaranteedseoservices",
+      "extra": {},
+      "id": "8ab49244ae36797f",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "SAP Joule for Developers: Your AI Copilot Just Got Real",
+      "url": "https://leadandlogic.medium.com/sap-joule-for-developers-your-ai-copilot-just-got-real-22c5a2344ef2?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-26T19:02:59Z",
+      "excerpt": "Let’s be honest — when SAP first announced Joule, most developers I spoke with shrugged. “Another enterprise AI chatbot,” they said… Continue reading on Medium »",
+      "author": "Harish Gupta",
+      "extra": {},
+      "id": "f90954ce0b348d1b",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Chaos to Clarity: Building an AI-Powered Jira Ticket Intelligence System",
+      "url": "https://medium.com/@akshaybhardwaj_93198/from-chaos-to-clarity-building-an-ai-powered-jira-ticket-intelligence-system-f7d0394a8622?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-26T18:41:17Z",
+      "excerpt": "How multi-agent AI can help Software, IT, CCoE, and Admin teams understand, route, and analyze hundreds of tickets. Continue reading on Medium »",
+      "author": "Akshay Bhardwaj",
+      "extra": {},
+      "id": "e50ab0130e0dd9c2",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Fine-Tuning vs. Prompt Engineering: Different Ways to Customize AI",
+      "url": "https://medium.com/@shrirangesh/fine-tuning-vs-prompt-engineering-different-ways-to-customize-ai-ab9dad65ba3a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-26T17:59:18Z",
+      "excerpt": "Explore How Fine-Tuning and Prompt Engineering Work, Their Types, Real-World Applications, Advantages, Limitations, and How to Choose the… Continue reading on Medium »",
+      "author": "Shrirangesh Anandaraj",
+      "extra": {},
+      "id": "6780e7762badbcca",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why your content audit missed the gaps that matter (and what AI answers need)",
+      "url": "https://medium.com/@sovel.tech/why-your-content-audit-missed-the-gaps-that-matter-and-what-ai-answers-need-310c203253fa?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-26T17:14:00Z",
+      "excerpt": "The gap between demand and coverage is the one thing most teams still do not measure. Here is how to see it. Continue reading on Medium »",
+      "author": "Sovel Tech",
+      "extra": {},
+      "id": "e4389d789ad0d534",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "publishedAt": "2026-10-26T16:35:44Z",
+      "excerpt": "",
+      "author": "matthieu_bl",
+      "extra": {
+        "points": 182,
+        "comments": 70,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50246658"
+      },
+      "id": "ce5ce5fc43fb0958",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Brown student maps the hidden global labor powering AI",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "publishedAt": "2026-10-26T12:58:27Z",
+      "excerpt": "",
+      "author": "cdrnsf",
+      "extra": {
+        "points": 167,
+        "comments": 154,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50242843"
+      },
+      "id": "f2b7a055af1096d4",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "In China, the AI bubble has already burst, $480 billion wiped out",
+      "url": "https://www.reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/?taid=6adf45821579270001ce08d5",
+      "publishedAt": "2026-10-26T18:00:29Z",
+      "excerpt": "",
+      "author": "/u/Tennis-Affectionate",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xg48ci/in_china_the_ai_bubble_has_already_burst_480/"
+      },
+      "id": "ca2cb5067f1321a7",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta Has a New ‘North Star’ — Mark Zuckerberg Explains Why He’s Betting Big on Personal Superintelligence, AI Models and Smart Glasses",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-north-star-mark-zuckerberg-003009701.html",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "excerpt": "During Meta's third-quarter 2026 earnings call, Bernstein analyst Mark Shmulik asked Zuckerberg whether the company was entering a new era with its Muse AI models at the center of its business.\n\nZuckerberg said Meta's vision of personal superintelligence builds on its longstanding mission to empower individuals and help people connect.\n\nDon't Miss: [...] 1. Crypto\n2. AI\n\nBenzinga\n\n# Meta Has a New ‘North Star’ — Mark Zuckerberg Explains Why He’s Betting Big on Personal Superintelligence, AI…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.279
+      },
+      "id": "6d52d4f9b1619795",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta Superintelligence Labs Explained: What It Costs Meta | BloFin",
+      "url": "https://blofin.com/academy/education/metax/meta-superintelligence-labs-explained",
+      "publishedAt": "2026-10-26T04:29:01Z",
+      "excerpt": "### What is the difference between Meta AI and Meta Superintelligence Labs?\n\nMeta AI is the assistant people chat with inside Facebook, Instagram, WhatsApp and Messenger, while Meta Superintelligence Labs is the group that builds the models behind it. Since the lab's Muse Spark model took over Meta AI, Zuckerberg says the number of people using the assistant each day has risen 60% (source: Meta Q2 2026 earnings call). [...] In August 2025 Meta split the lab into four groups. TBD Lab builds…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.226
+      },
+      "id": "7c4456f561389e30",
+      "collectedAt": "2026-10-26T20:39:56.731652+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-26T20:39:56.731652+00:00"
+}

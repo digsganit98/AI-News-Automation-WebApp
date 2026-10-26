@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-27",
+  "stories": [
+    {
+      "id": "openai-releases-gpt-6-1-terra-model-on-amazon-be-71039d",
+      "createdAt": "2026-10-26T20:46:17.672140+00:00",
+      "headline": "OpenAI releases GPT-6.1 Terra model on Amazon Bedrock",
+      "summary": "OpenAI has introduced GPT-6.1 Terra, a model designed to offer improved visual reasoning and factuality at a lower cost. AWS has made the new model generally available on Amazon Bedrock.",
+      "whyItMatters": "Broad availability of more efficient and capable foundational models helps lower operational costs for enterprise workloads.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-ai-search-adds-support-for-streaming-abe105",
+      "createdAt": "2026-10-26T20:46:17.672140+00:00",
+      "headline": "Databricks AI Search adds support for Streaming Tables and Iceberg",
+      "summary": "Databricks has updated its AI Search feature to natively support Streaming Tables, Materialized Views, and Managed tables using the Iceberg format. This expansion allows organizations to search and query more data formats directly.",
+      "whyItMatters": "Native support for standard open table formats streamlines data management for retrieval-augmented generation systems.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/building-live-intelligence-databricks-ai-search-supports-streaming-tables-materialized-views"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-details-prompt-caching-and-agentic-retrieval-d44490",
+      "createdAt": "2026-10-26T20:46:17.672140+00:00",
+      "headline": "AWS details prompt caching and agentic retrieval patterns for Bedrock",
+      "summary": "AWS has published guidance on optimizing AI agents using prompt caching to reduce costs and latency. Additionally, AWS released a guide on building agentic retrieval systems using managed knowledge bases.",
+      "whyItMatters": "Practical implementation patterns help developers scale efficient and grounded AI agents in production environments.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-introduces-iam-helper-for-secure-au-bbb911",
+      "createdAt": "2026-10-26T20:46:17.672140+00:00",
+      "headline": "Google Cloud introduces IAM Helper for secure autonomous agent deployment",
+      "summary": "Google Cloud has launched IAM Helper to allow autonomous agents to manage identity and access permissions securely. The tools help developers automate security workflows without manual configuration.",
+      "whyItMatters": "Automated security management is essential for deploying autonomous agents safely at scale.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-on-policy-self-distillation-method-allows-ll-ad5140",
+      "createdAt": "2026-10-26T20:46:17.672140+00:00",
+      "headline": "New on-policy self-distillation method allows LLMs to improve independently",
+      "summary": "Researchers have developed an on-policy self-distillation technique that enables large language models to enhance their own performance. The method removes the need for external teacher models or human-curated training data.",
+      "whyItMatters": "Self-improvement techniques can reduce reliance on expensive human or frontier model feedback loops.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.32770"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.32770",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "dramaze-multi-agent-pipeline-generates-long-form-3ae762",
+      "createdAt": "2026-10-26T20:46:17.672140+00:00",
+      "headline": "DraMaze multi-agent pipeline generates long-form microdrama scripts",
+      "summary": "A new multi-agent system called DraMaze uses future-aware memory to help large language models write long-form microdrama scripts. The pipeline helps maintain narrative coherence and plot diversity over extended sequences.",
+      "whyItMatters": "Specialized memory architectures improve the ability of language models to handle complex long-form creative tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.32002"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.32002",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-26T20:46:22.301221+00:00"
+}
