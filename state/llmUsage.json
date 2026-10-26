@@ -1,15 +1,18 @@
 {
   "byAgent": {
-    "scout": 5
+    "analyst": 1,
+    "scout": 10
   },
   "byModel": {
-    "groq/qwen/qwen3.8-27b": 5
+    "gemini/gemini-3.5-flash-lite": 1,
+    "groq/qwen/qwen3.8-27b": 10
   },
-  "calls": 5,
+  "calls": 11,
   "date": "2026-10-26",
   "tokensByModel": {
-    "groq/qwen/qwen3.8-27b": 5206
+    "gemini/gemini-3.5-flash-lite": 3635,
+    "groq/qwen/qwen3.8-27b": 13803
   },
-  "tokensIn": 5138,
-  "tokensOut": 68
+  "tokensIn": 15761,
+  "tokensOut": 1677
 }

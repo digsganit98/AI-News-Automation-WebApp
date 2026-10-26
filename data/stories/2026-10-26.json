@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-26",
+  "stories": [
+    {
+      "id": "rsihub-open-source-framework-compares-ai-agent-e-b1121f",
+      "createdAt": "2026-10-26T05:12:32.049794+00:00",
+      "headline": "RSIHub open-source framework compares AI agent evolution methods",
+      "summary": "Researchers have released RSIHub, an open-source framework that provides shared infrastructure to build and test methods improving AI agents through feedback. Evaluations show the tool helps compare different evolution strategies and achieves up to a 13.5 percentage point improvement in task success rates.",
+      "whyItMatters": "It provides a standardized platform for evaluating and improving feedback-driven AI agent evolution methods.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.32253"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.32253",
+        "code": "https://github.com/simple-agent-lab/RSIHub",
+        "model": null,
+        "demo": "https://simpleagentlab.com/rsihub"
+      }
+    },
+    {
+      "id": "rynnunify-16-billion-parameter-model-combines-ro-90d760",
+      "createdAt": "2026-10-26T05:12:32.049794+00:00",
+      "headline": "RynnUnify 16-billion parameter model combines robot control and physical reasoning",
+      "summary": "Alibaba DAMO Academy has introduced RynnUnify, a 16-billion parameter model that merges visual planning, physical reasoning, and robot control. The system achieves state-of-the-art results on long-horizon embodied tasks and translates physical world understanding into real robot actions.",
+      "whyItMatters": "It advances embodied AI by combining visual planning and physical reasoning into a single model for robotic control.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.32965"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.32965",
+        "code": "https://github.com/alibaba-damo-academy/RynnUnify",
+        "model": null,
+        "demo": "https://alibaba-damo-academy.github.io/RynnUnify.github.io/"
+      }
+    },
+    {
+      "id": "userarena-benchmark-evaluates-shopping-recommend-2800e9",
+      "createdAt": "2026-10-26T05:12:32.049794+00:00",
+      "headline": "UserArena benchmark evaluates shopping recommendation agents using simulated users",
+      "summary": "Researchers have developed UserArena, a benchmark featuring over 64,000 real-world shopping session trajectories to test recommendation AI agents. The framework includes an On-Policy Trajectory Distillation method that improves simulated user behavior accuracy during long interactions.",
+      "whyItMatters": "It offers a realistic testing environment for evaluating and improving e-commerce shopping agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30932"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.30932",
+        "code": "https://github.com/RecGPT-Team/UserArena",
+        "model": null,
+        "demo": "https://recgpt-team.github.io/UserArena-Page/"
+      }
+    },
+    {
+      "id": "omni-woodpecker-method-reduces-cross-modal-hallu-51e9e5",
+      "createdAt": "2026-10-26T05:12:32.049794+00:00",
+      "headline": "Omni-Woodpecker method reduces cross-modal hallucinations in multi-modal AI",
+      "summary": "A new method named Omni-Woodpecker aims to reduce cross-modal hallucinations in large language models that process audio and visual data. The approach rebalances evidence and learned priors directly within internal processing rather than just fixing final outputs.",
+      "whyItMatters": "It addresses multi-modal hallucinations at the architectural level to improve the reliability of audio-visual AI models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.27103"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.27103",
+        "code": "https://github.com/ZiiJianLiu/Omni-Woodpecker",
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-26T05:12:35.294234+00:00"
+}
