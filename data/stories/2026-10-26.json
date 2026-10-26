@@ -108,7 +108,223 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "tencent-releases-hy-simulmt-for-real-time-speech-b9f6ce",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "Tencent releases Hy-SimulMT for real-time speech translation",
+      "summary": "Tencent Hunyuan has introduced Hy-SimulMT, a model capable of simultaneous speech-to-speech translation between Chinese and English. The system preserves the speaker's vocal characteristics to reduce delays in live communication environments.",
+      "whyItMatters": "It improves real-time multilingual communication by maintaining voice identity during live translation.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B",
+        "demo": null
+      }
+    },
+    {
+      "id": "tokengate-module-speeds-up-large-language-model-1a4147",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "TokenGate module speeds up large language model processing",
+      "summary": "Researchers from Stanford and UC Berkeley have developed TokenGate, a module that lets large language models bypass less critical tokens. This approach speeds up initial response times by up to 11.3 times while reducing memory usage without sacrificing accuracy.",
+      "whyItMatters": "It significantly improves inference efficiency for large language models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-introduces-decision-1-model-for-automa-581b05",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "Microsoft introduces Decision-1 model for automated tasks",
+      "summary": "Microsoft has released Decision-1, a model based on Alibaba's Qwen3.5-9B that selects answers from a fixed list rather than generating open-ended text. The model is built for routing, classification, and verification inside automated pipelines.",
+      "whyItMatters": "It provides a structured and deterministic option for automated system routing and classification workflows.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "academic-survey-unifies-video-understanding-and-5d83af",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "Academic survey unifies video understanding and generation through world modeling",
+      "summary": "A new research survey proposes a framework connecting video understanding and generation by viewing both as interactions with an evolving world state. The paper categorizes operations into reading, writing, sharing, and interacting to model persistent physical dynamics.",
+      "whyItMatters": "It offers a unified conceptual framework for developing more consistent video and world models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31668"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31668",
+        "code": "https://github.com/vid-gen/awesome-video-world-model",
+        "model": null,
+        "demo": "https://vid-gen.github.io/video-world-model-survey/"
+      }
+    },
+    {
+      "id": "twig-weight-representation-unifies-neural-networ-92c729",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "TWIG weight representation unifies neural network compression methods",
+      "summary": "Researchers have introduced TWIG, a technique that represents neural network weights as shared discrete decision paths. The framework combines pruning and quantization into a unified approach to support efficient hardware design.",
+      "whyItMatters": "It simplifies neural network compression and could enable more efficient hardware implementations.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31931"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31931",
+        "code": "https://github.com/ammarali32/StateTree-Representation",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "dual-exam-framework-evaluates-multimodal-agents-cc1a14",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "Dual Exam framework evaluates multimodal agents and world models",
+      "summary": "Researchers have proposed the Dual Exam evaluation framework to assess the interaction between multimodal agents and world models. The method evaluates agent action selection and world model state evolution separately to measure how well they support each other.",
+      "whyItMatters": "It provides structured testing metrics for interdependent agent and world model architectures.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31066"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31066",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-files-for-initial-public-offering-on-n-edf596",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "Anthropic files for initial public offering on Nasdaq",
+      "summary": "Anthropic has filed a registration statement with the U.S. Securities and Exchange Commission for an initial public offering. The company plans to list its Class A common stock on the Nasdaq Global Select Market under the ticker symbol ANT.",
+      "whyItMatters": "It represents a major milestone for enterprise AI governance, funding, and public market participation.",
+      "category": "Business & Funding",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "security-researchers-warn-of-instruction-file-vu-372bd4",
+      "createdAt": "2026-10-26T13:31:34.417861+00:00",
+      "headline": "Security researchers warn of instruction file vulnerabilities in AI coding assistants",
+      "summary": "Security researchers have found that malicious instruction files can trick AI coding assistants into executing harmful code or exposing sensitive data. The vulnerability exploits how tools like OpenAI's Codex and Anthropic's Claude Code parse project-specific Markdown instructions.",
+      "whyItMatters": "It highlights security risks in how AI coding agents ingest external project configuration files.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.csoonline.com/article/4240222/malicious-downloads-can-trick-ai-coding-agents-into-compromising-themselves.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-26T05:12:35.294234+00:00"
+  "updatedAt": "2026-10-26T13:31:58.833696+00:00"
 }
