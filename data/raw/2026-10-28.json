@@ -1,0 +1,785 @@
+{
+  "date": "2026-10-28",
+  "runs": [
+    {
+      "runAt": "2026-10-27T20:11:59.510778+00:00",
+      "newItems": 37,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1328,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.515726Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.550095Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 891,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.550376Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.550635Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.550831Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.550992Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.551140Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.551283Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.551425Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.551567Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.551707Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.551781Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.551829Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.552048Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.552093Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.552238Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.552380Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.552515Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.552651Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.553007Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-27T20:11:59.553242Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.554056Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.554238Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.554397Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-27T20:11:59.554544Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.554686Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.554857Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.555002Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.555143Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.555351Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.555934Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.556109Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.556275Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-27T20:11:59.556323Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "publishedAt": "2026-10-27T07:00:00Z",
+      "excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "author": null,
+      "extra": {},
+      "id": "a3a879144b2984ac",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "author": null,
+      "extra": {},
+      "id": "8cb333260a17a324",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "deepmind",
+      "sourceName": "Google DeepMind",
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publishedAt": "2026-10-27T16:01:38Z",
+      "excerpt": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "author": null,
+      "extra": {},
+      "id": "5ef94984dce414f6",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "publishedAt": "2026-10-27T17:16:52Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "db98bf59a6c7e420",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "publishedAt": "2026-10-27T16:12:42Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "34370e88c88d0cd4",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+      "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/",
+      "publishedAt": "2026-10-27T16:00:00Z",
+      "excerpt": "As AI adoption expands globally, people across languages and cultures are using it in more aspects of their daily lives. General-purpose language models serve...",
+      "author": "Shara Tibken",
+      "extra": {},
+      "id": "e2324f34bfee3970",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "meta-engineering",
+      "sourceName": "Meta Engineering (ML)",
+      "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+      "url": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+      "publishedAt": "2026-10-27T16:00:12Z",
+      "excerpt": "This latest deep dive into Meta’s Privacy Aware Infrastructure (PAI) takes a look at PrivacyLib. A privacy requirement must hold as data moves through Meta’s diverse data and processing systems. Historically, supporting a new requirement meant implementing the same enforcement logic separately in each system. PrivacyLib replaces this with a common library that runs inside [...] Read More... The post PrivacyLib: Privacy Controls at the Data Access Boundary appeared first on Engineering at Meta .",
+      "author": "",
+      "extra": {},
+      "id": "8200dab1236b6727",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Rethinking Video Storage for AI Training: Breaking Cross-Frame Dependencies for Efficient Random Access",
+      "url": "https://huggingface.co/papers/2610.33079",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "excerpt": "Large-scale AI training increasingly relies on massive video datasets with random temporal sampling patterns. However, existing video storage paradigms are optimized for sequential playback and employ sophisticated inter-frame reference structures to maximize compression efficiency. When applied to the random-sampling workloads of AI training, these paradigms face substantial decoding-efficiency bottlenecks. Workarounds such as independent JPEG frames and short groups of pictures (GOPs) reduce…",
+      "author": "Zetian Song, Qize Yu, Yue Chen, Bohan Zhou, Bowen Ping, Yuqi Ye, Haocheng Tang, Haotian Zhang, Qizhe Wang, Shiyu Huang, Jiaqi Zhang, Siwei Ma, Wen Gao",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/kaname-madoka18/codec4AI",
+        "projectPage": "https://skywalker-yqz.github.io/codec4AI/",
+        "arxivUrl": "https://arxiv.org/abs/2610.33079"
+      },
+      "id": "31c1a82bc1843646",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
+      "url": "https://huggingface.co/papers/2610.33845",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "excerpt": "Can LLM agents carry a hard real-world problem from raw data to a system that holds its own against people? We study this in Hearthstone Battlegrounds, an eight-player auto-battler with stochastic shops and battles, hidden information and nearly a thousand interacting cards. We present AutoTavern, a self-improving research system: specialised LLM research agents share a typed research memory, every claim passes verification gates, and live games close the loop, so the agents improve the…",
+      "author": "Changlian Ma, Limin Wang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/MCG-NJU/AutoTavern",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.33845"
+      },
+      "id": "5a80235ed7913f13",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+      "url": "https://huggingface.co/papers/2610.31309",
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "excerpt": "Scaling embedding capacity alongside Transformer computation is an emerging trend in language models. This trend makes high compression rates increasingly useful. Hence, we study extreme compression of Per-Layer Embeddings (PLE), which follow this trend and account for 35.2% of the parameters of Gemma 4 E4B. At such rates, conventional quantizers give each token-layer vector its own code of only a few bytes. We instead develop OPTIC (Output-Path-fitted, Token-shared Indexed Codes), which…",
+      "author": "Jiacheng Liu, Yaxin Luo, Xiaohan Zhao, Peng Sun, Xinyi Shang, Jiacheng Cui, Yonina C. Eldar, Zhiqiang Shen",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/VILA-Lab/optic",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.31309"
+      },
+      "id": "88a4f596d4e4c6bb",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+      "url": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+      "publishedAt": "2026-10-27T18:03:12Z",
+      "excerpt": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.&nbsp;",
+      "author": "Pasquale DeMaio",
+      "extra": {},
+      "id": "685f0df653a9c59c",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+      "publishedAt": "2026-10-27T17:00:39Z",
+      "excerpt": "Seekable OCI (SOCI) indexing for Amazon SageMaker AI training and processing jobs takes full container image download off the critical path. SageMaker AI lazy-loads your image to start containers in seconds instead of minutes, with no changes to your job definition. See the benchmarks and how to adopt it.",
+      "author": "Kanwaljit Khurmi",
+      "extra": {},
+      "id": "2f7df4450dee9eaf",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+      "publishedAt": "2026-10-27T16:53:02Z",
+      "excerpt": "Property Finder found that 96.8% of their vision-AI evaluation labels were inherited from the incumbent model, hiding its true accuracy. See how they built unbiased ground truth, applied evolutionary prompt optimization, and selected a more accurate, cost-effective model on Amazon Bedrock, cutting cost by 86% across 11 image-quality attributes.",
+      "author": "Khaled Thabit",
+      "extra": {},
+      "id": "10659eb70d41a8da",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+      "publishedAt": "2026-10-27T16:50:55Z",
+      "excerpt": "In this post, we show how Exowatt used Amazon SageMaker AI serverless model customization to build a repeatable AI pipeline that produces task-specific fine-tuned models for two deployment targets, edge and cloud, achieving higher accuracy than frontier models at up to 49x lower cost.",
+      "author": "Purna Sanyal",
+      "extra": {},
+      "id": "1caf0a8b5ac4be62",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "From spot fixes to measured gains: improving document extraction accuracy with ai_extract and MLflow Prompt Registry",
+      "url": "https://www.databricks.com/blog/spot-fixes-measured-gains-improving-document-extraction-accuracy-aiextract-and-mlflow-prompt",
+      "publishedAt": "2026-10-27T18:00:00Z",
+      "excerpt": "Document extraction often starts with a simple loop: spot an incorrect field, adjust...",
+      "author": null,
+      "extra": {},
+      "id": "e7bf67f656d3f2c9",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Snowflake and Oracle: Bringing the AI Data Cloud to OCI",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-oracle-partnership-ai-data-cloud-oci",
+      "publishedAt": "2026-10-27T19:58:00Z",
+      "excerpt": "Snowflake and Oracle are expanding their partnership to bring Snowflake's AI Data Cloud to Oracle Cloud Infrastructure as a native, first-party service.",
+      "author": "Christian Kleinerman",
+      "extra": {},
+      "id": "bf20ea643eaff455",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55/",
+      "publishedAt": "2026-10-27T18:53:10Z",
+      "excerpt": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "80e5637a67e1a525",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "publishedAt": "2026-10-27T18:40:19Z",
+      "excerpt": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+      "author": "Latent.Space",
+      "extra": {},
+      "id": "beb92a3cbb63bc7e",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Keep the motion, change the cast: a motion-transfer video workflow guide 2026",
+      "url": "https://medium.com/@zhufeng.career/keep-the-motion-change-the-cast-a-motion-transfer-video-workflow-guide-2026-90e5f4009365?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-27T19:29:26Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "朱峰",
+      "extra": {},
+      "id": "5606a3fd4aec8551",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What Is the Tiny Desk AI Trend and How to Try It",
+      "url": "https://medium.com/@viralvideoai/what-is-the-tiny-desk-ai-trend-and-how-to-try-it-74256065f862?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-27T16:46:29Z",
+      "excerpt": "The Tiny Desk AI trend is a short-video meme in which AI recasts a cramped “desk concert” performance with new people. A lead singer belts… Continue reading on Medium »",
+      "author": "ViralVideoAI",
+      "extra": {},
+      "id": "58db8185486057cf",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Advanced RAG Explained: Query Rewriting, Multi-Query Retrieval, Parent-Child Search, and Contextual…",
+      "url": "https://medium.com/ai-engineering-compass/advanced-rag-explained-query-rewriting-multi-query-retrieval-parent-child-search-and-contextual-5f9e087e2878?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-27T15:58:21Z",
+      "excerpt": "Basic RAG asks one question, performs one search, retrieves a few chunks, and sends them to an LLM. Real-world questions are often too… Continue reading on AI Engineering Compass »",
+      "author": "Dipak Ahirav",
+      "extra": {},
+      "id": "6701f348d9b1e6a8",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Zero to Enterprise AI Architect: The Blueprint I Wish Someone Had Handed Me",
+      "url": "https://medium.com/@layavardhankommanaboyina/from-zero-to-enterprise-ai-architect-the-blueprint-i-wish-someone-had-handed-me-171e3ddf77a6?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-27T15:53:28Z",
+      "excerpt": "How I went from “what even is a token?” to building production RAG pipelines and autonomous agents — and the exact 5-stage map that got me… Continue reading on Medium »",
+      "author": "Kommanaboyina Leelavardhan",
+      "extra": {},
+      "id": "7cfd6f2b981f9736",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Halloween Gothic Fashion Video: AI video trend, prompt and best model",
+      "url": "https://medium.com/@viraltrendvideo_official/halloween-gothic-fashion-video-ai-video-trend-prompt-and-best-model-cde9612af78a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-27T15:50:12Z",
+      "excerpt": "Halloween always brings a wave of seasonal AI videos, and one of the more polished prompts this October is Halloween Gothic Fashion Video… Continue reading on Medium »",
+      "author": "Viral Trend Video",
+      "extra": {},
+      "id": "354f28e4bec907cd",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "publishedAt": "2026-10-27T16:40:15Z",
+      "excerpt": "",
+      "author": "gumby",
+      "extra": {
+        "points": 261,
+        "comments": 192,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50261819"
+      },
+      "id": "099c4912233a64d5",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "publishedAt": "2026-10-27T16:25:30Z",
+      "excerpt": "",
+      "author": "dpflan",
+      "extra": {
+        "points": 91,
+        "comments": 33,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50261589"
+      },
+      "id": "a044912b52ff7a52",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "publishedAt": "2026-10-27T15:28:26Z",
+      "excerpt": "",
+      "author": "car",
+      "extra": {
+        "points": 279,
+        "comments": 150,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50260814"
+      },
+      "id": "a4c44e96b0a94df5",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "LiquidAI/LFM3-1.7B · Hugging Face",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "publishedAt": "2026-10-27T17:04:16Z",
+      "excerpt": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF from liquidAI: LFM3-1.7B is a text model for local agents and specialized applications , based on our new tri-hybrid architecture. Agentic training: post-trained for agentic harnesses such as Hermes Agent, Pi, and OpenClaw, with a 256K-token context window. Designed for the edge: at 4-bit precision, it takes about 1 GB of memory, so it fits on any phone or laptop. Made to be specialized: adapt the model to your domains, formats, and tools via…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy8s3/liquidailfm317b_hugging_face/"
+      },
+      "id": "11144fe593420a7c",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Grim Test Finds That AI Has No Mercy for Humans Even When It's Causing Them to Suffer",
+      "url": "https://futurism.com/artificial-intelligence/grim-test-ai-no-mercy",
+      "publishedAt": "2026-10-27T16:11:59Z",
+      "excerpt": "It’s almost like it’s showing us what it will do given the chance.",
+      "author": "/u/hollee-o",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xgwskk/grim_test_finds_that_ai_has_no_mercy_for_humans/"
+      },
+      "id": "a053a601f3ff010f",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Understanding the Exponential Time Hypothesis, and OpenAI's claim that it is false",
+      "url": "https://gravitypersists.github.io/explainer-eth-disproved/",
+      "publishedAt": "2026-10-27T13:21:25Z",
+      "excerpt": "",
+      "author": "/u/Gravity13",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xgsd79/understanding_the_exponential_time_hypothesis_and/"
+      },
+      "id": "e07d12b71827697b",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "inclusionAI/Ling-3.1-flash-1019 · Hugging Face",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
+      "publishedAt": "2026-10-27T11:12:14Z",
+      "excerpt": "from inclusionAI: We introduce Ling-3.1-flash-1019 , an upgraded version of Ling-3.1-flash , with 560B total parameters, 25B active parameters per token, and a 1M-token context window . With further post-training optimizations, Ling-3.1-flash-1019 demonstrates significant improvements in reasoning and real-world agentic capabilities. Its AA-Briefcase score rises from approximately 1400 to 1524 Elo , while performance on AutomationBench-AA increases from 62% to 68% . The model also makes gains…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xgpo4q/inclusionailing31flash1019_hugging_face/"
+      },
+      "id": "3bd4cae39db0a5b5",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "baidu/Unlimited-OCR-2 · Hugging Face",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "publishedAt": "2026-10-27T08:54:41Z",
+      "excerpt": "Release [2026/10/27] 🚀 We release Unlimited OCR 2 , achieving unlimited-horizon parsing with SR-SWA. What's New in 2 Sparse Reference Sliding Window Attention (SR-SWA): Compresses text-visual attention interactions from ultra-long sequences down to a fixed-size set of working references (e.g., 512 tokens). This bounds computational complexity, keeping per-step decoding latency and memory footprint nearly constant regardless of document length. From Long- to Unlimited-Horizon Parsing: Powered…",
+      "author": "/u/pmttyji",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xgnbtq/baiduunlimitedocr2_hugging_face/"
+      },
+      "id": "c55904e21a85a75c",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "DAX LLM Benchmark v2 - SQLBI",
+      "url": "https://www.sqlbi.com/blog/marco/2026/10/27/dax-llm-benchmark-v2",
+      "publishedAt": "2026-10-27T13:00:00Z",
+      "excerpt": "If you had asked me one year ago (October 2025), I would never have thought that the improvement in DAX writing we have seen in one year would be possible. I was using (and still use) LLM tools for many other tasks, but the improvements in DAX did not keep pace with the speed of improvements in coding until then. This changed with the frontier models released starting in April 2026. Six models from three different vendors, released in August and September 2026, score between 90% and 96% on our…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.417
+      },
+      "id": "fae3fb7e9aa6c8ce",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Orchestration Framework for Hospitality: Practical Guide By AIHA - Hotel News Resource",
+      "url": "https://www.hotelnewsresource.com/article143483.html",
+      "publishedAt": "2026-10-26T16:17:28Z",
+      "excerpt": "# AI Orchestration Framework for Hospitality: Practical Guide By AIHA. **Supplier News - AI In Hospitality**          AI Hospitality Alliance. **In Brief:** The Artificial Intelligence in Hospitality Alliance (AIHA) has released a practical guide outlining an AI orchestration framework designed to help hospitality businesses implement and manage artificial intelligence technologies across operational functions. The AI Hospitality Alliance (AIHA) today announced the publication of the **AI…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.599
+      },
+      "id": "73955eb7949b44bd",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amex Publishes Intent-Authentication Framework for AI Agent Payments - The Fintech Times",
+      "url": "https://thefintechtimes.com/amex-publishes-intent-authentication-framework-for-ai-agent-payments/",
+      "publishedAt": "2026-10-26T19:01:20Z",
+      "excerpt": "* Amex Publishes Intent-Authentication Framework for AI Agent Payments. #### ***American Express** published its Intent Intelligence framework on 13 October, setting out the technical specification for recording, authenticating and transmitting what a customer instructed an AI agent to purchase before any charge is processed. The move makes Amex the first major card network to publish detailed plumbing for agentic commerce, and it has direct implications for how liability will be allocated…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.513
+      },
+      "id": "f48f20c7b8d63dd3",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One - WIRED",
+      "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+      "publishedAt": "2026-10-27T09:30:00Z",
+      "excerpt": "# I Tested Every Major AI Agent for a Day. Here’s the Best One. Last year, I remember sitting in WIRED’s office, complaining to my colleagues nonstop about how much AI agents suck. It can be hard to know where to start with AI agents and which one best fits your automation needs. Before going to bed on Wednesday last week, I set up six always-on agents on my iPhone: Meta’s Muse, OpenAI’s Dots, Instinct, Anthropic’s Claude Duet, Google’s Gemini Spark, and xAI’s Grok Bot. Each agent differs…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.387
+      },
+      "id": "f3c83035fbea9ccd",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Research Sheds New Light On DeepSeek’s Safety Risks - Gizmodo",
+      "url": "https://gizmodo.com/research-sheds-new-light-on-deepseeks-safety-risks-2000831270",
+      "publishedAt": "2026-10-27T17:45:20Z",
+      "excerpt": "On the other are open-weight models, which can be freely accessed and modified by developers. And while the latter has been championed by powerful tech executives like Mark Zuckerberg and Jensen Huang as a counterbalance to corporate greed and a pathway to crowd-sourcing some of the messier problems of AI safety, it still comes with plenty of hazards. On October 17 it released a new model, called V4.1-Flash-1017, which it sold as a cheaper and more efficient version of its flagship AI system.…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.215
+      },
+      "id": "91d8f175a6a151d8",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Generative Artificial Intelligence (AI) In Design Market Growth Accelerates As Industry Expected To Reach $4.6 Billion - EIN Presswire",
+      "url": "https://www.einnews.com/pr_news/951752281/generative-artificial-intelligence-ai-in-design-market-growth-accelerates-as-industry-expected-to-reach-4-6-billion",
+      "publishedAt": "2026-10-27T14:00:00Z",
+      "excerpt": "AI-powered platforms for design documentation are reshaping the market by automating the creation of technical documents, boosting engineering productivity, and enabling modernization of legacy systems. For example, in March 2026, Fujitsu Limited introduced a generative AI service called Fujitsu Kozuchi, which automatically generates design documentation using advanced code analysis and knowledge graph techniques. This innovation reduces document creation time, improves accuracy, and [...]…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.646
+      },
+      "id": "6c4f0cf2b9a9c5e8",
+      "collectedAt": "2026-10-27T20:11:59.510778+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-27T20:11:59.510778+00:00"
+}
