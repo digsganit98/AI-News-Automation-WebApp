@@ -687,7 +687,173 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "google-cloud-makes-gemini-robotics-embodied-reas-896502",
+      "createdAt": "2026-10-27T15:36:29.804299+00:00",
+      "headline": "Google Cloud makes Gemini Robotics Embodied Reasoning 2 available in public preview",
+      "summary": "Google has released Gemini Robotics Embodied Reasoning 2 as a public preview on the Gemini platform. The model serves as a high-level brain for robots to plan complex tasks and interact with humans.",
+      "whyItMatters": "It gives enterprises a standardized way to deploy adaptive physical AI with built-in security and lifecycle management.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-instruction-rewriting-method-helps-weaker-ai-b0ed7a",
+      "createdAt": "2026-10-27T15:36:29.804299+00:00",
+      "headline": "New instruction-rewriting method helps weaker AI models follow complex prompts",
+      "summary": "Researchers developed a method that automatically rewrites complex instructions to match a smaller model's specific capabilities. This approach yields notable performance gains without altering the model's underlying parameters.",
+      "whyItMatters": "It offers a practical path to improve smaller open models without expensive retraining.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.33024"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.33024",
+        "code": "https://github.com/zhihaoyang30/skill-adaptation-code",
+        "model": null,
+        "demo": "https://zhihaoyang30.github.io/skill-adaptation/"
+      }
+    },
+    {
+      "id": "study-highlights-numerical-stability-challenges-1f0737",
+      "createdAt": "2026-10-27T15:36:29.804299+00:00",
+      "headline": "Study highlights numerical stability challenges in low-precision NVFP4 AI training",
+      "summary": "A new research paper investigates why training large language models with the low-precision NVFP4 format can cause instability. The authors find that simply matching model weights is insufficient for consistent reinforcement learning results.",
+      "whyItMatters": "Understanding numerical instability helps developers adopt low-precision hardware formats more reliably.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.23928"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.23928",
+        "code": null,
+        "model": null,
+        "demo": "https://infix.io/research/miniTE"
+      }
+    },
+    {
+      "id": "proas-framework-improves-credit-assignment-for-a-1a3ba6",
+      "createdAt": "2026-10-27T15:36:29.804299+00:00",
+      "headline": "ProAS framework improves credit assignment for AI agent learning",
+      "summary": "Researchers introduced ProAS, a method that assigns credit or blame to specific actions rather than entire tasks during reinforcement learning. This allows agents to reach higher success rates on complex tasks faster.",
+      "whyItMatters": "It addresses a fundamental bottleneck in how AI agents learn from trial and error.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.18683"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.18683",
+        "code": "https://github.com/LINs-lab/ProAS",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-invests-in-indian-startup-simplismart-to-b007ba",
+      "createdAt": "2026-10-27T15:36:29.804299+00:00",
+      "headline": "Nvidia invests in Indian startup Simplismart to improve AI efficiency",
+      "summary": "Nvidia participated in a $14 million funding round for Simplismart, an Indian startup that builds software to help companies run AI models more efficiently. The investment aims to reduce GPU hardware requirements amidst strained computing capacity.",
+      "whyItMatters": "Efficiency software helps enterprises maximize hardware utilization as deployment scales grow.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "model-context-protocol-updates-to-stateless-desi-411507",
+      "createdAt": "2026-10-27T15:36:29.804299+00:00",
+      "headline": "Model Context Protocol updates to stateless design with version 2.0 SDKs",
+      "summary": "The Model Context Protocol has been updated to remove persistent sessions and complex handshakes in favor of a stateless HTTP design. Microsoft concurrently released version 2.0 of its MCP C# SDK to implement these protocol changes.",
+      "whyItMatters": "Stateless servers simplify infrastructure management and allow MCP workloads to scale like standard web services.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://codingscape.com/blog/how-to-upgrade-mcp-server-stateless-spec"
+        },
+        {
+          "name": "Web search",
+          "url": "https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-27T09:21:09.954198+00:00"
+  "updatedAt": "2026-10-27T15:36:52.276067+00:00"
 }
