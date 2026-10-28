@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-29",
+  "runs": [
+    {
+      "runAt": "2026-10-28T22:45:29.462938+00:00",
+      "newItems": 19,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1334,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.468191Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.504768Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 891,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.505172Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.505455Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.505619Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.505779Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.505933Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506127Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506298Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506446Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506589Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506647Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506690Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506912Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.506957Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.507147Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.507320Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.507466Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.507607Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.508010Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-28T22:45:29.508280Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.509213Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.509407Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.509595Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-28T22:45:29.509745Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.509887Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.510031Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.510230Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.510383Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.510595Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.511232Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.511419Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.511597Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-28T22:45:29.511648Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "publishedAt": "2026-10-28T13:15:00Z",
+      "excerpt": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "author": null,
+      "extra": {},
+      "id": "75e2017ed4c5a2ec",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "publishedAt": "2026-10-28T09:30:00Z",
+      "excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "author": null,
+      "extra": {},
+      "id": "41c97fe8dc29ac4a",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+      "url": "https://huggingface.co/papers/2610.37364",
+      "publishedAt": "2026-10-28T00:00:00Z",
+      "excerpt": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Notably, in comprehensive embedding benchmarks across all modalities, EmbeddingGemma 2 establishes a…",
+      "author": "Henrique Schechter Vera, Sahil Dua, Jovan Andonov, Sara Smoot, Sebastian Russo, Ivan Llanos, Max Matveev, Jae Hyeon Yoo, Kat Black, Shih-Cheng Huang, Josiah Aklilu, Maarten Grootendorst, Omar Sanseviero, Chandramouli Amarnath, Ian Ballantyne, Zhe Li, Daniel Salz, Ibrahim Alabdulmohsin, Ilya Philippov, Kristen Quan, Glenn Cameron, Edouard Yvinec, Luciano Martins, Doug Reid, Sindhu Raghuram Panyam, Weiyi Wang, Hengxuan Ying, Madhuri Shanbhogue, Tanmaya Dabral, Shanfeng Zhang, Juyeong Ji, Renjie Wu, Joe Zou, Xu Chen, Yunan Zhang, Yu-Hui Chen, Matthew Soulanille, Vinod Mamillapalli, Yi-Chun Kuo, Wai Hon Law, Matt Kreileder, Alice Zheng, Suril Shah, Mogan Shieh, Pooja Consul, Alberto Montes, Andreas Hess, Andres Sevilla, Babak Samari, Brendan McCloskey, Brian Potetz, Daniel Cer, Georgios Kathareios, Gustavo Hernández Ábrego, Hesen Zhang, Ji Ma, Jiaxing Wu, Keegan Mosley, Paul Suganthan, Rui Meng, Shen Gao, Shengcao Cao, Yi-Ting Chen, Yichang Chen, Zhongli Ding, Kendra Byrne, Cormac Brick, Olivier Lacombe, Qin Yin, Tris Warkentin, Armand Joulin, Tom Duerig, Mojtaba Seyedhosseini",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.37364"
+      },
+      "id": "293c4dc8eb9bad3d",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: tencent/Hy-SimulMT-30B-A3B-FP8",
+      "url": "https://huggingface.co/tencent/Hy-SimulMT-30B-A3B-FP8",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 336,
+        "trendingScore": 331,
+        "task": "translation"
+      },
+      "id": "a0230e64f0019a55",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Quick now supports smart approvals for agentic actions",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
+      "publishedAt": "2026-10-28T18:28:00Z",
+      "excerpt": "Amazon Quick now supports smart approvals, a review layer that reduces unnecessary approval prompts while preserving human oversight of the actions that matter most. As agents take more actions on a user's behalf, such as sending email, updating records, and creating tickets, asking a person to approve every step leads to approval fatigue and weaker oversight over time. With smart approvals, a separate review model called the classifier evaluates each eligible action against the user's…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "ffddd03c169373c7",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-10-28T18:28:26Z",
+      "excerpt": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent before production.",
+      "author": "Omar Elkharbotly",
+      "extra": {},
+      "id": "b8bfa4647f108004",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "url": "https://latent.space/p/elorian/",
+      "publishedAt": "2026-10-29T16:00:00Z",
+      "excerpt": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+      "author": "Richard MacManus",
+      "extra": {},
+      "id": "2df0e95472f64437",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase/",
+      "publishedAt": "2026-10-28T19:48:05Z",
+      "excerpt": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "a075480e28a06b30",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Building a RAG Application with Python: From Documents to AI-Powered Answers",
+      "url": "https://medium.com/@satyasreejachalasani/building-a-rag-application-with-python-from-documents-to-ai-powered-answers-5e551c648654?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-28T18:37:26Z",
+      "excerpt": "Learn how Retrieval-Augmented Generation works, why it matters, and how to build a simple document question-answering system using Python. Continue reading on Medium »",
+      "author": "Satya Sreeja",
+      "extra": {},
+      "id": "1f1719d6229b5608",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "AI for Science expands to foundations and research institutions",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "c517821d0281c4fa",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "publishedAt": "2026-10-28T21:03:24Z",
+      "excerpt": "",
+      "author": "Aboutplants",
+      "extra": {
+        "points": 176,
+        "comments": 59,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50280864"
+      },
+      "id": "48ebcbf0f30089c5",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "publishedAt": "2026-10-28T20:10:16Z",
+      "excerpt": "",
+      "author": "jacquesm",
+      "extra": {
+        "points": 106,
+        "comments": 53,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50280178"
+      },
+      "id": "9a783b4021e0b4e1",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Qwen has alter egos triggered by flipping a single neuron",
+      "url": "https://qwen-neurons-site.vercel.app/",
+      "publishedAt": "2026-10-27T22:42:51Z",
+      "excerpt": "",
+      "author": "thoughtpeddler",
+      "extra": {
+        "points": 55,
+        "comments": 46,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50266910"
+      },
+      "id": "9dc319c3206bad9d",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How to Implement Generative AI on Azure in the Enterprise",
+      "url": "https://www.damcogroup.com/blogs/how-to-implement-gen-ai-on-azure-in-the-enterprise",
+      "publishedAt": "2026-10-28T06:35:45Z",
+      "excerpt": "#### The Complete VMware to Azure and AWS Migration Guide\n\n#### How to Choose AWS Bedrock vs Azure OpenAI vs Vertex AI When You’ll Probably Run More Than One\n\nTwo professionals sit at a bright conference table with laptops, reviewing wall diagrams of cloud infrastructure and a network map.\n\n#### Hybrid Cloud vs Multicloud: Why Most Enterprises Are Already Both [...] Azure AI vs AWS AI: Which Cloud AI Platform Fits Your Enterprise Best\n\nRead the Blog\n\n## Which Azure Components Support an…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.57
+      },
+      "id": "54c48f06d6c917b1",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "symplr Launches AI-Powered Time and Scheduling to Unify Workforce Operations - NewsBreak: Local News & Alerts",
+      "url": "https://www.newsbreak.com/hit-consultant-512656/4968869928230-symplr-launches-ai-powered-time-and-scheduling-to-unify-workforce-operations",
+      "publishedAt": "2026-10-28T10:18:20Z",
+      "excerpt": "# symplr Launches AI-Powered Time and Scheduling to Unify Workforce Operations. Healthcare operations and enterprise software provider symplr officially launched symplr Time and Scheduling, introducing an integrated workforce management platform that merges AI-driven scheduling with complex healthcare timekeeping. The new platform integrates predictive scheduling algorithms with complex healthcare timekeeping into a single architecture, enabling nurse managers to forecast and resolve…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.668
+      },
+      "id": "22de4166462575b3",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Oracle Reinvents Enterprise Computing for the AI Era with OpenAI - Hotel News Resource",
+      "url": "https://www.hotelnewsresource.com/article143509.html",
+      "publishedAt": "2026-10-27T17:12:47Z",
+      "excerpt": "# Oracle Reinvents Enterprise Computing for the AI Era with OpenAI. **In Brief:** Oracle has announced a collaboration with OpenAI to incorporate generative AI technologies into its enterprise computing solutions, offering hospitality companies expanded access to AI-driven applications for property management, guest engagement, and data analysis. * Oracle Reinvents Enterprise Computing for the AI Era with OpenAI - Image Credit Oracle. ***Oracle brings frontier AI into the heart of enterprise…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.646
+      },
+      "id": "98a46a0f058ff7a6",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google expands AI Search ads globally as core ad growth slows - TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "publishedAt": "2026-10-28T21:48:37Z",
+      "excerpt": "Google is bringing ads in its AI-powered Search experiences to international markets, betting that generative AI can open up new revenue opportunities even as growth in its core search advertising business slows. The announcement came Wednesday during Alphabet’s third-quarter earnings call ,as the company reported $127.6 billion in revenue, up 25% year over year. Google Search revenue grew 12% year over year in the third quarter, down from 17% growth in the second quarter and 19% in the first…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.506
+      },
+      "id": "9b7dd4a7a6853f5d",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Anthropic Releases Claude for Legal Artifacts, a Set of New Interactive Tools for Legal Users - Law.com",
+      "url": "https://www.law.com/legaltechnews/2026/10/28/anthropic-releases-claude-for-legal-artifacts-a-set-of-new-interactive-tools-for-legal-users-/",
+      "publishedAt": "2026-10-28T15:15:00Z",
+      "excerpt": "Sign in to access your account and subscription. The Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech. Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. All Surveys & Rankings  Am Law 100  Am Law 200  A-List. ### The Am Law 100 Rankings. The Am Law 100 is the definitive ranking…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.458
+      },
+      "id": "2793a59efbfa38bc",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Coty partners with Brandlight to boost beauty brand presence across AI search and discovery - Cosmetics Business",
+      "url": "https://cosmeticsbusiness.com/coty-partners-with-brandlight-to-boost-beauty-brand",
+      "publishedAt": "2026-10-27T13:04:08Z",
+      "excerpt": "# Coty partners with Brandlight to boost beauty brand presence across AI search and discovery. The Rimmel London and Marc Jacobs Beauty owner is ramping up its focus on artificial intelligence (AI), partnering with AI platform Brandlight to boost the presence of its beauty brands across AI assistants and generative AI search. Coty has partnered with artificial intelligence (AI) platform Brandlight to strengthen the presence of its beauty brands across AI assistants and generative AI search…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.396
+      },
+      "id": "aa9f5f525e1b7b10",
+      "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-28T22:45:29.462938+00:00"
+}
