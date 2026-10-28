@@ -409,7 +409,709 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "omnibrain-0-introduced-as-a-unified-agentic-mode-929dcb",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "OmniBrain-0 introduced as a unified agentic model for embodied intelligence",
+      "summary": "Researchers introduced OmniBrain-0 to help robots coordinate diverse skills over long periods. The system aims to improve task reliability by allowing robots to track progress and recover from failures.",
+      "whyItMatters": "It advances robotic task reliability by enabling better long-horizon planning and error recovery.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36013"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36013",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "the-trinity-framework-addresses-capability-drive-5876e7",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "The Trinity framework addresses capability-driven recursive self-improvement for multimodal agents",
+      "summary": "A new framework called The Trinity addresses bottlenecks in scaling multimodal intelligence. It focuses on the co-evolution of agents and environments to improve interaction capabilities.",
+      "whyItMatters": "It provides a structured way to scale multimodal agent capabilities through environment co-evolution.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36077"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36077",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "finllm-kg-combines-knowledge-graphs-and-language-1247e6",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "FinLLM-KG combines knowledge graphs and language models for financial sentiment analysis",
+      "summary": "Researchers developed FinLLM-KG to enhance financial sentiment analysis in algorithmic trading. The system uses knowledge graphs to move beyond analyzing individual articles in isolation.",
+      "whyItMatters": "It improves financial sentiment analysis by grounding language models in structured knowledge graphs.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36083"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36083",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "cohortflow-agent-introduced-for-steerable-clinic-3f4a7b",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "CohortFlow agent introduced for steerable clinical cohort curation",
+      "summary": "CohortFlow is a new agent designed for clinical cohort curation that allows for evolving eligibility criteria. It represents natural language corrections as localized changes to avoid reprocessing unchanged requirements.",
+      "whyItMatters": "It streamlines clinical trial setup by efficiently handling updates to patient eligibility criteria.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36100"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36100",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-how-instruction-tuning-installs-n-da886a",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Study examines how instruction tuning installs number-choice heuristics in language models",
+      "summary": "A study measured the probability language models assign to specific integers when asked for a random number. The research examines how instruction tuning affects these number-choice heuristics.",
+      "whyItMatters": "It sheds light on how instruction tuning alters internal probabilistic biases in language models.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36178"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36178",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "low-rank-multilinear-decomposition-method-propos-8795ab",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Low-rank multilinear decomposition method proposed for LLM hallucination detection",
+      "summary": "Researchers proposed a new method for detecting hallucinations in large language models. The approach uses low-rank multilinear decomposition to extract informative signals from internal representations.",
+      "whyItMatters": "It offers a novel internal mechanism to detect model hallucinations without relying solely on external verification.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36191"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36191",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "marq-tool-provides-llm-agnostic-quality-assessme-e8b84c",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "MARQ tool provides LLM-agnostic quality assessment for systems engineering requirements",
+      "summary": "MARQ is a new tool for assessing the quality of requirements in systems engineering. It is designed to be modular and independent of specific large language models, incorporating systems engineering knowledge.",
+      "whyItMatters": "It standardizes requirement quality assessment across different language model backends.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36234"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36234",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "benchmark-study-investigates-model-stealing-atta-cfa079",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Benchmark study investigates model stealing attack resilience in spiking neural networks",
+      "summary": "A benchmark study investigated model stealing attacks on spiking neural networks. The research suggests that these networks are more resistant to adversaries trying to rebuild the model from query predictions.",
+      "whyItMatters": "It highlights unique security properties of spiking neural networks against intellectual property theft.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.36298"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36298",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "zooming-without-zooming-v2-improves-multimodal-p-b22376",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Zooming without Zooming v2 improves multimodal perception and spatial detail handling",
+      "summary": "Researchers introduced a new approach called Zooming without Zooming v2 that helps AI models better understand spatial details and long-context visual information. The method aims to make multimodal perception more generalizable for embodied AI and agents.",
+      "whyItMatters": "It enhances spatial reasoning and visual grounding in multimodal models for embodied applications.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37037"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37037",
+        "code": "https://github.com/inclusionAI/Zooming-without-Zooming-v2",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-investigates-semantic-retention-capabil-d451aa",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Research investigates semantic retention capabilities of discrete visual tokens",
+      "summary": "A new paper investigates whether discrete visual tokens can serve as lossless representations of visual signals. The research challenges the common assumption that quantization error in these tokens causes unavoidable semantic loss.",
+      "whyItMatters": "It provides deeper insight into tokenization efficiency and semantic preservation in vision models.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37662"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37662",
+        "code": "https://github.com/hustvl/FVQ",
+        "model": null,
+        "demo": "https://doctor-james.github.io/FVQ-Page/"
+      }
+    },
+    {
+      "id": "scaling-study-analyzes-truncated-backpropagation-f96c0c",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Scaling study analyzes truncated backpropagation impacts in looped transformers",
+      "summary": "A scaling study explores how truncating backpropagation through time affects the training of looped transformers. The research addresses the trade-off between saving training compute and the biased gradients that result from truncation.",
+      "whyItMatters": "It helps optimize compute efficiency when training recurrent architectures like looped transformers.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.26030"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.26030",
+        "code": "https://github.com/xjxyys/Truncate-or-Not",
+        "model": null,
+        "demo": "https://xjxyys.github.io/truncate-or-not/"
+      }
+    },
+    {
+      "id": "vibevideobench-evaluates-multimodal-agents-on-co-d47afb",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "VibeVideoBench evaluates multimodal agents on code-driven video generation",
+      "summary": "VibeVideoBench is a new evaluation framework for multimodal agents that generate video by writing code. It tests the ability of these agents to render exact formulas, correct charts, and synchronized narration, addressing limitations of standard diffusion models.",
+      "whyItMatters": "It introduces a precise benchmark for code-based video generation workflows.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.35864"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.35864",
+        "code": null,
+        "model": null,
+        "demo": "https://vibevideobench.github.io/"
+      }
+    },
+    {
+      "id": "pdrvla-integrates-physical-dynamics-into-vision-d4e4fc",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "PDRVLA integrates physical dynamics into vision-language-action models for robotics",
+      "summary": "PDRVLA is a new model that improves robot action generation by using a lightweight module to predict future visual features without the latency of online video generation. It achieves high success rates across four simulation benchmarks by leveraging physical dynamics representations.",
+      "whyItMatters": "This approach reduces latency in robotic action generation while maintaining high success rates in simulation benchmarks.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37381"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37381",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "the-trinity-framework-enables-recursive-self-imp-14c308",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "The Trinity framework enables recursive self-improvement for multimodal agents",
+      "summary": "The Trinity framework improves multimodal agents by organizing tasks into a capability tree and generating simulated training worlds. It uses a recursive process to evolve specialized modules that help agents handle diverse and complex tasks.",
+      "whyItMatters": "It provides a structured way for multimodal agents to evolve and handle complex tasks through self-improvement.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.36077"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36077",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-method-selects-mixture-of-experts-channels-w-17d415",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "New method selects mixture-of-experts channels without calibration data",
+      "summary": "Researchers developed a channel selection method for Mixture-of-Experts models that does not require calibration data. This approach helps reduce memory loading bottlenecks during interactive decoding by predicting which channels are most relevant for a single token.",
+      "whyItMatters": "It removes the dependency on calibration data while mitigating memory bottlenecks during interactive token decoding.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37386"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37386",
+        "code": "https://github.com/AidenGeunGeun/calibration-free-moe",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ovisocr3-unifies-multiple-ocr-tasks-in-a-single-377def",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "OvisOCR3 unifies multiple OCR tasks in a single 0.8B model",
+      "summary": "OvisOCR3 is a compact 0.8B parameter model designed to handle a broad range of optical character recognition tasks. It unifies document parsing, key information extraction, and table reconstruction in a single system trained on real and synthetic data.",
+      "whyItMatters": "It combines multiple document understanding tasks into a single lightweight model.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.33066"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.33066",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "codecap-bench-evaluates-code-as-a-video-captioni-28bd24",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "CodeCap-Bench evaluates code as a video captioning method",
+      "summary": "Researchers introduced a new benchmark to test whether code can describe videos more accurately than natural language. The study addresses the difficulty of using text to capture fine-grained spatial details and temporal changes in video content.",
+      "whyItMatters": "It explores alternative representations for capturing fine-grained spatial and temporal details in video content.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37341"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37341",
+        "code": null,
+        "model": null,
+        "demo": "https://codecap-bench.github.io/"
+      }
+    },
+    {
+      "id": "large-scale-evaluation-analyzes-the-value-of-ded-1b4241",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Large-scale evaluation analyzes the value of dedicated agent memory systems",
+      "summary": "A large-scale evaluation found that many dedicated memory systems for AI agents perform worse than simple retrieval methods. The research examines the net value of building complex memory structures versus using direct retrieval from raw history.",
+      "whyItMatters": "It questions the necessity of complex agent memory architectures compared to direct retrieval from raw history.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.34073"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.34073",
+        "code": "https://github.com/hexuan21/MemoryTax",
+        "model": null,
+        "demo": "https://hexuan21.github.io/MemoryTax/"
+      }
+    },
+    {
+      "id": "thinkworld-improves-robotic-reasoning-with-world-d24003",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "ThinkWorld improves robotic reasoning with world imagination",
+      "summary": "This work introduces a method to help vision-language-action models generalize better in robotic manipulation. It uses human videos to provide broader behavioral experience, reinforcing chain-of-dynamics reasoning to overcome limitations in robot demonstration data.",
+      "whyItMatters": "It expands the behavioral experience of robotic models using human video data to improve manipulation generalization.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37666"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37666",
+        "code": null,
+        "model": null,
+        "demo": "https://thinkworld-project.github.io/"
+      }
+    },
+    {
+      "id": "matanyone-e-enables-efficient-high-resolution-vi-5d5447",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "MatAnyone-E enables efficient high-resolution video matting",
+      "summary": "Researchers developed a method for high-resolution video matting that preserves fine details like hair strands and soft transparency. The approach uses sparse memory propagation to maintain consistency across frames while improving efficiency.",
+      "whyItMatters": "It maintains fine visual details and temporal consistency in video matting while improving computational efficiency.",
+      "category": "Methodology",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.35724"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.35724",
+        "code": "https://github.com/Shuyun-Wang/MatAnyone-E",
+        "model": null,
+        "demo": "https://shuyun-wang.github.io/projects/MatAnyone-E"
+      }
+    },
+    {
+      "id": "habit-bench-evaluates-habit-induction-in-ai-agen-048d63",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "HABIT-Bench evaluates habit induction in AI agents",
+      "summary": "A new benchmark tests how well large language model agents can infer user habits from long-term interactions. The evaluation focuses on agents' ability to deduce implicit user information from partial evidence gathered across multiple conversations.",
+      "whyItMatters": "It establishes a standardized way to test how agents learn and adapt to user habits over time.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.24520"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.24520",
+        "code": "https://github.com/LUMIA-Group/habit-bench",
+        "model": null,
+        "demo": "https://hollyming.github.io/habit-bench-site/"
+      }
+    },
+    {
+      "id": "study-investigates-test-time-memory-evolution-fo-8ec671",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Study investigates test-time memory evolution for scientific discovery tasks",
+      "summary": "Researchers investigated whether evolving memory during testing can outperform test-time training for scientific discovery tasks. The study aims to reduce the computational costs associated with online weight updates in large language models.",
+      "whyItMatters": "It offers a potential way to adapt models during testing without the heavy computational cost of online weight updates.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.32046"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.32046",
+        "code": "https://github.com/yepengliu/TTME",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tencent-releases-hy-nomas-open-source-interactiv-247a37",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Tencent releases Hy-Nomas open-source interactive world model",
+      "summary": "Tencent released Hy-Nomas, an open-source video world model that supports free-form text instructions and continuous camera control. The model uses causal attention to preserve interaction history and action consequences across multiple turns.",
+      "whyItMatters": "It provides an open-source option for interactive world generation with multi-turn causal attention.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.36729"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36729",
+        "code": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
+        "model": null,
+        "demo": "https://hy-nomas.hy.tencent.com/demo"
+      }
+    },
+    {
+      "id": "study-analyzes-economics-of-reasoning-effort-in-3ed4ef",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Study analyzes economics of reasoning effort in LLM agents",
+      "summary": "This study examines the trade-offs involved when users select a reasoning effort level for AI agents. It analyzes the cost and performance implications of scaling inference-time compute without knowing in advance if extra reasoning will be beneficial.",
+      "whyItMatters": "It highlights the cost-performance trade-offs of scaling inference-time compute for LLM agents.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.34491"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.34491",
+        "code": "https://github.com/KaiserWhoLearns/ReasoningEffortLLM",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "researchers-introduce-rsi-arena-to-study-recursi-6ab15f",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Researchers introduce RSI Arena to study recursive self-improvement with human feedback",
+      "summary": "A new framework called RSI Arena lets AI agents train and improve language models autonomously using human feedback. Ten frontier models act as training agents starting from the same base model.",
+      "whyItMatters": "It explores how AI systems could iteratively enhance themselves, a key step toward more capable and adaptable models.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.33624"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.33624",
+        "code": null,
+        "model": null,
+        "demo": "https://rsiarena.org"
+      }
+    },
+    {
+      "id": "anthropic-hiring-manager-advises-junior-engineer-6a0b90",
+      "createdAt": "2026-10-28T10:05:19.512355+00:00",
+      "headline": "Anthropic hiring manager advises junior engineers to prioritize business impact over coding interviews",
+      "summary": "Felix Reiseberg, a hiring manager at Anthropic, says the company no longer uses traditional coding interviews because AI tools like Claude can handle those tasks. He encourages junior engineers to build prototypes that show business value and leverage fresh user insights.",
+      "whyItMatters": "The shift reflects how AI tools are changing hiring practices and emphasizing real-world impact in engineering roles.",
+      "category": "Business & Funding",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Felix Reiseberg",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-28T00:42:11.964935+00:00"
+  "updatedAt": "2026-10-28T10:05:32.003376+00:00"
 }
