@@ -594,7 +594,61 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "amazon-bedrock-agentcore-cli-reaches-version-1-0-20f785",
+      "createdAt": "2026-10-29T06:17:31.402725+00:00",
+      "headline": "Amazon Bedrock AgentCore CLI reaches version 1.0",
+      "summary": "AWS released version 1.0 of the Bedrock AgentCore command-line tool, letting developers create and manage AI agents directly from a terminal. The update adds faster startup, a consistent command structure, and direct access to agent resources without a project setup.",
+      "whyItMatters": "It simplifies building and operating AI agents on AWS, lowering the barrier for developers to adopt agentic workflows.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "dtca-method-improves-reasoning-in-diffusion-lang-d2493f",
+      "createdAt": "2026-10-29T06:17:31.402725+00:00",
+      "headline": "DTCA method improves reasoning in diffusion language models",
+      "summary": "Researchers introduced DTCA, a framework that assigns specific values to individual tokens during training, boosting mathematical reasoning in diffusion language models like LLaDA-8B-Instruct. The technique shows significant performance gains over prior approaches.",
+      "whyItMatters": "Better reasoning in diffusion models expands their usefulness for complex tasks such as math and logic reasoning.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.35201"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.35201",
+        "code": "https://github.com/ZJU-OmniAI/DTCA",
+        "model": null,
+        "demo": "https://zju-omniai.github.io/DTCA/"
+      }
     }
   ],
-  "updatedAt": "2026-10-28T22:54:59.019463+00:00"
+  "updatedAt": "2026-10-29T06:17:33.906400+00:00"
 }

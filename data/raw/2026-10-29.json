@@ -278,6 +278,284 @@
           "checkedAt": "2026-10-28T22:45:29.511648Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-29T06:10:09.716199+00:00",
+      "newItems": 15,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1334,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.721423Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.758002Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 891,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.758384Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.758686Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.758851Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759004Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759154Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759300Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759444Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759588Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 24,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759774Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759835Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.759879Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.760103Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.760149Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.760294Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.760443Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.760583Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.760757Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.761096Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-29T06:10:09.761255Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.761399Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.762286Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.762442Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-29T06:10:09.762588Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.762788Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.762946Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.763106Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.763250Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.763461Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.764110Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.764289Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.764459Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-10-29T06:10:09.764507Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -547,7 +825,219 @@
       },
       "id": "aa9f5f525e1b7b10",
       "collectedAt": "2026-10-28T22:45:29.462938+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "url": "https://huggingface.co/papers/2610.35684",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints. However, they do…",
+      "author": "Junyeong Ahn, Geonwoo Kim, Kinam Kim, Gihwi Kim, Hoonjin Jung, Hyojin Jang, Jaegul Choo",
+      "extra": {
+        "upvotes": 22,
+        "githubRepo": "https://github.com/justin4ai/OmniShowcase",
+        "projectPage": "https://justin4ai.github.io/OmniShowcase/",
+        "arxivUrl": "https://arxiv.org/abs/2610.35684"
+      },
+      "id": "02c43a1d4661e9d7",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+      "url": "https://huggingface.co/papers/2610.32749",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight alternatives try to reclaim capacity by repeatedly invoking a small separator, which…",
+      "author": "Wendi Sang, Kai Li, Yifan Li, Jianqiang Huang, Xiaolin Hu",
+      "extra": {
+        "upvotes": 140,
+        "githubRepo": "https://github.com/JusperLee/Falcon",
+        "projectPage": "https://cslikai.cn/Falcon/",
+        "arxivUrl": "https://arxiv.org/abs/2610.32749"
+      },
+      "id": "a85ae40a50205c87",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.35201",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how different tokens contribute to the final output. In this paper, we propose Denoising Token Credit…",
+      "author": "Hongze Chen, Miao Pan, Lizhou Liang, Qinfeng Li, Xinyin Ma, Yongliang Shen, Weishi Wang, Daniel Dahlmeier, Xuhong Zhang, Wenqi Zhang",
+      "extra": {
+        "upvotes": 254,
+        "githubRepo": "https://github.com/ZJU-OmniAI/DTCA",
+        "projectPage": "https://zju-omniai.github.io/DTCA/",
+        "arxivUrl": "https://arxiv.org/abs/2610.35201"
+      },
+      "id": "d2493f9c725f4d1f",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models",
+      "url": "https://huggingface.co/papers/2610.36192",
+      "publishedAt": "2026-10-28T00:00:00Z",
+      "excerpt": "Learning velocity fields directly in pixel space is difficult and slow. We show that coarse second-order image statistics can ease this task: frozen Wiener estimates improve velocity learning, with gains extending beyond the linear predictions they explicitly provide. Moreover, we observe similar but complementary gains from frozen bases and pixel decoding. These observations motivate Wiener-informed Decoding (WiD), which uses statistical knowledge both for direct prediction and to organize…",
+      "author": "Ziqiao Wang, Yang You",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/NUS-HPC-AI-Lab/WiD",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.36192"
+      },
+      "id": "1761b5e1580d1470",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock AgentCore CLI version 1.0 is now available",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+      "publishedAt": "2026-10-28T20:00:00Z",
+      "excerpt": "AWS announces the general availability of Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0), rebuilt with faster startup, a consistent command structure, and support for more AgentCore resources. The CLI helps developers create, develop, deploy, and operate AI agents and supporting resources from the terminal. With version 1.0, developers can use the project workflow or work directly with harnesses, runtimes, memory, identity, gateways, and payments without first adding them to a…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "902c8601d29e4236",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "publishedAt": "2026-10-29T05:55:19Z",
+      "excerpt": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "8266ea920e518e8f",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Hailuo AI Discount Code and Promo Code (AJ10): 10% Off, October 2026",
+      "url": "https://medium.com/@AJTechTutorials/hailuo-ai-discount-code-and-promo-code-aj10-10-off-october-2026-55e671ae7e7c?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T05:15:10Z",
+      "excerpt": "A storm-battered lighthouse made with Hailuo AI, and the promo code that gets you 10% off. Continue reading on Medium »",
+      "author": "AJ Tech Tutorials",
+      "extra": {},
+      "id": "e3a9ced2eb6a3874",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Is Already Creating Images of Things That Never Happened",
+      "url": "https://medium.com/@gawaisgtasleem/ai-is-already-creating-images-of-things-that-never-happened-5102505a0406?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T05:02:19Z",
+      "excerpt": "How AI image tools are making artificial scenes look like real photographs — and why it is becoming harder to tell the difference. Continue reading on Medium »",
+      "author": "perfcalcpro",
+      "extra": {},
+      "id": "f82913fd9431d5af",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Chunk Size vs Answer Quality in RAG: How to Evaluate Retrieval-Augmented Generation",
+      "url": "https://medium.com/@sales_95773/chunk-size-vs-answer-quality-in-rag-how-to-evaluate-retrieval-augmented-generation-3532b2935255?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T04:34:28Z",
+      "excerpt": "A practical guide to RAG chunking strategies, retrieval metrics, and controlled experiments for building more reliable AI applications. Continue reading on Medium »",
+      "author": "Nooral.ai - Data & AI Company",
+      "extra": {},
+      "id": "56644c2c3e0adcd4",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "10 Essential AI Terms Everyone Should Know in 2026",
+      "url": "https://cloudstakestechnology.medium.com/10-essential-ai-terms-everyone-should-know-in-2026-1fc30191a112?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T04:23:19Z",
+      "excerpt": "If you’ve ever nodded along in a meeting while someone said “we’ll fix it with RAG and a better context window,” and quietly wondered what… Continue reading on Medium »",
+      "author": "Cloudstakes Technology",
+      "extra": {},
+      "id": "2b50102c78f5e267",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Vector Embeddings, Math & Indexing",
+      "url": "https://medium.com/@kumarishav812/vector-embeddings-math-indexing-e4dee911d738?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T03:07:07Z",
+      "excerpt": "Part A: Distance Metrics Continue reading on Medium »",
+      "author": "Kumarishav",
+      "extra": {},
+      "id": "1e3cfed14239f462",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "publishedAt": "2026-10-29T03:33:42Z",
+      "excerpt": "",
+      "author": "NikZaal",
+      "extra": {
+        "points": 208,
+        "comments": 49,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50284255"
+      },
+      "id": "271134257c4af766",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Electronics hobbyist converts $120 DDR5 SODIMM kit into ‘$1000’ desktop kit to fight RAM crisis — ICs from SK hynix DDR5-5600 16GB modules used to create DDR5-7800 desktop sticks",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/electronics-hobbyist-converts-usd120-ddr5-sodimm-kit-into-usd1000-desktop-kit-to-fight-ram-crisis-ics-from-sk-hynix-ddr5-5600-16gb-modules-used-to-create-ddr5-7800-desktop-sticks",
+      "publishedAt": "2026-10-28T23:08:15Z",
+      "excerpt": "So just read this article and had a couple questions about this as I have not much experience in this. Maybe the more experience people may be able to explain it better. Is this a viable path to upgrade hardware at a lower cost for LLM, is it much harder than as stated in the read like soldiering and what not, also has anyone done something similar to this and had good and stable results?",
+      "author": "/u/Beneficial-Ad-8127",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/"
+      },
+      "id": "9d1723e0ab7213f7",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Generative AI and News Report 2026: From standalone tools to information infrastructure | Reuters Institute for the Study of Journalism",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure",
+      "publishedAt": "2026-10-29T02:00:00Z",
+      "excerpt": "But it does mark a milestone. In less than four years since the public launch of ChatGPT in November 2022 and the AI race that followed, which shows no sign of abating, generative AI has become part of routine life for most people in high-income democracies, at least across the nine countries on five continents that we have surveyed for this report (Argentina, Denmark, France, Japan, the UK, and the USA, all of which we covered in 2024 and 2025, and with Australia, Finland, and Norway surveyed…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.743
+      },
+      "id": "a4246be531767797",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "In-Vehicle Generative AI Platform Market Projected to Surpass",
+      "url": "https://www.openpr.com/news/4675136/in-vehicle-generative-ai-platform-market-projected-to-surpass",
+      "publishedAt": "2026-10-28T12:10:33Z",
+      "excerpt": "Technology development is becoming one of the most important competitive factors in the In-Vehicle Generative AI Platform Market. Manufacturers are investing in automation, digital monitoring, advanced materials, intelligent control, artificial intelligence, Internet of Things connectivity and improved manufacturing processes. New product generations are increasingly designed to provide better efficiency, higher accuracy, reduced energy consumption, lower maintenance and easier integration. In…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.559
+      },
+      "id": "5043a3dd748692f0",
+      "collectedAt": "2026-10-29T06:10:09.716199+00:00"
     }
   ],
-  "updatedAt": "2026-10-28T22:45:29.462938+00:00"
+  "updatedAt": "2026-10-29T06:10:09.716199+00:00"
 }
