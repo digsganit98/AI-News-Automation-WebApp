@@ -648,7 +648,115 @@
         "model": null,
         "demo": "https://zju-omniai.github.io/DTCA/"
       }
+    },
+    {
+      "id": "hugging-face-releases-local-speech-and-decision-85d975",
+      "createdAt": "2026-10-29T13:34:56.048781+00:00",
+      "headline": "Hugging Face releases local speech and decision models for Apple platforms",
+      "summary": "Hugging Face has introduced two Swift packages that allow developers to run open-source AI models locally on Apple devices. These tools handle speech recognition and multiple-choice tasks to offer faster and cheaper alternatives to general-purpose language models.",
+      "whyItMatters": "Running specialized models locally on consumer hardware improves privacy and reduces reliance on cloud infrastructure.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/anydecisionmodel"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-proposes-sensorimotor-alignment-metric-c6362b",
+      "createdAt": "2026-10-29T13:34:56.048781+00:00",
+      "headline": "Research proposes sensorimotor alignment metric for robot foundation models",
+      "summary": "A new academic paper introduces a metric called sensorimotor alignment to evaluate robot AI models without expensive physical testing. The approach is based on the concept that improved AI representations lead to convergence between data types like vision and language.",
+      "whyItMatters": "This evaluation method lowers the barrier to testing robotic foundation models by replacing physical experiments with simulation metrics.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.31670"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.31670",
+        "code": "https://github.com/yunfeixie233/sensorimotor-alignment",
+        "model": null,
+        "demo": "https://yunfeixie233.github.io/s2/"
+      }
+    },
+    {
+      "id": "tao-scheduling-system-improves-workload-efficien-d039e7",
+      "createdAt": "2026-10-29T13:34:56.048781+00:00",
+      "headline": "TAO scheduling system improves workload efficiency for AI agents",
+      "summary": "Researchers have developed a scheduling system called TAO to better manage workloads for AI agents that switch between GPU inference and CPU-based external tools. The system reduces resource waste by tracking when external tools are ready to return results.",
+      "whyItMatters": "Better resource scheduling lowers the operational costs and latency of running complex agentic workflows.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37230"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37230",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-research-proposes-honesty-testing-framework-f27a2a",
+      "createdAt": "2026-10-29T13:34:56.048781+00:00",
+      "headline": "New research proposes honesty testing framework for AI agents",
+      "summary": "A new vision paper suggests treating faithful reporting as a core software quality requirement for language models and AI agents. The authors define honesty bugs as instances where a system makes claims that conflict with its internal reasoning, and outline a testing framework to catch them.",
+      "whyItMatters": "Formal testing for internal consistency can improve reliability and human oversight for autonomous AI systems.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://arxiv.org/html/2610.34239v2"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-29T06:17:33.906400+00:00"
+  "updatedAt": "2026-10-29T13:35:21.534449+00:00"
 }

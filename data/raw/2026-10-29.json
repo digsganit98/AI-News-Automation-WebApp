@@ -556,6 +556,284 @@
           "checkedAt": "2026-10-29T06:10:09.764507Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-29T13:29:35.301977+00:00",
+      "newItems": 15,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1334,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.306899Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.341644Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 892,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.341926Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.342219Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 92,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.342384Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.342541Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.342688Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.342831Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.342972Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343110Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 24,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343276Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343333Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343377Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343598Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343642Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343784Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.343927Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.344066Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.344251Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.344517Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-29T13:29:35.344667Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.344809Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.345582Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.345739Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-29T13:29:35.345884Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.346025Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.346165Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.346337Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.346479Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.346681Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.347259Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.347435Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.347601Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-29T13:29:35.347648Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1037,7 +1315,218 @@
       },
       "id": "5043a3dd748692f0",
       "collectedAt": "2026-10-29T06:10:09.716199+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "85d975255b4f9d00",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "url": "https://huggingface.co/papers/2610.31670",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of…",
+      "author": "Yunfei Xie, Howard H. Qian, Shiyi Lan, Kaiyu Hang, Chen Wei",
+      "extra": {
+        "upvotes": 33,
+        "githubRepo": "https://github.com/yunfeixie233/sensorimotor-alignment",
+        "projectPage": "https://yunfeixie233.github.io/s2/",
+        "arxivUrl": "https://arxiv.org/abs/2610.31670"
+      },
+      "id": "c6362bf7135f3723",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+      "url": "https://huggingface.co/papers/2610.37230",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling framework for LLM-based agentic serving. Its value interface combines near-term…",
+      "author": "Shuhuai Li, Shengdong Ye, Dongdong Ge, Yinyu Ye, Jianghao Lin",
+      "extra": {
+        "upvotes": 14,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.37230"
+      },
+      "id": "d039e7322fab508c",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Why Waiting for Ready Data Is Riskier Than Starting AI Now",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/waiting-for-ready-data-riskier-than-starting-ai-now",
+      "publishedAt": "2026-10-29T20:58:00Z",
+      "excerpt": "Waiting for perfect data before starting AI creates its own risk. See why running AI and data modernization in parallel is the safer path.",
+      "author": "Fawad Qureshi",
+      "extra": {},
+      "id": "643cce2ec71c40f2",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Getting Started with Kling 4.0 on ModelFold: Reference Inputs, Keyframes, and a Real Video Example",
+      "url": "https://medium.com/@modelfold/getting-started-with-kling-4-0-on-modelfold-reference-inputs-keyframes-and-a-real-video-example-12d0c6562730?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T13:20:31Z",
+      "excerpt": "An animated image is a useful starting point. For a more deliberate video, the questions become more specific: Can I use my own product… Continue reading on Medium »",
+      "author": "ModelFold",
+      "extra": {},
+      "id": "93dd72539e4668a6",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "When an AI Usage Limit Changed How I Think About Delegation",
+      "url": "https://medium.com/@Y_K_shine/when-an-ai-usage-limit-changed-how-i-think-about-delegation-55a5cb92ec8a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T12:57:53Z",
+      "excerpt": "The surprise was not that an AI could do more work. It was that I needed to think harder about how to give it that work. Continue reading on Medium »",
+      "author": "shine",
+      "extra": {},
+      "id": "fb9208708d426fb2",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "21 Experts on Why AI Believes Others, Not Your Homepage",
+      "url": "https://medium.com/@yarauntangles/21-experts-on-why-ai-believes-others-not-your-homepage-b7d0cce19ec9?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T12:39:12Z",
+      "excerpt": "What AI says about your company, and who it learned it from. Continue reading on Medium »",
+      "author": "Yara Abboud",
+      "extra": {},
+      "id": "193ccb0dad44af89",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Next AI Revolution Won’t Be a Chatbot. It Will Be a World You Can Walk Into.",
+      "url": "https://medium.com/@riyascomet0089/the-next-ai-revolution-wont-be-a-chatbot-it-will-be-a-world-you-can-walk-into-791989495682?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T12:19:10Z",
+      "excerpt": "Google’s Genie 4 hints at a future where we don’t just watch AI-generated content — we step inside it, change it, and experience what… Continue reading on Medium »",
+      "author": "Wings of Thought",
+      "extra": {},
+      "id": "d968df38d76efa03",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Three Questions for Reviewing a Test Case, Tried on My Own Tests",
+      "url": "https://medium.com/@banututuncu/three-questions-for-reviewing-a-test-case-tried-on-my-own-tests-8579afdd350a?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T12:10:09Z",
+      "excerpt": "What a self-audit of four hallucination tests showed me, and why it matters when AI drafts your test cases Continue reading on Medium »",
+      "author": "Banu Tutuncu | AI Tester in Fintech | Storyteller",
+      "extra": {},
+      "id": "04b150eefc2d7445",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "publishedAt": "2026-10-29T00:30:37Z",
+      "excerpt": "",
+      "author": "paaloeye",
+      "extra": {
+        "points": 52,
+        "comments": 70,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50282865"
+      },
+      "id": "05a0d3d331514d08",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+      "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+      "publishedAt": "2026-10-29T00:16:08Z",
+      "excerpt": "",
+      "author": "ilamont",
+      "extra": {
+        "points": 54,
+        "comments": 104,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50282766"
+      },
+      "id": "34faf52b2406a659",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "publishedAt": "2026-10-28T22:27:46Z",
+      "excerpt": "",
+      "author": "pavel_lishin",
+      "extra": {
+        "points": 77,
+        "comments": 60,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50281826"
+      },
+      "id": "516d6345c17a7d96",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Startup news and updates: daily roundup (October 29, 2026) | YourStory",
+      "url": "https://yourstory.com/2026/10/startup-news-and-updates-daily-roundup-october-29-2026",
+      "publishedAt": "2026-10-29T11:00:00Z",
+      "excerpt": "Industries 5.0 startup Venttup has raised $3 million in a pre-Series A funding round co-led by Rainmatter, backed by Zerodha, and Unicorn India Ventures. The company will use the funds to expand its engineering team, establish precision manufacturing capabilities and invest in rapid prototyping and AI-led sourcing. [...] TutorCloud AI has launched an integrated artificial intelligence-powered platform connecting students, teachers, parents and school administrators in one ecosystem. Designed…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.35
+      },
+      "id": "5f55e95bf5c199fa",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "TN to not merely follow technology but create it and export, says minister",
+      "url": "https://www.newindianexpress.com/states/tamil-nadu/2026/Oct/29/tn-to-not-merely-follow-technology-but-create-it-and-export-says-minister",
+      "publishedAt": "2026-10-29T02:00:00Z",
+      "excerpt": "Copied\n\nCHENNAI: The Tamil Nadu government has set aside Rs 50 crore for startups this financial year as it courts international game studios and AI companies, betting that animation, visual effects, gaming and comics (AVGC) can help drive its goal of a $1.5 trillion economy, according to R Kumar, the state’s minister for artificial intelligence. [...] The benefits should reach cities like Coimbatore and Madurai rather than concentrate in Chennai, with tier-two and tier-three cities plugged…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.217
+      },
+      "id": "6b0060f2dd2a1163",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Honesty Testing of LLMs and AI Agents: A Vision for Software Engineering",
+      "url": "https://arxiv.org/html/2610.34239v2",
+      "publishedAt": "2026-10-28T02:00:00Z",
+      "excerpt": "Direct evidence is the judgment expressed in the thinking trace of the LLM during the execution that produces the claim, whether it operates alone or within an agent. In this paper, a thinking trace refers to the original intermediate reasoning text generated by the model during task execution. It can take the form of chain-of-thought (CoT) reasoning [25, 20], covering the task, applicable instructions, and how to respond. Direct evidence is recorded during the execution that produces the",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.389
+      },
+      "id": "f27a2aa0cf88aaa1",
+      "collectedAt": "2026-10-29T13:29:35.301977+00:00"
     }
   ],
-  "updatedAt": "2026-10-29T06:10:09.716199+00:00"
+  "updatedAt": "2026-10-29T13:29:35.301977+00:00"
 }
