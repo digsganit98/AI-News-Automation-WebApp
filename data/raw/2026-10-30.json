@@ -1,0 +1,763 @@
+{
+  "date": "2026-10-30",
+  "runs": [
+    {
+      "runAt": "2026-10-29T20:25:54.053996+00:00",
+      "newItems": 36,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1337,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.059061Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.096379Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 894,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.096780Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097046Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097211Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097345Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097467Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097582Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097695Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097804Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097913Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.097965Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098001Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098238Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098281Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098405Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098521Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098629Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098731Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.098994Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-29T20:25:54.099137Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.099253Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.100108Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.100236Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-29T20:25:54.100351Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.100463Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.100568Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.100674Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.100783Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.100955Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.101556Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.101712Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.101851Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-29T20:25:54.101890Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "publishedAt": "2026-10-29T17:00:00Z",
+      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "author": null,
+      "extra": {},
+      "id": "7bf0065ceb1646f5",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "publishedAt": "2026-10-29T09:00:00Z",
+      "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "author": null,
+      "extra": {},
+      "id": "d28967fce9c692cd",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "publishedAt": "2026-10-29T07:00:00Z",
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "author": null,
+      "extra": {},
+      "id": "2d9928289658e986",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "publishedAt": "2026-10-29T13:37:07Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "f3538b6fb36f4f58",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "e1c742c1d925baf7",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "a1765f446c5b64b5",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "mistral",
+      "sourceName": "Mistral AI",
+      "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publishedAt": "2026-10-29T12:00:07Z",
+      "excerpt": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "author": null,
+      "extra": {},
+      "id": "8ccea7e89b703086",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "title": "Microsoft Research Focus – Edition #97",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+      "publishedAt": "2026-10-29T19:19:16Z",
+      "excerpt": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus – Edition #97 appeared first on Microsoft Research .",
+      "author": "Sowbhagya Suresh",
+      "extra": {},
+      "id": "c1d5df7fdedb914f",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "meta-engineering",
+      "sourceName": "Meta Engineering (ML)",
+      "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+      "url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
+      "publishedAt": "2026-10-29T16:00:12Z",
+      "excerpt": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “Just-in-Time Catching Test Generation at Meta,” fully details [...] Read More... The post Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale appeared first on…",
+      "author": "",
+      "extra": {},
+      "id": "2b2f487795f0e5d2",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+      "url": "https://huggingface.co/papers/2610.22507",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "excerpt": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. To comprehensively measure collaboration, REALCLI builds a five-dimensional framework,…",
+      "author": "Yunqi Liu, Peiyu Wang, Bingli Wang, Leo Luo, Xuanwu Song, Xudong Ma, Hongxin Li, Yaxin Du, Weicheng Gu, Fanglin Xu, Yi Xing, XiangLong Liu, Jujie He, Zhange Zhang, Huatong Song, Zhaoyi Li, Deyang Kong, Chuan Hao, Peihao Wu, Mingjie Tang, Ran Tao, Jian Yang, Wayne Xin Zhao, Bryan Dai",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.22507"
+      },
+      "id": "21518626117371ec",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "AWS Step Functions workflows now available as AI agent tools",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+      "publishedAt": "2026-10-29T08:00:00Z",
+      "excerpt": "You can now use your AWS Step Functions workflows as tools for AI agents through Amazon Bedrock AgentCore Gateway. Your agent decides when to run a workflow and what input to pass, and Step Functions runs each step exactly as you defined it. Agents can use your existing Standard and Express workflows as tools. AWS Step Functions is a visual workflow service capable of orchestrating over 220 AWS services to help customers build distributed applications at scale. AgentCore Gateway connects AI…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "c2f075fe2f460941",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How the UK Amazon Quick User Group grew in 2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026/",
+      "publishedAt": "2026-10-29T20:16:40Z",
+      "excerpt": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
+      "author": "Priyanka Bettaswamygowda",
+      "extra": {},
+      "id": "3fa519422b2c3b84",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Building intent-driven UI testing with Amazon Nova Act",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/",
+      "publishedAt": "2026-10-29T18:20:27Z",
+      "excerpt": "Epsilon's Agentic Platform team delivers UI testing as a managed, multi-tenant service built on Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool. Tests are written in plain English and run on browsers managed by AWS, giving every product team resilient, intent-driven testing with zero per-team infrastructure overhead.",
+      "author": "Sakthi Chellapparimanam",
+      "extra": {},
+      "id": "1fcf22f867e2d9da",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/",
+      "publishedAt": "2026-10-29T18:14:17Z",
+      "excerpt": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
+      "author": "Sarat Guttikonda",
+      "extra": {},
+      "id": "983901472b072637",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+      "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/",
+      "publishedAt": "2026-10-29T16:58:57Z",
+      "excerpt": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
+      "author": "Michelle Goodstein",
+      "extra": {},
+      "id": "aa702b033bfda9cd",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+      "publishedAt": "2026-10-29T16:54:52Z",
+      "excerpt": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
+      "author": "Nikhil Kumar",
+      "extra": {},
+      "id": "3dcfe747ba6ccec0",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+      "publishedAt": "2026-10-29T16:11:08Z",
+      "excerpt": "NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo and vLLM.",
+      "author": "Alex Iankoulski",
+      "extra": {},
+      "id": "415c05d3f517e27e",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "bens-bites",
+      "sourceName": "Ben's Bites",
+      "title": "AI is overwhelming and I’m doing it wrong",
+      "url": "https://www.bensbites.com/p/ai-is-overwhelming-and-im-doing-it",
+      "publishedAt": "2026-10-29T14:03:54Z",
+      "excerpt": "Let&#8217;s think about what we&#8217;re doing here",
+      "author": null,
+      "extra": {},
+      "id": "1db3248c2d100efe",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Gemini 4 Argon: What Google’s New AI Can Really Do",
+      "url": "https://sauravthakurx.medium.com/gemini-4-argon-what-googles-new-ai-can-really-do-56e600764d1e?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T19:20:23Z",
+      "excerpt": "AI Systems Architect | Full-Stack AI Engineer | Founder @NEXBOOK | 46+ AI Systems Shipped | Scaled to 44K+ Active Users | Agentic RAG &… Continue reading on Medium »",
+      "author": "Saurav Thakur",
+      "extra": {},
+      "id": "fd1b095913427553",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Beyond Basic RAG: Building Cortex, an Agentic Document Assistant",
+      "url": "https://medium.com/@maryam.arif_61418/beyond-basic-rag-building-cortex-an-agentic-document-assistant-802b1297c75b?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T18:58:18Z",
+      "excerpt": "The Problem: Why I Built Cortex Continue reading on Medium »",
+      "author": "Maryam Arif",
+      "extra": {},
+      "id": "b76971465e5bdef0",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "A newsroom AI that drafts is not the risk. One that can publish is.",
+      "url": "https://medium.com/@innerluxes/a-newsroom-ai-that-drafts-is-not-the-risk-one-that-can-publish-is-c5e4c16c69f3?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T18:44:49Z",
+      "excerpt": "Generative AI arrived in newsrooms as a writing tool, which is the least interesting thing it does and the most dangerous way to frame it… Continue reading on Medium »",
+      "author": "INNER LUXES",
+      "extra": {},
+      "id": "0fda268741f64c68",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Exploring Databricks Unity AI Gateway Observability",
+      "url": "https://medium.com/@venugopaldabbara1/exploring-databricks-unity-ai-gateway-observability-43a992535d36?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T17:26:48Z",
+      "excerpt": "Understanding how Unity AI Gateway brings model usage, performance, token consumption, cost insights, MCP tools and coding-agent activity… Continue reading on Medium »",
+      "author": "Venugopal Dabbara",
+      "extra": {},
+      "id": "2f7f8ff40014650b",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Does Your Website Need a GEO Audit? 7 Signs to Look For",
+      "url": "https://medium.com/@vovance/does-your-website-need-a-geo-audit-7-signs-to-look-for-e499863d7686?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T16:01:02Z",
+      "excerpt": "Imagine someone asking ChatGPT to recommend a company like yours. Your competitors show up. Your business? Nowhere to be found. Continue reading on Medium »",
+      "author": "Vovance",
+      "extra": {},
+      "id": "dcef11c6fa238a89",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "publishedAt": "2026-10-29T15:06:17Z",
+      "excerpt": "",
+      "author": "mektrik",
+      "extra": {
+        "points": 113,
+        "comments": 55,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50290283"
+      },
+      "id": "bd43dca7b97353c9",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "publishedAt": "2026-10-29T14:57:55Z",
+      "excerpt": "",
+      "author": "ibobev",
+      "extra": {
+        "points": 230,
+        "comments": 131,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50290177"
+      },
+      "id": "739e0b5535e3ec06",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "publishedAt": "2026-10-29T14:29:06Z",
+      "excerpt": "",
+      "author": "Frieren",
+      "extra": {
+        "points": 71,
+        "comments": 30,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50289692"
+      },
+      "id": "6a4dc94a574c50d8",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "publishedAt": "2026-10-29T12:41:56Z",
+      "excerpt": "",
+      "author": "theHocineSaad",
+      "extra": {
+        "points": 320,
+        "comments": 235,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50288019"
+      },
+      "id": "eebb63f2228b3e37",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Mistral releases open weights for its 1 trillion-parameter Large 4 model",
+      "url": "https://thenextweb.com/news/mistral-large-4-open-weights-release",
+      "publishedAt": "2026-10-29T14:40:56Z",
+      "excerpt": "",
+      "author": "/u/joe4942",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xilupe/mistral_releases_open_weights_for_its_1/"
+      },
+      "id": "f7455ea846665c77",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "mistralai/Mistral-Large-4-1T-A52B · Hugging Face",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "publishedAt": "2026-10-29T14:13:14Z",
+      "excerpt": "https://huggingface.co/ggml-org/Mistral-Large-4-1T-A52B-GGUF https://huggingface.co/ggml-org/Mistral-Large-4-1T-A52B-NVFP4-GGUF https://huggingface.co/unsloth/Mistral-Large-4-1T-A52B-GGUF from Mistral: Mistral Large 4 - Le Chonk Mistral Large 4 is our largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xil58b/mistralaimistrallarge41ta52b_hugging_face/"
+      },
+      "id": "014576526a4dc284",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "HemmingwayAI/Hemmingway-1.5 (Qwen finetune)",
+      "url": "https://huggingface.co/HemmingwayAI/Hemmingway-1.5",
+      "publishedAt": "2026-10-29T09:27:19Z",
+      "excerpt": "https://huggingface.co/bartowski/HemmingwayAI_Hemmingway-1.5-GGUF from hemmingwayAI: Hemmingway-1.5 The undetectable AI. Writing indistinguishable from a human's. 27B parameters, open weights, free for non-commercial use. hemmingway.io → · Model card → · Try it → · API → · API docs → · Mac, Windows and Android apps → · Code → · Product Hunt → Our other models: Hemmingway-1 , our first model · Hemmingway-1-Unlocked , the uncensored adapter for Hemmingway-1, adults only Hemmingway-1.5 passes the…",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xif7hy/hemmingwayaihemmingway15_qwen_finetune/"
+      },
+      "id": "e424b2f28643e9f7",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Applied AI for Everyone: Inside Weber States New Applied AI Lab",
+      "url": "https://www.weber.edu/east/ai-innovation-initiative/new-lab.html",
+      "publishedAt": "2026-10-28T20:00:00Z",
+      "excerpt": "The Applied AI Lab is built on a simple idea: students shouldn’t need to be computer science majors to explore how AI applies to their studies and future careers.\n\n“No CS degree required. No experience needed. Just curiosity,” co-founder Adam Yeates wrote when announcing the lab on LinkedIn.\n\n“AI is the means to the end, not the end itself,” co-founder Kylar Vierra said.\n\n## Learning by Building [...] “Learning by building”is the philosophy that shapes how the lab approaches AI education.…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.437
+      },
+      "id": "21b29b94a5d041eb",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Who Gets to Build the Frontier for AI | Cohere",
+      "url": "https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai",
+      "publishedAt": "2026-10-29T15:00:00Z",
+      "excerpt": "Introducing Embed 5—A new family of frontier embedding models\n\nResearch\n\n Cohere Labs\n\n  Cohere’s ML research lab\n\nExplorations\n\n Future(s) of Work\n\n  How will AI change the way we work?\n Aya Models\n\n  Multilingual AI at scale\n All Papers\n\nInitiatives\n\n Research Scholars\n\n  Finding the new generation of ML talent\n Open Science Community\n\n  Championing global, open science\n Catalyst Grants\n\n  Supporting impactful ML endeavors\n\nResources\n\n Blog\n Hugging Face\n Events\n\nFeatured",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.277
+      },
+      "id": "e827d3360a1e1147",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Dive Apps: Superpowers for AI Builders | MotherDuck",
+      "url": "https://motherduck.com/blog/dive-apps-superpowers-for-ai-builders",
+      "publishedAt": "2026-10-29T03:30:00Z",
+      "excerpt": "Why Guides? Don’t bet on just one AI lab and put all your context in their proprietary system! What happens when the other company drops a new model that laps the rest? You want to be able to switch to the best in class LLM at a moment’s notice.\n\nYou already need a place to store your data, so store your metadata right alongside it. Data stores last forever, but the leader in the AI race changes every week…\n\n### Apps That Take Action in Any System",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.243
+      },
+      "id": "186510e6c7b92be9",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Y Combinator's Winter 2027 startup priorities focus on AI, insurance, fintech, and robotics",
+      "url": "https://beinsure.com/news/y-combinators-winter-2027-startup-priorities",
+      "publishedAt": "2026-10-29T11:00:00Z",
+      "excerpt": "The Winter 2027 list represents selected areas of interest rather than a restriction on eligible startup applications. YC continues to accept founders working on other business concepts, with the 11 published requests indicating opportunities it is particularly interested in supporting.\n\nInsurify launches AI Agent Gateway for real-time AI insurance shopping\n\nInsurify launches AI Agent Gateway for real-time AI insurance shopping [...] Y Combinator has identified 11 startup opportunities for…",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.813
+      },
+      "id": "6e31afaca592853c",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Praxis: AI agents that run law firm operations. | Y Combinator",
+      "url": "https://www.ycombinator.com/companies/praxis",
+      "publishedAt": "2026-10-28T20:00:00Z",
+      "excerpt": "Founder/CTO\n\nFounder at Praxis. Previously AI Engineer at SightCall building multimodal knowledge platforms and video analysis pipelines. Data Engineer at BlaBlaCar, Uber and iOS developer at NextDNS. Studied CS at Ecole 42 & Stony Brook.\n\nYC Photos\n\nPraxis\n\nPraxis\n\nFounded:2026\n\nBatch:Fall 2026\n\nTeam Size:2\n\nStatus:\nActive\n\nLocation:San Francisco\n\nPrimary Partner:Nicolas Dessaigne\n\nX (Twitter) logo",
+      "author": null,
+      "extra": {
+        "query": "Y Combinator AI agent startup launch",
+        "score": 0.63
+      },
+      "id": "95e65d0ae32dcf21",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Agentic AI use cases for enterprise marketers | Insider One",
+      "url": "https://insiderone.com/agentic-ai-use-cases-enterprise-marketers",
+      "publishedAt": "2026-10-28T08:50:04Z",
+      "excerpt": "In a general agentic-AI model, a next-best-action approach may recommend a message, channel, or incentive using the decision criteria and approval limits that a team defines, rather than applying one blanket discount rule to a segment. For Insider One deployments, Agent One can support goal-oriented customer engagement by planning, executing, learning from, and optimizing engagement, while teams determine the appropriate approval model for each use case, a distinction our piece on AI agents…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.82
+      },
+      "id": "1b51dcc5ebf3ecc7",
+      "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-29T20:25:54.053996+00:00"
+}

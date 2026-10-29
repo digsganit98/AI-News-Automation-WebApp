@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-30",
+  "stories": [
+    {
+      "id": "epsilon-launches-managed-ui-testing-service-usin-1f3c26",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "Epsilon launches managed UI testing service using Amazon Nova Act",
+      "summary": "Epsilon has created a multi-tenant service that uses Amazon Nova Act and Amazon Bedrock AgentCore Browser Tool for user interface testing. The system allows product teams to write tests in plain English, which are then executed on AWS-managed browsers.",
+      "whyItMatters": "This service simplifies quality assurance by letting product teams run automated interface tests using plain English commands.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "moengage-converts-rest-apis-into-agent-tools-usi-66eaaf",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "MoEngage converts REST APIs into agent tools using Amazon Bedrock AgentCore Gateway",
+      "summary": "MoEngage used Amazon Bedrock AgentCore Gateway to transform approximately 400 private REST APIs into permission-scoped tools for AI agents. This approach uses OpenAPI specs and Cedar policies to secure agent integrations without requiring individual servers.",
+      "whyItMatters": "It provides a scalable way for enterprises to connect internal APIs to AI agents safely and efficiently.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-nemotron-3-5-super-vl-available-on-aws-fo-23037a",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "NVIDIA Nemotron 3.5 Super VL available on AWS for agentic AI",
+      "summary": "The NVIDIA Nemotron 3.5 Super VL is a 120-billion parameter multimodal model now available for deployment on Amazon EKS and SageMaker HyperPod EKS. The open model supports text, image, document, and video inputs for reasoning and tool use tasks.",
+      "whyItMatters": "Enterprise developers can now easily deploy large multimodal reasoning models on AWS infrastructure.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-step-functions-workflows-can-now-be-used-as-3d5404",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "AWS Step Functions workflows can now be used as AI agent tools",
+      "summary": "AWS now allows users to connect existing Step Functions workflows to AI agents via Amazon Bedrock AgentCore Gateway. This integration lets agents trigger multi-step business processes while adhering to predefined rules.",
+      "whyItMatters": "This feature helps enterprises connect AI agents directly to core business logic and automation pipelines.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mistral-releases-open-weights-for-its-1-trillion-f7455e",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "Mistral releases open weights for its 1 trillion-parameter Mistral Large 4 model",
+      "summary": "Mistral AI has released the weights for Mistral Large 4, a 1-trillion-parameter multimodal model trained in Europe. A quantised version is available on Hugging Face that runs on four Nvidia B200 or B300 GPUs, focusing on coding and cybersecurity.",
+      "whyItMatters": "It brings a massive open-weight model to the developer community for local deployment and advanced coding tasks.",
+      "category": "New Model Release",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://thenextweb.com/news/mistral-large-4-open-weights-release"
+        },
+        {
+          "name": "Reddit",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        },
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-gemini-4-carbon-tops-artificial-analysis-eebb63",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "Google Gemini 4 Carbon tops Artificial Analysis Intelligence Index v5",
+      "summary": "Google's Gemini 4 Carbon has reached the top position on the Artificial Analysis Intelligence Index v5 with strong complex reasoning performance. The model is rolling out to selected users with a discount and ranks highly on coding agent benchmarks.",
+      "whyItMatters": "It demonstrates continued progress in reasoning capabilities among frontier AI models.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "google-deepmind-announces-gemini-4-carbon-b0da25",
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-publishes-updated-model-spec-outlining-co-7bf006",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "OpenAI publishes updated Model Spec outlining core values",
+      "summary": "OpenAI has published an updated Model Spec that details five core values to guide frontier AI systems. These guidelines aim to improve sound judgment, human agency, and faithfulness to intent.",
+      "whyItMatters": "Clear model specifications help align increasingly capable AI systems with human expectations and safety standards.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/updated-model-spec"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-shares-production-results-of-jittesting-for-e532f6",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "Meta shares production results of JiTTesting for automated bug detection",
+      "summary": "Meta Engineering has shared findings from deploying its Just-in-Time Testing approach into production. The method uses large language models to catch bugs on the fly during development.",
+      "whyItMatters": "It highlights practical enterprise applications of language models for automated software testing and debugging.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Meta Engineering (ML)",
+          "url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-details-layered-monitoring-methods-for-de-d28967",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "OpenAI details layered monitoring methods for detecting model misalignment",
+      "summary": "OpenAI has outlined how it uses layered monitoring to detect misalignment and unauthorized agent behavior in frontier models. The system is designed to allow human responders to intervene before incidents escalate.",
+      "whyItMatters": "Robust monitoring frameworks are essential for maintaining safety and control over autonomous AI agents.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ropes-gray-partners-with-openai-to-develop-legal-2d9928",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "Ropes & Gray partners with OpenAI to develop legal diligence AI",
+      "summary": "Law firm Ropes & Gray is developing AI tools for transactional diligence in partnership with OpenAI. The system generates grouped documents, summaries, and reports for lawyer review.",
+      "whyItMatters": "It shows how specialized professional services are adopting custom generative AI workflows to streamline document review.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/ropes-gray-ai-diligence"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "realcli-benchmark-evaluates-human-agent-collabor-215186",
+      "createdAt": "2026-10-29T20:33:16.555857+00:00",
+      "headline": "REALCLI benchmark evaluates human-agent collaboration on command-line tasks",
+      "summary": "Researchers introduced REALCLI, a benchmark that measures both task execution and collaboration quality for command-line interface agents. The study shows current leading agents struggle with steerability, trust calibration, and safety management during interactive tasks.",
+      "whyItMatters": "It highlights key weaknesses in agent usability and safety that must be addressed for reliable CLI assistance.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22507"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22507",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-10-29T20:33:22.668803+00:00"
+}
