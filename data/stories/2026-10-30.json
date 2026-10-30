@@ -386,7 +386,443 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "arsaze-introduces-ai-assisted-video-editing-tool-a3e8a3",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Arsaze introduces AI-assisted video editing tool with tab-completion",
+      "summary": "A new video editing tool called Arsaze features tab-completion and agent-based edits to assist the production process. It aims to bring developer-style coding assistant workflows to video editing.",
+      "whyItMatters": "It applies agentic coding patterns to multimedia production tools.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.arsaze.com"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "artifact-distillation-technique-transfers-large-08b2de",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Artifact Distillation technique transfers large AI model reasoning to smaller models without retraining",
+      "summary": "Researchers introduced Artifact Distillation, a technique where a large AI model writes down its problem-solving steps for a smaller model to reference. This approach improves smaller model reasoning performance without requiring model retraining.",
+      "whyItMatters": "It offers a resource-efficient way to imbue smaller models with advanced reasoning capabilities.",
+      "category": "Methodology",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.37680"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37680",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "survey-examines-role-of-supervised-fine-tuning-i-bfe2c0",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Survey examines role of supervised fine-tuning in enhancing LLM reasoning",
+      "summary": "A new survey paper reviews how supervised fine-tuning improves the reasoning abilities of large language models. It highlights the importance of training on detailed step-by-step reasoning data.",
+      "whyItMatters": "It provides a comprehensive overview of best practices for improving complex task performance via fine-tuning.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2610.37681"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37681",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "l3g-world-generates-infinite-3d-worlds-in-real-t-d29a39",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "L3G-World generates infinite 3D worlds in real time using latent memory",
+      "summary": "Researchers developed L3G-World, a system that creates interactive visual worlds in real time while maintaining spatial consistency. It uses a latent 3D Gaussian memory to handle long-horizon exploration efficiently.",
+      "whyItMatters": "It reduces the computational cost of generating continuous interactive environments.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.40614"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.40614",
+        "code": "https://github.com/cvlab-kaist/L3G-World",
+        "model": null,
+        "demo": "https://cvlab-kaist.github.io/L3G-World/"
+      }
+    },
+    {
+      "id": "a-rsi-method-enables-multimodal-ai-models-to-imp-d0a61c",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "A-RSI method enables multimodal AI models to improve without external data",
+      "summary": "The A-RSI method allows multimodal AI models to generate their own training tasks and refresh them when learning slows down. This approach improves benchmark performance without using human-written answers or external labels.",
+      "whyItMatters": "It demonstrates a way for multimodal models to self-improve without relying on curated datasets.",
+      "category": "Methodology",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.38568"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.38568",
+        "code": null,
+        "model": null,
+        "demo": "https://seerray-lab.github.io/A-RSI/"
+      }
+    },
+    {
+      "id": "lown-technique-makes-diffusion-vision-language-m-46ae51",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "LOWN technique makes diffusion vision-language models more efficient by conditional processing",
+      "summary": "Researchers introduced LOWN to reduce the computational load of diffusion vision-language models. It works by processing visual tokens only when necessary instead of at every generation step.",
+      "whyItMatters": "It lowers the compute requirements for running complex vision-language models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.36671"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.36671",
+        "code": "https://github.com/hyeon9698/LOWN",
+        "model": null,
+        "demo": "https://hyeon9698.github.io/LOWN/"
+      }
+    },
+    {
+      "id": "intrinsic-distribution-matching-improves-fast-te-13b40b",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Intrinsic Distribution Matching improves fast text-to-image generation and text rendering",
+      "summary": "Intrinsic Distribution Matching (IDM) enhances few-step text-to-image generation by adding statistical constraints. The method achieves state-of-the-art results in rendering long text within images using minimal compute.",
+      "whyItMatters": "It solves persistent challenges in getting text-to-image models to spell words correctly while speeding up generation.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.39633"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.39633",
+        "code": "https://github.com/inclusionAI/IDM",
+        "model": null,
+        "demo": "https://www.inclusion-ai.org/IDM/?lang=zh"
+      }
+    },
+    {
+      "id": "new-framework-analyzes-ai-benchmarks-as-empirica-eadbf3",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "New framework analyzes AI benchmarks as empirical measures of difficulty",
+      "summary": "Researchers propose viewing AI benchmarks as empirical measures of difficulty rather than static collections of questions. This perspective helps formalize common failure modes in evaluation protocols.",
+      "whyItMatters": "It helps researchers better understand why and how AI models fail on standardized tests.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.29927"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.29927",
+        "code": "https://github.com/ASTRAL-Group/benchmark-difficulty-measure",
+        "model": null,
+        "demo": "https://benchmark-difficulty-measure.github.io/"
+      }
+    },
+    {
+      "id": "co-design-bench-evaluates-ai-coding-agents-on-co-e9a767",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Co-Design Bench evaluates AI coding agents on collaborative tasks",
+      "summary": "Co-Design Bench is a new evaluation suite consisting of 273 tasks derived from real user coding sessions. It tests whether AI coding agents can translate multimodal requests into application revisions.",
+      "whyItMatters": "It provides a realistic benchmark for assessing collaborative software engineering agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.35138"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.35138",
+        "code": "https://github.com/Wiselnn570/Co-Design-Bench",
+        "model": null,
+        "demo": "https://codesignbench.github.io/"
+      }
+    },
+    {
+      "id": "vibegame-uses-large-language-models-for-prompt-t-6d7f09",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "VibeGame uses large language models for prompt-to-game development",
+      "summary": "Researchers introduced VibeGame, a system that uses large language models to build playable games from natural language prompts. The tool coordinates code, assets, and physics to create complete environments.",
+      "whyItMatters": "It automates end-to-end interactive software development from high-level user text prompts.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.33106"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.33106",
+        "code": "https://github.com/tettethu/VibeGame",
+        "model": null,
+        "demo": "https://vibegame.tettet.org"
+      }
+    },
+    {
+      "id": "webanything-framework-creates-scalable-environme-36007d",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "WebAnything framework creates scalable environments for web agents",
+      "summary": "WebAnything creates diverse and resettable website environments for training and evaluating AI web agents. It uses capture-and-replay methods to maintain realistic interactions without manual site engineering.",
+      "whyItMatters": "It simplifies the creation of training environments for web navigation agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37786"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37786",
+        "code": "https://github.com/china-qijizhifeng/Web-Anything",
+        "model": null,
+        "demo": "https://china-qijizhifeng.github.io/Web-Anything/"
+      }
+    },
+    {
+      "id": "workfactory-framework-generates-professional-tas-76575a",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "WorkFactory framework generates professional tasks for scalable agent training",
+      "summary": "WorkFactory is a new framework designed to generate diverse professional tasks for training AI agents. It provides reliable expert demonstrations to overcome inconsistencies in task data.",
+      "whyItMatters": "It streamlines the generation of high-quality training data for professional agent workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.37161"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.37161",
+        "code": "https://github.com/IQuestLab/WorkFactory",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "personacuabench-and-tauindianbankbench-benchmark-fc442e",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "PersonaCUABench and TauIndianBankBench benchmarks evaluate computer-use and banking agents",
+      "summary": "Researchers introduced two new evaluation benchmarks for conversational and computer-use AI agents. PersonaCUABench tests agents on handling diverse user personas and constraints, while TauIndianBankBench evaluates adherence to strict banking procedures.",
+      "whyItMatters": "Rigorous domain-specific benchmarks are essential for measuring the reliability and safety of autonomous agents before they are deployed in sensitive sectors like finance.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22990"
+        },
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.30161"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22990",
+        "code": "https://github.com/MatrAIx-ai/PersonaCUABench",
+        "model": null,
+        "demo": "https://matraix.ai/research/persona-cua.html"
+      }
+    },
+    {
+      "id": "major-ai-companies-implement-proprietary-text-wa-2205e2",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Major AI companies implement proprietary text watermarks for model attribution",
+      "summary": "Google, Anthropic, and OpenAI are applying watermarking technologies to identify AI-generated text. Currently, each company's verification system only detects watermarks produced by its own models rather than cross-company alternatives.",
+      "whyItMatters": "Proprietary watermarking helps companies track the output of their specific models, but the lack of interoperability limits universal detection of artificial text.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Medium (generative-ai)",
+          "url": "https://flurrylab.medium.com/google-anthropic-and-soon-openai-watermark-text-only-each-can-check-its-own-6bd756ff0e0f?source=rss------generative_ai-5"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "wabi-raises-55-million-at-1-25-billion-valuation-60c269",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Wabi raises $55 million at $1.25 billion valuation to build personal AI agents",
+      "summary": "AI startup Wabi has secured $55 million in a funding round that values the company at $1.25 billion. Founded by Eugenia Kuyda, the firm is shifting its focus to personal agents that dynamically generate mini-apps for daily tasks.",
+      "whyItMatters": "Significant venture capital flowing into personal agent startups highlights growing commercial interest in interactive assistants that move beyond basic prompt interfaces.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "cisco-open-sources-project-quarry-to-detect-mali-673862",
+      "createdAt": "2026-10-30T10:27:50.992096+00:00",
+      "headline": "Cisco open-sources Project Quarry to detect malicious AI agent behavior",
+      "summary": "Cisco has released Project Quarry as an open-source rule language for identifying harmful actions taken by AI agents. The tool blends machine learning checks with rule-based systems to monitor sequences of tool interactions.",
+      "whyItMatters": "Security frameworks that monitor multi-step agent actions are critical for preventing unintended or malicious behavior in automated workflows.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-30T01:20:42.391022+00:00"
+  "updatedAt": "2026-10-30T10:28:01.596487+00:00"
 }
