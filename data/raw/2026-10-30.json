@@ -278,6 +278,284 @@
           "checkedAt": "2026-10-29T20:25:54.101890Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-10-30T01:13:18.855391+00:00",
+      "newItems": 13,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1337,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.858167Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881019Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 894,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881227Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881399Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881490Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881572Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881646Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881715Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881781Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881847Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 23,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881926Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881958Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.881981Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.882098Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.882120Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.882191Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.882259Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.882322Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.882384Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.882601Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-30T01:13:18.882732Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883204Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883296Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883368Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-30T01:13:18.883435Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883500Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883564Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883625Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883690Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.883791Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.884165Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.884259Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.884341Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-30T01:13:18.884363Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -757,7 +1035,189 @@
       },
       "id": "1b51dcc5ebf3ecc7",
       "collectedAt": "2026-10-29T20:25:54.053996+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker AI now supports SOCI-indexed images to start training jobs in seconds",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-ai-soci-images-training/",
+      "publishedAt": "2026-10-29T08:00:00Z",
+      "excerpt": "Today, Amazon SageMaker AI announces support for Seekable OCI (SOCI)-indexed container images for training and processing jobs, so your jobs start running your code sooner. SOCI-indexed images start Amazon SageMaker AI training containers in seconds, cutting GPU idle time during image pulls by up to 90%, with no impact on training performance. Before a training or processing job can run, SageMaker AI downloads its container image to the instance. For deep learning images, which routinely…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "954ff63a34f10211",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "One Prompt, Seven AI Models: Why My Miniature High-Heel Apartments Look So Different",
+      "url": "https://medium.com/chatgpt-beyond/one-prompt-seven-ai-models-why-my-miniature-high-heel-apartments-look-so-different-2ad09b4ef406?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-30T00:12:28Z",
+      "excerpt": "I used the same detailed 3D prompt across seven image models. The results revealed different approaches to architecture, scale, and visual… Continue reading on ChatGPT & Beyond »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "f5995e6310a91bdf",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Muse Drafted a Lesson. I Asked Another Model to Try It.",
+      "url": "https://medium.com/@dorangao/muse-drafted-a-lesson-i-asked-another-model-to-try-it-6fb0c36709df?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T23:37:46Z",
+      "excerpt": "A cooling lesson shows how Muse Wonder, Muse Spark, code, and human review can work together. Continue reading on Medium »",
+      "author": "Doran Gao",
+      "extra": {},
+      "id": "5da3e5ffadf9239d",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Recraft V4.1 Flash: The Speed Number That Matters Is the Slow One",
+      "url": "https://medium.com/@ibokkon/recraft-v4-1-flash-the-speed-number-that-matters-is-the-slow-one-9e33fd6ca360?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T21:26:16Z",
+      "excerpt": "Recraft V4.1 Flash speeds up AI image generation, but p95 latency, usable images, and enhancement costs tell a fuller story. Continue reading on Medium »",
+      "author": "Balthasar",
+      "extra": {},
+      "id": "81c3ae3328b727ee",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "FLUX 3 Image Klein: The Small Image Model Comes With a Bigger Workflow",
+      "url": "https://medium.com/@ibokkon/flux-3-image-klein-the-small-image-model-comes-with-a-bigger-workflow-76f2a60aef41?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-29T21:25:23Z",
+      "excerpt": "Black Forest Labs’ new open weights release brings generation, editing, and layout control together. The interesting details are in the… Continue reading on Medium »",
+      "author": "Balthasar",
+      "extra": {},
+      "id": "c67acb56785fa7f1",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Proton goes all in on using AI",
+      "url": "https://convo.casa/@b/117525936178835007",
+      "publishedAt": "2026-10-29T21:49:28Z",
+      "excerpt": "",
+      "author": "ColinWright",
+      "extra": {
+        "points": 74,
+        "comments": 59,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50296602"
+      },
+      "id": "923d025e66a508f8",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "publishedAt": "2026-10-29T21:40:28Z",
+      "excerpt": "",
+      "author": "sandslash",
+      "extra": {
+        "points": 142,
+        "comments": 55,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50296486"
+      },
+      "id": "d8eb5a4b641ea994",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+      "url": "https://fig.blue/posts/duet-is-the-future/",
+      "publishedAt": "2026-10-29T17:24:25Z",
+      "excerpt": "",
+      "author": "nathanfig",
+      "extra": {
+        "points": 101,
+        "comments": 84,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50292727"
+      },
+      "id": "11ef932bb8b9a008",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Modders unlock hidden AI power on Nvidia RTX 20, 30, and 40 series GPUs, nearly doubling some benchmarks",
+      "url": "https://www.techspot.com/news/114351-hackers-unlock-hidden-ai-performance-nvidia-rtx-20.html",
+      "publishedAt": "2026-10-29T15:41:37Z",
+      "excerpt": "",
+      "author": "/u/Resident-Fall4351",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xingp7/modders_unlock_hidden_ai_power_on_nvidia_rtx_20/"
+      },
+      "id": "d42493718150cb29",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Mistral’s New ‘Le Chonk’ AI Model Is Big, Open and Now Available for Download - CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/mistral-new-le-chonk-ai-model-open-source-available",
+      "publishedAt": "2026-10-29T17:32:56Z",
+      "excerpt": "More from CNET\n\nA French company known for its open-source and open-weight LLMs, Mistral AI reports that the Large 4 model “ranks among the best open-weight models of the world” on aggregated metrics and also outperforms European and US models, while also catching up to Chinese competitors, who have been dominating the open-weight sector. [...] Grounding is a technique used in AI development to try to eliminate hallucinations – when the LLM generates inaccurate information – by anchoring the…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.466
+      },
+      "id": "0e82fbd0c7d776cf",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Careers | CGI.com",
+      "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1774&BRID=1344625&lang=1",
+      "publishedAt": "2026-10-29T05:00:00Z",
+      "excerpt": "• Design, develop, and deploy enterprise-grade Agentic AI and Generative AI solutions that address complex business challenges.  \n• Build multi-agent systems utilizing modern orchestration frameworks such as LangGraph, LangChain, CrewAI, Semantic Kernel, Google ADK, Amazon Bedrock Agents, or Azure AI Foundry.  \n• Lead the end-to-end development lifecycle of AI solutions, from ideation and proof of concept through production deployment and continuous optimization. [...] • Strong experience with…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.443
+      },
+      "id": "7899ffcc607428fd",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "9 Best AI Agent Platforms in 2026: Where Developers Build, Run and Ship Agents",
+      "url": "https://www.simular.ai/alternatives/best-ai-agent-platforms",
+      "publishedAt": "2026-10-29T07:00:00Z",
+      "excerpt": "The category changed more in 2026 than in the previous two years. OpenAI, Anthropic, Google, LangChain and AWS each launched a hosted agent runtime. Google renamed Vertex AI. OpenAI is shutting down its visual Agent Builder on 30 November 2026, and AWS closed the original Bedrock Agents to new customers on 30 July 2026. Most \"best AI agent platform\" lists still recommend products that no longer take new users. This guide compares nine platforms as they stand on 28 October 2026, using each…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.24
+      },
+      "id": "9905d57ec77d0a59",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "New in Generative UI: Catalogs, Surfaces and Markdown Mode | Blog | CopilotKit",
+      "url": "https://www.copilotkit.ai/blog/new-generative-ui",
+      "publishedAt": "2026-10-29T15:00:00Z",
+      "excerpt": "Introducing OpenDuet: Open-Source Proactive AI CoworkersToday we're releasing OpenDuet, an open-source proactive AI agent that tells you what needs you, handles what can wait and asks before it acts. Host it yourself, bring any agent through AG-UI and use any model. It's built for web and mobile.CopilotKit Soar vs Grok Bot: Self-Hosted AI Coworkers for Your Business\n\nAnmol Baranwal October 23, 2026 [...] We can't wait to see what you build. Follow CopilotKit on Twitter for what's next, and…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.423
+      },
+      "id": "ebfbf1594f4a83d0",
+      "collectedAt": "2026-10-30T01:13:18.855391+00:00"
     }
   ],
-  "updatedAt": "2026-10-29T20:25:54.053996+00:00"
+  "updatedAt": "2026-10-30T01:13:18.855391+00:00"
 }
