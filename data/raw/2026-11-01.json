@@ -1,0 +1,508 @@
+{
+  "date": "2026-11-01",
+  "runs": [
+    {
+      "runAt": "2026-10-31T19:26:25.917660+00:00",
+      "newItems": 16,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1341,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.920415Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.943795Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 894,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944023Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944214Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944309Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944391Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944466Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944536Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944603Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944669Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944734Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944765Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944788Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944906Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944927Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.944998Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.945064Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.945142Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.945206Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.945365Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-10-31T19:26:25.945437Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.945500Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.945952Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946024Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-10-31T19:26:25.946089Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946173Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946238Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946302Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946367Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946469Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946825Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946912Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.946993Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-10-31T19:26:25.947016Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca/",
+      "publishedAt": "2026-10-31T16:05:00Z",
+      "excerpt": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+      "author": "Richard MacManus",
+      "extra": {},
+      "id": "18eadc7cf156685b",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Retrieval-Augmented Generation (RAG) Explained: From Zero to Building Your First Python RAG…",
+      "url": "https://medium.com/@raghavaredrothu/retrieval-augmented-generation-rag-explained-from-zero-to-building-your-first-python-rag-551e82f6d0ef?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T19:16:05Z",
+      "excerpt": "Understand how LLMs, embeddings, chunking, vector databases, semantic search and reranking work together to build AI applications using… Continue reading on Medium »",
+      "author": "Raghavendra Redrothu",
+      "extra": {},
+      "id": "30fe31180d1f5ea7",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Getting Things Done Is Not the Same as Creating Value",
+      "url": "https://medium.com/@alsadiqashraf/getting-things-done-is-not-the-same-as-creating-value-142d59a51c22?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T18:20:10Z",
+      "excerpt": "How GenAI can turn task completion into synthetic accomplishment and why enterprise value requires more than producing outputs. Continue reading on Medium »",
+      "author": "Ashraf Alsadiq",
+      "extra": {},
+      "id": "29da46aca0fa64c0",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Building an AI Text Summarizer Using Hugging Face FLAN-T5, Docker and Kubernetes",
+      "url": "https://medium.com/@premkachare0219/building-an-ai-text-summarizer-using-hugging-face-flan-t5-docker-and-kubernetes-c83d27d1dfc1?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T18:17:04Z",
+      "excerpt": "A hands-on project exploring Generative AI, Python application development, containerization, and Kubernetes. Continue reading on Medium »",
+      "author": "Prem Kachare",
+      "extra": {},
+      "id": "b4ed4af110c5189f",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Last Frame Problem: Why AI Video Can’t Hit a Target (A Roadblock to Determinism in Gen AI)",
+      "url": "https://medium.com/@prageeth.mahendra/the-last-frame-problem-why-ai-video-cant-hit-a-target-a-roadblock-to-determinism-in-gen-ai-40fb6ea64649?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T17:59:39Z",
+      "excerpt": "Solving high-dimensional boundary steerability is the unofficial Nobel Prize of computer vision — and the ultimate hurdle to… Continue reading on Medium »",
+      "author": "Prageeth Mahendra Gunathilaka",
+      "extra": {},
+      "id": "1a658b1e845c91ba",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Generative AI and NLP Services for Modern Businesses",
+      "url": "https://medium.com/@bearsdark87/generative-ai-and-nlp-services-for-modern-businesses-b410eb8f9659?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T16:57:13Z",
+      "excerpt": "Artificial Intelligence is changing how businesses communicate, manage information, and interact with customers. Among the latest… Continue reading on Medium »",
+      "author": "Dark Bears",
+      "extra": {},
+      "id": "e5abc724721436a8",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "publishedAt": "2026-10-31T18:02:29Z",
+      "excerpt": "",
+      "author": "the-mitr",
+      "extra": {
+        "points": 50,
+        "comments": 35,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50318401"
+      },
+      "id": "aa4997f9eba15998",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "publishedAt": "2026-10-31T14:29:03Z",
+      "excerpt": "",
+      "author": "khalidkhair",
+      "extra": {
+        "points": 193,
+        "comments": 102,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50316531"
+      },
+      "id": "5b0ac3b976a1c0a5",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "publishedAt": "2026-10-31T13:25:10Z",
+      "excerpt": "",
+      "author": "healsdata",
+      "extra": {
+        "points": 74,
+        "comments": 18,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50315990"
+      },
+      "id": "77e4ed1a15be9fc2",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "microsoft/Mage-VL-Cowork · Hugging Face",
+      "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+      "publishedAt": "2026-10-31T10:02:47Z",
+      "excerpt": "Mage-VL-Cowork demonstrates that an efficient 4B small vision-language model can master hybrid computer use when paired with upstream teacher-harness evolution , workflow-first environment synthesis ( Mage-CUA-Forge ) , and a five-stage specialize-then-unify curriculum . Achieving the best performance at the 4B scale (66.0% on OSWorld-Verified) while using 13.0% fewer model calls and 25.4% fewer output tokens after online RL, Mage-VL-Cowork pushes the frontier of on-device intelligence for…",
+      "author": "/u/pmttyji",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/"
+      },
+      "id": "63a60d5375b55a30",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Koboldcpp v1.124 released",
+      "url": "https://github.com/LostRuins/koboldcpp/releases/tag/v1.124",
+      "publishedAt": "2026-10-31T05:24:06Z",
+      "excerpt": "",
+      "author": "/u/Fcking_Chuck",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xk1vyk/koboldcpp_v1124_released/"
+      },
+      "id": "a2185168eea8683b",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "OpenAI CEO Sam Altman says it's \"quite terrible\" for your PC to have RAM — Sam Altman says data centers offer better utilization",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+      "publishedAt": "2026-10-30T19:47:36Z",
+      "excerpt": ">\"From a global allocation perspective, actually, it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer and being used 5% of the time,\" Altman said. \"You want maximum utilization in the cloud if you're trying to deal with this very supply-constrained environment. And somehow many people's intuition is the opposite of that.\"",
+      "author": "/u/ControlCAD",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xjpdqk/openai_ceo_sam_altman_says_its_quite_terrible_for/"
+      },
+      "id": "4ae4c030e2ce9115",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Research — Papers, Breakthroughs & Findings | AI News Hub",
+      "url": "https://aienews.org/research.html",
+      "publishedAt": "2026-10-31T16:38:37Z",
+      "excerpt": "Frontier AI labs — OpenAI (ChatGPT, GPT-5, Sora), Anthropic (Claude), Google DeepMind (Gemini), Meta AI (Llama), xAI (Grok), Mistral AI, Cohere, Stability AI, Hugging Face and more.\n Big tech AI — Microsoft AI / Azure AI, NVIDIA, Apple Machine Learning, Amazon AWS ML, IBM Research, Salesforce AI Research.\n Academic research — arXiv (cs.AI, cs.CL, cs.LG), Stanford HAI, Berkeley BAIR, MIT CSAIL, Allen Institute for AI (AI2), Google Research, Microsoft Research. [...] OpenAI, Anthropic, Google…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.194
+      },
+      "id": "b5f75338e3b32316",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What is MCP? Model Context Protocol explained | Neighbourhood",
+      "url": "https://www.nbh.co/learn/what-is-mcp-model-context-protocol",
+      "publishedAt": "2026-10-31T00:00:00Z",
+      "excerpt": "## Frequently asked questions\n\nWhat is MCP? MCP, the Model Context Protocol, is an open-source standard that lets AI applications like Claude connect to external systems such as files, databases and business tools. Anthropic introduced it in November 2024.\n\nWhat is an MCP server? An MCP server is a program that gives an AI application access to a system’s data and actions, offered as tools, resources and prompts. It can run on your computer or remotely on a company’s platform. [...] ## What is…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.681
+      },
+      "id": "c26c6ff6922f54b5",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Ontology-Based Prompt Engineering: A Narrative Review",
+      "url": "https://thesai.org/Downloads/Volume17No10/Paper_23-Ontology_Based_Prompt_Engineering.pdf",
+      "publishedAt": "2026-10-30T19:00:00Z",
+      "excerpt": "knowledge in LLM prompts should not be equated with the execution of formal ontology reasoning. In the reviewed studies, direct empirical evidence of formal ontology-based inference remains limited, and its contribution to prompting performance requires further investigation. Collectively, these four knowledge capabilities distinguish ontologies from conventional knowledge resources by enabling explicit semantic organization, contextual understanding, and logical reasoning. Rather than merely…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.581
+      },
+      "id": "afd1c1abeaa79c6e",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Daily Papers - Hugging Face",
+      "url": "https://huggingface.co/papers?q=agent+improvement",
+      "publishedAt": "2026-10-30T10:00:00Z",
+      "excerpt": "amazonwebservices\n\n### Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion\n\nOxford\n\n### After One-Click Video: The Inflow of Service-Type Content, the Failure of the Recommendation Pool Mechanism, and the BoLe System\n\nBreadStudio\n\n### EPSBench: Benchmarking LLM Agents for Earnings Forecasting\n\nGeorgiaTech\n\n### Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models\n\njet-ai [...] IQuestLab\n\n### A Broader Look into MLLM's Retrieval…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.229
+      },
+      "id": "9cb759ce890cbe72",
+      "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    }
+  ],
+  "updatedAt": "2026-10-31T19:26:25.917660+00:00"
+}
