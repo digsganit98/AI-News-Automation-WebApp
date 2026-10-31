@@ -220,7 +220,169 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "google-cloud-launches-agent-compute-engine-and-i-728161",
+      "createdAt": "2026-10-31T06:11:47.604129+00:00",
+      "headline": "Google Cloud launches Agent Compute Engine and infrastructure updates",
+      "summary": "Google Cloud introduced Agent Compute Engine to run AI agents in isolated environments with fast startup times. The company also announced updates to its AI Hypercomputer featuring new NVIDIA-powered instances and improved storage.",
+      "whyItMatters": "Secure and fast compute environments are essential for deploying autonomous AI agents at scale.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "vllm-project-adds-ple-disk-offload-support-865833",
+      "createdAt": "2026-10-31T06:11:47.604129+00:00",
+      "headline": "vLLM project adds PLE disk offload support",
+      "summary": "The vLLM project has merged support for PLE disk offload. This addition allows the system to handle model components more efficiently in mixed-precision checkpoints.",
+      "whyItMatters": "Efficient disk offloading helps optimize memory management and performance during model serving.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://github.com/vllm-project/vllm/pull/59958"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "soft-mtp-technique-improves-multi-token-predicti-230a80",
+      "createdAt": "2026-10-31T06:11:47.604129+00:00",
+      "headline": "Soft-MTP technique improves multi-token prediction in language models",
+      "summary": "Researchers introduced Soft-MTP, a technique that removes a noisy component from the training process of multi-token prediction. This adjustment improves model accuracy and speeds up inference without adding extra parameters.",
+      "whyItMatters": "Improving multi-token prediction enhances language model efficiency and generation speed.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.38331"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.38331",
+        "code": "https://github.com/JaydenTeoh/Soft-MTP",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "investor-s-last-exam-benchmark-tests-ai-agents-o-f82238",
+      "createdAt": "2026-10-31T06:11:47.604129+00:00",
+      "headline": "Investor's Last Exam benchmark tests AI agents on equity investment decisions",
+      "summary": "A new benchmark called Investor's Last Exam evaluates how well AI agents perform end-to-end equity research using frozen financial data. Results indicate that top models still struggle with making accurate forecasts and investment judgments.",
+      "whyItMatters": "Rigorous benchmarking helps identify the current limitations of AI agents in complex financial domains.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.38342"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.38342",
+        "code": "https://github.com/Prophetlab/Investor-Last-Exam",
+        "model": null,
+        "demo": "https://prophet-lab.cn/benchmarks/investor-last-exam-v1/"
+      }
+    },
+    {
+      "id": "askstream-benchmark-evaluates-ai-ability-to-ask-7b1da8",
+      "createdAt": "2026-10-31T06:11:47.604129+00:00",
+      "headline": "AskStream benchmark evaluates AI ability to ask clarifying questions during video analysis",
+      "summary": "Researchers introduced AskStream to test whether AI models can proactively request missing information while analyzing streaming video. Current models perform poorly, often failing to decide when to ask for clarification versus when to answer directly.",
+      "whyItMatters": "Proactive questioning is a key capability for interactive and multimodal AI assistants.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.38678"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.38678",
+        "code": "https://github.com/wanglu-cs/AskStream",
+        "model": null,
+        "demo": "https://askstream.top/"
+      }
+    },
+    {
+      "id": "salesforce-to-acquire-defense-tech-firm-rune-tec-4f4f8f",
+      "createdAt": "2026-10-31T06:11:47.604129+00:00",
+      "headline": "Salesforce to acquire defense tech firm Rune Technologies",
+      "summary": "Salesforce has agreed to acquire Rune Technologies, a developer of software for military logistics, to expand its national security business. The company plans to integrate Rune's tools into its Missionforce agentic AI offering.",
+      "whyItMatters": "This acquisition expands the reach of agentic AI systems into specialized operational environments.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.washingtontechnology.com/companies/2026/10/salesforce-pushes-further-defense-tech-rune-acquisition/416943/?oref=wt-homepage-river"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-10-30T22:42:56.555116+00:00"
+  "updatedAt": "2026-10-31T06:11:51.406822+00:00"
 }
