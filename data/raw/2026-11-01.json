@@ -556,6 +556,284 @@
           "checkedAt": "2026-11-01T00:15:41.924280Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-01T06:34:59.672688+00:00",
+      "newItems": 10,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1341,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.677990Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.716922Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 894,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.717306Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.717636Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.717867Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718041Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718196Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718342Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718485Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718626Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718801Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718871Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.718915Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.719149Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.719197Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.719342Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.719487Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.719628Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.719791Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.720068Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-01T06:34:59.720221Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.720365Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.721317Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.721466Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-01T06:34:59.721606Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.721749Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.721964Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.722114Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.722262Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.722473Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.723110Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.723286Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.723451Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-01T06:34:59.723499Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -906,7 +1184,143 @@
       },
       "id": "0d68f039eea78607",
       "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Transformer: The Architecture That Started the AI Boom",
+      "url": "https://medium.com/@sisooriyakumar/the-transformer-the-architecture-that-started-the-ai-boom-9daa88cd6fa4?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T06:16:11Z",
+      "excerpt": "From RNNs to LLMs Continue reading on Medium »",
+      "author": "Sooriyakumar",
+      "extra": {},
+      "id": "be74a2ff9e07d18b",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do Companies Actually Use AI Agents Successfully in 2027?",
+      "url": "https://medium.com/coinmonks/how-do-companies-actually-use-ai-agents-successfully-in-2027-74f5670dc395?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T05:07:41Z",
+      "excerpt": "An AI agent development company works with technologies that help businesses move beyond basic automation and build systems that can… Continue reading on Coinmonks »",
+      "author": "Richarddev",
+      "extra": {},
+      "id": "2ba76fd0164cd7c9",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How I Made an Ancient Dragon Break Through Reality With AI",
+      "url": "https://medium.com/@ttrimm/how-i-made-an-ancient-dragon-break-through-reality-with-ai-f79357c6bb2b?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T01:19:55Z",
+      "excerpt": "An experiment in extreme 3D perspective, shattered marble, and the illusion of physical presence. Continue reading on Medium »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "923c33f36ed7f487",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why E-E-A-T Matters More Than Ever for AI Search",
+      "url": "https://fironmarketinghq.medium.com/why-e-e-a-t-matters-more-than-ever-for-ai-search-1ea10e8d76b4?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T01:12:25Z",
+      "excerpt": "Experience, expertise, authority and trust now shape which brands AI search cites. Here's what that means for your content. Continue reading on Medium »",
+      "author": "Firon Marketing",
+      "extra": {},
+      "id": "353e0bbdd0c38180",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What AI Crawlers See on Your Product Page",
+      "url": "https://fironmarketinghq.medium.com/what-ai-crawlers-see-on-your-product-page-8298402ab4da?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T00:52:39Z",
+      "excerpt": "Google renders JavaScript. Most AI crawlers don't. Here's how to check what your product page shows them. Continue reading on Medium »",
+      "author": "Firon Marketing",
+      "extra": {},
+      "id": "047dea9a4a4bdddb",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: A language model that lives in a boot sector",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "publishedAt": "2026-10-31T12:58:29Z",
+      "excerpt": "",
+      "author": "kerlenton",
+      "extra": {
+        "points": 74,
+        "comments": 3,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50315782"
+      },
+      "id": "14074b4203bb23f1",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Why Anthropic's filing crushed tech stocks",
+      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "publishedAt": "2026-10-31T12:32:10Z",
+      "excerpt": "",
+      "author": "chmaynard",
+      "extra": {
+        "points": 51,
+        "comments": 79,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50315574"
+      },
+      "id": "e2bc4a9d40fe0d16",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "DeepSeek Harness team published the underlying architecture for their Super-agent, an always-on autonomous agent, as an open-source prototype on GitHub.",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "publishedAt": "2026-10-31T23:32:03Z",
+      "excerpt": "",
+      "author": "/u/yogthos",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xkoi9g/deepseek_harness_team_published_the_underlying/"
+      },
+      "id": "76e502c4ebad39b1",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Amazon Bedrock vs Microsoft Foundry vs Google Cloud Gemini platform vs Cloudflare Workers AI vs DigitalOcean Inference vs OCI Generative AI: Generative AI platforms compared · Cloud Releases",
+      "url": "https://www.cloudreleases.io/compare/generative-ai-platforms",
+      "publishedAt": "2026-10-31T13:00:00Z",
+      "excerpt": "Amazon Bedrock now offers Canada cross-Region inference (CRIS) for Anthropic's Claude Haiku 5.5. Customers with strict data residency requirements can now keep inference processing entirely within Canada.\n\n   AWS · Amazon Bedrock•Region•\n7. \n\n   Generally Available: Cost management and tagging for Claude models in Microsoft Foundry\n\n   Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. [...] You can now use your…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.639
+      },
+      "id": "5e750211b4adf8e1",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "News and Media App Development with Flutter | Very Good Ventures",
+      "url": "https://verygood.ventures/industries/media-publishing",
+      "publishedAt": "2026-10-31T19:00:00Z",
+      "excerpt": "See it\n\nA pharmacy storefront in the demo: a search bar over the hero, a featured home monitor, and products belowPharmacy retail demoOne pharmacy catalog, recomposed live for every shopper and associate.A cruise ship at sea at dusk, its decks litCruise conceptOne cruise app, a different screen for every guest. Built to be forwarded.\n\nAI Product DevelopmentAI ProductThe next way to ship. Faster, cheaper, still VGV.Explore AI Product Development\n\nAll services\n\nDive deeper",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.229
+      },
+      "id": "b5dab38c0b71553d",
+      "collectedAt": "2026-11-01T06:34:59.672688+00:00"
     }
   ],
-  "updatedAt": "2026-11-01T00:15:41.885351+00:00"
+  "updatedAt": "2026-11-01T06:34:59.672688+00:00"
 }
