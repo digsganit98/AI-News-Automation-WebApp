@@ -278,6 +278,284 @@
           "checkedAt": "2026-10-31T19:26:25.947016Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-01T00:15:41.885351+00:00",
+      "newItems": 9,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1341,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.889922Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.919608Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 894,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.919974Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920188Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920300Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920400Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920496Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920588Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920674Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920794Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920890Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920932Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.920961Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.921114Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.921142Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.921233Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.921323Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.921413Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.921496Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.921870Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-01T00:15:41.922024Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.922704Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.922842Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.922944Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-01T00:15:41.923034Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.923120Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.923206Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.923289Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.923373Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.923512Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.924008Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.924142Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.924251Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-11-01T00:15:41.924280Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -502,7 +780,133 @@
       },
       "id": "9cb759ce890cbe72",
       "collectedAt": "2026-10-31T19:26:25.917660+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Give Your AI Agent a Face: CopilotKit, AG-UI, and Amazon Bedrock AgentCore Runtime",
+      "url": "https://medium.com/@oguzhanhiziroglu/give-your-ai-agent-a-face-copilotkit-ag-ui-and-amazon-bedrock-agentcore-runtime-5ab503421010?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T21:00:47Z",
+      "excerpt": "Hello everyone. I’m excited to share a new blog post with you. This time, we’re focusing on the least discussed aspect of an AI agent: the… Continue reading on Medium »",
+      "author": "Oğuzhan Hızıroğlu",
+      "extra": {},
+      "id": "ccaaf07e57b18812",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Complete Prep Guide for All Four Claude Certifications",
+      "url": "https://medium.com/@tselva88/the-complete-prep-guide-for-all-four-claude-certifications-dea5ef7f28fd?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T20:24:58Z",
+      "excerpt": "Where to start, how the questions work, what to study, how to practise, and how to handle exam day. Continue reading on Medium »",
+      "author": "Selvaganesan Thangavelu",
+      "extra": {},
+      "id": "b80c657d9e2dbae4",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AEO vs GEO vs SEO in plain English: a 2027 guide",
+      "url": "https://medium.com/@vickylalwaninet/aeo-vs-geo-vs-seo-in-plain-english-a-2027-guide-2e1efd3b1956?source=rss------generative_ai-5",
+      "publishedAt": "2026-10-31T19:38:13Z",
+      "excerpt": "TL;DR Continue reading on Medium »",
+      "author": "Vicky Lalwani",
+      "extra": {},
+      "id": "c8e57491bafed2b7",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "8a78d74aef0967c5",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "publishedAt": "2026-10-31T21:07:58Z",
+      "excerpt": "",
+      "author": "firesteelrain",
+      "extra": {
+        "points": 89,
+        "comments": 61,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50320255"
+      },
+      "id": "71145972f162b48a",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "publishedAt": "2026-10-31T18:50:34Z",
+      "excerpt": "",
+      "author": "ryanmadden",
+      "extra": {
+        "points": 153,
+        "comments": 168,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50318871"
+      },
+      "id": "82785ab4f152db3e",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "publishedAt": "2026-10-31T13:25:00Z",
+      "excerpt": "",
+      "author": "gloxkiqcza",
+      "extra": {
+        "points": 61,
+        "comments": 37,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50315987"
+      },
+      "id": "2b51d8c5bce73301",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Best smart AI glasses in 2026 | Meta Store (en-IS)",
+      "url": "https://www.meta.com/is/ai-glasses/learn/the-best-smart-glasses",
+      "publishedAt": "2026-10-31T00:00:00Z",
+      "excerpt": "Plus, Meta AI adds contextual awareness, adjusting results based on what you ask and where you are. Message previews, quick suggestions and navigation cues appear in a subtle layer that never crowds the view. And the stylish Meta Neural Band on your wrist lets you navigate the display with simple, intuitive gestures. This model is perfect for anyone looking for real-time travel support or AI guidance without slowing down. [...] The AI assistant defines how useful the glasses are day to day.…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.293
+      },
+      "id": "61fb185af6d1aed2",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Agentic AI: The Next Evolution of Enterprise AI",
+      "url": "https://www.techverx.com/how-agentic-ai-is-driving-the-next-evolution-of-enterprise-ai",
+      "publishedAt": "2026-10-31T21:00:00Z",
+      "excerpt": "Gartner has a name for vendors who rebrand chatbots, RPA, and assistants as agentic: agent washing. It estimates that only about 130 of the thousands of agentic AI vendors are real. Its own analyst, Anushree Verma, notes that many use cases positioned as agentic today do not require agentic AI implementations. If a rules engine or a single generative AI call does the job, use that. AI agents earn their cost on work that branches, backtracks, and touches several systems. [...] Monitoring is…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.762
+      },
+      "id": "0d68f039eea78607",
+      "collectedAt": "2026-11-01T00:15:41.885351+00:00"
     }
   ],
-  "updatedAt": "2026-10-31T19:26:25.917660+00:00"
+  "updatedAt": "2026-11-01T00:15:41.885351+00:00"
 }
