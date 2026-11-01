@@ -1,0 +1,482 @@
+{
+  "date": "2026-11-02",
+  "runs": [
+    {
+      "runAt": "2026-11-01T22:14:42.694060+00:00",
+      "newItems": 14,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1341,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.697856Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.726039Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 894,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.726332Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.726537Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.726645Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.726743Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.726837Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.726925Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727013Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727101Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727201Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727242Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727270Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727430Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727457Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727549Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727637Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727719Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727800Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.727996Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-01T22:14:42.728089Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.728198Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.728808Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.728902Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-01T22:14:42.728990Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.729074Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.729173Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.729264Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.729349Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.729484Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.729930Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.730049Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.730173Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-11-01T22:14:42.730205Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Pika-Labs/Pika-H3-Flex",
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 308,
+        "trendingScore": 302,
+        "task": "image-to-video"
+      },
+      "id": "ee64b630519ef8b5",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "ChatGPT Is Smart, But What If It Doesn’t Know Your Office’s Secret Recipe?",
+      "url": "https://medium.com/@ajoshi373/chatgpt-is-smart-but-what-if-it-doesnt-know-your-office-s-secret-recipe-1831226bdab5?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T18:09:34Z",
+      "excerpt": "Understanding RAG (Retrieval-Augmented Generation) through everyday Indian examples 🇮🇳 Continue reading on Medium »",
+      "author": "aman joshi",
+      "extra": {},
+      "id": "e5477c9bcbd5c11b",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From SaaS to GaaS: Are We Moving from Operating Applications to Directing Intelligence?",
+      "url": "https://gomathiswarik.medium.com/from-saas-to-gaas-are-we-moving-from-operating-applications-to-directing-intelligence-4e4c8954e716?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T17:40:31Z",
+      "excerpt": "How generative AI and agentic systems are changing the way we think about software, business workflows and the future of user experience… Continue reading on Medium »",
+      "author": "Gomathiswari k",
+      "extra": {},
+      "id": "366bdcd2fe2df3ed",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From API Call to LLM Application: Getting Started with LangChain",
+      "url": "https://jahnavinelavelli.medium.com/from-api-call-to-llm-application-getting-started-with-langchain-6020f39d4b1d?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T17:28:16Z",
+      "excerpt": "From a single model call to a reusable chain using prompt templates, output parsers, and LCEL Continue reading on Medium »",
+      "author": "Jahnavi",
+      "extra": {},
+      "id": "6286468284cb45fd",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Structured Outputs in OpenAI Agents SDK: Dataclasses vs Pydantic with Python",
+      "url": "https://medium.com/@sansri150796/structured-outputs-in-openai-agents-sdk-dataclasses-vs-pydantic-with-python-eda19f6e7b92?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T16:19:36Z",
+      "excerpt": "In my previous article, I demonstrated how to build a basic AI agent using Google Gemini and the OpenAI Agents SDK. Continue reading on Medium »",
+      "author": "Sansri",
+      "extra": {},
+      "id": "8a6ce1a56e39d500",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "publishedAt": "2026-11-01T18:53:55Z",
+      "excerpt": "",
+      "author": "Raed667",
+      "extra": {
+        "points": 125,
+        "comments": 77,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50328488"
+      },
+      "id": "4b795773d113de2c",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Singularity-Whitepilled Mathematician. \"I hope AI can help mathematicians break out of the straitjacket of being constrained by the first natural conjecture they cannot prove, and work on unraveling the deeper mysteries woven throughout our subject. \"",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "publishedAt": "2026-11-01T18:53:00Z",
+      "excerpt": "",
+      "author": "/u/SammaVaco",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xlb3ys/singularitywhitepilled_mathematician_i_hope_ai/"
+      },
+      "id": "280630936cfd1bf7",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "OpenAI wants to rebrand its data centers as \"AI compute campuses\" after the midterms",
+      "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+      "publishedAt": "2026-11-01T16:40:36Z",
+      "excerpt": "Does anyone think the name itself will make people more receptive? According to this Axios article, the rebrand is part of OpenAI’s post-midterm PR campaign. The idea is also to give residents more say over projects and their benefits. I’m not sure who the rename is supposed to convince. If your concerns are electricity costs, water use and what your community actually gets out of this \"project\" calling it a \"campus\" doesn’t really address any of that? I just find it hard to believe a rebrand…",
+      "author": "/u/TorturedPoet30",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xl7oy1/openai_wants_to_rebrand_its_data_centers_as_ai/"
+      },
+      "id": "5c5849f3d9c1273b",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Trump’s achilles heel is turning his own voters against him",
+      "url": "https://inews.co.uk/news/world/destroying-homes-trump-voters-turn-against-data-centres-4862641",
+      "publishedAt": "2026-11-01T14:48:18Z",
+      "excerpt": "",
+      "author": "/u/theipaper",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xl4wds/trumps_achilles_heel_is_turning_his_own_voters/"
+      },
+      "id": "dafe7dfd11205240",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "GLM-5.3-Flash on our H200s does most of my coding now while GPT-6.1 Sol orchestrates (OpenCode setup)",
+      "url": "https://aayushgarg.dev/posts/2026-11-01-gpt-local-model-opencode/",
+      "publishedAt": "2026-11-01T09:49:34Z",
+      "excerpt": "I had been trying this setup for a couple of weeks and it working better than I expected. Recently, I deployed GLM-5.3-Flash (MoE, 320B total, 18B active) on one of our local H200 servers (4 GPUs) with a 512K context window with the aim of how can I use it as my main coding workhorse and cut down my subscription and API costs 🙈. I was very quickly able to realize, I could not switch to it for everything but pairing it with GPT-6.1 Sol works really well with Sol being the the orchestrator and…",
+      "author": "/u/garg-aayush",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkz4lf/glm53flash_on_our_h200s_does_most_of_my_coding/"
+      },
+      "id": "35950e06dcf83cb4",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Self-improving AI the key step towards AGI but safety is key: Z.ai founder | South China Morning Post",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3372834/self-improving-ai-key-step-towards-agi-safety-key-zai-founder",
+      "publishedAt": "2026-11-01T12:00:19Z",
+      "excerpt": "“[Recursive self-improvement] is the main research problem for [achieving] AGI,” said Tang, who is a computer science professor at Tsinghua University and co-founder of Beijing-based artificial intelligence model company Z.ai, developer of the GLM family of models.\n\nSelect Voice\n\nSelect Speed\n\nAI-generated voice [...] Using artificial intelligence to build even smarter systems will make artificial general intelligence (AGI) more achievable, though it would need to be done safely, leading…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.475
+      },
+      "id": "e83d41c58d472636",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "ai funding round: Latest News & Videos, Photos about ai funding round | The Economic Times - Page 1",
+      "url": "https://m.economictimes.com/topic/ai-funding-round",
+      "publishedAt": "2026-10-31T19:00:00Z",
+      "excerpt": "Anjali Sardana has launched Provision Labs, an innovative startup dedicated to collecting essential data for artificial intelligence systems. With a vision to source training data from professionals across various sectors globally, Provision Labs seeks to enhance AI developers' capabilities in effectively implementing their models. This venture emerges shortly after the introduction of Pronto's Verified service, which documents household tasks for AI training, addressing the surging need for…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.266
+      },
+      "id": "f3535bb4b53b442f",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "human experience in ai: Latest News & Videos, Photos about human experience in ai | The Economic Times - Page 1",
+      "url": "https://economictimes.indiatimes.com/topic/human-experience-in-ai",
+      "publishedAt": "2026-10-31T22:00:00Z",
+      "excerpt": "A California startup has used artificial intelligence to design a virus that was administered to a human patient for the first time. The experimental treatment uses bacteriophages to target antibiotic-resistant bacteria, potentially opening a new way to fight infections that conventional medicines cannot control. However, the patient's recovery has not been disclosed.\n\n  ET AI Business Transformation Masterclass & Awards: Inside the future of agentic payments [...] ## Before Perplexity,…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.165
+      },
+      "id": "e8cff188a0b7f059",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "In San Francisco’s AI boom, a first date has become an interview | Technology News - The Indian Express",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/in-san-franciscos-ai-boom-a-first-date-has-become-an-interview-10945555/lite",
+      "publishedAt": "2026-11-01T03:54:43Z",
+      "excerpt": "Mehul Agarwal, an artificial intelligence start-up co-founder, showing his Hinge profile in his home in San Francisco, Sept. 25, 2026. (Kelsey McClellan/The New York Times) \n\nMake us preferred source on Google\n\nAI Narration \n\nAI Narration\n\n This audio is AI generated.\n\nThank you for your feedback.\n\nYour feedback has been reported succesfully.\n\nMehul Agarwal, a co-founder of the artificial intelligence startup Koyal, has a goal. He wants to find a wife before he gets rich. [...] Founders “don’t…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.157
+      },
+      "id": "99a882eb04be7f44",
+      "collectedAt": "2026-11-01T22:14:42.694060+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-01T22:14:42.694060+00:00"
+}
