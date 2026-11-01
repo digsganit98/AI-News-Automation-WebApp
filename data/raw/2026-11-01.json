@@ -834,6 +834,284 @@
           "checkedAt": "2026-11-01T06:34:59.723499Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-01T16:12:57.504017+00:00",
+      "newItems": 9,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1341,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.509169Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.546122Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 894,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.546509Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.546810Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.546974Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.547129Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.547277Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.547425Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.547635Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.547793Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.547938Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.547996Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.548040Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.548259Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.548304Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.548446Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.548650Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.548796Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.548935Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.549202Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-01T16:12:57.549350Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.549517Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.550358Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.550529Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-01T16:12:57.550676Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.550820Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.550962Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.551112Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.551256Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.551461Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.552110Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.552290Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.552462Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-11-01T16:12:57.552559Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1320,7 +1598,131 @@
       },
       "id": "b5dab38c0b71553d",
       "collectedAt": "2026-11-01T06:34:59.672688+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "To make AI video look real, make it worse",
+      "url": "https://medium.com/@tejas-sharma/to-make-ai-video-look-real-make-it-worse-b32030e3acdb?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T14:01:04Z",
+      "excerpt": "The most realistic night shot we ever made was rejected in one line. The note said it was “still super AI, too high quality, face not… Continue reading on Medium »",
+      "author": "Tejas Sharma",
+      "extra": {},
+      "id": "bb3bace7ddcc30fb",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Guild of Authors Want to Banish my Book",
+      "url": "https://medium.com/@dondennis_59060/the-guild-of-authors-want-to-banish-my-book-bea2198b84c2?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T13:59:09Z",
+      "excerpt": "Imagine an 18th century town, with a Guild of Artists and a well attended church. Continue reading on Medium »",
+      "author": "Don Dennis",
+      "extra": {},
+      "id": "e7f57c023ed18705",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Is AI-Generated Content Good for SEO? What Businesses Need to Know in 2026",
+      "url": "https://medium.com/@content24/is-ai-generated-content-good-for-seo-what-businesses-need-to-know-in-2026-26a686b0b174?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T12:03:27Z",
+      "excerpt": "Can AI-written content rank on Google? Here’s what businesses need to understand about Google’s guidelines, content quality, and building… Continue reading on Medium »",
+      "author": "Content24",
+      "extra": {},
+      "id": "ef2a8b2394079b5d",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Automation Businesses I Would Build to Generate Income in 2027",
+      "url": "https://python.plainenglish.io/ai-automation-businesses-i-would-build-to-generate-income-in-2027-23f8aff2cdb2?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-01T10:30:56Z",
+      "excerpt": "How I use Python, large language models, APIs, and intelligent workflows to turn everyday business problems into practical AI-powered… Continue reading on Python in Plain English »",
+      "author": "Mohsin Abro",
+      "extra": {},
+      "id": "6b2a11babe18e8b9",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "publishedAt": "2026-11-01T13:47:24Z",
+      "excerpt": "",
+      "author": "entryleveljobsc",
+      "extra": {
+        "points": 55,
+        "comments": 18,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50325662"
+      },
+      "id": "e17eb6c5fcac9849",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "publishedAt": "2026-11-01T06:06:19Z",
+      "excerpt": "",
+      "author": "luu",
+      "extra": {
+        "points": 184,
+        "comments": 126,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50323088"
+      },
+      "id": "761e5e0baaa44518",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI text watermarking and quality loss",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "publishedAt": "2026-10-31T21:50:13Z",
+      "excerpt": "",
+      "author": "danielfoster",
+      "extra": {
+        "points": 61,
+        "comments": 12,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50320599"
+      },
+      "id": "567c750dad4150c2",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Richard Dawkins: ‘I thought AI wouldn’t come in my lifetime but it has – with a vengeance’",
+      "url": "https://observer.co.uk/news/observer-walk/article/richard-dawkins-i-thought-ai-wouldnt-come-in-my-lifetime-but-it-has-with-a-vengeance",
+      "publishedAt": "2026-11-01T10:44:06Z",
+      "excerpt": "On a walk around Chipping Norton, the eminent biologist and atheist reflects on artificial intelligence, religion and writing his first novel in his eighties",
+      "author": "/u/TheObserverUK",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xl006d/richard_dawkins_i_thought_ai_wouldnt_come_in_my/"
+      },
+      "id": "86dbe8eb5326c86f",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "publishedAt": "2026-11-01T08:24:18Z",
+      "excerpt": "",
+      "author": "/u/PferdOne",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
+      },
+      "id": "f9b8a9efbf26f92e",
+      "collectedAt": "2026-11-01T16:12:57.504017+00:00"
     }
   ],
-  "updatedAt": "2026-11-01T06:34:59.672688+00:00"
+  "updatedAt": "2026-11-01T16:12:57.504017+00:00"
 }
