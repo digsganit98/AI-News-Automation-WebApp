@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-02",
+  "stories": [
+    {
+      "id": "servicenow-releases-apriel-voice-27b-preview-ope-eb4448",
+      "createdAt": "2026-11-02T06:40:30.875558+00:00",
+      "headline": "ServiceNow Releases Apriel Voice 27B Preview Open Speech-Language Model",
+      "summary": "ServiceNow has released Apriel Voice 27B Preview, an open-source model that handles speech understanding, reasoning, and tool use natively. The system is built to process voice interactions and execute tasks directly without requiring a separate dialogue management component.",
+      "whyItMatters": "Integrating native reasoning and tool use into open speech models lowers the barrier for developers building advanced voice applications.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.40738"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.40738",
+        "code": null,
+        "model": null,
+        "demo": "https://servicenow-ai-apriel.hf.space/home"
+      }
+    },
+    {
+      "id": "research-proposes-pairing-heavy-reasoning-models-60aa24",
+      "createdAt": "2026-11-02T06:40:30.875558+00:00",
+      "headline": "Research Proposes Pairing Heavy Reasoning Models with Lightweight Evaluators to Improve Efficiency",
+      "summary": "A new research paper suggests that combining resource-intensive reasoning systems with lightweight evaluators can improve AI efficiency. The approach filters out unnecessary interactions before they are fully processed, reducing overall computational costs.",
+      "whyItMatters": "This methodology helps address the high computational demands of advanced reasoning models by optimizing processing pipelines.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.39497"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.39497",
+        "code": null,
+        "model": null,
+        "demo": "https://cheemswang.github.io/blogs/sys1-sys2-codesign.html"
+      }
+    },
+    {
+      "id": "r2orch-framework-uses-self-play-to-improve-ai-ag-ef9ae1",
+      "createdAt": "2026-11-02T06:40:30.875558+00:00",
+      "headline": "R2Orch Framework Uses Self-Play to Improve AI Agent Coordination",
+      "summary": "Researchers have introduced R2Orch, a framework designed to improve how multiple AI agents coordinate to solve complex tasks. The method uses a self-play loop to help agents internalize skills and address unreliable evaluation signals.",
+      "whyItMatters": "Better agent orchestration and reliable evaluation signals are critical for scaling collaborative multi-agent systems.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.22740"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.22740",
+        "code": "https://github.com/beita6969/R2Orch",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-launches-100-million-program-to-train-9f2dde",
+      "createdAt": "2026-11-02T06:40:30.875558+00:00",
+      "headline": "Anthropic Launches $100 Million Program to Train Enterprise AI Engineers",
+      "summary": "Anthropic has established the Claude Frontier Academy, committing $100 million to train 10,000 enterprise engineers in AI deployment by the end of 2027. The initiative is designed to mitigate the industry shortage of professionals qualified to integrate AI tools into real-world business environments.",
+      "whyItMatters": "Targeted enterprise training programs help bridge the skills gap required for successful business adoption of advanced AI.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/claude-frontier-academy"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-02T06:40:33.990955+00:00"
+}
