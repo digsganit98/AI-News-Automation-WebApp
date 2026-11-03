@@ -1,0 +1,465 @@
+{
+  "date": "2026-11-04",
+  "stories": [
+    {
+      "id": "snowflake-launches-cortex-training-for-serverles-5b8752",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Snowflake launches Cortex Training for serverless LLM fine-tuning",
+      "summary": "Snowflake has introduced Cortex Training, a new feature in public preview that lets users customize open-weight large language models using supervised fine-tuning and reinforcement learning on serverless GPUs. The tool aims to simplify the model customization process directly within cloud data environments.",
+      "whyItMatters": "Serverless fine-tuning makes it easier for organizations to adapt open-weight models using their own proprietary data without managing complex infrastructure.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Snowflake",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-training-fine-tune-open-weight-llms"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-bedrock-adds-india-based-inference-suppor-8de195",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Amazon Bedrock adds India-based inference support for Kimi K3",
+      "summary": "Amazon Bedrock now supports in-country inference for the Kimi K3 model in India, keeping data processing within the Mumbai and Hyderabad regions. The update includes example code to help developers handle Indic-language documents locally.",
+      "whyItMatters": "Local inference options help organizations comply with regional data residency requirements while building applications with modern language models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-releases-physical-engineering-s-last-exam-cc6398",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Google releases Physical-Engineering's Last Exam benchmark for AI agents",
+      "summary": "Google and Mercor have launched Physical-Engineering's Last Exam, a new benchmark and open competition designed to test AI agents on mechanical, electrical, civil, and structural engineering tasks. The initiative includes 29 public tasks, grading tools, and a leaderboard.",
+      "whyItMatters": "Standardized benchmarks for physical engineering help researchers evaluate how effectively AI agents handle complex real-world technical problems.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-s-1-filing-reveals-high-personnel-and-89bcf5",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Anthropic S-1 filing reveals high personnel and stock-based compensation costs",
+      "summary": "Anthropic's amended S-1 filing shows the company spent over $1.7 billion on personnel expenses between July and September, averaging about $107,000 per employee per month. Most of these costs came from stock-based compensation, with overall personnel expenses making up roughly 15% of company revenue.",
+      "whyItMatters": "Detailed financial disclosures offer rare insight into the substantial operational and talent acquisition costs required to run a frontier AI lab.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "anthropic-reports-q3-financial-details-in-update-d822a9",
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-introduces-statebench-to-evaluate-l-a55665",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Hugging Face introduces StateBench to evaluate long-document state tracking",
+      "summary": "Hugging Face has released StateBench, a new benchmark designed to evaluate how well language models can track changes in state across long documents. The tool tests the ability of models to maintain accurate context over extended textual inputs.",
+      "whyItMatters": "Better evaluation benchmarks for long-context windows help identify limitations in how models process detailed narratives and continuous data streams.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/allenai/statebench"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-adds-cheminformatics-skills-to-g-7b04a5",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Google DeepMind adds cheminformatics skills to Google Antigravity for drug discovery",
+      "summary": "Google DeepMind has released new cheminformatics skills for its Google Antigravity platform to help scientists automate drug discovery tasks. The updated system can search thousands of compounds and propose new molecular structures in about an hour.",
+      "whyItMatters": "Automating routine cheminformatics and molecular search tasks can significantly accelerate early-stage drug discovery timelines.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-shares-palette-project-for-automate-bc4177",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Hugging Face shares Palette project for automated presentation design",
+      "summary": "Hugging Face has highlighted Palette, a project that trains a small model to create presentation decks using a specific target design language. The approach demonstrates how specialized models can be adapted for focused visual formatting tasks.",
+      "whyItMatters": "Fine-tuning smaller models for specific output formats provides a lightweight alternative to general-purpose generators for repetitive design work.",
+      "category": "Methodology",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-details-use-cases-for-chatgpt-and-codex-i-26c603",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "OpenAI details use cases for ChatGPT and Codex in physical engineering",
+      "summary": "OpenAI has published an overview highlighting how engineers use ChatGPT and Codex to accelerate workflows in computer-aided design, circuit board layouts, and technical simulations. The documentation outlines practical integration strategies for industrial design tasks.",
+      "whyItMatters": "Real-world documentation helps technical teams understand how to integrate general-purpose code and chat assistants into specialized engineering pipelines.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-releases-version-2-of-cwe-bench-for-20954e",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Hugging Face releases version 2 of CWE-bench for code security evaluation",
+      "summary": "Hugging Face has launched CWE-bench v2, an update aimed at improving the coverage, quality, and transparency of vulnerability detection benchmarks. The release provides refined evaluation data for testing code security capabilities in language models.",
+      "whyItMatters": "Improved benchmarks for software vulnerabilities help developers more accurately measure and improve the security posture of AI-generated code.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/cwe-bench"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ideataste-benchmark-evaluates-how-llm-problem-se-590000",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "IdeaTaste benchmark evaluates how LLM problem selection aligns with human researchers",
+      "summary": "Researchers have introduced IdeaTaste, a benchmark that measures how closely large language models match human research preferences when choosing problems and methods. The study investigates the high-level judgment skills of AI models beyond simple task execution.",
+      "whyItMatters": "Assessing the research taste of models provides deeper insight into their potential to act as autonomous scientific collaborators.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.03424"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.03424",
+        "code": "https://github.com/cxcscmu/IdeaTaste",
+        "model": null,
+        "demo": "https://cxcscmu.github.io/IdeaTaste/"
+      }
+    },
+    {
+      "id": "order-only-on-policy-distillation-proposes-separ-1a5655",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Order-Only On-Policy Distillation proposes separating token preferences from confidence",
+      "summary": "A new paper introduces Order-Only On-Policy Distillation, a method designed to improve how student models learn from teacher models. The approach separates the teacher model's token preferences from its confidence levels to deliver cleaner training signals.",
+      "whyItMatters": "Refining distillation techniques helps train smaller, more efficient student models that better retain the capabilities of larger teacher models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.02112"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.02112",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "swe-trail-uses-history-guided-trajectories-to-im-a9e93a",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "SWE-Trail uses history-guided trajectories to improve coding agent training",
+      "summary": "Researchers have developed SWE-Trail, a method for collecting training data for coding agents by utilizing past performance to guide future data collection without exposing history directly to the agent. This technique reduces training redundancy and improves data quality.",
+      "whyItMatters": "Optimized trajectory collection methods can improve the data efficiency and performance of autonomous software engineering agents.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.02074"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.02074",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "researchers-propose-unified-taxonomy-for-agentic-2d52e9",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "Researchers propose unified taxonomy for agentic computer graphics",
+      "summary": "A new report introduces a unified taxonomy to organize the rapidly growing field of computer graphics driven by large language model agents. The authors also developed a system to help researchers analyze existing and new papers in this area at scale.",
+      "whyItMatters": "It establishes a structured foundation for organizing and analyzing the rapidly growing intersection of large language models and computer graphics.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.01860"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.01860",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-evaluation-framework-measures-physical-surpr-ed0db3",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "New evaluation framework measures physical surprise in video world models",
+      "summary": "Researchers have presented an evaluation framework that distinguishes true physical surprises from other types of prediction errors in video world models. The work aims to clarify what frozen representations contain and how they organize appearance and physics.",
+      "whyItMatters": "This framework provides a rigorous way to test and improve how video world models understand physical reality.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.01815"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.01815",
+        "code": "https://github.com/3-ml/jepa-surprise",
+        "model": null,
+        "demo": "https://3-ml.github.io/jepa-surprise/"
+      }
+    },
+    {
+      "id": "flamia-optimizes-attention-mechanisms-for-transf-771b01",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "FLAMIA optimizes attention mechanisms for transformer training on NVIDIA Blackwell GPUs",
+      "summary": "A new method called FLAMIA improves the efficiency of attention mechanisms in Transformer training on NVIDIA Blackwell hardware. It addresses challenges such as quantization overhead and causal information leakage to enable faster, low-precision training.",
+      "whyItMatters": "It accelerates large-scale transformer training on next-generation hardware by optimizing low-precision attention operations.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.03344"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.03344",
+        "code": "https://github.com/yandex-research/flamia-blackwell-attention",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-metric-measures-collaborative-intelligence-o-8a8c6b",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "New metric measures collaborative intelligence of AI agents in teams",
+      "summary": "Researchers have introduced a framework to measure the collaborative intelligence of AI agents working in teams with humans and other agents. This approach shifts the focus from individual model performance to the ability to collaborate effectively in complex tasks.",
+      "whyItMatters": "Evaluating collaborative capability is essential as AI systems move from isolated assistants to integrated team members.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.02633"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.02633",
+        "code": "https://github.com/zou-group/collaborative-intelligence",
+        "model": null,
+        "demo": "https://zou-group.github.io/collaborative-intelligence/"
+      }
+    },
+    {
+      "id": "decisionrank-transfers-ranking-knowledge-to-deci-00e992",
+      "createdAt": "2026-11-03T19:50:03.752795+00:00",
+      "headline": "DecisionRank transfers ranking knowledge to decision models via on-policy distillation",
+      "summary": "A new technique called DecisionRank uses on-policy distillation to transfer ranking knowledge from generative large language models to decision models. This method helps decision models predict choices or scores more effectively without the latency of autoregressive decoding.",
+      "whyItMatters": "It improves the inference speed and accuracy of decision models by distilling knowledge from slower generative models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.42128"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.42128",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-03T19:50:13.255205+00:00"
+}
