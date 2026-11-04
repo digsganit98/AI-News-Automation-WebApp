@@ -1,0 +1,780 @@
+{
+  "date": "2026-11-05",
+  "runs": [
+    {
+      "runAt": "2026-11-04T19:57:03.298548+00:00",
+      "newItems": 36,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1356,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.301419Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.325527Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 897,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.325837Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326013Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326104Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326184Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326258Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326328Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326394Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326477Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 22,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326543Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326578Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326601Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326718Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326739Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326811Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326880Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.326944Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.327006Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.327177Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-04T19:57:03.327246Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.327315Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.327883Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.327954Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-04T19:57:03.328020Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.328086Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.328150Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.328216Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.328299Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.328443Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.328834Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.328923Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.329003Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-04T19:57:03.329026Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "publishedAt": "2026-11-04T14:30:00Z",
+      "excerpt": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "author": null,
+      "extra": {},
+      "id": "3a06f84c0f51a102",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "publishedAt": "2026-11-04T07:00:00Z",
+      "excerpt": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "author": null,
+      "extra": {},
+      "id": "75679f5aa60bfcf8",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "publishedAt": "2026-11-04T17:50:10Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "5afc49da7bd40515",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/",
+      "publishedAt": "2026-11-04T17:00:00Z",
+      "excerpt": "A Siemens report estimates that unplanned downtime costs an average large plant in the surveyed sectors $253 million per year. Whether investigating a failed...",
+      "author": "Samuel Ochoa",
+      "extra": {},
+      "id": "e2bf3d72acd93610",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+      "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
+      "publishedAt": "2026-11-04T16:00:00Z",
+      "excerpt": "Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills, and harness code. When you...",
+      "author": "Patrick Moorhead",
+      "extra": {},
+      "id": "5093b88f534dd6f4",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "url": "https://huggingface.co/papers/2611.04814",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "excerpt": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We propose LoCo, a local preference learning method for reasoning compression.…",
+      "author": "Muyao Yuan, Liyan Xu, Weizhan Zhang, Muyan Jiao, Jiangnan Li, Jinchao Zhang, Jie Zhou",
+      "extra": {
+        "upvotes": 64,
+        "githubRepo": "https://github.com/MuyaoYuan/LoCo",
+        "projectPage": "https://huggingface.co/MuyaoYuan/LoCo-7B",
+        "arxivUrl": "https://arxiv.org/abs/2611.04814"
+      },
+      "id": "c183e075f0bc71b6",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+      "url": "https://huggingface.co/papers/2610.40747",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "excerpt": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces per-task agent construction with reusable, skill-conditioned generation workflows and application-specific…",
+      "author": "Xiaoyi Zhang, Haoqing Wang, Xinjie Zhang, Xiang Ming, Xing Wang, Senqiao Yang, Kaichen Zhang, Zhaoyang Jia, Andong Tan, Xinjiang Wang, Jinghao Guo, Yifei Shen, Xiao Li, Peng Zhang, Xun Guo, Jiahao Li, Shicheng Zheng, Jinglu Wang, Zongyu Guo, Wenxuan Xie, Bin Li, Yan Lu",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://microsoft.github.io/Mage/cowork/",
+        "arxivUrl": "https://arxiv.org/abs/2610.40747"
+      },
+      "id": "041f8a0c39a50a9b",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Recursa: Toward Recursively Self-Improving Foundation Model Systems",
+      "url": "https://huggingface.co/papers/2611.04035",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "excerpt": "Foundation models in changing environments can encounter unfamiliar domain knowledge that their original training did not cover. However, new domains rarely provide large amounts of expert-created training data or reliable supervisory signals for further training. We introduce Recursa, a foundation model system that adapts to new domains by learning from its own experience without human experts or a stronger teacher model. Recursa uses a knowledge repository to store what it learns:…",
+      "author": "Erkang Zhu, Yin Lin, Xiaorong Shi, Xuanrui Lin, Jingren Zhou",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.04035"
+      },
+      "id": "819b27561520df63",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: moonshotai/Kimi-K3.1-Pro",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 385,
+        "trendingScore": 381,
+        "task": "image-text-to-text"
+      },
+      "id": "7838c87736f9082f",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Use decision models with Amazon Bedrock AgentCore Evaluations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/",
+      "publishedAt": "2026-11-04T18:46:36Z",
+      "excerpt": "Some agent-evaluation questions are narrow and repeatable, and decision models answer exactly that kind of question. This post shows how to connect two decision models, Jev and Strands Decider, to Amazon Bedrock AgentCore Evaluations through code-based evaluators, and how to validate a decision-model check before you gate a release on it.",
+      "author": "Sungyeon Kim",
+      "extra": {},
+      "id": "1840d116fbddf6e3",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters",
+      "url": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters/",
+      "publishedAt": "2026-11-04T16:33:03Z",
+      "excerpt": "Smart Approvals in Amazon Quick reviews eligible agent actions within your existing controls, reducing unnecessary approval prompts while keeping consequential decisions with a person. See how policy sets the boundary, how a classifier reviews actions, and how AWS CloudTrail and Amazon CloudWatch Logs support audit.",
+      "author": "Steve Vinsik",
+      "extra": {},
+      "id": "5dcd8c391f4dae8c",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/",
+      "publishedAt": "2026-11-04T16:30:40Z",
+      "excerpt": "In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source multi-agent data analysis solution on the Strands Agents SDK and Amazon Bedrock AgentCore.",
+      "author": "Yoonseo Kim",
+      "extra": {},
+      "id": "2240c970935398d5",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Indegene is modernizing and scaling enterprise data quality in life sciences",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences/",
+      "publishedAt": "2026-11-04T16:25:57Z",
+      "excerpt": "This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-to-run SQL and Python under human-in-the-loop governance, helping life sciences organizations scale enterprise data quality.",
+      "author": "Bhagyashree Chandak",
+      "extra": {},
+      "id": "b860dcb6054f0104",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-11-04T16:23:33Z",
+      "excerpt": "U Mobile, Malaysia's newest 5G network provider, built AiDaH, an agentic AI operations platform on Amazon Bedrock AgentCore that moves beyond AI assistance to autonomous action across telco operations. Nine months after production launch, AiDaH handles over 150 operational scenarios across six divisions, cutting trouble tickets by up to 84.5%.",
+      "author": "Jin Tiong Lim",
+      "extra": {},
+      "id": "c5387dca01dcfd3e",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+      "publishedAt": "2026-11-04T19:17:30Z",
+      "excerpt": "November 3, 2026 — A quiet day lets us share some behind the senes.",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "e9efb1446d7a006a",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "interconnects",
+      "sourceName": "Interconnects",
+      "title": "How big is the open model economy today?",
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "publishedAt": "2026-11-04T16:35:44Z",
+      "excerpt": "Our first open model economy research note for paid subscribers.",
+      "author": "Nathan Lambert",
+      "extra": {},
+      "id": "93ee83f44d2970b9",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Your AI Worked Yesterday. How Do You Know It Still Works Today?",
+      "url": "https://medium.com/@sahildharmadhikari/your-ai-worked-yesterday-how-do-you-know-it-still-works-today-28fd1acb2f44?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T17:43:44Z",
+      "excerpt": "A practical look at AI response quality, regression testing and why evaluating AI shouldn’t be an afterthought. Continue reading on Medium »",
+      "author": "Sahil Dharmadhikari",
+      "extra": {},
+      "id": "969b10777c50c451",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Credits Ran Out. The Vision Didn’t.",
+      "url": "https://medium.com/@ebonyekeji/credits-ran-out-the-vision-didnt-41ba79030f32?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T16:54:26Z",
+      "excerpt": "Learning AI, dreaming big, and building with what I have. Continue reading on Medium »",
+      "author": "Ebony QuShae' Ekeji",
+      "extra": {},
+      "id": "8e1798b7fc0c86b6",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Simplifying Oracle EDM with Generative AI: Conversational Renaming and Smart Search",
+      "url": "https://medium.com/@jammuclassical/simplifying-oracle-edm-with-generative-ai-conversational-renaming-and-smart-search-46b46597ea1e?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T16:34:06Z",
+      "excerpt": "Oracle Enterprise Data Management (EDM) continues to enhance its Change Management Assistant capabilities, making change management… Continue reading on Medium »",
+      "author": "Jamuna Kannan",
+      "extra": {},
+      "id": "48d1d6d5d7b62f61",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Data Governance Is Becoming Critical for Enterprise AI",
+      "url": "https://medium.com/@ambli_ai/why-data-governance-is-becoming-critical-for-enterprise-ai-e32a2cdb0b85?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T16:01:04Z",
+      "excerpt": "Businesses are spending time and money bringing AI into their operations. They’re connecting tools, testing AI assistants, and looking for… Continue reading on Medium »",
+      "author": "Ambli AI",
+      "extra": {},
+      "id": "c70a9fdad8d0d663",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why AI Can Sound Certain and Still Be Wrong",
+      "url": "https://medium.com/@bryan.pesquera/why-ai-can-sound-certain-and-still-be-wrong-84c4debba7af?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T15:11:01Z",
+      "excerpt": "Ask a modern AI system a technical question, and it may respond with a detailed explanation, precise terminology, and a seemingly logical… Continue reading on Medium »",
+      "author": "Bryan Pesquera",
+      "extra": {},
+      "id": "342cd3378c6836c4",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "publishedAt": "2026-11-04T11:52:17Z",
+      "excerpt": "",
+      "author": "pseudolus",
+      "extra": {
+        "points": 853,
+        "comments": 506,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50364336"
+      },
+      "id": "68c44263a0af5594",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "publishedAt": "2026-11-04T10:23:34Z",
+      "excerpt": "",
+      "author": "alkyon",
+      "extra": {
+        "points": 283,
+        "comments": 279,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50363554"
+      },
+      "id": "dc34df3985a13339",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI stocks slide as Texas governor result raises data center risks",
+      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "publishedAt": "2026-11-04T07:00:20Z",
+      "excerpt": "",
+      "author": "1659447091",
+      "extra": {
+        "points": 52,
+        "comments": 72,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50362274"
+      },
+      "id": "0cc5c3278fa800d2",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Axion1-0/Axion-1.0-35B · Hugging Face",
+      "url": "https://huggingface.co/Axion1-0/Axion-1.0-35B",
+      "publishedAt": "2026-11-04T09:02:58Z",
+      "excerpt": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we…",
+      "author": "/u/pmttyji",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/"
+      },
+      "id": "1039d0b025e862a7",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "ChatGPT's search volume is now roughly 20% of Google's. Wow, people were really sick of Google, huh?",
+      "url": "https://tech.yahoo.com/ai/chatgpt/articles/chatgpts-search-volume-now-roughly-204510905.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cucmVkZGl0LmNvbS8&guce_referrer_sig=AQAAANy0RModkKsLyARqY6lqMPmtivd1CCMgna0IdrKqIsarmAbO19gMY1fHjZfcXchRmKZfCO8LJw5jmpZ6jA48LS83X0itLoUODWr8OAXnugut3tMTcCeuQuyu-PqSTui9NQz4WsR_ZQEf1yfCQiA-goPObb6Nid3HP_a72DiuIXf3",
+      "publishedAt": "2026-11-04T05:38:58Z",
+      "excerpt": "",
+      "author": "/u/IndependentCoast3974",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xng7ur/chatgpts_search_volume_is_now_roughly_20_of/"
+      },
+      "id": "89303d0694a66cc0",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "B70 Price Increase Incoming --> Intel Might Discontinue the Arc B580 to Prioritize Higher-Margin Arc Pro Cards",
+      "url": "https://www.techpowerup.com/354440/intel-might-discontinue-the-arc-b580-to-prioritize-higher-margin-arc-pro-cards",
+      "publishedAt": "2026-11-04T05:25:56Z",
+      "excerpt": "",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnfzky/b70_price_increase_incoming_intel_might/"
+      },
+      "id": "5129244efef29a26",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Natural tooth protein could pave way for regenerative dental treatments",
+      "url": "https://www.news-medical.net/news/20261102/Natural-tooth-protein-could-pave-way-for-regenerative-dental-treatments.aspx",
+      "publishedAt": "2026-11-04T02:14:56Z",
+      "excerpt": "",
+      "author": "/u/SnoozeDoggyDog",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xnc9ql/natural_tooth_protein_could_pave_way_for/"
+      },
+      "id": "fe02deb2bbed9e71",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Tokens/s? \"World's biggest PCIe graphics card\" discovered, prototype AMD Radeon RX 470 board with four GPUs has been pictured",
+      "url": "https://videocardz.com/newz/worlds-biggest-pcie-graphics-card-discovered-prototype-amd-radeon-rx-470-board-with-four-gpus-has-been-pictured",
+      "publishedAt": "2026-11-03T20:21:51Z",
+      "excerpt": "",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn40w7/tokenss_worlds_biggest_pcie_graphics_card/"
+      },
+      "id": "7f99e67f9f887686",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "It is time for a New Deal for mathematics",
+      "url": "https://arxiv.org/html/2611.04213v1",
+      "publishedAt": "2026-11-04T05:00:00Z",
+      "excerpt": "Much is at stake. The vision of the big AI labs could close off mathematical and scientific inquiry to all but a small number of well-connected individuals. The big AI labs release results produced by their internal models, which only their employees have full access, without any transparency with regards to methodology or data – if a big lab announces it “solved 10 big problems”, but never tell us this was after failing to solve another 10,000, did we learn anything?77\n7 [...] 11\n and in…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.309
+      },
+      "id": "bbcfa1adc79c3e31",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "DeepSeek",
+      "url": "https://tavily.com/knowledge/company/Wx7nH1Ciri18",
+      "publishedAt": null,
+      "excerpt": "# DeepSeek\nID: Wx7nH1Ciri18\nWebsite: www.deepseek.com\nLegal name: Markets Able\nHeadquarters: New York, New York, United States\nLinkedIn: www.linkedin.com/company/deep-seek-ai-model · 20,653 followers\nIndustry: Technology, Information and Internet\nIndustry codes: SIC 62, 623, NAICS 52, 523\nCompany type: Privately Held\nFounded: 2016\nSocial profiles: www.crunchbase.com/organization/markets-able\nEmail: contact@marketsable.com [...] ## Products and services\nKeywords: market research, ai, artificial…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.261
+      },
+      "id": "e896741cecc539c0",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cohere | Tavily",
+      "url": "https://tavily.com/knowledge/company/7RGQgSPBmslY",
+      "publishedAt": null,
+      "excerpt": "Tavily ranks #1 in Company Search Benchmark. Explore the results →\n\nCut agentic search costs. Join our live Office Hours on Nov 17. Register →\n\nWorld of Tavily NYC is happening November 12. Request to join→\n\nImage 1: Tavily by Nebius\n\nProduct Solutions ResourcesDocsPricing\n\nEndpoints [...] # Cohere\n\nCohere builds powerful models and AI solutions enabling enterprises to automate processes, empower employees, and turn fragmented data into actionable insights.\n\nImage 4: Cohere…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.163
+      },
+      "id": "e7b82eaa8f139f72",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "CrowdStrike’s AI SOC vision evolves as agentic uncertainty adds new twist - www.csoonline.com",
+      "url": "https://www.csoonline.com/article/4244299/crowdstrikes-ai-soc-vision-evolves-as-agentic-uncertainty-adds-new-twist.html",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "excerpt": "## The gold standard Falcon platform has added new agent capabilities to further automate SOC activities, but as cyber platforms become more agentic, enterprises face new uncertainties. “The software we use has become an actor,” declared CrowdStrike President Michael Sentonas in his address on the dangers and opportunity of agentic AI at the company’s Fal.Con conference in September. It’s an idea that until recently would have been dismissed as absurd, yet across cybersecurity it’s now taken…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.653
+      },
+      "id": "18cf96e78afbc1f9",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Agentic AI in procurement: ‘Organization and process matter as much as technology’ - Consultancy.eu",
+      "url": "https://www.consultancy.eu/news/amp/14536/agentic-ai-in-procurement-organization-and-process-matter-as-much-as-technology",
+      "publishedAt": "2026-11-03T15:20:00Z",
+      "excerpt": "# Agentic AI in procurement: ‘Organization and process matter as much as technology’. ***Finding the right way to approach AI can be daunting for*** ***Chief Procurement Officers (CPOs). When automating procurement, organizations have a lot to gain from deploying agentic AI – but it requires a strategic, carefully planned process design, according to insights from Inverto.***. For example, they can read a requirement, qualify a supplier, run a sourcing event, issue a purchase order, and match…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.55
+      },
+      "id": "b1972edde5db0483",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Zanders outlines how financial institutions can manage the risks of Agentic AI - Consultancy.eu",
+      "url": "https://www.consultancy.eu/news/amp/14521/zanders-outlines-how-financial-institutions-can-manage-the-risks-of-agentic-ai",
+      "publishedAt": "2026-11-03T13:51:00Z",
+      "excerpt": "# Zanders outlines how financial institutions can manage the risks of Agentic AI. ***Agentic AI is creating new opportunities for financial institutions to automate complex workflows, support decision-making and improve operational efficiency. However, as AI systems move beyond generating insights to taking actions autonomously, they also introduce new risks around accountability, oversight and control.***. In a new whitepaper, Zanders explores how financial institutions can manage these risks…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.52
+      },
+      "id": "90868c050edcf98c",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Adobe CX Enterprise Coworker arrives in ChatGPT, Claude and Gemini - The Next Web",
+      "url": "https://thenextweb.com/news/adobe-cx-enterprise-coworker-chatgpt-claude-gemini-copilot",
+      "publishedAt": "2026-11-04T15:46:52Z",
+      "excerpt": "Adobe’s AI agent for marketing teams now works inside ChatGPT, Claude, Gemini, Copilot and Databricks Genie, the company said on Wednesday. The agent, CX Enterprise Coworker, plans and runs customer experience work across Adobe’s marketing software. In ChatGPT, it comes as a plugin. Adobe made the agent generally available in June. Adobe says the agent tracks campaign results and trends. It also forecasts audiences, improves customer journeys and helps with planning and project management. >…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.398
+      },
+      "id": "18107ed69a02ea33",
+      "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-04T19:57:03.298548+00:00"
+}
