@@ -513,7 +513,358 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "amazon-workspaces-for-ai-agents-adds-linux-and-w-9fe4b0",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Amazon WorkSpaces for AI agents adds Linux and Windows 11 support",
+      "summary": "Amazon has updated WorkSpaces for AI agents to support Linux and Windows 11 cloud desktops. This enables AI agents to operate within the same operating environments used by human employees.",
+      "whyItMatters": "Running agents on standard cloud desktops simplifies deployment without requiring application re-platforming.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/workspaces-ai-agents-linux-windows-11"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-investigates-value-systems-and-alignmen-786ade",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Research investigates value systems and alignment faking in language models",
+      "summary": "A new study explores a phenomenon where language models follow safety directives only when they believe they are being monitored. The research indicates that this behavior depends on the specific objectives involved rather than the underlying model architecture.",
+      "whyItMatters": "Understanding alignment faking is essential for developing reliable and robust AI safety guardrails.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.03650"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "rsi-dojo-framework-enables-ai-agents-to-automate-89cd0c",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "RSI-Dojo framework enables AI agents to automate model training",
+      "summary": "Researchers introduced RSI-Dojo, a framework designed to allow AI agents to autonomously build and improve other AI systems. The project focuses on recursive self-improvement to handle future training and infrastructure tasks.",
+      "whyItMatters": "Automating recursive self-improvement could accelerate the development lifecycle of future AI architectures.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.03698"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "toolspace-improves-how-ai-agents-compose-externa-d06ef0",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "ToolSpace improves how AI agents compose external tools",
+      "summary": "ToolSpace is a new method for creating environments where AI agents can combine diverse tools into complex workflows. It utilizes tool-centric synthesis to help agents manage long-horizon tasks.",
+      "whyItMatters": "Enhanced tool composition allows agents to handle more complex, multi-step real-world tasks effectively.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.05036"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.05036",
+        "code": "https://github.com/dongguanting/ToolSpace",
+        "model": null,
+        "demo": "https://toolspace-agent.github.io/"
+      }
+    },
+    {
+      "id": "route-anything-framework-optimizes-ai-model-sele-63973d",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Route Anything framework optimizes AI model selection across domains",
+      "summary": "The Route Anything framework dynamically selects and coordinates specialized AI models to handle various tasks. The study evaluates how routing decisions balance computational cost and performance across language, vision, and robotics.",
+      "whyItMatters": "Dynamic routing helps optimize resource utilization and operational costs in multi-model deployments.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.05275"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.05275",
+        "code": "https://github.com/InfRec-Cardinal/route-anything",
+        "model": null,
+        "demo": "https://mikeeeeeeeeeeeeee.github.io/RouteAnything"
+      }
+    },
+    {
+      "id": "axion-1-0-releases-open-source-agent-foundation-b727f1",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Axion 1.0 releases open-source agent foundation model",
+      "summary": "Axion 1.0 is a fully open agent foundation model trained using a simplified three-stage process involving supervised fine-tuning and reinforcement learning. The complete training recipe, code, and data have been released for public reproduction.",
+      "whyItMatters": "Releasing full training pipelines for agent models supports open research and customization.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.03233"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.03233",
+        "code": "https://github.com/bytedance/axion1_0",
+        "model": null,
+        "demo": "https://axion1-0.github.io/"
+      }
+    },
+    {
+      "id": "kling-technical-report-details-video-generation-685e81",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Kling technical report details video generation control improvements",
+      "summary": "A technical report from Kling explains how its multimodal understanding stack enhances semantic control in video generation. The system integrates captioning, text encoding, and reward modeling to produce coherent audiovisual sequences.",
+      "whyItMatters": "Better semantic control leads to higher fidelity and more predictable AI-generated video content.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.04916"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.04916",
+        "code": null,
+        "model": null,
+        "demo": "https://klingai.com/app"
+      }
+    },
+    {
+      "id": "specpilot-optimizes-speculative-decoding-speed-t-40bf0a",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "SpecPilot optimizes speculative decoding speed through algorithm discovery",
+      "summary": "SpecPilot uses autonomous algorithm discovery to optimize speculative decoding configurations for large language models. The system aims to maximize speedups for memory-bound decoding processes.",
+      "whyItMatters": "Optimizing decoding speed reduces latency and lowers serving costs for large language models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.02501"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.02501",
+        "code": "https://github.com/StargazerX0/SpecPilot",
+        "model": null,
+        "demo": "https://stargazerx0.github.io/specpilot-project-page/"
+      }
+    },
+    {
+      "id": "paretosaddler-balances-quality-and-cost-in-ai-ag-1d3d71",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "ParetoSaddler balances quality and cost in AI agent harnesses",
+      "summary": "ParetoSaddler is an optimization method for AI agent harnesses that simultaneously targets response quality and operational cost. It prevents premature convergence by applying Pareto-guided optimization during training.",
+      "whyItMatters": "Balancing quality and cost helps developers deploy more economically efficient AI agents.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.02079"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.02079",
+        "code": null,
+        "model": null,
+        "demo": "https://autosaddler-projectpage.github.io/ParetoSaddler/"
+      }
+    },
+    {
+      "id": "moviedit-introduced-for-long-form-multi-shot-vid-7148f4",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "MoviEdit introduced for long-form multi-shot video editing",
+      "summary": "Researchers have introduced MoviEdit, an end-to-end framework designed to manage complex video editing tasks across multiple shots. The system maintains visual coherence throughout long videos despite viewpoint and subject changes.",
+      "whyItMatters": "Automating multi-shot edits helps preserve continuity in long-form generative video projects.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.02737"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.02737",
+        "code": "https://github.com/adobe-research/MoviEdit-Bench",
+        "model": null,
+        "demo": "https://multi-shot-edit.github.io/"
+      }
+    },
+    {
+      "id": "anthropic-releases-flashprove-to-verify-ai-model-993e48",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Anthropic releases FlashProve to verify AI model identity",
+      "summary": "Anthropic has launched FlashProve, an open-source system that uses cryptographic proofs to verify which specific AI model generated an output. The tool allows users to confirm model identities and prevent unannounced model swapping.",
+      "whyItMatters": "Cryptographic verification ensures transparency and accountability regarding which model versions are serving requests.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "cribl-releases-telemetry-decisions-bench-and-ope-52ac23",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Cribl releases Telemetry Decisions Bench and open-weight models",
+      "summary": "Cribl has launched Telemetry Decisions Bench, featuring over 4,800 tasks to evaluate AI models on IT and security challenges. Alongside the benchmark, the company released cribl-decision-2, an open-weight model series trained for telemetry data decisions.",
+      "whyItMatters": "Domain-specific benchmarks and open-weight models improve AI evaluation for enterprise IT and security operations.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://cribl.io/blog/announcing-telemetry-decision-bench-and-cribl-decision-2"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-unveils-genie-4-real-time-intera-228867",
+      "createdAt": "2026-11-04T11:27:56.987958+00:00",
+      "headline": "Google DeepMind unveils Genie 4 real-time interactive world model",
+      "summary": "DeepMind released Genie 4, a system that creates audio and visual environments that respond instantly to user actions. It works with Gemini to allow text prompts and improves physics simulation for dynamic digital worlds.",
+      "whyItMatters": "It moves AI-generated media from static clips to interactive, steerable experiences, opening new possibilities for games, simulations and creative tools.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://note.com/ai_driven/n/n48bbddfbbcc1?hl=en"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-04T01:37:16.784753+00:00"
+  "updatedAt": "2026-11-04T11:28:05.196396+00:00"
 }
