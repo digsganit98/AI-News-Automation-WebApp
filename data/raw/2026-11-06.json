@@ -1,0 +1,761 @@
+{
+  "date": "2026-11-06",
+  "runs": [
+    {
+      "runAt": "2026-11-05T20:11:12.251528+00:00",
+      "newItems": 34,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1361,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.256473Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.291167Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 898,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.291487Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.291761Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.291920Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.292070Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.292229Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.292373Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.292605Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.292762Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.292904Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.292959Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.293002Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.293243Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.293291Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.293435Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.293626Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.293779Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.293922Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.294180Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-05T20:11:12.294325Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.294486Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.295225Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.295373Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-05T20:11:12.295533Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.295683Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.295822Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.295961Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.296101Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.296304Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.296892Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.297062Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.297225Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 13,
+          "error": null,
+          "checkedAt": "2026-11-05T20:11:12.297272Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "publishedAt": "2026-11-05T09:00:00Z",
+      "excerpt": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "author": null,
+      "extra": {},
+      "id": "53c56afbaf05f856",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "deepmind",
+      "sourceName": "Google DeepMind",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "publishedAt": "2026-11-05T17:05:16Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "003a6dd08e360129",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "publishedAt": "2026-11-05T19:35:16Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "e8690f74b67f5698",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "mistral",
+      "sourceName": "Mistral AI",
+      "title": "Le Chonk brings the brains. Studio puts it to work.",
+      "url": "https://mistral.ai/news/build-with-studio/",
+      "publishedAt": "2026-11-05T12:00:14Z",
+      "excerpt": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
+      "author": null,
+      "extra": {},
+      "id": "1184d3a025fd9d05",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "publishedAt": "2026-11-05T16:00:00Z",
+      "excerpt": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code meets it for every input, and uses tests where proofs aren't practical. Developers review intent, not every line. The post Formally verifying agent-written full-stack web apps with PDD Kit appeared first…",
+      "author": "Alex Lavaee, Matthai Philipose",
+      "extra": {},
+      "id": "763a8148826c7aad",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
+      "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "excerpt": "One underperforming GPU can slow an entire distributed training job. The node may pass basic health checks and show normal utilization, leaving operators to...",
+      "author": "Sowmyan Soman",
+      "extra": {},
+      "id": "48f399a0d9a24cf0",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory",
+      "url": "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory/",
+      "publishedAt": "2026-11-05T16:00:00Z",
+      "excerpt": "In an AI factory, high bandwidth memory (HBM)is the fastest, most expensive, and most contested memory tier. Every byte spent on a redundant weight copy, an...",
+      "author": "Shara Tibken",
+      "extra": {},
+      "id": "34aa5b1d1b261a3e",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://huggingface.co/papers/2611.04408",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "excerpt": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fixed spare ratio, correlated failure provably caps a pool's availability however large it grows. In…",
+      "author": "Manav Mishra, Krishna M. Sivalingam",
+      "extra": {
+        "upvotes": 26,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.04408"
+      },
+      "id": "ab4d5776d4745676",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens",
+      "url": "https://huggingface.co/papers/2611.01926",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "excerpt": "LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation. Yet, explicit CoT incurs substantial generation overhead, while implicit CoT, which replaces textual rationales with compact continuous tokens, does not naturally support the explicit communication interface required for agentic tool-use. We propose TAC-CoT, a tool-empowered adaptive implicit CoT framework that replaces explicit…",
+      "author": "Juseon Do, Sangmin Bae, Jeesu Jung, Hwanjun Song",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://aclanthology.org/2026.emnlp-main.1436/",
+        "arxivUrl": "https://arxiv.org/abs/2611.01926"
+      },
+      "id": "9d7df512acbfc2d0",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "On the Generalization Limitation of On-Policy Distillation for Post-RL Consolidation",
+      "url": "https://huggingface.co/papers/2611.05609",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "excerpt": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) to consolidate capabilities from multiple teachers. Although prior work reports near-perfect in-distribution (IND) distillation performance, we find that this can mask incomplete capability consolidation beyond the supervised distribution. A preliminary study on synthetic reasoning shows that OPD does not fully transfer teachers' generalization capabilities. We then extend this investigation to real-world tasks,…",
+      "author": "Yichen Wang, Yufa Zhou, Siqi Zhu, Haozheng Luo, Jingzhi Bao, Zhichao Liu, Zijun Wei",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": "https://yichenzw.com/opd-generalization.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2611.05609"
+      },
+      "id": "f5b1271988037404",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+      "url": "https://huggingface.co/papers/2610.41104",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "excerpt": "Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a history of student updates. Muon nevertheless stores a separate momentum buffer, increasing persistent training memory. We propose Muon with Reused Teacher (Muon-RT), which reuses the teacher-student displacement to eliminate momentum buffers for hidden weight matrices. We show that this displacement encodes an exponentially weighted history of applied updates and smooths…",
+      "author": "Aryan Das, Vinay Kumar Verma, Aakansha Mishra",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2610.41104"
+      },
+      "id": "de2d08d434a1a3b1",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "VideoMemBench: How Well Do MLLMs Remember in Video Conversations?",
+      "url": "https://huggingface.co/papers/2610.40131",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "excerpt": "Multimodal large language models (MLLMs) can now process hour-long videos, making extended multi-turn dialogue over a single video a natural mode of use. Sustaining such a dialogue requires more than answering each question in isolation: the model must retrieve and reuse information established earlier in the conversation, both what it has seen and what it has said, an ability we term in-context video memory. Existing video QA benchmarks leave this ability unmeasured: their questions are…",
+      "author": "Zhengdong Hu, Chao Wang, Kaituo Feng, Huanjin Yao, Mingfei Lu, Hehe Fan, Yi Yang",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/Oliiveralien/VideoMemBench",
+        "projectPage": "https://videomembench.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2610.40131"
+      },
+      "id": "6dcab18d3c47d995",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding",
+      "url": "https://huggingface.co/papers/2611.02846",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "excerpt": "Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional pipelines collect supervision through sequential draft-and-verify rollouts. Our key…",
+      "author": "Tianyu Liu, Jun Zhang, Wenjie Huang, Yuhao Shen, Tianqi Xu, Xinyue Hao, Hongyaoxing Gu, Xuyang Liu, Baolin Zhang, Yating Zhu, Shuang Ge, Jun Dai, Lei Chen, Yue Li, Mingchen Wan",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/QwenApp/SpecOPD",
+        "projectPage": "https://qwenapp.github.io/SpecOPD/en.html",
+        "arxivUrl": "https://arxiv.org/abs/2611.02846"
+      },
+      "id": "cb3455a82f101f92",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker AI Studio Now Supports IAM Identity Center Multi-Region Replication",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/",
+      "publishedAt": "2026-11-05T08:00:00Z",
+      "excerpt": "Amazon SageMaker AI now supports IAM Identity Center (IdC) multi-region replication, enabling you to deploy SageMaker AI Studio domains in different regions from your IdC instance's primary region. Previously, the primary IdC instance had to reside in the same region as the SageMaker AI Studio domain; now customers can replicate their primary IdC instance into the region where they wish to use SageMaker AI Studio domains. This capability helps customers maintain compliance while utilizing…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "424b23730d0bdb2a",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/",
+      "publishedAt": "2026-11-05T18:06:43Z",
+      "excerpt": "Learn how Amazon Marketplace evaluates A+ Content quality at scale on Amazon SageMaker AI by rendering each product page as a single snapshot, scoring it with a vision-language model fused with OCR readability signals in a CatBoost classifier, and using SHAP to turn each decision into prioritized, actionable recommendations for selling partners.",
+      "author": "James Kim",
+      "extra": {},
+      "id": "5e845585dbaf7b01",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "excerpt": "Today, Gemini Omni 1.2 Flash is generally available on Google Cloud. Built for the everyday videos businesses make in volume — like product videos, virtual try-ons, and ads — this model is fast, cost-effective, and follows your image, video and audio references more closely than before. Business users can create with it in Gemini for business and Google Vids, and developers can build with it via API. Here's what's new: A lower price: $0.07 per second of 720p video, 30% less than Gemini Omni…",
+      "author": "John Nack",
+      "extra": {},
+      "id": "bd5d29a32a5f70b7",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Snowflake CoCo for Excel and Google Sheets: Governed AI",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-coco-microsoft-excel-google-sheets",
+      "publishedAt": "2026-11-05T20:58:00Z",
+      "excerpt": "Snowflake CoCo brings governed AI to Microsoft Excel and Google Sheets, with live Snowflake data, agentic workbook building and role-based security.",
+      "author": "Aniruth Narayanan, Aryan Gupta, Sally Hong",
+      "extra": {},
+      "id": "f3caa613123f05a9",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "bens-bites",
+      "sourceName": "Ben's Bites",
+      "title": "Craft and taste",
+      "url": "https://www.bensbites.com/p/craft-and-taste",
+      "publishedAt": "2026-11-05T14:02:12Z",
+      "excerpt": "What does old me think",
+      "author": "Ben Tossell",
+      "extra": {},
+      "id": "fc23e546c6fb6315",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Between Bach, AI, and a fow other concerns",
+      "url": "https://medium.com/@adrianaweingart/between-bach-ai-and-a-fow-other-concerns-903b3b3af563?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-05T19:06:46Z",
+      "excerpt": "Article originally published in Portuguese on LinkedIn: Entre Bach, IA e algumas inquietações, in 16-Sep-2026. Continue reading on Medium »",
+      "author": "Adriana Weingart",
+      "extra": {},
+      "id": "1467c61f7c4fa24b",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Consulting Firms Can Measure and Improve Their Visibility in AI Search",
+      "url": "https://medium.com/@aieosignals/how-consulting-firms-can-measure-and-improve-their-visibility-in-ai-search-fc792c8ce5db?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-05T19:06:00Z",
+      "excerpt": "The way businesses discover and evaluate consulting firms is changing. Alongside traditional search engines, decision-makers are using… Continue reading on Medium »",
+      "author": "AIEO team",
+      "extra": {},
+      "id": "5ba9c3f0abed4dd2",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How ChatGPT Actually Writes",
+      "url": "https://medium.com/@umermjd11/how-chatgpt-actually-writes-7b7489a9fe81?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-05T18:43:16Z",
+      "excerpt": "Follow one sentence through a large language model, from your keyboard to the reply, in six steps. Continue reading on Medium »",
+      "author": "Umer Majeed",
+      "extra": {},
+      "id": "5ba7234bf2c761ab",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AiEO and TECHNATION Partner on National Student Challenge to Explore AI Visibility Across Canada",
+      "url": "https://medium.com/@aieosignals/aieo-and-technation-partner-on-national-student-challenge-to-explore-ai-visibility-across-canada-73a3896e319c?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-05T18:14:58Z",
+      "excerpt": "National Initiative Delivered Through TECHNATION’s Government-Funded Career Ready Program Continue reading on Medium »",
+      "author": "AIEO team",
+      "extra": {},
+      "id": "861770b814e22a25",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "publishedAt": "2026-11-05T18:00:01Z",
+      "excerpt": "",
+      "author": "armcat",
+      "extra": {
+        "points": 124,
+        "comments": 140,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50382179"
+      },
+      "id": "9404bc0f47e8389d",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "MCP Explained",
+      "url": "https://mcp-explained.com/",
+      "publishedAt": "2026-11-05T14:08:35Z",
+      "excerpt": "",
+      "author": "rwilinski",
+      "extra": {
+        "points": 182,
+        "comments": 97,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50379249"
+      },
+      "id": "00fad6531e4434f3",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "publishedAt": "2026-11-05T07:44:30Z",
+      "excerpt": "",
+      "author": "lucrbvi",
+      "extra": {
+        "points": 222,
+        "comments": 113,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50376313"
+      },
+      "id": "3c63b1bd263a0a08",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "American Voters Overwhelmingly Reject AI Data Centers",
+      "url": "https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/",
+      "publishedAt": "2026-11-05T00:43:13Z",
+      "excerpt": "",
+      "author": "latexr",
+      "extra": {
+        "points": 60,
+        "comments": 2,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50373505"
+      },
+      "id": "96824d6c1d2d1d4e",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Chinese AI Scientist Completes 11,382-Step Experiment in 203 Hours",
+      "url": "https://www.chosun.com/english/industry-en/2026/11/05/WRZQJ4IG5RBBVHL52ALFV2XVWM/",
+      "publishedAt": "2026-11-05T14:37:09Z",
+      "excerpt": "",
+      "author": "/u/yogthos",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xok8n6/chinese_ai_scientist_completes_11382step/"
+      },
+      "id": "b41dc6be9cfbbb99",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "NVIDIA RTX PRO 5500 Blackwell appears at $17,999 MSRP, higher than RTX PRO 6000 at $16,000 MSRP set some months ago by NVIDIA - VideoCardz",
+      "url": "https://videocardz.com/newz/nvidia-rtx-pro-5500-blackwell-appears-at-17999-msrp-higher-than-rtx-pro-6000",
+      "publishedAt": "2026-11-05T14:17:46Z",
+      "excerpt": "",
+      "author": "/u/panchovix",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xojryw/nvidia_rtx_pro_5500_blackwell_appears_at_17999/"
+      },
+      "id": "9bb7581ddb1f9766",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "What are vector embeddings? An interactive guide",
+      "url": "https://isaacus.com/blog/what-are-vector-embeddings",
+      "publishedAt": "2026-11-05T04:46:30Z",
+      "excerpt": "Hey r/LocalLLaMA I'm Abdur-Rahman Butler, a machine learning engineer at Isaacus. I made an interactive write-up that walks you through the A to Z of vector embeddings, inspired by Brendan Bycroft's incredible interactive LLM visualisation guide (see here - https://bbycroft.net/llm ). Most of my work is on encoder models, and I kept noticing how few good interactive resources there are on embeddings. The ones that do exist tend to either plot some embeddings in 3D or only explain a narrow…",
+      "author": "/u/Neon0asis",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xo9vl3/what_are_vector_embeddings_an_interactive_guide/"
+      },
+      "id": "75b3ce0caf731283",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "CLM Provider Leah Launches Self-Service AI Tool-Building Feature - Law.com",
+      "url": "https://www.law.com/legaltechnews/2026/11/05/clm-provider-leah-launches-self-service-ai-tool-building-feature-/",
+      "publishedAt": "2026-11-05T09:00:00Z",
+      "excerpt": "Sign in to access your account and subscription. The Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech. Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. All Surveys & Rankings  Am Law 100  Am Law 200  A-List. ### The Am Law 100 Rankings. The Am Law 100 is the definitive ranking…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.582
+      },
+      "id": "c64b3eafce624eaa",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI launches Images 2.6 with GIFs and image reference - TestingCatalog AI News",
+      "url": "https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/",
+      "publishedAt": "2026-11-05T00:44:16Z",
+      "excerpt": "# OpenAI launches Images 2.6 with GIFs and image reference. Images 2.6 adds GIF creation in ChatGPT and Codex, plus Flare and Sunburst API models with SVG exports and image markup. OpenAI is rolling out Images 2.6 globally in ChatGPT and Codex across every subscription tier on desktop, mobile, and the web, while GPT-Image-2.6 Flare and Sunburst are now available through the API. OpenAI says the release generates images 50% faster than before, as use across its products has reached 4 billion…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.464
+      },
+      "id": "c3da60b221b9879d",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Generative Legal's Cornell Tech Conference: ‘Productizing’ Legal Work in the AI Age - Law.com",
+      "url": "https://www.law.com/legaltechnews/2026/11/04/generative-legals-cornell-tech-conference-productizing-legal-work-in-the-ai-age-/",
+      "publishedAt": "2026-11-04T14:59:45Z",
+      "excerpt": "Sign in to access your account and subscription. The Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech. Reporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know. All Surveys & Rankings  Am Law 100  Am Law 200  A-List. ### The Am Law 100 Rankings. The Am Law 100 is the definitive ranking…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.361
+      },
+      "id": "1fa440d81fc7c1f9",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Valve Says It's Seen a 'Significant Increase' in Steam Game Submissions in Recent Months, Amid 'AI Slop' Claims - IGN",
+      "url": "https://www.ign.com/articles/ai-slop-fuelled-steam-backlog-preventing-games-from-hitting-launch-targets",
+      "publishedAt": "2026-11-04T15:23:34Z",
+      "excerpt": "# Valve Says It's Seen a 'Significant Increase' in Steam Game Submissions in Recent Months, Amid 'AI Slop' Claims. Valve’s approval process has always taken a bit of time, but it’s taking much longer lately because of the staggering volume of games hoping to launch on the platform — an issue that’s only grown with the advent of generative AI. “We've seen a significant increase in submissions for store page and build review in recent months, and have spent the last several weeks working to…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.325
+      },
+      "id": "e379bbca33d211b5",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Nothing teases screen-less product launching next month, ‘couldn’t have been an app’ - 9to5Google",
+      "url": "https://9to5google.com/2026/11/04/nothing-teaser-new-ai-screen-less-product-launch/",
+      "publishedAt": "2026-11-04T16:25:00Z",
+      "excerpt": "# Nothing teases screen-less product launching next month, ‘couldn’t have been an app’. Nothing has confirmed it will launch a new “AI-native” product in December, something that “couldn’t have been an app.”. In a post on Twitter/X, Nothing CEO Carl Pei says that the company is launching a new product in December. This “AI-native” product will not have a display and, apparently, “couldn’t have been an app.”. It’s a tool, but one built with the personality and care that have come to define a…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.314
+      },
+      "id": "69a7aa67428858ce",
+      "collectedAt": "2026-11-05T20:11:12.251528+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-05T20:11:12.251528+00:00"
+}

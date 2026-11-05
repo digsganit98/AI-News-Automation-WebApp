@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-06",
+  "stories": [
+    {
+      "id": "snowflake-integrates-governed-ai-into-microsoft-691c74",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "Snowflake integrates governed AI into Microsoft Excel and Google Sheets",
+      "summary": "Snowflake has introduced CoCo, a feature that allows users to access live Snowflake data directly within Microsoft Excel and Google Sheets. The system provides governed AI capabilities backed by role-based security.",
+      "whyItMatters": "This integration brings secure, data-backed AI workflows into standard office spreadsheet applications.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-coco-microsoft-excel-google-sheets"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-makes-gemini-omni-1-2-flash-general-531325",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "Google Cloud makes Gemini Omni 1.2 Flash generally available for video generation",
+      "summary": "Google Cloud has launched Gemini Omni 1.2 Flash for general availability, offering faster and cheaper video generation and editing. The updated model supports 15-second native clips, improved consistency, and lower pricing.",
+      "whyItMatters": "Lower costs and longer durations make AI video generation more practical for business and creative applications.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/"
+        },
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-releases-four-open-models-for-interactive-e8690f",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "NVIDIA releases four open models for interactive world simulation",
+      "summary": "NVIDIA has expanded its Cosmos 3 model family with four new open-weight checkpoints for robotics and autonomous driving simulation. These models support multi-view data generation, synchronized camera and LiDAR feeds, and action-conditioned video prediction.",
+      "whyItMatters": "Open-weight simulation models help developers test robotics and autonomous driving systems in diverse virtual environments.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-research-introduces-pdd-kit-for-verify-7ab25c",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "Microsoft Research introduces PDD Kit for verifying AI-generated web applications",
+      "summary": "Microsoft Research has developed PDD Kit to check the correctness of AI-generated full-stack web applications. The tool translates developer intentions into formal specifications and tests the generated code against them.",
+      "whyItMatters": "Automated verification tools help reduce bugs and security flaws in AI-assisted software development.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Microsoft Research",
+          "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mistral-ai-highlights-le-chonk-and-studio-for-en-927cb4",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "Mistral AI highlights Le Chonk and Studio for enterprise agent deployment",
+      "summary": "Mistral AI is promoting its Le Chonk model and Studio platform to assist businesses in deploying custom AI agents and workflows. The setup offers organizations fine-grained control over their underlying models, data, and infrastructure.",
+      "whyItMatters": "Enterprise platforms that emphasize data and infrastructure control address key privacy concerns for corporate AI adoption.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Mistral AI",
+          "url": "https://mistral.ai/news/build-with-studio/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-introduces-gpt-6-cyber-for-authorized-cyb-53c56a",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "OpenAI introduces GPT-6 Cyber for authorized cybersecurity operations",
+      "summary": "OpenAI has released GPT-6 Cyber, a specialized model designed to identify exploitable vulnerabilities and create patches within authorized parameters. The system uses strict behavioral boundaries to maintain safety during security tasks.",
+      "whyItMatters": "Specialized security models can automate vulnerability discovery while attempting to limit misuse through strict controls.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tac-cot-combines-tool-use-and-implicit-reasoning-9d7df5",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "TAC-CoT combines tool use and implicit reasoning for efficient LLM agents",
+      "summary": "A new research paper proposes TAC-CoT, a method that interleaves tool use with implicit chain-of-thought reasoning in large language models. The approach reduces generation overhead while maintaining accuracy on complex tasks.",
+      "whyItMatters": "Improving reasoning efficiency helps lower the computational cost and latency of tool-empowered agent systems.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.01926"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.01926",
+        "code": null,
+        "model": null,
+        "demo": "https://aclanthology.org/2026.emnlp-main.1436/"
+      }
+    },
+    {
+      "id": "study-highlights-generalization-limits-in-multi-f5b127",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "Study highlights generalization limits in multi-teacher on-policy distillation",
+      "summary": "Researchers have analyzed the limitations of multi-teacher on-policy distillation when consolidating capabilities in large language models. The study shows that high performance on familiar training data can mask capability gaps on out-of-distribution tasks.",
+      "whyItMatters": "Understanding distillation limitations helps researchers build more robust models that generalize reliably to new domains.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.05609"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.05609",
+        "code": null,
+        "model": null,
+        "demo": "https://yichenzw.com/opd-generalization.github.io/"
+      }
+    },
+    {
+      "id": "muon-rt-reduces-memory-overhead-in-llm-self-dist-de2d08",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "Muon-RT reduces memory overhead in LLM self-distillation",
+      "summary": "A new method called Muon-RT reuses teacher trajectories during LLM self-distillation to remove the need for a separate momentum buffer. This technique cuts persistent training memory requirements while keeping the benefits of moving average teachers.",
+      "whyItMatters": "Reducing training memory overhead makes advanced model distillation more accessible and less resource-intensive.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.41104"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.41104",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "videomembench-evaluates-memory-retention-in-mult-6dcab1",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "VideoMemBench evaluates memory retention in multimodal video models",
+      "summary": "Researchers have introduced VideoMemBench, a new benchmark designed to measure how well multimodal large language models retain and reuse context during extended video conversations.",
+      "whyItMatters": "Standardized video benchmarks help track progress in handling long-form visual memory for conversational AI.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.40131"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.40131",
+        "code": "https://github.com/Oliiveralien/VideoMemBench",
+        "model": null,
+        "demo": "https://videomembench.github.io/"
+      }
+    },
+    {
+      "id": "specopd-applies-branch-parallel-distillation-to-cb3455",
+      "createdAt": "2026-11-05T20:18:34.028788+00:00",
+      "headline": "SpecOPD applies branch-parallel distillation to accelerate speculative decoding",
+      "summary": "A proposed technique named SpecOPD utilizes branch-parallel on-policy distillation to enhance speculative decoding in large language models. The method aims to speed up text generation inference times.",
+      "whyItMatters": "Inference acceleration techniques are critical for reducing latency and serving large models more economically.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.02846"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.02846",
+        "code": "https://github.com/QwenApp/SpecOPD",
+        "model": null,
+        "demo": "https://qwenapp.github.io/SpecOPD/en.html"
+      }
+    }
+  ],
+  "updatedAt": "2026-11-05T20:18:48.471950+00:00"
+}
