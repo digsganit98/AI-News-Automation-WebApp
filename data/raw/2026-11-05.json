@@ -278,6 +278,284 @@
           "checkedAt": "2026-11-04T19:57:03.329026Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-05T01:36:13.909645+00:00",
+      "newItems": 17,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1359,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.914876Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.951538Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 897,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.951924Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.952197Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 93,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.952373Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.952535Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.952685Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.952832Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.952975Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.953128Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.953269Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.953328Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.953400Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.953671Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.953729Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.953894Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.954042Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.954183Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.954320Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.954732Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-05T01:36:13.954965Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.955856Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.956047Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.956207Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-05T01:36:13.956376Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.956528Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.956675Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.956819Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.956962Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 22,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.957170Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.957782Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.957957Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.958125Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 11,
+          "error": null,
+          "checkedAt": "2026-11-05T01:36:13.958172Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -774,7 +1052,239 @@
       },
       "id": "18107ed69a02ea33",
       "collectedAt": "2026-11-04T19:57:03.298548+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "publishedAt": "2026-11-04T08:00:00Z",
+      "excerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "author": null,
+      "extra": {},
+      "id": "a4f4c423c5426033",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "excerpt": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "author": null,
+      "extra": {},
+      "id": "0a437d67f2effbc5",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "excerpt": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "author": null,
+      "extra": {},
+      "id": "bf25be8f87794d7d",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
+      "publishedAt": "2026-11-04T22:00:17Z",
+      "excerpt": "As GPU clusters scale, operations span compute, network, hardware, and scheduling. Site reliability engineers (SREs) often have to examine multiple dashboards...",
+      "author": "Shara Tibken",
+      "extra": {},
+      "id": "3d39bad411aadc77",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing",
+      "url": "https://huggingface.co/papers/2611.04303",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "excerpt": "In-image machine translation (IIMT) replaces text in an image with its translation while preserving the surrounding visual context. Existing task-specific models achieve convincing performance but require massive paired training images before and after translation. As advanced text-to-image (T2I) models have reached a practically usable level of multilingual text generation, we argue that this capability can be transferred to IIMT and present FlowTranslator. It is a training-free IIMT…",
+      "author": "Zhixian Li, Xingsong Ye, Yongkun Du, Yunyan Xiao, Yanglin Huang, Pinxuan Chen, Jiyu Zhuang, Cong Xu, Zhineng Chen",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.04303"
+      },
+      "id": "f2814a2bd9aeb09d",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "The Enterprise Case for Open-Weight Models on Databricks",
+      "url": "https://www.databricks.com/blog/enterprise-case-open-weight-models-databricks",
+      "publishedAt": "2026-11-04T20:00:00Z",
+      "excerpt": "As field engineers at Databricks, we spend our days inside enterprise AI deployments,...",
+      "author": null,
+      "extra": {},
+      "id": "b8f28272e8926be8",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Agent That Remembers Today What You Said Yesterday: A Personalized Kitchen Assistant Powered by…",
+      "url": "https://medium.com/@oguzhanhiziroglu/the-agent-that-remembers-today-what-you-said-yesterday-a-personalized-kitchen-assistant-powered-by-0dd930b356fe?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T21:58:37Z",
+      "excerpt": "Hello everyone. I’m excited to share a new blog post with you. This time, we’re focusing on perhaps the most ‘human’ trait of agents… Continue reading on Medium »",
+      "author": "Oğuzhan Hızıroğlu",
+      "extra": {},
+      "id": "acae38cb0086c96e",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Do You Keep Long-Running Genie Code CLI Work Visible and Recoverable?",
+      "url": "https://medium.com/@nishujan1996/how-do-you-keep-long-running-genie-code-cli-work-visible-and-recoverable-c80fc23018bf?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T21:28:32Z",
+      "excerpt": "The story behind Genie Workbench: using tmux, Task Canvas, and checkpoints to keep long-running work visible, resumable, and… Continue reading on Medium »",
+      "author": "Nishant Singh",
+      "extra": {},
+      "id": "895a37779583ce85",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "5 Claude Tricks for Getting Past Generic Answers",
+      "url": "https://bysoyeb.medium.com/5-claude-tricks-for-getting-past-generic-answers-e1c1ec8689f8?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-04T20:39:44Z",
+      "excerpt": "Before-and-after prompts that give Claude enough context to write something you can use. Continue reading on Medium »",
+      "author": "Soyeb",
+      "extra": {},
+      "id": "d8b902f79c762f76",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Everything is an AI scam now",
+      "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+      "publishedAt": "2026-11-04T21:05:19Z",
+      "excerpt": "",
+      "author": "speckx",
+      "extra": {
+        "points": 126,
+        "comments": 42,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50371508"
+      },
+      "id": "ad486aacca15bb93",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "publishedAt": "2026-11-04T19:55:14Z",
+      "excerpt": "",
+      "author": "peter_d_sherman",
+      "extra": {
+        "points": 99,
+        "comments": 42,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50370654"
+      },
+      "id": "5ccdc48dfe6ed2f3",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI data centers comprehensively defeated at US midterm elections",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
+      "publishedAt": "2026-11-04T15:35:51Z",
+      "excerpt": "",
+      "author": "rndsignals",
+      "extra": {
+        "points": 55,
+        "comments": 2,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50367085"
+      },
+      "id": "daa8130c7d0701b0",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Ricursive Intelligence Ripple-65B-Preview: New Dense Model!",
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "publishedAt": "2026-11-04T22:42:48Z",
+      "excerpt": "So Ricursive Intelligence (not to be confused with Recursive, the makers of Flint) just dropped the preview of their new dense 65B model, which appears to have really impressive performance, putting it on the frontier of American open-weights models of any size. Their benchmarks compare it with Muse Spark Open (816B) and Reflection's Beam (501B), and it trades blows with them. They \"use a standard post-training recipe consisting of midtraining, long context, SFT, long context SFT, and mixed…",
+      "author": "/u/returnity",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xo2arv/ricursive_intelligence_ripple65bpreview_new_dense/"
+      },
+      "id": "276a2df43aba8c2f",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "A.I. Data Centers and Labs Face a Setback After Democrats' Win",
+      "url": "https://www.trendingtopics.eu/midterms-democrats-ai-data-centers-labs-setback/",
+      "publishedAt": "2026-11-04T20:12:59Z",
+      "excerpt": "",
+      "author": "/u/SnoozeDoggyDog",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xnykbx/ai_data_centers_and_labs_face_a_setback_after/"
+      },
+      "id": "a3ad553f881ba5a7",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF",
+      "publishedAt": "2026-11-04T17:51:33Z",
+      "excerpt": "now you can spend your evening downloading new version of QFN https://unsloth.ai/docs/models/qwen3.8-next \"15% higher accuracy\"",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/"
+      },
+      "id": "de90f909a0f0e9cd",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Apple Watch now listens to in-person conversations & lets you rewind them",
+      "url": "https://www.dexerto.com/entertainment/apple-watch-now-listens-to-in-person-conversations-lets-you-rewind-them-3424859/",
+      "publishedAt": "2026-11-04T17:15:02Z",
+      "excerpt": "",
+      "author": "/u/Dilpickle2113",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xntvml/apple_watch_now_listens_to_inperson_conversations/"
+      },
+      "id": "6fdaa2cd1850dcf0",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Generative Ai: Notebooks and ADK samples for Gemini agent",
+      "url": "https://www.opensourcealternatives.to/item/generative-ai",
+      "publishedAt": "2026-11-04T01:00:00Z",
+      "excerpt": "Teams already in the GCP ecosystem will prefer Gemini Enterprise Agent Platform for its first-party integration with Google models and an open source ADK they can inspect and extend. Azure AI Foundry is the better fit for organizations already on Azure, particularly those using Azure OpenAI Service for GPT-4o access or integrating with Microsoft 365 services.\n\n## Gemini Enterprise Agent Platform vs AWS Bedrock [...] Open Source Alternatives\n\nicon of Generative Ai\n\n# Generative Ai\n\nOpen source…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.642
+      },
+      "id": "7318e56178ddff4d",
+      "collectedAt": "2026-11-05T01:36:13.909645+00:00"
     }
   ],
-  "updatedAt": "2026-11-04T19:57:03.298548+00:00"
+  "updatedAt": "2026-11-05T01:36:13.909645+00:00"
 }
