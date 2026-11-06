@@ -1,0 +1,419 @@
+{
+  "date": "2026-11-07",
+  "stories": [
+    {
+      "id": "amazon-sagemaker-inference-adds-support-for-mult-b62034",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Amazon SageMaker Inference adds support for Multi-Instance GPU",
+      "summary": "Amazon SageMaker Inference now supports NVIDIA Multi-Instance GPU technology to divide a single GPU into isolated partitions. This feature lets users run different models on the same hardware or allocate specific fractions of newer accelerators to maximize utilization.",
+      "whyItMatters": "Hardware partitioning helps organizations optimize resource utilization and reduce costs when deploying multiple machine learning models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-shares-a-taxonomy-for-building-ai-agents-afd633",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "AWS shares a taxonomy for building AI agents",
+      "summary": "The team behind Amazon Quick has published a framework that breaks down agentic work into four core primitives. The taxonomy categorizes these components into triggers, agents, capabilities, and learned context.",
+      "whyItMatters": "Standardized taxonomies help developers design and understand complex multi-agent systems more consistently.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-guides-developers-in-building-serverless-mod-7ffe65",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "AWS guides developers in building serverless Model Context Protocol servers",
+      "summary": "A new tutorial details how to build a serverless Model Context Protocol server on Amazon ECS with Fargate. This configuration allows AI agents to securely query enterprise data lakes by adding simple JSON files rather than custom integration code.",
+      "whyItMatters": "Serverless approaches simplify how AI agents safely connect to and retrieve information from enterprise data sources.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-scales-ai-agent-access-governance-using-amaz-b8bac3",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "AWS scales AI agent access governance using Amazon Bedrock and Okta",
+      "summary": "A new two-part series demonstrates how to build task agents on Amazon Bedrock AgentCore that use Okta Cross App Access for identity management. The pattern scales to enterprise environments by routing requests through a central gateway on Amazon EKS.",
+      "whyItMatters": "Proper access governance is essential for securely managing what actions autonomous AI agents can perform on behalf of users.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-customer-manages-5-000-ai-assets-fo-a2ca1e",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Google Cloud customer manages 5,000 AI assets for a World Cup campaign",
+      "summary": "A Google Cloud customer utilized cloud technologies and AI tools to organize and manage over 5,000 AI assets for a television spot. The case study highlights how the setup streamlines video production workflows.",
+      "whyItMatters": "Cloud-backed asset management enables media organizations to handle large volumes of generative content efficiently.",
+      "category": "Industry Use Case",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Retail",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/media-entertainment/how-mito-orchestrated-5000-plus-ai-assets-for-a-world-cup-tv-spot/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "greenlight-financial-automates-security-operatio-38bdfb",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Greenlight Financial automates security operations with multi-agent system",
+      "summary": "Greenlight Financial uses a multi-agent system called Luna on Amazon Bedrock AgentCore to resolve over 90% of its monthly security and risk cases without human intervention. The setup handles thousands of alerts including dark web breach cards and identity anomalies.",
+      "whyItMatters": "Autonomous multi-agent systems can significantly reduce the operational burden of managing high-volume security alerts.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "taxbit-launches-role-aware-ai-assistant-on-amazo-55950f",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Taxbit launches role-aware AI assistant on Amazon Bedrock",
+      "summary": "Taxbit has built an enterprise AI assistant named Taxbit Assist using Amazon Bedrock AgentCore. The embedded tool delivers cited answers while accounting for specific user roles and regional compliance requirements.",
+      "whyItMatters": "Role-aware assistants help enterprises ensure that employees access only compliant and authorized information.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-introduces-remote-claude-code-sessions-on-be-5beddb",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "AWS introduces remote Claude Code sessions on Bedrock AgentCore",
+      "summary": "Amazon Web Services has enabled developers to run Claude Code as a remote agent within the Bedrock AgentCore platform. Each coding task executes in an isolated session inside the user's AWS account and submits results as GitHub pull requests.",
+      "whyItMatters": "Isolated remote coding sessions provide a secure way to delegate software engineering tasks to autonomous coding agents.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-publishes-ai-governance-strategies-fo-971de4",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Databricks publishes AI governance strategies for public sector organizations",
+      "summary": "Databricks has released guidance to help government agencies manage and govern AI adoption at scale. The document addresses the core challenge of balancing rapid AI implementation with necessary institutional controls.",
+      "whyItMatters": "Public sector organizations require specialized governance frameworks to adopt modern data and AI tools safely.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/how-public-sector-organizations-can-govern-ai-scale"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-adds-conversational-analytics-to-ge-1b253c",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Google Cloud adds conversational analytics to Gemini",
+      "summary": "Google Cloud has released a preview of Data Cloud connectors that allow business users to query live enterprise databases using natural language via Gemini. The feature integrates with BigQuery, Spanner, AlloyDB, Cloud SQL, and Looker while enforcing existing security controls.",
+      "whyItMatters": "Natural language data querying lowers the barrier for business users to derive insights directly from core databases.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/data-analytics/query-enterprise-data-in-gemini-with-data-cloud-connectors/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "report-analyzes-scientific-usage-of-claude-for-d-3b7867",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Report analyzes scientific usage of Claude for data analysis and writing",
+      "summary": "A new study of 207,000 research sessions indicates that scientists primarily use Claude for data analysis and writing tasks. The report notes higher adoption rates within formal sciences like computer science and mathematics.",
+      "whyItMatters": "Understanding how scientists adopt AI tools helps guide future development for specialized research tasks.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.anthropic.com/research/how-researchers-use-claude"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-introduces-reshard-collective-to-accelera-ee3ebb",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "NVIDIA introduces Reshard Collective to accelerate reinforcement learning",
+      "summary": "NVIDIA has developed a new method called Reshard Collective to speed up the weight refitting process during reinforcement learning post-training. This technique optimizes inference with the current policy model to manage trajectory generation.",
+      "whyItMatters": "Efficient post-training methods reduce computation time and costs for developing advanced models.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "NVIDIA",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-partners-with-hacktron-and-releases-bioba-bc8f9e",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "OpenAI partners with Hacktron and releases BioBasicsBench for wet-lab tasks",
+      "summary": "OpenAI is collaborating with Hacktron to identify vulnerabilities and test third-party service connections. Additionally, OpenAI introduced BioBasicsBench, a benchmark of 100 tasks designed to measure AI agent performance on raw experimental wet-lab data.",
+      "whyItMatters": "Benchmarking and security partnerships help ensure AI agents can safely handle specialized scientific and technical tasks.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/partnering-with-hacktron"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "platour-framework-enables-communication-between-fd7626",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "PLatour framework enables communication between large and small language models",
+      "summary": "Researchers have introduced PLatour, an open-source framework allowing a larger language model to share prompt representations with a smaller model. The study includes a verification method called PACT-Check to validate performance gains.",
+      "whyItMatters": "Efficient collaboration between different model sizes can improve generation performance while reducing resource use.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.06976"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.06976",
+        "code": "https://github.com/zhenyi4/platour",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "open-humanscale-provides-open-recipe-for-robot-f-e29b9b",
+      "createdAt": "2026-11-06T19:47:03.248772+00:00",
+      "headline": "Open-HumanScale provides open recipe for robot foundation models",
+      "summary": "Researchers have released Open-HumanScale, a fully open recipe for scaling egocentric human video pretraining to 50,000 hours for robot learning. The curated video corpus improves robot policies and achieves strong results in simulations and physical benchmarks.",
+      "whyItMatters": "Open training recipes accelerate progress in physical AI and robotics development.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.06817"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.06817",
+        "code": null,
+        "model": null,
+        "demo": "https://dagroup-pku.github.io/open-humanwam/"
+      }
+    }
+  ],
+  "updatedAt": "2026-11-06T19:47:11.831894+00:00"
+}
