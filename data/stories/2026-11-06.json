@@ -301,7 +301,223 @@
         "model": null,
         "demo": "https://qwenapp.github.io/SpecOPD/en.html"
       }
+    },
+    {
+      "id": "aws-launches-web-answer-for-bedrock-agents-c825f3",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "AWS launches Web Answer for Bedrock agents",
+      "summary": "Amazon has made Web Answer generally available as a managed tool that provides synthesized and cited answers to natural language questions in a single call. Developers can now attach this search and synthesis capability directly to their Bedrock agents.",
+      "whyItMatters": "It simplifies agent development by removing the need for teams to build and maintain custom web search pipelines.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-q-developer-renamed-to-aws-assistant-1913ee",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "Amazon Q Developer renamed to AWS assistant",
+      "summary": "Amazon has updated the name of the Amazon Q Developer feature in the AWS Management Console and mobile apps to the AWS assistant. The tool continues to deliver personalized, account-aware guidance and actions under its new name.",
+      "whyItMatters": "This is a minor branding change that affects user navigation within the AWS console.",
+      "category": "Framework/Tooling",
+      "importance": 1,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "tencent-releases-hy4-open-source-ai-model-db612e",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "Tencent releases Hy4 open-source AI model",
+      "summary": "Tencent has launched Hy4, an open-source large language model that features visual understanding and computer-use capabilities. The company plans to release model weights and system cards while emphasizing cybersecurity and biological safety features.",
+      "whyItMatters": "It expands the availability of open-source models that integrate direct computer interaction capabilities.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "rivet-launches-platform-to-scale-ai-agents-on-s3-f0e2e8",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "Rivet launches platform to scale AI agents on S3",
+      "summary": "Rivet has introduced a platform for orchestrating AI agents that uses S3 storage to achieve fast cold starts and low memory usage. The system supports long-lived processes with in-memory state and durable SQLite databases for individual agents.",
+      "whyItMatters": "It provides cloud architecture solutions to help developers run scalable, stateful AI agents more efficiently.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/rivet-dev/rivet"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "stroq-offers-local-audits-for-coding-agents-01c9a3",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "Stroq offers local audits for coding agents",
+      "summary": "Stroq is a new software utility that performs local audits on coding agents. It records and displays the specific actions taken by agents alongside their underlying reasoning.",
+      "whyItMatters": "It improves transparency and debugging for developers deploying autonomous coding agents.",
+      "category": "Framework/Tooling",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/AGGIB/Stroq"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-introduces-hybrid-computer-use-for-ai-510b6d",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "Microsoft introduces Hybrid Computer Use for AI agents",
+      "summary": "Microsoft researchers have developed Hybrid Computer Use, an interface that lets AI agents combine code execution, accessibility tools, and visual screen interactions. This unified approach helps agents complete complex desktop tasks more reliably than screenshot-only methods.",
+      "whyItMatters": "It addresses accuracy limitations in desktop automation by giving agents multiple complementary ways to interact with software.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.41432"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.41432",
+        "code": "https://github.com/microsoft/Hybrid-Computer-Use",
+        "model": null,
+        "demo": "https://microsoft.github.io/Hybrid-Computer-Use/"
+      }
+    },
+    {
+      "id": "pyrua-real-framework-translates-robot-exploratio-5a508f",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "PyRUA-REAL framework translates robot exploration into persistent skills",
+      "summary": "A new framework named PyRUA-REAL enables coding agents to turn physical robot exploration into persistent, reusable skills. In testing, the system achieved high success rates across multiple real-world tasks and benchmarks.",
+      "whyItMatters": "It bridges the gap between digital coding agents and physical robotics by automating skill acquisition.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.06768"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.06768",
+        "code": null,
+        "model": null,
+        "demo": "https://dagroup-pku.github.io/PyRUA-Lean/real/"
+      }
+    },
+    {
+      "id": "msafetemp-dataset-improves-safety-alignment-acro-043a21",
+      "createdAt": "2026-11-06T01:49:40.188515+00:00",
+      "headline": "MSafeTemp dataset improves safety alignment across 60 languages",
+      "summary": "Researchers have released MSafeTemp, a large dataset of safety training prompts spanning 60 languages to help AI models manage harmful requests. The study shows that localized safety training improves model performance beyond English-only evaluations.",
+      "whyItMatters": "It helps developers build safer AI models that perform reliably across diverse linguistic and cultural contexts.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.40516"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.40516",
+        "code": "https://github.com/swiss-ai/msafetemp",
+        "model": null,
+        "demo": "https://swiss-ai.github.io/msafetemp"
+      }
     }
   ],
-  "updatedAt": "2026-11-05T20:18:48.471950+00:00"
+  "updatedAt": "2026-11-06T01:49:44.864425+00:00"
 }
