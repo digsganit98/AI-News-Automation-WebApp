@@ -413,7 +413,196 @@
         "model": null,
         "demo": "https://dagroup-pku.github.io/open-humanwam/"
       }
+    },
+    {
+      "id": "moonshot-ai-kimi-k3-1-pro-available-on-amazon-be-317a77",
+      "createdAt": "2026-11-07T01:09:16.226137+00:00",
+      "headline": "Moonshot AI Kimi K3.1 Pro available on Amazon Bedrock",
+      "summary": "Amazon Bedrock now offers the Kimi K3.1 Pro model from Moonshot AI for agentic tasks like coding and document processing. The model includes a 1-million-token context window and provides high output speeds.",
+      "whyItMatters": "It expands the choice of large context models available to developers building high-throughput agentic applications on cloud infrastructure.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-agent-registry-generally-available-in-govclo-b3c6e5",
+      "createdAt": "2026-11-07T01:09:16.226137+00:00",
+      "headline": "AWS Agent Registry generally available in GovCloud US-West",
+      "summary": "AWS has launched the Agent Registry service in the GovCloud US-West region. The service provides a central catalog for organizations to manage AI resources and Model Context Protocol servers.",
+      "whyItMatters": "It helps government and regulated sector organizations securely govern and organize their growing inventories of AI agents and components.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-elemental-mediaconvert-integrates-smart-subt-1360db",
+      "createdAt": "2026-11-07T01:09:16.226137+00:00",
+      "headline": "AWS Elemental MediaConvert integrates Smart Subtitles",
+      "summary": "AWS Elemental MediaConvert now features native integration with Smart Subtitles for automated subtitle generation. This addition allows media workflows to create subtitles directly during video transcoding and packaging.",
+      "whyItMatters": "It automates a routine media production task, reducing the manual effort required for video accessibility and localization.",
+      "category": "Industry Use Case",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "metr-report-finds-ai-accelerating-research-progr-5072f0",
+      "createdAt": "2026-11-07T01:09:16.226137+00:00",
+      "headline": "METR report finds AI accelerating research progress at Anthropic",
+      "summary": "A report from METR shows that AI capabilities progress at Anthropic has doubled in speed over the past year due to AI automation in research workflows. This meets the threshold for accelerated progress outlined in Anthropic's Responsible Scaling Policy.",
+      "whyItMatters": "It provides empirical evidence that recursive self-improvement in AI research and development is beginning to accelerate frontier capability gains.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "memorilla-provides-efficient-latent-semantic-mem-e086e2",
+      "createdAt": "2026-11-07T01:09:16.226137+00:00",
+      "headline": "Memorilla provides efficient latent semantic memory for LLMs",
+      "summary": "Researchers have introduced Memorilla, a system that compresses large document collections into a small number of memory tokens for language models. The approach maintains benchmark performance while using fewer tokens than traditional context window methods.",
+      "whyItMatters": "It offers an efficient alternative for handling large volumes of reference text without scaling raw context windows linearly.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://arxiv.org/abs/2610.21375"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "perplexity-launches-ai-agents-for-professional-t-eb4a2c",
+      "createdAt": "2026-11-07T01:09:16.226137+00:00",
+      "headline": "Perplexity launches AI agents for professional tasks",
+      "summary": "Perplexity has introduced a new suite of AI agents aimed at assisting users with professional work tasks. The provider did not release detailed technical specifications for the agent capabilities in the initial announcement.",
+      "whyItMatters": "It marks another step toward embedding autonomous research and query agents into standard workplace workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-rolls-out-specialized-models-trained-on-mus-eaabe5",
+      "createdAt": "2026-11-07T01:09:16.226137+00:00",
+      "headline": "Meta rolls out specialized models trained on Muse Wonder",
+      "summary": "Meta is shipping new models trained on its frontier Muse Wonder system to all users of its Muse agent and Meta AI. The updates bring features like Active Memory and Active Focus to the free tier, while the full Wonder model remains reserved for subscribers.",
+      "whyItMatters": "It broadens the availability of advanced context and focus capabilities to consumer AI users.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenewstack.io/meta-muse-specialized-models"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-06T19:47:11.831894+00:00"
+  "updatedAt": "2026-11-07T01:09:40.339150+00:00"
 }
