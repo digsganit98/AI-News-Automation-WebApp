@@ -556,6 +556,284 @@
           "checkedAt": "2026-11-07T01:01:51.891851Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-07T10:31:45.885519+00:00",
+      "newItems": 15,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1368,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.889626Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.920117Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 899,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.920489Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.920702Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.920813Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.920930Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921030Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921123Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921211Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921302Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921391Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921434Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921463Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921626Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921654Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921746Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921836Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.921946Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.922039Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.922260Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-07T10:31:45.922358Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.922454Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.923228Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.923328Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-07T10:31:45.923418Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.923506Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.923592Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.923681Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.923770Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.923924Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.924414Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.924538Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.924652Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-07T10:31:45.924682Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1276,7 +1554,213 @@
       },
       "id": "cb9aceeb0a958f04",
       "collectedAt": "2026-11-07T01:01:51.845312+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 2622,
+        "trendingScore": 282,
+        "task": "image-text-to-text"
+      },
+      "id": "d0b5754fb37fce70",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "publishedAt": "2026-11-07T03:04:53Z",
+      "excerpt": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "d62fbfe2fc04f838",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Paper: Achmad Zahir Wajdi, Obed Christian Sanjaya, Takahiro Tamura, Yoshiaki Shinjo, Yusuke…",
+      "url": "https://medium.com/aix-project/paper-achmad-zahir-wajdi-obed-christian-sanjaya-takahiro-tamura-yoshiaki-shinjo-yusuke-9a4d80125c34?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T09:40:17Z",
+      "excerpt": "Highlighting research from AIx{ }: this paper was presented at ICAST 2026 (International Conference on Applied Science and Technology) in… Continue reading on AIx{} Project »",
+      "author": "Yusuke Takahashi PhD",
+      "extra": {},
+      "id": "df5d6d98f29e4ddb",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Make AI Music Videos Inside ChatGPT With Enkio MCP",
+      "url": "https://medium.com/@Authority_Edge/how-to-make-ai-music-videos-inside-chatgpt-with-enkio-mcp-29f9e622864d?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T09:18:38Z",
+      "excerpt": "Announced 5 Nov 2026: attach song + image in ChatGPT/Codex, get storyboard-to-MV. Steps, stack fit, 6 prompts. Continue reading on Medium »",
+      "author": "Authority Edge",
+      "extra": {},
+      "id": "f28152ef17a5f982",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI & ML Roadmap 2026: From Python Basics to Agentic AI in 7 Months",
+      "url": "https://medium.com/@info_39707/ai-ml-roadmap-2026-from-python-basics-to-agentic-ai-in-7-months-2d6a4f075691?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T09:03:24Z",
+      "excerpt": "A stage-by-stage path through Python, backend development, machine learning, Generative AI, AI agents and MLOps. Continue reading on Medium »",
+      "author": "Skill IT",
+      "extra": {},
+      "id": "d353784e81486b7b",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Ontology Makes Natural Language to SQL Smarter: Bridging Business Language and Database Queries",
+      "url": "https://medium.com/@nitinprodduturi/how-ontology-makes-natural-language-to-sql-smarter-bridging-business-language-and-database-queries-8a91abf9898a?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T08:51:01Z",
+      "excerpt": "Imagine asking your business intelligence system, “Which vendors have the highest risk and outstanding payments this quarter?” Continue reading on Medium »",
+      "author": "Nitin Prodduturi",
+      "extra": {},
+      "id": "8748d40f7a7e90ee",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Missing From the Answer",
+      "url": "https://medium.com/@jerrytestone1/missing-from-the-answer-4c694395f395?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T08:47:18Z",
+      "excerpt": "When a buyer asks Claude what to buy, a few pages get cited. Here’s how to become one of them. Continue reading on Medium »",
+      "author": "Just Story",
+      "extra": {},
+      "id": "209b32685ee62d2e",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The AI sell-off compared to well-known stock market crashes",
+      "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+      "publishedAt": "2026-11-07T02:20:06Z",
+      "excerpt": "",
+      "author": "hubraumhugo",
+      "extra": {
+        "points": 64,
+        "comments": 64,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50401029"
+      },
+      "id": "6fdd8412204324f9",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
+      "url": "https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says",
+      "publishedAt": "2026-11-07T04:05:32Z",
+      "excerpt": "they are all the same and we ... are too emotional! and yes we already knew that.",
+      "author": "/u/ab2377",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/"
+      },
+      "id": "b8a3f9441dc917cf",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 & Deep SWE 1.1",
+      "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
+      "publishedAt": "2026-11-07T02:41:59Z",
+      "excerpt": "",
+      "author": "/u/Izento",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/"
+      },
+      "id": "84eda138c905ad13",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "The most scathing reviewer 2 review I have ever read",
+      "url": "https://openreview.net/forum?id=Z7KsI5zMPz",
+      "publishedAt": "2026-11-07T01:30:53Z",
+      "excerpt": "This is not my paper. Not my review either. Official Review of Submission21893 by Reviewer Xz8e Paper Summary: The paper tries to learn correlations among components of each latent state in a world model to propagate the reward sensitivities to adaptively weight the uncertainties that most matter for long-horizon planning via a pessimistic objective. Presentation: 1: Difficult to follow despite careful reading. Informativeness: 1: I learned little or nothing new from this paper. Soundness: 1:…",
+      "author": "/u/MOSFETBJT",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/MachineLearning/comments/1xpu1eq/the_most_scathing_reviewer_2_review_i_have_ever/"
+      },
+      "id": "5e7b690539c869fe",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Thinking Machines unveils Inkling 2 Small model with 594 billion parameters - The Tribune",
+      "url": "https://www.tribuneindia.com/news/business/thinking-machines-unveils-inkling-2-small-model-with-594-billion-parameters",
+      "publishedAt": "2026-11-06T06:07:32Z",
+      "excerpt": "Advertisement\n\nNew Delhi [India], November 6 (ANI): Artificial intelligence startup Thinking Machines Lab announced the launch of its second-generation model, Inkling 2 Small, according to a company blog post. The firm, founded in February 2025 by former OpenAI executive Mira Murati, stated that the new release operates as a Mixture-of-Experts architecture featuring 594 billion total parameters, with 17 billion parameters active during computation. [...] \"Inkling 2 Small far surpasses our…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.759
+      },
+      "id": "589943d0deb95bbe",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI and Anthropic Drop New AI Tools for Cybersecurity, Images and Finance - CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance",
+      "publishedAt": "2026-11-06T18:10:18Z",
+      "excerpt": "Gone are the days when every new AI tool got an immediate general release — and that’s probably for the best. Now, when a major AI lab has a new frontier AI model, it slow-rolls its access, and it starts with cybersecurity defenders. That’s exactly what OpenAI did with its newest model variant, GPT-6 Cyber. [...] OpenAI also added a minor model update to its AI image model, called ChatGPT Images 2.6. The biggest improvement is its speed; OpenAI says the new model is 50% faster than before.…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.469
+      },
+      "id": "dccff733c49e745d",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Thinking Machines’ new model takes the lead in western open-weight AI",
+      "url": "https://tech.yahoo.com/ai/meta-ai/articles/thinking-machines-model-takes-lead-170833373.html",
+      "publishedAt": "2026-11-06T17:00:00Z",
+      "excerpt": "Chinese companies have led the pack on open models over the last few years. Models from DeepSeek and Moonshot regularly top leaderboards and rival the capabilities of much more expensive, closed models from OpenAI and Anthropic.\n\nAdvertisement\n\nAdvertisement [...] Advertisement\n\nSince DeepSeek's R1 performed similarly to OpenAI's o1 in January 2025, Chinese open models have given investors and high-paying enterprise customers reasons to rethink their expensive contracts with US-based labs.…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.393
+      },
+      "id": "2a41e2242dddfc58",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Meta rolls out specialized AI models for better memory and task completion | Superpower Daily",
+      "url": "https://superpowerdaily.com/posts/meta-rolls-out-specialized-ai-models-for-better-memory-and-task-completion",
+      "publishedAt": "2026-11-06T18:49:21Z",
+      "excerpt": "The release is not a rollout of Muse Wonder itself. Meta describes the newcomers as specialized versions of models it already had, trained using Muse Wonder, which it introduced a few weeks earlier. The company identifies two capabilities moving across: Active Memory, for making use of past information, and Active Focus, for continuing toward a goal despite obstacles.\n\n## Memory that weighs what still matters [...] Meta is rolling out specialized AI models to Muse and Meta AI that it says can…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.335
+      },
+      "id": "4e116ea690d840e3",
+      "collectedAt": "2026-11-07T10:31:45.885519+00:00"
     }
   ],
-  "updatedAt": "2026-11-07T01:01:51.845312+00:00"
+  "updatedAt": "2026-11-07T10:31:45.885519+00:00"
 }
