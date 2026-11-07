@@ -834,6 +834,284 @@
           "checkedAt": "2026-11-07T10:31:45.924682Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-07T17:48:34.434311+00:00",
+      "newItems": 13,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1368,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.437661Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.464785Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 899,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465204Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465433Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465537Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465632Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465721Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465801Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465891Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.465970Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466046Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466092Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466120Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466258Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466282Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466365Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466443Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466516Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466586Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.466814Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-07T17:48:34.466945Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.467029Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.467953Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.468041Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-07T17:48:34.468117Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.468194Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.468267Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.468341Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.468416Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.468541Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.469005Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.469103Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.469196Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-11-07T17:48:34.469224Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1760,7 +2038,188 @@
       },
       "id": "4e116ea690d840e3",
       "collectedAt": "2026-11-07T10:31:45.885519+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 384,
+        "trendingScore": 326,
+        "task": "text-generation"
+      },
+      "id": "4c35a47638c473ff",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI: Existential Questions & Cultural Humanity",
+      "url": "https://medium.com/@elliothelt34/ai-existential-questions-cultural-humanity-8f8431604987?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T17:28:20Z",
+      "excerpt": "Here we are again y’all, my second post. I have already learned so much since my last published article. Continue reading on Medium »",
+      "author": "Elliot Lima-Pinto Helt",
+      "extra": {},
+      "id": "19dfb3d328e33313",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Trauma, Agency, & AI",
+      "url": "https://medium.com/@elliothelt34/trauma-agency-ai-58c42c38f1b5?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T17:21:48Z",
+      "excerpt": "Hello world, my name is Elliot and I am transitioning from a five year career as a Marriage and Family Therapist into AI Ethics and… Continue reading on Medium »",
+      "author": "Elliot Lima-Pinto Helt",
+      "extra": {},
+      "id": "07db3a452af348d3",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Foresight: Persistent Relationship Intelligence",
+      "url": "https://medium.com/@potnuruteja15/foresight-persistent-relationship-intelligence-9148f49bb1a1?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T16:21:47Z",
+      "excerpt": "Problem Statement : An executive meeting preparation system powered by Vectorize Hindsight persistent memory banks and Groq high-speed… Continue reading on Medium »",
+      "author": "Potnuruteja",
+      "extra": {},
+      "id": "bcd339956e5ee060",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The AI Seat Is Not the Bill. The Token Is.",
+      "url": "https://licenseware.medium.com/the-ai-seat-is-not-the-bill-the-token-is-7bee0576567b?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T15:24:38Z",
+      "excerpt": "Claude Enterprise and Microsoft 365 Copilot still sell seats. Behind them sits a meter where output costs about five times input, and… Continue reading on Medium »",
+      "author": "LICENSEWARE",
+      "extra": {},
+      "id": "b960c581b2f0ba39",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Search Growth Starts Where the Buyer Makes a Decision",
+      "url": "https://medium.com/@danielwishnia/ai-search-growth-starts-where-the-buyer-makes-a-decision-c3c5d047b796?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-07T14:37:58Z",
+      "excerpt": "Assistants recommend what they can find. A step-by-step walkthrough with Atelier Gardens in Berlin, from buyer question to diagnosis to new Continue reading on Medium »",
+      "author": "Daniel Wishnia",
+      "extra": {},
+      "id": "832041d5c80edb64",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The Components of Agent Memory",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "publishedAt": "2026-11-07T06:39:04Z",
+      "excerpt": "",
+      "author": "geoffbp",
+      "extra": {
+        "points": 117,
+        "comments": 64,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50402212"
+      },
+      "id": "d8887a09bc5ec1d4",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Turkey Uses AI and Other Tech to Claw Back 100 Looted Antiquities from the US",
+      "url": "https://www.artnews.com/art-news/news/turkey-uses-ai-tech-100-looted-antiquities-us-1234804634/",
+      "publishedAt": "2026-11-06T18:19:32Z",
+      "excerpt": "This is just cool! Goes to show you that AI is not inherently bad. Great news!",
+      "author": "/u/ZealousidealOwl2026",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xpk0wl/turkey_uses_ai_and_other_tech_to_claw_back_100/"
+      },
+      "id": "2e7ee8b565b1c48c",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "LangGraph vs CrewAI vs AutoGen vs Agents SDK (2027)",
+      "url": "https://www.masaischool.com/blog/langgraph-vs-crewai-vs-autogen-vs-openai-agents-sdk",
+      "publishedAt": "2026-11-07T09:32:26Z",
+      "excerpt": "As a first agent framework for 2027, the OpenAI Agents SDK has a very small set of core primitives, LangGraph suits explicit control over state and control flow, and CrewAI fits teams of role-based agents. AutoGen is no longer a sensible choice for new work: its README says Microsoft archived it and tells new users to start with Microsoft Agent Framework, which reached version 1.0 on 3 April 2026.\n\n## How do the four frameworks compare on state, tools and status? [...] The README adds that…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.665
+      },
+      "id": "f761e736e9503872",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "GitHub - microsoft/agent-framework-go: A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go. · GitHub",
+      "url": "https://github.com/microsoft/agent-framework-go",
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "excerpt": "## Key Features\n\nExplore new MAF capabilities and real implementation patterns on the official blog.\n\nFor a detailed .NET-to-Go feature comparison, see the .NET and Go SDK feature comparison. In short, the Go SDK covers core agents, tools, middleware, workflows, observability, and interoperability integrations, while .NET currently has broader product integrations and several features that are not implemented yet in Go.",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.575
+      },
+      "id": "1488903b55e7bbbc",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Figma product news and release notes",
+      "url": "https://www.figma.com/release-notes",
+      "publishedAt": "2026-11-07T02:00:00Z",
+      "excerpt": "AI\n\n  Design\n\n  Editing your generative plugins and shaders now creates a new version, preserving previous versions of your tools for you to revisit and restore. Each new version gets an agent-generated description to form a change log and provide a view of which version is currently published. Rolling out this week.\n\n  Learn more about version history for generative plugins and shaders.\n\nLoad more [...] Connectors are now available on all Figma plans, including Starter. Add Google Drive and…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.606
+      },
+      "id": "8e13d25114298eb5",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI deals, trends, and insights | Yahoo Tech Page 22",
+      "url": "https://tech.yahoo.com/ai/deals/22",
+      "publishedAt": "2026-11-06T15:00:00Z",
+      "excerpt": "USA TODAY Opinion\n ### How AI is helping municipal clerks speed up public records reporting\n\n  SmartCities Dive\n ### AI wants to be your wingman\n\n  Axios\n ### Alexa Replaces Rufus as Amazon's AI Shopping Assistant\n\n  CNET\n ### Amazon Swaps Rufus for New 'Alexa for Shopping' Bot: Here's What's New\n\n  PC Mag\n ### A Deranged New Wikipedia Clone Is Made Entirely of Surreal AI Hallucinations\n\n  Futurism\n ### How generative AI ruined the most hyped product launch of 2026",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.56
+      },
+      "id": "9837e362860ad1c9",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Coty Pilots AI Discovery Tech Across Top 6 Brands to Drive Agentic Search Recommendations | Consumer Goods Technology",
+      "url": "https://consumergoods.com/coty-pilots-ai-discovery-tech-across-top-6-brands-drive-agentic-search-recommendations",
+      "publishedAt": "2026-11-06T16:00:00Z",
+      "excerpt": "This also includes a recent partnership with Pencil and the generative AI marketing platform's sister company, Jellyfish, to embed end-to-end generative content capabilities across its consumer beauty brands. It is enabling the company's creative and marketing teams to generate, deploy and optimize images and videos with greater speed, scale and efficiency. [...] The company is working with AI visibility company Brandlight to elevate discovery across AI assistants and generative AI search…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.525
+      },
+      "id": "e768d78ea23ed984",
+      "collectedAt": "2026-11-07T17:48:34.434311+00:00"
     }
   ],
-  "updatedAt": "2026-11-07T10:31:45.885519+00:00"
+  "updatedAt": "2026-11-07T17:48:34.434311+00:00"
 }
