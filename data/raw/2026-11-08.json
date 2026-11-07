@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-08",
+  "runs": [
+    {
+      "runAt": "2026-11-07T22:10:04.356125+00:00",
+      "newItems": 8,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1368,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.358946Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.382576Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 899,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.382856Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383035Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383128Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383212Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383290Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383360Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383428Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383495Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383561Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383594Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383616Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383748Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383771Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383843Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383911Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.383975Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.384037Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.384320Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-07T22:10:04.384443Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.384974Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385064Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385138Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-07T22:10:04.385206Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385270Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385336Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385403Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385472Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385576Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.385977Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.386074Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.386160Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 18,
+          "error": null,
+          "checkedAt": "2026-11-07T22:10:04.386183Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "The End of AI Frontiers",
+      "url": "https://hunch.net/?p=13764006",
+      "publishedAt": "2026-11-07T18:04:07Z",
+      "excerpt": "",
+      "author": "andsoitis",
+      "extra": {
+        "points": 81,
+        "comments": 3,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50406589"
+      },
+      "id": "1eeaf5457cb1a01a",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "llama_moe_cache: run missed experts on CPU, add tuning script by am17an · Pull Request #30966 · ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/30966",
+      "publishedAt": "2026-11-07T16:25:06Z",
+      "excerpt": "This is a significant speedup for MoE offloading (low VRAM people). I tried Strata once, and it had some tuning mechanism, so probably this is a similar idea.",
+      "author": "/u/jacek2023",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqacka/llama_moe_cache_run_missed_experts_on_cpu_add/"
+      },
+      "id": "f0f777bc10c205fa",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Professor returns from lunch to find AI deleted year’s worth of lecture notes",
+      "url": "https://www.dexerto.com/entertainment/professor-returns-from-lunch-to-find-ai-deleted-years-worth-of-lecture-notes-3425652/",
+      "publishedAt": "2026-11-07T15:57:44Z",
+      "excerpt": "",
+      "author": "/u/Away_Theme1330",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xq9os9/professor_returns_from_lunch_to_find_ai_deleted/"
+      },
+      "id": "e28bdd1dfb8e5fe6",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Bank of England pours cold water on AI productivity boom",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
+      "publishedAt": "2026-11-07T10:18:56Z",
+      "excerpt": "",
+      "author": "/u/NISMO1968",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xq34um/bank_of_england_pours_cold_water_on_ai/"
+      },
+      "id": "c8f683bc8f433017",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Humanity's Last Exam: AI Benchmark Guide — CASRAI",
+      "url": "https://casrai.org/guides/humanitys-last-exam",
+      "publishedAt": "2026-11-07T12:17:21Z",
+      "excerpt": "No, Artificial General Intelligence (AGI) does not exist as of late 2026. AGI denotes an autonomous system matching or exceeding human capabilities across economically valuable and intellectual work. While frontier models demonstrate high performance on structured academic tests, benchmark creators emphasize that achieving high accuracy on closed-ended exams like HLE does not constitute AGI. Closed-ended evaluations test convergent problem-solving, whereas general intelligence demands [...]…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.268
+      },
+      "id": "d833ba91539b34c4",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar",
+      "publishedAt": "2026-11-07T11:13:42Z",
+      "excerpt": "According to the paper, none of the 135 submissions from nine current AI agents met all requirements. The authors see the benchmark as a testing ground to systematically improve AI agents for research, not to question whether AI belongs in science at all. [...] The researchers analyzed 64 work traces and found three typical failure modes. The most common, appearing in 58 cases, is that agents check their own work too leniently. In 34 cases, agents spot a problem but document it instead of…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.179
+      },
+      "id": "3142451701d5f0f6",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Wyoming | YourStory",
+      "url": "https://yourstory.com/ai-story/tag/wyoming",
+      "publishedAt": "2026-11-06T11:00:00Z",
+      "excerpt": "6th Nov 2026\n\n  Google plans $17 billion Wyoming data centre for AI\n\n  Artificial Intelligence\n\nADVERTISEMENT\n\n 1\n\nADVERTISEMENT\n\nAdvertise with us\n\n## Trending Topics\n\nFunding NewsIn-FocusFintechNewsStartup NewsOpinionDaily CapsuleFoodTechTechnology News\n\nADVERTISEMENT\n\n# Wyoming\n\n- Google plans $17 billion Wyoming data centre for AI \n\n  6th Nov 2026\n\n  Google plans $17 billion Wyoming data centre for AI\n\n  Artificial Intelligence\n\nADVERTISEMENT\n\n 1 [...] Sidebar is Loading...\n\nYoutstory\n\nA…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.101
+      },
+      "id": "b3c60ea70aea157b",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "What is the Model Context Protocol (MCP)? A beginner's guide",
+      "url": "https://www.masaischool.com/blog/what-is-model-context-protocol-mcp",
+      "publishedAt": "2026-11-07T09:32:53Z",
+      "excerpt": "The Model Context Protocol (MCP) is an open-source standard for connecting AI applications to external systems such as files, databases and tools. Anthropic released it on 25 November 2024 and donated it to the Linux Foundation's Agentic AI Foundation on 9 December 2025. A server describes what it offers, and any MCP-capable application, including Claude Code, Cursor and Visual Studio Code, can use it.\n\n## What problem does MCP solve? [...] On 9 December 2025 Anthropic donated MCP to the…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.722
+      },
+      "id": "665daa7fa0942cbb",
+      "collectedAt": "2026-11-07T22:10:04.356125+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-07T22:10:04.356125+00:00"
+}
