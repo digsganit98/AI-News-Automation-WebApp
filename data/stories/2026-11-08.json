@@ -135,7 +135,196 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "llama-modchip-allows-running-large-ai-models-on-5e9d3f",
+      "createdAt": "2026-11-08T13:49:29.127833+00:00",
+      "headline": "Llama-modchip allows running large AI models on standard CPU hardware",
+      "summary": "A new open-source tool called Llama-modchip enables users to run large language models on standard 64GB RAM computer processors without a dedicated GPU. It uses advanced compression techniques to reduce memory usage and improve processing speeds.",
+      "whyItMatters": "This tool lowers the hardware barrier for running advanced language models locally.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/synchopate/llama-modchip"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": "https://github.com/synchopate/llama-modchip.git",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "proposal-calls-for-a-standard-format-for-ai-agen-76aa42",
+      "createdAt": "2026-11-08T13:49:29.127833+00:00",
+      "headline": "Proposal calls for a standard format for AI agent memory",
+      "summary": "A recent article highlights that different AI coding tools store memory in incompatible formats and prevents them from sharing information. The author argues that the industry needs a shared specification to allow agents to read and use memory across different platforms.",
+      "whyItMatters": "Standardizing agent memory could improve interoperability across different AI development tools.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.lorekit.io/blog/open-agent-memory-format"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "agibot-unveils-go-3-preview-embodied-foundation-e9f7db",
+      "createdAt": "2026-11-08T13:49:29.127833+00:00",
+      "headline": "AGIBOT unveils GO-3 Preview embodied foundation model",
+      "summary": "AGIBOT has released GO-3 Preview, an embodied foundation model that integrates pre-training, post-training, and post-deployment learning. The model secured first-place rankings on three major embodied AI benchmarks to help robots develop general-purpose capabilities.",
+      "whyItMatters": "New embodied foundation models help robots improve general-purpose task performance.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://sguys99.github.io/global-ai-news/en"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "vflash-achieves-faster-visual-planning-for-robot-e9f7db",
+      "createdAt": "2026-11-08T13:49:29.127833+00:00",
+      "headline": "VFlash achieves faster visual planning for robot motion",
+      "summary": "Researchers introduced VFlash, a method that uses Flash Primitive Decoding to predict visual primitive coordinates jointly. This approach achieves faster generation for 3D point motion forecasting and improves task success rates in robot planning.",
+      "whyItMatters": "Faster visual planning helps physical AI systems react and operate more efficiently in real time.",
+      "category": "Research",
+      "importance": 3,
+      "status": "followUp",
+      "followUpOf": "vflash-speeds-up-visual-planning-for-physical-ai-608e1d",
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://sguys99.github.io/global-ai-news/en"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "pyrua-real-framework-reaches-high-success-rate-o-e9f7db",
+      "createdAt": "2026-11-08T13:49:29.127833+00:00",
+      "headline": "PyRUA-REAL framework reaches high success rate on physical tasks",
+      "summary": "A new framework called PyRUA-REAL enables embodied recursive self-improvement through real-world exploration and code refinement. The system achieved a high average success rate across eight real-world tasks by retaining interaction experience as persistent memory.",
+      "whyItMatters": "Recursive self-improvement frameworks help robotic systems learn and adapt from physical tasks more reliably.",
+      "category": "Research",
+      "importance": 3,
+      "status": "followUp",
+      "followUpOf": "pyrua-real-framework-translates-robot-exploratio-5a508f",
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://sguys99.github.io/global-ai-news/en"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "open-source-mcp-server-connects-ai-assistants-to-e9f7db",
+      "createdAt": "2026-11-08T13:49:29.127833+00:00",
+      "headline": "Open-source MCP server connects AI assistants to Roblox Studio",
+      "summary": "A new open-source project called roblox-studio-mcp provides a Model Context Protocol server for Roblox Studio. It allows AI assistants like Claude and Cursor to read object trees, edit scripts, and run playtests safely.",
+      "whyItMatters": "This integration lets developers use popular AI assistants directly within game development environments.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://sguys99.github.io/global-ai-news/en"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-rolls-out-specialized-muse-wonder-trained-m-486f7c",
+      "createdAt": "2026-11-08T13:49:29.127833+00:00",
+      "headline": "Meta rolls out specialized Muse Wonder-trained models to users",
+      "summary": "Meta has shipped specialized models trained with its Muse Wonder frontier model to all Muse and Meta AI users. The company states these new models are less likely to forget critical information and are better at self-correcting everyday tasks.",
+      "whyItMatters": "Deploying frontier-trained models to public users brings advanced self-correction capabilities to everyday applications.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "meta-rolls-out-specialized-models-trained-on-mus-eaabe5",
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://aiweekly.co/alerts/meta-ships-muse-wonder-trained-models-to-all-muse-meta-ai-users"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-08T06:31:54.031568+00:00"
+  "updatedAt": "2026-11-08T13:49:33.436876+00:00"
 }
