@@ -54,7 +54,142 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "nvidia-releases-deployment-recipes-for-leading-k-e18a5f",
+      "createdAt": "2026-11-09T12:01:45.243029+00:00",
+      "headline": "NVIDIA releases deployment recipes for leading Korean open models",
+      "summary": "NVIDIA released optimized deployment recipes for four major open models from South Korea, including A.X K2 and K-EXAONE 2.0. These recipes use the NVIDIA Dynamo framework to help developers run these models across multiple GPUs more efficiently.",
+      "whyItMatters": "Optimized deployment recipes make it easier for developers to efficiently run regional open-source models at scale.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-research-proposes-persistent-behavioral-lear-fa8e67",
+      "createdAt": "2026-11-09T12:01:45.243029+00:00",
+      "headline": "New research proposes persistent behavioral learning for AI agents",
+      "summary": "A new paper addresses the issue that large language model agents often repeat the same mistakes across different sessions. The research introduces a method for agents to learn from corrections and retain behavioral improvements over time.",
+      "whyItMatters": "Persistent behavioral learning helps AI agents improve their long-term reliability and adaptability across different tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.08644"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "heelo-framework-improves-ai-agent-performance-on-621ff9",
+      "createdAt": "2026-11-09T12:01:45.243029+00:00",
+      "headline": "HEELO framework improves AI agent performance on real-world tasks",
+      "summary": "Researchers introduced HEELO, a framework that uses reusable building blocks called agent-native primitives to help AI agents complete complex real-world tasks. The system significantly improved performance on benchmarks such as Terminal-Bench 4.0.",
+      "whyItMatters": "Reusable agent primitives provide a structured approach to building more capable and reliable AI agents.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.07461"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.07461",
+        "code": null,
+        "model": null,
+        "demo": "https://www.heelo.dev/"
+      }
+    },
+    {
+      "id": "study-examines-the-reliability-of-ai-agent-self-24d330",
+      "createdAt": "2026-11-09T12:01:45.243029+00:00",
+      "headline": "Study examines the reliability of AI agent self-improvement",
+      "summary": "A new paper investigates whether improvements in AI agent performance through harness evolution are reliable and transferable. The study evaluates four methods to determine if higher benchmark scores translate into efficient and consistent real-world improvements.",
+      "whyItMatters": "Understanding how agents self-improve ensures that benchmark gains translate into practical, real-world utility.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.07624"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.07624",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "metr-report-examines-anthropic-s-use-of-ai-for-s-786a05",
+      "createdAt": "2026-11-09T12:01:45.243029+00:00",
+      "headline": "METR report examines Anthropic's use of AI for self-development",
+      "summary": "A new report from METR discusses how Anthropic is using AI to accelerate its own development processes. The report highlights recursive self-improvement as a key indicator of artificial general intelligence.",
+      "whyItMatters": "External analysis of AI-driven self-development provides insight into the practical advancement toward advanced AI capabilities.",
+      "category": "AGI",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "metr-report-finds-ai-accelerating-research-progr-5072f0",
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-ai-speed-up-development-metr-report-key-findings-10955551"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-08T19:53:49.020353+00:00"
+  "updatedAt": "2026-11-09T12:02:07.397199+00:00"
 }
