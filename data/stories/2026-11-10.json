@@ -1,0 +1,658 @@
+{
+  "date": "2026-11-10",
+  "stories": [
+    {
+      "id": "amazon-bedrock-managed-knowledge-base-adds-singl-a739df",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Amazon Bedrock Managed Knowledge Base adds single-shot and agentic retrieval options",
+      "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through a new feature called AgenticRetrieveStream. This update allows users to adjust the retrieval effort for each request using a specific parameter.",
+      "whyItMatters": "It gives developers more granular control over retrieval strategies and resource usage in retrieval-augmented generation applications.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "claude-fable-5-2-and-claude-mythos-5-2-available-e3d821",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Claude Fable 5.2 and Claude Mythos 5.2 available on AWS",
+      "summary": "Anthropic has made Claude Fable 5.2 and Claude Mythos 5.2 available on Amazon Bedrock and the Claude Platform on AWS. Fable 5.2 is designed for technical workloads like coding and science, while Mythos 5.2 is available through verification programs for advanced work in cybersecurity and life sciences.",
+      "whyItMatters": "Enterprise users on AWS gain access to specialized Anthropic models tailored for complex technical and security workloads.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-nemotron-3-5-super-vl-available-in-amazon-95f4f7",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "NVIDIA Nemotron 3.5 Super VL available in Amazon SageMaker JumpStart",
+      "summary": "NVIDIA Nemotron 3.5 Super VL, a 120B-parameter multimodal vision-language model, is now available in Amazon SageMaker JumpStart. The model supports text, image, and video inputs for tasks such as document intelligence and computer-use agents.",
+      "whyItMatters": "Developers can easily deploy large multimodal models on AWS for advanced vision and agentic tasks.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-introduces-seven-layer-reference-architectur-c075e2",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "AWS introduces seven-layer reference architecture for enterprise agentic AI",
+      "summary": "AWS has published a seven-layer composable reference architecture for taking enterprise agentic AI from prototype to production on Amazon Bedrock AgentCore. The design allows teams to swap technologies at any layer without redesigning the rest of the system.",
+      "whyItMatters": "It provides organizations with a standardized blueprint to build scalable and modular agentic AI systems.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "crossnokaye-integrates-amazon-bedrock-agentcore-8e89c9",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "CrossnoKaye integrates Amazon Bedrock AgentCore for physical AI in heavy industry",
+      "summary": "CrossnoKaye has integrated its ATLAS platform and AURA agentic system with Amazon Bedrock AgentCore to ground AI reasoning in live plant data. The system runs verifiable Python code in isolated sandboxes to provide engineers with math-backed answers.",
+      "whyItMatters": "It demonstrates how industrial heavy operations can securely utilize agentic AI backed by real-time plant telemetry.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-launches-aws-quick-ai-workspace-for-professi-4e28ba",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "AWS launches AWS Quick AI workspace for professional tasks",
+      "summary": "AWS has introduced AWS Quick as an AI workspace built specifically for work. The platform allows teams to use AI agents to research, analyze, and act across their existing data and applications.",
+      "whyItMatters": "It offers professionals a dedicated environment to deploy collaborative AI agents connected to enterprise data.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "snowflake-internal-audit-team-reduces-fieldwork-73ac2c",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Snowflake internal audit team reduces fieldwork by 50% using AI",
+      "summary": "Snowflake's internal audit team used AI to save thousands of hours a year by cutting fieldwork in half. The company shared practical implementation details on how these AI tools achieved the reduction.",
+      "whyItMatters": "It highlights measurable productivity gains from deploying AI assistants within enterprise internal audit workflows.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-internal-audit"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-makes-gke-dynamic-slicing-for-tpus-6685ae",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Google Cloud makes GKE dynamic slicing for TPUs generally available",
+      "summary": "Google has made Dynamic Slicing generally available on Google Kubernetes Engine to separate the creation of logical TPU slices from physical node provisioning. This feature aims to improve resilience and efficiency for large-scale AI workloads.",
+      "whyItMatters": "It improves infrastructure reliability and flexibility for managing heavy machine learning workloads on Kubernetes.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-dynamic-slicing-on-tpus/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-introduces-muse-ember-efficient-reasoning-m-feb2ba",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Meta introduces Muse Ember efficient reasoning model",
+      "summary": "Meta has released Muse Ember, a small and efficient model designed for reasoning, tool calls, and coding subtasks. It is available on the Meta Model API at competitive token pricing.",
+      "whyItMatters": "It provides developers with a cost-effective, lightweight model option for routine agentic and coding tasks.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Meta",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://research.meta.ai/blog/muse-ember"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meituan-releases-longcat-2-5-multimodal-model-wi-93958f",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Meituan releases LongCat-2.5 multimodal model with 1.6 trillion parameters",
+      "summary": "Meituan has introduced LongCat-2.5, a native multimodal model featuring 1.6 trillion total parameters built for long-horizon agentic tasks. The model combines visual understanding with agentic coding capabilities for complex development workflows.",
+      "whyItMatters": "It represents another large-scale architecture optimized for complex, extended agentic reasoning across text and visuals.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://huggingface.co/meituan-longcat/LongCat-2.5"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-expands-tpu-portfolio-with-8tx-and-8i-max-d38ba6",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Google expands TPU portfolio with 8tx and 8i Max systems",
+      "summary": "Google has introduced two new TPU systems, including the TPU 8tx for secure inference and the TPU 8i Max for massive context windows and high compute density. This marks the first time Google has released four TPU systems in a single year.",
+      "whyItMatters": "It expands hardware choices for specialized requirements like confidential inference and high-density compute workloads.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-makes-chatgpt-enterprise-available-on-aws-9c3315",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "OpenAI makes ChatGPT Enterprise available on AWS Marketplace",
+      "summary": "Organizations can now purchase ChatGPT Enterprise through the AWS Marketplace using their existing billing and procurement systems. This integration simplifies onboarding and administrative management for corporate users.",
+      "whyItMatters": "Expanding availability to major cloud marketplaces lowers procurement hurdles for enterprise deployment.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-develops-control-room-system-to-monitor-m-f37b68",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "OpenAI develops Control Room system to monitor model workloads",
+      "summary": "OpenAI has introduced a system called Control Room to track AI model workloads across its infrastructure. The tool provides the capability to rapidly halt workloads if safety or security concerns arise.",
+      "whyItMatters": "Automated workload monitoring tools help labs maintain operational safety and respond quickly to emerging risks.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/control-room"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "coderabbit-reports-20x-throughput-increase-using-23b94c",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "CodeRabbit reports 20x throughput increase using AI code verification",
+      "summary": "CodeRabbit utilizes OpenAI models to manage and verify AI-generated code during software development. The company states that this verification workflow allows its engineering team to ship code 20 times faster.",
+      "whyItMatters": "Automated verification pipelines help engineering teams scale software output without sacrificing code reliability.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "kuken-industries-uses-ai-api-to-search-decades-o-932fe3",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Kuken Industries uses AI API to search decades of technical drawings",
+      "summary": "Kuken Industries integrated the OpenAI API to search through 70 years of historical cooling tower drawings. Engineers can now locate specific repair diagrams in 4.5 minutes instead of nearly an hour.",
+      "whyItMatters": "Applying language models to legacy document archives dramatically speeds up industrial engineering workflows.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/kuken"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "pcbrouteagent-evaluates-language-model-performan-186e51",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "PCBRouteAgent evaluates language model performance on PCB routing",
+      "summary": "Researchers introduced PCBRouteAgent to automate printed circuit board routing tasks. The paper investigates how effectively language model agents handle complex geometric and connectivity requirements.",
+      "whyItMatters": "Testing spatial reasoning benchmarks helps determine the readiness of agents for specialized hardware design tasks.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.08175"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.08175",
+        "code": "https://github.com/chip-ai-agent/PCBRouteAgent",
+        "model": null,
+        "demo": "https://chip-ai-agent.github.io/research/pcbrouteagent/"
+      }
+    },
+    {
+      "id": "lowram-memory-compression-technique-increases-de-e0595d",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "LowRAM memory compression technique increases decoding throughput",
+      "summary": "Researchers developed LowRAM, a memory compression technique that predicts values from keys and uses low-rank compression. The method achieves up to 5 times higher decoding throughput while maintaining model accuracy.",
+      "whyItMatters": "Efficient memory management techniques reduce the hardware footprint and latency of large-scale text generation.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.07025"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.07025",
+        "code": "https://github.com/lowram-model/lowram",
+        "model": null,
+        "demo": "https://lowram-model.github.io/"
+      }
+    },
+    {
+      "id": "new-study-benchmarks-llm-self-knowledge-for-fina-2c6bc4",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "New study benchmarks LLM self-knowledge for financial backtesting",
+      "summary": "A new research paper evaluates how well large language models can identify what they do not know. This self-awareness is critical for financial backtesting, where models must avoid relying on training data from the future.",
+      "whyItMatters": "Evaluating model self-knowledge improves the reliability of predictive systems used in quantitative finance.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.06808"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.06808",
+        "code": null,
+        "model": null,
+        "demo": "https://huggingface.co/spaces/TheFinAI/FinDendro"
+      }
+    },
+    {
+      "id": "video-coder-applies-reinforcement-learning-to-ai-454d9c",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Video-Coder applies reinforcement learning to AI video generation",
+      "summary": "Researchers introduced Video-Coder, a reinforcement learning method designed to improve AI video generation. The approach focuses on producing videos with precise spatial structures and consistent motion dynamics.",
+      "whyItMatters": "Reinforcement learning techniques help generative video models maintain physical and spatial coherence over time.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.09894"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.09894",
+        "code": "https://github.com/CYWang735/Video-Coder",
+        "model": null,
+        "demo": "https://cywang735.github.io/Video-Coder/"
+      }
+    },
+    {
+      "id": "agentbaton-introduces-efficient-model-collaborat-46563d",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "AgentBaton introduces efficient model collaboration for agentic tasks",
+      "summary": "Researchers presented AgentBaton, a method that allows language agents to collaborate on long-term workflows. The approach balances operational performance and cost by pairing capable cloud models with smaller, efficient alternatives.",
+      "whyItMatters": "Multi-agent coordination strategies help reduce inference costs without degrading task performance.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2610.35959"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2610.35959",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-explores-weight-space-programming-for-reas-a52220",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Study explores Weight-Space Programming for reasoning agents",
+      "summary": "Researchers investigated Weight-Space Programming, an alternative approach that allows reasoning agents to directly inspect and modify neural network parameters. The study evaluates the capabilities and limitations of this parameter-level adaptation method.",
+      "whyItMatters": "Direct weight manipulation opens up new paradigms for how reasoning agents adapt and learn during execution.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.09382"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.09382",
+        "code": "https://github.com/WSP-Scope/WSP-Scope-Project",
+        "model": null,
+        "demo": "https://wsp-scope.github.io/"
+      }
+    },
+    {
+      "id": "analysis-characterizes-anthropic-claude-fable-5-98d5b7",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Analysis characterizes Anthropic Claude Fable 5.2 as Jagged AGI",
+      "summary": "A new commentary examines Anthropic's Claude Fable 5.2, describing it as an almost-AGI model with uneven capabilities. The author argues that while advanced, the system still exhibits significant performance gaps compared to human experts.",
+      "whyItMatters": "Highlighting the uneven capabilities of frontier models helps set realistic expectations for enterprise deployments.",
+      "category": "AGI",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "One Useful Thing",
+          "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "handshake-ai-reaches-1b-revenue-providing-specia-efd1a1",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Handshake AI reaches $1B revenue providing specialized data to AI labs",
+      "summary": "Podcast discussions reveal that Handshake AI has reached $1 billion in annualized revenue by supplying specialized training data and reinforcement learning environments to major AI labs. The report also highlights domains like biology and coding where models still trail human accuracy.",
+      "whyItMatters": "The high demand for specialized training data underscores the critical role of data curation in frontier model development.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/handshake/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-finds-google-ai-mode-reduces-click-through-10aac1",
+      "createdAt": "2026-11-09T22:50:40.543927+00:00",
+      "headline": "Study finds Google AI Mode reduces click-through rates by 18.8 points",
+      "summary": "A seven-day experiment with 1,100 users showed that Google’s AI Mode lowered click-through rates by 18.8 points compared with the standard interface. The test was run without ads, though Google has since added ad formats to the feature.",
+      "whyItMatters": "The result suggests AI-driven search interfaces can significantly change user engagement patterns.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Medium (generative-ai)",
+          "url": "https://generativeai.pub/google-ai-mode-cut-clicks-by-18-8-points-the-test-showed-no-ads-6ce32998f069?source=rss------generative_ai-5"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-09T22:50:52.321724+00:00"
+}
