@@ -1,0 +1,640 @@
+{
+  "date": "2026-11-11",
+  "runs": [
+    {
+      "runAt": "2026-11-10T23:37:41.526377+00:00",
+      "newItems": 26,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1376,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.531264Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.565478Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 902,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.565746Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.566037Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.566195Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.566348Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.566493Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.566634Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.566773Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.566932Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567073Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567125Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567167Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567382Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567426Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567568Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567709Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.567877Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.568047Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.568294Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-10T23:37:41.568446Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.568592Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.569318Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.569477Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-10T23:37:41.569625Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.569769Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.569931Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.570075Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.570215Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.570416Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.570980Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.571154Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.571320Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-10T23:37:41.571367Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "publishedAt": "2026-11-10T10:00:00Z",
+      "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "author": null,
+      "extra": {},
+      "id": "5ca4dc7b6d88cb31",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "publishedAt": "2026-11-10T20:52:56Z",
+      "excerpt": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, […] The post Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents appeared first on Microsoft Research .",
+      "author": "Dimitris Papailiopoulos",
+      "extra": {},
+      "id": "974373c40fc72273",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: MiniMaxAI/MiniMax-H3-Image",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 363,
+        "trendingScore": 362,
+        "task": "text-to-image"
+      },
+      "id": "1f1dbabb56c455a1",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
+      "publishedAt": "2026-11-10T23:34:05Z",
+      "excerpt": "The Web Search API in Amazon Bedrock AgentCore gives agents current, cited web results signed with the AWS credentials they already use. In this post, build a daily dependency watcher as a LangGraph graph that researches package ecosystems in parallel, keeps its rules in code, and checks every finding against its cited sources.",
+      "author": "Sundar Raghavan",
+      "extra": {},
+      "id": "55fb77d5f91b9928",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
+      "publishedAt": "2026-11-10T22:35:03Z",
+      "excerpt": "When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows how to evaluate agents on Amazon Bedrock AgentCore with built-in, DeepEval, and AutoEval evaluators, and how to match each behavior that matters to the right evaluator at the right level.",
+      "author": "Bharathi Srinivasan",
+      "extra": {},
+      "id": "14f6b8b420073dc3",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+      "publishedAt": "2026-11-10T18:11:08Z",
+      "excerpt": "Learn how Trovata built autonomous treasury agents on Amazon Bedrock and Amazon Bedrock AgentCore, using an RBAC-secured architecture for bank-branded AI deployment and agentic workflows that move corporate treasury from manual operations to real-time decision-making at enterprise scale.",
+      "author": "Kushal Mangtani",
+      "extra": {},
+      "id": "cd0c3adea5a38d8b",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "Unity Catalog Metric Views, now in Power BI: one unified, governed semantic layer for all your reporting and AI",
+      "url": "https://www.databricks.com/blog/unity-catalog-metric-views-now-power-bi-one-unified-governed-semantic-layer-all-your-reporting",
+      "publishedAt": "2026-11-10T18:45:00Z",
+      "excerpt": "Organizations want a single, trusted definition of their business semantics. Revenue,...",
+      "author": null,
+      "extra": {},
+      "id": "5c7174c45ad1d8f3",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "url": "https://latent.space/p/resend/",
+      "publishedAt": "2026-11-10T20:05:17Z",
+      "excerpt": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "2ec4f6ad3a8db2e8",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "publishedAt": "2026-11-10T18:56:32Z",
+      "excerpt": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+      "author": "Gabriele Beltramo",
+      "extra": {},
+      "id": "3e1919c777ea2db3",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "ai-snake-oil",
+      "sourceName": "AI Snake Oil",
+      "title": "The missing quadrant in responses to AI",
+      "url": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+      "publishedAt": "2026-11-10T18:37:42Z",
+      "excerpt": "Announcing STABL: Societal Transformation and AI Bottlenecks Lab",
+      "author": "Sayash Kapoor",
+      "extra": {},
+      "id": "d0eedee52218dbf0",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Your AI Video Workflow Needs a Model Exit Plan",
+      "url": "https://medium.com/@udit.rawat03/your-ai-video-workflow-needs-a-model-exit-plan-a40b3e8a8cf6?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-10T20:26:06Z",
+      "excerpt": "When a generation API disappears, preserved intent, assets, approvals, and fallback criteria keep the production alive. Continue reading on Medium »",
+      "author": "Udit Rawat",
+      "extra": {},
+      "id": "98ae38b90803c379",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Can the Source Support the AI Answer You’re About to Use?",
+      "url": "https://medium.com/@backtrue_24010/can-the-source-support-the-ai-answer-youre-about-to-use-5ca79d2dda25?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-10T18:38:59Z",
+      "excerpt": "Audit one consequential claim against the exact passage, scope and date behind its citation. Continue reading on Medium »",
+      "author": "YuTing Chiu",
+      "extra": {},
+      "id": "2c3cad9b53856aab",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "publishedAt": "2026-11-10T21:25:03Z",
+      "excerpt": "",
+      "author": "linolevan",
+      "extra": {
+        "points": 77,
+        "comments": 35,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50446520"
+      },
+      "id": "77d255b4e9ac58d2",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "publishedAt": "2026-11-10T18:01:15Z",
+      "excerpt": "",
+      "author": "paulirish",
+      "extra": {
+        "points": 223,
+        "comments": 63,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50443812"
+      },
+      "id": "5175b6a2b765750a",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "publishedAt": "2026-11-10T17:55:07Z",
+      "excerpt": "",
+      "author": "Yorothegoat",
+      "extra": {
+        "points": 145,
+        "comments": 111,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50443716"
+      },
+      "id": "7737e173e31a5988",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Life on Claude Nine",
+      "url": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+      "publishedAt": "2026-11-10T17:44:44Z",
+      "excerpt": "",
+      "author": "reasonableklout",
+      "extra": {
+        "points": 75,
+        "comments": 50,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50443587"
+      },
+      "id": "dfad3e6674c2521c",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic to Seek $1.3T Valuation in IPO",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
+      "publishedAt": "2026-11-10T12:49:32Z",
+      "excerpt": "",
+      "author": "sonabinu",
+      "extra": {
+        "points": 59,
+        "comments": 82,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50439616"
+      },
+      "id": "a27532638c556bde",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+      "url": "https://arxiv.org/abs/2611.10866",
+      "publishedAt": "2026-11-10T19:44:57Z",
+      "excerpt": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with verifiable rewards, supervised fine-tuning, and on-policy distillation. Our method, Deletion Tuning, learns a binary mask over the gate projection of transformer blocks. Two practical advantages follow:…",
+      "author": "/u/Thrumpwart",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/"
+      },
+      "id": "9c66210f6a51f5ee",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Reuters: \"The CEO's relationship with Alice Huang helped facilitate shipments of at least $7.5 billion worth of Nvidia chips to Chinese firms\"",
+      "url": "https://www.reuters.com/world/china/nvidia-ceos-affair-aided-75-billion-chip-shipments-china-information-reports-2026-11-10/",
+      "publishedAt": "2026-11-10T18:19:20Z",
+      "excerpt": "",
+      "author": "/u/SnoozeDoggyDog",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xsucqc/reuters_the_ceos_relationship_with_alice_huang/"
+      },
+      "id": "859e6a450d1e0b69",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Gemini 4 Argon and Carbon score 91.7% and 92.6% on SimpleBench respectively. But Claude Fable 5.2 scores 94.9%, putting it in the lead instead.",
+      "url": "https://simple-bench.com/",
+      "publishedAt": "2026-11-10T17:57:58Z",
+      "excerpt": "",
+      "author": "/u/Profanion",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xstr95/gemini_4_argon_and_carbon_score_917_and_926_on/"
+      },
+      "id": "aaaedd31c43d1228",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI 2027 Authors update timeline and urge \"pacing\" to slow the progress of humanity, laughably.",
+      "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+      "publishedAt": "2026-11-10T16:28:13Z",
+      "excerpt": "",
+      "author": "/u/The_Scout1255",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xsrdfl/ai_2027_authors_update_timeline_and_urge_pacing/"
+      },
+      "id": "f9adcb20139dc1dc",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Claude Fable 5.2 coordinated more than 1,000 AI agents to build a working operating system in eight days",
+      "url": "https://interestingengineering.com/ai-robotics/anthropic-claude-fable-5-2-operating-system",
+      "publishedAt": "2026-11-10T14:37:40Z",
+      "excerpt": "In an internal Anthropic experiment, Claude Fable 5.2 received a basic prompt and an empty project folder, then coordinated more than 1,000 subagents to write, test and review an operating system over eight days. The resulting system reportedly booted on a laptop and included a custom kernel, hardware drivers, persistent file storage, a graphical interface, login screen and installer. Anthropic also says the model designed three functional electronic devices and helped migrate a production…",
+      "author": "/u/Spirited-Sir-3034",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xsoidy/claude_fable_52_coordinated_more_than_1000_ai/"
+      },
+      "id": "083f7d63c55f76aa",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "AI-powered Lean proof for tax code loopholes",
+      "url": "https://lexifina.com/blog/searching-the-tax-code-for-loopholes",
+      "publishedAt": "2026-11-10T00:00:54Z",
+      "excerpt": "extremely serious post",
+      "author": "/u/SnooPeripherals5313",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xs839w/aipowered_lean_proof_for_tax_code_loopholes/"
+      },
+      "id": "c4220b238445b0ae",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "ai-explained",
+      "sourceName": "AI Explained",
+      "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
+      "url": "https://www.youtube.com/watch?v=583ThJIqQ7k",
+      "publishedAt": "2026-11-10T23:11:36Z",
+      "excerpt": "I’ve read the full Fable 5.2 report at 264 pages, the 30 page METR RSI report, and tested Gemini Carbon and Fable 5.2 hundreds of times. There’s too much to cover in one video, but let’s explore everything from how fast AI is accelerating AI, five benchmarks few others will talk about, why Simple Bench got saturated but meta-simple bench might not have, Internal model 4, remote labour automation and much more\n\nhttps://www.assemblyai.com/aiexplained\n\nExclusive Vids($9!):…",
+      "author": "AI Explained",
+      "extra": {},
+      "id": "a7aef69f09c296a0",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Advanced Prompt Engineering Techniques for LLM Applications",
+      "url": "https://www.premieritsolutions.com/blogs/advanced-prompt-engineering-techniques-llm-applications",
+      "publishedAt": "2026-11-09T17:04:00Z",
+      "excerpt": "The model works through intermediate steps before answering.\n\nHow it works\n\nWei et al. (2022) reported better results on arithmetic and multi-step reasoning tasks when large models were prompted to show their steps.\n\nImplementation\n\nAsk for step-by-step reasoning, then a fixed marker such as `ANSWER:` that your code can parse.\n\nExample\n\nA billing assistant calculating a prorated refund.\n\nUse it when\n\nThe task involves calculations, policy logic or several constraints at once.\n\nLimits [...]…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.705
+      },
+      "id": "a64e747392095166",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "From Prompt Engineering to Programmatic Prompting: Toward a Software Engineering Discipline for Large Language Models",
+      "url": "https://arxiv.org/html/2611.09896v1",
+      "publishedAt": "2026-11-10T11:00:00Z",
+      "excerpt": "Disciplines are born when a community stops asking “how do I make this work once?” and starts asking “how do we make this keep working?” Prompting is crossing that line now. This paper has argued that the crossing deserves a discipline—programmatic prompting—a body of practice distinct from the interaction technique of prompt engineering, from the model-adaptation methods of prompt tuning and fine-tuning, and from the encompassing activity of LLM application development. We have proposed a…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.613
+      },
+      "id": "4bb31e260bd728df",
+      "collectedAt": "2026-11-10T23:37:41.526377+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-10T23:37:41.526377+00:00"
+}
