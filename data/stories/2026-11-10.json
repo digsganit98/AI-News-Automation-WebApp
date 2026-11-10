@@ -652,7 +652,169 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-launches-web-search-api-for-amazon-bedrock-a-919304",
+      "createdAt": "2026-11-10T07:44:22.086153+00:00",
+      "headline": "AWS launches Web Search API for Amazon Bedrock AgentCore",
+      "summary": "AWS has made the Web Search API generally available on Amazon Bedrock AgentCore for $7 per 1,000 queries. The service allows developers to retrieve ranked web search results with domain and publication time filtering via a single API call.",
+      "whyItMatters": "It gives developers a native, cost-effective way to integrate up-to-date web retrieval into enterprise agents.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "sage-taiyi-metacognitive-architecture-improves-s-930c9f",
+      "createdAt": "2026-11-10T07:44:22.086153+00:00",
+      "headline": "Sage-Taiyi metacognitive architecture improves scientific discovery",
+      "summary": "Researchers introduced Sage-Taiyi, an AI system that uses metacognitive strategies to guide scientific investigation by monitoring evidence and adapting research targets. The system achieved top scores on Taiyi-Bench and improved chemical reaction yields in experiments.",
+      "whyItMatters": "It demonstrates how metacognitive monitoring can improve the reliability of AI systems in complex real-world scientific workflows.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.12762"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.12762",
+        "code": "https://github.com/Alpha-Innovator/Sage-Taiyi",
+        "model": null,
+        "demo": "https://alpha-innovator.github.io/Sage-Taiyi/"
+      }
+    },
+    {
+      "id": "worldfoundry-provides-infrastructure-for-generat-780eb5",
+      "createdAt": "2026-11-10T07:44:22.086153+00:00",
+      "headline": "WorldFoundry provides infrastructure for generative world models",
+      "summary": "WorldFoundry is an open-source framework designed to standardize the evaluation of generative world models across video, 3D, and interactive systems. It features tools for reproducible inference and ensures that model performance claims trace to specific benchmarks.",
+      "whyItMatters": "It establishes a standardized evaluation baseline for multi-modal generative world models.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.10771"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.10771",
+        "code": "https://github.com/OpenEnvision/WorldFoundry",
+        "model": null,
+        "demo": "https://openenvision.org/WorldFoundry/"
+      }
+    },
+    {
+      "id": "a2-meas-framework-improves-robot-control-through-97138d",
+      "createdAt": "2026-11-10T07:44:22.086153+00:00",
+      "headline": "A2-MEAS framework improves robot control through learned corrections",
+      "summary": "A2-MEAS is an embodied multi-agent framework that uses learned correction codes to handle failures and adapt robot behavior. The system achieved high success rates on standard robotics benchmarks and real-world household tasks.",
+      "whyItMatters": "It offers a systematic approach to error handling and autonomy for physical robotics applications.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.09124"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.09124",
+        "code": "https://github.com/AutoLab-SAI-SJTU/A2MEAS",
+        "model": null,
+        "demo": "https://a2-meas.github.io/"
+      }
+    },
+    {
+      "id": "frontier3dbench-benchmarks-coding-agents-for-3d-aed758",
+      "createdAt": "2026-11-10T07:44:22.086153+00:00",
+      "headline": "Frontier3DBench benchmarks coding agents for 3D creation",
+      "summary": "Frontier3DBench evaluates coding agents on their ability to create 3D objects, scenes, and interactive environments. The benchmark unifies evaluation tasks that were previously scattered across disparate datasets.",
+      "whyItMatters": "It provides a clear evaluation standard for automated 3D content generation and coding agents.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.09017"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.09017",
+        "code": null,
+        "model": null,
+        "demo": "https://lab.einsia.ai/frontier3dbench/"
+      }
+    },
+    {
+      "id": "redis-releases-open-source-package-for-vercel-ai-5a0db0",
+      "createdAt": "2026-11-10T07:44:22.086153+00:00",
+      "headline": "Redis releases open-source package for Vercel AI SDK agent memory",
+      "summary": "Redis has launched an open-source package to integrate Redis Agent Memory with agents built using the Vercel AI SDK. The tool supports short-term session memory and long-term user memory across multiple conversations.",
+      "whyItMatters": "It simplifies persistent context management for developers building application agents.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://redis.io/blog/give-your-vercel-ai-sdk-agents-memory-with-redis-agent-memory"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-09T22:50:52.321724+00:00"
+  "updatedAt": "2026-11-10T07:44:28.318730+00:00"
 }
