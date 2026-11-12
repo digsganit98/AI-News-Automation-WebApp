@@ -1,0 +1,675 @@
+{
+  "date": "2026-11-12",
+  "runs": [
+    {
+      "runAt": "2026-11-12T00:55:16.361046+00:00",
+      "newItems": 29,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1381,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.366324Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.403185Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 904,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.403586Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.403960Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.404181Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.404359Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.404520Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.404668Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.404812Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.404956Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405100Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405188Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405239Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405502Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405551Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405704Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405853Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.405996Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.406197Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.406550Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-12T00:55:16.406724Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.406888Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.407828Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.407982Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-12T00:55:16.408126Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.408292Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.408434Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.408578Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.408720Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.408928Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.409548Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.409724Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.409893Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-12T00:55:16.409966Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "author": null,
+      "extra": {},
+      "id": "8c999d6885d24711",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Embodied First Exam",
+      "url": "https://huggingface.co/papers/2611.12177",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "excerpt": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluation framework where coding agents can choose their own control approach: direct control, code to…",
+      "author": "Kangrui Wang, Qineng Wang, Changhe Chen, Pingyue Zhang, Chi Gui, Feishi Wang, Canyu Chen, Wenli Xiao, Xiaoyu Huang, Tonghe Zhang, Linjie Li, Zihan Wang, Minyeong Kim, Yiyou Sun, Mingkai Deng, Jinyu Hou, Qi Zhu, Han Liu, Eric P. Xing, Huaxiu Yao, Zhiwen Fan, Yuejiang Liu, Dawn Song, Pieter Abbeel, Li Fei-Fei, Jiajun Wu, Yuke Zhu, Guanya Shi, Ruohan Zhang, Manling Li",
+      "extra": {
+        "upvotes": 19,
+        "githubRepo": "https://github.com/mll-lab-nu/embodied-first-exam",
+        "projectPage": "https://www.embodied-first-exam.ai/",
+        "arxivUrl": "https://arxiv.org/abs/2611.12177"
+      },
+      "id": "1444e722ae2d0e03",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Ornith-1.0-9B and Ornith-1.0-35B models now available on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-11-11T23:36:00Z",
+      "excerpt": "DeepReinforce AI's Ornith-1.0-9B and Ornith-1.0-35B models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These two models are part of the Ornith 1.0 family of open-source, self-scaffolding agentic coding models released under the MIT license, achieving state-of-the-art performance among open-source models of comparable size on coding benchmarks such as Terminal-Bench 2.1, SWE-Bench, NL2Repo, and OpenClaw. These models…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "f3cf1418c9269a8d",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models now available on Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+      "publishedAt": "2026-11-11T23:18:00Z",
+      "excerpt": "DeepSeek's DeepSeek-V4-Pro, DeepSeek-V4-Flash, and DeepSeek-V4.1-Flash models are now available on Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three open-weight Mixture-of-Experts (MoE) language models, released under the MIT license, deliver frontier-class performance across reasoning, coding, and agentic workloads while activating only a fraction of their total parameters per token, enabling high efficiency at scale. These models…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "2a6900735adaed7f",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "OpenAI Codex on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+      "publishedAt": "2026-11-11T23:35:47Z",
+      "excerpt": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+      "author": "Shivi Bhatia",
+      "extra": {},
+      "id": "0566809c65753b53",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+      "publishedAt": "2026-11-11T23:33:03Z",
+      "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+      "author": "Ferhat Erata",
+      "extra": {},
+      "id": "cf5ad5ad4907d72b",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+      "publishedAt": "2026-11-11T23:30:03Z",
+      "excerpt": "Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to automatic recovery for replacement.",
+      "author": "Siddharth Senger",
+      "extra": {},
+      "id": "005484e05b9e6189",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-11-11T23:13:16Z",
+      "excerpt": "Today we're announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.",
+      "author": "Shubham Divekar",
+      "extra": {},
+      "id": "263d7dc4e1e25dd6",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "ICYMI: What landed for AI builders in October 2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+      "publishedAt": "2026-11-11T22:26:40Z",
+      "excerpt": "A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.",
+      "author": "Tymofii Kryvtsun",
+      "extra": {},
+      "id": "8b208eddf6e27264",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "The attendee’s guide to the AWS re:Invent 2026 AI/ML track",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+      "publishedAt": "2026-11-11T21:05:59Z",
+      "excerpt": "AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee's guide helps you find the breakouts, chalk talks, workshops, and builders' sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.",
+      "author": "Markus Adhiwiyogo",
+      "extra": {},
+      "id": "6dbf5bd5b92f8aef",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+      "publishedAt": "2026-11-11T20:52:48Z",
+      "excerpt": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.",
+      "author": "Prachi Kulkarni",
+      "extra": {},
+      "id": "3beb9de1922ea0ed",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
+      "publishedAt": "2026-11-11T20:45:45Z",
+      "excerpt": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
+      "author": "Asif Fouzi",
+      "extra": {},
+      "id": "2f5ac4847b023025",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "Databricks Doubles Down on AI Products, Opens New 235,000-Square-Foot San Francisco Headquarters",
+      "url": "https://www.databricks.com/blog/databricks-doubles-down-ai-products-opens-new-235000-square-foot-san-francisco-headquarters",
+      "publishedAt": "2026-11-11T18:20:00Z",
+      "excerpt": "Last week, we opened our new headquarters at One Sansome Street in San Francisco,...",
+      "author": null,
+      "extra": {},
+      "id": "821ab7bc8d45584c",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "AI in Finance: Snowflake Expedition 2026 Recap for CFOs",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-sales-transformation-expedition",
+      "publishedAt": "2026-11-11T20:58:00Z",
+      "excerpt": "Learn about Expedition 2026 sessions built for CFOs, from AI-driven close and forecasting to audit, tax and AI cost governance. Now available on demand.",
+      "author": "Snowflake",
+      "extra": {},
+      "id": "4954d88cc3999bcf",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "AI Cost Management: Why Cost Per Token Is the Wrong Metric",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-cost-management-beyond-cost-per-token",
+      "publishedAt": "2026-11-10T20:58:00Z",
+      "excerpt": "Enterprise AI spend keeps rising. Learn why cost per correct governed outcome — not cost per token — is the metric that matters for FinOps teams scaling AI",
+      "author": "Simar Arora, Tehzeeb Versey-Patel, Tom Christian",
+      "extra": {},
+      "id": "b10f78615032adcc",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Check if ChatGPT Recommends Your Brand (or Your Competitors)",
+      "url": "https://medium.com/@fernandoribeiro.fr200/how-to-check-if-chatgpt-recommends-your-brand-or-your-competitors-37661c3f4789?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-12T00:11:29Z",
+      "excerpt": "More and more people skip Google and ask an AI assistant instead: “What’s the best CRM for a small business?”, “Which project management… Continue reading on Medium »",
+      "author": "Fernando Ribeiro",
+      "extra": {},
+      "id": "76adcb3236670750",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "A Pizza Chain's TikTok Ad Went Out Without Approval. The Cause Was One Setting.",
+      "url": "https://medium.com/design-bootcamp/a-pizza-chains-tiktok-ad-went-out-without-approval-the-cause-was-one-setting-b422d0143161?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-11T22:06:09Z",
+      "excerpt": "Pizza-La says an AI ad feature was left switched on. If your product's AI can publish for a customer, the default is the product decision. Continue reading on Bootcamp »",
+      "author": "Amajuoyi Udochukwu Deborah",
+      "extra": {},
+      "id": "9428db3025f7a51b",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Medium Built an AI Writing App That Promises Not to Write for You",
+      "url": "https://medium.com/@harish_75257/medium-built-an-ai-writing-app-that-promises-not-to-write-for-you-2556ec993664?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-11T20:07:14Z",
+      "excerpt": "TK puts an assistant inside the editor, behind two letters every writer already uses. Continue reading on Medium »",
+      "author": "Harish",
+      "extra": {},
+      "id": "3698039838d66f9c",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Agent Hit the Goal. It Also Broke the Rules.",
+      "url": "https://medium.com/@vanshmani389/the-agent-hit-the-goal-it-also-broke-the-rules-d18876ded46c?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-11T19:20:07Z",
+      "excerpt": "Why “right-means” authorization is the next hard problem in enterprise AI, and how to build it in Azure AI Foundry Continue reading on Medium »",
+      "author": "Vanshmani",
+      "extra": {},
+      "id": "7886ca309543b485",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "publishedAt": "2026-11-11T21:24:35Z",
+      "excerpt": "",
+      "author": "herpderperator",
+      "extra": {
+        "points": 320,
+        "comments": 298,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50458900"
+      },
+      "id": "53bc56e14c08d499",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Retirement Savings Are Fueling the AI Bubble",
+      "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+      "publishedAt": "2026-11-11T19:06:43Z",
+      "excerpt": "",
+      "author": "speckx",
+      "extra": {
+        "points": 133,
+        "comments": 142,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50457164"
+      },
+      "id": "4443c3f3c02e5e8a",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "publishedAt": "2026-11-11T18:32:42Z",
+      "excerpt": "",
+      "author": "iamdelirium",
+      "extra": {
+        "points": 242,
+        "comments": 78,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50456791"
+      },
+      "id": "cce714811b519a82",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "publishedAt": "2026-11-11T18:28:31Z",
+      "excerpt": "",
+      "author": "drbm",
+      "extra": {
+        "points": 110,
+        "comments": 2,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50456740"
+      },
+      "id": "8c9052413e13c82f",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "publishedAt": "2026-11-11T16:57:45Z",
+      "excerpt": "",
+      "author": "zerop",
+      "extra": {
+        "points": 143,
+        "comments": 24,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50455633"
+      },
+      "id": "7a69c1b89eda0814",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI, activity, and outcomes in software engineering",
+      "url": "https://cabird.com/talks/shipping-faster/",
+      "publishedAt": "2026-11-11T16:33:28Z",
+      "excerpt": "",
+      "author": "azhenley",
+      "extra": {
+        "points": 103,
+        "comments": 100,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50455332"
+      },
+      "id": "e05d76cd33608993",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+      "url": "https://github.com/klad-app/klad",
+      "publishedAt": "2026-11-11T16:00:50Z",
+      "excerpt": "",
+      "author": "ambewas",
+      "extra": {
+        "points": 69,
+        "comments": 29,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50454951"
+      },
+      "id": "3f42633dc5b5e54d",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "publishedAt": "2026-11-11T12:05:22Z",
+      "excerpt": "",
+      "author": "eyvindn",
+      "extra": {
+        "points": 918,
+        "comments": 335,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
+      },
+      "id": "8d8bc38f54a7d350",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Nvidia is Preparing to Oust Nvidia CEO Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "publishedAt": "2026-11-11T22:31:56Z",
+      "excerpt": "",
+      "author": "/u/fallingdowndizzyvr",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvsi7/nvidia_is_preparing_to_oust_nvidia_ceo_jensen/"
+      },
+      "id": "89f810b4a3884870",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "llama.cpp: Add FP8 KV-cache",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/28392",
+      "publishedAt": "2026-11-11T05:36:19Z",
+      "excerpt": "",
+      "author": "/u/Kahvana",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xt9o3t/llamacpp_add_fp8_kvcache/"
+      },
+      "id": "5da81b4ba195afa0",
+      "collectedAt": "2026-11-12T00:55:16.361046+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-12T00:55:16.361046+00:00"
+}
