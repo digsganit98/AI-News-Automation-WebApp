@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-13",
+  "runs": [
+    {
+      "runAt": "2026-11-12T20:15:05.405599+00:00",
+      "newItems": 32,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1383,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.410446Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.444462Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 906,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.444723Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.445004Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.445165Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.445316Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.445463Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.445606Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.445758Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.445929Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446071Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446124Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446166Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446379Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446423Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446565Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446708Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.446867Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.447005Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.447249Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-12T20:15:05.447393Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.447531Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.448219Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.448366Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-12T20:15:05.448505Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.448644Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.448781Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.448942Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.449083Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.449287Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.449849Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.450022Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.450186Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-11-12T20:15:05.450232Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "deepmind",
+      "sourceName": "Google DeepMind",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "publishedAt": "2026-11-12T18:00:50Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "a8d5fa7d24b3647f",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "publishedAt": "2026-11-12T19:07:35Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "a88bddb17214a029",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "56dac742ff29ffe2",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+      "url": "https://huggingface.co/papers/2611.12304",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "excerpt": "Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of KV caches that agents will reuse. We present Evolving Infra, an agent-adaptive serving framework…",
+      "author": "Hao Kang, Weili Xu, Ziyang Li, Zheng Du, Hanchen Li, Tian Xia, Song Bian, Tushar Krishna, Huizi Mao, Ion Stoica, Song Han",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/mit-han-lab/EvolvingInfra",
+        "projectPage": "https://inference-rsi.com/",
+        "arxivUrl": "https://arxiv.org/abs/2611.12304"
+      },
+      "id": "21ea6ecaa220dba4",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Comfy-Org/MiniMax-H3-Image",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 286,
+        "trendingScore": 272,
+        "task": "text-to-image"
+      },
+      "id": "14e5a7f70a2a67e6",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "EC2 Image Builder console now integrates with the DevOps Agent for troubleshooting and resource creation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+      "publishedAt": "2026-11-12T08:00:00Z",
+      "excerpt": "EC2 Image Builder now integrates with the AWS DevOps Agent directly in the Image Builder console, enabling you to troubleshoot failed image pipelines and create resources directly from the console chat panel. You can diagnose up to 50 failed pipelines at once and ask follow-up questions in the same conversation. You can also choose to create resources by describing what you want, and the agent populates the console with values the service has already validated. With this integration,…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "45f65810f613d33c",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
+      "publishedAt": "2026-11-12T19:29:55Z",
+      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+      "author": "Arun Chandapillai",
+      "extra": {},
+      "id": "c8c5dc29297d2e3d",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
+      "publishedAt": "2026-11-12T18:43:19Z",
+      "excerpt": "Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing, and output constraints, and prove agent ROI with human baselines, holdout experiments, and a five-dimension scorecard.",
+      "author": "Majd Arbash",
+      "extra": {},
+      "id": "4e46e49750fb65fe",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+      "publishedAt": "2026-11-12T18:41:12Z",
+      "excerpt": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.",
+      "author": "Sitaraman Vijay Krishna",
+      "extra": {},
+      "id": "83054ecb029e1c53",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+      "publishedAt": "2026-11-12T17:59:59Z",
+      "excerpt": "AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation that now extends to your data.",
+      "author": "Madhu Parthasarathy",
+      "extra": {},
+      "id": "85bacafff42444d7",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+      "url": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/",
+      "publishedAt": "2026-11-12T16:16:45Z",
+      "excerpt": "The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base. Your coding agent plans the move with read-only discovery, creates the new knowledge base or an infrastructure-as-code template alongside the original, and validates retrieval before you cut over.",
+      "author": "Josh DeMuth",
+      "extra": {},
+      "id": "6d29ea24a6e6fee7",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+      "publishedAt": "2026-11-12T15:42:21Z",
+      "excerpt": "Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across organizational boundaries, using bidirectional, OAuth-authenticated calls, with neither side depending on the other's framework or SDK.",
+      "author": "Amit Chaudhary",
+      "extra": {},
+      "id": "d3206ea89ca22b21",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
+      "publishedAt": "2026-11-12T15:40:24Z",
+      "excerpt": "Learn how to expose an Amazon Bedrock Managed Knowledge Base to AI agents as MCP tools through Amazon Bedrock AgentCore Gateway while keeping per-user access control. A request interceptor injects verified identity, Policy in AgentCore validates it independently, and a resource-based policy restricts direct access to the knowledge base.",
+      "author": "Renya Kujirada",
+      "extra": {},
+      "id": "9ed2099ae4857f6f",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "From prototype to production: Engineering agents with Agent DLC",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/",
+      "publishedAt": "2026-11-12T15:38:47Z",
+      "excerpt": "Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped. This post covers three agent properties that break traditional CI/CD, a measured case where an aggregate metric hides a coverage gap, and Agent DLC: one lifecycle, two loops, and one explicit standard for judging every change.",
+      "author": "Yuan Wei",
+      "extra": {},
+      "id": "aff6802cc567cefa",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "How H6.ai builds AI-powered financial automation with Lakebase Postgres",
+      "url": "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres",
+      "publishedAt": "2026-11-12T16:56:52Z",
+      "excerpt": "Traditional accounts payable and invoice processing tools often force companies into a trade-off...",
+      "author": null,
+      "extra": {},
+      "id": "cf18c9e7682dee1c",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "Genie in Slack is now Generally Available: Governed AI cowork, right where work happens",
+      "url": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens",
+      "publishedAt": "2026-11-12T15:00:00Z",
+      "excerpt": "Many business questions can’t be started and answered within the same conversation. ...",
+      "author": null,
+      "extra": {},
+      "id": "77df1090e088d1a3",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "How Block powers collaborative AI agents with Buzz and Unity Gateway",
+      "url": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway",
+      "publishedAt": "2026-11-12T14:59:06Z",
+      "excerpt": "Inside Block,&nbsp;Buzz brings employees and AI agents into a shared workspace. With Databricks...",
+      "author": null,
+      "extra": {},
+      "id": "334fd5b5e6c095d7",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Agentic Enterprise Security: Where the Ecosystem Goes Next",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/securing-agentic-enterprise",
+      "publishedAt": "2026-11-12T20:58:00Z",
+      "excerpt": "Learn how Snowflake and its ecosystem of security innovators help enterprises govern AI agents, protect data and respond to threats across seven pillars.",
+      "author": "Radhika Janardanan, Nitika Gupta",
+      "extra": {},
+      "id": "6b50f054e04fe89a",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "bens-bites",
+      "sourceName": "Ben's Bites",
+      "title": "To the man with AI, everything looks like a task",
+      "url": "https://www.bensbites.com/p/to-the-man-with-ai-everything-looks",
+      "publishedAt": "2026-11-12T14:03:11Z",
+      "excerpt": "Real* quote from Charlie Munger - lightly modernised :)",
+      "author": "Ben Tossell",
+      "extra": {},
+      "id": "6acc9950244ca654",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "RAG in Production: Retrieval Is Data Engineering, Not a Prompt Trick",
+      "url": "https://medium.com/@andrelgcclaudino/rag-in-production-retrieval-is-data-engineering-not-a-prompt-trick-d07c3defe223?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-12T19:37:16Z",
+      "excerpt": "Retrieval quality is the ceiling: chunking, reranking, grounding checks, retrieval evals, and the pipeline nobody wants. Continue reading on Medium »",
+      "author": "André Claudino",
+      "extra": {},
+      "id": "6f76acf208ce0bc9",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Embeddings Explained: How AI Understands Meaning",
+      "url": "https://medium.com/@missnaziya10/embeddings-explained-how-ai-understands-meaning-945191b6b1a8?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-12T18:35:17Z",
+      "excerpt": "How AI Understands Meaning Continue reading on Medium »",
+      "author": "Naziya",
+      "extra": {},
+      "id": "d48008b9fa01ee5f",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How to Upscale Anime Art in PixAI: A 2× Workflow and Detail Checks",
+      "url": "https://medium.com/@zohaibarshed45/how-to-upscale-anime-art-in-pixai-a-2-workflow-and-detail-checks-ee0aefdf563d?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-12T17:22:25Z",
+      "excerpt": "You have an anime illustration that works, except it is half the size you actually need. Continue reading on Medium »",
+      "author": "Zohaibarshed",
+      "extra": {},
+      "id": "349b5148d010415d",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Software Engineering to AI Integration: Understanding the FDE Career Path",
+      "url": "https://medium.com/@w3genaitraining/from-software-engineering-to-ai-integration-understanding-the-fde-career-path-6bf35c3eb6e2?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-12T15:57:03Z",
+      "excerpt": "From Software Engineering to AI Integration: Understanding the FDE Career Path Continue reading on Medium »",
+      "author": "W3 Gen AI Training",
+      "extra": {},
+      "id": "766a9bd5d5ba3322",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Query Decomposition in AI: How to Make LLMs Understand Complex Questions Better",
+      "url": "https://medium.com/@ayanhasnain2572006/query-decomposition-in-ai-how-to-make-llms-understand-complex-questions-better-fa6ff89cdc1c?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-12T15:25:08Z",
+      "excerpt": "Modern AI applications are becoming more powerful, but they still struggle with one common problem: complex questions. Continue reading on Medium »",
+      "author": "Ayanhasnain",
+      "extra": {},
+      "id": "e7e1f86bb99ea271",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "publishedAt": "2026-11-12T18:52:01Z",
+      "excerpt": "",
+      "author": "jonbaer",
+      "extra": {
+        "points": 64,
+        "comments": 10,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50472260"
+      },
+      "id": "d40fca9fd5e12c4b",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "publishedAt": "2026-11-12T18:01:48Z",
+      "excerpt": "",
+      "author": "dvaplima",
+      "extra": {
+        "points": 307,
+        "comments": 214,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50471431"
+      },
+      "id": "8fdb0296ea11e78c",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "I'm making LLMs work on small and old devices",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "publishedAt": "2026-11-12T15:23:10Z",
+      "excerpt": "",
+      "author": "mrashad74",
+      "extra": {
+        "points": 174,
+        "comments": 65,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
+      },
+      "id": "0667a519c65042ee",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "publishedAt": "2026-11-12T11:46:41Z",
+      "excerpt": "",
+      "author": "josephljohnston",
+      "extra": {
+        "points": 706,
+        "comments": 711,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
+      },
+      "id": "f101ffad2bb3a113",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "CMP170hx now fully unlockabke and more, full 120 SMs —> Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM — hack carefully blows onboard fuses to unlock entire VRAM and shader modules",
+      "url": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
+      "publishedAt": "2026-11-12T17:14:43Z",
+      "excerpt": "",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuijih/cmp170hx_now_fully_unlockabke_and_more_full_120/"
+      },
+      "id": "fe4331f3bb358ed6",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Nvidia's Jensen Huang Resigns as CEO, Colette Kress Named Interim",
+      "url": "https://www.bloomberg.com/news/live-blog/2026-11-11/nvidia-turmoil-board-to-weigh-ceo-jensen-huang-future-over-alleged-affairs",
+      "publishedAt": "2026-11-12T13:56:51Z",
+      "excerpt": "",
+      "author": "/u/ShreckAndDonkey123",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xudeev/nvidias_jensen_huang_resigns_as_ceo_colette_kress/"
+      },
+      "id": "0978c65d72e390b7",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Alleged GeForce RTX 5090 with 96GB listed for sale in China",
+      "url": "https://videocardz.com/newz/alleged-geforce-rtx-5090-with-96gb-listed-for-sale-in-china",
+      "publishedAt": "2026-11-12T13:12:53Z",
+      "excerpt": "",
+      "author": "/u/chemist_slime",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xucffq/alleged_geforce_rtx_5090_with_96gb_listed_for/"
+      },
+      "id": "e75fe44df7fa9aef",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "BCom in Artificial Intelligence: Fees, Eligibility, Duration, Colleges, Jobs",
+      "url": "https://www.careers360.com/courses/bcom-in-artificial-intelligence",
+      "publishedAt": "2026-11-12T05:04:00Z",
+      "excerpt": "| VLB Janakiammal College | Coimbatore | BCom Supply Chain Management with AI \n| AMET University | Chennai | BCom Financial Technology and AI [...] Hindi Medium Schools in IndiaEnglish Medium Schools in IndiaSchools in RajasthanSchools in GujaratSchools in PunjabSchools in BiharSchools in LucknowSchools in GurgaonSchools in GandhinagarSchools in MaharashtraSchools in KarnatakaSchools in Uttar PradeshSchools in Ludhianachools in GwaliorSchools in GuwahatiSchools in SuratSchools in…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.17
+      },
+      "id": "a12d64a03caa7628",
+      "collectedAt": "2026-11-12T20:15:05.405599+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-12T20:15:05.405599+00:00"
+}

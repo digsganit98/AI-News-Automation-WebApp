@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-13",
+  "stories": [
+    {
+      "id": "aws-launches-agentcore-runtime-for-secure-ai-age-66bdd9",
+      "createdAt": "2026-11-12T20:19:28.988627+00:00",
+      "headline": "AWS launches AgentCore runtime for secure AI agents",
+      "summary": "Amazon has introduced a new runtime for Amazon Bedrock AgentCore that provides hardware-isolated sessions for AI agents. This update aims to improve security, reduce startup times, and offer usage-based billing for long-running agent workloads.",
+      "whyItMatters": "Hardware-isolated sessions enhance security and operational control for enterprise deployment of complex multi-step AI agents.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-genie-becomes-generally-available-in-f14cef",
+      "createdAt": "2026-11-12T20:19:28.988627+00:00",
+      "headline": "Databricks Genie becomes generally available in Slack",
+      "summary": "Databricks has made its Genie AI assistant generally available as a Slack app, allowing users to ask data questions and receive governed answers directly in their chat channels. The tool respects existing data permissions and can update documents or tickets through approved actions.",
+      "whyItMatters": "Integrating data assistants directly into collaboration platforms bridges the gap between raw enterprise data and daily workflows.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "block-develops-buzz-collaboration-platform-using-179604",
+      "createdAt": "2026-11-12T20:19:28.988627+00:00",
+      "headline": "Block develops Buzz collaboration platform using Databricks Unity Gateway",
+      "summary": "Block has developed Buzz, an open-source collaboration space where employees and AI agents work together in shared conversations. The platform uses Databricks Unity Gateway to provide access to various frontier and open-weight models.",
+      "whyItMatters": "Shared workspaces for humans and multiple AI models allow organizations to test and experiment with diverse agent configurations safely.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "llmon-markup-language-integrated-into-granite-4-a88bdd",
+      "createdAt": "2026-11-12T20:19:28.988627+00:00",
+      "headline": "LLMON markup language integrated into Granite 4.1 models",
+      "summary": "Hugging Face has announced that the LLMON markup language is now available in the Granite 4.1 3B and 8B models. This integration expands the usability of structured markup formats within smaller language models.",
+      "whyItMatters": "Native support for structured markup languages improves how models process and format complex data inputs.",
+      "category": "New Model Release",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-introduces-gemini-4-hydrogen-and-4bad5a",
+      "createdAt": "2026-11-12T20:19:28.988627+00:00",
+      "headline": "Google DeepMind introduces Gemini 4 Hydrogen and Orchestrator",
+      "summary": "Google DeepMind has launched Gemini 4 Hydrogen, a model designed for fast execution in coding and agentic tasks. The company also introduced Orchestrator in Google Antigravity, which dynamically switches between different Gemini models to optimize performance.",
+      "whyItMatters": "Dynamic model routing and specialized fast execution models improve efficiency and responsiveness for automated workflows.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "evolving-infra-framework-improves-llm-serving-fo-21ea6e",
+      "createdAt": "2026-11-12T20:19:28.988627+00:00",
+      "headline": "Evolving Infra framework improves LLM serving for agentic workloads",
+      "summary": "Researchers have developed Evolving Infra, a framework that adapts compute allocation and cache management to the specific needs of AI agents. The system significantly reduces request latency and time-to-first-token compared to existing production frameworks.",
+      "whyItMatters": "Optimizing infrastructure for agentic workflows reduces latency and compute costs in production environments.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.12304"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.12304",
+        "code": "https://github.com/mit-han-lab/EvolvingInfra",
+        "model": null,
+        "demo": "https://inference-rsi.com/"
+      }
+    },
+    {
+      "id": "minimax-h3-image-model-trends-on-hugging-face-14e5a7",
+      "createdAt": "2026-11-12T20:19:28.988627+00:00",
+      "headline": "MiniMax-H3-Image model trends on Hugging Face",
+      "summary": "The Comfy-Org/MiniMax-H3-Image model is currently trending on the Hugging Face platform.",
+      "whyItMatters": "Tracking community preference highlights rising open-weight vision and image generation architectures.",
+      "category": "New Model Release",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Trending Models",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-12T20:19:37.599003+00:00"
+}
