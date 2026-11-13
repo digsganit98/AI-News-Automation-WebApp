@@ -378,7 +378,331 @@
         "model": null,
         "demo": "https://interactive-visual-gym.salesforceairesearch.com"
       }
+    },
+    {
+      "id": "research-highlights-risks-of-cleaning-ai-agent-h-511f6d",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "Research highlights risks of cleaning AI agent history while environmental errors persist",
+      "summary": "A new academic study warns that compacting or repairing an AI agent's history is insufficient if the agent's prior mistakes still cause real-world effects in the environment. The findings suggest that log management must account for lingering environmental consequences rather than just clearing text logs.",
+      "whyItMatters": "This highlights a critical blind spot in how developers maintain and reset long-running autonomous agent logs.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.14654"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "synthcorp-platform-simulates-business-environmen-41ea8c",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "SynthCorp platform simulates business environments to benchmark data agents",
+      "summary": "Researchers introduced SynthCorp, a simulation platform designed to build realistic business events, data environments, and benchmarks for AI data agents. The tool addresses the problem of static benchmarks becoming too easy for advanced systems over time.",
+      "whyItMatters": "It provides a dynamic testing ground to accurately measure the capabilities of agents working with complex enterprise data.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.14765"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-shows-poorly-performing-ai-actors-can-stil-731431",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "Study shows poorly performing AI actors can still serve as effective reinforcement learning teachers",
+      "summary": "Researchers found that AI models that struggle with direct task execution can still effectively train other models by evaluating complete action trajectories and providing step-level rewards. The study indicates that evaluation and acting capabilities do not require equal proficiency to drive reinforcement learning gains.",
+      "whyItMatters": "It opens new possibilities for using cheaper or less capable models as judges and teachers in training pipelines.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.17167"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.17167",
+        "code": "https://github.com/ZJU-REAL/decision-agents",
+        "model": null,
+        "demo": "https://zjureal.com/decision-agents/"
+      }
+    },
+    {
+      "id": "so-arena-benchmark-reveals-accuracy-does-not-ens-7afe22",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "SO-Arena benchmark reveals accuracy does not ensure reliable decision-making in fast AI models",
+      "summary": "A new benchmark called SO-Arena evaluates System One models across 11 domains to measure both task capability and decision consistency. Results show that the model with the highest raw accuracy ranked seventh in reliability, exposing a gap between performance and stable decision-making.",
+      "whyItMatters": "It demonstrates that standard accuracy metrics alone are insufficient for judging the reliability of rapid AI systems.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.15777"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.15777",
+        "code": "https://github.com/holdrain/SO-Arena",
+        "model": null,
+        "demo": "https://lichenlillc.github.io/SO-Arena"
+      }
+    },
+    {
+      "id": "physloop-framework-uses-large-language-models-to-9d279f",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "PhysLoop framework uses large language models to enforce physical consistency in video generation",
+      "summary": "Researchers developed PhysLoop, a system that uses the physical reasoning capabilities of large language models to guide video generation and repair causal inconsistencies. The framework helps produce training data that adheres better to real-world physical laws.",
+      "whyItMatters": "It addresses the common issue of physical artifacts and logical breaks in generated video content.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.16748"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.16748",
+        "code": "https://github.com/DAGroup-PKU/PhysLoop",
+        "model": null,
+        "demo": "https://chenyx24.github.io/PhysLoop-site/"
+      }
+    },
+    {
+      "id": "duo-v1-introduced-as-full-duplex-world-model-for-2741c9",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "Duo v1 introduced as full-duplex world model for real-time audiovisual interaction",
+      "summary": "Researchers presented Duo v1, a world model capable of continuous audiovisual perception and real-time user response. The architecture treats intelligence and physical reality as equally important components of world modeling.",
+      "whyItMatters": "It represents a step forward in real-time multimodal interaction models that blend sensory input with responsive generation.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.15131"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.15131",
+        "code": "https://github.com/inclusionAI/Duo",
+        "model": null,
+        "demo": "https://duo-v1.github.io/"
+      }
+    },
+    {
+      "id": "jensen-huang-steps-down-as-nvidia-ceo-after-33-y-39f105",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "Jensen Huang steps down as NVIDIA CEO after 33 years",
+      "summary": "NVIDIA announced the resignation of Jensen Huang as CEO, president, and board member. Company CFO Colette Kress will step in as interim chief executive officer.",
+      "whyItMatters": "This marks a major leadership transition for one of the most influential hardware and AI infrastructure companies in the technology sector.",
+      "category": "Business & Funding",
+      "importance": 5,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-releases-gemini-4-hydrogen-model-39f105",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "Google DeepMind releases Gemini 4 Hydrogen model focused on speed",
+      "summary": "Google DeepMind launched Gemini 4 Hydrogen, an AI model designed for speed that operates 2.5 times faster than Gemini 3.8 Flash. The system includes a 1 million token context window and four configurable thinking levels.",
+      "whyItMatters": "It offers developers a faster alternative with an expanded context window for high-throughput enterprise tasks.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "followUp",
+      "followUpOf": "google-deepmind-introduces-gemini-4-hydrogen-and-4bad5a",
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "artcraft-releases-open-source-alternatives-to-po-16f585",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "ArtCraft releases open source alternatives to popular software tools",
+      "summary": "ArtCraft has launched 17 open source software alternatives, including a Rust-based Photoshop alternative named PhotoCraft and a utility called PdfCraft. The initiative seeks to rebuild mainstream internet applications using AI assistance.",
+      "whyItMatters": "It showcases how AI-assisted development can accelerate the creation of open source software alternatives to proprietary tools.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/artcraft/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "outsystems-launches-agentic-first-notice-of-loss-a6021f",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "OutSystems launches agentic first notice of loss solution for auto insurers",
+      "summary": "OutSystems has introduced an automated claims reporting tool that connects AI agents with existing insurance backends. The platform is designed to assist adjusters while keeping final coverage and payment authority with human staff.",
+      "whyItMatters": "It demonstrates a practical industry application of agentic workflows in financial services while maintaining human oversight.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.insurancejournal.com/services/newswire/2026/11/13/892408.htm"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "telecom-experts-emphasize-shared-data-layers-for-c1e4a5",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "Telecom experts emphasize shared data layers for multi-agent network operations",
+      "summary": "Industry experts note that deploying isolated AI agents for telecom customer care and network tasks can result in conflicting actions. Providing all agents with access to a unified data layer is recommended to coordinate autonomous operations effectively.",
+      "whyItMatters": "It highlights architectural requirements for scaling multi-agent systems reliably within complex enterprise infrastructures.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://rcrwireless.com/20261112/reader-forum/telecoms-next-ai-gains-will-come-from-agents-that-work-together-reader-forum"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "genpact-study-points-to-post-deployment-scaling-b98099",
+      "createdAt": "2026-11-13T11:30:25.551247+00:00",
+      "headline": "Genpact study points to post-deployment scaling challenges for enterprise AI agents",
+      "summary": "A Genpact survey indicates that while 79 percent of executives have deployed AI agents, the primary hurdle lies in managing operations after initial implementation. The report stresses that business alignment is vital for transitioning from trials to enterprise transformation.",
+      "whyItMatters": "It provides insight into the practical operational hurdles organizations face when scaling production AI agents.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.newsweek.com/genpact-ai-study-autonomy-dividend-sanjeev-vohra-12683873"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-13T02:06:43.396693+00:00"
+  "updatedAt": "2026-11-13T11:30:38.683279+00:00"
 }

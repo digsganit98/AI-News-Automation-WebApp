@@ -556,6 +556,284 @@
           "checkedAt": "2026-11-13T02:00:16.025725Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-13T11:22:03.009792+00:00",
+      "newItems": 38,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1385,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.014985Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.052904Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 906,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.053305Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.053635Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.053807Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.053963Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.054111Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.054294Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.054454Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.054622Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.054778Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.054840Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.054885Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.055106Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.055151Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.055336Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.055494Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.055637Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.055774Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.056044Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-13T11:22:03.056190Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.056380Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.057258Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.057422Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-13T11:22:03.057567Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.057712Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.057853Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.057998Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.058143Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.058386Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.058971Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.059145Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.059355Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-11-13T11:22:03.059411Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1198,7 +1476,554 @@
       },
       "id": "10794d6b94862e3c",
       "collectedAt": "2026-11-13T02:00:15.978153+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+      "url": "https://huggingface.co/papers/2611.15844",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception systems. Our analyses identify the design choices that matter most for…",
+      "author": "Arpit Jadon, Valentinos Pariza, Jona Ruthardt, Ryousuke Yamada, A. Sophia Koepke, Andrei Bursuc, Yuki M. Asano",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": "https://github.com/OpenVisionBanana/OpenVisionBanana",
+        "projectPage": "https://openvisionbanana.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2611.15844"
+      },
+      "id": "abae26331e955754",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "url": "https://huggingface.co/papers/2611.17331",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose…",
+      "author": "Chin-Yang Lin, Ryo Hachiuma, Jaesung Choe, Min-Hung Chen, Yu-Chiang Frank Wang, Yen-Yu Lin, Wei-Chen Chiu, Yu-Lun Liu, Cheng Sun",
+      "extra": {
+        "upvotes": 18,
+        "githubRepo": "https://github.com/NVlabs/DVSM",
+        "projectPage": "https://test-time-baking.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2611.17331"
+      },
+      "id": "04469787bcf42b7f",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+      "url": "https://huggingface.co/papers/2611.17060",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have…",
+      "author": "Hao Li, Fangzhou Hong, Zhaoxi Chen, Hui En Pang, Kairui Hu, Mingze Sun, Runmao Yao, Xinhao Ji, Xiyuan Zheng, Xuanli Chen, Yalun Dai, Yap Kim Hui, Dingwen Zhang, Yuanyuan Gao, Ziang Cao, Cheng Huang Yean, Jackson Peng, Rui Duan, Yaobo Liu, Zetong Wang, Ziwei Liu",
+      "extra": {
+        "upvotes": 15,
+        "githubRepo": "https://github.com/Ropedia/Ropedia-Xperience-2",
+        "projectPage": "https://ropedia.com/xperience/2-research/",
+        "arxivUrl": "https://arxiv.org/abs/2611.17060"
+      },
+      "id": "d7b46d3d8c2d7def",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2611.17167",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well. We compare three decision models and three general LLMs as actors and…",
+      "author": "Haochen Liu, Qianhao Zhu, Zixuan Wang, Dingming Li, Tongbo Chen, Peng Qiu, Yingqi Qu, Weiming Lu, Jun Xiao, Yongliang Shen",
+      "extra": {
+        "upvotes": 23,
+        "githubRepo": "https://github.com/ZJU-REAL/decision-agents",
+        "projectPage": "https://zjureal.com/decision-agents/",
+        "arxivUrl": "https://arxiv.org/abs/2611.17167"
+      },
+      "id": "731431771b9cdea1",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+      "url": "https://huggingface.co/papers/2611.16905",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Second-order optimizers (e.g., Shampoo, SOAP) have emerged as compelling alternatives to Adam/AdamW and promise faster per-step convergence than AdamW in transformer training. However, they still remain costly in practice, and even SOAP still pays substantial optimizer-state memory and eigendecomposition overhead. We ask whether the benefits of SOAP can be retained at nearly the efficiency of AdamW. In this paper, we answer yes with a lightweight SOAP variant, Factored One-sided Adam-Moment…",
+      "author": "Jaemyung Yu, Byeongho Heo, Sangdoo Yun, Dongyoon Han",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/naver-ai/foam",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.16905"
+      },
+      "id": "95731083373f2224",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "url": "https://huggingface.co/papers/2611.15777",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the capability spectrum and decision reliability of System One models across 11…",
+      "author": "Lichen Li, Ziping Dong, Sicheng Feng, Qi Li, Xinchao Wang",
+      "extra": {
+        "upvotes": 46,
+        "githubRepo": "https://github.com/holdrain/SO-Arena",
+        "projectPage": "https://lichenlillc.github.io/SO-Arena",
+        "arxivUrl": "https://arxiv.org/abs/2611.15777"
+      },
+      "id": "7afe22db314e8f37",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+      "url": "https://huggingface.co/papers/2611.16217",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it? A reliable generative renderer hinges on two complementary criteria: (i) world preservation, retaining prescribed 4D kinematics and camera paths; and (ii) visual realization, persistently binding text-specified target attributes…",
+      "author": "Zhiyu Hou, Wen-Jie Shu, Harold Haodong Chen, Weilin Ruan, Chenfei Liao, Liuzhou Zhang, Disen Lan, Xiaogang Xu, Qi Chen, Ser-Nam Lim",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": "https://github.com/KevinHuge/WorldDraft",
+        "projectPage": "https://haroldchen19.github.io/WorldDraft-site/",
+        "arxivUrl": "https://arxiv.org/abs/2611.16217"
+      },
+      "id": "284da35216fbfbbf",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "url": "https://huggingface.co/papers/2611.16748",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in producing their training videos. We present PhysLoop, a unified harness designed to…",
+      "author": "Yuxuan Chen, Xiaojie Li, Hao Chen, Juncheng Ma, Kewei Zhang, Zhongjing Du, Guoqiang Wei, Fangfang Wang, Zhen Dong, Zhiyang Dou, Liming Zhao, Yan Zeng, Jianwei Zhang, Daquan Zhou",
+      "extra": {
+        "upvotes": 30,
+        "githubRepo": "https://github.com/DAGroup-PKU/PhysLoop",
+        "projectPage": "https://chenyx24.github.io/PhysLoop-site/",
+        "arxivUrl": "https://arxiv.org/abs/2611.16748"
+      },
+      "id": "9d279f8afefe2a55",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "url": "https://huggingface.co/papers/2611.15131",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls rather than intrinsic parts of the world itself. In RWM, we identify two equally…",
+      "author": "Hengyuan Cao, Biao Gong, Guoshan Lu, Qiyuan Zhang, Lin Liu, Yiding Tian, Yilei Jiang, Yuxin Ma, Chengzhang Wu, Kun Chen, Yiqian Xie, Ting Liu, Xin Zheng, Xijun Gu, Tianren Ma, Jiancheng Pan, Chi Zhang, Xuzhe Zheng, Siyi Li, Zhenzhong Lan",
+      "extra": {
+        "upvotes": 30,
+        "githubRepo": "https://github.com/inclusionAI/Duo",
+        "projectPage": "https://duo-v1.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2611.15131"
+      },
+      "id": "2741c921d01961e0",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+      "url": "https://huggingface.co/papers/2611.13004",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial compression factor. Building on this principle, we propose GSTAR, a…",
+      "author": "Xu Huang, Ye Huang, Xiaotong Li, Zhengrong Yue, Jialv Zou, Minhao Jing, Haodong Li, Wenhao Yan, Yaxin Luo, Duomin Wang, Daquan Zhou",
+      "extra": {
+        "upvotes": 37,
+        "githubRepo": "https://github.com/DAGroup-PKU/G-STAR",
+        "projectPage": "https://dagroup-pku.github.io/G-STAR/",
+        "arxivUrl": "https://arxiv.org/abs/2611.13004"
+      },
+      "id": "aac4e777518bea91",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "url": "https://huggingface.co/papers/2611.14815",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories…",
+      "author": "Junyoung Seo, Jaewoo Seo, Seungryong Kim, Laura Leal-Taixé, Xiuming Zhang, Seung Wook Kim",
+      "extra": {
+        "upvotes": 40,
+        "githubRepo": null,
+        "projectPage": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+        "arxivUrl": "https://arxiv.org/abs/2611.14815"
+      },
+      "id": "059822022bf881cc",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+      "url": "https://huggingface.co/papers/2611.05984",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs. We find that learned read/write gating without mixing and unconstrained mixing with fixed gates form two effective interaction groups: either alone achieves performance…",
+      "author": "Xiangdong Zhang, Xiaohan Qin, Sunan Zou, Tuo Dai, Bizhao Shi, Zhuo Xia, Yebin Yang, Yizhou Chen, Yuliang Liu, Yu Cheng, Junchi Yan",
+      "extra": {
+        "upvotes": 23,
+        "githubRepo": "https://github.com/aHapBean/SimpleHC",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.05984"
+      },
+      "id": "563f8cc9ef90c4a2",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "snowflake",
+      "sourceName": "Snowflake",
+      "title": "Enterprise AI Customer Stories: Expedition 2026",
+      "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/expedition-ai-customer-stories",
+      "publishedAt": "2026-11-12T20:58:00Z",
+      "excerpt": "See how Disney, Canva, Northern Trust, Stripe and EY are putting AI to work, from marketing ROI to finance and tax. Watch Expedition 2026 sessions.",
+      "author": "Snowflake",
+      "extra": {},
+      "id": "89ee450f52f66170",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+      "url": "https://arxiv.org/abs/2611.14654",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14654v1 Announce Type: new \nAbstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work cleans the history at a fixed world, where showing a corrected step and saying it is done move together. We ask whether the same correct content helps or hurts depending on how the history states it and what the…",
+      "author": "Egor Pakhomov, Anurag Koul, Hongjun Liu, Bo Pang, Shafiq Joty, Erik Nijkamp",
+      "extra": {},
+      "id": "511f6df35fdc98dd",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models",
+      "url": "https://arxiv.org/abs/2611.14661",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in the prompt with an explicit threshold t, so that a model should answer only when its probability of being correct exceeds t. We probe each requirement of compliance on shared items, in 12 checkpoints from three post-training stages of four fully open 3-8B recipes, with exploratory models up to 32B. At t = 0.75, a line limiting the reply to an answer or \"I abstain\" (the abstention format) raised…",
+      "author": "Dongsun Moon",
+      "extra": {},
+      "id": "91474bc75929103c",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+      "url": "https://arxiv.org/abs/2611.14675",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14675v1 Announce Type: new Abstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by poetic meter. We present MITRA-Swarm, a multi-agent architecture injecting explicit linguistic structure into an otherwise monolithic pipeline: a Sandhi-splitting agent, a parallel array of generalist gemma-4-26B-A4B-it and domain-specialized…",
+      "author": "Kayshav Bhardwaj, Pragun Seth, Kush Bhardwaj, Vijay Nagasamy, Kurt Keutzer",
+      "extra": {},
+      "id": "bf8c9bba07f1d6f5",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "Benchmarking Multilingual Document Understanding in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.14758",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14758v1 Announce Type: new \nAbstract: Recent Vision-Language Models (VLMs) perform strongly on multimodal tasks, Document Understanding (DU) among them, but the benchmarks that measure them mostly cover English documents and narrow problems. How well current VLMs generalize across languages, tasks, styles and layouts therefore remains unclear. We introduce MDU, a multilingual DU benchmark of 23146 examples spanning 13 tasks and five languages: English, French, German, Italian, and…",
+      "author": "Matteo Gabburo, Daniela Baiamonte, Stefano Simonazzi, Silvia Gardini, Sean Cesare Lazzeri, Andrea Zugarini",
+      "extra": {},
+      "id": "a209e83dbb7c9b28",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "url": "https://arxiv.org/abs/2611.14765",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14765v1 Announce Type: new \nAbstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Each data estate combines relational databases, a document store, and a data catalog, paired with evaluation tasks and executable gold programs. First, given a scenario and target…",
+      "author": "Jiani Zhang, Manav Garg, Eugenie Lai, Cheng Zhen, Eva Sharma, Yang Pan, Yaming Lin, Alon Halevy",
+      "extra": {},
+      "id": "41ea8c0656a4bd05",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue",
+      "url": "https://arxiv.org/abs/2611.14774",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14774v1 Announce Type: new \nAbstract: Full-duplex spoken dialogue, in which a system listens while it speaks and can backchannel, yield the floor, and be interrupted, is usually obtained by training on hundreds of thousands to millions of hours of speech. This is costly, rewrites the language model that supplies the system's knowledge, and still leaves turn-taking either implicit or decided coarsely rather than word by word. We show that a frozen, general-purpose multimodal LLM can…",
+      "author": "Tairan Chen, Richard Yucheng He, Yihang Liu, Baodong Cao, Chen Xu",
+      "extra": {},
+      "id": "12f16a7d5ea826a8",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2611.14794",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14794v1 Announce Type: new \nAbstract: Proof-step verification rewrites a solver's answer into typed steps and uses LLM judges to certify or decline. We evaluate this pipeline on open-weight models across GPQA, AIME-2025, and a MATH-500 subset. Certification raises answer-key-match precision by 31 percentage points on the strong GPQA configuration and 46 on AIME, while answering only 35% and 21% of attempts. On near-ceiling MATH-500, gains are at most 5 points at a loss of 13-27…",
+      "author": "Abhinav Gupta, Ben Slivinski, Yashica Patodia, Michael Saldivar",
+      "extra": {},
+      "id": "321106c778c83e03",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "arxiv",
+      "sourceName": "arXiv (cs.AI, cs.CL)",
+      "title": "GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering",
+      "url": "https://arxiv.org/abs/2611.14804",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "excerpt": "arXiv:2611.14804v1 Announce Type: new \nAbstract: Costly simulations and experiments limit the data available for engineering design. This paper proposes GenPFN, a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted Network (TabPFN) classifier with fixed weights. The context contains evaluated designs labeled desired (Class 1) or undesired (Class 0). GenPFN interpolates between desired designs and refines candidates using gated classifier gradients and Gaussian…",
+      "author": "Noah J. Bagazinski, Cyril Picard, Faez Ahmed",
+      "extra": {},
+      "id": "d7968f841683c935",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "publishedAt": "2026-11-13T09:04:13Z",
+      "excerpt": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "12f357dd3921044b",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "url": "https://latent.space/p/artcraft/",
+      "publishedAt": "2026-11-13T04:17:25Z",
+      "excerpt": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+      "author": "Richard MacManus",
+      "extra": {},
+      "id": "0f77776f7c503aee",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Artificial Intelligence and Machine Learning: How Technology Is Shaping the Future",
+      "url": "https://medium.com/@questionyear2026/artificial-intelligence-and-machine-learning-how-technology-is-shaping-the-future-3659ebd541d8?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T10:25:33Z",
+      "excerpt": "From intelligent chatbots to self-driving cars, AI and Machine Learning are transforming the way we live, work, and interact with the… Continue reading on Medium »",
+      "author": "Questionyear",
+      "extra": {},
+      "id": "85b983774feeb4c6",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Much Does It Cost to Integrate ChatGPT into an Existing Mobile App?",
+      "url": "https://medium.com/@officaldaniel0798/how-much-does-it-cost-to-integrate-chatgpt-into-an-existing-mobile-app-c198d9493d4c?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T09:46:30Z",
+      "excerpt": "Integrating ChatGPT into an existing mobile app is no longer limited to adding a basic chatbot. Businesses are using generative AI for… Continue reading on Medium »",
+      "author": "Officaldaniel",
+      "extra": {},
+      "id": "0f56291c3db38f9f",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Top 10 Things You Should Do to Manage AI Tokenomics",
+      "url": "https://medium.com/@rishabh.mmmec/top-10-things-you-should-do-to-manage-ai-tokenomics-08628d8ae8d5?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T09:39:34Z",
+      "excerpt": "From PoC to Production : How to reduce the Token Costs Continue reading on Medium »",
+      "author": "Rishabh Deo Mall",
+      "extra": {},
+      "id": "01b6b6a3e64848ea",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Your College Degree Alone May Not Be Enough to Get Your First Job",
+      "url": "https://medium.com/@himabsuresh.sics/why-your-college-degree-alone-may-not-be-enough-to-get-your-first-job-d65f9e642325?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T08:52:03Z",
+      "excerpt": "You worked hard for your degree. You attended classes, completed assignments, passed examinations and finally graduated. You probably… Continue reading on Medium »",
+      "author": "Himabsuresh Sics",
+      "extra": {},
+      "id": "9f283b24754535e2",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Beyond Vector Search: Designing Reliable Enterprise RAG on AWS",
+      "url": "https://medium.com/@stbocko/beyond-vector-search-designing-reliable-enterprise-rag-on-aws-e928b1b6676d?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T08:51:47Z",
+      "excerpt": "By Stefan Bocko, GenAI & Cloud Solutions Expert, IBM. Continue reading on Medium »",
+      "author": "Stefan Bocko",
+      "extra": {},
+      "id": "6cae525b01219702",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude Is Down",
+      "url": "https://status.claude.com/history",
+      "publishedAt": "2026-11-13T10:20:09Z",
+      "excerpt": "",
+      "author": "cornfieldlabs",
+      "extra": {
+        "points": 88,
+        "comments": 61,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50481220"
+      },
+      "id": "22bcd83804c6c356",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "publishedAt": "2026-11-13T10:18:13Z",
+      "excerpt": "",
+      "author": "__vivek",
+      "extra": {
+        "points": 177,
+        "comments": 121,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50481187"
+      },
+      "id": "44da454e7900959c",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI",
+      "url": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+      "publishedAt": "2026-11-13T00:38:41Z",
+      "excerpt": "",
+      "author": "thunderbong",
+      "extra": {
+        "points": 81,
+        "comments": 24,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50476586"
+      },
+      "id": "7a5b5aeb105da684",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "publishedAt": "2026-11-13T04:03:28Z",
+      "excerpt": "A second Sam Altman moment?",
+      "author": "/u/f1yingbanana",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/"
+      },
+      "id": "d3d3421ae28d72fb",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Global Microsoft Outlook outage reported as U.S. cybersecurity agency confirms active exploitation of security flaw",
+      "url": "https://www.sasktoday.ca/provincial-news/global-microsoft-outlook-outage-reported-as-us-cybersecurity-agency-confirms-active-exploitation-of-security-flaw-13010558",
+      "publishedAt": "2026-11-12T20:03:01Z",
+      "excerpt": "It hasn't been confirmed as an AI attack, but I am predicting that it will be discovered to be.",
+      "author": "/u/theimposingshadow",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xun4de/global_microsoft_outlook_outage_reported_as_us/"
+      },
+      "id": "98cd8f4090ec6ef1",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Genpact Study Finds the Real AI Challenge Begins After Deployment - Newsweek",
+      "url": "https://www.newsweek.com/genpact-ai-study-autonomy-dividend-sanjeev-vohra-12683873",
+      "publishedAt": "2026-11-12T11:00:00Z",
+      "excerpt": "From Deployment to Transformation Although 79 percent of executives surveyed reported AI agents in production at their organizations, the extent of deployment varied considerably. “But the pull is coming from the business saying, 'I need to go fast.'” Genpact is applying that principle internally through Client Zero, its program to redesign the company’s own operations around AI agents. “You need to talk upfront before you deploy the solution by saying, 'This is what we see the career paths…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.59
+      },
+      "id": "2adc0f2e921dd79c",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OutSystems Introduces Agentic Claims Solution to Modernize Policyholder Experiences - Insurance Journal",
+      "url": "https://www.insurancejournal.com/services/newswire/2026/11/13/892408.htm",
+      "publishedAt": "2026-11-13T10:00:04Z",
+      "excerpt": "# OutSystems Introduces Agentic Claims Solution to Modernize Policyholder Experiences. *Agentic First Notice of Loss connects AI agents, customer applications and existing claims systems while keeping coverage, liability and payment decisions with human adjusters*. **BOSTON —November 13, 2026 —** OutSystems, the Agentic Systems Platform helping regulated enterprises safely modernize legacy tech and run agentic systems, today announced the expansion of its Agentic Industry Solutions portfolio…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.536
+      },
+      "id": "78a2af7eaa31e225",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Telecom’s next AI gains will come from agents that work together (Reader Forum) - RCR Wireless News",
+      "url": "https://rcrwireless.com/20261112/reader-forum/telecoms-next-ai-gains-will-come-from-agents-that-work-together-reader-forum",
+      "publishedAt": "2026-11-12T11:14:57Z",
+      "excerpt": "*Telecom operators are deploying AI agents across network operations, customer care and planning, but isolated systems risk conflicting decisions. Persistent Systems’ Kuljesh Puri argues shared data and coordination are essential to make autonomous operations work.*. Telecom operators have moved quickly to put AI agents to work in network operations, customer care and capacity planning, and most of those agents perform well on their own. In a metro fiber cut, the network operations agent…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.451
+      },
+      "id": "c1e4a5d8cfb683c2",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "New Vida Survey Finds Businesses Racing to Build an AI Agent Workforce, but Traditional Management Practices Still Catching Up - FinancialContent",
+      "url": "https://markets.financialcontent.com/stocks/article/bizwire-2026-11-12-new-vida-survey-finds-businesses-racing-to-build-an-ai-agent-workforce-but-traditional-management-practices-still-catching-up",
+      "publishedAt": "2026-11-12T14:00:00Z",
+      "excerpt": "NVDA $173.73 ▲+0.00% NBIS $154.69 ▲+0.00% AMD $552.90 ▲+0.00% MU $811.30 ▲+0.00% SNDK $977.69 ▲+0.00% CRWV $60.77 ▲+0.00% GOOGL $293.45 ▲+0.00% SPCX $139.75 ▲+0.00% NVDA $173.73 ▲+0.00% NBIS $154.69 ▲+0.00% AMD $552.90 ▲+0.00% MU $811.30 ▲+0.00% SNDK $977.69 ▲+0.00% CRWV $60.77 ▲+0.00% GOOGL $293.45 ▲+0.00% SPCX $139.75 ▲+0.00%. * 63% of businesses give their AI agents names, 60% assign them formal titles, and 16% already consider them part of the workforce. * 85% of businesses report positive…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.377
+      },
+      "id": "41048d946ed656ac",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The developer laptop just became production. Now what? - CSO Online",
+      "url": "https://www.csoonline.com/article/4247458/the-developer-laptop-just-became-production-now-what.html",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "excerpt": "## Your developers’ laptops now hold production keys and run AI agents that use whatever credentials they find, so access has to be scoped to the task. For decades, enterprise software development relied on an assumption that developers could experiment relatively safely because there were safeguards between their work and production. The result is that the developer laptop has become an extension of production. Unlike conventional software, an agent may take different actions when presented…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.377
+      },
+      "id": "d1c43a3274f52384",
+      "collectedAt": "2026-11-13T11:22:03.009792+00:00"
     }
   ],
-  "updatedAt": "2026-11-13T02:00:15.978153+00:00"
+  "updatedAt": "2026-11-13T11:22:03.009792+00:00"
 }
