@@ -1,0 +1,603 @@
+{
+  "date": "2026-11-14",
+  "runs": [
+    {
+      "runAt": "2026-11-13T19:55:53.701032+00:00",
+      "newItems": 24,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1386,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.706535Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.746306Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 907,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.746787Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.747210Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.747487Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.747724Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.747932Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.748131Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.748332Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.748511Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 20,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.748668Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.748731Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.748777Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.749034Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.749083Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.749264Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.749430Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.749592Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.749749Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.750035Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-13T19:55:53.750185Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.750377Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.751310Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.751474Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-13T19:55:53.751626Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.751775Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.751916Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.752062Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.752213Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.752445Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.753038Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.753217Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.753414Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-11-13T19:55:53.753464Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "publishedAt": "2026-11-13T15:00:00Z",
+      "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "author": null,
+      "extra": {},
+      "id": "5bf4951adbe9698d",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "publishedAt": "2026-11-13T18:00:39Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "2427bacb74a96b4b",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "publishedAt": "2026-11-13T17:02:35Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "8400bdfe1e2afd49",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "publishedAt": "2026-11-13T14:05:22Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "40e78db6601d46e6",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "publishedAt": "2026-11-13T17:00:00Z",
+      "excerpt": "Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations...",
+      "author": "Fatima Fall",
+      "extra": {},
+      "id": "8f2daa11c5051ada",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation",
+      "url": "https://huggingface.co/papers/2611.16517",
+      "publishedAt": "2026-11-13T00:00:00Z",
+      "excerpt": "We present UniSpark-9B, a unified multimodal model that investigates hybrid attention for visual understanding and generation. Built on a Mixture-of-Transformer-Experts backbone with approximately 9B parameters in each branch, UniSpark combines full attention for explicit token interactions with GatedDeltaNet linear attention for compact context propagation. Autoregressive text prediction and visual flow matching jointly support visual question answering, text-to-image generation,…",
+      "author": "Jiancheng Pan, Yuzheng Liu, Hengyuan Cao, Qiyuan Zhang, Yangyan Li, Biao Gong, Zheng Zhang, Ka Long Cheng, Xinyang Wang, Yujun Shen",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": "https://lucaria-academy.github.io/UniSpark/",
+        "arxivUrl": "https://arxiv.org/abs/2611.16517"
+      },
+      "id": "3c1c091f2df373b8",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+      "publishedAt": "2026-11-13T19:35:35Z",
+      "excerpt": "Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions.",
+      "author": "Belair Albahagwi",
+      "extra": {},
+      "id": "a05d08fd0b1ba6de",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/",
+      "publishedAt": "2026-11-13T18:44:02Z",
+      "excerpt": "Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference call back to the IAM principal that made it. This post shows how to attribute per-user Bedrock costs for AI developer and productivity tools using IAM Identity Center, session tags, and CUR 2.0, and how to enforce per-user usage limits.",
+      "author": "Aamna Najmi",
+      "extra": {},
+      "id": "773ec8d2db34b976",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+      "publishedAt": "2026-11-13T18:01:15Z",
+      "excerpt": "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift.",
+      "author": "Shantanu Tripathi",
+      "extra": {},
+      "id": "e504c61a39ac2d49",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "New AI agent observability and governance across BigQuery and Looker",
+      "url": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/",
+      "publishedAt": "2026-11-13T17:00:00Z",
+      "excerpt": "As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it reasons, which data it touches, and what it costs to run. Today, we are announcing expanded AI agent observability and evaluation capabilities across Google Data Cloud, giving you unified visibility into your first-party (1P) data agents in BigQuery and Looker as well as custom third-party (3P) agents…",
+      "author": "Snigdha Jha",
+      "extra": {},
+      "id": "a324048b9a561e00",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "databricks",
+      "sourceName": "Databricks",
+      "title": "OpenAI and Databricks: Enterprise AI on your governed data",
+      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data",
+      "publishedAt": "2026-11-13T15:30:00Z",
+      "excerpt": "Greg Brockman, co-founder and President of OpenAI, has a simple way to describe AI...",
+      "author": null,
+      "extra": {},
+      "id": "078567da13b8d975",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "MiniMax H3 Image prompts for photos that look like someone took them",
+      "url": "https://medium.com/@pixeldojo/minimax-h3-image-prompts-for-photos-that-look-like-someone-took-them-27b2fbb1b5e6?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T17:38:17Z",
+      "excerpt": "How to write MiniMax H3 Image prompts that read as a real photo, with quoted text, object placement and credit prices Continue reading on Medium »",
+      "author": "PixelDojo",
+      "extra": {},
+      "id": "313f2ca8afa039c7",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Webhooks vs Polling for AI Generation Jobs: What I’d Choose for Production",
+      "url": "https://medium.com/@k.pranav_22/webhooks-vs-polling-for-ai-generation-jobs-what-id-choose-for-production-e9252dca1d6e?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T16:23:12Z",
+      "excerpt": "A video render finishes on the provider’s side at 2:14 a.m. The provider fires its completion webhook. Your API is in the middle of a… Continue reading on Medium »",
+      "author": "Pranav Kumar",
+      "extra": {},
+      "id": "2660c28f9a963c1f",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Does AI Analyze Complex Legal Cases in Seconds?",
+      "url": "https://medium.com/@idevinnprofits/how-does-ai-analyze-complex-legal-cases-in-seconds-d818c8a406aa?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T16:20:33Z",
+      "excerpt": "Discover how advanced AI is transforming legal analysis by cross-referencing massive databases of case law. Learn how these tools identify… Continue reading on Medium »",
+      "author": "Nexus AI Catalog",
+      "extra": {},
+      "id": "e0786a97a115de92",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Prompt Engineering Is More Than Asking Better Questions",
+      "url": "https://medium.com/@bryan.pesquera/prompt-engineering-is-more-than-asking-better-questions-3474e5297ff2?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T15:11:02Z",
+      "excerpt": "How clear instructions, relevant context, defined constraints, and measurable expectations can turn an ordinary AI request into a more… Continue reading on Medium »",
+      "author": "Bryan Pesquera",
+      "extra": {},
+      "id": "efa6c5a6acfdc016",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Building with JEV — 8 Use Cases + Fine-tune & Benchmark Your Local One — 4 Hour Live Workshop",
+      "url": "https://medium.com/to-data-beyond/building-with-jev-8-use-cases-fine-tune-benchmark-your-local-one-4-hour-live-workshop-cb63d93c849c?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-13T15:01:04Z",
+      "excerpt": "Your agent has gathered evidence and found three possible answers. How does it decide which one to accept, whether to keep searching, or… Continue reading on To Data & Beyond »",
+      "author": "Youssef Hosni",
+      "extra": {},
+      "id": "cad62ebc3fcd7a34",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "OpenAI disbands its robotics team as its general models start running robots",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+      "publishedAt": "2026-11-13T17:55:23Z",
+      "excerpt": "",
+      "author": "sshah03",
+      "extra": {
+        "points": 60,
+        "comments": 15,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50487184"
+      },
+      "id": "4a36f6adfa9f6485",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "publishedAt": "2026-11-13T17:30:10Z",
+      "excerpt": "",
+      "author": "bookofjoe",
+      "extra": {
+        "points": 185,
+        "comments": 43,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50486748"
+      },
+      "id": "a1e895b935bb3a95",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "publishedAt": "2026-11-13T15:29:10Z",
+      "excerpt": "",
+      "author": "kamaraju",
+      "extra": {
+        "points": 112,
+        "comments": 110,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
+      },
+      "id": "5f1afeeb96c03bf7",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI is destroying the trust between writers and readers",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "publishedAt": "2026-11-13T11:13:46Z",
+      "excerpt": "",
+      "author": "FinnLobsien",
+      "extra": {
+        "points": 266,
+        "comments": 158,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50481870"
+      },
+      "id": "2f44ca0e016fa14e",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "US intel isn’t sure if businesswoman spied on Nvidia for China, doesn’t mean she wasn’t a risk, sources say",
+      "url": "https://edition.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia",
+      "publishedAt": "2026-11-13T02:47:47Z",
+      "excerpt": "they do not even know if she was a spy, a year after this chase is going on about her, Jensen should not have resigned! from that article: The FBI has been investigating Huang’s affair for at least a year. But Attorney General Todd Blanche said on Thursday that there are still “no conclusions reached by the Department of Justice, or by me, or by [FBI] Director Patel around who she is or is not.” President Donald Trump also hedged Thursday on whether the US had determined she was a spy, when…",
+      "author": "/u/ab2377",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuwf9w/us_intel_isnt_sure_if_businesswoman_spied_on/"
+      },
+      "id": "9291ef491f85f9cb",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "thinkingmachines/Inkling-2-Small is released!",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "publishedAt": "2026-11-12T22:25:57Z",
+      "excerpt": "",
+      "author": "/u/InfinityZeroFive",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuqplg/thinkingmachinesinkling2small_is_released/"
+      },
+      "id": "6ae972136210ca6a",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "A United Nations survey last year found that as many as 80% of people in [China] support data center construction. At least two-thirds of Chinese people use AI in their day-to-day life, as many embrace the technology and the infrastructure behind it",
+      "url": "https://www.cbsnews.com/news/china-ai-data-center-boom-as-us-tech-firms-face-resistance/",
+      "publishedAt": "2026-11-12T22:22:20Z",
+      "excerpt": ">Experts cited by the Financial Times say data centers in China are built at about one-fifth of the costs incurred in the U.S., not least due to the much higher land and labor costs. Why is there such a big difference between support for data centers in China compared to the US? https://www.cbsnews.com/news/china-ai-data-center-boom-as-us-tech-firms-face-resistance/",
+      "author": "/u/Eliv_nurotic",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xuqml7/a_united_nations_survey_last_year_found_that_as/"
+      },
+      "id": "fbaa3e8df107dae9",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "While many Americans resist, China embraces AI data center boom.",
+      "url": "https://www.cbsnews.com/news/china-ai-data-center-boom-as-us-tech-firms-face-resistance/?ftag=CNM-00-10aab7e&linkId=1036270053",
+      "publishedAt": "2026-11-12T20:20:15Z",
+      "excerpt": "",
+      "author": "/u/Snoo26837",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xunk2z/while_many_americans_resist_china_embraces_ai/"
+      },
+      "id": "5f1d150e60e86bf4",
+      "collectedAt": "2026-11-13T19:55:53.701032+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-13T19:55:53.701032+00:00"
+}

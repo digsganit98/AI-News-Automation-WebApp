@@ -1,0 +1,303 @@
+{
+  "date": "2026-11-14",
+  "stories": [
+    {
+      "id": "amazon-bedrock-introduces-built-in-cost-tracking-16c76f",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "Amazon Bedrock introduces built-in cost tracking for AI tools",
+      "summary": "Amazon Bedrock now includes a native feature that tracks AI tool usage costs for individual users without requiring additional setup. This allows organizations to monitor spending across different employees and teams.",
+      "whyItMatters": "Granular cost tracking helps businesses manage and optimize their spending on AI developer and productivity tools.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-sagemaker-hyperpod-adds-data-capture-to-i-a8b10f",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "Amazon SageMaker HyperPod adds data capture to improve model fine-tuning",
+      "summary": "Amazon SageMaker HyperPod Data Capture records live inputs and outputs from AI models to help developers identify where performance struggles. This data can be used to fine-tune models for better reliability in production environments.",
+      "whyItMatters": "Capturing real-world production data enables more targeted and effective model improvements.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-expands-ai-agent-monitoring-tools-in-bigq-111847",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "Google expands AI agent monitoring tools in BigQuery and Looker",
+      "summary": "Google has introduced monitoring tools in BigQuery and Looker that track how AI agents reason, which data they access, and their running costs. The features offer unified visibility for both built-in and custom AI agents.",
+      "whyItMatters": "Unified monitoring helps enterprises maintain governance and control over autonomous AI operations.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-and-databricks-partner-to-integrate-ai-wi-e9b075",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "OpenAI and Databricks partner to integrate AI with enterprise data",
+      "summary": "OpenAI and Databricks have established a partnership to let companies run OpenAI models directly on governed enterprise data. The integration helps AI tools correctly interpret specific business metrics like revenue and active customers.",
+      "whyItMatters": "Connecting models directly to structured enterprise data improves the factual accuracy of business-critical AI responses.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-dissolves-standalone-robotics-team-and-re-d6f57e",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "OpenAI dissolves standalone robotics team and reassigns researchers",
+      "summary": "OpenAI has integrated its dedicated robotics team into its main research and applied divisions. The company stated that robotics remains part of its long-term strategy to combine physical applications with its general models.",
+      "whyItMatters": "Restructuring internal teams indicates a shift toward embedding robotics development directly into core model initiatives.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-model-claude-helps-analyze-unpublished-notebo-e940fd",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "AI model Claude helps analyze unpublished notebooks of Kurt Gödel",
+      "summary": "Logician Jan von Plato used the Claude AI model to analyze over a thousand pages of Kurt Gödel's handwritten notebooks from the 1940s. The AI processed the material rapidly, uncovering hundreds of previously unknown mathematical theorems.",
+      "whyItMatters": "Using language models to read and summarize complex historical manuscripts accelerates scholarly research in philosophy and logic.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Education",
+      "researcher": "Jan von Plato",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "thinking-machines-releases-inkling-2-small-model-6ae972",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "Thinking Machines releases Inkling-2-Small model",
+      "summary": "Thinking Machines has announced the release of a new open model named Inkling-2-Small. Detailed specifications regarding its architecture or performance benchmarks were not provided in the announcement.",
+      "whyItMatters": "Releasing new small-scale models expands available options for developers building specialized local applications.",
+      "category": "New Model Release",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Reddit",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-tutorial-demonstrates-running-large-model-dbb6a7",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "NVIDIA tutorial demonstrates running large models across dual workstations",
+      "summary": "NVIDIA has published a guide detailing how to run the 753-billion parameter GLM-5.3 model locally using two connected DGX Stations. The setup applies tensor parallelism to distribute the model workload and memory requirements across both systems.",
+      "whyItMatters": "Distributed local deployment techniques allow developers to experiment with massive models without relying entirely on cloud infrastructure.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-introduces-chatgpt-wallet-for-agent-trans-5bf495",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "OpenAI introduces ChatGPT Wallet for agent transactions",
+      "summary": "OpenAI has launched ChatGPT Wallet to enable AI agents across tools like ChatGPT Work and Codex to execute purchases. The system relies on user approvals and standard card security safeguards.",
+      "whyItMatters": "Providing autonomous agents with payment capabilities is a key step toward enabling fully functional transaction workflows.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "llama-cpp-project-reaches-version-1-0-0-for-loca-40e78d",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "llama.cpp project reaches version 1.0.0 for local AI development",
+      "summary": "The llama.cpp library has released version 1.0.0, establishing a stable foundation for running AI models on personal hardware. The update implements stricter versioning policies to support developers building cross-platform local applications.",
+      "whyItMatters": "Reaching a stable major version provides developers with reliable API guarantees for local AI deployment frameworks.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "researchers-introduce-unispark-9b-multimodal-mod-3c1c09",
+      "createdAt": "2026-11-13T20:02:17.214154+00:00",
+      "headline": "Researchers introduce UniSpark-9B multimodal model",
+      "summary": "Researchers have presented UniSpark-9B, a unified model that combines visual understanding and generation using a hybrid attention mechanism. Each branch of the model backbone utilizes approximately 9 billion parameters to process complex token interactions.",
+      "whyItMatters": "Unified multimodal architectures improve the efficiency of handling both comprehension and generation tasks within a single system.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.16517"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.16517",
+        "code": null,
+        "model": null,
+        "demo": "https://lucaria-academy.github.io/UniSpark/"
+      }
+    }
+  ],
+  "updatedAt": "2026-11-13T20:02:32.895613+00:00"
+}
