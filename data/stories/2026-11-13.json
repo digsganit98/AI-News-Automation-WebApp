@@ -189,7 +189,196 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "sglang-neuron-brings-sglang-inference-to-aws-tra-fecee8",
+      "createdAt": "2026-11-13T02:06:39.062890+00:00",
+      "headline": "SGLang-Neuron brings SGLang inference to AWS Trainium",
+      "summary": "Amazon has released SGLang-Neuron through an AWS Deep Learning Container, allowing developers to serve models and generate reinforcement learning rollouts on AWS Trainium chips. The tool uses the familiar SGLang interface and runs on native PyTorch for scalable AI inference.",
+      "whyItMatters": "This release expands deployment options for developers using custom silicon for high-throughput AI workloads.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "natera-builds-agentic-support-system-on-amazon-b-164d18",
+      "createdAt": "2026-11-13T02:06:39.062890+00:00",
+      "headline": "Natera builds agentic support system on Amazon Bedrock",
+      "summary": "Natera created an agentic AI system called SWARM on Amazon Bedrock AgentCore to manage institutional knowledge for lab operations. The setup delivers significantly faster response times and high automated coverage for support tickets in DNA testing facilities.",
+      "whyItMatters": "It demonstrates how specialized agentic systems can automate operational support in life sciences laboratories.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-outlines-key-request-settings-affecting-b-332da1",
+      "createdAt": "2026-11-13T02:06:39.062890+00:00",
+      "headline": "Amazon outlines key request settings affecting Bedrock inference costs",
+      "summary": "Amazon has published guidance on how four specific request-level choices, including cache duration, service tier, reasoning effort, and maxTokens, influence token processing volumes and billing rates on Amazon Bedrock. The post explains how to test and adjust these configurations to control expenses.",
+      "whyItMatters": "Clear cost management practices help engineering teams optimize their cloud-based AI budgets.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "edge0-145b-open-source-ai-model-released-for-per-f980cc",
+      "createdAt": "2026-11-13T02:06:39.062890+00:00",
+      "headline": "Edge0-145B open-source AI model released for personal computers",
+      "summary": "A new open-source model featuring 145 billion parameters is built to run locally on personal laptops with coding and reasoning capabilities similar to cloud-based alternatives. The release includes full model weights, an inference framework, and local deployment tools.",
+      "whyItMatters": "It broadens local execution options for developers wanting to run large models without cloud dependencies.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "analysis-suggests-chinese-ai-models-used-export-d096a8",
+      "createdAt": "2026-11-13T02:06:39.062890+00:00",
+      "headline": "Analysis suggests Chinese AI models used export-controlled NVIDIA GPUs",
+      "summary": "A forensic examination of publicly released AI models from several Chinese companies identified numerical weight patterns that correspond to NVIDIA Blackwell hardware. The findings suggest these organizations may have utilized restricted chips for training despite trade controls.",
+      "whyItMatters": "It highlights ongoing challenges in enforcing international hardware export restrictions.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "agentrun-platform-introduces-self-improvement-fo-ca1478",
+      "createdAt": "2026-11-13T02:06:39.062890+00:00",
+      "headline": "AgentRun platform introduces self-improvement for AI agents",
+      "summary": "AgentRun is an open-source platform designed to add self-improvement and durable execution features to existing agent frameworks. It lets agents retain learned skills and workflows between runs to decrease token usage and increase fault tolerance.",
+      "whyItMatters": "Persistent memory and self-improvement mechanisms help make multi-step agent deployments more reliable and efficient.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "interactive-visual-gym-framework-tests-ai-assist-ce2f01",
+      "createdAt": "2026-11-13T02:06:39.062890+00:00",
+      "headline": "Interactive Visual Gym framework tests AI assistants on real-time tasks",
+      "summary": "Salesforce AI Research introduced Interactive Visual Gym, a benchmark that evaluates visual interaction models by simulating task environments and human users in a closed loop. Testing showed that current leading models face challenges with response speed and factual grounding in simulated tasks.",
+      "whyItMatters": "Closed-loop visual benchmarks provide more rigorous evaluation metrics for real-world interactive assistants.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.08286"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.08286",
+        "code": "https://github.com/SalesforceAIResearch/Interactive-Visual-Gym",
+        "model": null,
+        "demo": "https://interactive-visual-gym.salesforceairesearch.com"
+      }
     }
   ],
-  "updatedAt": "2026-11-12T20:19:37.599003+00:00"
+  "updatedAt": "2026-11-13T02:06:43.396693+00:00"
 }
