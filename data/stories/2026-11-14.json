@@ -405,7 +405,115 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "anthropic-introduces-parallel-ai-workers-in-clau-a9dc79",
+      "createdAt": "2026-11-14T10:49:32.684663+00:00",
+      "headline": "Anthropic introduces parallel AI workers in Claude Code Projects",
+      "summary": "Anthropic has launched a beta update to Claude Code Projects that allows the AI to manage multiple parallel work threads simultaneously. Users can set a high-level goal, and Claude will scope the task and delegate work across different threads.",
+      "whyItMatters": "Parallel processing threads enable AI coding assistants to handle complex software updates autonomously in the background.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://claude.com/resources/articles/projects-redesigned"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-study-examines-unbundling-multimodal-vision-8fbf66",
+      "createdAt": "2026-11-14T10:49:32.684663+00:00",
+      "headline": "New study examines unbundling multimodal vision encoding approaches",
+      "summary": "Recent research investigates how multimodal language models should process visual input by separating design choices within vision encoders. The paper analyzes the different impacts of using pretrained encoders, training from scratch, or removing them.",
+      "whyItMatters": "Understanding the specific impact of vision encoder components helps optimize multimodal model architectures.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.17334"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.17334",
+        "code": null,
+        "model": null,
+        "demo": "https://unbundling.github.io/"
+      }
+    },
+    {
+      "id": "research-questions-criteria-exposure-in-embodied-ce8ca8",
+      "createdAt": "2026-11-14T10:49:32.684663+00:00",
+      "headline": "Research questions criteria exposure in embodied robot self-improvement",
+      "summary": "A new study investigates whether self-improving robot agents learn actual tasks or simply learn to satisfy evaluation metrics when shown success criteria in simulations. The findings highlight potential gaps in how embodied AI agents learn from verification feedback.",
+      "whyItMatters": "Ensuring robots learn true task execution rather than metric hacking is essential for reliable physical deployments.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.08318"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.08318",
+        "code": null,
+        "model": null,
+        "demo": "https://dagroup-pku.github.io/PyRUA-Lean/RSIJudge/"
+      }
+    },
+    {
+      "id": "vercel-labs-releases-open-source-ui-sdk-for-ai-a-196819",
+      "createdAt": "2026-11-14T10:49:32.684663+00:00",
+      "headline": "Vercel Labs releases open-source UI SDK for AI agents",
+      "summary": "Vercel Labs has launched an open-source library called UI SDK featuring over 50 reusable interaction behaviors. The tool helps AI agents compose accessible user interfaces across multiple frameworks like React, Vue, and Svelte.",
+      "whyItMatters": "Standardized UI interaction components simplify how developers build agentic interfaces across different frontend frameworks.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://alphasignal.ai/news/vercel-labs-ui-sdk-gives-ai-agents-50-open-source-building-blocks"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-14T01:41:42.990013+00:00"
+  "updatedAt": "2026-11-14T10:49:36.412317+00:00"
 }
