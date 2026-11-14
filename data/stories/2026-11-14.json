@@ -297,7 +297,115 @@
         "model": null,
         "demo": "https://lucaria-academy.github.io/UniSpark/"
       }
+    },
+    {
+      "id": "aws-and-nvidia-introduce-library-to-route-coding-3880f2",
+      "createdAt": "2026-11-14T01:41:39.730193+00:00",
+      "headline": "AWS and NVIDIA introduce library to route coding agent requests by cost-effectiveness",
+      "summary": "AWS and NVIDIA have released an open source library named NVIDIA NeMo Switchyard to help developers route coding agent requests across AI models on Amazon Bedrock. The system optimizes the total cost per solved task instead of focusing solely on the price per token.",
+      "whyItMatters": "This library helps developers manage expenses more effectively when running complex coding agents at scale.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-bedrock-agentcore-runtime-v2-adds-environ-29d221",
+      "createdAt": "2026-11-14T01:41:39.730193+00:00",
+      "headline": "Amazon Bedrock AgentCore runtime V2 adds environment snapshots for faster startup",
+      "summary": "Amazon Bedrock AgentCore runtime V2 uses environment snapshots to prepare and restore agent sessions quickly. This update improves session start times and makes performance more consistent than the previous version.",
+      "whyItMatters": "Faster session startup times improve the responsiveness of enterprise AI agents in production environments.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-bedrock-agentcore-identity-supports-oauth-0c33fe",
+      "createdAt": "2026-11-14T01:41:39.730193+00:00",
+      "headline": "Amazon Bedrock AgentCore Identity supports OAuth 2.0 discovery URLs",
+      "summary": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery URLs for both inbound and outbound configurations. This update allows developers to integrate OAuth 2.0 servers that do not rely on OpenID Connect.",
+      "whyItMatters": "Expanded authentication options simplify secure integrations between enterprise systems and AI agents.",
+      "category": "Infrastructure/MLOps",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-oauth2-discovery/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-opens-singapore-office-and-partners-wi-87253e",
+      "createdAt": "2026-11-14T01:41:39.730193+00:00",
+      "headline": "Anthropic opens Singapore office and partners with government on AI safety",
+      "summary": "Anthropic has opened its fifth Asia-Pacific office in Singapore and signed a Memorandum of Understanding with the Ministry of Digital Development and Information. The agreement establishes cooperation on AI safety, model evaluation, and responsible adoption.",
+      "whyItMatters": "Local partnerships help align regional AI deployment with established safety and governance standards.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/singapore-office-opening"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-13T20:02:32.895613+00:00"
+  "updatedAt": "2026-11-14T01:41:42.990013+00:00"
 }
