@@ -1,0 +1,536 @@
+{
+  "date": "2026-11-16",
+  "runs": [
+    {
+      "runAt": "2026-11-15T23:02:42.326998+00:00",
+      "newItems": 18,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1389,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.330519Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.358267Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 907,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.358523Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.358726Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.358838Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.358947Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359049Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359169Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359267Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359360Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359456Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359499Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359527Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359669Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359697Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359794Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359889Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.359977Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.360075Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.360292Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.360387Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.360477Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361077Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361227Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361334Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361438Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361538Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361639Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361735Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.361869Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.362303Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.362420Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.362531Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-15T23:02:42.362564Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "publishedAt": "2026-11-15T22:00:01Z",
+      "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "author": null,
+      "extra": {},
+      "id": "87d7014c15ee68a3",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "publishedAt": "2026-11-15T22:00:00Z",
+      "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "author": null,
+      "extra": {},
+      "id": "4b0fc5b701ffd77d",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: unsloth/Qwen3.8-27B-GGUF",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 5994,
+        "trendingScore": 300,
+        "task": null
+      },
+      "id": "24ab2f6838765324",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "the-sequence",
+      "sourceName": "The Sequence",
+      "title": "The Sequence Radar - Issue #972: Last Week in AI: The Invisible Hand Wore a Leather Jacket",
+      "url": "https://thesequence.substack.com/p/the-sequence-radar-issue-972-last",
+      "publishedAt": "2026-11-15T12:01:06Z",
+      "excerpt": "Jensen Huang helped design and finance the AI market. Now it has to discover how much of its independence depended on him.",
+      "author": "Jesus Rodriguez",
+      "extra": {},
+      "id": "9930088901c68cca",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Where Predictive AI Meets Generative and Agentic AI",
+      "url": "https://medium.com/@sanjaydas.us/where-predictive-ai-meets-generative-and-agentic-ai-b3b98e984af3?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-15T22:15:38Z",
+      "excerpt": "by Satheesh Ramachandran, Ph.D. and Sanjay Das Continue reading on Medium »",
+      "author": "Sanjay Das",
+      "extra": {},
+      "id": "5ca4da2f26d35451",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Rethinking UAT for Generative AI: 4 Changes Every QA Team Needs to Make",
+      "url": "https://medium.com/@praveen.mundel.87/rethinking-uat-for-generative-ai-4-changes-every-qa-team-needs-to-make-795d6f4ce66f?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-15T20:12:21Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "Praveen Kumar",
+      "extra": {},
+      "id": "f719b82014803a8e",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": ".NET 11 Is Here! Is This the Future of Enterprise Application Development?",
+      "url": "https://medium.com/@kalisbtech/net-11-is-here-is-this-the-future-of-enterprise-application-development-4665b1225f09?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-15T19:45:49Z",
+      "excerpt": "The .NET ecosystem continues to evolve, and November 10, 2026, marks the release of .NET 11. Continue reading on Medium »",
+      "author": "Kaleeswaran Nagendran",
+      "extra": {},
+      "id": "a53a1c7574a5732e",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Businesses Need Generative AI Development Services in 2026",
+      "url": "https://medium.com/@intglobalworkpurpose/why-businesses-need-generative-ai-development-services-in-2026-284b634ac63a?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-15T19:15:41Z",
+      "excerpt": "Artificial intelligence is changing how enterprises serve customers, manage information, and complete everyday work. Yet using a public… Continue reading on Medium »",
+      "author": "INT Global",
+      "extra": {},
+      "id": "8991e17076bc24d7",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Your Agent Will Pick the Hackable One",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+      "publishedAt": "2026-11-15T21:10:39Z",
+      "excerpt": "",
+      "author": "tensafefrogs",
+      "extra": {
+        "points": 51,
+        "comments": 33,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50510799"
+      },
+      "id": "294a13221fad339b",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+      "publishedAt": "2026-11-15T19:39:46Z",
+      "excerpt": "",
+      "author": "vrganj",
+      "extra": {
+        "points": 57,
+        "comments": 59,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50509953"
+      },
+      "id": "da5a45ac447a209a",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "publishedAt": "2026-11-14T17:51:13Z",
+      "excerpt": "",
+      "author": "gnabgib",
+      "extra": {
+        "points": 50,
+        "comments": 75,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50499114"
+      },
+      "id": "b6f34700b44ae204",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "Export-banned Nvidia chips are behind China's most powerful AI models — uh-oh, Jensen! | TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "publishedAt": "2026-11-15T19:46:39Z",
+      "excerpt": "",
+      "author": "/u/IndependentCoast3974",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/artificial/comments/1xx4t46/exportbanned_nvidia_chips_are_behind_chinas_most/"
+      },
+      "id": "f17748102e2c4282",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "higurashi-ai/Haru-4B · Hugging Face",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "publishedAt": "2026-11-15T13:58:52Z",
+      "excerpt": "Haru-4B Code · Technical blog · Technical blog (Japanese) Haru-4B is a low-latency and multilingual full-duplex continuous spoken dialogue foundation model: it listens and speaks at the same time, the way people do on a phone call. It is a pretrained base model, released for research. Native full-duplex at 7.5 Hz. Every 133 ms the model takes one frame of the user's audio and produces one frame of its own audio and text. User audio, model audio and model text are summed into a single position…",
+      "author": "/u/pmttyji",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/"
+      },
+      "id": "6518fbd35a14573f",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "reddit",
+      "sourceName": "Reddit",
+      "title": "What comes once AI is better at most work than most people?",
+      "url": "https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/",
+      "publishedAt": "2026-11-15T03:52:09Z",
+      "excerpt": "",
+      "author": "/u/IagoInTheLight",
+      "extra": {
+        "discussionUrl": "https://www.reddit.com/r/singularity/comments/1xwlnmv/what_comes_once_ai_is_better_at_most_work_than/"
+      },
+      "id": "6b358b2df56f32b4",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Tipalti Launches AP Agent with MCP Links to Enterprise AI Tools - The Fintech Times",
+      "url": "https://thefintechtimes.com/tipalti-launches-ap-agent-with-mcp-links-to-enterprise-ai-tools/",
+      "publishedAt": "2026-11-15T01:00:45Z",
+      "excerpt": "* Tipalti Launches AP Agent with MCP Links to Enterprise AI Tools. #### ***Tipalti** has announced AP Agent, a next-generation agentic AI product designed to manage the complete accounts payable lifecycle, from invoice capture and coding through to approvals, payments and reconciliation. The Foster City-based company, which processes more than $100 billion in annualised payment volume across 120 currencies for around 6,500 customers, has also introduced Model Context Protocol (MCP)…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.458
+      },
+      "id": "26dcd680e16fcc55",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it - TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "publishedAt": "2026-11-14T17:30:00Z",
+      "excerpt": "Aside from Character.ai and Ollie, plenty of AI bets never even survive inside the companies that build them. One of the more recent examples was its attempt to turn ChatGPT into a broader “super app.” On July 9, OpenAI updated the app to combine several experiences, including separate “Chat,” “Codex,” and “Work” modes, while renaming the traditional, familiar version “ChatGPT Classic.”. The company has also shut down several stand-alone apps and folded their features directly into ChatGPT — a…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.184
+      },
+      "id": "b08cefd9996dfc5a",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Moore, Bonterra Unveil AI-Driven Fundraising Tools - The NonProfit Times",
+      "url": "https://thenonprofittimes.com/npt_articles/moore-bonterra-unveil-ai-driven-fundraising-tools/",
+      "publishedAt": "2026-11-15T01:35:29Z",
+      "excerpt": "The offering combines Moore-developed technology and expertise in nonprofit fundraising, communications and digital strategy to help nonprofits respond to changes in how people discover causes and decide where to give, according to an announcement from the firm. In an October 26 filing with the Securities and Exchange Commission, Meta Platforms reported that more than 10 million people in the U.S. and Canada had adopted Muse, Meta’s personal AI agent, within the first few weeks of its official…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.175
+      },
+      "id": "178e0fcd63e2e9fc",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI Launches ChatGPT Wallet for Secure AI Agent Payments - FinTech Magazine",
+      "url": "https://fintechmagazine.com/news/openai-launches-chatgpt-wallet-for-secure-ai-agent-payments",
+      "publishedAt": "2026-11-15T15:00:24Z",
+      "excerpt": "Visa's Rubail Birwadker explains how ChatGPT Wallet, launched in collaboration with American Express, Visa and Mastercard, connects AI to user approval. In the race for agentic AI commerce, OpenAI has announced the launch of ChatGPT Wallet, a payment tool that lets AI agents buy goods on behalf of users without seeing their actual card details. ChatGPT Wallet was created in partnership with American Express, Mastercard and Visa, and requires a biometric security check for each purchase. In a…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.148
+      },
+      "id": "19e1718f8a2ab692",
+      "collectedAt": "2026-11-15T23:02:42.326998+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-15T23:02:42.326998+00:00"
+}
