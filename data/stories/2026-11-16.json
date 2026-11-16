@@ -108,7 +108,331 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "study-shows-llm-memory-systems-can-lose-accuracy-1b6087",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "Study shows LLM memory systems can lose accuracy when deleting stale facts",
+      "summary": "A new study demonstrates that automatically removing outdated information from large language model memory can sometimes delete facts that are critical for answering specific queries. This hard-filtering approach was found to reduce downstream accuracy across three different models.",
+      "whyItMatters": "It highlights a key trade-off in memory management for large language models, showing that aggressive data pruning can degrade overall system performance.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.17338"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "audit-evaluates-hallucination-detectors-on-small-4d56c5",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "Audit evaluates hallucination detectors on small, on-device LLMs",
+      "summary": "Researchers audited existing hallucination detection methods to see how well they perform on small, quantized models used in consumer devices. The study notes that most current methods are tested on larger research models with more resources, leaving a gap in understanding for smaller, practical models.",
+      "whyItMatters": "It identifies evaluation gaps for hallucination detection when moving from large data centers to resource-constrained edge devices.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.17339"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-framework-proposes-tracing-knowledge-and-rea-c9b6c8",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "New framework proposes tracing knowledge and reasoning inside LLMs",
+      "summary": "A new paper introduces a task-centric framework designed to look inside large language models. The goal is to provide insight into the internal processing that leads to a model's performance, rather than just reporting final results at the dataset level.",
+      "whyItMatters": "It provides internal auditing tools that help researchers understand how models arrive at specific conclusions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.17461"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-examines-how-framing-effects-influence-llm-6f304b",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "Study examines how framing effects influence LLM agent behavior in market simulations",
+      "summary": "Researchers placed a Gemma 3 12B model in a simulated market scenario based on real litigation transcripts to test if gain-loss framing could sway its behavior. The study explores how internal state interventions and framing affect collusive actions in long-horizon agent tasks.",
+      "whyItMatters": "It sheds light on how subtle prompt framing can alter agent decision-making in complex economic simulations.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.17515"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "llm-agents-applied-to-verifiable-crystal-structu-ff71d1",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "LLM agents applied to verifiable crystal structure determination",
+      "summary": "A new method formulates powder X-ray diffraction structure determination as a verifiable search problem for LLM agents. This approach aims to address a key bottleneck in self-driving materials laboratories by allowing agents to determine crystal structures autonomously.",
+      "whyItMatters": "It demonstrates how agentic verification loops can automate complex physical science workflows.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.17539"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-voyager-system-supports-human-ai-civic-reason-867bf3",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "AI-Voyager system supports human-AI civic reasoning on AI regulation",
+      "summary": "AI-Voyager is a public-interest system designed to help people question and share the rules governing artificial intelligence. It facilitates civic reasoning to ensure that those affected by AI regulations have a chance to contest and influence the decision-making process.",
+      "whyItMatters": "It offers a tool for public participation in shaping regulatory standards for artificial intelligence.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.17564"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mmflash-accelerates-vision-language-model-decodi-ef27ea",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "MMFlash accelerates vision-language model decoding by up to 3.58 times",
+      "summary": "MMFlash is a new framework that improves speculative decoding for multimodal models by focusing on tokens that rely heavily on visual input. It achieves lossless speedups of up to 3.58 times by adaptively upweighting these visually dependent tokens and using sparse attention for long videos.",
+      "whyItMatters": "It provides a substantial efficiency boost for multimodal systems without sacrificing accuracy.",
+      "category": "Framework/Tooling",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.18482"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.18482",
+        "code": "https://github.com/fscdc/MMFlash",
+        "model": null,
+        "demo": "https://fscdc.github.io/MMFlash/"
+      }
+    },
+    {
+      "id": "gamer-introduced-as-generalist-ai-agent-for-long-1711df",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "Gamer introduced as generalist AI agent for long-horizon real-time game tasks",
+      "summary": "Gamer is a vision-language-action foundation model designed to handle complex, long-term tasks in both 2D and 3D game environments. It combines perception, memory, and reasoning to achieve performance comparable to skilled players while maintaining low inference latency.",
+      "whyItMatters": "It advances the capabilities of real-time action models operating across extended time horizons.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.18397"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.18397",
+        "code": "https://github.com/RainBowLuoCS/Gamer",
+        "model": null,
+        "demo": "https://mihoyo-gamer.github.io/"
+      }
+    },
+    {
+      "id": "mem-sql-framework-uses-contextual-memory-to-impr-f9b2c6",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "MEM-SQL framework uses contextual memory to improve Text-to-SQL translation",
+      "summary": "Researchers introduced MEM-SQL, a system that uses memory of previous queries to help translate natural language questions into SQL. This approach aims to improve accuracy on complex databases by leveraging context from earlier interactions.",
+      "whyItMatters": "It addresses context loss in database interactions, making text-to-SQL generation more reliable for multi-turn tasks.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.18338"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.18338",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-framework-proposes-evaluation-roadmap-for-ag-1e29d1",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "New framework proposes evaluation roadmap for agentic robotics",
+      "summary": "A new paper proposes a shared evaluation framework and research roadmap for agentic robotics, where foundation models control robots in real-world environments. The authors argue that combining a foundation model with an embodied harness allows for more flexible and reliable physical autonomy than task-specific policies.",
+      "whyItMatters": "It establishes standardized benchmarks for evaluating general-purpose robot control models.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.18359"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.18359",
+        "code": null,
+        "model": null,
+        "demo": "https://grid-robotics-official.github.io/agentic-robotics-roadmap"
+      }
+    },
+    {
+      "id": "loopback-transformer-offers-unified-view-of-resi-3eab61",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "Loopback Transformer offers unified view of residual looped architectures",
+      "summary": "Researchers analyzed how looped transformers reuse computation to reduce parameter counts. The paper provides a unified view of residual connections in these models, examining how results from repeated blocks are stored and utilized.",
+      "whyItMatters": "It deepens the theoretical understanding of parameter efficiency in iterative transformer architectures.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.17341"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.07226",
+        "code": "https://github.com/yancyou/Loopback",
+        "model": null,
+        "demo": "https://yancyou.github.io/Loopback_page/"
+      }
+    },
+    {
+      "id": "developer-runs-9b-ai-model-on-original-playstati-675e4f",
+      "createdAt": "2026-11-16T07:06:46.530439+00:00",
+      "headline": "Developer runs 9B AI model on original PlayStation 4 hardware",
+      "summary": "A developer has created an open-source project called Garlic LLM that runs a 9-billion-parameter AI model entirely offline on the original PlayStation 4. The application uses custom GPU kernels and quantization techniques to achieve speeds of 31 to 39 tokens per second on the console's 2013 hardware.",
+      "whyItMatters": "It highlights extreme optimization techniques that allow modern language models to run efficiently on legacy gaming hardware.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://videocardz.com/newz/playstation-4-can-now-run-9b-ai-model-on-its-gcn-gpu-at-up-to-39-tokens-per-second"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-15T23:08:05.010824+00:00"
+  "updatedAt": "2026-11-16T07:06:52.652576+00:00"
 }
