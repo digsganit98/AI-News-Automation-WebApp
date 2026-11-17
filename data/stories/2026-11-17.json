@@ -395,7 +395,250 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "amazon-bedrock-adds-conversation-memory-features-a60604",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "Amazon Bedrock adds conversation memory features to Managed Knowledge Base",
+      "summary": "Amazon Bedrock Managed Knowledge Base and AgentCore memory can now store conversations and extract user facts to improve search results. This allows developers to build assistants that remember user context while keeping data isolated per user.",
+      "whyItMatters": "It gives developers built-in tools to maintain user context across sessions securely.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "snowflake-makes-coco-desktop-generally-available-17dc18",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "Snowflake makes CoCo Desktop generally available for enterprise AI management",
+      "summary": "Snowflake has made its CoCo Desktop generally available, introducing features for AI cost governance, agent settings, and cloud agents. The update is designed to help enterprises scale AI usage with greater trust and control.",
+      "whyItMatters": "Enterprises get centralized tools to manage AI costs and governance across cloud environments.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/trusted-american-si-partner-nations"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-shares-design-patterns-and-taxonomy-for-mult-6d0c76",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "AWS shares design patterns and taxonomy for multi-agent architectures",
+      "summary": "An AWS blog post outlines a framework for designing multi-agent systems, emphasizing that coordination is a distributed systems challenge rather than just a model issue. The guide provides patterns and anti-patterns to help teams build reliable and cost-efficient architectures.",
+      "whyItMatters": "It offers engineering teams practical blueprints for building reliable multi-agent systems.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-sagemaker-ai-adds-kv-cache-aware-routing-7cd25c",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "Amazon SageMaker AI adds KV cache-aware routing for inference endpoints",
+      "summary": "Amazon SageMaker AI now supports KV cache-aware routing for real-time inference endpoints. This feature helps reduce the time to the first token for large language model workloads that use long or repeated prompts.",
+      "whyItMatters": "It improves response latency and efficiency for language model workloads that reuse long prompts.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-kv-cache-routing/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-introduces-dgx-spark-developer-kit-for-de-23e0c3",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "NVIDIA introduces DGX Spark developer kit for desktop supercomputing",
+      "summary": "NVIDIA has introduced a new developer kit at the SC26 conference that allows researchers to run multi-node scientific workloads and large AI models on their desks. The four-node cluster provides 512GB of combined memory and supports models with up to 700 billion parameters, reducing the need to wait for shared cluster time.",
+      "whyItMatters": "It brings multi-node supercomputing and large model execution directly to developer desktops.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA (generative AI)",
+          "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "continual-arc-benchmark-evaluates-long-term-skil-020406",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "Continual-ARC benchmark evaluates long-term skill acquisition in AI agents",
+      "summary": "Researchers have proposed Continual-ARC, a new benchmark that tests how AI agents learn and retain skills over a long period using a stream of logic puzzles. The study finds that while weight-based learning shows better generalization, simple caching often outperforms complex agent harnesses for memorization.",
+      "whyItMatters": "It provides a rigorous way to measure how AI systems learn and keep skills over time.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.14505"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.14505",
+        "code": "https://github.com/unifyai/continual-arc",
+        "model": null,
+        "demo": "https://continual-arc.unify.ai"
+      }
+    },
+    {
+      "id": "study-shows-language-models-used-for-review-focu-8c2b2d",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "Study shows language models used for review focus disproportionately on appendices",
+      "summary": "A new analysis of 2,000 academic papers shows that large language models used for peer review cite weaknesses from appendices in over 50% of cases. In contrast, human reviewers rarely focus on appendices, preferring to critique the core ideas and presentation of the main text.",
+      "whyItMatters": "It highlights a distinct behavioral bias in automated review models compared to human experts.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.17811"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.17811",
+        "code": "https://github.com/cincynlp/review_appendix",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "black-forest-labs-outlines-multi-modal-strategy-86b93b",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "Black Forest Labs outlines multi-modal strategy for FLUX 3 visual intelligence",
+      "summary": "Andreas Blattmann and Dustin Podell from Black Forest Labs discuss their strategy for training the FLUX 3 model on pixels, motion, and sound simultaneously. They argue that combining these signals allows the AI to understand physical interactions and trajectories, similar to how humans predict the path of a moving object.",
+      "whyItMatters": "It explains how multi-modal training data can improve an AI model's physical reasoning capabilities.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Andreas Blattmann",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/bfl/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "noeri-raises-110-million-dollars-to-build-self-i-15c637",
+      "createdAt": "2026-11-17T04:12:35.145522+00:00",
+      "headline": "Noeri raises 110 million dollars to build self-improving AI systems",
+      "summary": "Noeri, an AI lab founded by Stanford professors Yejin Choi and Carlos Guestrin, has raised 110m led by Menlo Ventures. The company builds AI systems that continue to improve on the job by studying a company's data and workflows, with changes approved by humans.",
+      "whyItMatters": "It highlights continued investor backing for enterprise AI systems that learn from operational data.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/noeri-110m-stanford-yejin-choi-carlos-guestrin-menlo-nvidia"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-16T19:58:53.149164+00:00"
+  "updatedAt": "2026-11-17T04:12:49.515526+00:00"
 }
