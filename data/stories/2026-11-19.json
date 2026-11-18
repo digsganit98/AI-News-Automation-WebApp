@@ -1,0 +1,546 @@
+{
+  "date": "2026-11-19",
+  "stories": [
+    {
+      "id": "salesforce-uses-amazon-sagemaker-ai-for-global-i-46964e",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Salesforce uses Amazon SageMaker AI for global inference routing",
+      "summary": "Salesforce is using a cross-Region inference router in Amazon SageMaker AI to combine computing capacity from multiple locations. This approach helps the company handle traffic spikes and maintain data residency commitments across its global operations.",
+      "whyItMatters": "It demonstrates how large enterprise applications can handle global inference scaling while maintaining strict data residency rules.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-outlines-pattern-for-connecting-bedrock-agen-6f644c",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "AWS outlines pattern for connecting Bedrock AgentCore to private APIs",
+      "summary": "AWS has published a technical guide for connecting Amazon Bedrock AgentCore Gateway to private APIs in a centralized network setup. The pattern uses VPC Lattice to allow centralized inspection of traffic for enterprise security.",
+      "whyItMatters": "It provides a clear architecture pattern for securely connecting enterprise AI agents to internal microservices and APIs.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "stretto-builds-bankruptcy-intake-voice-agent-on-a460ae",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Stretto builds bankruptcy intake voice agent on Amazon Nova",
+      "summary": "Stretto has developed an AI voice agent named Tara that conducts phone interviews for bankruptcy intake. The system is built on Amazon Nova 2 Sonic and was designed to qualify leads and replace traditional web forms.",
+      "whyItMatters": "It highlights practical enterprise deployment of voice agents for intake workflows in specialized industries.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-releases-sashiko-ai-code-review-system-fo-5b616b",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Google releases Sashiko AI code review system for Linux kernel",
+      "summary": "Google has built Sashiko, an open-source agentic code review system powered by Gemini to help maintain the Linux kernel. The tool aims to reduce the workload on human maintainers by reviewing patches for bugs and security issues.",
+      "whyItMatters": "It shows how agentic code review systems can assist maintainers with large-scale open-source codebases.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "snowflake-integrates-twelvelabs-for-video-search-a68a29",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Snowflake integrates TwelveLabs for video search and analysis",
+      "summary": "Snowflake has integrated TwelveLabs technology into its Cortex AI Functions. This allows users to search, embed, and analyze video content using SQL queries within a governed data environment.",
+      "whyItMatters": "It brings multimodal video understanding directly into enterprise data warehouses via standard SQL queries.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Snowflake",
+          "url": "https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-watch-hear-understand-video-twelvelabs"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-genie-expands-availability-in-microso-e31dc0",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Databricks Genie expands availability in Microsoft productivity products",
+      "summary": "Databricks has announced new integrations for its Genie AI assistant within Microsoft Copilot Cowork, Chat, Teams, and Excel. These updates aim to improve how AI assistants interact with user data and workflows.",
+      "whyItMatters": "It expands enterprise data assistant capabilities directly into common workplace collaboration and productivity suites.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/whats-new-genie-microsoft-copilot-cowork-and-chat-microsoft-teams-and-excel"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-rolls-out-genie-4-for-interactiv-652211",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Google DeepMind rolls out Genie 4 for interactive world generation",
+      "summary": "Google DeepMind has made Genie 4 available to eligible subscribers, allowing users to create and modify interactive 3D worlds in real time using text prompts. The update also introduces native audio and a community gallery for sharing and remixing these generated environments.",
+      "whyItMatters": "It advances real-time generative simulation and interactive environment creation for users.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/genie-4-is-now-available/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-cosmos-adds-prompt-based-dataset-generati-b1ff58",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "NVIDIA Cosmos adds prompt-based dataset generation for physical AI",
+      "summary": "NVIDIA has released a tool within its Cosmos platform that allows developers to create high-quality training datasets for physical AI models using just two prompts. This aims to help capture rare or challenging scenarios that are difficult to record manually.",
+      "whyItMatters": "It addresses the bottleneck of gathering rare training data for robotics and physical AI simulation.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Manufacturing",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "meta-uses-autonomous-ranking-agent-to-scale-mach-cd34e4",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Meta uses autonomous ranking agent to scale machine learning improvements",
+      "summary": "Meta is using an autonomous system called the Ranking Engineer Agent to generate hypotheses and design experiments for its ads ranking models. The system helps propagate architectural improvements across the company's machine learning infrastructure.",
+      "whyItMatters": "It demonstrates how autonomous agents can be used internally to accelerate machine learning infrastructure engineering.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Meta Engineering (ML)",
+          "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-details-security-sandboxing-and-limits-fo-53f2a1",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "OpenAI details security sandboxing and limits for Codex",
+      "summary": "OpenAI has explained how its Codex tool runs commands on user machines while enforcing strict filesystem and network limits. These safeguards are designed to work across macOS, Linux, and Windows operating systems.",
+      "whyItMatters": "It provides transparency into how developer tools safely execute autonomous code across different operating systems.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/inside-the-codex-sandbox"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-outlines-framework-for-managing-frontier-8b6ac2",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "OpenAI outlines framework for managing frontier AI risks",
+      "summary": "OpenAI has published an explanation of how it manages risks associated with frontier AI models from training through deployment. The process includes model alignment, sandboxing, blocking safeguards, and continuous monitoring.",
+      "whyItMatters": "It clarifies the ongoing lifecycle safety practices used by frontier AI labs.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/managing-frontier-ai-risk"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-models-used-to-optimize-chip-designs-and-c7d3ec",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "OpenAI models used to optimize chip designs and RISC-V cores",
+      "summary": "OpenAI has reported that its models were used to optimize circuits in Jalapeño silicon and improve RISC-V core designs. This work demonstrates progress in using AI to assist with complex chip design tasks.",
+      "whyItMatters": "It shows practical applications of language models in complex hardware engineering and semiconductor design.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-releases-rumble-2-flash-speech-mode-679cee",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Hugging Face releases Rumble-2-Flash speech model",
+      "summary": "Hugging Face has released Rumble-2-Flash, an open-source speech model with 0.5 billion parameters. The model supports more than 40 different languages.",
+      "whyItMatters": "It provides a lightweight, multilingual open-source speech model for various voice applications.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/rumble-2-flash"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "repofactory-pipeline-scales-coding-agents-with-e-295fba",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "RepoFactory pipeline scales coding agents with evolving training environments",
+      "summary": "Researchers have developed RepoFactory, a pipeline that converts real software repositories into verifiable training environments for coding agents. Training on these optimized environments led to significant performance gains in long-horizon coding tasks.",
+      "whyItMatters": "It improves the training methodology for coding agents by leveraging real-world software repositories.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.21152"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.21152",
+        "code": "https://github.com/IQuestLab/RepoFactory",
+        "model": "https://huggingface.co/IQuestLab/RepoFactory",
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-shortens-deadline-for-vendors-to-fix-a-5c4978",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Anthropic shortens deadline for vendors to fix AI-identified security flaws",
+      "summary": "Anthropic has updated its vulnerability disclosure policy to reduce the time vendors have to address serious security flaws identified by its Claude models. This change enforces stricter timelines for resolving security vulnerabilities.",
+      "whyItMatters": "It accelerates the remediation of security flaws discovered by AI systems.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.msspalert.com/news/anthropic-updates-vulnerability-disclosure-policy-for-ai-discovered-flaws"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "enterprise-ai-shifts-from-isolated-chat-widgets-a08e83",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Enterprise AI shifts from isolated chat widgets to shared team members",
+      "summary": "Enterprise AI is moving from isolated chat widgets to shared, multi-player agents that operate alongside human teams. This architectural change aims to solve context isolation and allow AI to execute tasks directly within communication channels.",
+      "whyItMatters": "It redefines how artificial intelligence integrates into collaborative workplace workflows.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/ai-agents-without-engineers-non-technical-teams"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "afrinorm-benchmark-evaluates-llm-reasoning-acros-a00a9a",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "AfriNORM benchmark evaluates LLM reasoning across African cultures",
+      "summary": "Researchers have introduced AfriNORM, a benchmark designed to evaluate how large language models handle normative reasoning across various African cultures. The team plans to expand the benchmark to include more African languages and cultures.",
+      "whyItMatters": "It helps measure and improve cultural alignment and reasoning for models operating in diverse regions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://arxiv.org/html/2611.22580v1"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "sarvam-ai-offers-chinese-models-to-bridge-india-e92489",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Sarvam AI offers Chinese models to bridge India AI infrastructure gap",
+      "summary": "Indian AI company Sarvam AI is offering Chinese models through local infrastructure to build a commercially viable inference business. This move highlights the technological gap that Indian AI companies are currently attempting to bridge.",
+      "whyItMatters": "It demonstrates pragmatic infrastructure strategies used by regional AI providers to deliver commercial inference.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://indianexpress.com/article/explained/explained-ai/sarvam-ai-chinese-models-token-factory-india-ai-sovereignty-10967996"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "decision-models-see-rapid-adoption-alongside-mic-f4982b",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "Decision models see rapid adoption alongside Microsoft Azure rollout",
+      "summary": "Decision models, which are tuned to quickly choose between preset options rather than generate text, are seeing skyrocketing usage on platforms like Vercel. Microsoft has announced the wide rollout of its own decision model, Microsoft-Decision-1.1, on Azure.",
+      "whyItMatters": "It highlights a shift toward fast, specialized decision-making architectures over text generation.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Azure",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-and-thinking-machines-researchers-discuss-459857",
+      "createdAt": "2026-11-18T20:55:49.868825+00:00",
+      "headline": "OpenAI and Thinking Machines researchers discuss self-improving AI timelines",
+      "summary": "OpenAI's Mark Chen and Thinking Machines' John Schulman estimate the likelihood of AGI at around 80% and recursive self-improvement at 25-50%. They argue that current AI research interns still lack the necessary research taste to fully automate the process.",
+      "whyItMatters": "It offers expert perspectives from industry leaders on the timelines and bottlenecks for recursive self-improvement.",
+      "category": "AGI",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://finance.biggo.com/podcast/66a27b08edb683e8"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-18T20:55:59.011181+00:00"
+}
