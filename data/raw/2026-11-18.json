@@ -1,0 +1,850 @@
+{
+  "date": "2026-11-18",
+  "runs": [
+    {
+      "runAt": "2026-11-18T01:07:40.441129+00:00",
+      "newItems": 43,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1406,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.446163Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.481616Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 908,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.481960Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.482250Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.482417Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.482574Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.482721Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.482865Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483027Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483172Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483313Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483371Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483414Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483633Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483677Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483820Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 2,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.483991Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.484143Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.484281Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.484548Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-18T01:07:40.484697Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.484843Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.485641Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.485792Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-18T01:07:40.485953Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.486102Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.486242Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.486387Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 26,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.486532Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.486734Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-18T01:07:40.487332Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.487507Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 1,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.487674Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-11-18T01:07:40.487723Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publishedAt": "2026-11-17T17:45:00Z",
+      "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "author": null,
+      "extra": {},
+      "id": "549a77347d5e1e5f",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "publishedAt": "2026-11-17T08:00:00Z",
+      "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "author": null,
+      "extra": {},
+      "id": "c6c361c53bc4ce2d",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "excerpt": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "author": null,
+      "extra": {},
+      "id": "0604bc2b50fc0c3b",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "title": "Can AI help build a healthier future?",
+      "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "publishedAt": "2026-11-17T16:52:17Z",
+      "excerpt": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and more. The post Can AI help build a healthier future? appeared first on Microsoft Research .",
+      "author": "Doug Burger, Ava Amini, Eric Horvitz, Dr. Eric Topol",
+      "extra": {},
+      "id": "996b5745644e2367",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+      "url": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+      "publishedAt": "2026-11-17T17:30:00Z",
+      "excerpt": "Agentic workloads, long documents, and large codebases are pushing context lengths from tens of thousands of tokens to hundreds of thousands. At those lengths,...",
+      "author": "Timmy Liu",
+      "extra": {},
+      "id": "41dc972095bf5b59",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "nvidia-developer",
+      "sourceName": "NVIDIA Developer (generative AI)",
+      "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
+      "url": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/",
+      "publishedAt": "2026-11-17T17:00:00Z",
+      "excerpt": "Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation...",
+      "author": "Stefano Mensa",
+      "extra": {},
+      "id": "f0125ef202cb9e95",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "MovieRoll: A Systematic Framework for Rolling Out Long-Form Videos",
+      "url": "https://huggingface.co/papers/2611.21339",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "excerpt": "Streaming video generation must sustain quality beyond the training horizon while handling self-generated history and growing cache costs. To address these challenges, we present MovieRoll, a base-to-distilled framework that connects streaming fine-tuning, long-rollout distillation, and long-horizon inference. We first establish a robust multi-step base through Window-wise Teacher Forcing (WinTF), which jointly denoises chunks at progressive noise levels with bidirectional attention within…",
+      "author": "Yunyang Ge, Weijie Kong, Ryan Xu, Yue Wu, Qi Tian, Jiangfeng Xiong, Bin Lin, Mingzhe Zheng, Shenghai Yuan, Zheyuan Liu, Jianwei Zhang, Li Yuan",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/Tencent-Hunyuan/MovieRoll",
+        "projectPage": "https://tencent-hunyuan.github.io/MovieRoll/",
+        "arxivUrl": "https://arxiv.org/abs/2611.21339"
+      },
+      "id": "770e1ac61b961d40",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+      "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 498,
+        "trendingScore": 211.39999999999998,
+        "task": "text-to-image"
+      },
+      "id": "7e8ec09429d02122",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
+      "publishedAt": "2026-11-17T22:25:00Z",
+      "excerpt": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "7f764ebd15d36966",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock AgentCore Memory now supports short-term memory retention of up to 10 years",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-10-year-retention",
+      "publishedAt": "2026-11-17T19:22:00Z",
+      "excerpt": "Amazon Bedrock AgentCore Memory now lets you keep short-term memory events for up to 10 years, up from one year. Developers can now use short-term memory as a long-lived record of agent conversations and interactions. This helps when that history needs to stay available for a long time, such as for compliance and audit, for users who come back after months away, or for agents that need to look back at past sessions. You set retention on the memory resource, and it's applied to each event when…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "0361f9d612b55d02",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock AgentCore Memory now provides full session summaries",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-full-session-summaries",
+      "publishedAt": "2026-11-17T19:17:00Z",
+      "excerpt": "Amazon Bedrock AgentCore Memory now keeps a full session summary for every session. It's a single record that gives a snapshot of what happened in the conversation. Summary chunks cover the conversation in more detail, while the full session summary captures the overall picture of where the session stands. AgentCore Memory updates it as new events arrive, so it always reflects the session so far. This works well for developers who want a quick recap rather than a play-by-play. Full session…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "396675a743ab8137",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker now supports AI data preparation capabilities to build high-quality datasets for model development",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-ai-data-prep-capabilities/",
+      "publishedAt": "2026-11-17T19:00:00Z",
+      "excerpt": "Building high-quality training datasets has traditionally required weeks of manual labeling and data cleaning. Amazon SageMaker now offers AI data preparation capabilities that help data scientists and ML engineers build high-quality training and evaluation datasets for both text-based model customization and traditional ML. Teams can generate synthetic examples grounded in their own documents, auto-label records at scale with confidence scores, incorporate expert feedback through human…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "e0524243e2444897",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Bedrock AgentCore now offers free monthly web search queries",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-free-web-search-queries/",
+      "publishedAt": "2026-11-17T18:00:00Z",
+      "excerpt": "Amazon Bedrock AgentCore now offers 5,000 free web search queries per month through the Web Search Tool in AgentCore gateway and the Web Search API. AgentCore helps developers build, deploy, and operate highly effective agents securely at scale. Developers can now build and test agents with web search capabilities at no cost for their first 5,000 queries each month. The free allowance applies automatically, with no setup required. It is shared across supported AWS Regions and by all accounts…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "bcdd9cd65c4128af",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon EVS launches support for r7i.metal instances, external principal storage, and an Agent Skill",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-evs-r7i-agent-skill-support/",
+      "publishedAt": "2026-11-17T17:27:00Z",
+      "excerpt": "Today, we are announcing that Amazon Elastic VMware Service (Amazon EVS) now supports the r7i.metal-24xl and r7i.metal-48xl Amazon Elastic Compute Cloud (EC2) bare metal instance types for VMware Cloud Foundation (VCF) 9.x deployments. EC2 r7i instances are memory optimized, with custom 4th Generation Intel Xeon Scalable (Sapphire Rapids) processors, and designed to be used with external storage. With these instances possessing no local NVMe disks, Amazon EVS now supports VCF external…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "9af5841ed5ed2d7c",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "OpenAI GPT-6.2 Astra, and GPT-6.2 Sol are now generally available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-6-2-astra-sol-amazon-bedrock/",
+      "publishedAt": "2026-11-17T17:17:00Z",
+      "excerpt": "Today, AWS announces the general availability of OpenAI GPT-6.2 Astra and GPT-6.2 Sol on Amazon Bedrock. GPT-6.2 Astra brings frontier-level reasoning and judgment to your most ambitious work, including complex business problems, demanding research, and advanced coding and agentic workflows. Astra also includes an Ultrafast mode for latency-sensitive applications that need fast responses. GPT-6.2 Sol is designed for recurring coding, agentic, and professional workflows with clear outcomes,…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "e275daab6915c5ef",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "AWS announces agentic account creation for agentic coding harnesses",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentic-account-creation/",
+      "publishedAt": "2026-11-17T08:00:00Z",
+      "excerpt": "AWS now enables agentic coding harnesses to open the new AWS sign-up experience for developers who don't have an AWS account yet. Previously, developers working in agentic coding environments like Claude Code, Codex, and Cursor had to manually navigate to aws.amazon.com , sign up for an AWS account and configure credentials before deploying workloads, interrupting the developer's experience. Now, developers can go from an idea to deploying a running application by the browser automatically…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "e4b066accee9dd15",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker HyperPod now supports cluster operations for tracking scaling and on-demand Deep Health Check requests",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-cluster-ops/",
+      "publishedAt": "2026-11-17T08:00:00Z",
+      "excerpt": "Amazon SageMaker HyperPod introduces cluster operations, giving you visibility into every scaling and on-demand deep health check request from submission to completion. When a request runs into errors, the SageMaker AI console shows an alert that links directly to that request's error events. With continuous provisioning, HyperPod brings capacity online in the background as it becomes available, retries failed nodes automatically, and lets you run multiple scaling requests at the same time.…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "10266c9088840825",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+      "publishedAt": "2026-11-17T23:33:26Z",
+      "excerpt": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
+      "author": "Vinay Arora",
+      "extra": {},
+      "id": "206b86c970ea91d6",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
+      "publishedAt": "2026-11-17T22:44:51Z",
+      "excerpt": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up to 71% and latency by up to 80%.",
+      "author": "Pallav Gupta",
+      "extra": {},
+      "id": "2c0a64e08e41f662",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+      "publishedAt": "2026-11-17T21:14:55Z",
+      "excerpt": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
+      "author": "Meghan Kothari",
+      "extra": {},
+      "id": "6dbfd2c16f1d581a",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+      "publishedAt": "2026-11-17T21:11:51Z",
+      "excerpt": "Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt. Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on single model and inference component endpoints.",
+      "author": "Dmitry Soldatkin",
+      "extra": {},
+      "id": "8e21326b778b59c3",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Govern and discover records with common metadata in AWS Agent Registry",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+      "publishedAt": "2026-11-17T20:31:04Z",
+      "excerpt": "Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every agent, MCP server, and skill must carry. This post follows an MCP record from schema definition through registration, enrichment, approval, and discovery, so teams govern and find resources with one shared set of facts.",
+      "author": "Sana Iqbal",
+      "extra": {},
+      "id": "1796857b9a1b2f79",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+      "publishedAt": "2026-11-17T20:25:23Z",
+      "excerpt": "When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate? This post walks through three OAuth patterns we tested on AgentCore Identity: Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, so you can match your organization's identity, audit, and compliance needs.",
+      "author": "Nithyashree Alwarsamy",
+      "extra": {},
+      "id": "3a6ddd65cb94a929",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+      "publishedAt": "2026-11-17T19:40:01Z",
+      "excerpt": "Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data. Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or IDE.",
+      "author": "Varun Rajan",
+      "extra": {},
+      "id": "2052af3031ae30d9",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Getting AI out of the demo and into businesses globally",
+      "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/",
+      "publishedAt": "2026-11-17T19:05:22Z",
+      "excerpt": "Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.",
+      "author": "Dr. Asa Kalavade",
+      "extra": {},
+      "id": "1e308b5aafc025fe",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Google Cloud is a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant/",
+      "publishedAt": "2026-11-17T17:00:00Z",
+      "excerpt": "For the third time in a row, Google Cloud is recognized as a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms , positioned highest overall on the Ability to Execute axis. 1 These days, it’s very clear to us that organizations are looking for AI to handle actual day-to-day work, stay strictly within compliance guardrails, and deliver measurable ROI. In the last year, nearly 500 Google Cloud customers each processed more than one trillion tokens . And a lot of…",
+      "author": "Mike Clark",
+      "extra": {},
+      "id": "66207e9d38c89c75",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Does AI Really Know the Difference Between “Realistic” and “Anime”?",
+      "url": "https://medium.com/my-opinion-diaries/does-ai-really-know-the-difference-between-realistic-and-anime-fc76f0461ed0?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-17T23:36:04Z",
+      "excerpt": "The strange ability of generative AI to transform images, videos, and writing with just a few words Continue reading on My Opinion Diaries »",
+      "author": "Tetsuji Kondo",
+      "extra": {},
+      "id": "00c1c6f5267341b5",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Would We Know If It’s Wrong? LLM Evals and an LLM-as-Judge Before Any Agent",
+      "url": "https://collin-smith.medium.com/how-would-we-know-if-its-wrong-llm-evals-and-an-llm-as-judge-before-any-agent-a23668693134?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-17T22:18:34Z",
+      "excerpt": "Cost-weighted metrics, an LLM judge that passes under 5% of flawed drafts, and a CI gate that catches rule slips Continue reading on Medium »",
+      "author": "Collin Smith",
+      "extra": {},
+      "id": "84d1459a9c1d46ba",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The EU AI Act’s Next Deadline Is 2 December 2026: What Changes and Who Needs to Act",
+      "url": "https://medium.com/@johnparker.cert/the-eu-ai-acts-next-deadline-is-2-december-2026-what-changes-and-who-needs-to-act-64ddb526e54a?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-17T20:24:55Z",
+      "excerpt": "The Digital Omnibus pushed some AI Act deadlines back and brought others forward. Here is the timeline that now applies, and what… Continue reading on Medium »",
+      "author": "Johnparker Cert",
+      "extra": {},
+      "id": "56bdf0f13005fa1b",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Small Language Models: Fine-Tuning the Work That Never Needed a Frontier Model",
+      "url": "https://medium.com/@andrelgcclaudino/small-language-models-fine-tuning-the-work-that-never-needed-a-frontier-model-d374a1609376?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-17T19:41:18Z",
+      "excerpt": "Small language models are not weaker assistants. They are specialists, and most production LLM traffic only ever needed a specialist. Continue reading on Medium »",
+      "author": "André Claudino",
+      "extra": {},
+      "id": "e31cdfce3d4cf032",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "As I See It — Executive Insight",
+      "url": "https://medium.com/@omoregieosaretin24/as-i-see-it-bba92ee89173?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-17T19:06:18Z",
+      "excerpt": "AI and Critical Thinking — Don’t Outsource the Thinking or Decision Control. Continue reading on Medium »",
+      "author": "KAYODE OMOREGIE",
+      "extra": {},
+      "id": "bdbff65d729892cf",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
+      "url": "https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+      "publishedAt": "2026-11-17T19:08:45Z",
+      "excerpt": "",
+      "author": "hauntingseaweed",
+      "extra": {
+        "points": 63,
+        "comments": 11,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50536565"
+      },
+      "id": "a6c7c2ca104f78f1",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "url": "https://starsling.dev",
+      "publishedAt": "2026-11-17T19:01:43Z",
+      "excerpt": "",
+      "author": "yonasb",
+      "extra": {
+        "points": 53,
+        "comments": 28,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50536468"
+      },
+      "id": "e0d2ba07cf0f2da7",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Not Everything Needs an LLM",
+      "url": "https://newsletter.posthog.com/p/decision-models",
+      "publishedAt": "2026-11-17T18:16:18Z",
+      "excerpt": "",
+      "author": "speckx",
+      "extra": {
+        "points": 90,
+        "comments": 37,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50535740"
+      },
+      "id": "b8930a9a56df63fc",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "UK ‘needs national R&I effort’ for AI resilience - Research Professional News",
+      "url": "https://www.researchprofessionalnews.com/rr-news-uk-innovation-2026-11-uk-needs-national-r-i-effort-for-ai-resilience/",
+      "publishedAt": "2026-11-17T07:00:00Z",
+      "excerpt": "Research Professional News   Published by Clarivate. # UK ‘needs national R&I effort’ for AI resilience. *Image: Grace Gay for Research Professional News*. **Alan Turing Institute report proposes sector-wide goals, as its leader warns “fragmented” efforts are insufficient**. A national research and innovation effort is needed for the UK to secure its resilience amid the rise of artificial intelligence, according to a report from the Alan Turing Institute. Published on 17 November, the paper…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.204
+      },
+      "id": "6a12b17683ff661b",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI will embed Apollo researchers to investigate AI subversion - TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "publishedAt": "2026-11-16T17:02:43Z",
+      "excerpt": "OpenAI will embed six Apollo Research safety evaluators in its organization as part of a pilot, Apollo said Monday. Apollo says an essential part of the pilot is OpenAI’s agreement that the firm can publicly explain the conditions and limitations of its work. For a truly independent evaluation of the company’s AI models, Apollo says it needs true employee-level access to OpenAI’s systems, including “all data, records and documentation relevant to their assessment even if a developer was trying…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.16
+      },
+      "id": "99f66f454c3bc11f",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "OpenAI lets Apollo embed six AI safety testers during training - The Next Web",
+      "url": "https://thenextweb.com/news/apollo-research-openai-embedded-evaluations-pilot",
+      "publishedAt": "2026-11-16T18:24:18Z",
+      "excerpt": "Apollo Research will place six evaluators inside OpenAI for four months to check whether its models try to undermine alignment and control measures during training, testing and internal use. OpenAI controls staff access and can redact some evidence, but cannot hide Apollo’s verdicts or withhold material just because it is unfavourable. AI safety group Apollo Research will place six of its evaluators inside OpenAI for four months, Apollo announced on Monday. They will check whether OpenAI’s…",
+      "author": null,
+      "extra": {
+        "query": "AGI research statement from AI lab",
+        "score": 0.137
+      },
+      "id": "9bf17b687b73156f",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Industrial AI Startup CountAI Bags Rs 10 Cr In Seed Round Led By Equirus InnovateX Fund - BW Disrupt",
+      "url": "https://www.bwdisrupt.com/article/industrial-ai-startup-countai-bags-rs-10-cr-in-seed-round-led-by-equirus-innovatex-fund-633934",
+      "publishedAt": "2026-11-17T06:00:00Z",
+      "excerpt": "CountAI, a Coimbatore-based deep-tech startup developing AI-powered quality control and automation solutions for manufacturing, has raised ₹10 crore in seed funding from Equirus InnovateX Fund.\n\nThe fund raising is aimed at accelerating product development, expand market presence and taking its industrial AI capabilities into a wider range of manufacturing applications. [...] Founded by Harshavardhan Thirupathi alongside Venkataramanan, CountAI was established with the conviction that…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.775
+      },
+      "id": "d9d7b93f1915ec78",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Olyv, CountAI, Lemonpeel, others pocket early-stage cheques",
+      "url": "https://www.vccircle.com/olyvcountai-lemonpeel-others-pocket-early-stage-cheques",
+      "publishedAt": "2026-11-17T16:57:39Z",
+      "excerpt": "CountAI\n\nCoimbatore-based industrial AI startup CountAI, which is developing machine vision systems for manufacturing quality control and automation, has raised Rs 10 crore in a seed funding round led by Equirus InnovateX Fund. [...] Credit-led fintech platform Olyv, industrial AI startup CountAI, AI video production startup Lemonpeel, and infrastructure-focused AI startup Arborum Labs have raised fresh funding.\n\nOlyv\n\nThe fintech platform has raised around $6 million (Rs 56.1 crore) from…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.77
+      },
+      "id": "e8410559aab0be55",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Bharat Semi raises $24 mn for AI sensors | India Business News - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/bharat-semi-raises-24-mn-for-ai-sensors/articleshow/135895046.cms",
+      "publishedAt": "2026-11-17T01:00:00Z",
+      "excerpt": "“For decades, growth in the sensor market was driven by capturing data for people to consume.That paradigm is shifting. In the near future, growth in the sensor market will be driven by capturing data for machines,” said co-founder and managing director Vinayak Dalmia.Bharat Semi claims its technology can reduce data movement between components by up to 99% and lower system costs compared with conventional modules using multiple chips.The startup was co-founded by Dalmia and Vrinda Kapoor. Its…",
+      "author": null,
+      "extra": {
+        "query": "Coimbatore artificial intelligence startup news",
+        "score": 0.08
+      },
+      "id": "7c19d27268a990c3",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Google’s AdMob lets AI agents like Claude Code set up app ads - The Next Web",
+      "url": "https://thenextweb.com/news/google-admob-ai-agents-claude-code-codex-ask-admob",
+      "publishedAt": "2026-11-16T18:47:54Z",
+      "excerpt": "Google has released AdMob agent skills that let AI coding agents, including Claude Code, Codex and Cursor, add and check ad code in mobile apps. A Gemini-built assistant, Ask AdMob, and an MCP server that lets agents manage AdMob accounts are still in testing, with more agent tools planned for 2027. Google is adding AI tools to AdMob, its service for showing ads inside mobile apps, the company announced on Monday. The one available now lets developers hand ad setup to AI coding agents,…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.295
+      },
+      "id": "f5e7be45d50d9027",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Kist 2.0: a self-hosted library for media and Eagle CAD files - Adafruit",
+      "url": "https://blog.adafruit.com/2026/11/16/kist-2-0-a-self-hosted-library-for-media-and-eagle-cad-files/",
+      "publishedAt": "2026-11-16T15:59:41Z",
+      "excerpt": "## Kist 2.0: a self-hosted library for media and Eagle CAD files. Kist is a a free, open-source self-hosted library for images, screenshots, PDFs, video and design files, provided by Jay Doscher. It’s a fast grid running on your own server, backed by files on disk. A backup is a plain rsync copy, and the database can be rebuilt from what’s on disk. The whole thing is one Docker Compose stack: the app, a worker, Postgres and a small AI service. Kist also has a streamable-HTTP MCP endpoint, so…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.138
+      },
+      "id": "cea5ef06640b2e65",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "iOS 27.3 Beta Adds Daily Siri AI Limits and iCloud+ Upgrades - MacRumors",
+      "url": "https://www.macrumors.com/2026/11/16/apple-icloud-paid-siri-ai-upgrade/",
+      "publishedAt": "2026-11-16T18:14:08Z",
+      "excerpt": "# iOS 27.3 Beta Adds Daily Siri AI Limits and iCloud+ Upgrades. With the latest iOS 27.3, iPadOS 27.3, and macOS 27.3 betas, Apple is starting to test limits and paid upgrades for Siri AI and Apple Intelligence features. Every Apple device gets a free daily access allowance for Siri AI and ‌Apple Intelligence‌ features that rely on server-side AI processing, such as Image Playground and Clean Up in Photos. When that limit is hit, there will be an option to extend usage with an iCloud+ plan. 1.…",
+      "author": null,
+      "extra": {
+        "query": "MCP server OR model context protocol new release",
+        "score": 0.008
+      },
+      "id": "299e90f63cf9207f",
+      "collectedAt": "2026-11-18T01:07:40.441129+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-18T01:07:40.441129+00:00"
+}
