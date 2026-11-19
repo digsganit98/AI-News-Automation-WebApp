@@ -1,0 +1,249 @@
+{
+  "date": "2026-11-20",
+  "stories": [
+    {
+      "id": "amazon-bedrock-agentcore-integrates-open-source-576cfc",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "Amazon Bedrock AgentCore integrates open-source Strands harness",
+      "summary": "Amazon has updated its Bedrock AgentCore service to use the open-source Strands harness. The integration adds automatic prompt caching, context management, planning tools, and lifecycle hooks for developers.",
+      "whyItMatters": "This update gives developers more robust tools to build and control agentic workflows within AWS.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "polyai-dialog-rsn-1-available-on-amazon-sagemake-0a5e50",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "PolyAI Dialog-RSN-1 available on Amazon SageMaker JumpStart",
+      "summary": "PolyAI's Dialog-RSN-1 reasoning model is now accessible via Amazon SageMaker JumpStart and AWS Marketplace. The model enables businesses to deploy real-time audio dialogue agents within a secure AWS environment.",
+      "whyItMatters": "It allows enterprises to easily deploy specialized real-time voice reasoning models on managed cloud infrastructure.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-cloud-introduces-object-enrichments-for-u-54ea22",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "Google Cloud introduces object enrichments for unstructured data",
+      "summary": "Google Cloud has launched object enrichments to automatically extract metadata from images and PDFs stored in Cloud Storage using AI models. This converts raw files into structured context ready for AI systems.",
+      "whyItMatters": "Automated file enrichment streamlines data preparation for enterprise generative AI applications.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/storage-data-transfer/cost-effective-ai-context-extraction-from-unstructured-gcs-data/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-appconfig-adds-support-for-ai-model-and-prom-e64223",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "AWS AppConfig adds support for AI model and prompt configuration",
+      "summary": "AWS AppConfig now includes configuration profiles designed for managing generative AI applications. Developers can modify model settings and prompts while an application runs without needing to redeploy.",
+      "whyItMatters": "It simplifies the live management and fine-tuning of prompts and model parameters in production applications.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-appconfig-native-ai-model-invocation-prompt-configurations/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-dynamo-addresses-rollout-bottlenecks-in-r-e72b86",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "NVIDIA Dynamo addresses rollout bottlenecks in reinforcement learning",
+      "summary": "NVIDIA has introduced Dynamo, a specialized serving layer intended to accelerate reinforcement learning training. The system manages inference workloads to reduce delays caused by uneven workloads and slow model weight updates.",
+      "whyItMatters": "It helps solve distributed computing bottlenecks that slow down reinforcement learning training cycles.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "NVIDIA Developer (generative AI)",
+          "url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-builds-performance-factory-to-maintain-ch-6687f7",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "OpenAI builds Performance Factory to maintain ChatGPT speed",
+      "summary": "OpenAI has created a system named the Performance Factory to monitor and resolve performance bottlenecks. The setup uses automated workflows powered by Codex to keep ChatGPT fast for users.",
+      "whyItMatters": "Automated internal performance scaling helps infrastructure keep pace with massive user demands.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Openai",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "strideworld-benchmarks-scene-rigidity-in-interac-d6624a",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "StrideWorld benchmarks scene rigidity in interactive video world models",
+      "summary": "Researchers have released StrideWorld to measure how well interactive video world models preserve 3D scene structure and consistent action effects. The benchmark compares generated videos against reference fits.",
+      "whyItMatters": "Standardized evaluation benchmarks help track and improve the physical consistency of video world models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.24408"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24408",
+        "code": "https://github.com/chuangwang123/strideworld",
+        "model": null,
+        "demo": "https://huggingface.co/spaces/strideworld-release/strideworld-leaderboard"
+      }
+    },
+    {
+      "id": "piccolo-co-evolves-decision-models-and-data-thro-720286",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "Piccolo co-evolves decision models and data through recursive self-improvement",
+      "summary": "Piccolo is a family of multimodal decision models that improve their capabilities by co-evolving with training data recursively. The largest variant, Piccolo-27B, leads the Decision Index Vision Full leaderboard.",
+      "whyItMatters": "Recursive self-improvement loops offer a promising path toward advancing multimodal decision-making capabilities.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.24651"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24651",
+        "code": "https://github.com/agentscope-ai/Piccolo",
+        "model": null,
+        "demo": "https://decisionplayground.agentscope.io/"
+      }
+    },
+    {
+      "id": "qda-uses-agents-for-closed-loop-llm-quantization-46b232",
+      "createdAt": "2026-11-19T21:00:59.558755+00:00",
+      "headline": "QDA uses agents for closed-loop LLM quantization design",
+      "summary": "QDA is a new method that employs LLM agents to automatically design quantization recipes for large language models. The approach aims to replace manual expert optimization for model compression.",
+      "whyItMatters": "Automating quantization design can significantly reduce the time needed to optimize models for different hardware precisions.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.23388"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.23388",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-19T21:01:06.076753+00:00"
+}
