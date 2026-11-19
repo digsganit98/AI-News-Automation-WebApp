@@ -918,7 +918,250 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "researchers-introduce-introspective-oversight-me-b37da2",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "Researchers introduce introspective oversight method to train language models",
+      "summary": "Researchers proposed a new method to train a separate observer role within a language model to answer questions about the assistant's behavior. This approach outperformed existing monitoring techniques in detecting issues like deception and reward hacking.",
+      "whyItMatters": "Improving internal monitoring helps make AI models more reliable and safer by detecting hidden issues like reward hacking.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.23365"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "software-thermodynamics-theory-analyzes-efficien-571da6",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "Software thermodynamics theory analyzes efficiency in coding agents",
+      "summary": "A new paper proposes a theory of software thermodynamics to analyze the efficiency of coding agents. It uses analogies from classical physics to explain how tokens are consumed during software engineering tasks.",
+      "whyItMatters": "Understanding token efficiency helps developers optimize the resource use and performance of coding agents.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.23375"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "speclook-technique-improves-speed-and-reliabilit-9dc2fb",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "SpecLook technique improves speed and reliability for multimodal agents",
+      "summary": "Researchers developed SpecLook, a technique for agentic multimodal models that speeds up reasoning by predicting where to look in images. The method also provides reliability scores for the model's generated answers.",
+      "whyItMatters": "Predicting visual regions of interest helps multimodal agents process information faster while offering confidence measures for their outputs.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.23483"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "graft-method-uses-execution-evidence-to-guide-ag-a13124",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "GRAFT method uses execution evidence to guide agent design",
+      "summary": "GRAFT is a new method for designing AI agents that uses execution evidence to guide the recombination of different agent components. It achieved a mean test accuracy of 82.0% across various reasoning and programming settings.",
+      "whyItMatters": "Using empirical execution data provides a systematic way to improve the architecture and performance of AI agents.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.23509"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "curvdelta-framework-adapts-large-language-models-05ddd2",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "CurvDelta framework adapts large language models while preserving general capabilities",
+      "summary": "CurvDelta is a framework for adapting large language models that aims to preserve general capabilities while making specific changes. It incorporates preservation constraints directly into the model update process.",
+      "whyItMatters": "This approach allows targeted model updates without degrading the broader capabilities of large language models.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.24654"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24654",
+        "code": null,
+        "model": null,
+        "demo": "https://xiaozi-max.github.io/CurvDelta/"
+      }
+    },
+    {
+      "id": "jeveration-repurposes-vision-models-to-generate-eba1ef",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "Jeveration repurposes vision models to generate images in a single forward pass",
+      "summary": "Jeveration repurposes a frozen vision-language model to generate high-quality images in a single forward pass. The system generates 512x512 images in 78 milliseconds, significantly faster than existing unified models.",
+      "whyItMatters": "Faster image generation pipelines reduce compute overhead and latency for visual generation tasks.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.24738"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24738",
+        "code": "https://github.com/Carol-lyh/Jeveration",
+        "model": null,
+        "demo": "https://carol-lyh.github.io/Jeveration/"
+      }
+    },
+    {
+      "id": "study-examines-role-of-artifact-improvement-in-a-694c53",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "Study examines role of artifact improvement in agent evolution",
+      "summary": "A new paper explores the challenges in evolving AI agents, noting that methods often fail to bootstrap on certain tasks. It proposes that the key to successful agent evolution is accurately identifying improvements in candidate artifacts.",
+      "whyItMatters": "Pinpointing performance gains helps resolve bootstrapping bottlenecks in self-evolving AI systems.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.23068"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.23068",
+        "code": null,
+        "model": null,
+        "demo": "https://lineshogan.github.io/resolution-hypothesis/"
+      }
+    },
+    {
+      "id": "google-deepmind-releases-gemini-4-neon-mid-tier-20477e",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "Google DeepMind releases Gemini 4 Neon mid-tier model",
+      "summary": "Google DeepMind has launched Gemini 4 Neon, a mid-tier model scoring 61 on the Intelligence Index. The model is available in the Gemini API and app, priced at $3 per million input tokens and $15 per million output tokens.",
+      "whyItMatters": "Mid-tier releases give developers access to balanced performance and pricing options for application integration.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-introduces-licensed-weights-for-custom-a06e63",
+      "createdAt": "2026-11-19T12:04:28.853253+00:00",
+      "headline": "Microsoft introduces Licensed Weights for custom AI model training",
+      "summary": "Microsoft announced Licensed Weights to allow businesses to customize frontier AI models with their own data. This initiative lets companies retain intellectual property control while running models securely within Azure.",
+      "whyItMatters": "Enterprise customers gain a secure pathway to tailor advanced models using proprietary data without losing IP control.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Azure",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.zdnet.com/innovation/microsoft-licensed-weights-ai-models-ignite-2026"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-19T02:52:54.905135+00:00"
+  "updatedAt": "2026-11-19T12:04:34.127217+00:00"
 }
