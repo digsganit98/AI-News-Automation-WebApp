@@ -548,7 +548,817 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-devops-agent-adds-support-for-slack-code-cha-0ef520",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "AWS DevOps Agent adds support for Slack code channels and Microsoft Teams",
+      "summary": "AWS has updated its DevOps Agent to integrate with dedicated Slack code channels and enable two-way conversations in Microsoft Teams. This allows on-call engineers and teams to investigate and resolve operational incidents directly inside their communication tools.",
+      "whyItMatters": "Bringing agentic incident resolution directly into team communication platforms reduces context switching and speeds up response times.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-system-designs-and-verifies-general-purpose-c-000028",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "AI system designs and verifies general-purpose CPU architecture called Frostbite",
+      "summary": "Researchers introduced Frostbite, a CPU architecture with a new instruction set that was discovered, designed, and verified end-to-end by AI systems. The architecture achieved a 4.59x performance-per-watt improvement compared to a modern superscalar CPU core across a set of 25 workloads.",
+      "whyItMatters": "Demonstrating end-to-end AI discovery and verification of hardware components opens new pathways for chip design efficiency.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://architectlabs.com/blog/frostbite"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "article-explores-the-transition-path-from-artifi-5d0730",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Article explores the transition path from artificial general intelligence to superintelligence",
+      "summary": "A new article examines the shift from philosophical speculation to empirical research regarding the period following artificial general intelligence. It looks at the intelligence continuum and the potential for systems to advance toward artificial superintelligence.",
+      "whyItMatters": "Structuring the transition from AGI to superintelligence as an empirical study helps ground long-term safety and capability discussions in measurable data.",
+      "category": "AGI",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://institute.deepmind.com/essays/what-comes-after-agi/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "court-rules-ai-generated-facial-recognition-matc-279867",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Court rules AI-generated facial recognition matches are insufficient for probable cause",
+      "summary": "A court ruled that the Fourth Amendment does not allow law enforcement to rely solely on AI-generated facial recognition matches to establish probable cause for an arrest. The decision addresses cases where reliance on CCTV matches alone fails to meet legal standards.",
+      "whyItMatters": "This ruling sets an important legal precedent limiting the autonomous use of AI identification tools in criminal justice contexts.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Public sector",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-llm-complexity-metric-optimizes-training-cur-a795e4",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "New LLM Complexity metric optimizes training curricula and token usage",
+      "summary": "Researchers introduced a metric called LLM Complexity to evaluate task difficulty for large language models, finding that output token counts do not always match classical complexity. They showed that this metric helps build training curricula that improve model accuracy while cutting token consumption.",
+      "whyItMatters": "Better complexity metrics allow developers to design more efficient training paths and reduce the computational cost of model development.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.24943"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24943",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-shows-standard-benchmarks-may-mask-fundame-16ff4a",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Study shows standard benchmarks may mask fundamental weaknesses in language models",
+      "summary": "An analysis of 64 pretraining runs found that architectural differences become measurable at scale, with certain designs saving up to 30 percent of pretraining tokens. The researchers also noted that high benchmark scores can hide basic failures, such as short-context retrieval limits.",
+      "whyItMatters": "Exposing the limitations of standard benchmarks encourages the development of more rigorous evaluation practices for foundational architectures.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.24963"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24963",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hirewatch-evaluation-tool-tests-large-language-m-7bc95b",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "HireWatch evaluation tool tests large language model compliance with U.S. employment law",
+      "summary": "Researchers developed HireWatch to test whether language models select lawful interview questions when assisting with hiring processes. Testing 18 models showed that legal compliance remains stable in low-pressure scenarios but degrades under higher contextual pressure.",
+      "whyItMatters": "Ensuring legal compliance under varied pressures is critical before deploying language models into human resources workflows.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.24970"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24970",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-optimizes-in-context-learning-to-reduce-6a5266",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Research optimizes in-context learning to reduce prompt token costs",
+      "summary": "A new study addresses high inference expenses by optimizing the selection of examples used in in-context learning prompts. The approach improves model performance while staying within strict token budgets to lower latency and operational costs.",
+      "whyItMatters": "Optimizing prompt examples helps organizations run production LLM pipelines more cost-effectively.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.24971"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24971",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "no-harm-jury-framework-uses-model-panels-to-eval-2789a3",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "No-Harm-Jury framework uses model panels to evaluate medical AI safety",
+      "summary": "Researchers introduced No-Harm-Jury, an automated evaluation framework that uses a panel of five diverse language models to score AI-generated medical responses. The system checks safety across seven distinct dimensions of potential harm to maintain clinical responsibility.",
+      "whyItMatters": "Multi-model evaluation juries provide a scalable approach to verifying the safety of critical healthcare applications.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.24972"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24972",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "candid-framework-improves-execution-control-for-21ca88",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "CANDID framework improves execution control for local computer-use agents",
+      "summary": "The CANDID framework was designed to improve the reliability of local computer-use agents operating in resource-constrained environments. It applies disciplined execution control so that agents finish assigned tasks accurately without needing heavy external resources.",
+      "whyItMatters": "Reliable local execution control makes it practical to run automated agents on standard hardware without excessive overhead.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.24977"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24977",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "verbalized-thoughts-monitoring-helps-track-inter-138a3e",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Verbalized thoughts monitoring helps track internal states of medical LLMs",
+      "summary": "A new technique for clinical AI safety monitors language models by having them render their internal thoughts in plain language. This allows developers to catch manipulated models that might otherwise provide outputs that look normal but are unsafe.",
+      "whyItMatters": "Monitoring internal reasoning steps helps prevent hidden failures in high-stakes medical deployments.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.24994"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24994",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "authorization-bounded-agent-framework-targets-au-bdeef4",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Authorization-bounded agent framework targets autonomous self-driving laboratories",
+      "summary": "Researchers proposed an authorization-bounded AI agent to connect analysis and design phases in self-driving laboratories. The system aims to achieve autonomy while ensuring experimental planning and execution stay within defined safety and operational boundaries.",
+      "whyItMatters": "Bounding agent authority allows laboratories to automate experiments safely without risking uncontrolled physical outcomes.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.25043"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.25043",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "alternative-annotator-test-evaluates-when-ai-jud-399e78",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Alternative Annotator Test evaluates when AI judges can replace humans",
+      "summary": "Researchers introduced a statistical method called the Alternative Annotator Test to determine when large language models can reliably replace human graders. The tool helps practitioners decide if AI-based evaluation is justified in specific data settings.",
+      "whyItMatters": "It provides a principled statistical approach for validating the use of AI as an evaluator.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26073"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26073",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-investigates-information-selection-mechani-eb4d2d",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Study investigates information selection mechanisms in vision-language models",
+      "summary": "A new research paper explores the internal mechanisms of vision-language models using concepts from global workspace theory. The study aims to understand how these models integrate visual and textual data to produce outputs.",
+      "whyItMatters": "Understanding internal model architectures helps improve how multimodal systems process complex inputs.",
+      "category": "Research",
+      "importance": 2,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26590"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26590",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hiuni-unifies-visual-understanding-and-generatio-3b627a",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "HiUni unifies visual understanding and generation in a single framework",
+      "summary": "Researchers developed HiUni, a unified multimodal model that handles both visual understanding and generation without separating their core computations. This approach improves the integration of these two tasks within a single system.",
+      "whyItMatters": "Unified frameworks can streamline multimodal architectures by avoiding separate processing pipelines.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26107"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26107",
+        "code": "https://github.com/ernie-research/HiUni",
+        "model": null,
+        "demo": "https://ernie-research.github.io/HiUni"
+      }
+    },
+    {
+      "id": "lightningmoba-accelerates-long-context-processin-5e93d3",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "LightningMoBA accelerates long-context processing using dynamic routing",
+      "summary": "A new technique called LightningMoBA speeds up Mixture of Block Attention by using dynamic routing and runtime pipelining. The approach improves efficiency for models handling long contexts by adapting to different data distributions.",
+      "whyItMatters": "It offers a way to reduce the computational overhead of processing lengthy inputs.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26268"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26268",
+        "code": "https://github.com/Tencent/LightningMoBA",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mind2act-world-benchmark-evaluates-robotic-manip-63dbb8",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Mind2Act World benchmark evaluates robotic manipulation and reasoning",
+      "summary": "Mind2Act World is a diagnostic benchmark designed to evaluate robots on complex physical tasks. It measures cognitive reasoning, precise physical execution, and the ability to combine these skills.",
+      "whyItMatters": "Standardized benchmarks help track progress in combining physical execution with reasoning in robotics.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26444"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26444",
+        "code": "https://github.com/Mind2Act/Mind2Act_World",
+        "model": null,
+        "demo": "https://mind2act-world.com/"
+      }
+    },
+    {
+      "id": "zerovln-enables-robot-navigation-without-base-mo-279185",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "ZeroVLN enables robot navigation without base model fine-tuning",
+      "summary": "A new method called ZeroVLN allows vision-language models to navigate environments without altering their base weights. This approach avoids the degradation of general capabilities that often occurs during traditional fine-tuning.",
+      "whyItMatters": "It preserves general model capabilities while enabling specialized navigation tasks.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26414"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26414",
+        "code": "https://github.com/hzx122/ZeroVLN",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "posterior-matching-distillation-accelerates-gene-a3bdd5",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Posterior Matching Distillation accelerates generative model sampling",
+      "summary": "Researchers introduced Posterior Matching Distillation, a technique that speeds up generative models by compressing the sampling process. The method matches the student model output distribution to the teacher model to reduce computation time.",
+      "whyItMatters": "It helps lower the computational costs associated with generating high-quality media.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26629"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26629",
+        "code": "https://github.com/yesiltepe-hidir/PMD",
+        "model": null,
+        "demo": "https://pmd-distillation.github.io/"
+      }
+    },
+    {
+      "id": "wm-mllm-turns-multimodal-language-models-into-in-ee39fc",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "WM^MLLM turns multimodal language models into interactive world models",
+      "summary": "WM^MLLM is an interactive world model built on multimodal large language models to allow for persistent and editable world generation. The method addresses issues where previous video models lost context or edits over time.",
+      "whyItMatters": "It enables more consistent and persistent interactive simulations from multimodal models.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.24193"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24193",
+        "code": "https://github.com/ztMotaLee/WM_mllm",
+        "model": null,
+        "demo": "https://ztmotalee.github.io/wmmllm/"
+      }
+    },
+    {
+      "id": "apple-releases-depth-pro-2-for-full-resolution-m-db4bd6",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Apple releases Depth Pro 2 for full-resolution metric depth estimation",
+      "summary": "Apple has introduced Depth Pro 2, a new method for estimating dense metric depth in images and video at full resolution. The approach balances temporal consistency with boundary sharpness to improve upon previous depth estimation techniques.",
+      "whyItMatters": "It improves depth estimation accuracy for detailed visual and video analysis.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26603"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26603",
+        "code": "https://github.com/apple-aiml-research/ml-depth-pro-2",
+        "model": null,
+        "demo": "https://apple-aiml-research.github.io/ml-depth-pro-2/"
+      }
+    },
+    {
+      "id": "turingspace-framework-tests-spatial-intelligence-b76cb2",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "TuringSpace framework tests spatial intelligence using interactive CAPTCHAs",
+      "summary": "Researchers developed TuringSpace, a framework that uses interactive CAPTCHAs to evaluate how well multimodal models infer 3D layouts and predict action outcomes. The approach tests models on self-correction based on visual feedback.",
+      "whyItMatters": "It introduces interactive test environments to better evaluate spatial reasoning in AI models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.25387"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.25387",
+        "code": "https://github.com/os-cua-framework/TuringSpace",
+        "model": null,
+        "demo": "https://xuweid.com/turingspace/"
+      }
+    },
+    {
+      "id": "tencent-introduces-wemm-video-for-bilingual-omni-0cdac5",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Tencent introduces WeMM-Video for bilingual omni-modal video understanding",
+      "summary": "Tencent has released WeMM-Video, a family of open-source foundation models designed for understanding video with accompanying audio. The models support Chinese and English with parameter sizes ranging from 2B to 35B.",
+      "whyItMatters": "It expands open-source options for joint audio-visual video understanding across multiple languages.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26409"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26409",
+        "code": "https://github.com/Tencent/WeMM-Video",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "volumetric-supervision-improves-3d-gaussian-spla-28a468",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Volumetric supervision improves 3D Gaussian Splatting segmentation",
+      "summary": "A new research paper proposes a method for 3D Gaussian Splatting segmentation using volumetric supervision to address mismatches in existing training approaches. This technique aims to produce accurate 3D object selections alongside rendered masks.",
+      "whyItMatters": "It improves the precision of 3D object selection and segmentation in spatial computing tasks.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.21383"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.21383",
+        "code": "https://github.com/jhxcho/voda",
+        "model": null,
+        "demo": "https://jhxcho.github.io/voda/"
+      }
+    },
+    {
+      "id": "egocaptioner-improves-fine-grained-captioning-fo-77e0a0",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "EgoCaptioner improves fine-grained captioning for egocentric videos",
+      "summary": "Researchers have introduced EgoCaptioner, a system that generates detailed and fine-grained captions for first-person perspective videos. The tool addresses limitations in current models, such as missed actions and incorrect event sequencing.",
+      "whyItMatters": "Better video understanding models help systems accurately interpret complex human activities from a first-person perspective.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26380"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26380",
+        "code": "https://github.com/cactusqq/EgoCaptioner",
+        "model": null,
+        "demo": "https://cactusqq.github.io/EgoCaptioner/"
+      }
+    },
+    {
+      "id": "coda-davinci-explores-code-guided-video-generati-f69902",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Coda-Davinci explores code-guided video generation through 3D proxies",
+      "summary": "The Coda-Davinci project investigates a Code2Video approach that uses agent-authored 3D proxies to guide video generation. This method gives developers explicit control over the structure and dynamics of the output.",
+      "whyItMatters": "Code-guided approaches offer a structured way to steer generative video models beyond standard text prompts.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26595"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26595",
+        "code": "https://github.com/FrankYang-17/Coda",
+        "model": null,
+        "demo": "https://coda-davinci.github.io/"
+      }
+    },
+    {
+      "id": "wam-policy-enables-quadruped-robots-to-follow-la-1e0609",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "WAM-Policy enables quadruped robots to follow language instructions for manipulation",
+      "summary": "Researchers have developed WAM-Policy to let arm-free quadruped robots perform loco-manipulation tasks based on language instructions. The method adapts world action models originally designed for robot arms.",
+      "whyItMatters": "This advancement expands the physical capabilities of quadruped robots to handle complex tasks using natural language.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.24011"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24011",
+        "code": "https://github.com/AIGeeksGroup/WAM-Policy",
+        "model": null,
+        "demo": "https://aigeeksgroup.github.io/WAM-Policy/"
+      }
+    },
+    {
+      "id": "wevisforensics-uses-self-evolving-agents-to-dete-47ddbf",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "WeVisForensics uses self-evolving agents to detect AI-generated video",
+      "summary": "Tencent has introduced WeVisForensics, an agentic system that grounds its analysis of AI-generated videos in explicit forensic evidence. The tool is designed to overcome the limits of single-pass reasoning when identifying subtle artifacts.",
+      "whyItMatters": "Self-evolving forensic agents improve the reliability of detecting manipulated video content.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.21373"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.21373",
+        "code": "https://github.com/Tencent/WeVisForensics",
+        "model": null,
+        "demo": "https://tencent.github.io/WeVisForensics"
+      }
+    },
+    {
+      "id": "tabbiomed-provides-a-large-scale-benchmark-for-b-062215",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "TabBioMed provides a large-scale benchmark for biomedical tabular learning",
+      "summary": "Researchers have released TabBioMed to standardize evaluation methods for structured biomedical data. The benchmark tackles common hurdles such as high dimensionality, missing data, and class imbalance.",
+      "whyItMatters": "Standardized benchmarks help researchers evaluate and improve machine learning models for structured medical datasets.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.23779"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.23779",
+        "code": "https://github.com/AI-sandbox/TabBioMed",
+        "model": null,
+        "demo": "https://huggingface.co/spaces/TabBioMed/leaderboard"
+      }
+    },
+    {
+      "id": "anthropic-completes-public-offering-and-lists-on-cae2fd",
+      "createdAt": "2026-11-20T12:09:35.698423+00:00",
+      "headline": "Anthropic completes public offering and lists on the Nasdaq",
+      "summary": "Anthropic listed on the Nasdaq under the ticker symbol ANT, raising $81.3 billion in an initial public offering. The stock opened at $111.50 and closed its first trading day at $97.17.",
+      "whyItMatters": "This public offering marks a major financial milestone for a leading generative AI lab.",
+      "category": "Business & Funding",
+      "importance": 5,
+      "status": "followUp",
+      "followUpOf": "anthropic-prices-initial-public-offering-at-83-p-909b75",
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Latent Space",
+          "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-20T02:38:33.034864+00:00"
+  "updatedAt": "2026-11-20T12:09:58.546714+00:00"
 }
