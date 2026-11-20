@@ -243,7 +243,312 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "kimi-code-cli-version-2-7-0-adds-native-amazon-b-712a49",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Kimi Code CLI version 2.7.0 adds native Amazon Bedrock provider support",
+      "summary": "Version 2.7.0 of the open-source Kimi Code CLI now includes a native Amazon Bedrock provider. Users can connect their coding agent to models using standard AWS credentials instead of separate API keys.",
+      "whyItMatters": "This integration simplifies developer workflows by leveraging standard AWS authentication mechanisms for coding agents.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-bedrock-agentcore-supports-agentic-paymen-4257f1",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Amazon Bedrock AgentCore supports agentic payments via AWS Marketplace",
+      "summary": "Amazon Bedrock AgentCore payments now supports AWS Marketplace, enabling AI agents to discover and purchase x402-enabled products and APIs in US dollars. These purchases are billed directly to the developer's AWS account without requiring stablecoin wallets.",
+      "whyItMatters": "Enabling native agentic payments through standard cloud billing infrastructure removes friction for autonomous purchasing workflows.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "databricks-genie-zeroops-enters-public-beta-for-ba5f0f",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Databricks Genie ZeroOps enters public beta for autonomous data pipeline issue resolution",
+      "summary": "Databricks has released Genie ZeroOps in public beta to automatically detect, investigate, and resolve data pipeline issues. The agent generates pull requests for fixes based on patterns from thousands of customer issues.",
+      "whyItMatters": "Automated remediation of data quality anomalies and schema changes helps maintain data pipeline reliability with less manual intervention.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Databricks",
+          "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-sagemaker-ai-introduces-automated-monitor-b3fe38",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Amazon SageMaker AI introduces automated monitoring for inference endpoint performance",
+      "summary": "Amazon SageMaker AI now monitors generative AI inference endpoints by default to track latency drift and idle GPUs. It alerts operators when performance drops and offers one-click benchmarking for alternative configurations.",
+      "whyItMatters": "Default endpoint monitoring helps teams maintain low latency and optimize infrastructure costs for generative AI applications.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-monitors-endpoints/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-connect-launches-resolutions-for-high-vol-b71c60",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Amazon Connect launches Resolutions for high-volume operational tasks",
+      "summary": "Amazon Connect Resolutions combines AI agents with deterministic workflows to manage high-volume tasks such as refund requests and fraud investigations. The system aims to shorten resolution times while enforcing business policies.",
+      "whyItMatters": "Combining AI flexibility with deterministic guardrails ensures consistent policy adherence in high-volume customer service operations.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-resolutions/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-marketplace-introduces-conversational-agent-7a5dd1",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "AWS Marketplace introduces conversational agent mode for procurement",
+      "summary": "AWS Marketplace has launched an agentic conversational mode that assists users with discovering, buying, and deploying cloud solutions. Users provide requirements once, and the agent guides them through the entire procurement process.",
+      "whyItMatters": "Conversational procurement streamlines software discovery and deployment in cloud marketplaces.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-bedrock-agentcore-identity-adds-private-c-880529",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Amazon Bedrock AgentCore Identity adds private certificate authority support",
+      "summary": "Amazon Bedrock AgentCore Identity now supports private certificate authorities for custom OAuth 2.0 credential providers. Users can connect identity providers hosted within their VPC using their own internal certificates.",
+      "whyItMatters": "This feature improves security and flexibility for enterprises connecting custom identity providers to agentic workflows within isolated networks.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-identity-private-ca/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "logt-method-teaches-vision-language-models-to-zo-769d62",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "LogT method teaches vision-language models to zoom in on image details efficiently",
+      "summary": "Researchers introduced LogT, a technique that trains vision-language models to use a zoom-in tool for finding small image details. The approach allows smaller models to surpass larger systems while using less computing power.",
+      "whyItMatters": "LogT offers a resource-efficient way to improve fine-grained visual reasoning in smaller multimodal models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.19200"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.19200",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ubisoft-launches-generative-ai-game-studio-subsi-868452",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Ubisoft launches generative AI game studio subsidiary Motherbrain",
+      "summary": "Ubisoft has established Motherbrain as a new subsidiary focused entirely on implementing generative AI within video games. This initiative forms part of the publisher's updated operating model.",
+      "whyItMatters": "Dedicated generative AI studios signal a structured corporate shift toward integrating AI tooling into mainstream game development pipelines.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.ign.com/articles/ubisoft-creates-generative-ai-game-studio-called-motherbrain"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-opens-genie-4-world-model-to-ai-ultra-sub-b8b935",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Google opens Genie 4 world model to AI Ultra subscribers",
+      "summary": "Google has made its Genie 4 world model available to eligible AI Ultra subscribers through the Project Genie browser prototype. The update lets users switch worlds during a session and adds native audio support.",
+      "whyItMatters": "It expands access to advanced world modeling capabilities for developers and enterprises.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/google-genie-4-project-genie-ai-ultra-world-model"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-and-openai-launch-new-ai-models-for-co-3ad45a",
+      "createdAt": "2026-11-20T02:38:25.866698+00:00",
+      "headline": "Microsoft and OpenAI launch new AI models for coding, cybersecurity and image generation",
+      "summary": "At the Ignite conference Microsoft announced seven new MAI models aimed at cost-effective enterprise use in areas such as cybersecurity, coding assistance and image creation. OpenAI also released two variants of its GPT-6.2 series, Astra and Sol, targeting complex and everyday tasks.",
+      "whyItMatters": "The models provide more affordable, specialized AI options for a wide range of business applications.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-19T21:01:06.076753+00:00"
+  "updatedAt": "2026-11-20T02:38:33.034864+00:00"
 }
