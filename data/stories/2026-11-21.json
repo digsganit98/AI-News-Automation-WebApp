@@ -1,0 +1,330 @@
+{
+  "date": "2026-11-21",
+  "stories": [
+    {
+      "id": "amazon-textract-insights-enables-natural-languag-fc9e07",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Amazon Textract Insights enables natural language document data extraction",
+      "summary": "AWS has launched Amazon Textract Insights, a generative AI feature that lets users extract specific data from documents using natural language prompts. The tool provides structured results with confidence scores and page-level grounding to ensure the extracted information is verifiable.",
+      "whyItMatters": "It simplifies data extraction from complex documents by combining natural language prompts with verifiable confidence scores.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-sagemaker-jumpstart-adds-a-foundation-mod-9257eb",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Amazon SageMaker JumpStart adds a foundation model leaderboard",
+      "summary": "Amazon SageMaker JumpStart now includes a leaderboard within SageMaker Studio that lets users compare foundation models based on throughput, latency, and cost. This feature helps teams select and deploy the model that best fits their specific workload requirements.",
+      "whyItMatters": "It helps engineering teams empirically select and deploy models based on performance metrics and cost constraints.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/whats-new/2026/1/sagemaker-jumpstart-model-leaderboard/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "epic-games-shifts-strategy-toward-ai-coding-afte-14b67d",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Epic Games shifts strategy toward AI coding after developer experiments",
+      "summary": "A developer successfully used an AI coding assistant to modify an Unreal Engine game to remove cloud server dependencies and add peer-to-peer features. In response, Epic Games is shifting its strategy to focus on rapid development speed to keep pace with AI capabilities.",
+      "whyItMatters": "It highlights how rapid advancements in AI coding assistants are driving changes in game development strategies.",
+      "category": "Industry Use Case",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Emergent",
+      "sources": [
+        {
+          "name": "Hacker News",
+          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-details-safeguards-against-adversarial-mo-3ea993",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "OpenAI details safeguards against adversarial model distillation",
+      "summary": "OpenAI has introduced a layered approach to prevent bad actors from extracting capabilities from its frontier models, specifically targeting the removal of protected reasoning traces. The company combines adversarial testing, model training, and API-level protections to stop unauthorized reproduction of model capabilities.",
+      "whyItMatters": "It addresses critical security concerns regarding the unauthorized extraction of proprietary model capabilities.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/combatting-adversarial-distillation"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "openai-releases-medchembench-to-evaluate-ai-in-d-f4784c",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "OpenAI releases MedChemBench to evaluate AI in drug discovery",
+      "summary": "MedChemBench is a new benchmark that tests how well AI models can interpret molecular structures and reason about experimental evidence in medicinal chemistry. The evaluation includes 99 problems drawn from published research to assess a model's ability to select promising compounds for further testing.",
+      "whyItMatters": "It provides a rigorous evaluation tool for assessing the chemical reasoning capabilities of AI models in pharmaceutical research.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-medchembench"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "inkling-2-mini-released-as-a-local-multimodal-mo-80d31a",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Inkling 2 Mini released as a local multimodal model with a 1 million token context",
+      "summary": "Inkling 2 Mini is a new multimodal model designed for local use, featuring a looped transformer architecture that allows it to operate with a 1 million token context. The model uses a mixture-of-experts design with approximately 26 billion total parameters and 3 billion active parameters per token.",
+      "whyItMatters": "It brings long-context multimodal capabilities to local hardware setups using a mixture-of-experts architecture.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/inkling2mini"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-introduces-harness-adapters-for-mod-211fbe",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Hugging Face introduces harness adapters for model optimization",
+      "summary": "Hugging Face has introduced harness adapters, a tool that allows users to adapt their favorite models to specific harnesses. This approach aims to improve both performance and cost efficiency for AI deployments.",
+      "whyItMatters": "It streamlines the model adaptation process to improve performance and cost efficiency during deployment.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-links-reinforcement-learning-post-train-f138e1",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Research links reinforcement learning post-training to activation steering in diffusion models",
+      "summary": "A new paper explores how reinforcement learning post-training improves the visual quality and text rendering of diffusion transformers. The research suggests that these improvements are closely related to activation steering, a technique that guides model behavior during generation.",
+      "whyItMatters": "It sheds light on the internal mechanisms behind how reinforcement learning post-training enhances image generation quality.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26627"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26627",
+        "code": null,
+        "model": null,
+        "demo": "https://rl-is-steering.github.io"
+      }
+    },
+    {
+      "id": "study-examines-training-vision-models-for-llm-dr-ffb0dd",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Study examines training vision models for LLM-driven weight-space programming",
+      "summary": "Researchers have investigated how dedicated training of neural networks contributes to the success of weight-space programming by large language models. The study explores the role of specific training methods in enabling LLMs to directly modify network weights.",
+      "whyItMatters": "It advances our understanding of how language models can be trained to directly manipulate neural network weights.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26408"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26408",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "action-effect-matching-improves-action-effect-pr-46b31e",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Action Effect Matching improves action effect prediction in world models",
+      "summary": "A new paper addresses the limitation of current world models in capturing how small changes in actions affect future observations. The proposed method, Action Effect Matching, aims to create dynamics-faithful world models that better predict the consequences of specific actions.",
+      "whyItMatters": "It improves the ability of world models to accurately simulate the consequences of physical or digital actions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.25980"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.25980",
+        "code": null,
+        "model": null,
+        "demo": "https://periphanes.github.io/affect/"
+      }
+    },
+    {
+      "id": "automaster-uses-skill-guided-fine-tuning-for-aut-5b3551",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "AutoMaster uses skill-guided fine-tuning for autonomous post-training",
+      "summary": "AutoMaster is a new framework for autonomous post-training that uses natural-language skills to guide the fine-tuning process. The method, called Skill-FT, helps reinforce specific behaviors in a model by using the same model as a better teacher.",
+      "whyItMatters": "It offers a scalable framework for autonomous model alignment using natural-language guidance.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26510"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26510",
+        "code": "https://github.com/RUCAIBox/AutoMaster",
+        "model": null,
+        "demo": "https://aweai-team.github.io/AutoMaster/"
+      }
+    },
+    {
+      "id": "research-explores-methods-for-converting-transfo-2194d5",
+      "createdAt": "2026-11-20T20:46:44.990322+00:00",
+      "headline": "Research explores methods for converting transformers to hybrid attention models",
+      "summary": "A new paper explores how to convert existing Transformer models into hybrid attention models, which mix full and linear attention to balance quality and efficiency. The study identifies specific mismatches in previous conversion methods to improve the process.",
+      "whyItMatters": "It provides a clear pathway for making existing large-scale transformers more efficient through hybrid attention conversion.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.24809"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.24809",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-20T20:46:51.339191+00:00"
+}

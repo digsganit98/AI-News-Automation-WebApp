@@ -1,0 +1,713 @@
+{
+  "date": "2026-11-21",
+  "runs": [
+    {
+      "runAt": "2026-11-20T20:38:22.071807+00:00",
+      "newItems": 31,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1420,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.075396Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.104068Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 915,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.104386Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.104589Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.104702Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.104810Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.104932Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105039Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105135Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105230Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105325Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105371Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105402Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105545Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105575Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105670Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105762Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105853Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.105962Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.106167Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.106257Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.106343Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107038Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107162Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107270Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107393Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107499Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107599Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107697Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 19,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.107833Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-20T20:38:22.108297Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.108413Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.108524Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-20T20:38:22.108559Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "publishedAt": "2026-11-20T10:00:00Z",
+      "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "author": null,
+      "extra": {},
+      "id": "3ea993db7e3c60d1",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "author": null,
+      "extra": {},
+      "id": "f4784c30400364a2",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "80d31a6dee298bbd",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "211fbe8009a45ecd",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "url": "https://huggingface.co/papers/2611.26627",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately…",
+      "author": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling, Atakan Kara, Duen Horng Chau, Pinar Yanardag",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://rl-is-steering.github.io",
+        "arxivUrl": "https://arxiv.org/abs/2611.26627"
+      },
+      "id": "f138e148bb7c9a5e",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+      "url": "https://huggingface.co/papers/2611.26408",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convolutional networks and vision transformers on relabeling and error-correction tasks on Waterbirds,…",
+      "author": "Timo Ropinski, Sebastian Kranz",
+      "extra": {
+        "upvotes": 12,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.26408"
+      },
+      "id": "ffb0dde8d8967242",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+      "url": "https://huggingface.co/papers/2611.25980",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations. This limits their use in tasks such as robotic policy evaluation and model-based planning, where nearly identical actions can lead to qualitatively different outcomes. To address this, we propose…",
+      "author": "John Won, Yonghoon Dong, Jinwoo Shin",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": null,
+        "projectPage": "https://periphanes.github.io/affect/",
+        "arxivUrl": "https://arxiv.org/abs/2611.25980"
+      },
+      "id": "46b31e0cbd48e780",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+      "url": "https://huggingface.co/papers/2611.26510",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, then fine-tunes a target model on the resulting trajectories. We introduce AutoMaster, an…",
+      "author": "Guoxin Chen, Shuang Sun, Fanzhe Meng, Xinyu Tang, Ruihua Song, Wayne Xin Zhao",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/RUCAIBox/AutoMaster",
+        "projectPage": "https://aweai-team.github.io/AutoMaster/",
+        "arxivUrl": "https://arxiv.org/abs/2611.26510"
+      },
+      "id": "5b35519867ea111a",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "On-Policy Morphing into Hybrid Attention Models",
+      "url": "https://huggingface.co/papers/2611.24809",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget. We identify two off-policy mismatches in FlashMorph's layer selection: (i) continuous branch interpolation and teacher-forced hidden states differ from discrete hybrid computation; and (ii) frozen model weights fail to account for parameter…",
+      "author": "Disen Lan, Xuanda Wang, Jianbin Zheng, Huafeng Kuang, Wei Tang, Yu Cheng",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.24809"
+      },
+      "id": "2194d5f121e374c4",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: Sentinel7/h3",
+      "url": "https://huggingface.co/Sentinel7/h3",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 223,
+        "trendingScore": 160,
+        "task": null
+      },
+      "id": "4841bb6c1660cc97",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon SageMaker JumpStart now offers a model leaderboard to compare models on quality, speed, and cost",
+      "url": "https://aws.amazon.com/whats-new/2026/1/sagemaker-jumpstart-model-leaderboard/",
+      "publishedAt": "2026-11-20T19:27:00Z",
+      "excerpt": "Amazon SageMaker JumpStart now offers a model leaderboard in Amazon SageMaker Studio. You can use it to compare foundation models side by side on throughput, latency, and cost, and then deploy or customize the model that fits your workload. Comparing models has usually meant reading model cards one at a time and relying on benchmark scores that different sources published under different conditions. The JumpStart leaderboard puts consistent measurements in one view. AWS evaluates every model…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "9765c23d7a3f93d1",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
+      "publishedAt": "2026-11-20T20:37:31Z",
+      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "author": "Tala Qraitem",
+      "extra": {},
+      "id": "dc26abff63441211",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+      "publishedAt": "2026-11-20T20:22:00Z",
+      "excerpt": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training required.",
+      "author": "Keith Mascarenhas",
+      "extra": {},
+      "id": "e9ec780811f7fd6e",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "aws-ml-blog",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+      "publishedAt": "2026-11-20T18:24:06Z",
+      "excerpt": "Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities for training workloads on both Amazon EKS and Slurm orchestrators, pinpointing issues across GPU, network, and host layers.",
+      "author": "Mijanur Palash",
+      "extra": {},
+      "id": "1993e3871a4476a3",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Ultimate guide for fixing your team’s API keys",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
+      "publishedAt": "2026-11-20T17:00:00Z",
+      "excerpt": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio , then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and the key comes along unchanged. By then it usually isn't one key. Every developer has their own, often several, sitting in .env files, shell profiles and chat threads. The app has one more, baked into its config. For…",
+      "author": "Sergio Villani",
+      "extra": {},
+      "id": "de342ea9ec0e41c5",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "google-cloud-ai",
+      "sourceName": "Google Cloud AI Blog",
+      "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
+      "url": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
+      "publishedAt": "2026-11-20T17:00:00Z",
+      "excerpt": "When an Airflow pipeline fails in production, the hard part is rarely the fix. It's finding out what to fix. A task dies without a traceback. Is it the code, the data, or the environment? Hard to say, as clues are scattered across task logs, scheduler logs, and worker metrics. And once you know what the problem is, the question becomes whether to add memory, rewrite the DAG , or finally take on the major version upgrade you've been putting off. Answering these questions takes time and deep…",
+      "author": "Khadija Al Ahyane",
+      "extra": {},
+      "id": "86db41def98691de",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "the-sequence",
+      "sourceName": "The Sequence",
+      "title": "The Sequence Robotics - Issue #976: Robots Need Schools, Not Just Brains",
+      "url": "https://thesequence.substack.com/p/the-sequence-robotics-issue-976-robots",
+      "publishedAt": "2026-11-20T12:11:34Z",
+      "excerpt": "The $500 million Genesis AI bet on hands, human experience, and teaching machines to learn",
+      "author": "Jesus Rodriguez",
+      "extra": {},
+      "id": "7bb70db22e29faff",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How Many RAG Users Fit on One GPU? A Five-Step Check",
+      "url": "https://pub.towardsai.net/how-many-rag-users-fit-on-one-gpu-a-five-step-check-4a347ee00019?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-20T19:14:01Z",
+      "excerpt": "You tuned the chunking, the embeddings and the reranker. Then you picked the generator model by leaderboard. Here is the memory check to… Continue reading on Towards AI »",
+      "author": "Mehedi Hasan",
+      "extra": {},
+      "id": "44099d98625fe0c3",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Who Gets to Decide What AI Can Learn From?",
+      "url": "https://medium.com/@johnparker.cert/who-gets-to-decide-what-ai-can-learn-from-f382e8d91e3c?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-20T18:28:16Z",
+      "excerpt": "The OpenAI copyright dispute raises a question for writers, publishers, and anyone building with AI: what permission should come with… Continue reading on Medium »",
+      "author": "Johnparker Cert",
+      "extra": {},
+      "id": "d7b112f8b574fee6",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AWS SAP-C03 and Generative AI: How Amazon Bedrock and AI Agents Change Cloud Architecture",
+      "url": "https://medium.com/@fivagal638/aws-sap-c03-and-generative-ai-how-amazon-bedrock-and-ai-agents-change-cloud-architecture-1a93b1fca8be?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-20T18:16:00Z",
+      "excerpt": "Generative AI is changing how organizations build, operate, and manage cloud applications. Continue reading on Medium »",
+      "author": "Olivia",
+      "extra": {},
+      "id": "90666062bdcf8640",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why the Databricks AI Index Is Neither Neutral Nor Representative",
+      "url": "https://medium.com/@skeptical_ai/why-the-databricks-ai-index-is-neither-neutral-nor-representative-d493fdfc338e?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-20T18:00:55Z",
+      "excerpt": "And what the Azure–OpenAI plot twist actually reveals about how enterprise AI gets measured Continue reading on Medium »",
+      "author": "Skeptical AI",
+      "extra": {},
+      "id": "4751c2d6821a08a7",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI, Writing, and the Effect on Creativity",
+      "url": "https://laramiegraber.medium.com/ai-writing-and-the-effect-on-creativity-feec528cdaf2?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-20T17:36:14Z",
+      "excerpt": "Artificial intelligence is one of the greatest disruptors of modern times, affecting everything from the economy to how we think. For… Continue reading on Medium »",
+      "author": "Laramie Graber",
+      "extra": {},
+      "id": "e6b74162e31326b2",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Features",
+      "url": "https://www.anthropic.com/news/features",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "b6a7ad93b98e6359",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "e7354365dbd85246",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "publishedAt": "2026-11-20T17:44:01Z",
+      "excerpt": "",
+      "author": "lelanthran",
+      "extra": {
+        "points": 156,
+        "comments": 139,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50578794"
+      },
+      "id": "99527486f11f2ee1",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "publishedAt": "2026-11-20T16:59:27Z",
+      "excerpt": "",
+      "author": "cdrnsf",
+      "extra": {
+        "points": 153,
+        "comments": 102,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50577901"
+      },
+      "id": "83f2b5d135afc442",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "publishedAt": "2026-11-20T13:29:59Z",
+      "excerpt": "",
+      "author": "cdrnsf",
+      "extra": {
+        "points": 182,
+        "comments": 206,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50574383"
+      },
+      "id": "fda5004e845ff961",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "publishedAt": "2026-11-20T12:16:36Z",
+      "excerpt": "",
+      "author": "rbanffy",
+      "extra": {
+        "points": 54,
+        "comments": 58,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50573681"
+      },
+      "id": "14b67dddb8073b5b",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "No Bailout for the AI Bubble, Anthropic IPO Protesters Say",
+      "url": "https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/",
+      "publishedAt": "2026-11-19T18:42:13Z",
+      "excerpt": "",
+      "author": "cdrnsf",
+      "extra": {
+        "points": 50,
+        "comments": 33,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50564282"
+      },
+      "id": "561f788dfcc05058",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "How Anthropic increased downloads of Claude by 300% in seven days - Marketing Week",
+      "url": "https://www.marketingweek.com/anthropic-increased-downloads-claude/",
+      "publishedAt": "2026-11-20T07:00:01Z",
+      "excerpt": "# How Anthropic increased downloads of Claude by 300% in seven days. Anthropic’s films for its flagship LLM product took aim at competitors’ plans to introduce ads into AI chatbots, a move that propelled Claude app downloads as well as its brand metrics. In late 2025, Anthropic’s Claude AI model desperately needed to improve its prompted awareness, which sat at just 17% versus ChatGPT’s 95%. After conducting research with agency Mother, it settled on the strategy of running four TV spots…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.202
+      },
+      "id": "27085ac4ccaa094c",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Product Development",
+      "url": "https://www.bcg.com/capabilities/artificial-intelligence/ai-product-development-consulting",
+      "publishedAt": "2026-11-20T16:00:00Z",
+      "excerpt": "Generative Engineering is reshaping how software gets built—faster, smarter, and by more than just engineers. Generative AI Article August 14, 2023 How",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.332
+      },
+      "id": "f03d1a818f5a77dd",
+      "collectedAt": "2026-11-20T20:38:22.071807+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-20T20:38:22.071807+00:00"
+}
