@@ -556,6 +556,284 @@
           "checkedAt": "2026-11-21T02:39:53.053513Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-21T11:33:14.878193+00:00",
+      "newItems": 12,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1421,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.883195Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.917929Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 915,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.918248Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.918527Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.918691Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.918875Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919040Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919191Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919334Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919489Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 24,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919633Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919689Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919732Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.919981Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.920029Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.920175Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.920322Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.920465Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.920605Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.920884Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-21T11:33:14.921039Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.921184Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.921992Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.922143Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-21T11:33:14.922288Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.922431Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.922573Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.922728Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.922888Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.923095Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-21T11:33:14.923691Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.923899Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.924080Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-21T11:33:14.924127Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -1339,7 +1617,175 @@
       },
       "id": "cce2a69cf5ec3312",
       "collectedAt": "2026-11-21T02:39:53.025541+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+      "url": "https://huggingface.co/papers/2611.25567",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline. In this paper, we study online, instruction-conditioned mistake detection in egocentric…",
+      "author": "Amit Feldman, Ilan Shimshoni, Rotem Dror",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.25567"
+      },
+      "id": "0c3a2b64bbe38292",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+      "url": "https://huggingface.co/papers/2611.26286",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "excerpt": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in 2027, against 6.12 in 2026. We apply MELD, a detector of LLM-generated text, to all reviews.…",
+      "author": "Ilya Gusev",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/IlyaGusev/twicetold",
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.26286"
+      },
+      "id": "aaacea95c7721ed3",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "publishedAt": "2026-11-21T05:02:13Z",
+      "excerpt": "November 20 2026 —",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "2b32d4b379bcfefb",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Teradata AI Engineer Interview Experience: 3 Technical Rounds, RAG System Design, Vector Databases…",
+      "url": "https://medium.com/@trivajay259/teradata-ai-engineer-interview-experience-3-technical-rounds-rag-system-design-vector-databases-1b775ef29cf8?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-21T10:55:29Z",
+      "excerpt": "What one reported Teradata interview experience reveals about preparing for production-grade AI engineering interviews — including the… Continue reading on Medium »",
+      "author": "Ajay Kumar",
+      "extra": {},
+      "id": "7ce6c15fb3b5eb23",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Harness Engineering: The Missing Layer Between AI Agents and Production-Ready Systems",
+      "url": "https://medium.com/@nitinprodduturi/harness-engineering-the-missing-layer-between-ai-agents-and-production-ready-systems-f79b39418442?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-21T09:11:01Z",
+      "excerpt": "Why building reliable AI agents requires more than a powerful LLM Continue reading on Medium »",
+      "author": "Nitin Prodduturi",
+      "extra": {},
+      "id": "c7857c3f2f7f7e12",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI creative testing: fund fewer concepts, avoid false winners",
+      "url": "https://medium.com/@moburst/ai-creative-testing-fund-fewer-concepts-avoid-false-winners-50d1f9c7956d?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-21T09:06:00Z",
+      "excerpt": "Continue reading on Medium »",
+      "author": "Moburst",
+      "extra": {},
+      "id": "f38c2776ace02cd8",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "What one AI video clip costs in November 2026: Seedance 2.5 across six plans",
+      "url": "https://medium.com/@erik.avanesyan57/what-one-ai-video-clip-costs-in-november-2026-seedance-2-5-across-six-plans-a55151e3b012?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-21T08:36:12Z",
+      "excerpt": "The same job priced in six plans of three services: one Seedance 2.5 clip, 720p, 5 seconds. Public plan prices on November 20, 2026. Continue reading on Medium »",
+      "author": "Erik Avanesyan",
+      "extra": {},
+      "id": "30fae8e84a5a0e2c",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Citations: The New Top of the Funnel (2026)",
+      "url": "https://devaland.medium.com/ai-citations-the-new-top-of-the-funnel-2026-2bca738cedd4?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-21T08:19:16Z",
+      "excerpt": "Short answer: a November 2026 AppsFlyer report on European finance apps says that finance brands “that aren’t visible within AI-driven… Continue reading on Medium »",
+      "author": "Marius Andronie",
+      "extra": {},
+      "id": "855073aa796493c0",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "publishedAt": "2026-11-21T05:38:01Z",
+      "excerpt": "",
+      "author": "Ricapar",
+      "extra": {
+        "points": 78,
+        "comments": 21,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50586292"
+      },
+      "id": "56c8c69722c8f27e",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "publishedAt": "2026-11-20T21:18:46Z",
+      "excerpt": "",
+      "author": "qlte",
+      "extra": {
+        "points": 57,
+        "comments": 5,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50582280"
+      },
+      "id": "f65661a30841c70f",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "‘Write a Positive Review’: AI Prompts Found in Journal Papers - Inside Higher Ed",
+      "url": "https://www.insidehighered.com/news/faculty/research/2026/11/20/more-ai-prompts-found-journal-papers",
+      "publishedAt": "2026-11-20T08:00:00Z",
+      "excerpt": "Blatant LLM instructions left in a published paper are the starkest sign yet that authors are trying to ‘game’ the peer review system, scholars warn. Preventing the use of LLMs to cheat the publishing system is “a game of cat and mouse right now,” one scholar observed. Prompts designed to direct artificial intelligence reviewers to give a positive assessment of a paper have been left in the text of published research articles, leaving scholars baffled and exasperated. Speaking to *Times Higher…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.307
+      },
+      "id": "e08e4830c8b8bdb9",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "The race to prove math's most famous problem just became a human-versus-AI showdown - Business Insider",
+      "url": "https://www.businessinsider.com/riemann-hypothesis-math-human-ai-dueling-solution-alpoge-masullo-2026-11",
+      "publishedAt": "2026-11-20T23:33:11Z",
+      "excerpt": "Hours after Levent Alpöge, a mathematician at Anthropic, said he solved the most famous open problem in the field using AI on Friday, another mathematician came out of the woodwork to announce he'd also solved the problem. Alessandro Masullo, a postdoctoral researcher at Stanford, said he's been working on the problem for 12 years and was about a year away from releasing his results when he was blindsided by Alpöge's report. And in a thinly veiled slight against Alpöge, who described working…",
+      "author": null,
+      "extra": {
+        "query": "new prompting OR reasoning technique for LLMs paper",
+        "score": 0.073
+      },
+      "id": "71fa7ad784ff7efe",
+      "collectedAt": "2026-11-21T11:33:14.878193+00:00"
     }
   ],
-  "updatedAt": "2026-11-21T02:39:53.025541+00:00"
+  "updatedAt": "2026-11-21T11:33:14.878193+00:00"
 }
