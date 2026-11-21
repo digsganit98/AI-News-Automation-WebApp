@@ -324,7 +324,185 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "aws-updates-quick-ai-workspace-and-amazon-bedroc-15d139",
+      "createdAt": "2026-11-21T02:47:14.028237+00:00",
+      "headline": "AWS updates Quick AI workspace and Amazon Bedrock language support",
+      "summary": "AWS has updated its Quick AI workspace to support multi-agent workflows, business data connectors, and additional languages. Additionally, the Amazon Bedrock Web Search tool now supports five new languages for regional AI applications.",
+      "whyItMatters": "These updates expand the global reach and multi-agent capabilities of enterprise AWS artificial intelligence tools.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-tools-introduce-elasticache-caching-global-i-5c33aa",
+      "createdAt": "2026-11-21T02:47:14.028237+00:00",
+      "headline": "AWS tools introduce ElastiCache caching, global inference gateways, and Textract skills",
+      "summary": "Amazon Web Services has released new developer tools including ElastiCache key-value caching to lower LLM latency, a Global Inference Gateway for SageMaker HyperPod, and an Amazon Textract Core skill for AI agents. These features aim to reduce hosting costs and streamline infrastructure management.",
+      "whyItMatters": "Lower latency and reduced infrastructure overhead make self-hosted large language models more cost-effective for developers.",
+      "category": "Infrastructure/MLOps",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"
+        },
+        {
+          "name": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-textract-core-skill-ai-agents/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "aws-devops-agent-and-agent-registry-expand-platf-eff376",
+      "createdAt": "2026-11-21T02:47:14.028237+00:00",
+      "headline": "AWS DevOps Agent and Agent Registry expand platform integration and discovery",
+      "summary": "The AWS DevOps Agent now supports chat interactions through Model Context Protocol clients, Slack, and Microsoft Teams. Furthermore, the AWS Agent Registry has introduced public naming features to help developers verify domain ownership and improve agent discovery.",
+      "whyItMatters": "Broader chat platform support and verified registries help developers deploy and trust collaborative AI agents more securely.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-new-chat-capabilities/"
+        },
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-naming-public-discovery/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hebbia-reports-financial-research-improvements-w-d15c45",
+      "createdAt": "2026-11-21T02:47:14.028237+00:00",
+      "headline": "Hebbia reports financial research improvements with GPT-6 Astra",
+      "summary": "Hebbia tested the GPT-6 Astra model for financial research tasks and observed improvements in source coverage and citation relevance. Prerelease evaluations also indicated higher presentation quality during complex data retrieval tasks.",
+      "whyItMatters": "Real-world financial testing demonstrates practical capability gains in advanced enterprise research models.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "OpenAI",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/business/customer-stories/hebbia"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "compoundingkernel-system-optimizes-gpu-kernel-ge-0831ea",
+      "createdAt": "2026-11-21T02:47:14.028237+00:00",
+      "headline": "CompoundingKernel system optimizes GPU kernel generation through search",
+      "summary": "Researchers introduced CompoundingKernel, an agent system that generates GPU kernels through search starting from PyTorch definitions. The generated kernels rank first on several benchmarking boards, performing significantly faster than standard reference baselines.",
+      "whyItMatters": "Automated GPU kernel optimization can significantly accelerate deep learning workload execution.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.19230"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.19230",
+        "code": "https://huggingface.co/spaces/QianQu/CompoundingKernel-Explorer",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-releases-mai-code-2-and-mai-code-2-fla-cce2a6",
+      "createdAt": "2026-11-21T02:47:14.028237+00:00",
+      "headline": "Microsoft releases MAI Code 2 and MAI Code 2 Flash coding models",
+      "summary": "Microsoft has launched MAI Code 2 for GitHub Copilot, matching high performance standards at a lower operating cost. The release also includes a smaller model called MAI Code 2 Flash, alongside specialized models for security and image editing.",
+      "whyItMatters": "New coding models provide developers with cost-effective alternatives for automated software engineering assistance.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/microsoft-mai-code-2-licensed-weights-ignite"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-20T20:46:51.339191+00:00"
+  "updatedAt": "2026-11-21T02:47:18.221565+00:00"
 }
