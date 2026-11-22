@@ -278,6 +278,284 @@
           "checkedAt": "2026-11-21T19:37:24.467530Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-22T01:28:33.754603+00:00",
+      "newItems": 7,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1421,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.759618Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.795727Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 915,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.796091Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.796380Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.796547Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.796724Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.796879Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797026Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797170Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797316Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 25,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797458Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797517Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797562Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797814Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.797862Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.798009Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.798158Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.798300Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.798439Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.798836Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-22T01:28:33.799079Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.799987Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.800167Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.800326Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-22T01:28:33.800475Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.800618Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.800788Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.800937Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.801085Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 7,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.801331Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-22T01:28:33.801954Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.802136Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.802308Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-22T01:28:33.802357Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -443,7 +721,110 @@
       },
       "id": "451ca0a07bc3cad1",
       "collectedAt": "2026-11-21T19:37:24.431565+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Illusion of Certainty: Why Reasoning Requires Structured Uncertainty",
+      "url": "https://medium.com/@jlprendki/the-illusion-of-certainty-why-reasoning-requires-structured-uncertainty-2f29ec0bde13?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T00:44:23Z",
+      "excerpt": "Attention isn’t enough. Why modern LLMs collapse uncertainty during token generation—and how persistent belief states enable reasoning. Continue reading on Medium »",
+      "author": "Jennifer Prendki",
+      "extra": {},
+      "id": "02c39e37d08262fc",
+      "collectedAt": "2026-11-22T01:28:33.754603+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Leaky AI supply chain is exposing secret user data at an alarming rate",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "publishedAt": "2026-11-20T21:53:39Z",
+      "excerpt": "",
+      "author": "BoiledCabbage",
+      "extra": {
+        "points": 51,
+        "comments": 6,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50582794"
+      },
+      "id": "6e086317ffb3ab4e",
+      "collectedAt": "2026-11-22T01:28:33.754603+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Inkling 2 Mini runs on a laptop and built a flight sim in mid-air - The Next Web",
+      "url": "https://thenextweb.com/news/inkling-2-mini-thinking-machines-looped-open-weights-laptop",
+      "publishedAt": "2026-11-21T15:49:30Z",
+      "excerpt": "Thinking Machines Lab has released Inkling 2 Mini, an open-weights model small enough to run on a laptop. The lab says it leads every open-weights model under 100bn parameters on coding benchmarks such as DeepSWE. Inkling 2 Mini runs its middle layers three times for every token, so it can reason more while writing less. > “Looping allows the model to reason longer without writing its reasoning down, which matters for monitoring,” Thinking Machines wrote. ## A model built to loop. Inkling 2…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.489
+      },
+      "id": "0d39431be4781d9c",
+      "collectedAt": "2026-11-22T01:28:33.754603+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Scientists Are Pursuing the Dream of a 'Virtual Cell' - Time Magazine",
+      "url": "https://time.com/article/2026/11/20/scientists-are-pursuing-the-dream-of-a-virtual-cell/",
+      "publishedAt": "2026-11-20T16:48:54Z",
+      "excerpt": "But in recent years, the idea of a “virtual cell”—a computer model so detailed, with such a close resemblance to the real thing, that scientists could run experiments on it instead of in the lab—has entered the conversation01332-1.pdf). With a virtual cell, biologists imagine, you could switch off a gene involved in a disease, or add an experimental drug, and then watch how the cell changes. The Arc Institute, an AI and biology research center in Palo Alto, Calif., announced on Nov. 19 the top…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.181
+      },
+      "id": "8764a2639e8832d8",
+      "collectedAt": "2026-11-22T01:28:33.754603+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft brings RDMA over USB4 to Windows, allowing multiple PCs to run one local AI model - VideoCardz.com",
+      "url": "https://videocardz.com/newz/microsoft-brings-rdma-over-usb4-to-windows-allowing-multiple-pcs-to-run-one-local-ai-model",
+      "publishedAt": "2026-11-20T16:49:03Z",
+      "excerpt": "Microsoft demonstrated AI models running across three AMD and four Intel PCs connected over USB4. ## Microsoft demonstrates 235B AI model running across three AMD Ryzen AI PCs. Microsoft has announced a developer preview of **RDMA over USB4** for Windows, allowing multiple computers to run a single AI model using their combined memory and GPU processing resources. The feature is designed for large AI models that cannot fit into the memory of a single computer. ### AMD and Intel demonstrate AI…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.165
+      },
+      "id": "8fbfc9b53771c9ad",
+      "collectedAt": "2026-11-22T01:28:33.754603+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI X Network Unveils Self-Sustaining AI Prosperity Engine to Empower Every Local Community - The Des Moines Register",
+      "url": "https://www.desmoinesregister.com/press-release/story/156878/ai-x-network-unveils-self-sustaining-ai-prosperity-engine-to-empower-every-local-community/",
+      "publishedAt": "2026-11-21T16:06:08Z",
+      "excerpt": "# AI X Network Unveils Self-Sustaining AI Prosperity Engine to Empower Every Local Community. *Community Capital Revolution connects AI education, business growth, workforce development, and recurring revenue through a collaborative economic flywheel.*. > Together, we can transform AI education into economic opportunity, business collaboration into recurring growth, and community investment into lasting prosperity. DALY CITY, CA, UNITED STATES, November 21, 2026 /EINPresswire.com/ — AI X…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.117
+      },
+      "id": "ae92ccd6f326ea04",
+      "collectedAt": "2026-11-22T01:28:33.754603+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI X Network Unveils Self-Sustaining AI Prosperity Engine to Empower Every Local Community - Detroit Free Press",
+      "url": "https://www.freep.com/press-release/story/275864/ai-x-network-unveils-self-sustaining-ai-prosperity-engine-to-empower-every-local-community/",
+      "publishedAt": "2026-11-21T15:58:09Z",
+      "excerpt": "# AI X Network Unveils Self-Sustaining AI Prosperity Engine to Empower Every Local Community. *Community Capital Revolution connects AI education, business growth, workforce development, and recurring revenue through a collaborative economic flywheel.*. > Together, we can transform AI education into economic opportunity, business collaboration into recurring growth, and community investment into lasting prosperity. DALY CITY, CA, UNITED STATES, November 21, 2026 /EINPresswire.com/ — AI X…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.113
+      },
+      "id": "7990c0cffc1c3ff3",
+      "collectedAt": "2026-11-22T01:28:33.754603+00:00"
     }
   ],
-  "updatedAt": "2026-11-21T19:37:24.431565+00:00"
+  "updatedAt": "2026-11-22T01:28:33.754603+00:00"
 }
