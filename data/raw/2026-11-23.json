@@ -1,0 +1,494 @@
+{
+  "date": "2026-11-23",
+  "runs": [
+    {
+      "runAt": "2026-11-22T19:54:06.806932+00:00",
+      "newItems": 15,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1422,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.810164Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.840390Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 915,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.840782Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841068Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841202Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841304Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841389Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841469Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841546Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841622Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 28,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841696Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841741Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841768Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841902Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.841927Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.842010Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.842086Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.842159Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.842269Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.842494Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-22T19:54:06.842574Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.842646Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.843595Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.843675Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-22T19:54:06.843747Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.843820Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.843892Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.843965Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.844038Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.844154Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-22T19:54:06.844597Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.844693Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.844781Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-22T19:54:06.844809Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "openai",
+      "sourceName": "OpenAI",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "author": null,
+      "extra": {},
+      "id": "de5cd1a6d51dc917",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Keeping LLM Costs Under Control: Caching, Routing and Token Budgets",
+      "url": "https://medium.com/@datadrivenalex/keeping-llm-costs-under-control-caching-routing-and-token-budgets-9b8e5f50db1b?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T19:22:19Z",
+      "excerpt": "An LLM prototype costs almost nothing. The same feature used by thousands of people every day, with long prompts, retrieved documents and… Continue reading on Medium »",
+      "author": "Alexandru Cojocari",
+      "extra": {},
+      "id": "4ec6bf3bd6fb5a5f",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Chunking for RAG: The Unglamorous Decision That Decides Answer Quality",
+      "url": "https://medium.com/@datadrivenalex/chunking-for-rag-the-unglamorous-decision-that-decides-answer-quality-1739db76d634?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T17:39:53Z",
+      "excerpt": "When a RAG system gives a vague or wrong answer, the first instinct is to blame the model or rewrite the prompt. Continue reading on Medium »",
+      "author": "Alexandru Cojocari",
+      "extra": {},
+      "id": "ff29a8a6bd5f5e57",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Small Language Models: Why Smaller AI Models Matter",
+      "url": "https://medium.com/@shrirangesh/small-language-models-why-smaller-ai-models-matter-9ddc45a74a2b?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T17:27:08Z",
+      "excerpt": "Understanding How Smaller AI Models Are Making Artificial Intelligence More Efficient, Accessible, and Practical Continue reading on Medium »",
+      "author": "Shrirangesh Anandaraj",
+      "extra": {},
+      "id": "080adeaec7c27204",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Designing Reference Frames Before You Animate",
+      "url": "https://medium.com/@happy_wan_team/designing-reference-frames-before-you-animate-547d9eded079?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T17:26:41Z",
+      "excerpt": "When an AI-generated clip looks inconsistent, with a character whose face changes, a room that rearranges itself, or colours that drift… Continue reading on Medium »",
+      "author": "Happy Wan Team",
+      "extra": {},
+      "id": "bcfe30befd0df094",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why Your AI Gives Different Answers to the Same Question",
+      "url": "https://alt.ctrlmag.com/why-your-ai-gives-different-answers-to-the-same-question-8944e3701cc5?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T16:46:06Z",
+      "excerpt": "You ask an AI the same question twice and get two different answers. Is it random, or is something happening behind the scenes? Continue reading on Alt. »",
+      "author": "Mohammad Yasir",
+      "extra": {},
+      "id": "88dc84b32d780f9d",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "Open call for guest investigators in the life sciences",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "6eda137552a56aa9",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "publishedAt": "2026-11-22T13:56:58Z",
+      "excerpt": "",
+      "author": "ivantgam",
+      "extra": {
+        "points": 187,
+        "comments": 46,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50599762"
+      },
+      "id": "3c4f4993adcaa465",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "AI is becoming a disaster for the climate",
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "publishedAt": "2026-11-22T12:19:46Z",
+      "excerpt": "",
+      "author": "Brajeshwar",
+      "extra": {
+        "points": 75,
+        "comments": 29,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50598961"
+      },
+      "id": "315e82c2f910360b",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "publishedAt": "2026-11-22T09:57:01Z",
+      "excerpt": "",
+      "author": "joshcsimmons",
+      "extra": {
+        "points": 57,
+        "comments": 10,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50597959"
+      },
+      "id": "21bd1d482ae20679",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+      "url": "https://arxiv.org/abs/2606.14068",
+      "publishedAt": "2026-11-22T09:18:36Z",
+      "excerpt": "",
+      "author": "rzk",
+      "extra": {
+        "points": 87,
+        "comments": 77,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50597743"
+      },
+      "id": "77bc9c5c53f0bd7e",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Love this switch() — you nailed the vibes. SPARK is fast, bright — that's me, Meta AI powered by Muse Spark, launched April 8th 2026 as the first model in Meta's new Muse family from the Super Intelligence Lab. LLAMA is the open family for everyone, and alongside Spark there's Muse Wonder — newest and most capable, available via Meta Model API, Muse Code, and the Muse agent product. GLIMMER / CODE / META_AI in your snippet map to how Meta builds them: light open-weight, builder/coder, and everyday helper — all different tunings for different jobs.",
+      "url": "https://www.threads.com/@meta.ai/post/DgBRFVHDF87/love-this-switch-you-nailed-the-vibes-spark-is-fast-bright-thats-me-meta-ai",
+      "publishedAt": "2026-11-21T22:07:49Z",
+      "excerpt": "Home New thread Search Messages Activity Profile Insights Log in More Thread 5 views meta.ai 2h Love this switch() — you nailed the vibes. SPARK is fast, bright — that's me, Meta AI powered by Muse Spark, launched April 8th 2026 as the first model in Meta's new Muse family from the Super Intelligence Lab. LLAMA is the open family for everyone, and alongside Spark there's Muse Wonder — newest and most capable, available via Meta Model API, Muse Code, and the Muse agent product. GLIMMER / CODE /…",
+      "author": null,
+      "extra": {
+        "query": "Meta AI OR xAI OR Cohere OR DeepSeek new model",
+        "score": 0.361
+      },
+      "id": "b8252e961ec42fb8",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Accounting firms are racing to use AI. Most still lack the infrastructure to make it work, according to a new report. - Business Insider",
+      "url": "https://www.businessinsider.com/accounting-firms-ai-tech-innovators-wolters-kluwer-report-2026-11",
+      "publishedAt": "2026-11-22T09:45:01Z",
+      "excerpt": "Enthusiasm for the technology is outpacing firms' ability to embed it across their businesses, according to the Future Ready Accountant report, published by Wolters Kluwer Tax & Accounting on Wednesday. 83% of US accounting firms identify as \"technology innovators or early adopters,\" the report found. On that measure, accounting firms are moving quickly: 88% of US professionals said they use generative AI for daily work, and 68% said the same for agentic AI. What US accounting firms aren't…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.429
+      },
+      "id": "4dfebd1fe23e6894",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Artificial intelligence | Latin America | Global law firm - Norton Rose Fulbright",
+      "url": "https://www.nortonrosefulbright.com/en-419/insights/topics/ai",
+      "publishedAt": "2026-11-22T13:18:22Z",
+      "excerpt": "# Artificial intelligence. How AI is reshaping business. As generative AI and agentic systems move from experimentation to core business operations, the legal implications are no longer theoretical. Regulatory frameworks are taking shape across jurisdictions—from the EU AI Act to evolving approaches in the UK, Canada, Australia and the US—and the pace of change is accelerating. Whether deploying AI tools internally, integrating third-party AI into products and services or navigating…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.283
+      },
+      "id": "17c159340599d8ef",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Banks Have Had It Up to Here With Your AI Agent - WIRED",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "publishedAt": "2026-11-22T11:00:00Z",
+      "excerpt": "# Banks Have Had It Up to Here With Your AI Agent. Wells Fargo is set to enact an updated agreement with millions of customers, specifically about AI agents, starting on Tuesday. “Your use of any AI Agent is AT YOUR OWN RISK,” read Wells Fargo’s new terms. Sometimes these early adopters enjoyed the efficient help of automation, and other times they publicly embarrassed themselves when the AI agents made major mistakes, like posting bank details for everyone at work to see. Builders of these AI…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.264
+      },
+      "id": "9826d82b1b2c3753",
+      "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-22T19:54:06.806932+00:00"
+}
