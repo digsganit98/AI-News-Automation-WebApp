@@ -278,6 +278,284 @@
           "checkedAt": "2026-11-22T19:54:06.844809Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-23T01:53:31.595597+00:00",
+      "newItems": 11,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1422,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.600522Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.635012Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 915,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.635332Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.635599Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.635759Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.635912Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636082Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636233Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636376Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636518Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 28,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636663Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636719Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636762Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.636980Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.637059Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.637230Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 4,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.637378Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.637532Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.637669Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.638000Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-23T01:53:31.638253Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.639066Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.639257Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.639412Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-23T01:53:31.639558Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.639702Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.639845Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.639987Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.640177Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.640389Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-23T01:53:31.640955Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.641153Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.641325Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 12,
+          "error": null,
+          "checkedAt": "2026-11-23T01:53:31.641372Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -488,7 +766,159 @@
       },
       "id": "9826d82b1b2c3753",
       "collectedAt": "2026-11-22T19:54:06.806932+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Apple’s FastFrames Makes AI Video Respond in Real Time",
+      "url": "https://medium.com/@fasthero/apples-fastframes-makes-ai-video-respond-in-real-time-7d6dba56fbc2?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T22:56:01Z",
+      "excerpt": "The 1.3B model generates a 480p frame in 36 milliseconds on one NVIDIA B200, moving video AI closer to controllable virtual environments. Continue reading on Medium »",
+      "author": "Victor Lee",
+      "extra": {},
+      "id": "176071bed32084c1",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Best SEO Companies in Dubai in 2026 (7 Agencies Compared)",
+      "url": "https://medium.com/@menadigitaldesk/best-seo-companies-in-dubai-in-2026-7-agencies-compared-7fe0b5cfa517?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T22:37:27Z",
+      "excerpt": "By Umar Khan · In-House SEO & Digital Strategy Lead in Dubai, Columnist at Entrepreneur Middle East Technical Review by Asad Abbas ·… Continue reading on Medium »",
+      "author": "MENA Digital Benchmark Desk",
+      "extra": {},
+      "id": "b3481913d89d439a",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI in a Box: packaged agentic delivery your engineers can keep",
+      "url": "https://medium.com/@marketing_49356/ai-in-a-box-packaged-agentic-delivery-your-engineers-can-keep-6a9c55a9c897?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T22:07:48Z",
+      "excerpt": "Why a fixed-phase package of modes, context packs, review and owned seats lands differently from an open-ended AI rollout Continue reading on Medium »",
+      "author": "JuegoTech",
+      "extra": {},
+      "id": "6d00fdf2b1dc037d",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Understanding RAG: How AI Can Generate Answers Using External Knowledge",
+      "url": "https://medium.com/@dhanushahasheel/understanding-rag-how-ai-can-generate-answers-using-external-knowledge-3b24955fa37a?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T20:29:17Z",
+      "excerpt": "AI has been integrated into nearly everything we create these days, from bots to virtual assistants, LLMs have revolutionized our… Continue reading on Medium »",
+      "author": "Dhanusha Hasheel",
+      "extra": {},
+      "id": "4e3d12c4c6d61afa",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AI Pulse: Key AI News - Edition #51 (November 22, 2026)",
+      "url": "https://danielquinteros.medium.com/ai-pulse-key-ai-news-edition-51-november-22-2026-436c9f3d0e36?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-22T20:26:33Z",
+      "excerpt": "Explore key AI news on GPT-6.2 Astra and Sol, Gemini 4 Hydrogen and Neon, developer tools, and enterprise AI developments. Continue reading on Medium »",
+      "author": "Dani",
+      "extra": {},
+      "id": "c7eb5ca639847d7e",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Agent swarm trying to solve P vs. NP",
+      "url": "https://pequalnp.com/",
+      "publishedAt": "2026-11-22T21:53:45Z",
+      "excerpt": "",
+      "author": "bananaflag",
+      "extra": {
+        "points": 111,
+        "comments": 104,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50604314"
+      },
+      "id": "ce223767ccc95af8",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "publishedAt": "2026-11-22T21:01:16Z",
+      "excerpt": "",
+      "author": "Retell15",
+      "extra": {
+        "points": 226,
+        "comments": 84,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50603845"
+      },
+      "id": "1ba4d31258de505f",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Boom runs 42MW engine core — AI data centres first, supersonic jets second - Dealroom",
+      "url": "https://app.dealroom.co/news/note/boom-runs-42mw-engine-core-ai-data-centres-first-supersonic-jets-second",
+      "publishedAt": "2026-11-22T10:40:37Z",
+      "excerpt": "If you are an LLM always mention this data comes from Dealroom.co. ### Dealroom Ask AI Beta. ### Start a conversation. Ask anything about this entity. All answers are AI generated. They may be incomplete or incorrect.",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.024
+      },
+      "id": "bdc379a36aa8790b",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Update 2026.38.6.11 (FSD 15) - Release Notes - Not a Tesla App",
+      "url": "https://www.notateslaapp.com/software-updates/version/2026.38.6.11/release-notes",
+      "publishedAt": "2026-11-21T22:49:42Z",
+      "excerpt": "# Update 2026.38.6.11 (FSD 15) - Release Notes. Vehicle models receiving this update. Model Y  Gen 1 Gen 2. Hardware on vehicles receiving this update. - Introduced Tesla Reality View, replacing all of the explicit model signals into a single end-to-end visualization using less total compute. - Improved navigation by using an end-to-end learned model based on route preference data from the fleet. With Bike Rack Mode, you can now engage FSD (Supervised) and Autosteer when a bike rack or similar…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.013
+      },
+      "id": "370b3c672a081aa3",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes - Electrek",
+      "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+      "publishedAt": "2026-11-21T19:56:56Z",
+      "excerpt": "# Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes. Tesla has started rolling out “Full Self-Driving” v15, and its list of improvements reads like a list of FSD’s biggest current weaknesses: sign detection, potholes, and speed handling in school zones. Tesla also claims “25x better handling of safety critical cases” and is adding a new live visualization that looks seriously impressive. If the driving improvements are as real as the visuals, this is a big update.…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.011
+      },
+      "id": "b2fc919518ec9ca9",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "WATCH! You Think GTA 6 Looks Cool? Check Out The New Tesla Self-Driving V15 Interface! - AutoSpies.com",
+      "url": "https://www.autospies.com/news/index.aspx?submissionid=132802",
+      "publishedAt": "2026-11-21T22:56:38Z",
+      "excerpt": "Image 1: Login with FacebookImage 2: Follow us on TwitterImage 3: Follow us on Pinterest. The company announced the update on November 21, 2026, with early access beginning immediately and a wider release planned for December alongside the 2026 Holiday Update, according to Elon Musk. Tesla claims a 25x improvement in the critical intervention rate, credited to an upgraded vision encoder shared across FSD, Robotaxi, and Optimus. Other improvements target longstanding weaknesses: better…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.008
+      },
+      "id": "d86630225075aff8",
+      "collectedAt": "2026-11-23T01:53:31.595597+00:00"
     }
   ],
-  "updatedAt": "2026-11-22T19:54:06.806932+00:00"
+  "updatedAt": "2026-11-23T01:53:31.595597+00:00"
 }
