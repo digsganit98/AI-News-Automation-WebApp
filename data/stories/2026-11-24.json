@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-24",
+  "stories": [
+    {
+      "id": "aws-waf-adds-automated-discovery-and-protection-fa8b3d",
+      "createdAt": "2026-11-24T02:35:29.809191+00:00",
+      "headline": "AWS WAF adds automated discovery and protection for AI endpoints",
+      "summary": "AWS WAF now provides automated discovery and protection for language model, Model Context Protocol, and Agent2Agent endpoints. The update uses Amazon API Gateway and Amazon Bedrock Guardrails to block malformed messages and detect prompt injection attempts.",
+      "whyItMatters": "This feature helps organizations secure their deployed AI endpoints against malicious inputs and prompt injections at the infrastructure level.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-updates-alloydb-omni-to-integrate-with-lo-5b9446",
+      "createdAt": "2026-11-24T02:35:29.809191+00:00",
+      "headline": "Google updates AlloyDB Omni to integrate with locally hosted models",
+      "summary": "Google has updated AlloyDB Omni to integrate directly with locally hosted large language models like Gemma and Qwen. This integration enables users to build agentic experiences and perform semantic vector searches while keeping data within local environments.",
+      "whyItMatters": "It allows enterprises to run advanced AI applications and vector searches locally without sending sensitive data to external cloud services.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "GCP",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google Cloud AI Blog",
+          "url": "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "google-deepmind-uses-gemini-agent-teams-to-optim-9dddeb",
+      "createdAt": "2026-11-24T02:35:29.809191+00:00",
+      "headline": "Google DeepMind uses Gemini agent teams to optimize quantum algorithms for fusion",
+      "summary": "Researchers used teams of Gemini agents to improve quantum algorithms, reducing the computing resources needed for fusion energy and chemical reaction simulations. The team verified the improvements using formal mathematical proofs and released their tools on GitHub.",
+      "whyItMatters": "Demonstrating how multi-agent AI systems can advance specialized scientific research and lower computational barriers in physics.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "future-opsd-framework-trains-video-models-to-pre-ca1527",
+      "createdAt": "2026-11-24T02:35:29.809191+00:00",
+      "headline": "Future-OPSD framework trains video models to predict future events using unlabeled data",
+      "summary": "Researchers introduced Future-OPSD, a framework that trains vision-language models to anticipate future events in videos without external supervision. The method improves prediction accuracy by focusing on relevant future information from unlabeled data.",
+      "whyItMatters": "It removes the reliance on expensive manual annotations when training video models to understand and anticipate dynamic scenes.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.26954"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.26954",
+        "code": "https://github.com/Jingchensun/future-opsd",
+        "model": null,
+        "demo": "https://jingchensun.github.io/future-opsd/"
+      }
+    },
+    {
+      "id": "respacebench-evaluates-spatial-memory-and-naviga-1f48ec",
+      "createdAt": "2026-11-24T02:35:29.809191+00:00",
+      "headline": "ReSpaceBench evaluates spatial memory and navigation in AI agents",
+      "summary": "Researchers created ReSpaceBench to test how well AI agents maintain spatial memory when revisiting environments. The evaluation revealed that current models struggle to distinguish similar rooms and track environmental changes compared to human annotators.",
+      "whyItMatters": "Highlighting current limitations in agent memory helps guide the development of systems capable of reliable long-term navigation.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.21485"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.21485",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "amazon-agrees-to-acquire-decart-s-ai-technology-1a5c8d",
+      "createdAt": "2026-11-24T02:35:29.809191+00:00",
+      "headline": "Amazon agrees to acquire Decart's AI technology and hire founders",
+      "summary": "Amazon has agreed to purchase Decart's proprietary AI technology and hire its three founders and researchers in a reverse acquihire deal. The acquisition includes the Decart Optimization Stack, which helps models run smoothly across various hardware.",
+      "whyItMatters": "This transaction strengthens Amazon's technical infrastructure and software stack for high-performance artificial intelligence workloads.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.cnbc.com/2026/11/23/amazon-decarts-ai-acquisition.html"
+        },
+        {
+          "name": "Web search",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-24T02:35:34.141099+00:00"
+}
