@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-26",
+  "stories": [
+    {
+      "id": "iclworld-benchmark-evaluates-rule-learning-capab-853993",
+      "createdAt": "2026-11-25T19:42:17.967885+00:00",
+      "headline": "ICLWorld benchmark evaluates rule-learning capabilities of AI agents in digital and physical tasks",
+      "summary": "Researchers introduced ICLWorld, an online benchmark that measures how well AI agents learn new rules from context across computer and robot environments. The study found that models perform much better on digital tasks than on physical robot tasks, revealing a gap in embodied rule-following.",
+      "whyItMatters": "Understanding how agents apply learned rules in diverse settings is critical for developing reliable robotic and software assistants.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.32649"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.32649",
+        "code": "https://github.com/ICLWorld/ICLWorld",
+        "model": null,
+        "demo": "https://iclworld.github.io"
+      }
+    },
+    {
+      "id": "cot-proxy-distills-complex-ai-agent-skills-using-ee2f14",
+      "createdAt": "2026-11-25T19:42:17.967885+00:00",
+      "headline": "CoT-Proxy distills complex AI agent skills using visible actions and summaries",
+      "summary": "A new training approach called CoT-Proxy lets smaller models learn advanced tasks from larger, closed-source models by observing only their final actions and short reasoning summaries. This technique improves smaller model performance on software tasks without needing access to hidden thought processes.",
+      "whyItMatters": "This method offers a practical way to train efficient smaller models without relying on proprietary internal reasoning data.",
+      "category": "Methodology",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.33148"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.33148",
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "coding4games-benchmark-evaluates-ai-coding-agent-4c1426",
+      "createdAt": "2026-11-25T19:42:17.967885+00:00",
+      "headline": "Coding4Games benchmark evaluates AI coding agents on creating video game players",
+      "summary": "Researchers developed a benchmark to test if AI coding agents can write programs that play modern video games without continuous AI inference. The generated programs outperformed standard AI agents in most games, though human players still achieved better overall results.",
+      "whyItMatters": "Testing agents on complex interactive tasks helps gauge their ability to write persistent, autonomous software solutions.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.31974"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.31974",
+        "code": "https://github.com/GVCLab/Coding4Games",
+        "model": null,
+        "demo": "https://coding4game.github.io/"
+      }
+    },
+    {
+      "id": "new-optimization-technique-reduces-computational-00cdf1",
+      "createdAt": "2026-11-25T19:42:17.967885+00:00",
+      "headline": "New optimization technique reduces computational cost of AI video generation",
+      "summary": "Researchers created a method to lower the compute required for AI video generation by optimizing how visual inputs are processed. The approach addresses the high overhead of tokenizing various visual assets to make all-in-one video models more efficient.",
+      "whyItMatters": "Reducing computational barriers makes high-resolution generative video models more accessible for development and deployment.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.31184"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.31184",
+        "code": "https://github.com/Kiteretsu77/CodecOPSD",
+        "model": null,
+        "demo": "https://kiteretsu77.github.io/CodecOPSD_website/"
+      }
+    },
+    {
+      "id": "google-deepmind-deploys-ai-agents-to-run-experim-7354ff",
+      "createdAt": "2026-11-25T19:42:17.967885+00:00",
+      "headline": "Google DeepMind deploys AI agents to run experiments for future Gemini models",
+      "summary": "Google DeepMind is allowing AI agents to control a portion of its compute infrastructure to execute their own experiments for upcoming Gemini models. To maintain safety and oversight, the lab avoids rewarding internal thought streams during training, keeping agent actions reviewable in natural language.",
+      "whyItMatters": "Granting AI agents autonomous control over research experiments represents a significant operational step in model development.",
+      "category": "Agentic Systems",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-25T19:42:22.315581+00:00"
+}

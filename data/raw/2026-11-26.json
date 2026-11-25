@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-26",
+  "runs": [
+    {
+      "runAt": "2026-11-25T19:29:47.007187+00:00",
+      "newItems": 21,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1430,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.011078Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.040194Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 917,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.040502Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.040711Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.040826Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.040929Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041027Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041116Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041201Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041286Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 21,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041388Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041430Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041458Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041613Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041642Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041736Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041825Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041907Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.041988Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.042192Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-25T19:29:47.042285Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.042421Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.043064Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.043163Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-25T19:29:47.043251Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.043365Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.043464Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.043552Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.043638Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.043773Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-25T19:29:47.044230Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.044363Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.044475Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 16,
+          "error": null,
+          "checkedAt": "2026-11-25T19:29:47.044505Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "deepmind",
+      "sourceName": "Google DeepMind",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "publishedAt": "2026-11-24T13:07:53Z",
+      "excerpt": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "author": null,
+      "extra": {},
+      "id": "f14a6f6dfd19f4ca",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "publishedAt": "2026-11-25T18:52:55Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "37b5c9ba93266751",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "publishedAt": "2026-11-25T10:22:09Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "d0a3a7f662b58965",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "huggingface",
+      "sourceName": "Hugging Face",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "d8d6777ecf090783",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "ICLWorld: Benchmarking In-Context Learning of Agents from Digital to Physical Worlds",
+      "url": "https://huggingface.co/papers/2611.32649",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "excerpt": "In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or static images, and risk training-data contamination, while robot evaluations are limited to method-level ablations. We present ICLWorld, an online benchmark that evaluates the ICL of agents from digital…",
+      "author": "Qingle Liu, Jieming Li, Pei-lin Li, Shenghan Zheng, Ruize Yang, Sunqi Fan, Deyao Hong, Huan-ang Gao, Meng-Hao Guo, Shuojin Yang",
+      "extra": {
+        "upvotes": 19,
+        "githubRepo": "https://github.com/ICLWorld/ICLWorld",
+        "projectPage": "https://iclworld.github.io",
+        "arxivUrl": "https://arxiv.org/abs/2611.32649"
+      },
+      "id": "853993777f319fd1",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+      "url": "https://huggingface.co/papers/2611.33148",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "excerpt": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose chain-of-thought is hidden behind an API. We show that the chain-of-thought can be left out altogether and that the long-horizon policy can be distilled from the teacher's…",
+      "author": "Dawid J. Kopiczko, Tijmen Blankevoort, Yuki M. Asano",
+      "extra": {
+        "upvotes": 13,
+        "githubRepo": null,
+        "projectPage": null,
+        "arxivUrl": "https://arxiv.org/abs/2611.33148"
+      },
+      "id": "ee2f14a27f5d7842",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Coding4Games: Can Modern Coding Agents Play Modern Video Games?",
+      "url": "https://huggingface.co/papers/2611.31974",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "excerpt": "Games, especially modern AAA games, challenge language models to perceive complex scenes, control actions, and make decisions over long horizons. Existing game benchmarks primarily test language models as computer-use agents that query a language model throughout play, incurring repeated inference cost and, in real-time games, acting while the environment continues to evolve. We ask whether coding agents can learn from game interaction to develop standalone game-playing programs that run…",
+      "author": "Shifang Zhao, Haoyu Wang, Yuyang Yin, Dong Chen, Xingyilang Yin, Yunkang Tao, Honghao Chen, Guangzhi Wang, Yiran Wang, Junfu Pu, Cheng Cheng, Xiaodong Cun, Ying Shan",
+      "extra": {
+        "upvotes": 10,
+        "githubRepo": "https://github.com/GVCLab/Coding4Games",
+        "projectPage": "https://coding4game.github.io/",
+        "arxivUrl": "https://arxiv.org/abs/2611.31974"
+      },
+      "id": "4c1426fd24e98305",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
+      "url": "https://huggingface.co/papers/2611.31184",
+      "publishedAt": "2026-11-25T00:00:00Z",
+      "excerpt": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet most of these tokens carry redundant spatiotemporal information. Our key insight is that identifying what is genuinely new is exactly the problem that classical video codecs have long solved. Thus, we first introduce a…",
+      "author": "Boyang Wang, Kevin Blackburn-Matzen, Oindrila Saha, Matheus Gadelha, Zezhou Cheng",
+      "extra": {
+        "upvotes": 11,
+        "githubRepo": "https://github.com/Kiteretsu77/CodecOPSD",
+        "projectPage": "https://kiteretsu77.github.io/CodecOPSD_website/",
+        "arxivUrl": "https://arxiv.org/abs/2611.31184"
+      },
+      "id": "00cdf1ae84497058",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: llamaindex/OCRia-nano-1",
+      "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 217,
+        "trendingScore": 184,
+        "task": "image-to-text"
+      },
+      "id": "95f66e605143951c",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "“The AI Made Us Do It”",
+      "url": "https://medium.com/bix-tech/the-ai-made-us-do-it-4718f9dbdc58?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-25T18:47:23Z",
+      "excerpt": "Why employee distrust, not the technology, is the real risk to your AI returns Continue reading on BIX Tech »",
+      "author": "Helio Pereira",
+      "extra": {},
+      "id": "51741770f03bec0a",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "GenAIOps con MLflow 3.18: del tráfico de producción al quality gate",
+      "url": "https://medium.com/@darkanita/genaiops-con-mlflow-3-18-del-tr%C3%A1fico-de-producci%C3%B3n-al-quality-gate-249d970853c3?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-25T18:39:43Z",
+      "excerpt": "🇬🇧 This article is also available in English: GenAIOps with MLflow 3.18: from production traffic to a quality gate Continue reading on Medium »",
+      "author": "Ana Lopez Moreno",
+      "extra": {},
+      "id": "0b750c68ac42cb0e",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How I Make 5-Minute AI Films From One Prompt",
+      "url": "https://medium.com/@javed.baloch/how-i-make-5-minute-ai-films-from-one-prompt-bdfed1bde7d9?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-25T16:11:46Z",
+      "excerpt": "No editing timeline, no stitching clips together. One idea in, one finished film out. Continue reading on Medium »",
+      "author": "Javed Baloch",
+      "extra": {},
+      "id": "c4e0bf512e23207b",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Agentic AI Define-Design-Build: From Prompts to Agents — Part 1",
+      "url": "https://medium.com/data-science-collective/agentic-ai-define-design-build-from-prompts-to-agents-part-1-b66605f8228e?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-25T15:59:40Z",
+      "excerpt": "Building Blocks | Seven Decisions | Five Patterns | Why should we care? Continue reading on Data Science Collective »",
+      "author": "Minha Hwang",
+      "extra": {},
+      "id": "806253fa8b2fbbbb",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+      "url": "https://www.proofatlas.ai/open-problems/",
+      "publishedAt": "2026-11-25T03:01:36Z",
+      "excerpt": "",
+      "author": "ijidak",
+      "extra": {
+        "points": 97,
+        "comments": 48,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50637871"
+      },
+      "id": "dc30af1becdbb427",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
+      "publishedAt": "2026-11-24T22:27:19Z",
+      "excerpt": "",
+      "author": "Betelbuddy",
+      "extra": {
+        "points": 51,
+        "comments": 15,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50635706"
+      },
+      "id": "b5ea74ac42de416e",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant - The Decoder",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "publishedAt": "2026-11-25T13:23:36Z",
+      "excerpt": "### The Decoder. # AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant. **Google Deepmind lets AI agents run experiments on their own for the next Gemini model.** On the company's podcast, VP of Research Koray Kavukcuoglu, who leads Gemini development, frames this as part of a strategic shift at the lab. Rather than running separate teams for specialized projects like AlphaFold and nuclear fusion, Deepmind now relies on a…",
+      "author": null,
+      "extra": {
+        "query": "AI lab official blog announces new model",
+        "score": 0.287
+      },
+      "id": "6bac70b0e1802a36",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Q&A: Footwear/apparel retailer Lilac Blonde builds in-house AI agent - Chain Store Age",
+      "url": "https://chainstoreage.com/qa-footwearapparel-retailer-lilac-blonde-builds-house-ai-agent",
+      "publishedAt": "2026-11-24T15:10:00Z",
+      "excerpt": "# Q&A: Footwear/apparel retailer Lilac Blonde builds in-house AI agent. Lilac Blonde, an independent, digitally native specialty retailer of women’s footwear and apparel, is taking agentic AI into its own hands. Chain Store Age recently spoke with Abby Vitale, co-founder of Lilac Blonde, about how the omnichannel retailer (which began as an online women’s sneaker retailer and has since expanded into women’s apparel and opened a brick-and-mortar location) developed a proprietary agentic AI…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.621
+      },
+      "id": "17db5c293b2b5da1",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "EverBee Launches Ferza, Bringing Agentic AI to Transform the Way Businesses Operate - markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/everbee-launches-ferza-bringing-agentic-ai-to-transform-the-way-businesses-operate-1036797955",
+      "publishedAt": "2026-11-25T05:22:18Z",
+      "excerpt": "# EverBee Launches Ferza, Bringing Agentic AI to Transform the Way Businesses Operate. Ferza introduces a new era of intelligent business execution, connecting tools, coordinating workflows and turning complex assignments into actionable results. New York, United States, November 25, 2026 -- Everbee announced the public launch of Ferza, an agentic AI platform designed to transform how businesses operate by turning everyday assignments into completed work across connected applications. Instead…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.547
+      },
+      "id": "4c7197f3e7e98f93",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Israeli AI startup Zipher raises $53 million to automate enterprise data infrastructure - Ynetnews",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/b1vqasmjmx",
+      "publishedAt": "2026-11-25T00:28:53Z",
+      "excerpt": "# Israeli AI startup Zipher raises $53 million to automate enterprise data infrastructure. ## Founded by two former IDF Unit 8200 members, the New York-based company uses AI agents to manage enterprise data workloads, aiming to reduce computing costs and improve performance; investors include TLV Partners, Maor Investments and Glilot Capital. Israeli-founded AI infrastructure startup Zipher has raised $53 million across its seed and Series A funding rounds, backed by TLV Partners, Maor…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.544
+      },
+      "id": "6095d0a8ddd3c08a",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "5 Things Manufacturers Need to Know Before Deploying Agentic AI - Industrial Equipment News",
+      "url": "https://www.ien.com/artificial-intelligence/blog/22978927/5-things-manufacturers-need-to-know-before-deploying-agentic-ai",
+      "publishedAt": "2026-11-24T16:36:59Z",
+      "excerpt": "The manufacturing sector is viewed as still catching up on AI adoption, with. For manufacturing leaders, the measure of progress is how these investments improve profitability, rather than how quickly AI is adopted or how many employees have access to it. These findings cover AI broadly, but they raise an important question for agentic AI: what makes an investment deliver beyond the pilot? Your technology partner should map the process from fault detection to production restart and establish…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.534
+      },
+      "id": "1cf6735a8e23f495",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Agentic AI Needs Boundaries Before it Needs Freedom - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/opinions/agentic-ai-boundaries-freedom/",
+      "publishedAt": "2026-11-25T13:00:00Z",
+      "excerpt": "Infosecurity Magazine Home » Opinions » Agentic AI Needs Boundaries Before it Needs Freedom. # Agentic AI Needs Boundaries Before it Needs Freedom. When an AI agent has permission to act, a mistake doesn’t just give you a bad answer. It may have called a system, sent a message, opened a ticket or moved money before anyone’s had the chance to stop it. That raises the stakes in accuracy, but also in risk and control. Deloitte's *2026 State of AI in the Enterprise* report found that 74% of…",
+      "author": null,
+      "extra": {
+        "query": "agentic AI enterprise use case deployed",
+        "score": 0.47
+      },
+      "id": "378e81228e00f66d",
+      "collectedAt": "2026-11-25T19:29:47.007187+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-25T19:29:47.007187+00:00"
+}
