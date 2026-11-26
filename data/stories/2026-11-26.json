@@ -243,7 +243,304 @@
         "model": null,
         "demo": null
       }
+    },
+    {
+      "id": "hugging-face-launches-benchmark-dashboard-for-am-02a088",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "Hugging Face launches benchmark dashboard for AMD hardware",
+      "summary": "Hugging Face has introduced a new benchmark dashboard specifically for AMD Ryzen processors and Radeon graphics cards. The tool lets users evaluate the performance of the llama.cpp inference engine on AMD hardware.",
+      "whyItMatters": "It expands performance visibility for running local language models on consumer-grade AMD hardware.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "nvidia-releases-open-data-and-tools-for-nemotron-d3aa48",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "NVIDIA releases open data and tools for Nemotron 3.5 Parse",
+      "summary": "NVIDIA has expanded its Nemotron 3.5 Parse document model by releasing synthetic training datasets, a fine-tuning recipe, and a speculator for faster inference. The updated model improves the extraction of structured data from complex charts and tables using reinforcement learning.",
+      "whyItMatters": "Providing open training data and fine-tuning tools makes advanced document extraction models more accessible to developers.",
+      "category": "New Model Release",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "new-framework-proposed-for-long-horizon-agent-me-0b3165",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "New framework proposed for long-horizon agent memory",
+      "summary": "Researchers have introduced MGMem, a framework designed to help large language model agents maintain persistent memory over thousands of interaction turns. The system aims to be efficient and deterministic while preserving the provenance of past interactions.",
+      "whyItMatters": "Persistent memory systems are essential for AI agents to handle complex, multi-step tasks over extended periods.",
+      "category": "Agentic Systems",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "arXiv (cs.AI, cs.CL)",
+          "url": "https://arxiv.org/abs/2611.33174"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "hugging-face-publishes-guide-on-building-and-tra-c01600",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "Hugging Face publishes guide on building and training multi-agent swarms",
+      "summary": "Hugging Face has started a blog series on how to build, train, and evaluate multi-agent systems, also known as swarms. The first part provides an educational overview and reproducible examples for training agents to communicate effectively using small models.",
+      "whyItMatters": "Practical guides and reproducible examples lower the barrier to entry for developing collaborative multi-agent applications.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/training-swarms"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "mixture-of-loops-transformer-improves-pretrainin-7fc61a",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "Mixture-of-Loops Transformer improves pretraining efficiency",
+      "summary": "A new paper introduces the Mixture-of-Loops Transformer, which reuses key-value memory across loops to balance model expressivity and efficiency. The U-shaped variant of this architecture outperforms baseline models in pretraining token efficiency and inference latency.",
+      "whyItMatters": "Architectural improvements that reduce inference latency and boost pretraining efficiency help lower the cost of deploying large models.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.34923"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.34923",
+        "code": "https://github.com/hustvl/MoLT",
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "research-explores-recursive-self-improvement-for-7b3feb",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "Research explores recursive self-improvement for LLMs at test time",
+      "summary": "A new study proposes a method for large language models to improve their performance on unlabeled questions after deployment. The approach moves beyond standard self-consistency techniques to enable recursive self-improvement during the testing phase.",
+      "whyItMatters": "Enabling models to improve after deployment without human labels could significantly enhance inference-time reasoning.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.30965"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.30965",
+        "code": "https://github.com/uanu2002/TT-RSI",
+        "model": null,
+        "demo": "https://uanu2002.github.io/TT-RSI/"
+      }
+    },
+    {
+      "id": "real2simlab-platform-unifies-real-to-simulation-de55fe",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "Real2SimLab platform unifies real-to-simulation transfer",
+      "summary": "Researchers have released Real2SimLab, a unified platform for building simulations from real-world observations. The tool addresses the growing capability of coding agents to generate simulation programs from video recordings.",
+      "whyItMatters": "Unified simulation platforms help bridge the gap between real-world observations and virtual agent training environments.",
+      "category": "Framework/Tooling",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.34849"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.34849",
+        "code": "https://github.com/Real2SimHub/Real2SimLab",
+        "model": null,
+        "demo": "https://real2simhub.github.io"
+      }
+    },
+    {
+      "id": "us-chip-curbs-and-distillation-rules-may-slow-ch-3ac4fb",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "US chip curbs and distillation rules may slow Chinese AI model development",
+      "summary": "Sources indicate that China's Z.AI has fallen behind schedule on its next flagship model, while rival Moonshot AI expects the gap between major releases to double if it loses access to overseas computing power. Export controls and distillation rules are cited as contributing factors.",
+      "whyItMatters": "Hardware restrictions highlight how global supply chain policies directly impact the release timelines of frontier AI models.",
+      "category": "Business & Funding",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "johns-hopkins-math-department-asks-job-candidate-aedf57",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "Johns Hopkins math department asks job candidates to demonstrate skills without AI",
+      "summary": "The mathematics department at Johns Hopkins University has published new guidelines for prospective Ph.D. students and job applicants that outline how they will be evaluated in the age of AI. The requirements include showing work without digital assistance.",
+      "whyItMatters": "Academic institutions are adapting their evaluation processes to preserve and verify foundational problem-solving skills.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.chronicle.com/article/a-math-department-tells-job-candidates-show-us-what-you-can-do-without-ai"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "anthropic-ceo-dario-amodei-rejects-claims-of-sur-00d3c7",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "Anthropic CEO Dario Amodei rejects claims of surrendering human control to AI",
+      "summary": "Anthropic CEO Dario Amodei has pushed back against accusations that his company believes society should surrender human free will to AI systems. He noted a clear distinction between using advanced technology as a tool and handing over sovereign control.",
+      "whyItMatters": "Public commentary from industry leaders reflects ongoing debates regarding autonomy, safety, and human oversight in artificial intelligence.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Anthropic",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ai-models-solve-majority-of-private-theoretical-e97fae",
+      "createdAt": "2026-11-26T17:21:40.401112+00:00",
+      "headline": "AI models solve majority of private theoretical physics problems in new benchmark",
+      "summary": "A new benchmark created by physicists at the International Centre for Theoretical Sciences found that leading AI models can solve a high percentage of unpublished, real-world physics problems. The latest models achieved nearly 90 percent accuracy on the test set.",
+      "whyItMatters": "High performance on specialized scientific benchmarks shows that AI systems are approaching expert-level problem-solving capabilities in theoretical domains.",
+      "category": "Research",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
     }
   ],
-  "updatedAt": "2026-11-26T03:47:56.911320+00:00"
+  "updatedAt": "2026-11-26T17:21:49.832755+00:00"
 }
