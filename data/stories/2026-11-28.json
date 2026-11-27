@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-28",
+  "stories": [
+    {
+      "id": "amazon-neptune-introduces-graph-sessions-for-ai-3c739c",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Amazon Neptune introduces Graph Sessions for AI agents",
+      "summary": "Amazon Neptune has launched Graph Sessions, a new compute mode that allows AI agents to use smaller graphs that scale to zero when idle. This feature lets developers build per-task graphs without paying for the minimum capacity of standard provisioned graphs.",
+      "whyItMatters": "It lowers the cost and operational overhead of running stateful graphs for individual AI agents.",
+      "category": "Infrastructure/MLOps",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "AWS",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-shows-coding-agents-outperform-video-model-07af9c",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Study shows coding agents outperform video models on visual reasoning tasks",
+      "summary": "A new study demonstrates that coding agents writing programs to render videos achieve higher reliability in visual reasoning than dedicated video generation models. On a benchmark of 500 tasks, top coding agents scored over 0.89 while the best video model scored under 0.70.",
+      "whyItMatters": "It suggests that program synthesis can be a more effective path to visual reasoning than direct pixel generation.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Open-source",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "Directed",
+      "sources": [
+        {
+          "name": "Hugging Face Daily Papers",
+          "url": "https://huggingface.co/papers/2611.34813"
+        }
+      ],
+      "goDeeper": {
+        "paper": "https://arxiv.org/abs/2611.34813",
+        "code": null,
+        "model": null,
+        "demo": "https://solve-vision-with-code.com/"
+      }
+    },
+    {
+      "id": "papa-john-s-completes-first-uk-agentic-pay-by-ba-c33092",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Papa John's completes first UK agentic Pay by Bank transaction",
+      "summary": "An AI agent at Papa John's completed a customer purchase directly from a bank account without using a credit card. TrueLayer showcased the payment method to the Financial Conduct Authority as the first agentic Pay by Bank transaction with a named UK retailer.",
+      "whyItMatters": "It highlights the practical expansion of autonomous AI agents into direct financial transactions.",
+      "category": "Industry Use Case",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "BFSI",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://thenextweb.com/news/papa-johns-ai-agent-pay-by-bank-truelayer-fca-pilot"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "los-angeles-school-district-blocks-google-ai-fea-946e7c",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Los Angeles school district blocks Google AI features",
+      "summary": "School districts are blocking Google artificial intelligence features and considering dropping Google products unless the company provides a permanent AI workaround. This friction arises as educational institutions navigate the integration of deeply embedded tech tools.",
+      "whyItMatters": "It underscores the growing pushback from educators against forced AI feature integration in foundational software.",
+      "category": "Policy & Safety",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Google",
+      "industryVertical": "Education",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://apnews.com/article/google-artificial-intelligence-schools-search-engine-lausd-762a613b11bd316384430112cc223ed1"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "thomson-reuters-confirms-second-version-of-its-l-02d56a",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Thomson Reuters confirms second version of its legal AI model",
+      "summary": "Thomson Reuters has announced that version two of its proprietary large language model, Thomson, will launch later this year. The company is currently testing the first version internally and has made a smaller open-weight variant available on Hugging Face.",
+      "whyItMatters": "It demonstrates the continued evolution of domain-specific proprietary language models in specialized professional sectors.",
+      "category": "New Model Release",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.thomsonreuters.com/en-us/posts/innovation/thomson-three-months-in-what-weve-learned-and-whats-next/"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "study-identifies-measurement-quality-as-key-to-b-0997ab",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Study identifies measurement quality as key to biological AI performance",
+      "summary": "A new study establishes scaling laws for biological AI, finding that measurement quality is just as critical to model performance as dataset and model size. The findings carry direct implications for how companies invest in biological data for drug discovery.",
+      "whyItMatters": "It emphasizes that data quality in specialized scientific domains matters as much as raw compute and model scale.",
+      "category": "Research",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-source",
+      "industryVertical": "Healthcare",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://natlawreview.com/press-releases/cellular-intelligence-announces-nature-machine-intelligence-publication"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "microsoft-details-how-state-backed-groups-use-ai-8b84b9",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Microsoft details how state-backed groups use AI agents for cyberattacks",
+      "summary": "Microsoft disclosed that Chinese and North Korean-linked hackers are using AI agents named ARTEX to automate cyberattacks with minimal human oversight. These agents connect language models to established security tools to plan and execute tasks rapidly.",
+      "whyItMatters": "It highlights the security risks posed by the operational speed and automation capabilities of multi-tool AI agents.",
+      "category": "Policy & Safety",
+      "importance": 4,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://superpowerdaily.com/posts/microsoft-explains-how-state-backed-hackers-use-ai-agents-to-automate-cyberattacks"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "ubisoft-mandates-company-wide-use-of-generative-768e56",
+      "createdAt": "2026-11-27T23:44:17.650623+00:00",
+      "headline": "Ubisoft mandates company-wide use of generative AI for developers",
+      "summary": "Ubisoft is requiring developers across the company to use generative AI tools in their workflows. Employees who decline to use the technology must provide a detailed explanation for their refusal.",
+      "whyItMatters": "It represents one of the most aggressive internal mandates for generative AI adoption within a major gaming studio.",
+      "category": "Business & Funding",
+      "importance": 3,
+      "status": "new",
+      "followUpOf": null,
+      "cloudPlatform": "Cross-cloud",
+      "industryVertical": "Cross-industry",
+      "researcher": "Nivethitha",
+      "sourceType": "AI-assisted",
+      "sources": [
+        {
+          "name": "Web search",
+          "url": "https://www.eurogamer.net/ubisoft-reportedly-goes-all-in-on-company-wide-generative-ai-use-and-if-developers-dont-want-to-use-it-they-have-to-explain-why-in-detail"
+        }
+      ],
+      "goDeeper": {
+        "paper": null,
+        "code": null,
+        "model": null,
+        "demo": null
+      }
+    }
+  ],
+  "updatedAt": "2026-11-27T23:44:22.301541+00:00"
+}

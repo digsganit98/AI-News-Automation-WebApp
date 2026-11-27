@@ -1,0 +1,558 @@
+{
+  "date": "2026-11-28",
+  "runs": [
+    {
+      "runAt": "2026-11-27T23:37:54.070022+00:00",
+      "newItems": 19,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1430,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.072743Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.095630Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 919,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.095899Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096075Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096167Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096249Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096324Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096394Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096461Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096527Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096593Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096626Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096649Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096783Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096806Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096878Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.096947Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.097012Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.097074Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.097237Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-27T23:37:54.097304Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.097368Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.097877Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.097947Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-27T23:37:54.098010Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098074Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098136Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098199Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098263Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098361Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-27T23:37:54.098746Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098837Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098918Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 17,
+          "error": null,
+          "checkedAt": "2026-11-27T23:37:54.098941Z"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "source": "hf-papers",
+      "sourceName": "Hugging Face Daily Papers",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "excerpt": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative…",
+      "author": "Dezhi Luo, Fengyuan Yu, Haotian Zhang, Zehong Zhao, Ran Ji, Siyuan An, Huayi Qin, Qingying Gao, Zhongang Cai, Lei Yang, Ziqi Huang, Ruisi Wang, Maijunxian Wang, Hokin Deng",
+      "extra": {
+        "upvotes": 59,
+        "githubRepo": null,
+        "projectPage": "https://solve-vision-with-code.com/",
+        "arxivUrl": "https://arxiv.org/abs/2611.34813"
+      },
+      "id": "07af9c5780f0ec6e",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: strata-engine/Inkling-2-Mini-Strata",
+      "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 300,
+        "trendingScore": 211,
+        "task": "image-text-to-text"
+      },
+      "id": "8b660d9f0988f753",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "aws-whats-new",
+      "sourceName": "AWS What's New",
+      "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
+      "publishedAt": "2026-11-27T19:00:00Z",
+      "excerpt": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automatically and scales to zero when idle. You can give each agent, user or task its own graph without paying for the 16 m-NCU minimum of a provisioned graph. You choose a starting size of 4 s-NCU (sessions Neptune capacity units) or 8 s-NCU of working memory when you create a graph. Applications such as GraphRAG assistants, AI agents and per-user analytics improve accuracy when…",
+      "author": "aws@amazon.com",
+      "extra": {},
+      "id": "3c739c306ba79233",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "publishedAt": "2026-11-27T22:19:18Z",
+      "excerpt": "A frontier lab can pay more for training data it gets to keep exclusive, or take a discount on data another lab can buy too. At AI Engineer CODE, G2i founder Gabe Greenberg tells swyx how labs make that decision, how small pilot orders turn into bigger...",
+      "author": "Latent.Space",
+      "extra": {},
+      "id": "42f8ff418476e850",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The Boundaries Held Only Where I Wrote Them Down",
+      "url": "https://beyondthestacknotes.medium.com/the-boundaries-held-only-where-i-wrote-them-down-bc9ef84eb9a4?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-27T23:11:01Z",
+      "excerpt": "A beginner-friendly test of what an AI agent does with a one-line goal and with a structured one, and how to check what it really touched. Continue reading on Medium »",
+      "author": "Beyond the Stack",
+      "extra": {},
+      "id": "a32003a85cc9a55d",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why AI Materials Look Fake, and How to Make Them Feel Physical",
+      "url": "https://medium.com/tanda-ai-art-library/why-ai-materials-look-fake-and-how-to-make-them-feel-physical-b33b1784e16f?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-27T20:56:39Z",
+      "excerpt": "Glass, metal, fabric, wood, and ceramic need more than convincing textures. They need believable structure, lighting, and physical… Continue reading on TandA AI Art Library »",
+      "author": "Teresa Trimm",
+      "extra": {},
+      "id": "e7afb6e6f5eb12fc",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "How a Large Language Model Works: From Tokens to Text",
+      "url": "https://medium.com/@boutahiryounes53/how-a-large-language-model-works-from-tokens-to-text-9eb3869f49c0?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-27T20:18:20Z",
+      "excerpt": "AI & ML From Zero, Episode 11: what an LLM actually does when you ask it a question, and where its strengths and limits come from. Continue reading on Medium »",
+      "author": "Boutahir Younes",
+      "extra": {},
+      "id": "344c5c2887e751f4",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "AutoEncoders and VAEs: Teaching a Network to Compress and Create",
+      "url": "https://medium.com/@boutahiryounes53/autoencoders-and-vaes-teaching-a-network-to-compress-and-create-5d13a5ae09b1?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-27T18:56:15Z",
+      "excerpt": "AI & ML From Zero, Episode 9: how a network learns a compact summary of its data, and how one small change turns it into a generator. Continue reading on Medium »",
+      "author": "Boutahir Younes",
+      "extra": {},
+      "id": "c3a902991036add7",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "I'm Scared of AI",
+      "url": "https://thesoapbox.email/archive/3",
+      "publishedAt": "2026-11-27T17:45:31Z",
+      "excerpt": "",
+      "author": "mgirkins",
+      "extra": {
+        "points": 199,
+        "comments": 233,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50669561"
+      },
+      "id": "f21d90605390562e",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "GPT 6.2 Astra solves a historical mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "publishedAt": "2026-11-27T15:03:17Z",
+      "excerpt": "",
+      "author": "bookofjoe",
+      "extra": {
+        "points": 166,
+        "comments": 1,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50667744"
+      },
+      "id": "01cdd83d3c55e905",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Thomson, Three Months In: What We’ve Learned, and What’s Next - Thomson Reuters",
+      "url": "https://www.thomsonreuters.com/en-us/posts/innovation/thomson-three-months-in-what-weve-learned-and-whats-next/",
+      "publishedAt": "2026-11-26T21:53:49Z",
+      "excerpt": "**Thomson, Three Months In: What We’ve Learned, and What’s Next**. In August we launched the first version of Thomson, our proprietary LLM, trained for the high-stakes work of legal and tax professionals. We considered it “version 1.0” because our ambition has always been to create a development pipeline of specialized models that continue to evolve. Today, we’re confirming that a second Thomson model is coming later this year and reflecting on everything we’ve learned since launch. ####…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.58
+      },
+      "id": "7184b82be34da263",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Equixly: API and MCP pentesting that proves exploits - OrcaRouter",
+      "url": "https://www.orcarouter.ai/blog/equixly-api-first-pentesting",
+      "publishedAt": "2026-11-27T07:10:23Z",
+      "excerpt": "* OOrcaIN THIS ARTICLEOrcaCyber: Kimi K3.1 Pro Abliterated / Uncensored2026-11-04$2.00 / $5.00 per 1M tokens · 95 tok/s. * OOrcaNEWOrcaCyber: Hy4 Flash Abliterated / Uncensored2026-11-18$0.07 / $0.28 per 1M tokens · 201 tok/s. * OOrcaNEWOrcaCyber: Ling 3.2 Flash Abliterated / Uncensored2026-11-14$0.60 / $1.80 per 1M tokens · 100 tok/s. * OOrcaOrcaCyber: Hy4 Abliterated / Uncensored2026-11-04$0.80 / $1.60 per 1M tokens · 121 tok/s. * OOrcaOrcaCyber: GLM 5.3 Flash Abliterated /…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.127
+      },
+      "id": "3ca2dcfe94b622ea",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cellular Intelligence Announces Nature Machine Intelligence Publi - The National Law Review",
+      "url": "https://natlawreview.com/press-releases/cellular-intelligence-announces-nature-machine-intelligence-publication",
+      "publishedAt": "2026-11-26T17:36:46Z",
+      "excerpt": "### Cellular Intelligence Announces Nature Machine Intelligence Publication Establishing a New Scaling Law for Biological AI. *Analysis of more than 2,000 AI model configurations identifies measurement quality as a critical determinant of biological AI performance, alongside dataset and model size*. *Findings provide a quantitative framework for guiding investments in biological data generation, experimental technologies and foundation model development for drug discovery*. BOSTON--(BUSINESS…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.044
+      },
+      "id": "0997ab9c75176edf",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Cellular Intelligence Announces Nature Machine Intelligence Publication Establishing a New Scaling Law for Biological AI - 01net",
+      "url": "https://www.01net.it/cellular-intelligence-announces-nature-machine-intelligence-publication-establishing-a-new-scaling-law-for-biological-ai/",
+      "publishedAt": "2026-11-26T13:00:00Z",
+      "excerpt": "Home Business Wire English Cellular Intelligence Announces Nature Machine Intelligence Publication Establishing a New Scaling Law... # Cellular Intelligence Announces Nature Machine Intelligence Publication Establishing a New Scaling Law for Biological AI. *Analysis of more than 2,000 AI model configurations identifies measurement quality as a critical determinant of biological AI performance, alongside dataset and model size*. BOSTON--(BUSINESS WIRE)--#AI--Cellular Intelligence, a…",
+      "author": null,
+      "extra": {
+        "query": "new LLM model release announced",
+        "score": 0.033
+      },
+      "id": "c06090070835bc8e",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Microsoft explains how state-backed hackers use AI agents to automate cyberattacks - Superpower Daily",
+      "url": "https://superpowerdaily.com/posts/microsoft-explains-how-state-backed-hackers-use-ai-agents-to-automate-cyberattacks",
+      "publishedAt": "2026-11-26T12:49:41Z",
+      "excerpt": "# Microsoft explains how state-backed hackers use AI agents to automate cyberattacks. Microsoft explains how state-backed hackers use AI agents to automate cyberattacks | Superpower Daily. Trump opposes AI integration with China, citing U.S. lead, repo...Microsoft explains how state-backed hackers use AI agents to au...US computing curbs threaten delays for Z.AI and Moonshot models...Nvidia reportedly freezes AI-server shipments to four Southeast...Google sets February deadline for AI agents…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.143
+      },
+      "id": "8b84b9f82551c92e",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Papa John’s AI agent pays from a bank account in TrueLayer’s FCA pilot - The Next Web",
+      "url": "https://thenextweb.com/news/papa-johns-ai-agent-pay-by-bank-truelayer-fca-pilot",
+      "publishedAt": "2026-11-27T14:46:04Z",
+      "excerpt": "An AI agent at Papa John’s has paid for a customer’s order straight from their bank account, with no card. TrueLayer calls it the first agentic Pay by Bank payment to a named UK retailer. TrueLayer presented what it learned to the regulator and the industry at the FCA’s showcase on 26 November. The customer links a bank account, not a card, to their Papa John’s account through open banking. Papa John’s AI agent helps with the order and then requests the payment from that account. The customer…",
+      "author": null,
+      "extra": {
+        "query": "new AI agent framework or SDK released",
+        "score": 0.138
+      },
+      "id": "c330924cbb7f9cfb",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Moonshot reportedly turns to Google and Meta models for distillation - The Next Web",
+      "url": "https://thenextweb.com/news/moonshot-distilling-google-meta-zai-glm-5-5-delay",
+      "publishedAt": "2026-11-26T16:55:44Z",
+      "excerpt": "Moonshot AI has begun distilling from Google and Meta models after OpenAI and Anthropic made theirs harder to copy, Reuters reported. Z.ai’s GLM-5.5 has missed its November target, and new US rules on overseas computing could push it and Moonshot’s Kimi K4 further back. Chinese AI lab Moonshot has begun distilling from Google and Meta models, as AI from OpenAI and Anthropic gets harder to copy, Reuters reported on Thursday. Distillation means training a model on answers from a stronger one. A…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.324
+      },
+      "id": "cafecb1be1f9e860",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "Ubisoft reportedly goes all in on company-wide generative-AI use, and if developers don't want to use it, they have to explain why in detail - Eurogamer.net",
+      "url": "https://www.eurogamer.net/ubisoft-reportedly-goes-all-in-on-company-wide-generative-ai-use-and-if-developers-dont-want-to-use-it-they-have-to-explain-why-in-detail",
+      "publishedAt": "2026-11-26T12:15:40Z",
+      "excerpt": "Ubisoft reportedly goes all in on company-wide generative-AI use, and if developers don't want to use it, they have to explain why in detail After playing the game, 30% of polled GTA 6 players want to buy flowers for a loved one, 9% accidentally punched cats Fans report Umamusume: Pretty Derby AI clone brimming with ads, Cygames gets it taken offline Fed up of Steam's lack of action regarding AI slop? # Ubisoft reportedly goes all in on company-wide generative-AI use, and if developers don't…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.301
+      },
+      "id": "1329bf8196ac9453",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "As Google threatens to cut schools’ search access, Los Angeles blocks AI features - AP News",
+      "url": "https://apnews.com/article/google-artificial-intelligence-schools-search-engine-lausd-762a613b11bd316384430112cc223ed1",
+      "publishedAt": "2026-11-27T05:01:06Z",
+      "excerpt": "School districts are taking steps to block Google’s artificial intelligence features and are considering dropping Google products entirely unless the company gives them a permanent AI workaround, pitting them against the tech giant whose Chromebook computers and learning tools are deeply embedded in America’s classrooms. The move makes Los Angeles Unified the largest district to sideline the company, which has said it will not separate its search product from AI tools for education. The LA…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.209
+      },
+      "id": "946e7cf028863b0f",
+      "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    }
+  ],
+  "updatedAt": "2026-11-27T23:37:54.070022+00:00"
+}
