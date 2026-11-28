@@ -278,6 +278,284 @@
           "checkedAt": "2026-11-27T23:37:54.098941Z"
         }
       ]
+    },
+    {
+      "runAt": "2026-11-28T08:14:35.524682+00:00",
+      "newItems": 12,
+      "health": [
+        {
+          "source": "openai",
+          "sourceName": "OpenAI",
+          "ok": true,
+          "items": 1430,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.529594Z"
+        },
+        {
+          "source": "deepmind",
+          "sourceName": "Google DeepMind",
+          "ok": true,
+          "items": 100,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.564194Z"
+        },
+        {
+          "source": "huggingface",
+          "sourceName": "Hugging Face",
+          "ok": true,
+          "items": 919,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.564465Z"
+        },
+        {
+          "source": "bair",
+          "sourceName": "BAIR Blog",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.564734Z"
+        },
+        {
+          "source": "mistral",
+          "sourceName": "Mistral AI",
+          "ok": true,
+          "items": 94,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.564912Z"
+        },
+        {
+          "source": "microsoft-research",
+          "sourceName": "Microsoft Research",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565074Z"
+        },
+        {
+          "source": "nvidia",
+          "sourceName": "NVIDIA (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565223Z"
+        },
+        {
+          "source": "nvidia-developer",
+          "sourceName": "NVIDIA Developer (generative AI)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565368Z"
+        },
+        {
+          "source": "meta-engineering",
+          "sourceName": "Meta Engineering (ML)",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565509Z"
+        },
+        {
+          "source": "qwen",
+          "sourceName": "Qwen",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565650Z"
+        },
+        {
+          "source": "hf-papers",
+          "sourceName": "Hugging Face Daily Papers",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565789Z"
+        },
+        {
+          "source": "hf-trending",
+          "sourceName": "Hugging Face Trending Models",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565841Z"
+        },
+        {
+          "source": "aws-whats-new",
+          "sourceName": "AWS What's New",
+          "ok": true,
+          "items": 10,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.565882Z"
+        },
+        {
+          "source": "aws-ml-blog",
+          "sourceName": "AWS Machine Learning Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.566126Z"
+        },
+        {
+          "source": "azure-blog",
+          "sourceName": "Azure Blog",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.566170Z"
+        },
+        {
+          "source": "google-cloud-ai",
+          "sourceName": "Google Cloud AI Blog",
+          "ok": true,
+          "items": 8,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.566315Z"
+        },
+        {
+          "source": "databricks",
+          "sourceName": "Databricks",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.566457Z"
+        },
+        {
+          "source": "snowflake",
+          "sourceName": "Snowflake",
+          "ok": true,
+          "items": 6,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.566615Z"
+        },
+        {
+          "source": "arxiv",
+          "sourceName": "arXiv (cs.AI, cs.CL)",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.566760Z"
+        },
+        {
+          "source": "latent-space",
+          "sourceName": "Latent Space",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.567049Z"
+        },
+        {
+          "source": "import-ai",
+          "sourceName": "Import AI",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://importai.substack.com/feed'",
+          "checkedAt": "2026-11-28T08:14:35.567202Z"
+        },
+        {
+          "source": "interconnects",
+          "sourceName": "Interconnects",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.567343Z"
+        },
+        {
+          "source": "ahead-of-ai",
+          "sourceName": "Ahead of AI",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.568046Z"
+        },
+        {
+          "source": "ai-snake-oil",
+          "sourceName": "AI Snake Oil",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.568213Z"
+        },
+        {
+          "source": "the-sequence",
+          "sourceName": "The Sequence",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thesequence.substack.com/feed'",
+          "checkedAt": "2026-11-28T08:14:35.568361Z"
+        },
+        {
+          "source": "one-useful-thing",
+          "sourceName": "One Useful Thing",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.568507Z"
+        },
+        {
+          "source": "bens-bites",
+          "sourceName": "Ben's Bites",
+          "ok": true,
+          "items": 3,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.568648Z"
+        },
+        {
+          "source": "medium-genai",
+          "sourceName": "Medium (generative-ai)",
+          "ok": true,
+          "items": 5,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.568801Z"
+        },
+        {
+          "source": "anthropic",
+          "sourceName": "Anthropic",
+          "ok": true,
+          "items": 27,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.568971Z"
+        },
+        {
+          "source": "hackernews",
+          "sourceName": "Hacker News",
+          "ok": true,
+          "items": 9,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.569180Z"
+        },
+        {
+          "source": "reddit",
+          "sourceName": "Reddit",
+          "ok": false,
+          "items": 0,
+          "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.reddit.com/r/MachineLearning+LocalLLaMA+singularity+artificial/top/.rss?t=day'",
+          "checkedAt": "2026-11-28T08:14:35.569770Z"
+        },
+        {
+          "source": "ai-explained",
+          "sourceName": "AI Explained",
+          "ok": true,
+          "items": 15,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.569975Z"
+        },
+        {
+          "source": "krish-naik",
+          "sourceName": "Krish Naik",
+          "ok": true,
+          "items": 0,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.570155Z"
+        },
+        {
+          "source": "web-search",
+          "sourceName": "Web search",
+          "ok": true,
+          "items": 14,
+          "error": null,
+          "checkedAt": "2026-11-28T08:14:35.570204Z"
+        }
+      ]
     }
   ],
   "items": [
@@ -552,7 +830,169 @@
       },
       "id": "946e7cf028863b0f",
       "collectedAt": "2026-11-27T23:37:54.070022+00:00"
+    },
+    {
+      "source": "hf-trending",
+      "sourceName": "Hugging Face Trending Models",
+      "title": "Trending model: ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+      "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {
+        "likes": 296,
+        "trendingScore": 234,
+        "task": "text-generation"
+      },
+      "id": "74c0c0ba388d0aa9",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "latent-space",
+      "sourceName": "Latent Space",
+      "title": "[AINews] Inside the exploding Coding Data Market",
+      "url": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+      "publishedAt": "2026-11-28T03:45:59Z",
+      "excerpt": "November 27, 2026 — How frontier labs buy training data.",
+      "author": "swyx .ai",
+      "extra": {},
+      "id": "8850a83cf6f1a9b2",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "SEO vs. GEO: Understanding the Difference Between Traditional Search and AI Search",
+      "url": "https://medium.com/@hexalearnsolutions/seo-vs-geo-understanding-the-difference-between-traditional-search-and-ai-search-ec83af3bdb9e?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-28T07:41:42Z",
+      "excerpt": "The way people search for information online is changing. Continue reading on Medium »",
+      "author": "Satyabrata Das",
+      "extra": {},
+      "id": "3744af5448c73c3b",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "From Zero to GenAI Engineer: A Complete 2027 Roadmap",
+      "url": "https://medium.com/@peeyushkmisra_79926/from-zero-to-genai-engineer-a-2026-roadmap-through-python-llm-apis-prompting-rag-agents-and-05047256ff97?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-28T06:58:45Z",
+      "excerpt": "What a beginner should learn, in what order, and which free courses and official docs to use at each step, with a runnable retrieval demo… Continue reading on Medium »",
+      "author": "Peeyush Kant Misra",
+      "extra": {},
+      "id": "9934f4a7161148f7",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Why AI Agents Need to Stop Trusting Their Own Memory",
+      "url": "https://medium.com/@tdawood140/why-ai-agents-need-to-stop-trusting-their-own-memory-59e3fee507db?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-28T05:29:19Z",
+      "excerpt": "AI agents are learning to remember their experiences. Continue reading on Medium »",
+      "author": "Dawood thouseef",
+      "extra": {},
+      "id": "66d1fceb3eedfdeb",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "Top 11 platforms for running a private LLM on your own servers (2026)",
+      "url": "https://medium.com/@birbalai/top-11-platforms-for-running-a-private-llm-on-your-own-servers-2026-97c75dbb43f9?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-28T05:01:03Z",
+      "excerpt": "Assistants you install, model-serving software and turnkey AI stacks: Cohere, H2O.ai, Mistral, Mustashar, IBM, Nutanix, NVIDIA, Red Hat… Continue reading on Medium »",
+      "author": "Birbal AI",
+      "extra": {},
+      "id": "2a51acdbb7408e32",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "medium-genai",
+      "sourceName": "Medium (generative-ai)",
+      "title": "The New York Times Told Photographers Not to Update Photoshop.",
+      "url": "https://medium.com/@harish_75257/the-new-york-times-told-photographers-not-to-update-photoshop-4c2ea51263fa?source=rss------generative_ai-5",
+      "publishedAt": "2026-11-28T04:41:48Z",
+      "excerpt": "A hidden line of metadata now decides whether a real news photo looks “AI-generated.” Here’s how it works and why an honest system still… Continue reading on Medium »",
+      "author": "Harish",
+      "extra": {},
+      "id": "4c7d4ab933f73db3",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "anthropic",
+      "sourceName": "Anthropic",
+      "title": "AI for Science expands to foundations and research institutions",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "publishedAt": null,
+      "excerpt": "",
+      "author": null,
+      "extra": {},
+      "id": "c517821d0281c4fa",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "publishedAt": "2026-11-28T01:32:56Z",
+      "excerpt": "",
+      "author": "Tiwariparth6165",
+      "extra": {
+        "points": 162,
+        "comments": 119,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50673521"
+      },
+      "id": "4e825df2be8b9455",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "hackernews",
+      "sourceName": "Hacker News",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "url": "https://github.com/skeeto/prospero",
+      "publishedAt": "2026-11-27T20:23:14Z",
+      "excerpt": "",
+      "author": "ingve",
+      "extra": {
+        "points": 61,
+        "comments": 22,
+        "discussionUrl": "https://news.ycombinator.com/item?id=50671275"
+      },
+      "id": "42792ea1ec910a69",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI Engineering Lead Job Details | our team",
+      "url": "https://careers.spx.com/job/Charlotte-AI-Engineering-Lead-Nort-28277/1453832300",
+      "publishedAt": "2026-11-28T02:00:00Z",
+      "excerpt": "• Strong Python and API development (FastAPI or similar), plus experience with vector databases, search and retrieval, microservices, Docker, Kubernetes and CI/CD.\n\n• Hands-on experience on a major cloud AI platform — Azure preferred (Azure OpenAI, AI Foundry, Copilot Studio, AKS, Functions); AWS (Bedrock) or GCP (Vertex AI) also valued.\n\n• At least one enterprise-scale AI or data platform taken from concept to production, with measurable business results. [...] • Set the roadmap. Create a…",
+      "author": null,
+      "extra": {
+        "query": "AWS Bedrock OR Azure AI Foundry OR Vertex AI new generative AI feature",
+        "score": 0.252
+      },
+      "id": "2c6ec422868bb3fd",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
+    },
+    {
+      "source": "web-search",
+      "sourceName": "Web search",
+      "title": "AI-Made Microdrama ‘La Dama De Las Camelias’ Premieres On ViX - Forbes",
+      "url": "https://www.forbes.com/sites/veronicavillafane/2026/11/27/ai-made-microdrama-la-dama-de-las-camelias-premieres-on-vix/",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "excerpt": "Generative AI is front and center of La Dama de las Camelias, a new vertical drama from TelevisaUnivision’s ViX MicrO that brings a French literary classic to turn-of-the-century Mexico. Inspired by Alexandre Dumas fils’s 1848 novel The Lady of the Camellias, the series is the first fiction project produced under ViX MicrO AI Labs. It sets the story in the Porfiriato, the 35-year period from 1876 to 1911 when General Porfirio Díaz ruled the country as a de facto dictator. ## AI Sets and…",
+      "author": null,
+      "extra": {
+        "query": "generative AI product launch news",
+        "score": 0.376
+      },
+      "id": "3076b9a46f860837",
+      "collectedAt": "2026-11-28T08:14:35.524682+00:00"
     }
   ],
-  "updatedAt": "2026-11-27T23:37:54.070022+00:00"
+  "updatedAt": "2026-11-28T08:14:35.524682+00:00"
 }
